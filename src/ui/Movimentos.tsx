@@ -5,6 +5,8 @@ import { COLORS } from '../engine/palette';
 import { Icon } from './icons';
 import { Sec } from './Ficha';
 import { abrirChave } from './Search';
+import { Animacao } from './Animacao';
+import { movDe } from '../engine/rig';
 
 const ORDEM = ['ombro', 'escapula', 'cotovelo', 'radioulnar', 'punho', 'dedos_mao', 'polegar', 'quadril', 'joelho', 'tornozelo', 'subtalar', 'dedos_pe', 'halux', 'cervical', 'tronco', 'costelas', 'pelve', 'atm'];
 
@@ -14,16 +16,19 @@ export function Movimentos() {
   const arts = useMemo(() => ORDEM.filter((a) => mapa.has(a)), [mapa]);
   const [art, setArt] = useState<string | null>(null);
   const [mov, setMov] = useState<string | null>(null);
-  useEffect(() => { const f = (e: Event) => { const d = (e as CustomEvent).detail; setArt(d.art); setMov(d.mov); }; window.addEventListener('abrir-movimento', f); return () => window.removeEventListener('abrir-movimento', f); }, []);
+  const [animar, setAnimar] = useState(false);
+  useEffect(() => { const f = (e: Event) => { const d = (e as CustomEvent).detail; setArt(d.art); setMov(d.mov); setAnimar(!!d.play && !!movDe(d.art, d.mov)); }; window.addEventListener('abrir-movimento', f); return () => window.removeEventListener('abrir-movimento', f); }, []);
   const lista = useMemo(() => (art && mov ? motores(art, mov) : []), [art, mov]);
   const adm = useMemo(() => (art && mov ? [...articulacoes.values()].filter((a) => a.art === art).flatMap((a) => (a.movimentos ?? []).filter((x) => x.mov === mov).map((x) => ({ a, x }))) : []), [art, mov]);
 
   useEffect(() => {
-    if (!art || !mov) return;
+    if (!art || !mov || animar) return;
     const ids = new Map<number, string | null>();
     for (const x of [...lista].reverse()) for (const si of structsDoMusculo(x.m, m)) ids.set(si, x.papel === 'primario' ? COLORS.primario : COLORS.secundario);
     if (ids.size) useStore.getState().setFocus({ ids: [...ids], others: 'ghost', label: `${MOV_NOME[mov] ?? mov} · ${ART_NOME[art] ?? art}` });
-  }, [art, mov, lista, m]);
+  }, [art, mov, lista, m, animar]);
+
+  if (art && mov && animar && movDe(art, mov)) return <Animacao art={art} mov={mov} onExit={() => setAnimar(false)} />;
 
   if (!art) return (
     <>
@@ -36,9 +41,10 @@ export function Movimentos() {
     <>
       <div className="phead"><button className="iconbtn" onClick={() => { setArt(null); setMov(null); useStore.getState().setFocus(null, false); }} aria-label="Voltar"><Icon n="voltar" /></button><div className="ttl"><h2>{ART_NOME[art] ?? art}</h2><div className="sub">{mov ? MOV_NOME[mov] : 'Escolha um movimento'}</div></div></div>
       <div className="pbody">
-        <div className="tags">{movs.map((x) => <button key={x} className={'tag' + (mov === x ? ' p' : '')} style={{ padding: '8px 13px', fontSize: 13.5 }} onClick={() => setMov(x)}>{MOV_NOME[x] ?? x}</button>)}</div>
+        <div className="tags">{movs.map((x) => <button key={x} className={'tag' + (mov === x ? ' p' : '')} style={{ padding: '8px 13px', fontSize: 13.5 }} onClick={() => setMov(x)}>{MOV_NOME[x] ?? x}{movDe(art, x) ? ' ▸' : ''}</button>)}</div>
         {mov && (
           <>
+            {movDe(art, mov) && <button className="btn primary block" onClick={() => setAnimar(true)}><Icon n="play" size={17} />Ver o movimento em 3D</button>}
             {adm.map(({ a, x }, i) => (
               <div className="oiia" key={i}>
                 <div className="kv"><div className="k">Amplitude normal</div><div className="v">{x.adm ?? '—'}<small>{a.pt}</small></div></div>

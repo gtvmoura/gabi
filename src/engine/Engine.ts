@@ -7,6 +7,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { gunzipSync } from 'fflate';
+import type { MovPlayer } from './Movimento';
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import type { Cat, Indexed, Side } from '../data/manifest';
@@ -18,7 +19,7 @@ export interface Focus { set: Map<number, string | null>; others: 'ghost' | 'hid
 export interface PinDef { id: string; p: [number, number, number]; label: string }
 export interface Sphere { c: Vector3; r: number }
 
-interface Item { mesh: Mesh; si: number; side: Side; id: string; cat: Cat; base: Material }
+export interface Item { mesh: Mesh; si: number; side: Side; id: string; cat: Cat; base: Material }
 
 const VIEW_DIR: Record<ViewName, [number, number, number]> = {
   anterior: [0, 0, 1], posterior: [0, 0, -1], esquerda: [1, 0, 0], direita: [-1, 0, 0], superior: [0, 1, 0.001], inferior: [0, -1, 0.001],
@@ -27,16 +28,20 @@ const VIEW_DIR: Record<ViewName, [number, number, number]> = {
 export class Engine {
   readonly canvas: HTMLCanvasElement;
   private renderer: WebGLRenderer;
-  private scene = new Scene();
+  readonly scene = new Scene();
   private camera = new PerspectiveCamera(32, 1, 0.01, 30);
   private controls: OrbitControls;
   private root = new Group();
+  get raiz() { return this.root; }
+  get labels() { return this.labelLayer; }
+  /** Animação de movimento articular em andamento (Movimento.ts). */
+  mov: MovPlayer | null = null;
   private mirrorRoot = new Group();
   private pinRoot = new Group();
   private raycaster = new Raycaster();
   private loader = new GLTFLoader();
   private files = new Map<string, Promise<void>>();
-  private items = new Map<string, Item>();
+  readonly items = new Map<string, Item>();
   private byStruct = new Map<number, Item[]>();
   private insMeshes = new Map<string, Mesh>();
   private pickables: Object3D[] = [];
@@ -255,6 +260,7 @@ export class Engine {
         const r2 = this.m.meshes[mid];
         const mesh = make(parent, mid);
         mesh.material = base;
+        mesh.userData.m0 = mesh.matrix.clone();
         const item: Item = { mesh, si: r2.s, side: r2.d, id: mid, cat: this.m.structs[r2.s].c, base };
         mesh.userData.item = item;
         this.items.set(mid, item);
@@ -320,6 +326,22 @@ export class Engine {
   apply() {
     const picks: Object3D[] = [];
     const ghost = this.ghostMat(), fade = this.fadeMat(), sel = this.selMat();
+    if (this.mov) {
+      // durante a animação: só o esqueleto, sem seleção nem toque
+      for (const it of this.items.values()) {
+        const osso = it.cat === 'bone' || it.cat === 'cartilage' || it.cat === 'tooth';
+        it.mesh.visible = osso;
+        if (it.mesh.visible) { it.mesh.material = it.base; it.mesh.renderOrder = 0; }
+      }
+      for (const x of this.xray) x.parent?.remove(x);
+      this.xray = [];
+      for (const mesh of this.insMeshes.values()) mesh.visible = false;
+      for (const p of this.pins) { p.mesh.visible = false; p.el.style.display = 'none'; }
+      this.pickables = [];
+      this.dirty = true;
+      return;
+    }
+    for (const p of this.pins) p.mesh.visible = true;
     for (const it of this.items.values()) {
       const mesh = it.mesh;
       const layer = this.layers[layerOf(this.m.structs[it.si])];
@@ -588,6 +610,7 @@ export class Engine {
       this.dirty = true;
     }
     this.controls.update();
+    if (this.mov && this.mov.step()) this.dirty = true;
     if (!this.dirty) return;
     this.dirty = false;
     this.updatePins();
@@ -616,6 +639,13 @@ export class Engine {
   }
 
   requestRender() { this.dirty = true; }
+
+  /** Posição na tela (px) de um ponto 3D, ou null se estiver atrás da câmera. */
+  projetar(p: Vector3): [number, number] | null {
+    const v = p.clone().project(this.camera);
+    if (v.z > 1 || v.z < -1) return null;
+    return [((v.x + 1) / 2) * this.size.w, ((1 - v.y) / 2) * this.size.h];
+  }
 
   /** Miniatura da cena atual (para compartilhar ou salvar). */
   snapshot(): HTMLCanvasElement {

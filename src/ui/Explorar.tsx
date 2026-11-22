@@ -4,6 +4,7 @@ import { MOV_NOME, articulacoes, ligamentos, motores, nomePt, resolver, type Art
 import { REGIOES, structsDaRegiao } from '../lib/regioes';
 import { catNome } from '../lib/search';
 import { Icon } from './icons';
+import { movDe } from '../engine/rig';
 import { Prose, Sec } from './Ficha';
 import { abrirChave } from './Search';
 
@@ -68,7 +69,8 @@ export function ArticulacaoView({ a, onBack }: { a: Articulacao; onBack: () => v
             <table className="t"><thead><tr><th>Movimento</th><th>ADM</th><th>Plano / eixo</th></tr></thead><tbody>
               {a.movimentos.map((mv, i) => (
                 <tr key={i}><td>{MOV_NOME[mv.mov] ?? mv.mov}</td><td>{mv.adm ?? '—'}</td><td>{[mv.plano, mv.eixo].filter(Boolean).join(' / ')}{mv.nota && <div className="small muted">{mv.nota}</div>}
-                  {a.art && motores(a.art, mv.mov).length > 0 && <div className="small" style={{ marginTop: 3 }}><button style={{ color: 'var(--accent-2)', fontWeight: 600 }} onClick={() => { useStore.getState().setTab('movimentos'); setTimeout(() => window.dispatchEvent(new CustomEvent('abrir-movimento', { detail: { art: a.art, mov: mv.mov } })), 30); }}>ver músculos ›</button></div>}</td></tr>
+                  {a.art && motores(a.art, mv.mov).length > 0 && <div className="small" style={{ marginTop: 3 }}><button style={{ color: 'var(--accent-2)', fontWeight: 600 }} onClick={() => { useStore.getState().setTab('movimentos'); setTimeout(() => window.dispatchEvent(new CustomEvent('abrir-movimento', { detail: { art: a.art, mov: mv.mov } })), 30); }}>ver músculos ›</button></div>}
+                  {a.art && movDe(a.art, mv.mov) && <div className="small" style={{ marginTop: 3 }}><button style={{ color: '#ffe066', fontWeight: 600 }} onClick={() => { useStore.getState().setTab('movimentos'); setTimeout(() => window.dispatchEvent(new CustomEvent('abrir-movimento', { detail: { art: a.art, mov: mv.mov, play: true } })), 30); }}>▶ ver o movimento</button></div>}</td></tr>
               ))}
             </tbody></table>
           </Sec>

@@ -12,6 +12,7 @@ Funciona no navegador (iPad, Android, computador), pode ser instalado na tela de
 - **Ossos com acidentes ósseos** — mais de 550 acidentes marcados com pontos no 3D, com nome e para que servem.
 - **Articulações** — tipo, amplitude de movimento (goniometria), posição de repouso e fechada, padrão capsular, ligamentos.
 - **Movimentos** — escolha a articulação e o movimento e veja no 3D os motores primários e auxiliares.
+- **Movimento em 3D** — 50 movimentos animados (ombro com ritmo escapuloumeral, escápula, cotovelo, pronação/supinação, punho, dedos, quadril, joelho, tornozelo, subtalar, coluna cervical e toracolombar, respiração e ATM): os ossos se movem, os músculos aparecem como elásticos de origem → inserção mostrando quem encurta e quem alonga, com goniômetro, controle de ângulo e antagonistas.
 - **Nervos** — raízes, trajeto, território motor e sensitivo, quadro de lesão; território motor destacado no 3D. Tabelas de dermátomos, miótomos, reflexos e plexos.
 - **Clínica** — 100 testes ortopédicos/neurológicos com execução e interpretação, e as 8 fases da marcha com os músculos ativos.
 - **Roteiros de estudo** — 38 temas (manguito rotador, plexo braquial, ligamentos do joelho, core…) com texto, pontos-chave e perguntas.
