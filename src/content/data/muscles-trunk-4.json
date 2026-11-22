@@ -1,0 +1,332 @@
+[
+  {
+    "key": "Rectus posterior major capitis muscle",
+    "pt": "Músculo reto posterior maior da cabeça",
+    "latim": "Musculus rectus capitis posterior major",
+    "resumo": "Músculo suboccipital que sobe obliquamente do áxis ao occipital. Forma o limite superomedial do trígono suboccipital.",
+    "origem": "Processo espinhoso do áxis (C2).",
+    "insercao": "Parte lateral da linha nucal inferior do osso occipital.",
+    "inervacao": {
+      "nervo": "Nervo suboccipital (ramo posterior de C1)",
+      "raizes": "C1"
+    },
+    "vascularizacao": "Artéria vertebral e ramo descendente da artéria occipital.",
+    "acoes": [
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "extensão da cabeça nas articulações atlantoccipital e atlantoaxial"
+      },
+      {
+        "art": "cervical",
+        "mov": "rotacao_ipsilateral",
+        "papel": "primario",
+        "nota": "roda a cabeça para o mesmo lado"
+      }
+    ],
+    "funcao": "Estende a cabeça sobre a coluna cervical alta e a roda para o mesmo lado. Como os outros suboccipitais, age mais como músculo postural e sensor do que como motor: tem densidade muito alta de fusos neuromusculares e faz os ajustes finos da posição da cabeça, coordenados com os movimentos dos olhos e com o sistema vestibular.",
+    "antagonistas": [
+      "Longus capitis muscle",
+      "Rectus anterior capitis muscle"
+    ],
+    "sinergistas": [
+      "Rectus posterior minor capitis muscle",
+      "Obliquus superior capitis muscle",
+      "Obliquus inferior capitis muscle",
+      "Splenius capitis muscle"
+    ],
+    "palpacao": "Em decúbito dorsal, com a cabeça apoiada nas mãos do examinador, coloque as polpas dos dedos entre o processo espinhoso do áxis (primeiro processo espinhoso palpável abaixo do occipital) e o occipital, lateralmente à linha mediana, através do trapézio e do semiespinal da cabeça. Sente-se tensão profunda em pequenos movimentos de extensão da cabeça ou ao mover os olhos para cima.",
+    "teste": "Não há prova isolada. Os suboccipitais são avaliados em conjunto pela extensão da cabeça sobre o pescoço (movimento de levantar o queixo, sem estender a cervical baixa).",
+    "alongamento": "Flexão da cabeça sobre a coluna cervical alta (movimento de dizer sim, com o queixo recolhido), associada a leve rotação para o lado oposto.",
+    "clinica": "Os suboccipitais ficam encurtados na postura de cabeça anteriorizada, em que a cervical alta permanece em extensão para manter o olhar horizontal. São fonte de cefaleia cervicogênica e do tipo tensional, com dor que se irradia do occipital para a região da órbita. A liberação suboccipital e o treino dos flexores cervicais profundos fazem parte do tratamento. Após lesão em chicote e na dor cervical crônica descrevem-se atrofia e infiltração gordurosa desses músculos, com alterações de equilíbrio e do senso de posição cervical.",
+    "dica": "Trígono suboccipital: reto posterior maior, oblíquo superior e oblíquo inferior. Dentro dele ficam a artéria vertebral e o nervo suboccipital.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Rectus posterior minor capitis muscle",
+    "pt": "Músculo reto posterior menor da cabeça",
+    "latim": "Musculus rectus capitis posterior minor",
+    "resumo": "O menor e mais medial dos músculos suboccipitais, entre o atlas e o occipital. É o único deles que não participa do trígono suboccipital.",
+    "origem": "Tubérculo posterior do arco posterior do atlas (C1).",
+    "insercao": "Parte medial da linha nucal inferior do osso occipital.",
+    "inervacao": {
+      "nervo": "Nervo suboccipital (ramo posterior de C1)",
+      "raizes": "C1"
+    },
+    "vascularizacao": "Artéria vertebral e ramo descendente da artéria occipital.",
+    "acoes": [
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "extensão da cabeça na articulação atlantoccipital; ação fraca"
+      },
+      {
+        "art": "cervical",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "controle postural e propriocepção da articulação atlantoccipital"
+      }
+    ],
+    "funcao": "Auxilia a extensão da cabeça sobre o atlas, mas sua função principal é proprioceptiva, graças à grande densidade de fusos neuromusculares. Possui uma ponte de tecido conjuntivo com a dura-máter espinal através da membrana atlantoccipital posterior (ponte miodural), que tensionaria a dura-máter durante a extensão da cabeça.",
+    "antagonistas": [
+      "Rectus anterior capitis muscle",
+      "Longus capitis muscle"
+    ],
+    "sinergistas": [
+      "Rectus posterior major capitis muscle",
+      "Obliquus superior capitis muscle"
+    ],
+    "palpacao": "Não é palpável isoladamente; situa-se junto à linha mediana, logo abaixo do occipital, profundamente ao semiespinal da cabeça e medialmente ao reto posterior maior.",
+    "teste": "Não há prova isolada; ver reto posterior maior da cabeça.",
+    "alongamento": "Flexão da cabeça sobre o atlas (recolher o queixo).",
+    "clinica": "A ponte miodural é apontada como possível mecanismo de cefaleia cervicogênica. Sua atrofia com substituição gordurosa é descrita na dor cervical crônica e após lesão em chicote.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Obliquus inferior capitis muscle",
+    "pt": "Músculo oblíquo inferior da cabeça",
+    "latim": "Musculus obliquus capitis inferior",
+    "resumo": "O maior dos músculos suboccipitais e o único que não se insere no crânio: une o áxis ao atlas. Forma o limite inferior do trígono suboccipital.",
+    "origem": "Processo espinhoso do áxis (C2).",
+    "insercao": "Processo transverso do atlas (C1).",
+    "inervacao": {
+      "nervo": "Nervo suboccipital (ramo posterior de C1)",
+      "raizes": "C1 (C2)"
+    },
+    "vascularizacao": "Artéria vertebral e ramo descendente da artéria occipital.",
+    "acoes": [
+      {
+        "art": "cervical",
+        "mov": "rotacao_ipsilateral",
+        "papel": "primario",
+        "nota": "roda o atlas, e com ele a cabeça, sobre o áxis"
+      }
+    ],
+    "funcao": "É o principal rotador da articulação atlantoaxial, que responde por cerca de metade da rotação cervical: gira o atlas e a cabeça para o mesmo lado. Bilateralmente estabiliza o atlas sobre o áxis. Como os demais suboccipitais, é muito rico em fusos neuromusculares e participa do controle fino da posição da cabeça.",
+    "antagonistas": [
+      "Sternocleidomastoid muscle"
+    ],
+    "sinergistas": [
+      "Rectus posterior major capitis muscle",
+      "Splenius capitis muscle",
+      "Longissimus capitis muscle"
+    ],
+    "palpacao": "Entre o processo espinhoso do áxis e o processo transverso do atlas (este palpável entre o processo mastoide e o ângulo da mandíbula), profundamente ao esplênio e ao semiespinal da cabeça. Sente-se tensão em pequenas rotações da cabeça para o mesmo lado.",
+    "teste": "Não há prova manual de força. A rotação atlantoaxial é avaliada pelo teste de flexão-rotação: com a coluna cervical em flexão máxima, roda-se passivamente a cabeça para cada lado; o normal é cerca de 40° a 45°, e a limitação unilateral é característica da cefaleia cervicogênica com origem em C1–C2.",
+    "alongamento": "Rotação da cabeça para o lado oposto, com a coluna cervical em flexão.",
+    "clinica": "O nervo occipital maior (ramo posterior de C2) contorna a margem inferior do músculo antes de subir para o couro cabeludo; a tensão do oblíquo inferior pode irritá-lo e causar neuralgia occipital. A disfunção de C1–C2, com limitação no teste de flexão-rotação, é achado frequente na cefaleia cervicogênica.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Obliquus superior capitis muscle",
+    "pt": "Músculo oblíquo superior da cabeça",
+    "latim": "Musculus obliquus capitis superior",
+    "resumo": "Músculo suboccipital que sobe do atlas ao occipital. Forma o limite superolateral do trígono suboccipital.",
+    "origem": "Processo transverso do atlas (C1).",
+    "insercao": "Osso occipital, entre as linhas nucais superior e inferior, lateralmente ao semiespinal da cabeça.",
+    "inervacao": {
+      "nervo": "Nervo suboccipital (ramo posterior de C1)",
+      "raizes": "C1"
+    },
+    "vascularizacao": "Artéria vertebral e ramo descendente da artéria occipital.",
+    "acoes": [
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "extensão da cabeça na articulação atlantoccipital"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "inclina a cabeça para o mesmo lado na articulação atlantoccipital"
+      }
+    ],
+    "funcao": "Estende a cabeça sobre o atlas e a inclina para o mesmo lado. Atua sobretudo como músculo postural e proprioceptivo, estabilizando a articulação atlantoccipital.",
+    "antagonistas": [
+      "Rectus anterior capitis muscle",
+      "Longus capitis muscle"
+    ],
+    "sinergistas": [
+      "Rectus posterior major capitis muscle",
+      "Rectus posterior minor capitis muscle",
+      "Rectus lateralis capitis muscle"
+    ],
+    "palpacao": "Lateralmente ao reto posterior maior, entre o processo transverso do atlas e o occipital, logo atrás do processo mastoide; coberto pelo esplênio e pelo longuíssimo da cabeça, não se individualiza com segurança.",
+    "teste": "Não há prova isolada; ver reto posterior maior da cabeça.",
+    "alongamento": "Flexão da cabeça sobre o atlas com leve inclinação para o lado oposto.",
+    "clinica": "Encurtado na postura de cabeça anteriorizada. Com os outros suboccipitais, é sede de dor na transição entre o crânio e o pescoço e de cefaleia do tipo tensional.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Levator ani",
+    "pt": "Músculo levantador do ânus",
+    "latim": "Musculus levator ani",
+    "sinonimos": [
+      "elevador do ânus",
+      "assoalho pélvico",
+      "músculos do assoalho pélvico (MAP)"
+    ],
+    "resumo": "Lâmina muscular larga e fina, em forma de funil, que fecha inferiormente a pelve e forma, com o músculo coccígeo, o diafragma da pelve. Sustenta as vísceras pélvicas, participa da continência urinária e fecal e é a base do cilindro de estabilização do tronco.",
+    "origem": "Face posterior do corpo do púbis, arco tendíneo do levantador do ânus (espessamento da fáscia obturatória) e espinha isquiática.",
+    "insercao": "Corpo do períneo, paredes da vagina ou da próstata, do reto e do canal anal, corpo (ligamento) anococcígeo e cóccix. As fibras dos dois lados unem-se na linha mediana, deixando anteriormente o hiato urogenital, por onde passam a uretra e a vagina, e o hiato anal.",
+    "inervacao": {
+      "nervo": "Nervo para o músculo levantador do ânus (ramos diretos do plexo sacral, pela face pélvica); contribuição do nervo pudendo por meio do nervo anal inferior e de ramos perineais, sobretudo para o puboanal",
+      "raizes": "S3, S4 (S2–S4)",
+      "nervoKeys": [
+        "Sacral plexus",
+        "Pudendal nerve"
+      ]
+    },
+    "vascularizacao": "Artérias glútea inferior, vesical inferior e pudenda interna.",
+    "acoes": [
+      {
+        "art": "assoalho_pelvico",
+        "mov": "elevacao",
+        "papel": "primario",
+        "nota": "eleva o assoalho da pelve e as vísceras em direção cranial e anterior"
+      },
+      {
+        "art": "assoalho_pelvico",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "sustentação tônica das vísceras pélvicas e resistência ao aumento da pressão intra-abdominal"
+      },
+      {
+        "art": "assoalho_pelvico",
+        "mov": "outro",
+        "papel": "primario",
+        "nota": "fecha a uretra, a vagina e a junção anorretal, mantendo a continência; relaxa para a micção e a defecação"
+      },
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "base do cilindro de estabilização lombopélvica"
+      }
+    ],
+    "funcao": "Mantém contração tônica contínua, que sustenta a bexiga, o útero e o reto e mantém fechados os hiatos urogenital e anal; tem cerca de 70% de fibras de contração lenta. Contrai de forma rápida e reflexa quando a pressão intra-abdominal aumenta (tosse, espirro, riso, salto, levantamento de carga), elevando o assoalho e comprimindo a uretra contra o púbis. O puboanal mantém o ângulo anorretal em cerca de 80° a 100° e é essencial para a continência fecal. Relaxa voluntariamente para permitir a micção e a defecação e distende-se muito no parto. Coativa-se com o transverso do abdome, os multífidos e o diafragma: na inspiração o assoalho desce junto com o diafragma, e na expiração sobe. Participa da função sexual.",
+    "antagonistas": [
+      "Diaphragm"
+    ],
+    "sinergistas": [
+      "Coccygeus muscle",
+      "External anal sphincter",
+      "Transversus abdominis muscle",
+      "Multifidus muscles",
+      "Internal abdominal oblique muscle"
+    ],
+    "palpacao": "A avaliação direta é feita por palpação vaginal ou anal, com consentimento informado e por profissional habilitado: as margens do puboanal e do pubococcígeo são sentidas nas paredes laterais e posterior, a cerca de 2 a 4 cm do introito, como uma cinta que aperta e eleva o dedo em direção cranial e anterior durante a contração. Externamente observa-se o fechamento e a elevação do períneo; a contração também pode ser percebida medialmente às tuberosidades isquiáticas. A ultrassonografia transabdominal ou transperineal mostra a elevação da base da bexiga.",
+    "teste": "Palpação digital com graduação pela escala de Oxford modificada (0 a 5) e pelo esquema PERFECT: força, tempo de sustentação, repetições e contrações rápidas, além da elevação e da coordenação com a tosse. Avaliam-se também a capacidade de relaxar completamente e a presença de dor ou aumento de tônus. Instrumentos: perineômetro (manometria), eletromiografia de superfície e dinamometria. O paciente deve contrair sem prender a respiração e sem usar glúteos, adutores ou abdome superficial.",
+    "alongamento": "O relaxamento e o alongamento são obtidos com respiração diafragmática, posturas de abertura da pelve (agachamento profundo apoiado, posição de bebê feliz) e técnicas manuais; a massagem perineal é usada na preparação para o parto.",
+    "clinica": "A fraqueza, a lesão ou a desnervação (parto vaginal, sobretudo com fórceps ou período expulsivo prolongado; avulsão do puboanal no púbis; constipação crônica; menopausa; obesidade; cirurgias pélvicas, como a prostatectomia) causam incontinência urinária de esforço, incontinência fecal e prolapso dos órgãos pélvicos. O treinamento dos músculos do assoalho pélvico é o tratamento de primeira linha da incontinência urinária de esforço e mista em mulheres e é indicado após a prostatectomia. O aumento de tônus e a incoordenação associam-se à dor pélvica crônica, à dispareunia, ao vaginismo, à constipação por disfunção de evacuação e à dor referida ao cóccix e à região lombossacral. O assoalho pélvico faz parte do controle lombopélvico: disfunções urinárias e respiratórias associam-se à lombalgia.",
+    "dica": "O cilindro de estabilização do tronco tem teto (diafragma), paredes (transverso do abdome e multífidos) e base (assoalho pélvico).",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Pubo-analis muscle",
+        "pt": "Músculo puboanal (puborretal)",
+        "origem": "Face posterior do corpo do púbis",
+        "insercao": "Une-se ao do lado oposto atrás da junção anorretal, formando uma alça em U; fibras para a parede do canal anal e o esfíncter externo do ânus",
+        "nota": "Parte mais medial e espessa. Puxa a junção anorretal para a frente, mantendo o ângulo anorretal e a continência fecal; relaxa na defecação. Puborretal é o nome tradicional; a Terminologia Anatômica atual usa puboanal. Suas fibras mediais dirigem-se à vagina (pubovaginal), à próstata (puboprostático) e ao corpo do períneo (puboperineal)."
+      },
+      {
+        "key": "Pubococcygeus muscle",
+        "pt": "Músculo pubococcígeo",
+        "origem": "Face posterior do corpo do púbis e parte anterior do arco tendíneo do levantador do ânus",
+        "insercao": "Corpo anococcígeo e cóccix",
+        "nota": "Parte intermédia. Eleva o assoalho da pelve e fecha o hiato urogenital. É o músculo-alvo dos exercícios descritos por Kegel."
+      },
+      {
+        "key": "Iliococcygeus muscle",
+        "pt": "Músculo iliococcígeo",
+        "origem": "Parte posterior do arco tendíneo do levantador do ânus e espinha isquiática",
+        "insercao": "Corpo anococcígeo (rafe mediana) e cóccix",
+        "nota": "Parte posterolateral, fina e frequentemente aponeurótica. Forma a placa do levantador, plataforma horizontal sobre a qual repousam as vísceras pélvicas."
+      }
+    ]
+  },
+  {
+    "key": "Coccygeus muscle",
+    "pt": "Músculo isquiococcígeo",
+    "latim": "Musculus ischiococcygeus",
+    "sinonimos": [
+      "músculo coccígeo"
+    ],
+    "resumo": "Músculo triangular, em grande parte tendíneo, que completa posteriormente o diafragma da pelve. Aplica-se à face pélvica do ligamento sacroespinal, com o qual se confunde.",
+    "origem": "Espinha isquiática.",
+    "insercao": "Margem lateral da parte inferior do sacro e do cóccix.",
+    "inervacao": {
+      "nervo": "Ramos diretos dos ramos anteriores de S4 e S5",
+      "raizes": "S4, S5",
+      "nervoKeys": [
+        "Sacral plexus"
+      ]
+    },
+    "vascularizacao": "Artérias glútea inferior e sacrais laterais.",
+    "acoes": [
+      {
+        "art": "assoalho_pelvico",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "sustenta as vísceras pélvicas na parte posterior do assoalho"
+      },
+      {
+        "art": "pelve",
+        "mov": "outro",
+        "papel": "secundario",
+        "nota": "flete o cóccix, puxando-o para a frente depois da defecação ou do parto"
+      }
+    ],
+    "funcao": "Forma a parte posterior do assoalho da pelve e ajuda a sustentar as vísceras. Traciona o cóccix para a frente depois de ele ter sido deslocado para trás na defecação e no parto. Pode contribuir para a estabilidade da articulação sacroilíaca, pois acompanha o ligamento sacroespinal.",
+    "sinergistas": [
+      "Levator ani",
+      "Piriformis muscle"
+    ],
+    "palpacao": "Acessível apenas por palpação retal ou vaginal, entre a espinha isquiática e a margem lateral do cóccix, sobre o ligamento sacroespinal. Externamente, sua região corresponde à área imediatamente lateral ao cóccix.",
+    "teste": "Não há prova isolada; é avaliado com os demais músculos do assoalho pélvico.",
+    "alongamento": "Flexão dos quadris com respiração diafragmática e relaxamento do assoalho pélvico; técnicas manuais intracavitárias quando indicadas.",
+    "clinica": "O espasmo e os pontos dolorosos desse músculo e do levantador do ânus estão entre as causas de coccidínia (dor no cóccix ao sentar), junto com trauma e hipermobilidade do cóccix. O ligamento sacroespinal, ao qual está aplicado, é usado como ponto de fixação nas cirurgias de prolapso.",
+    "camada": "profunda"
+  },
+  {
+    "key": "External anal sphincter",
+    "pt": "Músculo esfíncter externo do ânus",
+    "latim": "Musculus sphincter ani externus",
+    "sinonimos": [
+      "esfíncter anal externo"
+    ],
+    "resumo": "Anel de músculo estriado, de controle voluntário, que envolve os dois terços inferiores do canal anal, por fora do esfíncter interno. Descrevem-se três partes: subcutânea, superficial e profunda.",
+    "origem": "Corpo (ligamento) anococcígeo e cóccix, posteriormente; pele perianal.",
+    "insercao": "Corpo do períneo, anteriormente. A parte profunda envolve o canal anal sem inserção óssea e funde-se com o músculo puboanal.",
+    "inervacao": {
+      "nervo": "Nervo anal inferior (retal inferior), ramo do nervo pudendo",
+      "raizes": "S2, S3, S4 (principalmente S4)",
+      "nervoKeys": [
+        "Pudendal nerve"
+      ]
+    },
+    "vascularizacao": "Artéria retal inferior, ramo da artéria pudenda interna.",
+    "acoes": [
+      {
+        "art": "assoalho_pelvico",
+        "mov": "outro",
+        "papel": "primario",
+        "nota": "fecha o canal anal (continência fecal voluntária)"
+      }
+    ],
+    "funcao": "Mantém contração tônica de repouso, que complementa a do esfíncter interno (músculo liso, responsável pela maior parte da pressão de repouso), e contrai voluntariamente para adiar a evacuação e reter gases e fezes quando a pressão abdominal aumenta. Relaxa durante a defecação, em coordenação com o puboanal. Atua junto com os músculos do assoalho pélvico e do períneo.",
+    "sinergistas": [
+      "Pubo-analis muscle",
+      "Levator ani"
+    ],
+    "palpacao": "A contração é visível como fechamento e retração do ânus e palpável ao redor da margem anal. A avaliação da pressão e da força é feita por toque retal, por profissional habilitado e com consentimento: sente-se o aperto circunferencial ao redor do dedo nos primeiros centímetros do canal.",
+    "teste": "Toque retal com avaliação do tônus de repouso, da força e do tempo de sustentação da contração voluntária e do relaxamento ao simular a evacuação. Reflexo anal (contração à estimulação da pele perianal), que testa os segmentos S2–S4. Exames: manometria anorretal, eletromiografia e ultrassonografia endoanal.",
+    "alongamento": "Não se aplica; treina-se o relaxamento coordenado durante o esforço evacuatório.",
+    "clinica": "As lacerações perineais de terceiro e quarto graus no parto vaginal lesam o esfíncter e são causa importante de incontinência anal em mulheres. A lesão do nervo pudendo e as lesões da cauda equina ou do cone medular causam perda do tônus e do reflexo anal; por isso o exame do esfíncter faz parte da avaliação neurológica nas lesões medulares (preservação sacral) e na suspeita de síndrome da cauda equina. A contração paradoxal durante a evacuação (dissinergia ou anismo) causa constipação. O tratamento fisioterapêutico inclui treinamento muscular, biofeedback e eletroestimulação.",
+    "camada": "superficial"
+  }
+]

@@ -1,0 +1,453 @@
+[
+  {
+    "key": "Deep head of pronator teres",
+    "pt": "Músculo pronador redondo",
+    "latim": "Musculus pronator teres",
+    "sinonimos": [
+      "pronador redondo"
+    ],
+    "resumo": "Músculo de duas cabeças, o mais lateral do grupo flexor superficial do antebraço; forma o limite medial da fossa cubital. Prona o antebraço e auxilia a flexão do cotovelo.",
+    "origem": "Cabeça umeral (superficial): epicôndilo medial do úmero, pelo tendão comum dos flexores, e crista supraepicondilar medial. Cabeça ulnar (profunda): processo coronoide da ulna.",
+    "insercao": "Meio da face lateral do corpo do rádio (tuberosidade para o músculo pronador).",
+    "inervacao": {
+      "nervo": "Nervo mediano",
+      "raizes": "C6, C7",
+      "nervoKeys": [
+        "Median nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar e artéria recorrente ulnar anterior.",
+    "acoes": [
+      {
+        "art": "radioulnar",
+        "mov": "pronacao",
+        "papel": "primario",
+        "nota": "recrutado principalmente em pronação rápida ou contra resistência"
+      },
+      {
+        "art": "cotovelo",
+        "mov": "flexao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "O pronador quadrado executa a pronação em qualquer situação; o pronador redondo soma-se a ele quando há velocidade ou resistência, como ao usar chave de fenda para desparafusar com a mão direita, arremessar ou sacar no tênis. Ajuda a flexão do cotovelo e, pela origem no epicôndilo medial, participa com os demais flexores-pronadores da estabilização dinâmica do cotovelo contra o estresse em valgo.",
+    "antagonistas": [
+      "Supinator",
+      "Biceps brachii muscle"
+    ],
+    "sinergistas": [
+      "Pronator quadratus",
+      "Flexor carpi radialis",
+      "Brachioradialis muscle"
+    ],
+    "palpacao": "Localize o epicôndilo medial e o tendão do bíceps na fossa cubital. O pronador redondo corre obliquamente entre os dois, do epicôndilo medial em direção ao meio do rádio, formando a margem medial da fossa cubital. Peça pronação resistida com o cotovelo levemente fletido para sentir a contração.",
+    "teste": "Kendall: paciente em decúbito dorsal ou sentado, cotovelo parcialmente fletido junto ao tronco, antebraço em pronação; o examinador segura o antebraço distal, acima do punho, e resiste em direção à supinação, evitando torcer o punho. Para isolar o pronador quadrado, repete-se com o cotovelo em flexão máxima.",
+    "alongamento": "Supinação completa do antebraço com o cotovelo em extensão.",
+    "clinica": "O nervo mediano passa entre as duas cabeças e pode ser comprimido nesse ponto (síndrome do pronador): dor na face anterior do antebraço proximal, parestesias no território do mediano que pioram com pronação resistida e, diferentemente da síndrome do túnel do carpo, alteração de sensibilidade na eminência tenar (ramo palmar) e ausência de sintomas noturnos típicos. Faz parte da massa flexora-pronadora acometida na epicondilite medial (cotovelo de golfista), com dor à pronação e à flexão do punho resistidas. A hipertonia do pronador redondo contribui para o padrão em pronação do membro superior espástico.",
+    "dica": "Do lateral para o medial, a partir do epicôndilo medial: Pronador redondo, flexor Radial do carpo, Palmar longo, flexor Ulnar do carpo. Apoie a palma da mão oposta sobre o epicôndilo medial: polegar, indicador, médio e anular apontam a direção de cada um.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Deep head of pronator teres",
+        "pt": "Cabeça ulnar (profunda)",
+        "origem": "Processo coronoide da ulna",
+        "nota": "Menor e por vezes ausente; o nervo mediano passa entre ela e a cabeça umeral, e a artéria ulnar passa profundamente a ela."
+      },
+      {
+        "key": "Superficial head of pronator teres",
+        "pt": "Cabeça umeral (superficial)",
+        "origem": "Epicôndilo medial e crista supraepicondilar medial do úmero",
+        "nota": "Cabeça principal; por cruzar o cotovelo, auxilia a flexão."
+      }
+    ]
+  },
+  {
+    "key": "Flexor carpi radialis",
+    "pt": "Músculo flexor radial do carpo",
+    "latim": "Musculus flexor carpi radialis",
+    "sinonimos": [
+      "FRC",
+      "grande palmar"
+    ],
+    "resumo": "Músculo fusiforme superficial da face anterior do antebraço, medial ao pronador redondo. Seu tendão é um marco importante no punho: o pulso radial é palpado lateralmente a ele.",
+    "origem": "Epicôndilo medial do úmero (tendão comum dos flexores) e fáscia do antebraço.",
+    "insercao": "Face palmar da base do segundo metacarpal, com expansão para a base do terceiro.",
+    "inervacao": {
+      "nervo": "Nervo mediano",
+      "raizes": "C6, C7",
+      "nervoKeys": [
+        "Median nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar (ramos musculares) e artéria radial.",
+    "acoes": [
+      {
+        "art": "punho",
+        "mov": "flexao",
+        "papel": "primario"
+      },
+      {
+        "art": "punho",
+        "mov": "desvio_radial",
+        "papel": "primario",
+        "nota": "com os extensores radiais do carpo"
+      },
+      {
+        "art": "radioulnar",
+        "mov": "pronacao",
+        "papel": "secundario"
+      },
+      {
+        "art": "cotovelo",
+        "mov": "flexao",
+        "papel": "secundario",
+        "nota": "ação fraca"
+      }
+    ],
+    "funcao": "Atua com o flexor ulnar do carpo para fletir o punho sem desvio e com os extensores radiais do carpo para o desvio radial puro. Estabiliza o punho durante a extensão vigorosa dos dedos e contrai-se em atividades de arremesso e martelar. Seu tendão corre em um túnel próprio no sulco do trapézio, fora do túnel do carpo.",
+    "antagonistas": [
+      "Extensor carpi radialis longus",
+      "Extensor carpi radialis brevis",
+      "Humeral head of extensor carpi ulnaris"
+    ],
+    "sinergistas": [
+      "Humeral head of flexor carpi ulnaris",
+      "Palmaris longus muscle",
+      "Extensor carpi radialis longus"
+    ],
+    "palpacao": "Peça flexão do punho contra resistência com leve desvio radial. O tendão do flexor radial do carpo é o cordão espesso mais lateral na face anterior do punho, lateral ao palmar longo. A artéria radial pulsa imediatamente lateral a ele.",
+    "teste": "Kendall: antebraço supinado apoiado na mesa, dedos relaxados; o paciente flete o punho em direção ao lado radial e o examinador resiste na eminência tenar, em direção à extensão e ao desvio ulnar.",
+    "alongamento": "Extensão do punho com desvio ulnar, cotovelo estendido e antebraço supinado.",
+    "clinica": "A tendinopatia do flexor radial do carpo causa dor na face anterolateral do punho, sobre o tubérculo do escafoide, agravada pela flexão resistida, e pode coexistir com artrose escafotrapeziotrapezoide. Participa da epicondilite medial. O tendão é referência para a palpação do pulso radial e do tubérculo do escafoide e é usado em transferências tendíneas e na artroplastia de suspensão da base do polegar (rizartrose).",
+    "camada": "superficial"
+  },
+  {
+    "key": "Palmaris longus muscle",
+    "pt": "Músculo palmar longo",
+    "latim": "Musculus palmaris longus",
+    "sinonimos": [
+      "pequeno palmar"
+    ],
+    "resumo": "Músculo delgado, de ventre curto e tendão longo, que tensiona a aponeurose palmar. Está ausente em parte da população, sem prejuízo funcional.",
+    "origem": "Epicôndilo medial do úmero (tendão comum dos flexores).",
+    "insercao": "Metade distal do retináculo dos músculos flexores e ápice da aponeurose palmar.",
+    "inervacao": {
+      "nervo": "Nervo mediano",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Median nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar (ramos musculares).",
+    "acoes": [
+      {
+        "art": "punho",
+        "mov": "flexao",
+        "papel": "secundario"
+      },
+      {
+        "art": "punho",
+        "mov": "outro",
+        "papel": "secundario",
+        "nota": "tensiona a aponeurose palmar"
+      }
+    ],
+    "funcao": "Flexor fraco do punho. Ao tensionar a aponeurose palmar, firma a pele da palma durante a preensão. É o único tendão flexor que passa superficialmente ao retináculo dos músculos flexores.",
+    "antagonistas": [
+      "Extensor carpi radialis longus",
+      "Extensor carpi radialis brevis",
+      "Humeral head of extensor carpi ulnaris"
+    ],
+    "sinergistas": [
+      "Flexor carpi radialis",
+      "Humeral head of flexor carpi ulnaris"
+    ],
+    "palpacao": "Peça ao paciente que una as polpas do polegar e do dedo mínimo e flexione levemente o punho: o tendão salta na linha média da face anterior do punho, medialmente ao tendão do flexor radial do carpo. Se não aparecer, o músculo pode estar ausente.",
+    "teste": "Teste de presença (Schaeffer): oposição do polegar ao dedo mínimo com flexão do punho contra leve resistência, observando o tendão. Kendall: o paciente coloca a mão em concha e flete o punho; o examinador resiste nas eminências tenar e hipotenar, tentando aplanar a mão e estender o punho.",
+    "alongamento": "Extensão do punho e dos dedos com o cotovelo estendido e o antebraço supinado.",
+    "clinica": "Está ausente em um ou ambos os lados em cerca de 15% das pessoas, com grande variação entre populações. É o tendão doador mais usado para enxertos (reconstruções tendíneas e ligamentares, como a do ligamento colateral ulnar do cotovelo). O nervo mediano situa-se logo profunda e lateralmente ao tendão no punho, sendo este o marco para localizá-lo. A aponeurose palmar, à qual se liga, é a estrutura acometida na contratura de Dupuytren.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Humeral head of flexor carpi ulnaris",
+    "pt": "Músculo flexor ulnar do carpo",
+    "latim": "Musculus flexor carpi ulnaris",
+    "sinonimos": [
+      "FUC",
+      "cubital anterior"
+    ],
+    "resumo": "Músculo mais medial do grupo flexor superficial do antebraço, com duas cabeças entre as quais passa o nervo ulnar. É o flexor mais potente do punho e o único músculo do compartimento anterior totalmente inervado pelo nervo ulnar.",
+    "origem": "Cabeça umeral: epicôndilo medial do úmero (tendão comum dos flexores). Cabeça ulnar: margem medial do olécrano e dois terços proximais da margem posterior da ulna.",
+    "insercao": "Osso pisiforme e, por meio dos ligamentos piso-hamato e pisometacarpal, hâmulo do hamato e base do quinto metacarpal.",
+    "inervacao": {
+      "nervo": "Nervo ulnar",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar e artéria recorrente ulnar posterior.",
+    "acoes": [
+      {
+        "art": "punho",
+        "mov": "flexao",
+        "papel": "primario"
+      },
+      {
+        "art": "punho",
+        "mov": "desvio_ulnar",
+        "papel": "primario",
+        "nota": "com o extensor ulnar do carpo"
+      }
+    ],
+    "funcao": "Flete o punho com desvio ulnar, combinação usada em golpes com martelo, machado e raquete (movimento do arremessador de dardos). Fixa o pisiforme para que o abdutor do dedo mínimo possa agir e estabiliza o punho na preensão de força. Como parte da massa flexora-pronadora, é um dos principais estabilizadores dinâmicos do cotovelo contra o valgo.",
+    "antagonistas": [
+      "Extensor carpi radialis longus",
+      "Extensor carpi radialis brevis",
+      "Humeral head of extensor carpi ulnaris"
+    ],
+    "sinergistas": [
+      "Flexor carpi radialis",
+      "Palmaris longus muscle",
+      "Humeral head of extensor carpi ulnaris"
+    ],
+    "palpacao": "Localize o pisiforme, na base da eminência hipotenar; o tendão do flexor ulnar do carpo chega a ele pela face anteromedial do punho e fica tenso na flexão com desvio ulnar resistidos ou na abdução do dedo mínimo. O ventre é acompanhado ao longo da margem medial do antebraço, junto à margem posterior da ulna. O pulso e o nervo ulnares ficam logo laterais ao tendão.",
+    "teste": "Kendall: antebraço supinado apoiado na mesa, dedos relaxados; o paciente flete o punho em direção ao lado ulnar e o examinador resiste na eminência hipotenar, em direção à extensão e ao desvio radial.",
+    "alongamento": "Extensão do punho com desvio radial, cotovelo estendido e antebraço supinado.",
+    "clinica": "O nervo ulnar passa atrás do epicôndilo medial e entra no antebraço entre as duas cabeças, sob o arco tendíneo que as une; esse é o túnel cubital, local mais comum de compressão do nervo ulnar, com parestesias no quarto e no quinto dedos e fraqueza da musculatura intrínseca. Na lesão alta do ulnar, a perda do flexor ulnar do carpo e da metade medial do flexor profundo dos dedos faz o punho desviar radialmente na flexão e torna a garra menos acentuada do que na lesão baixa (paradoxo ulnar). A tendinopatia insercional causa dor junto ao pisiforme. É bastante usado em transferências tendíneas e contribui para a deformidade em flexão do punho espástico.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Humeral head of flexor carpi ulnaris",
+        "pt": "Cabeça umeral",
+        "origem": "Epicôndilo medial do úmero, pelo tendão comum dos flexores",
+        "nota": "Cabeça menor; com a cabeça ulnar forma o arco sob o qual passa o nervo ulnar."
+      },
+      {
+        "key": "Ulnar head of flexor carpi ulnaris",
+        "pt": "Cabeça ulnar",
+        "origem": "Olécrano e dois terços proximais da margem posterior da ulna",
+        "nota": "Cabeça maior, de origem aponeurótica extensa."
+      }
+    ]
+  },
+  {
+    "key": "Humero-ulnar head of flexor digitorum superficialis",
+    "pt": "Músculo flexor superficial dos dedos",
+    "latim": "Musculus flexor digitorum superficialis",
+    "sinonimos": [
+      "FSD",
+      "flexor comum superficial",
+      "sublime"
+    ],
+    "resumo": "Maior músculo superficial do antebraço, situado em um plano intermediário entre os flexores superficiais e os profundos. Flete as articulações interfalângicas proximais dos quatro dedos mediais.",
+    "origem": "Cabeça umeroulnar: epicôndilo medial do úmero, ligamento colateral ulnar e processo coronoide da ulna. Cabeça radial: metade superior da margem anterior do rádio (linha oblíqua).",
+    "insercao": "Por quatro tendões, nas faces laterais dos corpos das falanges médias do segundo ao quinto dedos; cada tendão divide-se para dar passagem ao tendão do flexor profundo.",
+    "inervacao": {
+      "nervo": "Nervo mediano",
+      "raizes": "C7, C8, T1",
+      "nervoKeys": [
+        "Median nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar e artéria radial.",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "articulações interfalângicas proximais"
+      },
+      {
+        "art": "dedos_mao",
+        "mov": "flexao",
+        "papel": "secundario",
+        "nota": "articulações metacarpofalângicas"
+      },
+      {
+        "art": "punho",
+        "mov": "flexao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Flete as interfalângicas proximais e, continuando a ação, as metacarpofalângicas e o punho. Diferentemente do flexor profundo, seus tendões têm ventres relativamente independentes, permitindo fletir um dedo de cada vez. É recrutado quando a preensão exige força ou velocidade; em preensões leves o flexor profundo trabalha quase sozinho. Para gerar força máxima depende da estabilização do punho em leve extensão pelos extensores do carpo (sinergia de tenodese).",
+    "antagonistas": [
+      "Extensor digitorum",
+      "Extensor indicis",
+      "Extensor digiti minimi"
+    ],
+    "sinergistas": [
+      "Flexor digitorum profundus",
+      "Lumbrical muscles of hand",
+      "Flexor carpi radialis",
+      "Humeral head of flexor carpi ulnaris"
+    ],
+    "palpacao": "Os tendões são palpados na face anterior do punho, entre o palmar longo e o flexor ulnar do carpo, movendo-se quando o paciente flete as interfalângicas proximais. O ventre é sentido profundamente no terço médio da face anterior do antebraço ao cerrar o punho com força.",
+    "teste": "O examinador mantém os dedos não testados em extensão completa (o que neutraliza o flexor profundo, de ventre comum) e pede a flexão do dedo livre: só a interfalângica proximal flete, e a distal permanece frouxa. Para graduar força (Kendall), estabiliza-se a falange proximal e resiste-se à flexão na falange média. No dedo mínimo, o tendão pode ser ausente ou dependente do anular em parte das pessoas.",
+    "alongamento": "Extensão simultânea do punho e das articulações metacarpofalângicas e interfalângicas, com o cotovelo estendido e o antebraço supinado.",
+    "clinica": "O nervo mediano e a artéria ulnar passam sob o arco tendíneo entre as cabeças umeroulnar e radial, local possível de compressão do nervo. Seus quatro tendões atravessam o túnel do carpo com os do flexor profundo e o do flexor longo do polegar; a tenossinovite desses tendões reduz o espaço e contribui para a síndrome do túnel do carpo. No dedo, o tendão divide-se (quiasma tendíneo) na altura da falange proximal; as lesões na zona II, onde os dois tendões flexores dividem a mesma bainha, têm reabilitação delicada pelo risco de aderências. O espessamento do tendão na polia A1 produz o dedo em gatilho.",
+    "dica": "Superficial vai até a falange média e se divide; o Profundo perfura e chega à falange distal.",
+    "camada": "intermediaria",
+    "partes": [
+      {
+        "key": "Humero-ulnar head of flexor digitorum superficialis",
+        "pt": "Cabeça umeroulnar",
+        "origem": "Epicôndilo medial do úmero, ligamento colateral ulnar e processo coronoide da ulna"
+      },
+      {
+        "key": "Radial head of flexor digitorum superficialis",
+        "pt": "Cabeça radial",
+        "origem": "Metade superior da margem anterior do rádio",
+        "nota": "Lâmina fina; entre as duas cabeças forma-se o arco sob o qual passam o nervo mediano e a artéria ulnar."
+      }
+    ]
+  },
+  {
+    "key": "Flexor digitorum profundus",
+    "pt": "Músculo flexor profundo dos dedos",
+    "latim": "Musculus flexor digitorum profundus",
+    "sinonimos": [
+      "FPD",
+      "flexor comum profundo"
+    ],
+    "resumo": "Músculo espesso da camada profunda do antebraço, que reveste a face anterior da ulna. É o único flexor das articulações interfalângicas distais dos dedos e tem dupla inervação.",
+    "origem": "Três quartos proximais das faces medial e anterior da ulna e metade ulnar da membrana interóssea do antebraço.",
+    "insercao": "Por quatro tendões, nas faces palmares das bases das falanges distais do segundo ao quinto dedos.",
+    "inervacao": {
+      "nervo": "Parte lateral (dedos indicador e médio): nervo interósseo anterior, ramo do nervo mediano. Parte medial (dedos anular e mínimo): nervo ulnar.",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Anterior interosseous nerve of forearm",
+        "Median nerve",
+        "Ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea anterior e ramos musculares da artéria ulnar.",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "articulações interfalângicas distais; em seguida as interfalângicas proximais e as metacarpofalângicas"
+      },
+      {
+        "art": "punho",
+        "mov": "flexao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "É o flexor básico dos dedos: atua sozinho no fechamento suave da mão, sendo reforçado pelo flexor superficial quando há necessidade de força. Os tendões para os dedos médio, anular e mínimo vêm de um ventre comum e movem-se juntos, enquanto o do indicador é mais independente. Seus tendões dão origem aos músculos lumbricais. A força de preensão é maior com o punho em leve extensão, posição em que os tendões ficam pré-tensionados; com o punho fletido ocorre insuficiência ativa.",
+    "antagonistas": [
+      "Extensor digitorum",
+      "Extensor indicis",
+      "Extensor digiti minimi"
+    ],
+    "sinergistas": [
+      "Humero-ulnar head of flexor digitorum superficialis",
+      "Lumbrical muscles of hand",
+      "Flexor pollicis longus"
+    ],
+    "palpacao": "Palpe a face medial do antebraço proximal, imediatamente anterior à margem posterior (subcutânea) da ulna: ao fletir as interfalângicas distais, sente-se a contração da parte ulnar do ventre, que é superficial nesse ponto.",
+    "teste": "Kendall: com as articulações metacarpofalângica e interfalângica proximal estabilizadas em extensão, o paciente flete a interfalângica distal; resistência na polpa da falange distal. Teste cada dedo separadamente: indicador e médio avaliam o nervo interósseo anterior; anular e mínimo, o nervo ulnar.",
+    "alongamento": "Extensão do punho, das metacarpofalângicas e de todas as interfalângicas, com o cotovelo estendido (por exemplo, palma e dedos apoiados sobre a mesa ou parede com os dedos voltados para baixo).",
+    "clinica": "A avulsão do tendão na falange distal (dedo de jérsei), típica de quem agarra a camisa do adversário, acomete mais o dedo anular e impede a flexão ativa da interfalângica distal. Na lesão do nervo interósseo anterior, o paciente não flete a interfalângica distal do indicador nem a interfalângica do polegar e não consegue formar o círculo do sinal de OK (pinça em quadrado, sinal de Kiloh-Nevin). Na lesão alta do nervo mediano, ao tentar fechar a mão, o indicador e o médio permanecem estendidos (mão em bênção). Na lesão do nervo ulnar, perde-se a flexão distal do quarto e do quinto dedos. A contratura isquêmica de Volkmann, após síndrome compartimental, afeta sobretudo este músculo e o flexor longo do polegar.",
+    "dica": "Quatro tendões, dois nervos: metade lateral pelo mediano (interósseo anterior), metade medial pelo ulnar.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Flexor pollicis longus",
+    "pt": "Músculo flexor longo do polegar",
+    "latim": "Musculus flexor pollicis longus",
+    "sinonimos": [
+      "FLP"
+    ],
+    "resumo": "Músculo profundo do antebraço que reveste a face anterior do rádio, lateral ao flexor profundo dos dedos. É o único flexor da articulação interfalângica do polegar.",
+    "origem": "Face anterior do rádio (abaixo da tuberosidade do rádio, até o pronador quadrado) e parte adjacente da membrana interóssea do antebraço.",
+    "insercao": "Face palmar da base da falange distal do polegar.",
+    "inervacao": {
+      "nervo": "Nervo interósseo anterior (ramo do nervo mediano)",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Anterior interosseous nerve of forearm",
+        "Median nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea anterior.",
+    "acoes": [
+      {
+        "art": "polegar",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "articulação interfalângica; em seguida a metacarpofalângica e a carpometacarpal"
+      },
+      {
+        "art": "punho",
+        "mov": "flexao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Flete a falange distal do polegar, indispensável para a pinça de ponta (polpa com polpa e unha com unha) e para a força da pinça lateral ou de chave. Seu tendão atravessa o túnel do carpo em bainha sinovial própria e passa entre os dois ossos sesamoides da articulação metacarpofalângica do polegar.",
+    "antagonistas": [
+      "Extensor pollicis longus",
+      "Extensor pollicis brevis"
+    ],
+    "sinergistas": [
+      "Deep head of flexor pollicis brevis",
+      "Oblique head of adductor pollicis",
+      "Opponens pollicis muscle"
+    ],
+    "palpacao": "O ventre é profundo e difícil de isolar; pode ser sentido no terço distal da face anterior do antebraço, lateralmente ao tendão do flexor radial do carpo, ao fletir repetidamente a interfalângica do polegar. O tendão é palpado na face palmar da falange proximal do polegar.",
+    "teste": "Kendall: o examinador estabiliza o primeiro metacarpal e a falange proximal em extensão; o paciente flete a articulação interfalângica contra resistência aplicada na polpa da falange distal.",
+    "alongamento": "Extensão do punho combinada com extensão e abdução radial do polegar em todas as suas articulações, com o cotovelo estendido.",
+    "clinica": "A incapacidade de fletir a interfalângica do polegar, junto com a da interfalângica distal do indicador, caracteriza a síndrome do nervo interósseo anterior, que é puramente motora (sem alteração de sensibilidade cutânea). O polegar em gatilho resulta do espessamento do tendão ou da polia A1 na base do polegar. O tendão pode romper por atrito em punho reumatoide (lesão de Mannerfelt) ou após fratura do rádio distal fixada com placa volar. A bainha sinovial do tendão pode comunicar-se com a bainha comum dos flexores, o que permite a disseminação de infecções do polegar ao dedo mínimo.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Pronator quadratus",
+    "pt": "Músculo pronador quadrado",
+    "latim": "Musculus pronator quadratus",
+    "sinonimos": [
+      "pronador quadrado"
+    ],
+    "resumo": "Músculo plano e quadrilátero, o mais profundo do compartimento anterior, que une transversalmente as extremidades distais da ulna e do rádio. É o principal pronador do antebraço.",
+    "origem": "Quarto distal da face anterior da ulna.",
+    "insercao": "Quarto distal da face anterior do rádio.",
+    "inervacao": {
+      "nervo": "Nervo interósseo anterior (ramo do nervo mediano)",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Anterior interosseous nerve of forearm",
+        "Median nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea anterior.",
+    "acoes": [
+      {
+        "art": "radioulnar",
+        "mov": "pronacao",
+        "papel": "primario",
+        "nota": "ativo em qualquer pronação, independentemente da posição do cotovelo"
+      },
+      {
+        "art": "radioulnar",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "mantém unidas as extremidades distais do rádio e da ulna"
+      }
+    ],
+    "funcao": "Inicia a pronação e está ativo em todas as velocidades e cargas, recebendo ajuda do pronador redondo quando o movimento é rápido ou resistido. Suas fibras profundas mantêm o rádio e a ulna unidos na articulação radioulnar distal e ajudam a membrana interóssea a resistir a forças que tendem a separar os ossos, como ao apoiar o peso do corpo sobre a mão.",
+    "antagonistas": [
+      "Supinator",
+      "Biceps brachii muscle"
+    ],
+    "sinergistas": [
+      "Deep head of pronator teres",
+      "Flexor carpi radialis"
+    ],
+    "palpacao": "Não é palpável diretamente, pois fica sob os tendões flexores e o feixe neurovascular, no quarto distal da face anterior do antebraço.",
+    "teste": "Kendall: pronação resistida com o cotovelo em flexão completa, posição que encurta a cabeça umeral do pronador redondo e reduz sua contribuição; o examinador segura o antebraço distal e resiste em direção à supinação.",
+    "alongamento": "Supinação completa do antebraço.",
+    "clinica": "É o último músculo inervado pelo nervo interósseo anterior e, por isso, serve de referência em estudos eletroneuromiográficos e na avaliação da recuperação desse nervo; na síndrome do interósseo anterior, a pronação com o cotovelo totalmente fletido fica fraca. É rebatido ou seccionado no acesso volar para fixação de fraturas do rádio distal com placa, e o apagamento do coxim gorduroso do pronador na radiografia sugere fratura oculta. Contribui para a estabilidade da articulação radioulnar distal.",
+    "camada": "profunda"
+  }
+]

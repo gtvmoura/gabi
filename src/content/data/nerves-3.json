@@ -1,0 +1,335 @@
+[
+  {
+    "key": "Lumbar plexus",
+    "pt": "Plexo lombar",
+    "raizes": "L1–L4 (com contribuição de T12)",
+    "origem": "Ramos anteriores dos nervos espinais L1 a L4.",
+    "trajeto": "Forma-se no interior do músculo psoas maior, à frente dos processos transversos das vértebras lombares. Seus ramos emergem pela borda lateral do psoas (ílio-hipogástrico, ilioinguinal, cutâneo femoral lateral e femoral), pela face anterior (genitofemoral) e pela borda medial (obturatório e tronco lombossacral).",
+    "motor": "Músculos da parede abdominal inferior, iliopsoas, quadríceps femoral, sartório, pectíneo e adutores da coxa.",
+    "sensitivo": "Pele da região inguinal e genital anterior, faces anterior, lateral e medial da coxa e face medial da perna e do pé (nervo safeno).",
+    "lesao": "Hematoma ou abscesso do psoas, cirurgias retroperitoneais e pélvicas e tumores podem comprometer o plexo, combinando fraqueza da flexão do quadril, da extensão do joelho e da adução da coxa, com reflexo patelar diminuído.",
+    "resumo": "Plexo formado por L1–L4 dentro do psoas maior. Seus principais ramos são os nervos femoral e obturatório."
+  },
+  {
+    "key": "Iliohypogastric nerve",
+    "pt": "Nervo ílio-hipogástrico",
+    "raizes": "L1 (T12)",
+    "resumo": "Emerge pela borda lateral do psoas, cruza o quadrado do lombo e corre entre o transverso do abdome e o oblíquo interno, que ajuda a inervar. Dá um ramo cutâneo lateral para a pele da região glútea superolateral e um ramo cutâneo anterior para a pele suprapúbica (hipogástrio). Pode ser lesado em incisões abdominais baixas."
+  },
+  {
+    "key": "Ilio-inguinal nerve",
+    "pt": "Nervo ilioinguinal",
+    "raizes": "L1",
+    "resumo": "Corre paralelo e abaixo do ílio-hipogástrico, entre os músculos da parede abdominal (dá fibras para o oblíquo interno e o transverso do abdome), atravessa o canal inguinal e sai pelo anel inguinal superficial. Inerva a pele da parte superior e medial da coxa e da raiz do pênis e parte anterior do escroto, ou do monte do púbis e lábio maior. Pode ser aprisionado ou lesado em cirurgias de hérnia inguinal, causando dor inguinal crônica."
+  },
+  {
+    "key": "Genitofemoral nerve",
+    "pt": "Nervo genitofemoral",
+    "raizes": "L1, L2",
+    "resumo": "Perfura o psoas maior e desce sobre sua face anterior, dividindo-se acima do ligamento inguinal em ramo genital e ramo femoral. É a via do reflexo cremastérico (aferência pelo ramo femoral e pelo ilioinguinal, eferência pelo ramo genital)."
+  },
+  {
+    "key": "Genital branch of genitofemoral nerve",
+    "pt": "Ramo genital do nervo genitofemoral",
+    "raizes": "L1, L2",
+    "resumo": "Entra no canal inguinal pelo anel inguinal profundo. No homem inerva o músculo cremaster e a pele da parte anterior do escroto; na mulher acompanha o ligamento redondo do útero e inerva a pele do monte do púbis e do lábio maior."
+  },
+  {
+    "key": "Femoral branch of genitofemoral nerve",
+    "pt": "Ramo femoral do nervo genitofemoral",
+    "raizes": "L1, L2",
+    "resumo": "Passa sob o ligamento inguinal, lateral à artéria femoral, dentro da bainha femoral, e inerva a pele da parte superior do trígono femoral, logo abaixo do ligamento inguinal."
+  },
+  {
+    "key": "Lateral femoral cutaneous nerve",
+    "pt": "Nervo cutâneo femoral lateral",
+    "sinonimos": ["nervo cutâneo lateral da coxa"],
+    "raizes": "L2, L3",
+    "origem": "Plexo lombar (divisões posteriores de L2 e L3).",
+    "trajeto": "Emerge pela borda lateral do psoas maior, cruza o músculo ilíaco em direção à espinha ilíaca anterossuperior e passa sob (ou através) da extremidade lateral do ligamento inguinal, cerca de 1 cm medial à espinha. Na coxa, cruza o sartório e divide-se em ramos anterior e posterior.",
+    "motor": "Nenhum — é exclusivamente sensitivo.",
+    "sensitivo": "Pele da face anterolateral e lateral da coxa, até a altura do joelho.",
+    "lesao": "Meralgia parestésica: compressão junto ao ligamento inguinal e à espinha ilíaca anterossuperior por cintos e roupas apertadas, obesidade, gravidez, posição prolongada em flexão do quadril ou retirada de enxerto ósseo da crista ilíaca. Dor em queimação, formigamento e hipoestesia na face anterolateral da coxa, sem fraqueza muscular e sem alteração de reflexos — o que a diferencia da radiculopatia L2–L3.",
+    "resumo": "Nervo puramente sensitivo (L2–L3) para a face lateral da coxa. Sua compressão junto ao ligamento inguinal causa a meralgia parestésica."
+  },
+  {
+    "key": "Femoral nerve",
+    "pt": "Nervo femoral",
+    "sinonimos": ["nervo crural"],
+    "raizes": "L2, L3, L4",
+    "origem": "Plexo lombar (divisões posteriores dos ramos anteriores de L2–L4); é o maior ramo do plexo.",
+    "trajeto": "Forma-se dentro do psoas maior, emerge por sua borda lateral e desce no sulco entre o psoas e o ilíaco. Passa sob o ligamento inguinal pela lacuna muscular, lateral à artéria femoral e fora da bainha femoral (de lateral para medial: nervo, artéria, veia). No trígono femoral, poucos centímetros abaixo do ligamento, divide-se em vários ramos musculares e cutâneos; seu ramo mais longo é o nervo safeno.",
+    "motor": "No abdome: ilíaco. Na coxa: pectíneo, sartório e quadríceps femoral (reto femoral, vasto lateral, vasto intermédio e vasto medial) e músculo articular do joelho. O psoas maior recebe ramos diretos do plexo lombar (L1–L3).",
+    "sensitivo": "Pele das faces anterior e medial da coxa (ramos cutâneos anteriores) e da face medial do joelho, da perna e do pé (nervo safeno). Ramos articulares para o quadril e o joelho.",
+    "lesao": "Hematoma do psoas ou do ilíaco (anticoagulação, hemofilia), cirurgias pélvicas e abdominais (afastadores), artroplastia do quadril, cateterismo femoral, posição de litotomia prolongada e neuropatia diabética.\n\nFraqueza da extensão do joelho com atrofia do quadríceps, joelho que falseia, dificuldade para subir e descer escadas e levantar da cadeira; fraqueza leve da flexão do quadril; reflexo patelar diminuído ou abolido; hipoestesia na face anterior da coxa e medial da perna. Na marcha, o paciente pode travar o joelho em hiperextensão ou apoiar a mão na coxa. O teste de tensão neural correspondente é a flexão do joelho em decúbito ventral (teste do nervo femoral).",
+    "resumo": "Maior ramo do plexo lombar (L2–L4): inerva o quadríceps e os flexores do quadril e dá sensibilidade à face anterior da coxa e medial da perna. É a via do reflexo patelar."
+  },
+  {
+    "key": "Anterior cutaneous branches of femoral nerve",
+    "pt": "Ramos cutâneos anteriores do nervo femoral",
+    "raizes": "L2, L3",
+    "resumo": "Ramos do nervo femoral que perfuram a fáscia lata (alguns atravessam o sartório) e inervam a pele das faces anterior e medial da coxa até o joelho."
+  },
+  {
+    "key": "Saphenous nerve",
+    "pt": "Nervo safeno",
+    "raizes": "L3, L4",
+    "origem": "Ramo cutâneo terminal (o mais longo) do nervo femoral, no trígono femoral.",
+    "trajeto": "Acompanha a artéria femoral pelo canal dos adutores, cruzando-a de lateral para medial. Não atravessa o hiato dos adutores: perfura a membrana vastoadutora e torna-se superficial na face medial do joelho, entre os tendões do sartório e do grácil. Dá o ramo infrapatelar e desce pela face medial da perna junto à veia safena magna, passando à frente do maléolo medial até a borda medial do pé.",
+    "motor": "Nenhum — é exclusivamente sensitivo.",
+    "sensitivo": "Pele da face medial do joelho (ramo infrapatelar), da face anteromedial e medial da perna e da borda medial do pé até a região da cabeça do primeiro metatarsal.",
+    "lesao": "Aprisionamento na saída do canal dos adutores, lesão em cirurgias de varizes e retirada da veia safena magna, artroscopia e cirurgias mediais do joelho. Dor e parestesia na face medial do joelho e da perna, sem fraqueza. Pode simular dor de origem articular no joelho.",
+    "resumo": "Ramo sensitivo terminal do femoral (L3–L4): percorre o canal dos adutores e acompanha a veia safena magna, inervando a face medial da perna e do pé."
+  },
+  {
+    "key": "Infrapatellar branch of saphenous nerve",
+    "pt": "Ramo infrapatelar do nervo safeno",
+    "resumo": "Sai do nervo safeno na face medial do joelho, perfura o sartório e curva-se para a frente, abaixo da patela, inervando a pele anteromedial do joelho. É frequentemente lesado em incisões mediais e anteriores do joelho (artroscopia, retirada de tendões flexores, artroplastia), deixando área de hipoestesia ou neuroma doloroso."
+  },
+  {
+    "key": "Medial crural cutaneous branches of saphenous nerve",
+    "pt": "Ramos cutâneos mediais da perna do nervo safeno",
+    "resumo": "Ramos do nervo safeno ao longo da perna, junto à veia safena magna, para a pele das faces anteromedial e medial da perna."
+  },
+  {
+    "key": "Obturator nerve",
+    "pt": "Nervo obturatório",
+    "sinonimos": ["nervo obturador"],
+    "raizes": "L2, L3, L4",
+    "origem": "Plexo lombar (divisões anteriores dos ramos anteriores de L2–L4).",
+    "trajeto": "Emerge pela borda medial do psoas maior, cruza a articulação sacroilíaca e desce pela parede lateral da pelve menor, acima dos vasos obturatórios. Atravessa o canal obturatório e, ao entrar na coxa, divide-se em ramo anterior e ramo posterior, separados pelo músculo adutor curto.",
+    "motor": "Ramo anterior: adutor longo, adutor curto, grácil e, às vezes, pectíneo. Ramo posterior: obturador externo, parte adutora do adutor magno e, às vezes, adutor curto.",
+    "sensitivo": "Pequena área de pele na face medial da coxa, acima do joelho (ramo cutâneo do ramo anterior). Ramos articulares para o quadril (ramo anterior) e para o joelho (ramo posterior).",
+    "lesao": "Lesado em cirurgias pélvicas, fraturas da pelve, parto, hérnia obturatória e tumores pélvicos; em atletas pode ser comprimido pela fáscia sobre o adutor curto. Fraqueza da adução da coxa, com marcha de base alargada e membro que se desvia lateralmente na fase de balanço; dor e parestesia na face medial da coxa.\n\nComo o nervo inerva tanto o quadril quanto o joelho, doenças do quadril podem causar dor referida na face medial do joelho.",
+    "resumo": "Nervo dos adutores da coxa (L2–L4): sai da pelve pelo canal obturatório e divide-se em ramos anterior e posterior."
+  },
+  {
+    "key": "Anterior branch of obturator nerve",
+    "pt": "Ramo anterior do nervo obturatório",
+    "raizes": "L2, L3, L4",
+    "resumo": "Desce à frente do obturador externo e do adutor curto, atrás do pectíneo e do adutor longo. Inerva adutor longo, adutor curto, grácil e, de forma inconstante, o pectíneo; dá ramo articular para o quadril e termina como ramo cutâneo para a face medial da coxa."
+  },
+  {
+    "key": "Posterior branch of obturator nerve",
+    "pt": "Ramo posterior do nervo obturatório",
+    "raizes": "L2, L3, L4",
+    "resumo": "Perfura o obturador externo, que inerva, e desce entre o adutor curto e o adutor magno. Inerva a parte adutora do adutor magno (e às vezes o adutor curto) e termina como ramo articular para a cápsula posterior do joelho."
+  },
+  {
+    "key": "Sacral plexus",
+    "pt": "Plexo sacral",
+    "raizes": "L4–S4",
+    "origem": "Tronco lombossacral (L4–L5) e ramos anteriores de S1 a S4.",
+    "trajeto": "Forma-se na parede posterior da pelve menor, sobre a face anterior do músculo piriforme. A maioria dos ramos sai da pelve pelo forame isquiático maior: acima do piriforme passa o nervo glúteo superior; abaixo dele, os nervos glúteo inferior, isquiático, cutâneo femoral posterior, pudendo e os nervos para o obturador interno e para o quadrado femoral.",
+    "motor": "Músculos da região glútea, compartimento posterior da coxa, toda a perna e o pé, além do períneo (nervo pudendo). O nervo glúteo inferior (L5–S2) inerva o glúteo máximo; o nervo glúteo superior (L4–S1) inerva glúteo médio, glúteo mínimo e tensor da fáscia lata.",
+    "sensitivo": "Pele da região glútea inferior, face posterior da coxa, perna (exceto a face medial) e pé, e do períneo.",
+    "lesao": "Comprometido por tumores pélvicos, fraturas do sacro e da pelve e traumas obstétricos. A lesão do nervo glúteo inferior causa fraqueza do glúteo máximo, com dificuldade para levantar-se da cadeira e subir escadas e inclinação do tronco para trás no apoio (marcha do glúteo máximo).",
+    "resumo": "Plexo formado por L4–S4 à frente do piriforme. Dá origem ao nervo isquiático, aos nervos glúteos e ao nervo pudendo."
+  },
+  {
+    "key": "Superior gluteal nerve",
+    "pt": "Nervo glúteo superior",
+    "raizes": "L4, L5, S1",
+    "origem": "Plexo sacral (divisões posteriores).",
+    "trajeto": "Sai da pelve pelo forame isquiático maior, acima do músculo piriforme (forame suprapiriforme), junto com os vasos glúteos superiores. Corre para a frente e lateralmente entre o glúteo médio e o glúteo mínimo, terminando no tensor da fáscia lata.",
+    "motor": "Glúteo médio, glúteo mínimo e tensor da fáscia lata.",
+    "sensitivo": "Não tem território cutâneo.",
+    "lesao": "Lesado por injeção intramuscular mal posicionada na região glútea, abordagens cirúrgicas laterais do quadril (artroplastia) e fraturas da pelve.\n\nParalisia dos abdutores do quadril: sinal de Trendelenburg positivo — no apoio unipodal sobre o lado lesado, a pelve cai para o lado oposto. Na marcha, o tronco inclina-se para o lado lesado a cada passo para compensar (marcha de Trendelenburg ou do glúteo médio); se bilateral, marcha anserina. Fraqueza da abdução e da rotação medial do quadril.",
+    "dica": "Para evitar o nervo e os vasos glúteos, as injeções são aplicadas no quadrante superolateral da nádega ou na região ventroglútea.",
+    "resumo": "Nervo dos abdutores do quadril (L4–S1): passa acima do piriforme e inerva glúteo médio, glúteo mínimo e tensor da fáscia lata. Sua lesão produz o sinal de Trendelenburg."
+  },
+  {
+    "key": "Nerve to piriformis muscle",
+    "pt": "Nervo para o músculo piriforme",
+    "raizes": "S1, S2",
+    "resumo": "Ramo curto do plexo sacral que penetra diretamente na face anterior do músculo piriforme, sem sair da pelve."
+  },
+  {
+    "key": "Nerve to quadratus femoris muscle",
+    "pt": "Nervo para o músculo quadrado femoral",
+    "raizes": "L4, L5, S1",
+    "resumo": "Sai da pelve pelo forame isquiático maior, abaixo do piriforme, e desce profundamente ao nervo isquiático, aos gêmeos e ao tendão do obturador interno. Inerva o quadrado femoral e o gêmeo inferior e dá um ramo articular para o quadril."
+  },
+  {
+    "key": "Posterior femoral cutaneous nerve",
+    "pt": "Nervo cutâneo femoral posterior",
+    "sinonimos": ["nervo cutâneo posterior da coxa"],
+    "raizes": "S1, S2, S3",
+    "resumo": "Nervo sensitivo do plexo sacral que sai pelo forame isquiático maior abaixo do piriforme e desce sob o glúteo máximo e a fáscia lata, medial ao nervo isquiático. Inerva a pele da parte inferior da nádega (nervos clúnios inferiores), do períneo (ramos perineais), da face posterior da coxa e da fossa poplítea."
+  },
+  {
+    "key": "Anterior root of posterior femoral cutaneous nerve",
+    "pt": "Raiz anterior do nervo cutâneo femoral posterior",
+    "raizes": "S2, S3",
+    "resumo": "Contribuição das divisões anteriores dos ramos anteriores de S2 e S3 para a formação do nervo cutâneo femoral posterior; suas fibras destinam-se sobretudo aos ramos perineais e à pele da face posteromedial da coxa."
+  },
+  {
+    "key": "Posterior root of posterior femoral cutaneous nerve",
+    "pt": "Raiz posterior do nervo cutâneo femoral posterior",
+    "raizes": "S1, S2",
+    "resumo": "Contribuição das divisões posteriores dos ramos anteriores de S1 e S2 para a formação do nervo cutâneo femoral posterior; suas fibras destinam-se sobretudo à pele da nádega inferior e da face posterior da coxa."
+  },
+  {
+    "key": "Pudendal nerve",
+    "pt": "Nervo pudendo",
+    "raizes": "S2, S3, S4",
+    "origem": "Plexo sacral (divisões anteriores de S2–S4).",
+    "trajeto": "Sai da pelve pelo forame isquiático maior, abaixo do piriforme, contorna a espinha isquiática e o ligamento sacroespinal e entra no períneo pelo forame isquiático menor. Percorre a parede lateral da fossa isquioanal dentro do canal do pudendo (canal de Alcock), na fáscia do obturador interno, com os vasos pudendos internos. Divide-se em nervo retal (anal) inferior, nervo perineal e nervo dorsal do pênis ou do clitóris.",
+    "motor": "Esfíncter externo do ânus (nervo retal inferior); músculos do períneo — bulboesponjoso, isquiocavernoso, transversos superficial e profundo do períneo — e esfíncter externo da uretra (nervo perineal). Contribui para o levantador do ânus, que recebe principalmente ramos diretos de S3–S4.",
+    "sensitivo": "Pele do períneo: região perianal, parte posterior do escroto ou dos lábios maiores, pênis ou clitóris; mucosa do canal anal inferior e da uretra distal.",
+    "lesao": "Estiramento no parto vaginal (período expulsivo prolongado, uso de fórceps), cirurgias pélvicas e compressão no canal de Alcock ou entre os ligamentos sacroespinal e sacrotuberal (ciclistas — pressão do selim).\n\nIncontinência urinária e fecal por fraqueza dos esfíncteres externos e do assoalho pélvico, disfunção sexual e hipoestesia perineal. Neuralgia do pudendo: dor perineal em queimação que piora ao sentar e alivia em pé ou sentado no vaso sanitário. A espinha isquiática é o ponto de referência para o bloqueio anestésico do nervo. É um nervo central para a fisioterapia pélvica.",
+    "resumo": "Principal nervo do períneo (S2–S4): inerva os esfíncteres externos do ânus e da uretra, os músculos perineais e a pele genital. Contorna a espinha isquiática e percorre o canal do pudendo."
+  },
+  {
+    "key": "Sciatic nerve",
+    "pt": "Nervo isquiático",
+    "sinonimos": ["nervo ciático"],
+    "raizes": "L4, L5, S1, S2, S3",
+    "origem": "Plexo sacral. É o maior nervo do corpo, formado por dois componentes envoltos na mesma bainha: tibial (divisões anteriores, L4–S3) e fibular comum (divisões posteriores, L4–S2).",
+    "trajeto": "Sai da pelve pelo forame isquiático maior, em geral abaixo do piriforme (em parte das pessoas o componente fibular atravessa o músculo ou passa acima dele). Desce profundamente ao glúteo máximo, a meio caminho entre o túber isquiático e o trocanter maior, sobre os músculos gêmeos, obturador interno e quadrado femoral. Na coxa corre sobre o adutor magno, coberto pela cabeça longa do bíceps femoral, e divide-se em nervos tibial e fibular comum, geralmente no ápice da fossa poplítea.",
+    "motor": "Pelo componente tibial: semitendíneo, semimembranáceo, cabeça longa do bíceps femoral e parte isquiotibial do adutor magno. Pelo componente fibular comum: cabeça curta do bíceps femoral. Por meio dos ramos terminais, todos os músculos da perna e do pé.",
+    "sensitivo": "Não tem ramos cutâneos diretos na coxa. Por seus ramos terminais, inerva a pele da perna (exceto a face medial, do nervo safeno) e do pé. Ramos articulares para o quadril e o joelho.",
+    "lesao": "Luxação posterior e fratura-luxação do quadril, artroplastia do quadril, injeção glútea mal posicionada (fora do quadrante superolateral), feridas penetrantes e compressão sob o piriforme (síndrome do piriforme, com dor glútea que piora ao sentar). O componente fibular é o mais vulnerável.\n\nLesão completa: fraqueza da flexão do joelho e paralisia de todos os músculos abaixo do joelho (pé caído e pendente), reflexo aquileu abolido e anestesia da perna e do pé, exceto a face medial.\n\n“Ciática” (ciatalgia): dor irradiada da região glútea pela face posterior da coxa até a perna e o pé, geralmente por compressão das raízes L5 ou S1 (hérnia de disco L4–L5 ou L5–S1) e não por lesão do nervo em si. Testes de tensão neural: elevação da perna estendida (Lasègue) e teste de slump.",
+    "resumo": "Maior nervo do corpo (L4–S3): inerva os isquiotibiais e, por seus ramos tibial e fibular comum, toda a perna e o pé. Passa sob o piriforme e desce pela face posterior da coxa."
+  },
+  {
+    "key": "Tibial nerve",
+    "pt": "Nervo tibial",
+    "raizes": "L4, L5, S1, S2, S3",
+    "origem": "Ramo terminal medial (o maior) do nervo isquiático.",
+    "trajeto": "Desce pelo meio da fossa poplítea, superficial à veia e à artéria poplíteas. Passa sob o arco tendíneo do sóleo e percorre o compartimento posterior da perna entre as camadas superficial e profunda, sobre o tibial posterior, junto com os vasos tibiais posteriores. No tornozelo passa atrás do maléolo medial, sob o retináculo dos flexores (túnel do tarso), entre os tendões do flexor longo dos dedos e do flexor longo do hálux, e divide-se em nervos plantares medial e lateral.",
+    "motor": "Compartimento posterior da perna: gastrocnêmio, sóleo, plantar, poplíteo, tibial posterior, flexor longo dos dedos e flexor longo do hálux. Pelos nervos plantares, todos os músculos intrínsecos da planta do pé. Na coxa (componente tibial do isquiático): isquiotibiais, exceto a cabeça curta do bíceps femoral.",
+    "sensitivo": "Pele da face posterior da perna (nervo cutâneo sural medial, que forma o nervo sural), do calcanhar (ramos calcâneos mediais) e de toda a planta do pé (nervos plantares). Ramos articulares para o joelho e o tornozelo.",
+    "lesao": "Lesão proximal (fossa poplítea: feridas, luxação posterior do joelho) é incomum, pois o nervo é profundo e protegido. Perda da flexão plantar e da flexão dos dedos e fraqueza da inversão: impossibilidade de ficar na ponta dos pés, marcha sem impulsão; pé em posição calcânea (dorsiflexão e eversão); reflexo aquileu abolido; anestesia da planta, com risco de úlceras.\n\nSíndrome do túnel do tarso: compressão sob o retináculo dos flexores (pé plano com valgo do retropé, sequela de entorse ou fratura, cisto, tenossinovite). Dor em queimação e parestesia na planta do pé e nos dedos, pior à noite e ao ficar em pé; sinal de Tinel atrás do maléolo medial; fraqueza dos intrínsecos em fases tardias.",
+    "dica": "Estruturas atrás do maléolo medial, de anterior para posterior: tendão do tibial posterior, tendão do flexor longo dos dedos, artéria e veias tibiais posteriores, nervo tibial e tendão do flexor longo do hálux.",
+    "resumo": "Ramo do isquiático (L4–S3) para o compartimento posterior da perna e a planta do pé: flexão plantar, flexão dos dedos e sensibilidade plantar. É a via do reflexo aquileu."
+  },
+  {
+    "key": "Medial sural cutaneous nerve",
+    "pt": "Nervo cutâneo sural medial",
+    "raizes": "S1, S2",
+    "resumo": "Ramo do nervo tibial na fossa poplítea. Desce no sulco entre as duas cabeças do gastrocnêmio, perfura a fáscia na metade da perna e une-se ao ramo comunicante sural do nervo fibular comum para formar o nervo sural."
+  },
+  {
+    "key": "Sural nerve",
+    "pt": "Nervo sural",
+    "raizes": "S1, S2",
+    "origem": "União do nervo cutâneo sural medial (do tibial) com o ramo comunicante sural (do fibular comum), em nível variável da face posterior da perna.",
+    "trajeto": "Desce pela face posterior da perna, lateral ao tendão do calcâneo, acompanhando a veia safena parva. Passa atrás e abaixo do maléolo lateral e segue pela borda lateral do pé como nervo cutâneo dorsal lateral, até o dedo mínimo.",
+    "motor": "Nenhum — é exclusivamente sensitivo.",
+    "sensitivo": "Pele da face posterolateral do terço distal da perna, da região lateral do calcanhar e do tornozelo e da borda lateral do pé e do dedo mínimo.",
+    "lesao": "Pode ser lesado em cirurgias do tendão do calcâneo, de varizes da safena parva e em fraturas e entorses do tornozelo, causando dor e parestesia na borda lateral do pé. Por ser superficial e exclusivamente sensitivo, é o nervo mais usado para biópsia e como enxerto de nervo. O território corresponde ao ponto de teste do dermátomo S1.",
+    "resumo": "Nervo sensitivo (S1–S2) formado por ramos do tibial e do fibular comum. Acompanha a veia safena parva e inerva a borda lateral do pé."
+  },
+  {
+    "key": "Medial plantar nerve",
+    "pt": "Nervo plantar medial",
+    "raizes": "L4, L5 (S1)",
+    "origem": "Ramo terminal (o maior) do nervo tibial, sob o retináculo dos flexores.",
+    "trajeto": "Passa profundamente ao abdutor do hálux e avança entre este músculo e o flexor curto dos dedos, lateral à artéria plantar medial. Termina em um nervo digital plantar próprio para a borda medial do hálux e três nervos digitais plantares comuns.",
+    "motor": "Abdutor do hálux, flexor curto dos dedos, flexor curto do hálux e 1º lumbrical.",
+    "sensitivo": "Pele dos dois terços mediais da planta do pé e face plantar dos três dedos e meio mediais (hálux, 2º, 3º e metade medial do 4º), incluindo os leitos ungueais.",
+    "lesao": "Compressão sob o abdutor do hálux, junto ao nó de Henry, em corredores com pronação excessiva (“pé do corredor”): dor e parestesia no arco medial e na face plantar do hálux. Participa também da síndrome do túnel do tarso.",
+    "dica": "É o equivalente do nervo mediano na mão: inerva 4 músculos e 3 dedos e meio.",
+    "resumo": "Ramo terminal do tibial comparável ao mediano da mão: inerva abdutor do hálux, flexores curtos e 1º lumbrical, e a pele plantar dos três dedos e meio mediais."
+  },
+  {
+    "key": "Common plantar digital branches of medial plantar nerve",
+    "pt": "Nervos digitais plantares comuns do nervo plantar medial",
+    "resumo": "Três ramos que correm entre as divisões da aponeurose plantar em direção aos três primeiros espaços interdigitais; o primeiro inerva o 1º lumbrical. Cada um se divide em dois nervos digitais plantares próprios. O do terceiro espaço recebe um ramo comunicante do nervo plantar lateral e é o local típico do neuroma de Morton."
+  },
+  {
+    "key": "Proper plantar digital branches of medial plantar nerve",
+    "pt": "Nervos digitais plantares próprios do nervo plantar medial",
+    "resumo": "Inervam a pele plantar e os leitos ungueais do hálux, do 2º e do 3º dedos e da metade medial do 4º dedo. O ramo para a borda medial do hálux também inerva o flexor curto do hálux."
+  },
+  {
+    "key": "Lateral plantar nerve",
+    "pt": "Nervo plantar lateral",
+    "raizes": "S1, S2 (S3)",
+    "origem": "Ramo terminal (o menor) do nervo tibial, sob o retináculo dos flexores.",
+    "trajeto": "Cruza a planta obliquamente em direção lateral, entre o flexor curto dos dedos e o quadrado plantar, junto com a artéria plantar lateral. Próximo à base do 5º metatarsal divide-se em ramo superficial (sensitivo e para músculos do 5º dedo) e ramo profundo, que acompanha o arco plantar profundo.",
+    "motor": "Quadrado plantar, abdutor do dedo mínimo, flexor curto do dedo mínimo, interósseos plantares e dorsais, 2º, 3º e 4º lumbricais e adutor do hálux.",
+    "sensitivo": "Pele do terço lateral da planta do pé e face plantar do dedo mínimo e da metade lateral do 4º dedo.",
+    "lesao": "Seu primeiro ramo (para o abdutor do dedo mínimo, nervo de Baxter) pode ser comprimido entre o abdutor do hálux e o quadrado plantar, causando dor plantar medial no calcanhar que simula fascite plantar. A paralisia dos interósseos e lumbricais favorece a deformidade dos dedos em garra.",
+    "dica": "É o equivalente do nervo ulnar na mão: inerva a maior parte dos intrínsecos e um dedo e meio.",
+    "resumo": "Ramo terminal do tibial comparável ao ulnar da mão: inerva a maioria dos músculos intrínsecos do pé e a pele plantar do dedo e meio laterais."
+  },
+  {
+    "key": "Common plantar digital branches of lateral plantar nerve",
+    "pt": "Nervos digitais plantares comuns do nervo plantar lateral",
+    "resumo": "Originam-se do ramo superficial do nervo plantar lateral. O ramo para o quarto espaço interdigital divide-se em nervos digitais próprios para os lados adjacentes do 4º e do 5º dedos e envia um ramo comunicante ao nervo plantar medial; o ramo lateral segue para a borda lateral do dedo mínimo e inerva o flexor curto do dedo mínimo."
+  },
+  {
+    "key": "Proper plantar digital branches of lateral plantar nerve",
+    "pt": "Nervos digitais plantares próprios do nervo plantar lateral",
+    "resumo": "Inervam a pele plantar e os leitos ungueais do dedo mínimo e da metade lateral do 4º dedo."
+  },
+  {
+    "key": "Common fibular nerve",
+    "pt": "Nervo fibular comum",
+    "sinonimos": ["nervo peroneiro comum", "nervo ciático poplíteo externo"],
+    "raizes": "L4, L5, S1, S2",
+    "origem": "Ramo terminal lateral (o menor) do nervo isquiático, geralmente no ápice da fossa poplítea.",
+    "trajeto": "Segue a borda medial do bíceps femoral e de seu tendão ao longo do limite superolateral da fossa poplítea, passa sobre a cabeça lateral do gastrocnêmio e contorna o colo da fíbula, onde é subcutâneo e palpável. Penetra no fibular longo e divide-se em nervos fibular superficial e fibular profundo.",
+    "motor": "Cabeça curta do bíceps femoral (ramo emitido na coxa, ainda como componente fibular do isquiático). Por seus ramos terminais: compartimento lateral da perna (fibular superficial) e compartimento anterior da perna e dorso do pé (fibular profundo).",
+    "sensitivo": "Pele da face lateral da parte proximal da perna (nervo cutâneo sural lateral); contribui para o nervo sural pelo ramo comunicante sural. Pelos ramos terminais: face anterolateral da perna e dorso do pé. Ramos articulares para o joelho e a articulação tibiofibular proximal.",
+    "lesao": "É o nervo mais lesado do membro inferior, pela posição superficial junto ao colo da fíbula: fratura do colo da fíbula, gesso ou órtese apertados, apoio prolongado (pernas cruzadas, acamados, posição de cócoras), emagrecimento acentuado, luxação do joelho e lesões do canto posterolateral, cisto sinovial e entorses graves em inversão (tração).\n\nPé caído: paralisia dos dorsiflexores e dos eversores, com marcha escarvante (o paciente eleva o joelho para o pé não arrastar e o pé bate no chão); pé em equinovaro; perda sensitiva na face anterolateral da perna e no dorso do pé. A inversão e a flexão plantar estão preservadas (nervo tibial), o que ajuda a diferenciar da radiculopatia L5, na qual a inversão e a abdução do quadril também enfraquecem.",
+    "resumo": "Ramo lateral do isquiático (L4–S2) que contorna o colo da fíbula, onde é superficial e vulnerável. Sua lesão causa pé caído e marcha escarvante."
+  },
+  {
+    "key": "Sural communicating branch of common fibular nerve",
+    "pt": "Ramo comunicante sural do nervo fibular comum",
+    "sinonimos": ["ramo comunicante fibular"],
+    "resumo": "Ramo do nervo fibular comum (ou do nervo cutâneo sural lateral) que cruza a cabeça lateral do gastrocnêmio e une-se ao nervo cutâneo sural medial para formar o nervo sural. O nível da união é muito variável."
+  },
+  {
+    "key": "Superficial fibular nerve",
+    "pt": "Nervo fibular superficial",
+    "sinonimos": ["nervo peroneiro superficial", "nervo musculocutâneo da perna"],
+    "raizes": "L4, L5, S1",
+    "origem": "Ramo terminal do nervo fibular comum, junto ao colo da fíbula.",
+    "trajeto": "Desce no compartimento lateral da perna, entre os fibulares e o extensor longo dos dedos. Perfura a fáscia da perna no terço distal, tornando-se subcutâneo, e divide-se em nervos cutâneos dorsais medial e intermédio do pé.",
+    "motor": "Fibular longo e fibular curto.",
+    "sensitivo": "Pele da parte distal da face anterolateral da perna e da maior parte do dorso do pé e dos dedos, exceto o primeiro espaço interdigital (fibular profundo) e a borda lateral do pé (sural).",
+    "lesao": "Compressão no ponto em que perfura a fáscia, cerca de 10 cm acima do maléolo lateral (hérnia muscular, síndrome compartimental lateral), ou estiramento em entorses de tornozelo em inversão. Dor e parestesia no dorso do pé, que pioram com flexão plantar e inversão. Na lesão proximal: fraqueza da eversão, com tendência a entorses em inversão.",
+    "resumo": "Nervo do compartimento lateral da perna (L4–S1): inerva os fibulares longo e curto (eversão) e a pele do dorso do pé."
+  },
+  {
+    "key": "Medial dorsal cutaneous nerve of foot",
+    "pt": "Nervo cutâneo dorsal medial do pé",
+    "resumo": "Ramo terminal medial do nervo fibular superficial. Passa à frente do tornozelo e inerva a pele da borda medial do pé e do hálux e os lados adjacentes do 2º e do 3º dedos."
+  },
+  {
+    "key": "Intermediate dorsal cutaneous nerve of foot",
+    "pt": "Nervo cutâneo dorsal intermédio do pé",
+    "resumo": "Ramo terminal lateral do nervo fibular superficial. Cruza a face anterolateral do tornozelo, onde pode ser visto sob a pele na flexão plantar com inversão, e inerva o dorso lateral do pé e os lados adjacentes do 3º, 4º e 5º dedos. É vulnerável nas entorses em inversão e nos portais de artroscopia do tornozelo."
+  },
+  {
+    "key": "Dorsal digital branches of superficial fibular nerve",
+    "pt": "Nervos digitais dorsais do pé (do nervo fibular superficial)",
+    "resumo": "Ramos terminais dos nervos cutâneos dorsais medial e intermédio do pé. Inervam a pele do dorso dos dedos, exceto os lados adjacentes do hálux e do 2º dedo (fibular profundo) e a borda lateral do dedo mínimo (sural)."
+  },
+  {
+    "key": "Deep fibular nerve",
+    "pt": "Nervo fibular profundo",
+    "sinonimos": ["nervo peroneiro profundo", "nervo tibial anterior"],
+    "raizes": "L4, L5, S1",
+    "origem": "Ramo terminal do nervo fibular comum, junto ao colo da fíbula.",
+    "trajeto": "Perfura o septo intermuscular anterior e o extensor longo dos dedos e desce sobre a membrana interóssea, junto com a artéria tibial anterior, entre o tibial anterior e os extensores. Passa sob os retináculos dos extensores, à frente do tornozelo, e no dorso do pé divide-se em ramo lateral (motor) e ramo medial (sensitivo).",
+    "motor": "Compartimento anterior da perna: tibial anterior, extensor longo dos dedos, extensor longo do hálux e fibular terceiro. No pé: extensor curto dos dedos e extensor curto do hálux.",
+    "sensitivo": "Pele do primeiro espaço interdigital (lados adjacentes do hálux e do 2º dedo). Ramos articulares para o tornozelo e as articulações do tarso.",
+    "lesao": "Síndrome compartimental anterior da perna (aguda ou crônica do exercício), compressão sob o retináculo inferior dos extensores (síndrome do túnel do tarso anterior: calçado ou cadarço apertado, botas de esqui) e trauma.\n\nFraqueza ou paralisia da dorsiflexão e da extensão dos dedos e do hálux: pé caído e marcha escarvante, com eversão preservada; perda sensitiva restrita ao primeiro espaço interdigital. Na compressão no tornozelo: dor no dorso do pé e parestesia no primeiro espaço, com atrofia do extensor curto dos dedos.",
+    "resumo": "Nervo do compartimento anterior da perna (L4–S1): dorsiflexores do tornozelo e extensores dos dedos. Dá sensibilidade apenas ao primeiro espaço interdigital."
+  },
+  {
+    "key": "Muscular branches of deep fibular nerve",
+    "pt": "Ramos musculares do nervo fibular profundo",
+    "resumo": "Na perna inervam tibial anterior, extensor longo dos dedos, extensor longo do hálux e fibular terceiro; no dorso do pé, o ramo lateral inerva o extensor curto dos dedos e o extensor curto do hálux."
+  },
+  {
+    "key": "Dorsal digital branches of deep fibular nerve",
+    "pt": "Nervos digitais dorsais do nervo fibular profundo",
+    "resumo": "Ramos terminais do ramo medial do fibular profundo. Inervam a pele dos lados adjacentes do hálux e do 2º dedo (primeiro espaço interdigital) — ponto usado para testar a integridade sensitiva do nervo."
+  }
+]

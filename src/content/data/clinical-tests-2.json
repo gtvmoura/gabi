@@ -1,0 +1,222 @@
+[
+  {
+    "id": "cozen",
+    "nome": "Teste de Cozen",
+    "art": "cotovelo",
+    "objetivo": "Investigar epicondilalgia lateral (epicondilite lateral, «cotovelo de tenista»).",
+    "estruturas": ["Common extensor tendon", "Extensor carpi radialis brevis", "Extensor carpi radialis longus", "Extensor digitorum", "Lateral epicondyle of humerus"],
+    "posicao": "Sentado, cotovelo fletido a 90° (ou estendido, para maior provocação), antebraço pronado e mão fechada.",
+    "execucao": "O examinador estabiliza o cotovelo com o polegar sobre o epicôndilo lateral. O paciente estende o punho com desvio radial, e o examinador resiste ao movimento.",
+    "positivo": "Dor súbita e localizada no epicôndilo lateral do úmero.",
+    "observacao": "O tendão do extensor radial curto do carpo é o mais acometido. Diferenciar de compressão do nervo interósseo posterior (síndrome do túnel radial), de dor referida cervical (C6–C7) e de patologia da articulação umerorradial."
+  },
+  {
+    "id": "mill",
+    "nome": "Teste de Mill",
+    "art": "cotovelo",
+    "objetivo": "Provocar a origem dos extensores do punho por alongamento passivo, na suspeita de epicondilalgia lateral.",
+    "estruturas": ["Common extensor tendon", "Extensor carpi radialis brevis", "Extensor digitorum", "Lateral epicondyle of humerus"],
+    "posicao": "Sentado, cotovelo inicialmente fletido.",
+    "execucao": "O examinador palpa o epicôndilo lateral e, passivamente, prona o antebraço, flete totalmente o punho e os dedos e estende o cotovelo.",
+    "positivo": "Dor no epicôndilo lateral ao final do alongamento.",
+    "observacao": "A mesma manobra coloca o nervo radial em tensão; parestesias no dorso do antebraço e da mão sugerem componente neural, e não tendíneo."
+  },
+  {
+    "id": "maudsley",
+    "nome": "Teste de Maudsley (extensão resistida do 3º dedo)",
+    "art": "cotovelo",
+    "objetivo": "Investigar epicondilalgia lateral, tensionando o extensor dos dedos e o extensor radial curto do carpo.",
+    "estruturas": ["Extensor digitorum", "Extensor carpi radialis brevis", "Common extensor tendon", "Lateral epicondyle of humerus", "Third metacarpal bone"],
+    "posicao": "Sentado, cotovelo estendido, antebraço pronado, dedos estendidos.",
+    "execucao": "O examinador resiste à extensão do terceiro dedo, aplicando a força distalmente à articulação interfalângica proximal.",
+    "positivo": "Dor no epicôndilo lateral do úmero.",
+    "observacao": "O extensor radial curto do carpo insere-se na base do terceiro metacarpal, o que explica a provocação. Dor mais distal, no antebraço proximal, pode ocorrer na síndrome do túnel radial."
+  },
+  {
+    "id": "epicondilite-medial",
+    "nome": "Teste para epicondilalgia medial («cotovelo de golfista»)",
+    "art": "cotovelo",
+    "objetivo": "Investigar tendinopatia da origem comum dos flexores do punho e do pronador redondo.",
+    "estruturas": ["Common flexor tendon", "Flexor carpi radialis", "Superficial head of pronator teres", "Humeral head of flexor carpi ulnaris", "Medial epicondyle of humerus"],
+    "posicao": "Sentado, cotovelo fletido, antebraço supinado.",
+    "execucao": "Passivo: o examinador palpa o epicôndilo medial e, mantendo o antebraço supinado, estende o punho e depois o cotovelo. Ativo: resiste-se à flexão do punho e à pronação do antebraço.",
+    "positivo": "Dor no epicôndilo medial do úmero ao alongamento passivo ou à contração resistida.",
+    "observacao": "Examinar sempre o nervo ulnar (Tinel no túnel cubital) e o ligamento colateral ulnar, que ficam muito próximos e podem estar acometidos em conjunto, principalmente em arremessadores."
+  },
+  {
+    "id": "estresse-valgo-cotovelo",
+    "nome": "Teste de estresse em valgo do cotovelo",
+    "art": "cotovelo",
+    "objetivo": "Avaliar a integridade do ligamento colateral ulnar (medial), em especial de sua banda anterior.",
+    "estruturas": ["Ulnar collateral ligament", "Elbow joint", "Medial epicondyle of humerus", "Sublime tubercle", "Humero-ulnar joint"],
+    "posicao": "Sentado ou em decúbito dorsal, cotovelo fletido a 20°–30° (para desencaixar o olécrano da fossa olecraniana), antebraço supinado.",
+    "execucao": "O examinador estabiliza o úmero distal pela face lateral e aplica força em valgo (abdução) no antebraço distal, palpando a interlinha medial.",
+    "positivo": "Dor medial e/ou abertura aumentada da interlinha medial, com sensação final mais «mole», em comparação com o lado oposto.",
+    "observacao": "O teste de estresse em valgo em movimento (moving valgus), que aplica o valgo enquanto o cotovelo é estendido a partir da flexão máxima, é mais sensível em atletas de arremesso, com dor típica no arco entre cerca de 120° e 70° de flexão."
+  },
+  {
+    "id": "estresse-varo-cotovelo",
+    "nome": "Teste de estresse em varo do cotovelo",
+    "art": "cotovelo",
+    "objetivo": "Avaliar a integridade do complexo ligamentar colateral lateral (radial).",
+    "estruturas": ["Radial collateral ligament", "Annular ligament of radius", "Elbow joint", "Lateral epicondyle of humerus", "Humeroradial joint"],
+    "posicao": "Sentado ou em decúbito dorsal, cotovelo fletido a 20°–30°.",
+    "execucao": "O examinador estabiliza o úmero distal pela face medial e aplica força em varo (adução) no antebraço distal, com o ombro em rotação medial para travar o úmero.",
+    "positivo": "Dor lateral e/ou abertura excessiva da interlinha lateral em comparação com o lado oposto.",
+    "observacao": "A insuficiência do complexo lateral manifesta-se mais frequentemente como instabilidade rotatória posterolateral do que como frouxidão em varo puro."
+  },
+  {
+    "id": "tinel-tunel-cubital",
+    "nome": "Sinal de Tinel no túnel cubital",
+    "art": "cotovelo",
+    "objetivo": "Investigar irritação ou compressão do nervo ulnar no cotovelo.",
+    "estruturas": ["Ulnar nerve", "Medial epicondyle of humerus", "Olecranon", "Humeral head of flexor carpi ulnaris", "Ulnar head of flexor carpi ulnaris"],
+    "posicao": "Sentado, cotovelo levemente fletido e relaxado.",
+    "execucao": "O examinador percute suavemente o nervo ulnar no sulco entre o epicôndilo medial e o olécrano e logo distal a ele.",
+    "positivo": "Parestesia (choque, formigamento) irradiada para a borda ulnar do antebraço, o quinto dedo e a metade ulnar do quarto dedo.",
+    "observacao": "Percussão vigorosa provoca formigamento também em pessoas sem neuropatia; comparar com o lado oposto. Observar se o nervo subluxa sobre o epicôndilo durante a flexão do cotovelo."
+  },
+  {
+    "id": "flexao-do-cotovelo",
+    "nome": "Teste de flexão do cotovelo",
+    "art": "cotovelo",
+    "objetivo": "Investigar síndrome do túnel cubital (compressão do nervo ulnar no cotovelo).",
+    "estruturas": ["Ulnar nerve", "Medial epicondyle of humerus", "Ulnar collateral ligament", "Elbow joint"],
+    "posicao": "Sentado ou em pé, cotovelos em flexão máxima, antebraços supinados e punhos estendidos.",
+    "execucao": "O paciente mantém a posição por até 3 minutos (alguns autores associam pressão digital sobre o nervo no túnel cubital, reduzindo o tempo necessário).",
+    "positivo": "Dormência ou formigamento no território do nervo ulnar (quinto dedo e metade ulnar do quarto).",
+    "observacao": "A flexão do cotovelo estreita o túnel cubital e alonga o nervo ulnar. Complementar com exame de sensibilidade, força dos interósseos e sinal de Froment."
+  },
+  {
+    "id": "phalen",
+    "nome": "Teste de Phalen",
+    "art": "punho",
+    "objetivo": "Investigar síndrome do túnel do carpo (compressão do nervo mediano).",
+    "estruturas": ["Median nerve", "Flexor retinaculum of wrist", "Carpal bones", "Common flexor tendon sheath"],
+    "posicao": "Sentado ou em pé, cotovelos fletidos.",
+    "execucao": "O paciente mantém os punhos em flexão máxima por 60 segundos, encostando o dorso de uma mão no da outra, ou o examinador flete passivamente os punhos.",
+    "positivo": "Parestesia (formigamento, dormência) no território do nervo mediano: polegar, indicador, dedo médio e metade radial do anular.",
+    "observacao": "Sensibilidade e especificidade apenas moderadas e variáveis entre estudos. Anotar o tempo até o início dos sintomas. A eminência tenar tem sensibilidade preservada na síndrome do túnel do carpo, pois o ramo cutâneo palmar do mediano não passa pelo túnel."
+  },
+  {
+    "id": "phalen-invertido",
+    "nome": "Teste de Phalen invertido (sinal da prece)",
+    "art": "punho",
+    "objetivo": "Investigar síndrome do túnel do carpo por meio da extensão mantida do punho.",
+    "estruturas": ["Median nerve", "Flexor retinaculum of wrist", "Carpal bones"],
+    "posicao": "Sentado ou em pé.",
+    "execucao": "O paciente une as palmas das mãos à frente do tórax (posição de prece), com punhos em extensão máxima e dedos estendidos, mantendo por 60 segundos.",
+    "positivo": "Parestesia no território do nervo mediano.",
+    "observacao": "A extensão do punho também aumenta a pressão no túnel do carpo e ainda tensiona o nervo. Pode ser positivo quando o Phalen clássico é negativo."
+  },
+  {
+    "id": "tinel-tunel-do-carpo",
+    "nome": "Sinal de Tinel no túnel do carpo",
+    "art": "punho",
+    "objetivo": "Investigar irritabilidade do nervo mediano no punho.",
+    "estruturas": ["Median nerve", "Flexor retinaculum of wrist", "Palmaris longus muscle", "Flexor carpi radialis"],
+    "posicao": "Sentado, antebraço supinado apoiado na mesa, punho em posição neutra ou leve extensão.",
+    "execucao": "O examinador percute o trajeto do nervo mediano na prega distal do punho, entre os tendões do palmar longo e do flexor radial do carpo.",
+    "positivo": "Formigamento ou choque irradiado distalmente para o território do mediano (três primeiros dedos e metade radial do quarto).",
+    "observacao": "Em geral mais específico do que sensível. Dor apenas local não caracteriza teste positivo."
+  },
+  {
+    "id": "compressao-carpal-durkan",
+    "nome": "Teste de compressão carpal (Durkan)",
+    "art": "punho",
+    "objetivo": "Investigar síndrome do túnel do carpo por compressão direta do nervo mediano.",
+    "estruturas": ["Median nerve", "Flexor retinaculum of wrist", "Carpal bones"],
+    "posicao": "Sentado, antebraço supinado e apoiado, punho em posição neutra.",
+    "execucao": "O examinador comprime com os dois polegares a região do túnel do carpo, sobre o nervo mediano, de forma mantida por até 30 segundos.",
+    "positivo": "Reprodução de dormência, formigamento ou dor no território do nervo mediano.",
+    "observacao": "Vários estudos apontam desempenho igual ou superior ao de Phalen e Tinel. O diagnóstico clínico é mais seguro combinando história (sintomas noturnos, alívio ao sacudir as mãos), distribuição dos sintomas e exame sensitivo e motor da eminência tenar."
+  },
+  {
+    "id": "finkelstein",
+    "nome": "Teste de Finkelstein",
+    "art": "punho",
+    "objetivo": "Investigar tenossinovite estenosante de De Quervain (primeiro compartimento dorsal do punho).",
+    "estruturas": ["Abductor pollicis longus", "Extensor pollicis brevis", "Tendon sheath - abd. pollicis longus - ext. pollicis brevis", "Radial styloid process", "Extensor retinaculum of wrist"],
+    "posicao": "Sentado, antebraço em posição neutra de pronossupinação, com a borda ulnar para baixo.",
+    "execucao": "O examinador segura o polegar do paciente e conduz passivamente o punho em desvio ulnar, tracionando o polegar em flexão. Na variante de Eichhoff (a mais difundida), o paciente fecha a mão com o polegar dentro dos dedos e o punho é desviado ulnarmente.",
+    "positivo": "Dor intensa sobre o processo estiloide do rádio, reproduzindo a queixa.",
+    "observacao": "A manobra é desconfortável em muitas pessoas normais, sobretudo na variante de Eichhoff: comparar com o lado oposto e executar com suavidade. Diferenciar de rizartrose (teste de compressão e rotação do polegar) e da síndrome da intersecção, cuja dor é mais proximal."
+  },
+  {
+    "id": "watson",
+    "nome": "Teste de Watson (deslocamento do escafoide)",
+    "art": "punho",
+    "objetivo": "Investigar instabilidade escafossemilunar (lesão do ligamento interósseo escafossemilunar).",
+    "estruturas": ["Scaphoid bone", "Lunate bone", "Scapholunate interosseous ligament", "Tubercle of scaphoid bone", "Radius"],
+    "posicao": "Sentado de frente para o examinador, cotovelo apoiado na mesa, antebraço levemente pronado.",
+    "execucao": "O examinador pressiona com o polegar o tubérculo do escafoide (face palmar) e, com a outra mão, leva o punho do desvio ulnar com leve extensão para o desvio radial com leve flexão, impedindo o escafoide de fletir.",
+    "positivo": "Dor dorsal no punho e/ou ressalto palpável (clunk) quando a pressão do polegar é liberada e o polo proximal do escafoide, subluxado dorsalmente, reduz-se.",
+    "observacao": "Há ressalto indolor em parte das pessoas com frouxidão ligamentar; por isso a comparação bilateral e a reprodução da dor habitual são essenciais."
+  },
+  {
+    "id": "allen",
+    "nome": "Teste de Allen",
+    "art": "punho",
+    "objetivo": "Avaliar a perviedade das artérias radial e ulnar e a circulação colateral da mão pelos arcos palmares.",
+    "estruturas": ["Radial artery", "Ulnar artery", "Superficial palmar arch", "Deep palmar arch"],
+    "posicao": "Sentado, antebraço supinado.",
+    "execucao": "O paciente abre e fecha a mão várias vezes e a mantém fechada. O examinador comprime simultaneamente as artérias radial e ulnar no punho. O paciente abre a mão (sem hiperestender os dedos), que deve estar pálida. Libera-se uma artéria e observa-se o tempo de retorno da coloração; repete-se liberando a outra.",
+    "positivo": "Retorno lento ou ausente da coloração da mão após liberar uma das artérias, indicando obstrução dessa artéria ou arco palmar incompleto.",
+    "observacao": "O retorno normal ocorre em poucos segundos. É classicamente realizado antes de punção ou cateterização da artéria radial. A hiperextensão dos dedos pode produzir palidez falsa."
+  },
+  {
+    "id": "froment",
+    "nome": "Sinal de Froment",
+    "art": "polegar",
+    "objetivo": "Detectar fraqueza do adutor do polegar por lesão do nervo ulnar.",
+    "estruturas": ["Oblique head of adductor pollicis", "Transverse head of adductor pollicis", "Flexor pollicis longus", "Ulnar nerve", "Deep branch of ulnar nerve", "Anterior interosseous nerve of forearm"],
+    "posicao": "Sentado.",
+    "execucao": "O paciente segura uma folha de papel entre o polegar e a face radial do indicador (pinça lateral), em ambas as mãos, enquanto o examinador tenta puxá-la.",
+    "positivo": "Flexão da articulação interfalângica do polegar para manter a pinça: o flexor longo do polegar (nervo mediano, ramo interósseo anterior) substitui o adutor do polegar paralisado.",
+    "observacao": "Quando há também hiperextensão da articulação metacarpofalângica do polegar, descreve-se o sinal de Jeanne. Comparar com o lado oposto."
+  },
+  {
+    "id": "estresse-lcu-polegar",
+    "nome": "Teste de estresse em valgo da metacarpofalângica do polegar",
+    "art": "polegar",
+    "objetivo": "Avaliar o ligamento colateral ulnar da articulação metacarpofalângica do polegar («polegar do esquiador» ou «do goleiro»).",
+    "estruturas": ["Collateral metacarpophalangeal ligaments", "First metacarpal bone", "Proximal phalanx of first finger of hand", "Articular capsules of metacarpophalangeal joints"],
+    "posicao": "Sentado, mão relaxada.",
+    "execucao": "O examinador estabiliza o primeiro metacarpal e aplica força em valgo (desvio radial) sobre a falange proximal do polegar, com a articulação em extensão e depois em cerca de 30° de flexão.",
+    "positivo": "Abertura articular claramente maior que a do lado oposto, sem ponto final firme, e dor na face ulnar da articulação.",
+    "observacao": "Frouxidão em extensão e em flexão sugere ruptura completa, com lesão associada do ligamento colateral acessório e da placa volar. Em trauma agudo, é prudente radiografar antes para excluir fratura-avulsão."
+  },
+  {
+    "id": "grind-test-polegar",
+    "nome": "Teste de compressão e rotação do polegar (grind test)",
+    "art": "polegar",
+    "objetivo": "Investigar artrose da articulação carpometacarpal do polegar (rizartrose).",
+    "estruturas": ["First metacarpal bone", "Trapezium bone", "Carpometacarpal joints", "Palmar carpometacarpal ligaments"],
+    "posicao": "Sentado, mão relaxada.",
+    "execucao": "O examinador segura o primeiro metacarpal, aplica compressão axial em direção ao trapézio e realiza movimentos de rotação.",
+    "positivo": "Dor na base do polegar, com ou sem crepitação.",
+    "observacao": "Ajuda a diferenciar a rizartrose da tenossinovite de De Quervain, cuja dor fica sobre o processo estiloide do rádio e é provocada pelo teste de Finkelstein."
+  },
+  {
+    "id": "pinca-ok-interosseo-anterior",
+    "nome": "Teste da pinça («OK») para o nervo interósseo anterior",
+    "art": "dedos_mao",
+    "objetivo": "Detectar paralisia do nervo interósseo anterior (ramo motor do nervo mediano).",
+    "estruturas": ["Anterior interosseous nerve of forearm", "Flexor pollicis longus", "Flexor digitorum profundus", "Pronator quadratus", "Median nerve"],
+    "posicao": "Sentado.",
+    "execucao": "Solicita-se ao paciente que faça o sinal de «OK», unindo a ponta do polegar à ponta do indicador de modo a formar um círculo.",
+    "positivo": "Incapacidade de fletir a interfalângica do polegar e a interfalângica distal do indicador: as polpas (e não as pontas) se tocam, e o círculo vira uma forma achatada, em «gota» ou triângulo.",
+    "observacao": "O nervo interósseo anterior não tem território cutâneo, portanto não há perda de sensibilidade. Diferenciar de ruptura do tendão do flexor longo do polegar ou do flexor profundo do indicador."
+  },
+  {
+    "id": "bunnell-littler",
+    "nome": "Teste de Bunnell-Littler",
+    "art": "dedos_mao",
+    "objetivo": "Diferenciar retração dos músculos intrínsecos da mão de retração capsular da articulação interfalângica proximal.",
+    "estruturas": ["Lumbrical muscles of hand", "Dorsal interossei muscles of hand", "Palmar interossei muscles", "Articular capsules of proximal interphalangeal joints", "Metacarpophalangeal joints"],
+    "posicao": "Sentado, mão relaxada.",
+    "execucao": "O examinador mantém a articulação metacarpofalângica em leve extensão e tenta fletir passivamente a interfalângica proximal. Em seguida, repete a flexão da interfalângica proximal com a metacarpofalângica fletida.",
+    "positivo": "Se a interfalângica proximal não flete com a metacarpofalângica estendida, mas flete quando esta é fletida, há retração dos intrínsecos. Se a flexão é limitada nas duas posições, a restrição é capsular.",
+    "observacao": "A extensão da metacarpofalângica alonga interósseos e lumbricais, que passam à frente do eixo dessa articulação e atrás do eixo das interfalângicas."
+  }
+]

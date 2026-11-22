@@ -1,0 +1,49 @@
+# Atlas da Gabi 💛
+
+Atlas 3D de anatomia para estudar Fisioterapia no tablet — feito de presente para a Gabi.
+
+Funciona no navegador (iPad, Android, computador), pode ser instalado na tela de início e usado sem internet.
+
+## O que tem
+
+- **Atlas 3D do corpo inteiro** — 1.814 estruturas: ossos, músculos, ligamentos, cápsulas, nervos, artérias, veias, órgãos, encéfalo, linfonodos e pele. Gire, aproxime, toque para selecionar, oculte camada por camada.
+- **Ficha de cada músculo** (188 fichas): origem, inserção, inervação com raízes, vascularização, ações, função, palpação, prova de função, alongamento, clínica e macetes.
+- **Origem e inserção no osso** — as áreas aparecem pintadas (vermelho/azul) direto no esqueleto; e o "mapa de inserções" de cada osso mostra todos os músculos que se fixam nele.
+- **Ossos com acidentes ósseos** — mais de 550 acidentes marcados com pontos no 3D, com nome e para que servem.
+- **Articulações** — tipo, amplitude de movimento (goniometria), posição de repouso e fechada, padrão capsular, ligamentos.
+- **Movimentos** — escolha a articulação e o movimento e veja no 3D os motores primários e auxiliares.
+- **Nervos** — raízes, trajeto, território motor e sensitivo, quadro de lesão; território motor destacado no 3D. Tabelas de dermátomos, miótomos, reflexos e plexos.
+- **Clínica** — 100 testes ortopédicos/neurológicos com execução e interpretação, e as 8 fases da marcha com os músculos ativos.
+- **Roteiros de estudo** — 38 temas (manguito rotador, plexo braquial, ligamentos do joelho, core…) com texto, pontos-chave e perguntas.
+- **Quiz** — identificar estruturas, encontrar no 3D, inervação, origem/inserção e ações.
+- **Flashcards com repetição espaçada**, anotações pessoais, favoritos, progresso e sequência de dias.
+
+## Personalizar os recados
+
+Os textos carinhosos (boas-vindas, assinatura e recados de conquistas) ficam em [`src/content/recados.ts`](src/content/recados.ts).
+
+## Rodar e publicar
+
+```bash
+npm install
+npm run dev      # desenvolvimento
+npm run build    # gera a pasta dist/ (site estático)
+```
+
+`dist/` é um site estático: funciona em GitHub Pages, Vercel, Netlify ou qualquer hospedagem.
+O workflow em `.github/workflows/pages.yml` publica no GitHub Pages (ative em *Settings → Pages → Source: GitHub Actions*).
+
+## Como os modelos 3D são gerados
+
+1. `scripts/blender/export.py` — abre o arquivo do Z-Anatomy no Blender (módulo `bpy`) e exporta um GLB por sistema e um manifesto.
+2. `scripts/optimize-models.mjs` — simplifica e comprime (meshopt) para `public/models/`.
+3. `scripts/build-manifest.mjs` — gera `public/data/manifest.json` (nomes, lados, inserções, acidentes ósseos).
+
+O conteúdo de estudo fica em `src/content/data/*.json`; o formato está em [`docs/CONTEUDO.md`](docs/CONTEUDO.md).
+
+## Créditos e licença
+
+- Modelos 3D: [Z-Anatomy](https://www.z-anatomy.com/) (Gauthier Kervyn e colaboradores), derivado de BodyParts3D © The Database Center for Life Science — CC BY-SA 4.0 / CC BY-SA 2.1 JP. Os modelos e dados derivados deste repositório seguem a mesma licença (CC BY-SA 4.0).
+- Textos de apoio em inglês: Wikipedia (CC BY-SA), via Z-Anatomy.
+
+O conteúdo em português é material de estudo e pode conter imprecisões; não substitui livro-texto, professor ou avaliação profissional.

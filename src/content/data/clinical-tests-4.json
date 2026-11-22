@@ -1,0 +1,145 @@
+[
+  {
+    "id": "lasegue-slr",
+    "nome": "Teste de elevação da perna estendida (Lasègue / SLR)",
+    "art": "tronco",
+    "objetivo": "Investigar irritação das raízes lombossacrais (L4–S1) e do nervo isquiático, tipicamente por hérnia de disco lombar.",
+    "estruturas": ["Sciatic nerve", "Tibial nerve", "Common fibular nerve", "Sacral plexus", "Intervertebral disc L4-L5", "Intervertebral disc L5-S1"],
+    "posicao": "Decúbito dorsal, membros inferiores estendidos, cabeça apoiada sem travesseiro alto.",
+    "execucao": "O examinador eleva passivamente o membro inferior com o joelho totalmente estendido e o quadril em rotação neutra, sem deixar a pelve rodar, até o aparecimento dos sintomas, e registra o ângulo. Em seguida, baixa levemente a perna e aplica uma manobra de sensibilização (dorsiflexão do tornozelo ou flexão cervical).",
+    "positivo": "Reprodução da dor irradiada abaixo do joelho (dor radicular), em geral entre 30° e 70° de flexão do quadril, que piora com a sensibilização.",
+    "observacao": "Dor restrita à face posterior da coxa costuma ser tensão dos isquiotibiais. Alta sensibilidade e baixa especificidade para hérnia discal lombar baixa: um teste negativo ajuda a afastá-la. Dor acima de 70° tende a ter origem articular (lombar ou sacroilíaca) ou muscular."
+  },
+  {
+    "id": "slr-cruzado",
+    "nome": "Teste de elevação da perna estendida cruzado (Lasègue cruzado)",
+    "art": "tronco",
+    "objetivo": "Aumentar a certeza diagnóstica de hérnia de disco lombar com compressão radicular.",
+    "estruturas": ["Sciatic nerve", "Sacral plexus", "Intervertebral disc L4-L5", "Intervertebral disc L5-S1", "Nucleus pulposus L4-L5", "Nucleus pulposus L5-S1"],
+    "posicao": "Decúbito dorsal.",
+    "execucao": "O examinador eleva, com o joelho estendido, o membro inferior assintomático.",
+    "positivo": "Reprodução da dor irradiada no membro inferior sintomático (o lado oposto ao elevado).",
+    "observacao": "Baixa sensibilidade, mas alta especificidade: quando positivo, é forte indicador de hérnia discal, frequentemente volumosa e de localização medial à raiz."
+  },
+  {
+    "id": "bragard",
+    "nome": "Teste de Bragard",
+    "art": "tronco",
+    "objetivo": "Sensibilizar o SLR, diferenciando dor de origem neural de dor por tensão dos isquiotibiais.",
+    "estruturas": ["Sciatic nerve", "Tibial nerve", "Sacral plexus", "Long head of biceps femoris", "Semitendinosus muscle", "Semimembranosus muscle"],
+    "posicao": "Decúbito dorsal.",
+    "execucao": "Realiza-se o SLR até o aparecimento da dor; baixa-se o membro alguns graus, até a dor ceder, e então aplica-se dorsiflexão passiva do tornozelo.",
+    "positivo": "A dorsiflexão reproduz a dor irradiada, indicando mecanossensibilidade neural (o nervo tibial é tensionado sem alongar mais os isquiotibiais).",
+    "observacao": "Se a dorsiflexão não altera os sintomas, a dor do SLR provavelmente tem origem muscular ou articular."
+  },
+  {
+    "id": "slump",
+    "nome": "Teste de Slump",
+    "art": "tronco",
+    "objetivo": "Avaliar a mecanossensibilidade do tecido neural (dura-máter, raízes lombossacrais e nervo isquiático) em posição sentada.",
+    "estruturas": ["Sciatic nerve", "Spinal cord", "Dura", "Sacral plexus", "Tibial nerve", "Intervertebral disc L5-S1"],
+    "posicao": "Sentado na borda da maca, fossas poplíteas apoiadas na borda, mãos unidas atrás das costas.",
+    "execucao": "Em sequência, verificando os sintomas a cada etapa: o paciente «desaba» o tronco em flexão torácica e lombar; flete o pescoço (o examinador mantém leve sobrepressão); estende um joelho; realiza dorsiflexão do tornozelo. Na presença de sintomas, libera-se a flexão cervical para observar a mudança.",
+    "positivo": "Reprodução dos sintomas do paciente que diminuem ao liberar a flexão cervical (ou a dorsiflexão), com assimetria entre os lados.",
+    "observacao": "Desconforto na região torácica média e estiramento posterior no joelho são respostas normais. Tende a ser mais sensível que o SLR para hérnia discal lombar; o SLR tende a ser um pouco mais específico."
+  },
+  {
+    "id": "estiramento-femoral-pkb",
+    "nome": "Teste de estiramento do nervo femoral (flexão do joelho em prono – PKB)",
+    "art": "tronco",
+    "objetivo": "Investigar irritação das raízes lombares altas e médias (L2–L4) e do nervo femoral.",
+    "estruturas": ["Femoral nerve", "Lumbar plexus", "Intervertebral disc L2-L3", "Intervertebral disc L3-L4", "Rectus femoris muscle", "Lateral femoral cutaneous nerve"],
+    "posicao": "Decúbito ventral, quadris em posição neutra.",
+    "execucao": "O examinador flete passivamente o joelho, levando o calcanhar em direção à nádega, e mantém a posição por alguns segundos; se necessário, acrescenta extensão do quadril, estabilizando a pelve.",
+    "positivo": "Dor irradiada para a face anterior da coxa (e/ou lombar unilateral) reproduzindo a queixa.",
+    "observacao": "Sensação de estiramento na face anterior da coxa pode ser apenas tensão do reto femoral: comparar os lados e valorizar a reprodução da dor habitual. Evitar a anteversão compensatória da pelve."
+  },
+  {
+    "id": "schober",
+    "nome": "Teste de Schober (e Schober modificado)",
+    "art": "tronco",
+    "objetivo": "Medir a mobilidade em flexão da coluna lombar.",
+    "estruturas": ["Lumbar vertebrae", "Vertebra L5", "Sacrum", "Posterior superior iliac spine", "Supraspinous ligament"],
+    "posicao": "Em pé, pés afastados na largura dos quadris.",
+    "execucao": "Marca-se a linha média na altura da junção lombossacral (ao nível das espinhas ilíacas posterossuperiores) e um ponto 10 cm acima. No Schober modificado, acrescenta-se um ponto 5 cm abaixo. O paciente flete o tronco ao máximo, com os joelhos estendidos, e mede-se novamente a distância entre as marcas.",
+    "positivo": "Aumento da distância menor que cerca de 5 cm no teste original indica restrição da flexão lombar. No Schober modificado, a distância inicial de 15 cm deve aumentar em torno de 6 a 7 cm.",
+    "observacao": "Classicamente usado no acompanhamento da espondilite anquilosante. Mede a excursão da pele sobre a coluna lombar, não a qualidade do movimento segmentar."
+  },
+  {
+    "id": "instabilidade-em-prono",
+    "nome": "Teste de instabilidade em prono",
+    "art": "tronco",
+    "objetivo": "Identificar dor lombar que melhora com a ativação muscular, sugerindo benefício de exercícios de estabilização.",
+    "estruturas": ["Lumbar vertebrae", "Multifidus lumborum muscle", "Erector spinae", "Gluteus maximus muscle", "Zygapophysial joints"],
+    "posicao": "Tronco em decúbito ventral sobre a maca, com a pelve na borda e os pés apoiados no chão.",
+    "execucao": "O examinador aplica pressão posteroanterior sobre cada processo espinhoso lombar, procurando um segmento doloroso. O paciente então eleva levemente os pés do chão (ativando os extensores lombares e do quadril) e a pressão é repetida no mesmo segmento.",
+    "positivo": "Dor provocada na posição de repouso que diminui ou desaparece com os pés elevados.",
+    "observacao": "É um dos critérios da regra de predição clínica descrita por Hicks e colaboradores para resposta a exercícios de estabilização lombar; a regra não foi confirmada de modo consistente em estudos posteriores e deve ser usada como apoio, não como critério isolado."
+  },
+  {
+    "id": "gaenslen",
+    "nome": "Teste de Gaenslen",
+    "art": "pelve",
+    "objetivo": "Provocar dor na articulação sacroilíaca por torção da pelve.",
+    "estruturas": ["Sacro-iliac joint", "Anterior sacro-iliac ligament", "Posterior sacro-iliac ligament", "Sacrum", "Hip bone", "Pubic symphysis"],
+    "posicao": "Decúbito dorsal, próximo à borda da maca, com o membro inferior do lado testado pendente para fora.",
+    "execucao": "O paciente abraça o joelho oposto contra o tórax. O examinador aplica sobrepressão simultânea: flexão do quadril fletido e extensão do quadril do membro pendente.",
+    "positivo": "Reprodução da dor habitual na região sacroilíaca/glútea.",
+    "observacao": "Faz parte do conjunto de testes de provocação sacroilíaca de Laslett; isoladamente tem pouco valor. A manobra também tensiona o nervo femoral, o iliopsoas e a articulação do quadril do lado em extensão."
+  },
+  {
+    "id": "compressao-sacroiliaca",
+    "nome": "Teste de compressão sacroilíaca",
+    "art": "pelve",
+    "objetivo": "Provocar dor sacroilíaca comprimindo a articulação e tensionando os ligamentos sacroilíacos posteriores.",
+    "estruturas": ["Sacro-iliac joint", "Posterior sacro-iliac ligament", "Interosseous sacro-iliac ligament", "Hip bone", "Iliac crest"],
+    "posicao": "Decúbito lateral, com quadris e joelhos fletidos, lado sintomático para cima.",
+    "execucao": "O examinador apoia as mãos sobre a parte anterior da crista ilíaca do lado de cima e aplica pressão vertical em direção à maca, mantida por alguns segundos.",
+    "positivo": "Reprodução da dor habitual na região sacroilíaca ou glútea.",
+    "observacao": "Integra o conjunto de Laslett. Dor na face lateral do quadril por pressão local sobre o trocanter não é resultado positivo."
+  },
+  {
+    "id": "distracao-sacroiliaca",
+    "nome": "Teste de distração sacroilíaca (gapping)",
+    "art": "pelve",
+    "objetivo": "Provocar dor sacroilíaca tensionando os ligamentos sacroilíacos anteriores.",
+    "estruturas": ["Sacro-iliac joint", "Anterior sacro-iliac ligament", "Anterior superior iliac spine", "Hip bone", "Sacrum"],
+    "posicao": "Decúbito dorsal, com apoio sob os joelhos se necessário.",
+    "execucao": "O examinador, com os braços cruzados, apoia as mãos na face medial das duas espinhas ilíacas anterossuperiores e aplica pressão dirigida posterolateralmente, de forma lenta e mantida.",
+    "positivo": "Reprodução da dor habitual na região sacroilíaca ou glútea, uni ou bilateral.",
+    "observacao": "Nos estudos de Laslett foi o teste isolado mais específico do conjunto. Dor local nas espinhas ilíacas pela pressão das mãos não tem valor."
+  },
+  {
+    "id": "thigh-thrust",
+    "nome": "Teste de impulso da coxa (thigh thrust / cisalhamento posterior)",
+    "art": "pelve",
+    "objetivo": "Provocar dor sacroilíaca por força de cisalhamento posterior transmitida pelo fêmur.",
+    "estruturas": ["Sacro-iliac joint", "Posterior sacro-iliac ligament", "Interosseous sacro-iliac ligament", "Sacrum", "Femur", "Hip bone"],
+    "posicao": "Decúbito dorsal, quadril do lado testado fletido a 90°, joelho fletido.",
+    "execucao": "O examinador estabiliza o sacro com uma mão sob ele (ou fixa a espinha ilíaca anterossuperior oposta) e aplica força axial ao longo do fêmur, em direção posterior, com leve adução do quadril.",
+    "positivo": "Reprodução da dor habitual na região sacroilíaca ou glútea do lado testado.",
+    "observacao": "Considerado o teste isolado mais sensível do conjunto de Laslett. Três ou mais testes de provocação positivos (distração, compressão, thigh thrust, Gaenslen, impulso sacral) aumentam de forma importante a probabilidade de dor sacroilíaca; se todos forem negativos, essa origem é improvável. Evitar adução excessiva, que provoca dor no quadril."
+  },
+  {
+    "id": "impulso-sacral",
+    "nome": "Teste do impulso sacral (sacral thrust)",
+    "art": "pelve",
+    "objetivo": "Provocar dor sacroilíaca por cisalhamento anterior do sacro em relação aos ilíacos.",
+    "estruturas": ["Sacrum", "Sacro-iliac joint", "Anterior sacro-iliac ligament", "Posterior sacro-iliac ligament", "Median sacral crest"],
+    "posicao": "Decúbito ventral.",
+    "execucao": "O examinador apoia a região hipotenar sobre o centro do sacro, reforça com a outra mão e aplica força em direção anterior.",
+    "positivo": "Reprodução da dor habitual na região sacroilíaca.",
+    "observacao": "Componente do conjunto de Laslett. A pressão também estende a coluna lombar baixa, podendo provocar dor de origem lombar."
+  },
+  {
+    "id": "trendelenburg",
+    "nome": "Teste de Trendelenburg",
+    "art": "pelve",
+    "objetivo": "Avaliar a capacidade dos abdutores do quadril (glúteo médio e mínimo) de estabilizar a pelve no plano frontal em apoio unipodal.",
+    "estruturas": ["Gluteus medius muscle", "Gluteus minimus muscle", "Superior gluteal nerve", "Tensor fasciae latae", "Hip joint", "Iliac crest"],
+    "posicao": "Em pé, com o examinador atrás, observando (ou palpando) as cristas ilíacas e as espinhas ilíacas posterossuperiores.",
+    "execucao": "O paciente apoia-se sobre um membro inferior e flete o quadril e o joelho do outro, mantendo a posição por cerca de 30 segundos, sem inclinar o tronco.",
+    "positivo": "A pelve cai do lado sem apoio (lado oposto ao membro de apoio), indicando fraqueza dos abdutores do membro de apoio. A inclinação do tronco para o lado de apoio é a compensação (Trendelenburg compensado ou marcha de Duchenne).",
+    "observacao": "O teste é nomeado pelo lado de apoio. Causas além da fraqueza do glúteo médio: lesão do nervo glúteo superior, luxação ou displasia do quadril, coxa vara e dor articular (inibição). Normalmente a pelve do lado sem apoio se eleva discretamente."
+  }
+]

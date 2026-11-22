@@ -1,0 +1,200 @@
+[
+  {
+    "id": "core-estabilizacao-lombopelvica",
+    "titulo": "Core e estabilização lombopélvica",
+    "regiao": "tronco",
+    "resumo": "O core é o cilindro muscular que envolve a coluna lombar e a pelve: diafragma em cima, assoalho pélvico embaixo, abdominais na frente e nos lados, multífidos e demais paravertebrais atrás.",
+    "texto": "A coluna lombar isolada, sem músculos, é instável e cede sob cargas pequenas. Panjabi descreveu a estabilidade vertebral como produto de três subsistemas: o passivo (vértebras, discos, ligamentos e cápsulas), o ativo (músculos e tendões) e o de controle neural, que coordena a ativação muscular. Quando um falha, os outros precisam compensar.\n\nBergmark dividiu os músculos do tronco em dois sistemas. O local é formado por músculos profundos com inserção direta nas vértebras lombares, que controlam o movimento entre segmentos: multífidos lombares, transverso do abdome, fibras posteriores do oblíquo interno e parte do quadrado lombar e do psoas. O global é formado por músculos superficiais que ligam o tórax à pelve e produzem movimento e torque: reto do abdome, oblíquo externo, oblíquo interno e a porção torácica dos eretores da espinha.\n\nO transverso do abdome tem fibras horizontais que se continuam posteriormente com a fáscia toracolombar. Sua contração, em conjunto com o diafragma e o assoalho pélvico, aumenta a pressão intra-abdominal e tensiona essa fáscia, enrijecendo o segmento lombar. O multífido lombar é o principal músculo de controle segmentar e responde por boa parte da rigidez ativa em torno da posição neutra.\n\nOs estudos de Hodges e Richardson mostraram que, em pessoas sem dor, o transverso do abdome é ativado antecipadamente aos movimentos rápidos dos membros, e que essa ativação se atrasa em pessoas com dor lombar. Hides e colaboradores observaram atrofia localizada do multífido após o primeiro episódio de dor lombar, que não se recupera espontaneamente com a melhora da dor. Esses achados fundamentaram os exercícios de controle motor (estabilização segmentar).\n\nA evidência atual indica que os exercícios de controle motor ajudam na dor lombar crônica, mas não são claramente superiores a outras formas de exercício. McGill ressalta que a estabilidade depende da coativação equilibrada de todos os músculos do tronco, e não de um músculo isolado, e propõe exercícios de resistência com a coluna em posição neutra, como a ponte lateral, o «perdigueiro» (quatro apoios com elevação de braço e perna opostos) e o abdominal curto modificado. Glúteos e latíssimo do dorso também participam, transmitindo força entre membros e tronco pela fáscia toracolombar.",
+    "pontos": [
+      "Core = cilindro: diafragma, assoalho pélvico, abdominais e paravertebrais.",
+      "Três subsistemas de Panjabi: passivo, ativo e de controle neural.",
+      "Sistema local (controle segmentar): multífido lombar e transverso do abdome.",
+      "Sistema global (torque e movimento): reto do abdome, oblíquos e eretores.",
+      "Transverso do abdome: tensiona a fáscia toracolombar e aumenta a pressão intra-abdominal.",
+      "Dor lombar: atraso de ativação do transverso e atrofia do multífido.",
+      "Estabilidade depende da coativação de todo o tronco, não de um músculo isolado."
+    ],
+    "estruturas": ["Transversus abdominis muscle", "Multifidus lumborum muscle", "Internal abdominal oblique muscle", "External abdominal oblique muscle", "Rectus abdominis muscle", "Diaphragm", "Levator ani", "Quadratus lumborum muscle", "Thoracolumbar fascia", "Erector spinae", "Lumbar vertebrae", "Gluteus maximus muscle", "Latissimus dorsi muscle"],
+    "perguntas": [
+      { "q": "Quais são as paredes do «cilindro» do core?", "a": "Teto: diafragma. Assoalho: músculos do assoalho pélvico. Parede anterolateral: transverso do abdome, oblíquos e reto do abdome. Parede posterior: multífidos, eretores da espinha e quadrado lombar." },
+      { "q": "Quais são os três subsistemas de estabilidade de Panjabi?", "a": "Passivo (ossos, discos, ligamentos), ativo (músculos) e de controle neural." },
+      { "q": "Qual a diferença entre os sistemas local e global de Bergmark?", "a": "O local reúne músculos profundos que se inserem nas vértebras e controlam o movimento intersegmentar; o global reúne músculos superficiais, do tórax à pelve, que geram torque e movimento do tronco." },
+      { "q": "Como o transverso do abdome contribui para a estabilidade lombar?", "a": "Tensiona a fáscia toracolombar e, com o diafragma e o assoalho pélvico, aumenta a pressão intra-abdominal, enrijecendo a coluna lombar." },
+      { "q": "O que acontece com o multífido após um episódio de dor lombar?", "a": "Pode sofrer atrofia localizada, no nível e no lado dos sintomas, que não se recupera automaticamente com a remissão da dor." }
+    ]
+  },
+  {
+    "id": "eretores-da-espinha-e-transversoespinais",
+    "titulo": "Eretores da espinha e transversoespinais",
+    "regiao": "tronco",
+    "resumo": "Os músculos próprios do dorso organizam-se em camadas: os eretores da espinha, longos e superficiais, e os transversoespinais, curtos e profundos. Todos são inervados pelos ramos posteriores dos nervos espinais.",
+    "texto": "Os músculos próprios (intrínsecos) do dorso ficam sob a fáscia toracolombar e diferem dos músculos superficiais do dorso (trapézio, latíssimo, romboides), que pertencem ao membro superior. Sua característica comum é a inervação segmentar pelos ramos posteriores dos nervos espinais.\n\nA camada intermédia é o eretor da espinha, que nasce de um tendão largo no sacro, na crista ilíaca e nos processos espinhosos lombares e se divide em três colunas, de lateral para medial: iliocostal (insere-se nos ângulos das costelas), longuíssimo (processos transversos; alcança o processo mastoide como longuíssimo da cabeça) e espinal (de processo espinhoso a processo espinhoso). Em contração bilateral estendem a coluna; unilateralmente, inclinam-na para o mesmo lado.\n\nA camada profunda é o grupo transversoespinal, cujas fibras sobem obliquamente de processos transversos para processos espinhosos mais acima: semiespinais (superficiais, cruzam quatro a seis vértebras ou mais; presentes nas regiões torácica e cervical e na cabeça), multífidos (cruzam duas a quatro vértebras; mais volumosos na região lombar) e rotadores (os mais profundos, cruzam um ou dois segmentos). Em ação bilateral estendem; unilateralmente rodam o tronco para o lado oposto. Mais profundamente ainda estão os interespinais e os intertransversários, pequenos e ricos em fusos musculares, importantes para a propriocepção.\n\nA função mais relevante dos eretores no dia a dia é excêntrica: controlam a flexão do tronco contra a gravidade ao inclinar-se para a frente. Próximo à flexão completa, eles silenciam eletricamente e o tronco fica sustentado pelas estruturas passivas (ligamentos posteriores, fáscia toracolombar): é o fenômeno de flexão-relaxamento, que costuma estar ausente em pessoas com dor lombar. No retorno, a extensão é iniciada pelos extensores do quadril (glúteo máximo e isquiotibiais) e completada pelos eretores.\n\nOs multífidos lombares têm braço de alavanca curto e alta proporção de fibras tônicas: funcionam mais como estabilizadores segmentares do que como motores, e sua atrofia associa-se à dor lombar. Na marcha, os eretores contraem em torno do contato inicial de cada pé para frear a inclinação anterior do tronco.",
+    "pontos": [
+      "Inervação de todos os músculos próprios do dorso: ramos posteriores dos nervos espinais.",
+      "Eretor da espinha, de lateral para medial: iliocostal, longuíssimo e espinal.",
+      "Transversoespinais, do superficial ao profundo: semiespinais, multífidos e rotadores.",
+      "Eretores: extensão bilateral e inclinação ipsilateral.",
+      "Transversoespinais: extensão e rotação contralateral.",
+      "Fenômeno de flexão-relaxamento: silêncio dos eretores no fim da flexão do tronco.",
+      "Multífido lombar: estabilizador segmentar."
+    ],
+    "estruturas": ["Erector spinae", "Iliocostalis lumborum muscle", "Iliocostalis thoracis muscle", "Longissimus thoracis muscle", "Longissimus capitis muscle", "Spinalis thoracis muscle", "Transversospinal muscles", "Semispinalis thoracis muscle", "Multifidus lumborum muscle", "Rotatores", "Interspinales lumborum muscles", "Thoracolumbar fascia", "Posterior rami of lumbar nerves"],
+    "perguntas": [
+      { "q": "Quais são as três colunas do eretor da espinha, de lateral para medial?", "a": "Iliocostal, longuíssimo e espinal." },
+      { "q": "Para que lado os transversoespinais rodam o tronco em contração unilateral?", "a": "Para o lado oposto (rotação contralateral), pois suas fibras sobem de processos transversos para processos espinhosos." },
+      { "q": "Qual a inervação dos músculos próprios do dorso?", "a": "Ramos posteriores (dorsais) dos nervos espinais, de forma segmentar." },
+      { "q": "O que é o fenômeno de flexão-relaxamento?", "a": "É o silêncio eletromiográfico dos eretores da espinha próximo ao final da flexão do tronco em pé, quando as estruturas passivas posteriores sustentam a carga." },
+      { "q": "Como os eretores atuam ao inclinar o tronco para a frente?", "a": "Em contração excêntrica, freando a flexão contra a gravidade." }
+    ]
+  },
+  {
+    "id": "musculos-da-respiracao",
+    "titulo": "Músculos da respiração",
+    "regiao": "costelas",
+    "resumo": "A inspiração em repouso é ativa e depende sobretudo do diafragma; a expiração em repouso é passiva. No esforço entram os músculos acessórios do pescoço e a parede abdominal.",
+    "texto": "O diafragma é o principal músculo inspiratório. É uma cúpula musculotendínea que separa o tórax do abdome, com origens esternal, costal (seis últimas costelas) e lombar (pilares, nas vértebras lombares), convergindo para o centro tendíneo. É inervado pelo nervo frênico (C3, C4 e C5). Ao contrair, a cúpula desce, aumentando o diâmetro vertical do tórax e empurrando o conteúdo abdominal, o que faz o abdome se expandir para a frente; apoiado nas vísceras, o diafragma também eleva e abre as costelas inferiores.\n\nAs costelas movem-se de duas formas. As superiores elevam o esterno para a frente e para cima, aumentando o diâmetro anteroposterior (movimento em «braço de bomba»). As inferiores abrem-se para os lados, aumentando o diâmetro transverso (movimento em «alça de balde»). Os intercostais externos, com fibras oblíquas para baixo e para a frente, elevam as costelas e são inspiratórios; a porção intercondral dos intercostais internos também auxilia a inspiração. Os escalenos elevam as duas primeiras costelas e são ativos mesmo na inspiração tranquila.\n\nA expiração em repouso é passiva: resulta do relaxamento do diafragma e do recuo elástico dos pulmões e da caixa torácica. Na expiração forçada (tosse, espirro, exercício, sopro) contraem-se os músculos abdominais — reto do abdome, oblíquos externo e interno e transverso do abdome —, que comprimem o abdome e empurram o diafragma para cima, além da porção interóssea dos intercostais internos, que abaixa as costelas.\n\nNa inspiração forçada são recrutados os músculos acessórios: esternocleidomastóideo (eleva o esterno), escalenos, peitoral menor, peitoral maior e serrátil anterior (com os membros superiores fixos) e serrátil posterior superior. É por isso que a pessoa com dispneia apoia as mãos nos joelhos ou em uma mesa: fixa a cintura escapular para que esses músculos atuem sobre as costelas.\n\nRelevância clínica: lesões medulares acima de C3 abolem a respiração espontânea; lesões cervicais baixas e torácicas altas preservam o diafragma, mas paralisam os intercostais e os abdominais, tornando a tosse ineficaz. Na doença pulmonar obstrutiva crônica com hiperinsuflação, o diafragma fica rebaixado e retificado, em desvantagem mecânica, e o uso dos acessórios aumenta. O padrão paradoxal (abdome que se retrai na inspiração) sugere fraqueza ou fadiga do diafragma.",
+    "pontos": [
+      "Diafragma: principal inspiratório; nervo frênico (C3–C5).",
+      "Inspiração tranquila: diafragma, intercostais externos e escalenos.",
+      "Expiração tranquila: passiva (recuo elástico).",
+      "Expiração forçada: abdominais e intercostais internos.",
+      "Acessórios da inspiração: esternocleidomastóideo, escalenos, peitorais e serráteis.",
+      "Costelas superiores: braço de bomba (diâmetro anteroposterior). Inferiores: alça de balde (diâmetro transverso).",
+      "Tosse eficaz depende dos músculos abdominais."
+    ],
+    "estruturas": ["Diaphragm", "External intercostal muscles", "Internal intercostal muscles", "Innermost intercostal muscles", "Scalenus anterior muscle", "Scalenus medius muscle", "Scalenus posterior muscle", "Sternocleidomastoid muscle", "Pectoralis minor muscle", "Rectus abdominis muscle", "External abdominal oblique muscle", "Internal abdominal oblique muscle", "Transversus abdominis muscle", "Intercostal nerves", "Ribs"],
+    "perguntas": [
+      { "q": "Qual a inervação do diafragma?", "a": "Nervo frênico, formado por C3, C4 e C5." },
+      { "q": "A expiração em repouso é ativa ou passiva?", "a": "Passiva: decorre do relaxamento dos inspiratórios e do recuo elástico dos pulmões e da parede torácica." },
+      { "q": "Quais músculos atuam na expiração forçada e na tosse?", "a": "Reto do abdome, oblíquos externo e interno, transverso do abdome e intercostais internos (porção interóssea)." },
+      { "q": "O que são os movimentos em braço de bomba e em alça de balde?", "a": "Braço de bomba: elevação das costelas superiores e do esterno, aumentando o diâmetro anteroposterior. Alça de balde: elevação lateral das costelas inferiores, aumentando o diâmetro transverso." },
+      { "q": "Por que o paciente com dispneia apoia os braços?", "a": "Para fixar a cintura escapular e permitir que músculos como peitorais e serrátil anterior atuem como inspiratórios acessórios, elevando as costelas." }
+    ]
+  },
+  {
+    "id": "assoalho-pelvico",
+    "titulo": "Assoalho pélvico",
+    "regiao": "assoalho_pelvico",
+    "resumo": "Conjunto de músculos e fáscias que fecha a abertura inferior da pelve. Sustenta os órgãos pélvicos, mantém a continência urinária e fecal e participa da função sexual e do core.",
+    "texto": "O diafragma da pelve tem a forma de um funil ou de uma rede, estendido do púbis ao cóccix e de uma parede lateral da pelve à outra. É formado pelo músculo levantador do ânus e pelo músculo isquiococcígeo (coccígeo). O levantador do ânus tem três partes: puborretal, pubococcígeo e iliococcígeo. Origina-se do corpo do púbis, do arco tendíneo do levantador do ânus (espessamento da fáscia do obturador interno) e da espinha isquiática, e insere-se no cóccix, no ligamento anococcígeo e no corpo do períneo. Anteriormente há uma abertura, o hiato urogenital, que dá passagem à uretra e, na mulher, à vagina; atrás passa o canal anal.\n\nO puborretal forma uma alça em «U» que passa por trás da junção anorretal e a traciona para a frente, mantendo o ângulo anorretal, importante para a continência fecal; ele relaxa durante a evacuação. Abaixo do diafragma da pelve estão os músculos do períneo (bulboesponjoso, isquiocavernoso, transversos do períneo) e os esfíncteres externos da uretra e do ânus.\n\nA inervação vem de ramos diretos do plexo sacral (S3–S4) para o levantador do ânus e do nervo pudendo (S2–S4), que inerva os esfíncteres externos e os músculos do períneo e dá a sensibilidade da região perineal.\n\nOs músculos do assoalho pélvico têm predomínio de fibras de contração lenta, que mantêm um tônus de repouso constante para sustentar as vísceras, e uma parcela de fibras rápidas, recrutadas nos aumentos súbitos da pressão intra-abdominal, como tosse, espirro e salto. Uma contração correta produz fechamento das aberturas e elevação do períneo em direção cranial, sem apneia e sem contração visível de glúteos e adutores. O assoalho pélvico atua em sinergia com o transverso do abdome e o diafragma.\n\nDisfunções: incontinência urinária de esforço (perda de urina ao tossir, espirrar ou saltar), incontinência de urgência, prolapsos dos órgãos pélvicos, incontinência fecal, dor pélvica e disfunções sexuais. Gestação, parto vaginal, menopausa, obesidade, constipação crônica e, no homem, a prostatectomia são fatores associados. O treinamento dos músculos do assoalho pélvico (exercícios de Kegel) é o tratamento de primeira linha para a incontinência urinária de esforço feminina. Vale lembrar que também existe hiperatividade (dificuldade de relaxar), associada a dor e disfunções de esvaziamento: nem todo assoalho pélvico precisa ser fortalecido.",
+    "pontos": [
+      "Diafragma da pelve = levantador do ânus + isquiococcígeo.",
+      "Levantador do ânus: puborretal, pubococcígeo e iliococcígeo.",
+      "Puborretal: alça que mantém o ângulo anorretal (continência fecal).",
+      "Inervação: ramos do plexo sacral (S3–S4) e nervo pudendo (S2–S4).",
+      "Funções: sustentação, continência, função sexual e estabilização.",
+      "Contração correta: fechamento e elevação, sem apneia nem uso de glúteos e adutores.",
+      "Treinamento do assoalho pélvico: primeira linha na incontinência urinária de esforço."
+    ],
+    "estruturas": ["Pelvic diaphragm", "Levator ani", "Pubococcygeus muscle", "Iliococcygeus muscle", "Coccygeus muscle", "Tendinous arch of levator ani", "Obturator internus", "External anal sphincter", "Perineal muscles", "Pudendal nerve", "Urinary bladder", "Urethra", "Coccyx", "Pubic symphysis"],
+    "perguntas": [
+      { "q": "Quais músculos formam o diafragma da pelve?", "a": "O levantador do ânus (puborretal, pubococcígeo e iliococcígeo) e o isquiococcígeo." },
+      { "q": "Qual a função do puborretal?", "a": "Formar uma alça atrás da junção anorretal, mantendo o ângulo anorretal e contribuindo para a continência fecal; relaxa para permitir a evacuação." },
+      { "q": "Qual nervo inerva os esfíncteres externos da uretra e do ânus?", "a": "O nervo pudendo (S2–S4)." },
+      { "q": "Como é a contração correta do assoalho pélvico?", "a": "Fechamento ao redor da uretra, da vagina e do ânus com elevação do períneo, sem prender a respiração e sem contrair glúteos, adutores ou empurrar para baixo." },
+      { "q": "Qual o tratamento de primeira linha da incontinência urinária de esforço na mulher?", "a": "O treinamento dos músculos do assoalho pélvico." }
+    ]
+  },
+  {
+    "id": "disco-intervertebral-e-hernia",
+    "titulo": "Disco intervertebral e hérnia de disco",
+    "regiao": "tronco",
+    "resumo": "O disco é uma articulação cartilagínea (sínfise) formada por núcleo pulposo, anel fibroso e placas vertebrais terminais. Absorve e distribui cargas e permite movimento entre as vértebras.",
+    "texto": "Existem 23 discos intervertebrais, de C2–C3 até L5–S1; não há disco entre o occipital e o atlas nem entre o atlas e o áxis. Juntos respondem por cerca de um quarto do comprimento da coluna. Cada disco tem três partes: o núcleo pulposo, central, gelatinoso e rico em água e proteoglicanos; o anel fibroso, com lamelas concêntricas de fibras colágenas cujas direções se alternam de uma lamela para a outra; e as placas terminais cartilagíneas, que o unem aos corpos vertebrais.\n\nSob compressão, o núcleo comporta-se como um líquido incompressível: distribui a pressão radialmente, tensionando as fibras do anel. As fibras oblíquas alternadas resistem bem à tração e à torção, mas em cada rotação apenas metade delas é tensionada, o que torna a combinação de flexão com rotação sob carga particularmente lesiva. O disco do adulto é praticamente avascular e nutre-se por difusão através das placas terminais; por isso o movimento e a variação de carga são importantes para ele. Ao longo do dia o disco perde água e a estatura diminui ligeiramente, recuperando-se no repouso deitado.\n\nOs estudos clássicos de Nachemson mostraram que a pressão no disco lombar é menor em decúbito, intermediária em pé e maior sentado com o tronco inclinado para a frente ou ao levantar peso com a coluna fletida. Na flexão, a parte anterior do disco é comprimida e o núcleo tende a migrar para trás; na extensão ocorre o inverso.\n\nA maioria das hérnias é posterolateral: a parte posterior do anel é mais fina, e o ligamento longitudinal posterior é estreito na região lombar e reforça apenas a linha média. Os níveis mais acometidos são L4–L5 e L5–S1 e, na coluna cervical, C5–C6 e C6–C7. Classificam-se em abaulamento, protrusão, extrusão e sequestro.\n\nRegra prática da região lombar: a hérnia posterolateral comprime a raiz que desce para sair no nível de baixo. Assim, a hérnia de L4–L5 costuma afetar L5 (fraqueza do extensor longo do hálux e da dorsiflexão, sensibilidade no dorso do pé) e a de L5–S1 afeta S1 (fraqueza da flexão plantar, reflexo aquileu diminuído, sensibilidade na borda lateral do pé). Na coluna cervical, a raiz sai acima da vértebra de mesmo número: a hérnia de C5–C6 afeta C6. Hérnias são frequentes em pessoas sem sintomas, e a maioria dos quadros sintomáticos melhora com tratamento conservador, com reabsorção frequente do material herniado. Sinais de alarme: anestesia em sela, retenção ou incontinência urinária e fraqueza progressiva (síndrome da cauda equina), que exigem encaminhamento urgente.",
+    "pontos": [
+      "Disco = núcleo pulposo + anel fibroso + placas terminais; é uma sínfise.",
+      "Não há disco em C0–C1 nem em C1–C2.",
+      "Nutrição por difusão: o disco adulto é avascular.",
+      "Hérnia posterolateral é a mais comum (anel posterior fino, ligamento longitudinal posterior estreito).",
+      "Níveis mais comuns: L4–L5 e L5–S1; C5–C6 e C6–C7.",
+      "Hérnia L4–L5 → raiz L5. Hérnia L5–S1 → raiz S1.",
+      "Pressão discal: menor deitado, maior sentado inclinado para a frente e com carga.",
+      "Cauda equina (anestesia em sela, alteração esfincteriana): urgência."
+    ],
+    "estruturas": ["Intervertebral disc L4-L5", "Intervertebral disc L5-S1", "Nucleus pulposus L4-L5", "Nucleus pulposus L5-S1", "Vertebra L4", "Vertebra L5", "Sacrum", "Posterior longitudinal ligament", "Anterior longitudinal ligament", "Ligamenta flava", "Zygapophysial joints", "Sciatic nerve", "Sacral plexus"],
+    "perguntas": [
+      { "q": "Quais são os componentes do disco intervertebral?", "a": "Núcleo pulposo, anel fibroso e placas terminais cartilagíneas." },
+      { "q": "Por que a maioria das hérnias lombares é posterolateral?", "a": "Porque o anel fibroso é mais fino posteriormente e o ligamento longitudinal posterior, estreito na região lombar, reforça apenas a linha média." },
+      { "q": "Qual raiz costuma ser comprimida por uma hérnia posterolateral de L5–S1, e quais os achados?", "a": "A raiz S1: fraqueza da flexão plantar, reflexo aquileu diminuído ou abolido e alteração de sensibilidade na borda lateral do pé." },
+      { "q": "Como o disco se nutre?", "a": "Por difusão através das placas terminais e da periferia do anel, já que é praticamente avascular no adulto." },
+      { "q": "Quais sinais indicam síndrome da cauda equina?", "a": "Anestesia em sela, retenção ou incontinência urinária e fecal, disfunção sexual e fraqueza bilateral ou progressiva dos membros inferiores — encaminhamento urgente." },
+      { "q": "Em que posição a pressão no disco lombar é menor?", "a": "Em decúbito." }
+    ]
+  },
+  {
+    "id": "coluna-cervical-alta",
+    "titulo": "Coluna cervical alta (occipital, atlas e áxis)",
+    "regiao": "cervical",
+    "resumo": "As duas primeiras vértebras são atípicas e não têm disco entre si. O complexo occipital–atlas–áxis responde pelo «sim» e pelo «não» da cabeça e por cerca de metade da rotação cervical.",
+    "texto": "O atlas (C1) não tem corpo nem processo espinhoso: é um anel com dois arcos e duas massas laterais. O áxis (C2) tem o dente, uma projeção vertical que representa embriologicamente o corpo do atlas e funciona como pivô.\n\nA articulação atlantoccipital, entre os côndilos do occipital e as faces articulares superiores do atlas, é uma articulação condilar que permite principalmente flexão e extensão — o movimento de «sim», em torno de 15° a 20° — e um pouco de inclinação lateral, com rotação mínima. As articulações atlantoaxiais são três: uma mediana, do tipo pivô, entre o dente e o anel formado pelo arco anterior do atlas e o ligamento transverso, e duas laterais, planas. Elas permitem a rotação — o movimento de «não» —, em torno de 40° a 45° para cada lado, o que corresponde a aproximadamente metade da rotação cervical total.\n\nA estabilidade dessa região depende de ligamentos, pois não há disco nem encaixe ósseo importante. O ligamento transverso do atlas mantém o dente junto ao arco anterior e impede que o atlas deslize para a frente, protegendo a medula; com os fascículos longitudinais forma o ligamento cruciforme. Os ligamentos alares, do dente ao occipital, limitam a rotação e a inclinação lateral. A membrana tectória é a continuação superior do ligamento longitudinal posterior.\n\nOs músculos suboccipitais (reto posterior maior e menor da cabeça, oblíquo superior e oblíquo inferior da cabeça) são pequenos, muito ricos em fusos musculares, e fazem o ajuste fino da posição da cabeça, integrando-se aos sistemas visual e vestibular; são inervados pelo nervo suboccipital (ramo posterior de C1). Três deles delimitam o trígono suboccipital, por onde passa a artéria vertebral sobre o arco posterior do atlas, depois de subir pelos forames transversários de C6 a C1. Na frente, os flexores profundos (longo da cabeça, reto anterior da cabeça e longo do pescoço) controlam a flexão craniocervical.\n\nClínica: a cefaleia cervicogênica relaciona-se a disfunções dos segmentos C1–C3 (teste de flexão-rotação). A postura de cabeça anteriorizada combina flexão cervical baixa com extensão cervical alta e encurtamento dos suboccipitais. A instabilidade atlantoaxial ocorre em trauma, artrite reumatoide e síndrome de Down. Antes de técnicas manuais na região é obrigatória a triagem de instabilidade ligamentar e de risco vascular.",
+    "pontos": [
+      "Atlas: sem corpo e sem processo espinhoso. Áxis: possui o dente.",
+      "Não há disco entre occipital–C1 nem entre C1–C2.",
+      "Atlantoccipital: flexão e extensão («sim»).",
+      "Atlantoaxial: rotação («não»), cerca de metade da rotação cervical.",
+      "Ligamento transverso do atlas: impede a translação anterior do atlas; ligamentos alares limitam a rotação.",
+      "Suboccipitais: propriocepção e ajuste fino da cabeça.",
+      "A artéria vertebral passa sobre o arco posterior do atlas.",
+      "Instabilidade atlantoaxial: artrite reumatoide, síndrome de Down, trauma."
+    ],
+    "estruturas": ["Atlas (C1)", "Axis (C2)", "Occipital bone", "Dens axis", "Occipital condyle", "Median atlanto-axial joint", "Lateral atlanto-axial joint", "Suboccipital muscles", "Rectus posterior major capitis muscle", "Rectus posterior minor capitis muscle", "Obliquus superior capitis muscle", "Obliquus inferior capitis muscle", "Vertebral artery", "Longus capitis muscle"],
+    "perguntas": [
+      { "q": "Qual movimento predomina na articulação atlantoccipital?", "a": "Flexão e extensão (o movimento de «sim»)." },
+      { "q": "Qual movimento predomina nas articulações atlantoaxiais?", "a": "Rotação (o movimento de «não»), responsável por cerca de metade da rotação cervical total." },
+      { "q": "Qual a função do ligamento transverso do atlas?", "a": "Manter o dente do áxis junto ao arco anterior do atlas, impedindo o deslizamento anterior do atlas e a compressão da medula." },
+      { "q": "Quais são os músculos suboccipitais?", "a": "Reto posterior maior da cabeça, reto posterior menor da cabeça, oblíquo superior da cabeça e oblíquo inferior da cabeça." },
+      { "q": "Em quais condições se deve suspeitar de instabilidade atlantoaxial?", "a": "Após trauma cervical, na artrite reumatoide e na síndrome de Down, entre outras." }
+    ]
+  },
+  {
+    "id": "atm-e-mastigacao",
+    "titulo": "ATM e músculos da mastigação",
+    "regiao": "atm",
+    "resumo": "A articulação temporomandibular combina rotação e translação graças a um disco que a divide em dois compartimentos. Quatro pares de músculos, todos inervados pelo nervo mandibular (V3), movem a mandíbula.",
+    "texto": "A articulação temporomandibular (ATM) une a cabeça (côndilo) da mandíbula à fossa mandibular e ao tubérculo articular do osso temporal. É uma articulação sinovial em que as superfícies são revestidas por fibrocartilagem, e não por cartilagem hialina. As duas ATM funcionam obrigatoriamente juntas.\n\nUm disco articular fibrocartilaginoso, bicôncavo, divide a articulação em dois compartimentos. No inferior, entre o côndilo e o disco, ocorre a rotação (movimento de dobradiça). No superior, entre o disco e o temporal, ocorre a translação (deslizamento). A abertura da boca começa com a rotação do côndilo, que responde aproximadamente pela primeira metade do movimento, e completa-se com a translação anterior do côndilo e do disco sobre o tubérculo articular. A abertura funcional é de cerca de 40 a 50 mm, ou a largura de três dedos; a lateralidade e a protrusão ficam em torno de 8 a 10 mm.\n\nOs músculos da mastigação são quatro, todos inervados pelo nervo mandibular, terceira divisão do trigêmeo. O masseter, o temporal e o pterigóideo medial elevam a mandíbula (fecham a boca); as fibras posteriores do temporal também a retraem. O pterigóideo lateral é o músculo da protrusão e participa da abertura: a cabeça inferior traciona o côndilo para a frente; a cabeça superior, inserida na cápsula e no disco, ativa-se no fechamento, controlando o retorno do disco. A contração unilateral do pterigóideo lateral e do medial desvia a mandíbula para o lado oposto.\n\nA abertura da boca é auxiliada pela gravidade e pelos músculos supra-hióideos (digástrico, milo-hióideo, gênio-hióideo), com o hioide estabilizado pelos infra-hióideos. Daí a ligação funcional entre mandíbula, hioide e coluna cervical: a postura da cabeça altera a posição de repouso da mandíbula.\n\nAs disfunções temporomandibulares incluem dor miofascial dos músculos mastigatórios, desarranjos do disco e artropatias. No deslocamento anterior do disco com redução há um estalido na abertura (o côndilo recaptura o disco) e, muitas vezes, outro no fechamento. No deslocamento sem redução, o disco bloqueia a translação: a abertura fica limitada e a mandíbula desvia para o lado afetado. Na avaliação observam-se a amplitude e a trajetória da abertura, os ruídos, a palpação da articulação e dos músculos e os hábitos parafuncionais, como o bruxismo.",
+    "pontos": [
+      "ATM: sinovial com disco; superfícies de fibrocartilagem.",
+      "Compartimento inferior: rotação. Compartimento superior: translação.",
+      "Abertura: rotação inicial seguida de translação anterior.",
+      "Elevadores: masseter, temporal e pterigóideo medial.",
+      "Pterigóideo lateral: protrusão, abertura e lateralidade contralateral.",
+      "Inervação de todos os mastigatórios: nervo mandibular (V3).",
+      "Abertura funcional: cerca de 40–50 mm (três dedos).",
+      "Estalido na abertura: deslocamento do disco com redução."
+    ],
+    "estruturas": ["Temporomandibular joint", "Articular disc of temporomandibular joint", "Articular capsule of temporomandibular joint", "Lateral temporomandibular ligament", "Mandible", "Temporal bone", "Superficial part of masseter", "Deep part of masseter", "Temporalis muscle", "Medial pterygoid muscle", "Superior head of lateral pterygoid muscle", "Inferior head of lateral pterygoid muscle", "Mandibular nerve", "Anterior belly of digastric muscle"],
+    "perguntas": [
+      { "q": "Quais são os músculos da mastigação e sua inervação?", "a": "Masseter, temporal, pterigóideo medial e pterigóideo lateral; todos inervados pelo nervo mandibular (V3), ramo do trigêmeo." },
+      { "q": "Que movimento ocorre em cada compartimento da ATM?", "a": "No inferior (côndilo–disco), rotação; no superior (disco–temporal), translação." },
+      { "q": "Qual músculo é o principal responsável pela protrusão da mandíbula?", "a": "O pterigóideo lateral (cabeça inferior)." },
+      { "q": "Para que lado a mandíbula desvia na contração do pterigóideo lateral direito?", "a": "Para a esquerda (lado oposto)." },
+      { "q": "O que sugere um estalido na abertura e outro no fechamento da boca?", "a": "Deslocamento anterior do disco com redução (estalido recíproco)." }
+    ]
+  },
+  {
+    "id": "mimica-e-nervo-facial",
+    "titulo": "Músculos da mímica e nervo facial",
+    "regiao": "face",
+    "resumo": "Os músculos da expressão facial inserem-se na pele e são todos inervados pelo nervo facial (VII). Distinguir a paralisia facial periférica da central é uma habilidade básica na avaliação neurológica.",
+    "texto": "Os músculos da mímica são finos, ficam na tela subcutânea e, ao contrário da maioria dos músculos esqueléticos, inserem-se na pele ou em outros músculos. Organizam-se em torno das aberturas da face, como esfíncteres e dilatadores. Os principais: o ventre frontal do occipitofrontal (eleva as sobrancelhas e enruga a testa), o corrugador do supercílio (franze as sobrancelhas), o orbicular do olho (fecha as pálpebras; a parte palpebral faz o piscar suave e a parte orbital, o fechamento forçado), o orbicular da boca (fecha e projeta os lábios), o zigomático maior (sorriso), o levantador do lábio superior, o abaixador do ângulo da boca, o mentual, o bucinador (comprime a bochecha contra os dentes, mantendo o alimento entre eles, além de soprar e sugar) e o platisma.\n\nTodos são inervados pelo nervo facial, o sétimo nervo craniano. Ele emerge do tronco encefálico na junção entre a ponte e o bulbo, atravessa o meato acústico interno e o canal do facial no osso temporal, e sai do crânio pelo forame estilomastóideo. Penetra então na glândula parótida, onde se divide em cinco grupos de ramos: temporais, zigomáticos, bucais, marginal da mandíbula e cervical.\n\nNo trajeto dentro do temporal, o facial também emite o nervo para o músculo estapédio (que amortece sons intensos) e a corda do tímpano (gustação dos dois terços anteriores da língua e fibras secretoras para as glândulas submandibular e sublingual); fibras para a glândula lacrimal saem ainda antes. Assim, lesões dentro do canal podem acrescentar hiperacusia, alteração do paladar e olho seco à paralisia dos músculos. Cuidado para não confundir: os músculos da mastigação são do trigêmeo (V3), e a sensibilidade da face também é do trigêmeo.\n\nNa paralisia facial periférica (lesão do nervo ou de seu núcleo), toda a hemiface do mesmo lado é acometida: a testa não enruga, o olho não fecha (lagoftalmo) e, ao tentar fechá-lo, o globo ocular roda para cima (sinal de Bell), o sulco nasolabial se apaga e a boca desvia para o lado são. A causa mais comum é a paralisia de Bell, idiopática. Na paralisia facial central (lesão acima do núcleo, como no acidente vascular cerebral), a metade superior da face é poupada, porque a parte do núcleo que inerva a testa e o fechamento dos olhos recebe comandos corticais dos dois hemisférios; o déficit aparece na metade inferior da face do lado oposto à lesão.\n\nNa fisioterapia, a reabilitação da paralisia facial periférica usa cuidados de proteção ocular, exercícios de mímica com feedback (espelho), treino de simetria e de dissociação de movimentos e orientações para prevenir ou reduzir sincinesias, movimentos involuntários associados (por exemplo, o olho que se fecha ao sorrir) que surgem na reinervação aberrante.",
+    "pontos": [
+      "Músculos da mímica: inserem-se na pele; todos do nervo facial (VII).",
+      "Músculos da mastigação e sensibilidade da face: nervo trigêmeo (V).",
+      "O facial sai pelo forame estilomastóideo e ramifica-se dentro da parótida.",
+      "Cinco grupos de ramos: temporais, zigomáticos, bucais, marginal da mandíbula e cervical.",
+      "Paralisia periférica: toda a hemiface ipsilateral, incluindo a testa.",
+      "Paralisia central: poupa a testa; acomete a parte inferior da face contralateral.",
+      "Bucinador: mantém o alimento entre os dentes.",
+      "Sincinesias: sequela da reinervação aberrante."
+    ],
+    "estruturas": ["Facial nerve (VII)", "Facial muscles", "Frontalis muscle", "Corrugator supercilii", "Orbital part of orbicularis oculi", "Palpebral part of orbicularis oculi", "Orbicularis oris muscle", "Zygomaticus major muscle", "Levator labii superioris", "Depressor anguli oris", "Mentalis muscle", "Bucinator", "Platysma", "Parotid gland"],
+    "perguntas": [
+      { "q": "Qual nervo inerva os músculos da expressão facial?", "a": "O nervo facial (VII par craniano)." },
+      { "q": "Como diferenciar a paralisia facial periférica da central?", "a": "Na periférica toda a hemiface ipsilateral é afetada, inclusive a testa e o fechamento do olho. Na central a testa é poupada e a fraqueza predomina na metade inferior da face contralateral à lesão." },
+      { "q": "Por que a testa é poupada na paralisia central?", "a": "Porque a porção do núcleo do facial que inerva a metade superior da face recebe inervação cortical bilateral." },
+      { "q": "Quais são os cinco grupos de ramos terminais do nervo facial?", "a": "Temporais, zigomáticos, bucais, marginal da mandíbula e cervical." },
+      { "q": "Qual a função do bucinador na mastigação?", "a": "Comprimir a bochecha contra os dentes, mantendo o alimento entre as arcadas; ele é inervado pelo facial, não pelo trigêmeo." },
+      { "q": "O que é sincinesia?", "a": "Movimento involuntário associado a um movimento voluntário (por exemplo, fechar o olho ao sorrir), decorrente de reinervação aberrante após lesão do nervo facial." }
+    ]
+  }
+]

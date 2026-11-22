@@ -1,0 +1,215 @@
+[
+  {
+    "key": "Olfactory nerve (I)",
+    "pt": "Nervo olfatório (I)",
+    "origem": "Neurônios olfatórios da mucosa olfatória, no teto da cavidade nasal. Não tem núcleo no tronco encefálico: é um dos dois nervos cranianos ligados diretamente ao prosencéfalo.",
+    "trajeto": "Os axônios reúnem-se em cerca de 20 filamentos (filetes olfatórios) que atravessam a lâmina cribriforme do etmoide e fazem sinapse no bulbo olfatório; daí o trato olfatório leva a informação ao córtex olfatório, sem passar antes pelo tálamo.",
+    "motor": "Nenhum.",
+    "sensitivo": "Olfato (sensibilidade especial).",
+    "lesao": "Anosmia ou hiposmia por traumatismo craniano com fratura da fossa anterior do crânio (pode haver saída de liquor pelo nariz), infecções virais, tumores do sulco olfatório e doenças neurodegenerativas (a perda do olfato é sinal precoce na doença de Parkinson). O paciente costuma queixar-se de perda do paladar.",
+    "resumo": "Nervo sensitivo especial do olfato; seus filamentos atravessam a lâmina cribriforme do etmoide até o bulbo olfatório."
+  },
+  {
+    "key": "Optic nerve (II)",
+    "pt": "Nervo óptico (II)",
+    "origem": "Axônios das células ganglionares da retina. É, na verdade, um trato do sistema nervoso central (diencéfalo), envolto pelas meninges e mielinizado por oligodendrócitos.",
+    "trajeto": "Deixa o bulbo do olho no disco do nervo óptico, percorre a órbita e atravessa o canal óptico junto com a artéria oftálmica. No quiasma óptico, as fibras da metade nasal de cada retina cruzam para o lado oposto; seguem pelo trato óptico até o corpo geniculado lateral do tálamo e, pela radiação óptica, ao córtex visual primário no lobo occipital.",
+    "motor": "Nenhum.",
+    "sensitivo": "Visão (sensibilidade especial). É também a via aferente do reflexo fotomotor (a via eferente é o nervo oculomotor).",
+    "lesao": "Lesão do nervo: cegueira do olho do mesmo lado, com perda do reflexo fotomotor direto. Lesão do quiasma (tumor de hipófise): hemianopsia bitemporal. Lesão do trato, da radiação óptica ou do córtex visual (AVC): hemianopsia homônima contralateral. Neurite óptica é manifestação frequente da esclerose múltipla. A hemianopsia interfere no equilíbrio, na marcha e na reabilitação.",
+    "resumo": "Nervo sensitivo especial da visão; atravessa o canal óptico e cruza parcialmente no quiasma óptico."
+  },
+  {
+    "key": "Oculomotor nerve (III)",
+    "pt": "Nervo oculomotor (III)",
+    "origem": "Núcleo do nervo oculomotor e núcleo visceral (de Edinger-Westphal), no mesencéfalo, ao nível do colículo superior.",
+    "trajeto": "Emerge na fossa interpeduncular, na face anterior do mesencéfalo, passa entre as artérias cerebral posterior e cerebelar superior, percorre a parede lateral do seio cavernoso e entra na órbita pela fissura orbital superior, dividindo-se em ramo superior e ramo inferior.",
+    "motor": "Somático: levantador da pálpebra superior, reto superior, reto medial, reto inferior e oblíquo inferior. Parassimpático (com sinapse no gânglio ciliar): esfíncter da pupila (miose) e músculo ciliar (acomodação).",
+    "sensitivo": "Nenhum território cutâneo.",
+    "lesao": "Paralisia completa: ptose palpebral, olho desviado para baixo e para fora (ação do reto lateral e do oblíquo superior, preservados), midríase sem reação à luz, perda da acomodação e diplopia. Causas: aneurisma da artéria comunicante posterior e herniação do unco (comprimem as fibras pupilares, periféricas — a midríase é sinal precoce), diabetes (lesão isquêmica que costuma poupar a pupila) e traumatismo.",
+    "resumo": "Principal nervo motor do olho: inerva quatro dos seis músculos extrínsecos e o levantador da pálpebra, além de contrair a pupila e acomodar o cristalino."
+  },
+  {
+    "key": "Trochlear nerve (IV)",
+    "pt": "Nervo troclear (IV)",
+    "origem": "Núcleo do nervo troclear, no mesencéfalo, ao nível do colículo inferior.",
+    "trajeto": "É o único nervo craniano que emerge pela face posterior do tronco encefálico e cujas fibras cruzam para o lado oposto antes de sair. Contorna o mesencéfalo, percorre a parede lateral do seio cavernoso e entra na órbita pela fissura orbital superior. É o nervo craniano mais fino e de maior trajeto intracraniano.",
+    "motor": "Músculo oblíquo superior (abaixa o olho quando ele está aduzido e faz rotação medial do bulbo).",
+    "sensitivo": "Nenhum.",
+    "lesao": "Diplopia vertical que piora ao olhar para baixo e para dentro: dificuldade para descer escadas e ler. O paciente inclina a cabeça para o lado oposto ao da lesão para compensar (torcicolo ocular, que pode ser confundido com alteração cervical). Causa mais comum: traumatismo craniano.",
+    "dica": "Macete: OS4, RL6, o resto 3 — oblíquo superior pelo IV, reto lateral pelo VI, os demais pelo III.",
+    "resumo": "Inerva apenas o músculo oblíquo superior do olho; único nervo craniano que emerge pela face dorsal do tronco encefálico."
+  },
+  {
+    "key": "Abducens nerve (VI)",
+    "pt": "Nervo abducente (VI)",
+    "origem": "Núcleo do nervo abducente, na ponte, sob o colículo facial do assoalho do quarto ventrículo.",
+    "trajeto": "Emerge no sulco bulbopontino, próximo à linha mediana, sobe sobre o clivo, passa pelo interior do seio cavernoso (lateral à artéria carótida interna) e entra na órbita pela fissura orbital superior.",
+    "motor": "Músculo reto lateral (abdução do olho).",
+    "sensitivo": "Nenhum.",
+    "lesao": "Estrabismo convergente (olho desviado medialmente) e diplopia horizontal que piora ao olhar para o lado da lesão. Pelo longo trajeto intracraniano, é comprometido com frequência na hipertensão intracraniana, além de diabetes, tumores e traumas.",
+    "resumo": "Inerva apenas o músculo reto lateral; sua lesão impede a abdução do olho e causa estrabismo convergente."
+  },
+  {
+    "key": "Trigeminal nerve (V)",
+    "pt": "Nervo trigêmeo (V)",
+    "origem": "Núcleos sensitivos (mesencefálico, principal e espinal do trigêmeo) e núcleo motor do trigêmeo, na ponte. Os corpos dos neurônios sensitivos estão no gânglio trigeminal.",
+    "trajeto": "Emerge na face lateral da ponte por uma grande raiz sensitiva e uma pequena raiz motora. A raiz sensitiva dilata-se no gânglio trigeminal (de Gasser), situado no cavo trigeminal, sobre o ápice da parte petrosa do temporal. Do gânglio saem três divisões: nervo oftálmico (V1), pela fissura orbital superior; nervo maxilar (V2), pelo forame redondo; e nervo mandibular (V3), pelo forame oval, ao qual se junta a raiz motora.",
+    "motor": "Pelo nervo mandibular: músculos da mastigação (masseter, temporal, pterigóideo medial e pterigóideo lateral), milo-hióideo, ventre anterior do digástrico, tensor do véu palatino e tensor do tímpano.",
+    "sensitivo": "Sensibilidade geral da face e do couro cabeludo até o vértice, córnea e conjuntiva, mucosas nasal, dos seios paranasais e da boca, dentes, dois terços anteriores da língua (sensibilidade geral), articulação temporomandibular e maior parte da dura-máter. V1: fronte, pálpebra superior, dorso do nariz. V2: bochecha, pálpebra inferior, lábio superior. V3: mandíbula, lábio inferior, mento e região temporal. O ângulo da mandíbula é inervado por C2–C3 (nervo auricular magno).",
+    "lesao": "Neuralgia do trigêmeo: crises de dor intensa, em choque, de segundos de duração, no território de V2 ou V3, desencadeadas por toque leve, mastigação ou fala (zonas-gatilho).\n\nLesão do nervo: anestesia da hemiface e perda do reflexo corneano (aferência por V1, eferência pelo facial); paralisia e atrofia dos músculos da mastigação, com desvio da mandíbula para o lado lesado ao abrir a boca (ação do pterigóideo lateral são). O herpes-zóster oftálmico acomete o território de V1. O trigêmeo é a via da dor nas disfunções temporomandibulares e em muitas cefaleias.",
+    "resumo": "Principal nervo sensitivo da face e motor da mastigação. Divide-se em três ramos: oftálmico (V1), maxilar (V2) e mandibular (V3)."
+  },
+  {
+    "key": "Ophthalmic nerve",
+    "pt": "Nervo oftálmico (V1)",
+    "origem": "Primeira divisão do nervo trigêmeo, a partir do gânglio trigeminal.",
+    "trajeto": "Percorre a parede lateral do seio cavernoso e, antes de entrar na órbita pela fissura orbital superior, divide-se em nervos frontal, lacrimal e nasociliar.",
+    "motor": "Nenhum (exclusivamente sensitivo).",
+    "sensitivo": "Fronte e couro cabeludo até o vértice (nervos supraorbital e supratroclear), pálpebra superior, córnea e conjuntiva, dorso e ponta do nariz, mucosa da parte anterossuperior da cavidade nasal e dos seios frontal e etmoidais, e dura-máter da fossa anterior do crânio e do tentório do cerebelo.",
+    "lesao": "Perda da sensibilidade da córnea e do reflexo corneano (risco de úlcera de córnea). Herpes-zóster oftálmico: vesículas na fronte e na pálpebra; quando atingem a ponta do nariz (ramo nasociliar), há maior risco de comprometimento ocular.",
+    "resumo": "Primeira divisão do trigêmeo, puramente sensitiva: inerva fronte, pálpebra superior, córnea e dorso do nariz. É a via aferente do reflexo corneano."
+  },
+  {
+    "key": "Maxillary nerve",
+    "pt": "Nervo maxilar (V2)",
+    "origem": "Segunda divisão do nervo trigêmeo, a partir do gânglio trigeminal.",
+    "trajeto": "Deixa o crânio pelo forame redondo e chega à fossa pterigopalatina, onde se relaciona com o gânglio pterigopalatino. Continua pela fissura orbital inferior como nervo infraorbital, percorre o sulco e o canal infraorbitais e emerge na face pelo forame infraorbital.",
+    "motor": "Nenhum (exclusivamente sensitivo). Seus ramos conduzem fibras parassimpáticas do nervo facial, vindas do gânglio pterigopalatino, para a glândula lacrimal e as glândulas nasais e palatinas.",
+    "sensitivo": "Pele da pálpebra inferior, da bochecha, da asa do nariz e do lábio superior; dentes e gengiva superiores; mucosa da cavidade nasal, do seio maxilar e do palato; dura-máter da fossa média do crânio.",
+    "lesao": "Fraturas do assoalho da órbita e da maxila podem lesar o nervo infraorbital, com anestesia da bochecha, do lábio superior e dos dentes superiores. É um dos territórios mais acometidos pela neuralgia do trigêmeo.",
+    "resumo": "Segunda divisão do trigêmeo, puramente sensitiva: passa pelo forame redondo e inerva o terço médio da face, os dentes superiores, o palato e a cavidade nasal."
+  },
+  {
+    "key": "Meningeal branch of maxillary nerve",
+    "pt": "Ramo meníngeo do nervo maxilar",
+    "resumo": "Ramo emitido pelo nervo maxilar ainda dentro do crânio, antes do forame redondo. Acompanha o ramo anterior da artéria meníngea média e inerva a dura-máter da fossa média do crânio."
+  },
+  {
+    "key": "Mandibular nerve",
+    "pt": "Nervo mandibular (V3)",
+    "origem": "Terceira divisão do nervo trigêmeo; única que contém fibras motoras, pois recebe a raiz motora do trigêmeo.",
+    "trajeto": "Deixa o crânio pelo forame oval e chega à fossa infratemporal, entre o pterigóideo lateral e o tensor do véu palatino. Após um tronco curto, que emite o ramo meníngeo e o nervo para o pterigóideo medial, divide-se em divisão anterior (predominantemente motora) e divisão posterior (predominantemente sensitiva).",
+    "motor": "Masseter, temporal, pterigóideo medial, pterigóideo lateral, milo-hióideo, ventre anterior do digástrico, tensor do véu palatino e tensor do tímpano.",
+    "sensitivo": "Pele da região temporal, parte da orelha e do meato acústico externo (nervo auriculotemporal), bochecha (nervo bucal), lábio inferior e mento (nervo mentual); dentes e gengiva inferiores (nervo alveolar inferior); sensibilidade geral dos dois terços anteriores da língua e do assoalho da boca (nervo lingual); articulação temporomandibular.",
+    "lesao": "Fraqueza e atrofia dos músculos da mastigação, com desvio da mandíbula para o lado lesado na abertura da boca; anestesia do lábio inferior, do mento, dos dentes inferiores e da hemilíngua. Seus ramos alveolar inferior e lingual podem ser lesados em extrações de terceiros molares e em fraturas da mandíbula. O nervo auriculotemporal é o principal responsável pela sensibilidade da articulação temporomandibular.",
+    "resumo": "Terceira divisão do trigêmeo, mista: passa pelo forame oval, inerva os músculos da mastigação e dá sensibilidade ao terço inferior da face, à língua e à articulação temporomandibular."
+  },
+  {
+    "key": "Anterior division of mandibular nerve",
+    "pt": "Divisão anterior do nervo mandibular",
+    "resumo": "Menor e predominantemente motora. Origina os nervos massetérico (masseter), temporais profundos (temporal) e o nervo para o pterigóideo lateral; seu único ramo sensitivo é o nervo bucal. O nervo massetérico também dá ramos para a articulação temporomandibular."
+  },
+  {
+    "key": "Buccal nerve",
+    "pt": "Nervo bucal",
+    "resumo": "Único ramo sensitivo da divisão anterior do nervo mandibular. Passa entre as duas cabeças do pterigóideo lateral e inerva a pele e a mucosa da bochecha e a gengiva vestibular dos molares inferiores. Não inerva o músculo bucinador, que é motor do nervo facial (ramos bucais)."
+  },
+  {
+    "key": "Posterior division of mandibular nerve",
+    "pt": "Divisão posterior do nervo mandibular",
+    "resumo": "Maior e predominantemente sensitiva. Origina os nervos auriculotemporal, lingual e alveolar inferior; suas únicas fibras motoras seguem pelo nervo milo-hióideo (ramo do alveolar inferior)."
+  },
+  {
+    "key": "Lingual nerve",
+    "pt": "Nervo lingual",
+    "resumo": "Ramo da divisão posterior do nervo mandibular. Desce entre o pterigóideo medial e o ramo da mandíbula, recebe a corda do tímpano e passa junto ao terceiro molar inferior até a língua. Conduz a sensibilidade geral (tato, dor, temperatura) dos dois terços anteriores da língua, do assoalho da boca e da gengiva lingual inferior; as fibras gustativas e parassimpáticas que o acompanham pertencem ao nervo facial."
+  },
+  {
+    "key": "Inferior alveolar nerve",
+    "pt": "Nervo alveolar inferior",
+    "resumo": "Ramo da divisão posterior do nervo mandibular. Emite o nervo milo-hióideo, entra no forame da mandíbula e percorre o canal da mandíbula, inervando todos os dentes inferiores do mesmo lado; termina como nervo mentual. É o nervo bloqueado na anestesia odontológica dos dentes inferiores e pode ser lesado em fraturas da mandíbula e extrações de terceiros molares."
+  },
+  {
+    "key": "Nerve to mylohyoid muscle",
+    "pt": "Nervo milo-hióideo",
+    "sinonimos": ["nervo para o músculo milo-hióideo"],
+    "resumo": "Ramo motor do nervo alveolar inferior, emitido logo antes de este entrar no forame da mandíbula. Desce no sulco milo-hióideo da mandíbula e inerva o músculo milo-hióideo e o ventre anterior do digástrico."
+  },
+  {
+    "key": "Mental nerve",
+    "pt": "Nervo mentual",
+    "sinonimos": ["nervo mentoniano"],
+    "resumo": "Ramo terminal do nervo alveolar inferior. Emerge pelo forame mentual, abaixo do segundo pré-molar inferior, e inerva a pele do mento e a pele e a mucosa do lábio inferior."
+  },
+  {
+    "key": "Facial nerve (VII)",
+    "pt": "Nervo facial (VII)",
+    "origem": "Núcleo motor do nervo facial (ponte), núcleo salivatório superior (fibras parassimpáticas) e núcleo do trato solitário (gustação). As fibras sensitivas e parassimpáticas formam o nervo intermédio; os corpos dos neurônios sensitivos estão no gânglio geniculado.",
+    "trajeto": "Emerge no sulco bulbopontino (ângulo pontocerebelar), entra no meato acústico interno junto com o nervo vestibulococlear e percorre o canal do nervo facial no osso temporal. No joelho do facial (gânglio geniculado) emite o nervo petroso maior; em seguida dá o nervo para o músculo estapédio e a corda do tímpano. Sai do crânio pelo forame estilomastóideo, emite o nervo auricular posterior e os ramos para o ventre posterior do digástrico e o estilo-hióideo, e penetra na glândula parótida, onde forma o plexo intraparotídeo e se divide em cinco ramos terminais: temporais, zigomáticos, bucais, marginal da mandíbula e cervical.",
+    "motor": "Músculos da expressão facial (incluindo occipitofrontal, orbicular do olho, bucinador, orbicular da boca e platisma), estapédio, ventre posterior do digástrico e estilo-hióideo. Parassimpático: glândula lacrimal e glândulas nasais e palatinas (nervo petroso maior, gânglio pterigopalatino); glândulas submandibular e sublingual (corda do tímpano, gânglio submandibular).",
+    "sensitivo": "Gustação dos dois terços anteriores da língua (corda do tímpano) e do palato; pequena área de pele da concha da orelha e do meato acústico externo.",
+    "lesao": "Paralisia facial periférica (lesão do núcleo ou do nervo; a forma idiopática é a paralisia de Bell): paralisia de toda a hemiface do mesmo lado — apagamento das rugas da fronte e do sulco nasolabial, incapacidade de fechar o olho (lagoftalmo, com o olho desviando para cima ao tentar fechá-lo: sinal de Bell), desvio da boca para o lado são, escape de saliva e alimento. Conforme o nível da lesão no canal facial, somam-se hiperacusia (estapédio), perda da gustação nos dois terços anteriores da língua e olho seco. Outras causas: herpes-zóster (síndrome de Ramsay Hunt), fraturas do temporal, cirurgia e tumores da parótida.\n\nParalisia facial central (lesão supranuclear, como no AVC): acomete apenas o quadrante inferior da face do lado oposto à lesão e poupa a fronte e o fechamento do olho, porque a parte do núcleo que inerva a metade superior da face recebe fibras corticonucleares dos dois hemisférios.\n\nNa reabilitação, atenção à proteção do olho e às sincinesias na fase de reinervação.",
+    "dica": "Ramos terminais, de cima para baixo: Temporais, Zigomáticos, Bucais, Marginal da mandíbula, Cervical.",
+    "resumo": "Nervo da mímica facial; também leva a gustação dos dois terços anteriores da língua e a inervação parassimpática das glândulas lacrimal, submandibular e sublingual. Sua lesão periférica paralisa toda a hemiface."
+  },
+  {
+    "key": "Chorda tympani",
+    "pt": "Corda do tímpano",
+    "resumo": "Ramo do nervo facial emitido no canal facial, pouco antes do forame estilomastóideo. Atravessa a cavidade timpânica entre o martelo e a bigorna, sai do crânio pela fissura petrotimpânica e une-se ao nervo lingual. Conduz a gustação dos dois terços anteriores da língua e as fibras parassimpáticas pré-ganglionares para o gânglio submandibular (glândulas submandibular e sublingual)."
+  },
+  {
+    "key": "Vestibulocochlear nerve (VIII)",
+    "pt": "Nervo vestibulococlear (VIII)",
+    "origem": "Neurônios bipolares do gânglio vestibular e do gânglio espiral da cóclea, na orelha interna; terminam nos núcleos vestibulares e cocleares, na transição entre ponte e bulbo.",
+    "trajeto": "As partes vestibular e coclear deixam a orelha interna, percorrem o meato acústico interno junto com o nervo facial e entram no tronco encefálico no ângulo pontocerebelar, no sulco bulbopontino, lateralmente ao nervo facial.",
+    "motor": "Nenhum.",
+    "sensitivo": "Sensibilidade especial: audição (nervo coclear) e equilíbrio — posição e movimentos da cabeça (nervo vestibular).",
+    "lesao": "Parte coclear: zumbido e perda auditiva neurossensorial. Parte vestibular: vertigem, náusea, nistagmo, desequilíbrio e tendência a queda para o lado lesado. Causas: neurite vestibular, schwannoma vestibular (neurinoma do acústico) no ângulo pontocerebelar — que também pode comprimir os nervos facial e trigêmeo —, fraturas do temporal e fármacos ototóxicos. As disfunções vestibulares são tratadas pela reabilitação vestibular.",
+    "resumo": "Nervo sensitivo especial da audição (parte coclear) e do equilíbrio (parte vestibular); percorre o meato acústico interno junto com o nervo facial."
+  },
+  {
+    "key": "Cochlear nerve",
+    "pt": "Nervo coclear",
+    "resumo": "Parte do nervo vestibulococlear responsável pela audição. Formado pelos prolongamentos centrais dos neurônios do gânglio espiral, que recebem as células ciliadas do órgão espiral (de Corti), termina nos núcleos cocleares do tronco encefálico. Sua lesão causa perda auditiva neurossensorial e zumbido."
+  },
+  {
+    "key": "Vestibular nerve",
+    "pt": "Nervo vestibular",
+    "resumo": "Parte do nervo vestibulococlear responsável pelo equilíbrio. Formado pelos neurônios do gânglio vestibular, recebe informações das máculas do utrículo e do sáculo (aceleração linear e gravidade) e das cristas ampulares dos ductos semicirculares (aceleração angular), e termina nos núcleos vestibulares e no cerebelo. Sua lesão causa vertigem, nistagmo e desequilíbrio."
+  },
+  {
+    "key": "Glossopharyngeal nerve (IX)",
+    "pt": "Nervo glossofaríngeo (IX)",
+    "origem": "Núcleo ambíguo (motor), núcleo salivatório inferior (parassimpático), núcleo do trato solitário e núcleo espinal do trigêmeo (sensitivos), no bulbo.",
+    "trajeto": "Emerge no sulco posterolateral do bulbo, atrás da oliva, e sai do crânio pelo forame jugular, junto com os nervos vago e acessório. Desce entre a artéria carótida interna e a veia jugular interna, contorna o músculo estilofaríngeo e chega à faringe e à base da língua.",
+    "motor": "Músculo estilofaríngeo. Parassimpático: glândula parótida (nervo timpânico, nervo petroso menor, gânglio ótico).",
+    "sensitivo": "Sensibilidade geral e gustação do terço posterior da língua; sensibilidade da faringe, da tonsila palatina, da tuba auditiva e da orelha média; aferências do seio carótico (barorreceptores) e do glomo carótico (quimiorreceptores).",
+    "lesao": "Lesão isolada é rara; costuma ocorrer com o vago e o acessório (síndrome do forame jugular). Perda da sensibilidade e do paladar no terço posterior da língua, perda da via aferente do reflexo do vômito (a via eferente é o vago) e disfagia leve. Neuralgia do glossofaríngeo: dor em choque na garganta e na orelha ao deglutir.",
+    "resumo": "Nervo misto da faringe e do terço posterior da língua: sensibilidade e gustação, inervação parassimpática da parótida e aferências do seio carótico. É a via aferente do reflexo do vômito."
+  },
+  {
+    "key": "Vagus nerve (X)",
+    "pt": "Nervo vago (X)",
+    "sinonimos": ["nervo pneumogástrico"],
+    "origem": "Núcleo ambíguo (motor para faringe e laringe), núcleo dorsal do vago (parassimpático), núcleo do trato solitário e núcleo espinal do trigêmeo (sensitivos), no bulbo.",
+    "trajeto": "Emerge no sulco posterolateral do bulbo, sai do crânio pelo forame jugular e desce no pescoço dentro da bainha carótica, entre a artéria carótida e a veia jugular interna. No tórax, o vago direito passa à frente da artéria subclávia e o esquerdo à frente do arco da aorta; ambos passam atrás da raiz do pulmão e formam o plexo esofágico. Atravessam o diafragma pelo hiato esofágico como troncos vagais anterior e posterior e distribuem-se às vísceras abdominais até a flexura esquerda do colo. O nervo laríngeo recorrente contorna a artéria subclávia à direita e o arco da aorta à esquerda antes de subir até a laringe.",
+    "motor": "Músculos do palato mole (exceto o tensor do véu palatino), da faringe (exceto o estilofaríngeo) e da laringe (cricotireóideo pelo nervo laríngeo superior; os demais pelo laríngeo recorrente), além do palatoglosso. Parassimpático: coração (reduz a frequência cardíaca), brônquios (broncoconstrição e secreção) e trato digestório até a flexura esquerda do colo (aumenta o peristaltismo e a secreção).",
+    "sensitivo": "Sensibilidade da laringe, da parte inferior da faringe e das vísceras torácicas e abdominais; aferências dos barorreceptores e quimiorreceptores do arco da aorta; gustação da epiglote; pequena área de pele do meato acústico externo e da orelha; dura-máter da fossa posterior.",
+    "lesao": "Lesão unilateral: queda do palato mole do lado lesado, com desvio da úvula para o lado são ao falar “a”; disfagia; perda da via eferente do reflexo do vômito; rouquidão e voz fraca por paralisia da prega vocal. A lesão do nervo laríngeo recorrente (cirurgia de tireoide, aneurisma do arco da aorta, tumores do mediastino e do ápice pulmonar) causa disfonia; se bilateral, pode haver obstrução respiratória. A disfagia aumenta o risco de broncoaspiração.\n\nO tônus vagal é o componente parassimpático avaliado pela variabilidade da frequência cardíaca; manobras vagais reduzem a frequência cardíaca.",
+    "resumo": "Nervo craniano de maior distribuição: motor da faringe, laringe e palato, e principal via parassimpática para coração, pulmões e trato digestório."
+  },
+  {
+    "key": "Accessory nerve (XI)",
+    "pt": "Nervo acessório (XI)",
+    "sinonimos": ["nervo espinal acessório"],
+    "raizes": "C1–C5 (núcleo do nervo acessório, na medula cervical alta)",
+    "origem": "Neurônios motores do núcleo do nervo acessório, nos segmentos cervicais superiores da medula espinal (raiz espinal). A tradicional raiz craniana, originada no núcleo ambíguo, é hoje considerada parte do nervo vago.",
+    "trajeto": "As radículas emergem da face lateral da medula, entre as raízes anteriores e posteriores, unem-se e sobem pelo canal vertebral, entrando no crânio pelo forame magno. O nervo sai do crânio pelo forame jugular, junto com o glossofaríngeo e o vago, desce cruzando a veia jugular interna, penetra na face profunda do esternocleidomastóideo e o inerva. Emerge na borda posterior desse músculo, pouco acima do ponto nervoso do pescoço, cruza o trígono cervical posterior superficialmente, sobre o levantador da escápula, e penetra na face profunda do trapézio.",
+    "motor": "Esternocleidomastóideo e trapézio. Ramos do plexo cervical (C2–C3 para o esternocleidomastóideo, C3–C4 para o trapézio) conduzem principalmente fibras proprioceptivas.",
+    "sensitivo": "Nenhum território cutâneo.",
+    "lesao": "O trajeto superficial no trígono cervical posterior o torna vulnerável em biópsias de linfonodos, esvaziamento cervical e outras cirurgias do pescoço — lesão geralmente distal ao esternocleidomastóideo, que fica preservado.\n\nParalisia do trapézio: ombro caído, com a escápula deslocada para baixo e lateralmente; fraqueza da elevação do ombro (encolher os ombros contra resistência); dificuldade de abduzir o braço acima de 90°, por perda da rotação superior da escápula; escápula alada lateral, mais evidente na abdução (diferente da escápula alada do serrátil anterior, mais evidente na flexão e ao empurrar a parede); dor no ombro por tração.\n\nLesão proximal: soma-se a fraqueza do esternocleidomastóideo, com dificuldade de rodar a cabeça para o lado oposto ao da lesão.",
+    "resumo": "Nervo motor do esternocleidomastóideo e do trapézio. Cruza superficialmente o trígono cervical posterior, onde pode ser lesado em cirurgias, causando ombro caído e fraqueza da abdução acima de 90°."
+  },
+  {
+    "key": "Hypoglossal nerve (XII)",
+    "pt": "Nervo hipoglosso (XII)",
+    "origem": "Núcleo do nervo hipoglosso, no bulbo, sob o trígono do hipoglosso no assoalho do quarto ventrículo.",
+    "trajeto": "Emerge no sulco anterolateral do bulbo, entre a pirâmide e a oliva, e sai do crânio pelo canal do nervo hipoglosso. Desce entre a artéria carótida interna e a veia jugular interna, curva-se para a frente cruzando lateralmente as artérias carótidas, passa acima do osso hioide, profundamente ao ventre posterior do digástrico e ao milo-hióideo, e chega à língua sobre o músculo hioglosso. Fibras de C1 acompanham o nervo por um trecho e o deixam para formar a raiz superior da alça cervical e os ramos para o tíreo-hióideo e o gênio-hióideo.",
+    "motor": "Todos os músculos intrínsecos da língua e os extrínsecos genioglosso, hioglosso e estiloglosso (o palatoglosso é inervado pelo vago).",
+    "sensitivo": "Nenhum.",
+    "lesao": "Lesão do nervo ou do núcleo (periférica): paralisia e atrofia da metade da língua do mesmo lado, com fasciculações; ao protrair, a língua desvia para o lado lesado, empurrada pelo genioglosso são. Disartria e dificuldade na fase oral da deglutição. Causas: cirurgias do pescoço (endarterectomia de carótida), tumores da base do crânio, traumas.\n\nLesão supranuclear (AVC): a língua desvia para o lado oposto ao da lesão cerebral, sem atrofia nem fasciculações.",
+    "dica": "A língua “aponta” para o lado da lesão periférica.",
+    "resumo": "Nervo motor da língua; sai do crânio pelo canal do hipoglosso. Na lesão periférica, a língua desvia para o lado lesado ao ser protraída."
+  }
+]

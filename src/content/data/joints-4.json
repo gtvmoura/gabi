@@ -1,0 +1,178 @@
+{
+ "articulacoes": [
+  {
+   "key": "Temporomandibular joint",
+   "pt": "Articulação temporomandibular (ATM)",
+   "art": "atm",
+   "tipo": "Sinovial bicondilar, com disco articular; funciona como gínglimo (rotação) e plana (translação) ao mesmo tempo – ginglimoartrodial",
+   "graus": 3,
+   "resumo": "Articulação entre a cabeça da mandíbula e o osso temporal, logo à frente da orelha. As duas ATMs trabalham sempre juntas, pois a mandíbula é um osso único. O disco divide cada articulação em dois compartimentos: no inferior (côndilo–disco) ocorre rotação; no superior (disco–temporal), translação.",
+   "superficies": "Cabeça (côndilo) da mandíbula com a fossa mandibular e o tubérculo articular do temporal. Diferentemente da maioria das articulações sinoviais, as superfícies são revestidas por fibrocartilagem, mais resistente ao desgaste e com maior capacidade de reparo. Entre elas fica o disco articular.",
+   "movimentos": [
+    {
+     "mov": "depressao",
+     "adm": "abertura de 40–55 mm entre os incisivos",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Abertura da boca. Os primeiros 20–25 mm são principalmente rotação do côndilo; depois, côndilo e disco transladam para a frente, sob o tubérculo articular. Abertura funcional mínima: cerca de 35–40 mm (cabem três dedos, ou duas a três articulações interfalângicas proximais, entre os dentes). A mandíbula deve abrir em linha reta, sem desvio."
+    },
+    {
+     "mov": "elevacao",
+     "adm": "fechamento até a oclusão",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Fechamento da boca."
+    },
+    {
+     "mov": "protrusao",
+     "adm": "3–6 mm",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Valor de Magee; outros autores citam até 6–9 mm. Translação anterior bilateral dos côndilos."
+    },
+    {
+     "mov": "retrusao",
+     "adm": "3–4 mm",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Limitada pelo ligamento lateral e pela zona retrodiscal."
+    },
+    {
+     "mov": "lateralidade",
+     "adm": "10–15 mm para cada lado",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "O côndilo do lado para onde a mandíbula vai roda; o do lado oposto translada para a frente, para baixo e medialmente."
+    }
+   ],
+   "estabilidade": "Estática: cápsula, ligamento lateral (temporomandibular), ligamentos esfenomandibular e estilomandibular, disco e seus ligamentos colaterais. Dinâmica: músculos da mastigação – masseter, temporal e pterigóideo medial (elevam), pterigóideo lateral (protrai e abre; sua cabeça superior controla o disco no fechamento) e supra-hióideos (abaixam). A postura da cabeça e da coluna cervical influencia a posição de repouso da mandíbula.",
+   "posicaoRepouso": "Boca levemente aberta, lábios em contato e dentes sem se tocar (espaço funcional livre de 2–4 mm), com a língua repousando no palato.",
+   "posicaoFechada": "Dentes cerrados (oclusão máxima).",
+   "padraoCapsular": "Limitação da abertura da boca; no acometimento unilateral, com desvio da mandíbula para o lado afetado.",
+   "sensacaoFinal": "Abertura: firme (estiramento capsular e muscular). Fechamento: dura (dentes).",
+   "clinica": "Disfunção temporomandibular: dor na região pré-auricular e nos músculos da mastigação, ruídos articulares e limitação ou desvio da abertura; associa-se a bruxismo/apertamento, estresse e alterações cervicais. Deslocamento anterior do disco com redução: estalido na abertura e no fechamento (clique recíproco), com desvio em \"S\". Deslocamento sem redução: abertura limitada a cerca de 25–30 mm, com deflexão para o lado afetado (travamento fechado). Luxação: o côndilo ultrapassa o tubérculo articular (bocejo, abertura prolongada) e a boca fica travada aberta. A avaliação inclui abertura, lateralidades e protrusão medidas em milímetros, palpação muscular e articular e exame da coluna cervical."
+  },
+  {
+   "key": "Crico-arytenoid joint",
+   "pt": "Articulação cricoaritenóidea",
+   "art": "hioide_laringe",
+   "tipo": "Sinovial (rotação e deslizamento)",
+   "graus": 2,
+   "resumo": "Articulação entre a base de cada cartilagem aritenóidea e a margem superior da lâmina da cartilagem cricóidea. Os movimentos das aritenóideas afastam (abdução) ou aproximam (adução) as pregas vocais, abrindo a glote para respirar ou fechando-a para a fonação, a tosse e a proteção das vias aéreas na deglutição.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "rotação e deslizamento das aritenóideas",
+     "plano": "—",
+     "eixo": "—",
+     "nota": "O cricoaritenóideo posterior é o único músculo que abre a glote; cricoaritenóideo lateral e aritenóideos a fecham."
+    }
+   ],
+   "clinica": "A fixação desta articulação (após intubação prolongada ou na artrite reumatoide) causa rouquidão e dificuldade respiratória, simulando paralisia de prega vocal. O fechamento glótico eficiente é necessário para a tosse eficaz, tema importante na fisioterapia respiratória."
+  },
+  {
+   "key": "Cricothyroid joint",
+   "pt": "Articulação cricotireóidea",
+   "art": "hioide_laringe",
+   "tipo": "Sinovial",
+   "graus": 1,
+   "resumo": "Articulação entre o corno inferior da cartilagem tireóidea e a face lateral da cartilagem cricóidea, de cada lado. Permite que as duas cartilagens basculem uma em relação à outra, como a viseira de um capacete, o que alonga e tensiona as pregas vocais e torna a voz mais aguda.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "báscula anterior (e leve deslizamento) entre tireóidea e cricóidea",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Produzida pelo músculo cricotireóideo, inervado pelo ramo externo do nervo laríngeo superior."
+    }
+   ],
+   "clinica": "O nervo laríngeo recorrente entra na laringe logo atrás desta articulação."
+  },
+  {
+   "key": "Joints of auditory ossicles",
+   "pt": "Articulações dos ossículos da audição",
+   "tipo": "Sinoviais: incudomalear (selar) e incudoestapedial (esferoide); a base do estribo prende-se à janela do vestíbulo por uma sindesmose",
+   "graus": 1,
+   "resumo": "Pequenas articulações que unem martelo, bigorna e estribo na cavidade timpânica. A cadeia transmite e amplifica as vibrações da membrana timpânica até a janela do vestíbulo (oval), na orelha interna.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "micromovimentos de vibração",
+     "plano": "—",
+     "eixo": "—",
+     "nota": "Os músculos tensor do tímpano e estapédio amortecem as vibrações diante de sons intensos."
+    }
+   ],
+   "clinica": "Rigidez ou interrupção da cadeia ossicular (otosclerose, otite crônica, trauma) causa perda auditiva do tipo condutivo."
+  }
+ ],
+ "ligamentos": [
+  {
+   "key": "Articular capsule of temporomandibular joint",
+   "pt": "Cápsula articular da articulação temporomandibular",
+   "funcao": "Cápsula frouxa, da margem da fossa mandibular e do tubérculo articular ao colo da mandíbula; prende-se a toda a periferia do disco. É frouxa acima do disco (permite a translação) e mais justa abaixo (permite só rotação). Lateralmente é reforçada pelo ligamento lateral.",
+   "clinica": "Capsulite e sinovite causam dor pré-auricular à palpação e à mastigação. A retração capsular limita a abertura, com desvio para o lado afetado. A parte posterior (zona retrodiscal) é muito vascularizada e inervada e dói quando comprimida pelo côndilo."
+  },
+  {
+   "key": "Articular disc of temporomandibular joint",
+   "pt": "Disco articular da articulação temporomandibular",
+   "funcao": "Placa fibrocartilagínea bicôncava entre o côndilo e o temporal, mais fina no centro (avascular e sem inervação) e espessa nas bandas anterior e posterior. Divide a articulação em compartimentos superior e inferior, acompanha o côndilo na translação e distribui as cargas. Atrás, continua-se com a zona retrodiscal; à frente, recebe fibras da cabeça superior do pterigóideo lateral.",
+   "clinica": "Deslocamento anterior do disco: com redução, produz estalido na abertura e no fechamento; sem redução, bloqueia a translação do côndilo e limita a abertura (travamento fechado)."
+  },
+  {
+   "key": "Lateral temporomandibular ligament",
+   "pt": "Ligamento lateral (temporomandibular)",
+   "funcao": "Espessamento lateral da cápsula, do tubérculo articular e processo zigomático do temporal ao colo da mandíbula, em direção oblíqua para baixo e para trás. Limita o deslocamento posterior e inferior do côndilo, protegendo a zona retrodiscal, e faz com que a abertura passe de rotação a translação quando fica tenso."
+  },
+  {
+   "key": "Sphenomandibular ligament",
+   "pt": "Ligamento esfenomandibular",
+   "funcao": "Faixa fina da espinha do esfenoide à língula da mandíbula, medial à articulação. Funciona como eixo de suspensão da mandíbula durante a abertura; não limita de forma importante os movimentos.",
+   "clinica": "Referência no bloqueio anestésico do nervo alveolar inferior, que entra no forame da mandíbula junto à língula."
+  },
+  {
+   "key": "Stylomandibular ligament",
+   "pt": "Ligamento estilomandibular",
+   "funcao": "Espessamento da fáscia cervical, do processo estiloide ao ângulo e margem posterior do ramo da mandíbula; separa as glândulas parótida e submandibular. Fica tenso na protrusão e limita a protrusão excessiva."
+  },
+  {
+   "key": "Stylohyoid ligament",
+   "pt": "Ligamento estilo-hióideo",
+   "funcao": "Cordão fibroso do ápice do processo estiloide do temporal ao corno menor do osso hioide. Ajuda a suspender o hioide e a laringe.",
+   "clinica": "Sua calcificação, ou um processo estiloide alongado, pode causar a síndrome de Eagle: dor na garganta e na face ao engolir e ao girar a cabeça."
+  },
+  {
+   "key": "Pterygospinous ligament",
+   "pt": "Ligamento pterigoespinal",
+   "funcao": "Faixa fibrosa da espinha do esfenoide à margem posterior da lâmina lateral do processo pterigoide. É inconstante e pode ossificar-se.",
+   "clinica": "Quando ossificado, forma um forame por onde passam ramos do nervo mandibular, que podem ser comprimidos, e dificulta o acesso ao forame oval."
+  },
+  {
+   "key": "Median cricothyroid ligament",
+   "pt": "Ligamento cricotireóideo mediano",
+   "funcao": "Parte mediana e espessada da membrana cricotireóidea (cone elástico), entre a margem inferior da cartilagem tireóidea e o arco da cartilagem cricóidea. É superficial e palpável como uma depressão logo abaixo da proeminência laríngea.",
+   "clinica": "Local da cricotireoidostomia, acesso de emergência à via aérea quando a intubação não é possível."
+  },
+  {
+   "key": "Quadrangular membrane",
+   "pt": "Membrana quadrangular",
+   "funcao": "Lâmina fibroelástica fina da margem lateral da epiglote à cartilagem aritenóidea, de cada lado. Sua margem superior livre forma a prega ariepiglótica, e a inferior, o ligamento vestibular (prega vestibular ou \"falsa prega vocal\")."
+  },
+  {
+   "key": "Lateral thyrohyoid ligament",
+   "pt": "Ligamento tíreo-hióideo lateral",
+   "funcao": "Margem posterior espessada da membrana tíreo-hióidea, do corno superior da cartilagem tireóidea à extremidade do corno maior do hioide; pode conter um pequeno nódulo cartilagíneo (cartilagem tritícea). Suspende a laringe no hioide."
+  },
+  {
+   "key": "Median thyrohyoid ligament",
+   "pt": "Ligamento tíreo-hióideo mediano",
+   "funcao": "Parte central espessada da membrana tíreo-hióidea, da incisura tireóidea superior ao corpo do hioide. Suspende a laringe no hioide, de modo que a elevação do hioide na deglutição leva a laringe junto.",
+   "clinica": "A elevação e a anteriorização do complexo hioide-laringe protegem a via aérea e abrem o esfíncter esofágico superior; são alvo de exercícios na reabilitação da disfagia."
+  },
+  {
+   "key": "Cricopharyngeal ligament",
+   "pt": "Ligamento cricofaríngeo",
+   "funcao": "Feixe fibroso da região das cartilagens corniculadas e da lâmina da cricóidea, na linha mediana posterior, à submucosa da faringe. Fixa a parede anterior da parte laríngea da faringe à laringe."
+  }
+ ]
+}

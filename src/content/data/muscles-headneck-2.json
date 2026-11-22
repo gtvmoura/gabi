@@ -1,0 +1,270 @@
+[
+  {
+    "key": "Omohyoid muscle",
+    "pt": "Músculo omo-hióideo",
+    "latim": "Musculus omohyoideus",
+    "sinonimos": ["omohióideo"],
+    "resumo": "Músculo infra-hióideo longo e fino, com dois ventres unidos por um tendão intermédio, que vai da escápula ao osso hioide cruzando o pescoço obliquamente. O ventre inferior divide o trígono posterior do pescoço.",
+    "origem": "Ventre inferior: borda superior da escápula, medialmente à incisura da escápula (e ligamento transverso superior da escápula).",
+    "insercao": "Ventre superior: borda inferior do corpo do osso hioide, lateralmente ao esterno-hióideo. O tendão intermédio fica preso à clavícula e à primeira costela por uma expansão da fáscia cervical.",
+    "inervacao": { "nervo": "Alça cervical (plexo cervical)", "raizes": "C1, C2, C3", "nervoKeys": ["Cervical plexus"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "depressao", "papel": "primario", "nota": "abaixa, retrai e fixa o hioide" }
+    ],
+    "funcao": "Abaixa e estabiliza o osso hioide após a deglutição e durante a fala, servindo de base fixa para os supra-hióideos abrirem a boca. Ao tensionar a lâmina pré-traqueal da fáscia cervical, ajuda a manter aberta a veia jugular interna.",
+    "sinergistas": ["Sternohyoid muscle", "Sternothyroid muscle", "Thyrohyoid muscle"],
+    "palpacao": "O ventre inferior pode ser visto e palpado em pessoas magras como um cordão oblíquo na fossa supraclavicular maior, logo acima da clavícula, que salta durante a fala ou a deglutição; não deve ser confundido com um tronco do plexo braquial.",
+    "clinica": "O ventre inferior é referência do trígono posterior (separa os trígonos occipital e omoclavicular). O tendão intermédio cruza a veia jugular interna.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Sternohyoid muscle",
+    "pt": "Músculo esterno-hióideo",
+    "latim": "Musculus sternohyoideus",
+    "sinonimos": ["esternohióideo"],
+    "resumo": "Músculo em fita, o mais superficial e medial dos infra-hióideos, que vai do esterno ao hioide de cada lado da linha mediana.",
+    "origem": "Face posterior do manúbrio do esterno e extremidade esternal (medial) da clavícula, com o ligamento esternoclavicular posterior.",
+    "insercao": "Borda inferior do corpo do osso hioide.",
+    "inervacao": { "nervo": "Alça cervical (plexo cervical)", "raizes": "C1, C2, C3", "nervoKeys": ["Cervical plexus"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "depressao", "papel": "primario", "nota": "abaixa o hioide depois de elevado na deglutição" }
+    ],
+    "funcao": "Abaixa o osso hioide após a deglutição e o fixa para que os supra-hióideos possam abaixar a mandíbula.",
+    "sinergistas": ["Omohyoid muscle", "Sternothyroid muscle", "Thyrohyoid muscle"],
+    "palpacao": "De cada lado da linha mediana do pescoço, entre a incisura jugular e o hioide, anterior à traqueia e à cartilagem tireóidea; contrai quando o paciente abre a boca contra resistência.",
+    "clinica": "Os infra-hióideos trabalham em equilíbrio com os supra-hióideos na posição do hioide e da mandíbula; alterações posturais da cabeça modificam esse equilíbrio. São afastados ou seccionados nas cirurgias da tireoide e na traqueostomia.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Sternothyroid muscle",
+    "pt": "Músculo esternotireóideo",
+    "latim": "Musculus sternothyroideus",
+    "sinonimos": ["esternotireoideo"],
+    "resumo": "Músculo infra-hióideo profundo ao esterno-hióideo, mais curto e mais largo, que recobre o lobo da glândula tireoide.",
+    "origem": "Face posterior do manúbrio do esterno (abaixo da origem do esterno-hióideo) e primeira cartilagem costal.",
+    "insercao": "Linha oblíqua da lâmina da cartilagem tireóidea.",
+    "inervacao": { "nervo": "Alça cervical (plexo cervical)", "raizes": "C2, C3", "nervoKeys": ["Cervical plexus"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "depressao", "papel": "primario", "nota": "abaixa a laringe (cartilagem tireóidea) e, indiretamente, o hioide" }
+    ],
+    "funcao": "Traciona a laringe para baixo após a deglutição e na emissão de sons graves.",
+    "sinergistas": ["Sternohyoid muscle", "Omohyoid muscle"],
+    "clinica": "Sua inserção na linha oblíqua limita a expansão superior da tireoide aumentada, de modo que o bócio tende a crescer para baixo, em direção ao mediastino.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Thyrohyoid muscle",
+    "pt": "Músculo tíreo-hióideo",
+    "latim": "Musculus thyrohyoideus",
+    "sinonimos": ["tireo-hióideo", "tirohióideo"],
+    "resumo": "Pequeno músculo quadrilátero que parece continuar o esternotireóideo para cima, da cartilagem tireóidea ao osso hioide.",
+    "origem": "Linha oblíqua da lâmina da cartilagem tireóidea.",
+    "insercao": "Borda inferior do corpo e do corno maior do osso hioide.",
+    "inervacao": { "nervo": "Fibras de C1 que acompanham o nervo hipoglosso (NC XII)", "raizes": "C1", "nervoKeys": ["Hypoglossal nerve (XII)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "depressao", "papel": "primario", "nota": "abaixa o hioide quando a laringe está fixa" },
+      { "art": "hioide_laringe", "mov": "elevacao", "papel": "primario", "nota": "eleva a laringe quando o hioide está fixo (deglutição)" }
+    ],
+    "funcao": "Aproxima a cartilagem tireóidea do hioide: abaixa o hioide ou, com este fixado pelos supra-hióideos, eleva a laringe durante a deglutição, contribuindo para a proteção da via aérea.",
+    "sinergistas": ["Sternohyoid muscle", "Omohyoid muscle"],
+    "clinica": "A elevação laríngea é observada e palpada na avaliação clínica da deglutição (dedos sobre o hioide e a cartilagem tireóidea).",
+    "dica": "É o único infra-hióideo que não recebe ramos da alça cervical: C1 via hipoglosso, como o gênio-hióideo.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Oblique part of cricothyroid muscle",
+    "pt": "Músculo cricotireóideo",
+    "latim": "Musculus cricothyroideus",
+    "sinonimos": ["cricotireoideo", "tensor das pregas vocais"],
+    "resumo": "Único músculo intrínseco da laringe situado na face externa e único não inervado pelo nervo laríngeo recorrente. É o principal tensor das pregas vocais.",
+    "origem": "Face externa da parte anterolateral do arco da cartilagem cricóidea.",
+    "insercao": "Borda inferior da lâmina e corno inferior da cartilagem tireóidea.",
+    "inervacao": { "nervo": "Ramo externo do nervo laríngeo superior, ramo do nervo vago (NC X)", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "inclina a cartilagem tireóidea para a frente e para baixo sobre a cricóidea, alongando e tensionando as pregas vocais (eleva a frequência da voz)" }
+    ],
+    "funcao": "Bascula a cartilagem tireóidea sobre a cricóidea nas articulações cricotireóideas, aumentando a distância entre o ângulo da tireóidea e as aritenóideas. Isso alonga, afina e tensiona os ligamentos vocais, produzindo sons mais agudos.",
+    "antagonistas": ["External part of thyro-arytenoid muscle"],
+    "clinica": "A lesão do ramo externo do nervo laríngeo superior (risco na ligadura da artéria tireóidea superior, em tireoidectomias) causa voz fraca, monótona, com fadiga vocal e perda dos agudos.",
+    "camada": "superficial",
+    "partes": [
+      { "key": "Oblique part of cricothyroid muscle", "pt": "Parte oblíqua", "insercao": "Corno inferior da cartilagem tireóidea", "nota": "Fibras posteriores, mais horizontais; tracionam a cartilagem tireóidea para a frente." },
+      { "key": "Straight part of cricothyroid muscle", "pt": "Parte reta", "insercao": "Borda inferior da lâmina da cartilagem tireóidea", "nota": "Fibras anteriores, mais verticais; inclinam a cartilagem tireóidea para baixo." }
+    ]
+  },
+  {
+    "key": "Posterior crico-arytenoid muscle",
+    "pt": "Músculo cricoaritenóideo posterior",
+    "latim": "Musculus cricoarytenoideus posterior",
+    "sinonimos": ["cricoaritenoideo posterior", "CAP"],
+    "resumo": "Músculo intrínseco da laringe situado na face posterior da cartilagem cricóidea. É o único abdutor das pregas vocais, portanto indispensável para respirar.",
+    "origem": "Face posterior da lâmina da cartilagem cricóidea.",
+    "insercao": "Processo muscular da cartilagem aritenóidea.",
+    "inervacao": { "nervo": "Nervo laríngeo recorrente (laríngeo inferior), ramo do nervo vago (NC X)", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "abduz as pregas vocais: gira lateralmente a aritenóidea e abre a rima da glote" }
+    ],
+    "funcao": "Roda as cartilagens aritenóideas de modo que os processos vocais se afastam, abrindo a rima da glote na inspiração, especialmente na inspiração profunda.",
+    "antagonistas": ["Lateral crico-arytenoid muscle", "Transverse arytenoid muscle"],
+    "clinica": "Na lesão bilateral do nervo laríngeo recorrente (cirurgia de tireoide, por exemplo) as pregas vocais ficam em posição paramediana, sem abdução, com estridor e risco de obstrução da via aérea. Na lesão unilateral há rouquidão e voz soprosa.",
+    "dica": "Posterior = abre ('P' de Passagem de ar). Todos os outros intrínsecos fecham ou ajustam a tensão.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Lateral crico-arytenoid muscle",
+    "pt": "Músculo cricoaritenóideo lateral",
+    "latim": "Musculus cricoarytenoideus lateralis",
+    "sinonimos": ["cricoaritenoideo lateral"],
+    "resumo": "Músculo intrínseco da laringe situado lateralmente, sob a lâmina da cartilagem tireóidea; principal adutor das pregas vocais.",
+    "origem": "Borda superior do arco da cartilagem cricóidea (parte lateral).",
+    "insercao": "Processo muscular da cartilagem aritenóidea.",
+    "inervacao": { "nervo": "Nervo laríngeo recorrente (laríngeo inferior), ramo do nervo vago (NC X)", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "aduz as pregas vocais: gira medialmente a aritenóidea e fecha a parte intermembranácea da rima da glote" }
+    ],
+    "funcao": "Roda a aritenóidea medialmente, aproximando os processos vocais e fechando a glote para a fonação, a tosse e a manobra de Valsalva.",
+    "antagonistas": ["Posterior crico-arytenoid muscle"],
+    "sinergistas": ["Transverse arytenoid muscle"],
+    "clinica": "O fechamento glótico eficaz é condição para uma tosse produtiva: a fase compressiva da tosse depende dos adutores. Paralisia de prega vocal reduz a eficácia da tosse e aumenta o risco de aspiração.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Transverse arytenoid muscle",
+    "pt": "Músculo aritenóideo transverso",
+    "latim": "Musculus arytenoideus transversus",
+    "sinonimos": ["aritenoideo transverso", "interaritenóideo"],
+    "resumo": "Único músculo ímpar da laringe; une as faces posteriores das duas cartilagens aritenóideas.",
+    "origem": "Face posterior e borda lateral de uma cartilagem aritenóidea.",
+    "insercao": "Face posterior e borda lateral da cartilagem aritenóidea do lado oposto.",
+    "inervacao": { "nervo": "Nervo laríngeo recorrente (laríngeo inferior), ramo do nervo vago (NC X), bilateralmente", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "aproxima as cartilagens aritenóideas, fechando a parte intercartilagínea (posterior) da rima da glote" }
+    ],
+    "funcao": "Desliza as aritenóideas uma em direção à outra, completando o fechamento da glote posteriormente.",
+    "antagonistas": ["Posterior crico-arytenoid muscle"],
+    "sinergistas": ["Lateral crico-arytenoid muscle", "Ary-epiglottic part of oblique arytenoid muscle"],
+    "camada": "profunda"
+  },
+  {
+    "key": "Ary-epiglottic part of oblique arytenoid muscle",
+    "pt": "Músculo aritenóideo oblíquo",
+    "latim": "Musculus arytenoideus obliquus",
+    "sinonimos": ["aritenoideo oblíquo", "músculo ariepiglótico"],
+    "resumo": "Par de feixes que se cruzam em X sobre o aritenóideo transverso; suas fibras continuam na prega ariepiglótica como parte ariepiglótica. Atua como esfíncter da entrada da laringe.",
+    "origem": "Processo muscular de uma cartilagem aritenóidea.",
+    "insercao": "Ápice da cartilagem aritenóidea do lado oposto; a parte ariepiglótica prolonga-se pela prega ariepiglótica até a borda lateral da epiglote.",
+    "inervacao": { "nervo": "Nervo laríngeo recorrente (laríngeo inferior), ramo do nervo vago (NC X)", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "estreita o ádito da laringe (aproxima as aritenóideas e as pregas ariepiglóticas da epiglote) e auxilia a adução" }
+    ],
+    "funcao": "Fecha a entrada da laringe durante a deglutição, aproximando as pregas ariepiglóticas e as aritenóideas do tubérculo da epiglote; é um dos níveis de proteção da via aérea.",
+    "sinergistas": ["Transverse arytenoid muscle"],
+    "clinica": "O fechamento do ádito da laringe é um dos mecanismos avaliados na disfagia; sua falha favorece penetração laríngea e aspiração.",
+    "camada": "profunda",
+    "partes": [
+      { "key": "Ary-epiglottic part of oblique arytenoid muscle", "pt": "Parte ariepiglótica", "origem": "Ápice da cartilagem aritenóidea (continuação das fibras oblíquas)", "insercao": "Borda lateral da epiglote, dentro da prega ariepiglótica", "nota": "Também descrita como músculo ariepiglótico." }
+    ]
+  },
+  {
+    "key": "External part of thyro-arytenoid muscle",
+    "pt": "Músculo tireoaritenóideo",
+    "latim": "Musculus thyroarytenoideus",
+    "sinonimos": ["tireoaritenoideo", "TA"],
+    "resumo": "Músculo intrínseco da laringe que forma o corpo da prega vocal e a parede lateral acima dela. Sua parte mais medial, junto ao ligamento vocal, é o músculo vocal.",
+    "origem": "Metade inferior da face interna do ângulo da cartilagem tireóidea e ligamento cricotireóideo.",
+    "insercao": "Face anterolateral da cartilagem aritenóidea (o músculo vocal, no processo vocal); a parte tireoepiglótica segue até a borda da epiglote e a prega ariepiglótica.",
+    "inervacao": { "nervo": "Nervo laríngeo recorrente (laríngeo inferior), ramo do nervo vago (NC X)", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "traciona as aritenóideas para a frente, encurtando e relaxando as pregas vocais (voz mais grave); auxilia a adução" }
+    ],
+    "funcao": "Encurta e relaxa os ligamentos vocais, baixando a frequência da voz, e ajuda a fechar a glote. O músculo vocal faz ajustes finos de tensão de segmentos da prega vocal durante a fala e o canto. A parte tireoepiglótica alarga o ádito da laringe.",
+    "antagonistas": ["Oblique part of cricothyroid muscle"],
+    "sinergistas": ["Lateral crico-arytenoid muscle"],
+    "camada": "profunda",
+    "partes": [
+      { "key": "External part of thyro-arytenoid muscle", "pt": "Parte externa (lateral)", "nota": "Porção lateral do músculo, entre a lâmina da cartilagem tireóidea e a prega vocal; aduz e relaxa a prega. A parte interna corresponde ao músculo vocal." },
+      { "key": "Thyro-epiglottic part of thyro-arytenoid muscle", "pt": "Parte tireoepiglótica", "insercao": "Borda lateral da epiglote e prega ariepiglótica", "nota": "Fibras superiores; alargam o ádito da laringe." }
+    ]
+  },
+  {
+    "key": "Superior pharyngeal constrictor",
+    "pt": "Músculo constritor superior da faringe",
+    "latim": "Musculus constrictor pharyngis superior",
+    "resumo": "O mais alto dos três constritores, lâmina quadrilátera que forma a parede da parte nasal e da parte oral da faringe.",
+    "origem": "Hâmulo pterigóideo, rafe pterigomandibular, extremidade posterior da linha milo-hióidea da mandíbula e lateral da língua.",
+    "insercao": "Tubérculo faríngeo do osso occipital e rafe da faringe (linha mediana posterior).",
+    "inervacao": { "nervo": "Plexo faríngeo (fibras motoras do nervo vago, NC X, por seu ramo faríngeo)", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "constringe a parte superior da faringe na deglutição; contribui para o fechamento velofaríngeo" }
+    ],
+    "funcao": "Contrai-se em sequência com os constritores médio e inferior, produzindo a onda peristáltica que impulsiona o bolo alimentar. Sua parte superior forma uma saliência (crista de Passavant) que, com o palato mole elevado, isola a parte nasal da faringe.",
+    "sinergistas": ["Middle pharyngeal constrictor", "Inferior pharyngeal constrictor"],
+    "clinica": "A rafe pterigomandibular une-o ao bucinador, dando continuidade entre a parede da bochecha e a da faringe. Fraqueza dos constritores (AVC, doenças neuromusculares) deixa resíduos faríngeos após a deglutição.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Middle pharyngeal constrictor",
+    "pt": "Músculo constritor médio da faringe",
+    "latim": "Musculus constrictor pharyngis medius",
+    "resumo": "Constritor em forma de leque que parte do osso hioide e recobre parcialmente o constritor superior.",
+    "origem": "Ligamento estilo-hióideo e cornos menor e maior do osso hioide.",
+    "insercao": "Rafe da faringe.",
+    "inervacao": { "nervo": "Plexo faríngeo (fibras motoras do nervo vago, NC X)", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "constringe a parte média da faringe na deglutição" }
+    ],
+    "funcao": "Participa da onda de contração sequencial da faringe na fase faríngea da deglutição.",
+    "sinergistas": ["Superior pharyngeal constrictor", "Inferior pharyngeal constrictor"],
+    "camada": "profunda"
+  },
+  {
+    "key": "Inferior pharyngeal constrictor",
+    "pt": "Músculo constritor inferior da faringe",
+    "latim": "Musculus constrictor pharyngis inferior",
+    "resumo": "O mais espesso e mais baixo dos constritores, com parte tireofaríngea e parte cricofaríngea; esta última constitui o esfíncter esofágico superior.",
+    "origem": "Parte tireofaríngea: linha oblíqua da cartilagem tireóidea. Parte cricofaríngea: face lateral da cartilagem cricóidea.",
+    "insercao": "Rafe da faringe; as fibras cricofaríngeas circundam a junção faringoesofágica e continuam com a musculatura circular do esôfago.",
+    "inervacao": { "nervo": "Plexo faríngeo (nervo vago, NC X); a parte cricofaríngea recebe também ramos do nervo laríngeo recorrente e do ramo externo do laríngeo superior", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "outro", "papel": "primario", "nota": "constringe a parte laríngea da faringe; a parte cricofaríngea mantém fechado o esfíncter esofágico superior e relaxa na deglutição" }
+    ],
+    "funcao": "A parte tireofaríngea impulsiona o bolo; a cricofaríngea permanece tonicamente contraída em repouso, impedindo a entrada de ar no esôfago e o refluxo, e relaxa no momento da deglutição enquanto o hioide e a laringe são tracionados para cima e para a frente.",
+    "sinergistas": ["Middle pharyngeal constrictor", "Superior pharyngeal constrictor"],
+    "clinica": "Entre as duas partes há uma área de fraqueza (triângulo de Killian) por onde pode se formar o divertículo faringoesofágico de Zenker. A falha de relaxamento do cricofaríngeo é causa de disfagia; exercícios que fortalecem os supra-hióideos (Shaker) facilitam a abertura do esfíncter.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Stylopharyngeus muscle",
+    "pt": "Músculo estilofaríngeo",
+    "latim": "Musculus stylopharyngeus",
+    "resumo": "Músculo longitudinal da faringe, longo e delgado, que desce do processo estiloide e penetra na parede da faringe entre os constritores superior e médio.",
+    "origem": "Face medial da base do processo estiloide do osso temporal.",
+    "insercao": "Parede da faringe e bordas posterior e superior da cartilagem tireóidea, junto com o palatofaríngeo.",
+    "inervacao": { "nervo": "Nervo glossofaríngeo (NC IX)", "raizes": "NC IX", "nervoKeys": ["Glossopharyngeal nerve (IX)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "elevacao", "papel": "primario", "nota": "eleva a faringe e a laringe e alarga a faringe na deglutição e na fala" }
+    ],
+    "funcao": "Eleva e dilata a faringe para receber o bolo alimentar e contribui para a elevação da laringe.",
+    "sinergistas": ["Palatopharyngeus muscle"],
+    "clinica": "É o único músculo inervado pelo nervo glossofaríngeo; o nervo contorna o músculo e serve de referência para localizá-lo.",
+    "dica": "Todos os músculos da faringe são do vago, exceto o estilofaríngeo (IX).",
+    "camada": "profunda"
+  },
+  {
+    "key": "Palatopharyngeus muscle",
+    "pt": "Músculo palatofaríngeo",
+    "latim": "Musculus palatopharyngeus",
+    "resumo": "Músculo do palato mole e longitudinal da faringe; forma o arco palatofaríngeo (pilar posterior das fauces), atrás da tonsila palatina.",
+    "origem": "Palato duro (borda posterior) e aponeurose palatina.",
+    "insercao": "Parede lateral da faringe e borda posterior da lâmina da cartilagem tireóidea.",
+    "inervacao": { "nervo": "Plexo faríngeo (fibras motoras do nervo vago, NC X, por seu ramo faríngeo)", "raizes": "NC X", "nervoKeys": ["Vagus nerve (X)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "elevacao", "papel": "primario", "nota": "eleva a faringe e a laringe na deglutição" },
+      { "art": "hioide_laringe", "mov": "outro", "papel": "secundario", "nota": "tensiona o palato mole e aproxima os arcos palatofaríngeos, estreitando o istmo das fauces" }
+    ],
+    "funcao": "Traciona as paredes da faringe para cima, para a frente e medialmente durante a deglutição e aproxima os arcos palatofaríngeos, ajudando a fechar o istmo entre a boca e a faringe.",
+    "sinergistas": ["Stylopharyngeus muscle"],
+    "clinica": "Na lesão do nervo vago o palato mole cai do lado afetado e a úvula desvia para o lado são durante a fonação ('ah'); pode haver voz anasalada e regurgitação nasal de líquidos.",
+    "camada": "profunda"
+  }
+]

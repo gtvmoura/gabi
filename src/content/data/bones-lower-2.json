@@ -1,0 +1,568 @@
+[
+ {
+  "key": "Talus",
+  "pt": "Tálus",
+  "latim": "Talus",
+  "tipo": "curto",
+  "sinonimos": [
+   "astrágalo"
+  ],
+  "resumo": "Osso do tarso que liga a perna ao pé: recebe todo o peso do corpo pela tíbia e o distribui para o calcâneo, atrás, e para o navicular, à frente. Não recebe a inserção de nenhum músculo.",
+  "descricao": "O tálus tem cabeça, colo e corpo. O corpo traz em cima a tróclea, que se encaixa entre os maléolos. A tróclea é mais larga na frente que atrás: na dorsiflexão a parte larga ocupa a pinça maleolar e o tornozelo fica mais estável (posição de máxima congruência); na flexão plantar a parte estreita deixa alguma folga, o que ajuda a explicar a frequência das entorses nessa posição. As faces laterais da tróclea articulam-se com os maléolos.\n\nAtrás, o corpo termina no processo posterior, com os tubérculos medial e lateral separados pelo sulco do tendão do flexor longo do hálux. Embaixo, o corpo tem a face articular calcânea posterior, grande e côncava. O colo, estreito, tem na face inferior o sulco do tálus, que forma com o sulco do calcâneo o seio do tarso e o canal do tarso, ocupados pelo ligamento talocalcâneo interósseo.\n\nA cabeça, voltada para a frente e medialmente, articula-se com o navicular, com as facetas anterior e média do calcâneo e com o ligamento calcaneonavicular plantar (ligamento mola), que a sustenta por baixo. É o ponto mais alto do arco longitudinal medial.\n\nCerca de dois terços da superfície do tálus são cobertos por cartilagem e nenhum tendão se insere nele, de modo que os vasos entram por áreas restritas, principalmente pelo colo e pelo seio do tarso. Por isso as fraturas do colo podem interromper a irrigação do corpo.",
+  "articulacoes": [
+   "Talocrural (do tornozelo) — tróclea com a tíbia e os maléolos medial e lateral (gínglimo)",
+   "Talocalcânea (subtalar) — face articular calcânea posterior com o calcâneo",
+   "Talocalcaneonavicular — cabeça com o navicular, as facetas anterior e média do calcâneo e o ligamento calcaneonavicular plantar"
+  ],
+  "acidentes": [
+   {
+    "key": "Body of talus",
+    "pt": "Corpo do tálus",
+    "nota": "Parte posterior, cuboide, que traz a tróclea em cima e a face articular calcânea posterior embaixo. É a região sob risco de necrose avascular nas fraturas do colo."
+   },
+   {
+    "key": "Facet for calcaneonavicular part of bifurcate ligament",
+    "pt": "Face articular para a parte calcaneonavicular do ligamento bifurcado",
+    "nota": "Pequena área na parte inferolateral da cabeça do tálus que se apoia sobre a parte calcaneonavicular do ligamento bifurcado."
+   },
+   {
+    "key": "Facet for plantar calcaneonavicular ligament",
+    "pt": "Face articular para o ligamento calcaneonavicular plantar",
+    "nota": "Área na parte inferomedial da cabeça que repousa sobre o ligamento calcaneonavicular plantar (ligamento mola), principal sustentação da cabeça do tálus e do arco longitudinal medial. A insuficiência desse ligamento e do tibial posterior permite a queda da cabeça do tálus no pé plano adquirido."
+   },
+   {
+    "key": "Groove for tendon of flexor hallucis longus of talus",
+    "pt": "Sulco do tendão do músculo flexor longo do hálux (tálus)",
+    "nota": "Sulco no processo posterior, entre os tubérculos medial e lateral; o tendão do flexor longo do hálux passa por ele antes de seguir sob o sustentáculo do tálus."
+   },
+   {
+    "key": "Head of talus",
+    "pt": "Cabeça do tálus",
+    "nota": "Extremidade anterior arredondada, voltada medialmente e um pouco para baixo. Palpável no dorso medial do pé, à frente do maléolo medial e atrás da tuberosidade do navicular; torna-se saliente com a eversão do pé e esconde-se com a inversão. É a referência para encontrar a posição neutra da articulação subtalar."
+   },
+   {
+    "key": "Lateral malleolar facet",
+    "pt": "Face maleolar lateral",
+    "nota": "Grande faceta triangular na face lateral do corpo, para o maléolo lateral da fíbula."
+   },
+   {
+    "key": "Lateral process of talus",
+    "pt": "Processo lateral do tálus",
+    "nota": "Projeção sob a face maleolar lateral; fixação do ligamento talocalcâneo lateral. Sua fratura (fratura do snowboarder) é facilmente confundida com entorse lateral do tornozelo."
+   },
+   {
+    "key": "Lateral tubercle",
+    "pt": "Tubérculo lateral (do processo posterior)",
+    "nota": "O maior dos dois tubérculos do processo posterior; fixação do ligamento talofibular posterior. Pode permanecer como ossículo separado, o osso trígono."
+   },
+   {
+    "key": "Medial malleolar facet",
+    "pt": "Face maleolar medial",
+    "nota": "Faceta em forma de vírgula na face medial do corpo, para o maléolo medial da tíbia."
+   },
+   {
+    "key": "Medial tubercle",
+    "pt": "Tubérculo medial (do processo posterior)",
+    "nota": "Tubérculo menor do processo posterior, medial ao sulco do flexor longo do hálux; fixação de fibras posteriores do ligamento colateral medial (parte tibiotalar posterior)."
+   },
+   {
+    "key": "Middle facet for calcaneus",
+    "pt": "Face articular calcânea média",
+    "nota": "Faceta na face inferior do colo e da cabeça, que se apoia sobre o sustentáculo do tálus do calcâneo."
+   },
+   {
+    "key": "Navicular articular surface",
+    "pt": "Face articular navicular",
+    "nota": "Superfície convexa na frente da cabeça, que se articula com o navicular (parte da articulação transversa do tarso)."
+   },
+   {
+    "key": "Neck of talus",
+    "pt": "Colo do tálus",
+    "nota": "Segmento estreito e rugoso entre a cabeça e o corpo, por onde entram muitos dos vasos do osso. Suas fraturas, por dorsiflexão forçada em traumas de alta energia, ameaçam a irrigação do corpo."
+   },
+   {
+    "key": "Posterior calcaneal articular facet",
+    "pt": "Face articular calcânea posterior",
+    "nota": "Grande faceta côncava na face inferior do corpo, que se articula com a faceta posterior do calcâneo na articulação talocalcânea (subtalar)."
+   },
+   {
+    "key": "Posterior process of talus",
+    "pt": "Processo posterior do tálus",
+    "nota": "Projeção posterior do corpo, formada pelos tubérculos medial e lateral. Pode ser comprimida entre a tíbia e o calcâneo na flexão plantar extrema (impacto posterior do tornozelo, comum em bailarinos e jogadores de futebol)."
+   },
+   {
+    "key": "Superior facet of talus",
+    "pt": "Face superior da tróclea",
+    "nota": "Superfície superior da tróclea, convexa no sentido anteroposterior e mais larga na frente; articula-se com a face articular inferior da tíbia."
+   },
+   {
+    "key": "Talar sulcus",
+    "pt": "Sulco do tálus",
+    "nota": "Sulco profundo na face inferior, entre as faces calcâneas média e posterior; forma com o sulco do calcâneo o canal do tarso e o seio do tarso."
+   },
+   {
+    "key": "Trochlea of talus",
+    "pt": "Tróclea do tálus",
+    "nota": "Parte superior do corpo, em forma de polia, com a face superior e as duas faces maleolares. É mais larga anteriormente. Sua cúpula é sede de lesões osteocondrais após entorses."
+   }
+  ],
+  "palpacao": "A cabeça do tálus é palpada com o polegar e o indicador de cada lado, logo à frente do tornozelo: medialmente, entre o maléolo medial e a tuberosidade do navicular; lateralmente, à frente do maléolo lateral, sobre o seio do tarso. Ao inverter e everter passivamente o pé, a cabeça torna-se saliente de um lado e do outro; a posição em que é sentida igualmente dos dois lados é a posição neutra subtalar. Com o pé em flexão plantar, a parte anterior da cúpula da tróclea pode ser palpada à frente da tíbia.",
+  "clinica": "As fraturas do colo do tálus resultam de dorsiflexão forçada em traumas de alta energia (acidentes de trânsito, quedas de altura). Quanto maior o desvio, maior o risco de necrose avascular do corpo, de artrose do tornozelo e da subtalar e de rigidez. Costumam exigir período prolongado sem carga.\n\nDepois de entorses do tornozelo que não evoluem bem, deve-se pensar em lesão osteocondral da cúpula do tálus (dor profunda, edema e bloqueios), em fratura do processo lateral e em impacto anterior ou posterior. A mobilidade do tálus na pinça maleolar (deslizamento posterior) é necessária para a dorsiflexão, e sua restrição após imobilização é um alvo frequente da terapia manual. No pé plano flexível, a cabeça do tálus desloca-se medial e plantarmente."
+ },
+ {
+  "key": "Calcaneus",
+  "pt": "Calcâneo",
+  "latim": "Calcaneus",
+  "tipo": "curto",
+  "resumo": "O maior osso do pé, que forma o calcanhar. É o primeiro a tocar o solo na marcha e serve de alavanca para o tríceps sural, por meio do tendão do calcâneo.",
+  "descricao": "O calcâneo fica sob o tálus e projeta-se para trás dele. A face superior tem, na parte média, a grande face articular talar posterior e, à frente, as faces talares média (sobre o sustentáculo do tálus) e anterior; entre a posterior e a média corre o sulco do calcâneo, que forma com o sulco do tálus o seio do tarso.\n\nA metade posterior do osso é o túber do calcâneo. Na parte média de sua face posterior insere-se o tendão do calcâneo, separado da parte superior por uma bolsa. A face plantar do túber tem os processos medial e lateral, que são os pontos de apoio do calcanhar e a origem da aponeurose plantar e dos músculos da primeira camada da planta. À frente, na face plantar, fica o tubérculo do calcâneo, para o ligamento calcaneocubóideo plantar.\n\nA face medial é côncava e tem o sustentáculo do tálus, uma prateleira que apoia a cabeça do tálus; por baixo dele passa o tendão do flexor longo do hálux. A face lateral é quase plana e subcutânea, com a tróclea fibular separando os tendões dos fibulares curto e longo. A face anterior articula-se com o cuboide.\n\nO calcâneo é a base posterior dos arcos longitudinais do pé. Na fase de apoio, sua posição em inversão ou eversão sob o tálus comanda a subtalar: a eversão destrava o mediopé e absorve o impacto; a inversão torna o pé uma alavanca rígida para a propulsão.",
+  "articulacoes": [
+   "Talocalcânea (subtalar) — face articular talar posterior com o corpo do tálus",
+   "Talocalcaneonavicular — faces talares média e anterior com a cabeça do tálus",
+   "Calcaneocubóidea — face articular para o cuboide (com a talonavicular, forma a articulação transversa do tarso)"
+  ],
+  "acidentes": [
+   {
+    "key": "Anterior process of calcaneus",
+    "pt": "Processo anterior do calcâneo",
+    "nota": "Projeção anterossuperior que se interpõe entre o cuboide e o navicular; origem do ligamento bifurcado. Pode sofrer avulsão na inversão com flexão plantar, lesão confundida com entorse lateral; a dor fica à frente e abaixo do ligamento talofibular anterior."
+   },
+   {
+    "key": "Articular surface for cuboid",
+    "pt": "Face articular para o cuboide",
+    "nota": "Face anterior, em forma de sela, da articulação calcaneocubóidea."
+   },
+   {
+    "key": "Calcaneal sulcus",
+    "pt": "Sulco do calcâneo",
+    "nota": "Sulco na face superior, entre as faces talares posterior e média; forma, com o sulco do tálus, o canal do tarso e o seio do tarso."
+   },
+   {
+    "key": "Calcaneal tubercle",
+    "pt": "Tubérculo do calcâneo",
+    "nota": "Saliência na parte anterior da face plantar; fixação do ligamento calcaneocubóideo plantar (plantar curto)."
+   },
+   {
+    "key": "Calcaneal tuberosity",
+    "pt": "Túber do calcâneo",
+    "nota": "Massa posterior do osso. Na parte média da face posterior insere-se o tendão do calcâneo (de Aquiles), com a bolsa tendínea calcânea entre o tendão e a parte superior do túber. Uma proeminência posterossuperior acentuada (deformidade de Haglund) atrita com o calçado e com o tendão. No jovem em crescimento, a apófise é sede da doença de Sever."
+   },
+   {
+    "key": "Groove for tendon of flexor hallucis longus of calcaneus",
+    "pt": "Sulco do tendão do músculo flexor longo do hálux (calcâneo)",
+    "nota": "Sulco na face inferior do sustentáculo do tálus, que funciona como polia para o tendão do flexor longo do hálux."
+   },
+   {
+    "key": "Lateral process of calcaneal tuberosity",
+    "pt": "Processo lateral do túber do calcâneo",
+    "nota": "Menor que o medial; origem de parte do abdutor do dedo mínimo."
+   },
+   {
+    "key": "Medial process of calcaneal tuberosity",
+    "pt": "Processo medial do túber do calcâneo",
+    "nota": "Principal ponto de apoio do calcanhar. Origem do abdutor do hálux, do flexor curto dos dedos e da aponeurose plantar. É o ponto doloroso típico da fasciopatia plantar (fascite plantar), na parte anteromedial do calcanhar; o esporão de calcâneo forma-se nessa região."
+   },
+   {
+    "key": "Sustentaculum tali",
+    "pt": "Sustentáculo do tálus",
+    "nota": "Prateleira medial que sustenta a face calcânea média do tálus. Dá fixação ao ligamento calcaneonavicular plantar (ligamento mola) e a fibras do ligamento colateral medial (parte tibiocalcânea). Palpável cerca de um dedo abaixo da ponta do maléolo medial."
+   },
+   {
+    "key": "Tarsal sinus",
+    "pt": "Seio do tarso",
+    "nota": "Abertura lateral, em funil, do canal formado pelos sulcos do tálus e do calcâneo; contém gordura, vasos e ligamentos (talocalcâneo interósseo e cervical) ricos em mecanorreceptores. Palpável como uma depressão à frente e um pouco abaixo do maléolo lateral. Dor persistente nesse ponto depois de entorses é a síndrome do seio do tarso."
+   }
+  ],
+  "palpacao": "O túber é palpado em toda a parte posterior do calcanhar; siga o tendão do calcâneo até a inserção e palpe de cada lado dele a região da bolsa. Na planta, pressione a parte anteromedial do calcanhar para localizar o processo medial, com o hálux em extensão para tensionar a aponeurose plantar. Medialmente, o sustentáculo do tálus fica a um dedo abaixo do maléolo medial. Lateralmente, a face lateral é subcutânea: a tróclea fibular é uma pequena saliência abaixo e à frente do maléolo lateral, entre os tendões fibulares. À frente do maléolo lateral, a depressão do seio do tarso. Segurando o calcâneo com uma das mãos, testam-se a inversão e a eversão passivas da subtalar.",
+  "clinica": "A fratura do calcâneo é a mais frequente do tarso e resulta de queda de altura sobre os calcanhares: o tálus é empurrado contra o calcâneo, que se achata e se alarga. É muitas vezes bilateral e associada a fraturas por compressão da coluna toracolombar, que devem ser investigadas. Quando atinge a subtalar, deixa rigidez, dor para andar em terreno irregular e artrose, sequelas relevantes para a reabilitação.\n\nA fasciopatia plantar causa dor na região do processo medial do túber, pior nos primeiros passos da manhã. Na parte posterior, distinguem-se a tendinopatia insercional do tendão do calcâneo, a bursite e a deformidade de Haglund. Na criança e no adolescente ativos, a apofisite do calcâneo (doença de Sever) provoca dor à compressão laterolateral do calcanhar. Em corredores e militares, o calcâneo é local de fratura por estresse. A posição do calcâneo em relação à perna, em varo ou valgo, é observada na avaliação postural do retropé."
+ },
+ {
+  "key": "Navicular bone",
+  "pt": "Navicular",
+  "latim": "Os naviculare",
+  "tipo": "curto",
+  "sinonimos": [
+   "escafoide do pé"
+  ],
+  "resumo": "Osso em forma de barco no lado medial do pé, entre a cabeça do tálus e os três cuneiformes. É a pedra angular do arco longitudinal medial.",
+  "descricao": "A face posterior do navicular é côncava e recebe a cabeça do tálus; a face anterior é convexa e tem três facetas para os cuneiformes medial, intermédio e lateral. Lateralmente pode articular-se com o cuboide. Na face medial projeta-se para baixo a tuberosidade do navicular, principal inserção do tibial posterior.\n\nPor estar no topo do arco longitudinal medial, o navicular é sustentado por baixo pelo ligamento calcaneonavicular plantar e pelo tendão do tibial posterior. A altura de sua tuberosidade em relação ao solo é usada para avaliar o arco: no teste da queda do navicular, mede-se quanto ela desce da posição neutra subtalar, sentado, para o apoio relaxado em pé; e, na linha de Feiss, observa-se sua posição em relação à linha que une o maléolo medial à cabeça do 1º metatarsal.\n\nA parte central do osso tem irrigação relativamente pobre, o que o torna sujeito a fraturas por estresse e, na criança, à necrose avascular.",
+  "articulacoes": [
+   "Talonavicular (parte da talocalcaneonavicular e da articulação transversa do tarso) — com a cabeça do tálus",
+   "Cuneonavicular — com os cuneiformes medial, intermédio e lateral",
+   "Com o cuboide (lateralmente; inconstante como articulação sinovial)"
+  ],
+  "acidentes": [
+   {
+    "key": "Tuberosity of navicular bone",
+    "pt": "Tuberosidade do navicular",
+    "nota": "Saliência medial e plantar; inserção principal do tendão do tibial posterior. É a proeminência óssea mais evidente da margem medial do pé, cerca de 2,5 cm à frente e abaixo do maléolo medial. Quando há um ossículo acessório (navicular acessório), a região fica mais saliente e pode doer pelo atrito com o calçado e pela tração do tibial posterior."
+   }
+  ],
+  "palpacao": "Na margem medial do pé, deslize o dedo do maléolo medial para a frente e para baixo: depois da cabeça do tálus encontra-se a tuberosidade do navicular, bem saliente. Pedir inversão resistida com flexão plantar destaca o tendão do tibial posterior chegando até ela. No dorso, o navicular fica entre a cabeça do tálus e os cuneiformes, medialmente ao tendão do extensor longo do hálux; a dor à palpação do dorso do osso em um atleta sugere fratura por estresse.",
+  "clinica": "A fratura por estresse do navicular acomete atletas de salto e de corrida de velocidade; causa dor vaga no dorso do mediopé, é de diagnóstico difícil e tem alto risco de retardo de consolidação, razão pela qual costuma ser tratada com período sem carga. Na criança, a necrose avascular do navicular é a doença de Köhler, em geral autolimitada.\n\nA queda da tuberosidade do navicular acompanha o pé plano e a disfunção do tendão do tibial posterior, causa mais comum de pé plano adquirido do adulto. O navicular acessório é uma variação frequente que pode tornar-se sintomática. Dor à palpação do navicular após trauma é um dos critérios de Ottawa para radiografar o pé."
+ },
+ {
+  "key": "Cuboid bone",
+  "pt": "Cuboide",
+  "latim": "Os cuboideum",
+  "tipo": "curto",
+  "resumo": "Osso mais lateral da fileira distal do tarso, entre o calcâneo e os dois últimos metatarsais. É a peça central do arco longitudinal lateral e uma polia para o tendão do fibular longo.",
+  "descricao": "O cuboide tem forma aproximada de cubo, mais curto na margem lateral que na medial. Atrás articula-se com o calcâneo; à frente, com as bases do 4º e do 5º metatarsais; medialmente, com o cuneiforme lateral e, por vezes, com o navicular.\n\nNa face plantar há uma crista, a tuberosidade do cuboide, e, à frente dela, o sulco do tendão do fibular longo. O tendão contorna a margem lateral do osso e cruza a planta do pé obliquamente até a base do 1º metatarsal e o cuneiforme medial, sustentando os arcos transverso e longitudinal.\n\nA articulação calcaneocubóidea forma, com a talonavicular, a articulação transversa do tarso (de Chopart), cuja mobilidade depende da posição da subtalar. A coluna lateral do pé (calcâneo, cuboide, 4º e 5º metatarsais) é mais baixa e mais rígida que a medial e dá estabilidade ao apoio.",
+  "articulacoes": [
+   "Calcaneocubóidea — com a face anterior do calcâneo (parte da articulação transversa do tarso)",
+   "Tarsometatarsais — com as bases do 4º e do 5º metatarsais",
+   "Cuneocubóidea — com o cuneiforme lateral",
+   "Com o navicular (inconstante)"
+  ],
+  "acidentes": [
+   {
+    "key": "Groove for tendon of fibularis longus muscle of cuboid bone",
+    "pt": "Sulco do tendão do músculo fibular longo",
+    "nota": "Sulco oblíquo na face plantar, à frente da tuberosidade, por onde o tendão do fibular longo se dirige à parte medial da planta. Nesse ponto o tendão costuma conter um osso sesamoide ou uma fibrocartilagem."
+   },
+   {
+    "key": "Tuberosity of cuboid bone",
+    "pt": "Tuberosidade do cuboide",
+    "nota": "Crista na face plantar, atrás do sulco do fibular longo; fixação do ligamento plantar longo e de fibras do tibial posterior."
+   }
+  ],
+  "palpacao": "Na margem lateral do pé, localize a tuberosidade do 5º metatarsal, bem saliente; o cuboide fica logo atrás dela, entre a tuberosidade e o calcâneo, em uma leve depressão. No dorso, é palpado lateralmente aos tendões do extensor longo dos dedos. A interlinha calcaneocubóidea fica cerca de um dedo atrás da tuberosidade do 5º metatarsal.",
+  "clinica": "A síndrome do cuboide é uma causa de dor lateral no mediopé após entorse em inversão ou por sobrecarga em bailarinos e corredores, atribuída a uma pequena perda de congruência da articulação calcaneocubóidea; há dor à palpação plantar do osso e na fase de impulsão. A fratura por compressão do cuboide (fratura em quebra-nozes) ocorre na abdução forçada do antepé e encurta a coluna lateral. Dor na base do 5º metatarsal e no cuboide deve ser pesquisada depois de toda entorse do tornozelo."
+ },
+ {
+  "key": "Medial cuneiform bone",
+  "pt": "Cuneiforme medial",
+  "latim": "Os cuneiforme mediale",
+  "tipo": "curto",
+  "resumo": "O maior dos três cuneiformes, na margem medial do pé, entre o navicular e o 1º metatarsal. Recebe tendões importantes para o arco medial.",
+  "articulacoes": [
+   "Cuneonavicular — com o navicular (atrás)",
+   "Tarsometatarsal — com a base do 1º metatarsal (à frente) e, por pequena faceta, com a do 2º",
+   "Intercuneiforme — com o cuneiforme intermédio (lateralmente)"
+  ],
+  "clinica": "Na face medial e plantar insere-se o tibial anterior e, na face plantar lateral, o fibular longo; os dois também alcançam a base do 1º metatarsal e formam um estribo sob o mediopé; o tibial posterior envia uma expansão. Do cuneiforme medial parte o ligamento de Lisfranc para a base do 2º metatarsal, cuja ruptura caracteriza a lesão de Lisfranc. Palpável na margem medial do pé, entre a tuberosidade do navicular e a base do 1º metatarsal; o tendão do tibial anterior conduz até ele."
+ },
+ {
+  "key": "Intermediate cuneiform bone",
+  "pt": "Cuneiforme intermédio",
+  "latim": "Os cuneiforme intermedium",
+  "tipo": "curto",
+  "resumo": "O menor dos cuneiformes, em forma de cunha com a base dorsal. Por ser mais curto que os vizinhos, cria um encaixe onde se aloja a base do 2º metatarsal.",
+  "articulacoes": [
+   "Cuneonavicular — com o navicular (atrás)",
+   "Tarsometatarsal — com a base do 2º metatarsal (à frente)",
+   "Intercuneiformes — com os cuneiformes medial e lateral"
+  ],
+  "clinica": "O encaixe da base do 2º metatarsal entre os cuneiformes medial e lateral torna esse raio o mais rígido do pé e a pedra angular do arco transverso; por isso o 2º metatarsal é local frequente de fratura por estresse e a região é a chave da lesão de Lisfranc."
+ },
+ {
+  "key": "Lateral cuneiform bone",
+  "pt": "Cuneiforme lateral",
+  "latim": "Os cuneiforme laterale",
+  "tipo": "curto",
+  "resumo": "Cuneiforme de tamanho intermediário, em cunha com a base dorsal, situado entre o cuneiforme intermédio e o cuboide. Sustenta o 3º metatarsal.",
+  "articulacoes": [
+   "Cuneonavicular — com o navicular (atrás)",
+   "Tarsometatarsal — com a base do 3º metatarsal (à frente) e, por pequenas facetas, com as do 2º e do 4º",
+   "Intercuneiforme — com o cuneiforme intermédio (medialmente)",
+   "Cuneocubóidea — com o cuboide (lateralmente)"
+  ],
+  "clinica": "A forma em cunha dos cuneiformes intermédio e lateral, com a base voltada para o dorso, constrói o arco transverso do pé na altura do tarso."
+ },
+ {
+  "key": "First metatarsal bone",
+  "pt": "1º metatarsal",
+  "latim": "Os metatarsi I",
+  "tipo": "longo",
+  "resumo": "Metatarsal do hálux: o mais curto, mais espesso e mais forte. Sua cabeça suporta grande parte da carga do antepé na impulsão e apoia-se sobre dois ossos sesamoides.",
+  "articulacoes": [
+   "Tarsometatarsal — base com o cuneiforme medial",
+   "Metatarsofalângica do hálux — cabeça com a falange proximal e, na face plantar, com os dois ossos sesamoides"
+  ],
+  "acidentes": [
+   {
+    "key": "First metatarsal bone",
+    "pt": "1º metatarsal"
+   }
+  ],
+  "clinica": "Na base inserem-se o tibial anterior (face medial) e o fibular longo (face plantar lateral). No hálux valgo, o 1º metatarsal desvia-se medialmente (varo) e o hálux lateralmente; a cabeça forma a saliência medial (joanete) e os sesamoides deslocam-se lateralmente. A artrose da metatarsofalângica (hálux rígido) limita a extensão do hálux, necessária na fase final do apoio. A hipermobilidade do primeiro raio transfere carga para o 2º metatarsal."
+ },
+ {
+  "key": "Second metatarsal bone",
+  "pt": "2º metatarsal",
+  "latim": "Os metatarsi II",
+  "tipo": "longo",
+  "resumo": "Em geral o mais longo dos metatarsais. Sua base fica encaixada entre os cuneiformes medial e lateral, o que o torna o raio mais rígido do pé; define o eixo de abdução e adução dos dedos do pé.",
+  "articulacoes": [
+   "Tarsometatarsal — base com o cuneiforme intermédio e, pelos lados, com os cuneiformes medial e lateral",
+   "Intermetatarsal — com a base do 3º metatarsal (e, de modo inconstante, com a do 1º)",
+   "Metatarsofalângica — cabeça com a falange proximal do 2º dedo"
+  ],
+  "clinica": "Por ser longo e fixo, é o local mais comum de fratura por estresse do antepé (fratura da marcha), vista em corredores, militares e bailarinos. O ligamento de Lisfranc une sua base ao cuneiforme medial; na lesão de Lisfranc há afastamento entre o 1º e o 2º raios e dor no mediopé ao apoiar. A cabeça do 2º metatarsal é a mais acometida pela doença de Freiberg (necrose avascular, típica de adolescentes)."
+ },
+ {
+  "key": "Third metatarsal bone",
+  "pt": "3º metatarsal",
+  "latim": "Os metatarsi III",
+  "tipo": "longo",
+  "resumo": "Metatarsal do 3º dedo, que se articula com o cuneiforme lateral. Com o 2º, forma a parte central e pouco móvel do antepé.",
+  "articulacoes": [
+   "Tarsometatarsal — base com o cuneiforme lateral",
+   "Intermetatarsais — com as bases do 2º e do 4º metatarsais",
+   "Metatarsofalângica — cabeça com a falange proximal do 3º dedo"
+  ],
+  "acidentes": [
+   {
+    "key": "Base of metatarsal bone",
+    "pt": "Base do metatarsal",
+    "nota": "Extremidade proximal, em cunha, que se articula com o tarso e com as bases dos metatarsais vizinhos (articulações tarsometatarsais, ou de Lisfranc)."
+   },
+   {
+    "key": "Body of metatarsal bone",
+    "pt": "Corpo do metatarsal",
+    "nota": "Diáfise delgada, de concavidade plantar; das faces laterais originam-se os músculos interósseos. É o local habitual das fraturas por estresse do 2º e do 3º metatarsais (fratura da marcha)."
+   },
+   {
+    "key": "Head of metatarsal bone",
+    "pt": "Cabeça do metatarsal",
+    "nota": "Extremidade distal, que se articula com a falange proximal e apoia no solo na fase de impulsão. Palpável na planta, na região anterior do pé; a dor sob as cabeças é a metatarsalgia."
+   }
+  ],
+  "clinica": "Segundo local mais frequente de fratura por estresse dos metatarsais. Entre as cabeças do 3º e do 4º metatarsais fica o espaço mais acometido pelo neuroma de Morton (espessamento doloroso do nervo digital plantar comum), com dor em queimação e parestesia nos dedos correspondentes."
+ },
+ {
+  "key": "Fourth metatarsal bone",
+  "pt": "4º metatarsal",
+  "latim": "Os metatarsi IV",
+  "tipo": "longo",
+  "resumo": "Metatarsal do 4º dedo; com o 5º, forma a coluna lateral do antepé, mais móvel que a parte central.",
+  "articulacoes": [
+   "Tarsometatarsal — base com o cuboide e, por pequena faceta, com o cuneiforme lateral",
+   "Intermetatarsais — com as bases do 3º e do 5º metatarsais",
+   "Metatarsofalângica — cabeça com a falange proximal do 4º dedo"
+  ],
+  "clinica": "A mobilidade das articulações do 4º e do 5º metatarsais com o cuboide permite ao antepé adaptar-se a terrenos irregulares."
+ },
+ {
+  "key": "Fifth metatarsal bone",
+  "pt": "5º metatarsal",
+  "latim": "Os metatarsi V",
+  "tipo": "longo",
+  "resumo": "Metatarsal do dedo mínimo, reconhecível pela tuberosidade que se projeta para trás e para o lado a partir da base, saliência mais evidente da margem lateral do pé.",
+  "articulacoes": [
+   "Tarsometatarsal — base com o cuboide",
+   "Intermetatarsal — com a base do 4º metatarsal",
+   "Metatarsofalângica — cabeça com a falange proximal do 5º dedo"
+  ],
+  "acidentes": [
+   {
+    "key": "Fifth metatarsal bone",
+    "pt": "5º metatarsal"
+   }
+  ],
+  "clinica": "Na tuberosidade insere-se o fibular curto e, no dorso da base, o fibular terceiro; a faixa lateral da aponeurose plantar também se fixa na tuberosidade. Na entorse em inversão pode ocorrer fratura por avulsão da tuberosidade, que em geral consolida bem. Já a fratura na transição entre a base e o corpo (fratura de Jones) e as fraturas por estresse da parte proximal do corpo ficam em zona de irrigação pobre e têm maior risco de retardo de consolidação. Dor à palpação da base do 5º metatarsal é um dos critérios de Ottawa para radiografar o pé. A saliência lateral da cabeça é o joanete do alfaiate."
+ },
+ {
+  "key": "Sesamoid bones of foot",
+  "pt": "Ossos sesamoides do pé",
+  "latim": "Ossa sesamoidea pedis",
+  "tipo": "sesamoide",
+  "resumo": "Pequenos ossos contidos em tendões. Os constantes são dois, medial (tibial) e lateral (fibular), situados sob a cabeça do 1º metatarsal, nos tendões do flexor curto do hálux.",
+  "articulacoes": [
+   "Com as duas facetas da face plantar da cabeça do 1º metatarsal, separadas por uma crista (parte da articulação metatarsofalângica do hálux)"
+  ],
+  "clinica": "Os sesamoides do hálux recebem a carga sob a cabeça do 1º metatarsal, protegem o tendão do flexor longo do hálux, que passa entre eles, e aumentam o braço de alavanca do flexor curto do hálux; estão incluídos na placa plantar, junto com as inserções do abdutor e do adutor do hálux. A sesamoidite e as fraturas por estresse causam dor plantar sob a cabeça do 1º metatarsal na fase de impulsão, comum em bailarinos e corredores. O sesamoide medial bipartido é uma variação frequente que não deve ser confundida com fratura. São palpados na planta, sob a cabeça do 1º metatarsal, e deslocam-se para a frente com a extensão do hálux. Outros sesamoides são inconstantes."
+ },
+ {
+  "key": "Proximal phalanx of first finger of foot",
+  "pt": "Falange proximal do hálux",
+  "latim": "Phalanx proximalis hallucis",
+  "tipo": "longo",
+  "resumo": "Primeira das duas falanges do hálux, que não tem falange média. É curta e robusta.",
+  "articulacoes": [
+   "Metatarsofalângica do hálux — base com a cabeça do 1º metatarsal",
+   "Interfalângica do hálux — cabeça com a base da falange distal"
+  ],
+  "clinica": "Na base inserem-se o flexor curto do hálux (por meio dos sesamoides), o abdutor do hálux (lado medial), o adutor do hálux (lado lateral) e, no dorso, o extensor curto do hálux. A extensão da metatarsofalângica do hálux, da ordem de 60° ou mais na fase final do apoio, tensiona a aponeurose plantar e eleva o arco (mecanismo do molinete). A hiperextensão forçada lesa a placa plantar (turf toe)."
+ },
+ {
+  "key": "Proximal phalanx of second finger of foot",
+  "pt": "Falange proximal do 2º dedo do pé",
+  "latim": "Phalanx proximalis digiti II pedis",
+  "tipo": "longo",
+  "resumo": "A maior das três falanges do 2º dedo do pé.",
+  "articulacoes": [
+   "Metatarsofalângica — base com a cabeça do 2º metatarsal",
+   "Interfalângica proximal — cabeça com a base da falange média"
+  ],
+  "clinica": "Na base chegam os tendões dos músculos interósseos e, pela expansão extensora, dos lumbricais, que fletem a metatarsofalângica e estabilizam o dedo no solo. Nas deformidades em garra e em martelo, a falange proximal fica em extensão sobre o metatarsal, o que desloca o coxim plantar e sobrecarrega a cabeça do metatarsal."
+ },
+ {
+  "key": "Proximal phalanx of third finger of foot",
+  "pt": "Falange proximal do 3º dedo do pé",
+  "latim": "Phalanx proximalis digiti III pedis",
+  "tipo": "longo",
+  "resumo": "A maior das três falanges do 3º dedo do pé.",
+  "articulacoes": [
+   "Metatarsofalângica — base com a cabeça do 3º metatarsal",
+   "Interfalângica proximal — cabeça com a base da falange média"
+  ],
+  "acidentes": [
+   {
+    "key": "Base of phalanx of foot",
+    "pt": "Base da falange",
+    "nota": "Extremidade proximal. Na falange proximal é côncava para a cabeça do metatarsal; nas falanges média e distal tem duas pequenas concavidades para a tróclea da falange anterior."
+   },
+   {
+    "key": "Body of phalanx of foot",
+    "pt": "Corpo da falange",
+    "nota": "Diáfise curta, estreita no meio e de concavidade plantar."
+   },
+   {
+    "key": "Head of phalanx of foot",
+    "pt": "Cabeça da falange",
+    "nota": "Extremidade distal das falanges proximal e média. Na deformidade em martelo ou em garra, a cabeça da falange proximal fica saliente no dorso e forma calosidade pelo atrito com o calçado."
+   },
+   {
+    "key": "Trochlea of phalanx of foot",
+    "pt": "Tróclea da falange",
+    "nota": "Superfície articular em polia da cabeça, que restringe as articulações interfalângicas à flexão e à extensão."
+   }
+  ],
+  "clinica": "Na base chegam os tendões dos músculos interósseos e, pela expansão extensora, dos lumbricais, que fletem a metatarsofalângica e estabilizam o dedo no solo. Nas deformidades em garra e em martelo, a falange proximal fica em extensão sobre o metatarsal, o que desloca o coxim plantar e sobrecarrega a cabeça do metatarsal."
+ },
+ {
+  "key": "Proximal phalanx of fourth finger of foot",
+  "pt": "Falange proximal do 4º dedo do pé",
+  "latim": "Phalanx proximalis digiti IV pedis",
+  "tipo": "longo",
+  "resumo": "A maior das três falanges do 4º dedo do pé.",
+  "articulacoes": [
+   "Metatarsofalângica — base com a cabeça do 4º metatarsal",
+   "Interfalângica proximal — cabeça com a base da falange média"
+  ],
+  "clinica": "Na base chegam os tendões dos músculos interósseos e, pela expansão extensora, dos lumbricais, que fletem a metatarsofalângica e estabilizam o dedo no solo. Nas deformidades em garra e em martelo, a falange proximal fica em extensão sobre o metatarsal, o que desloca o coxim plantar e sobrecarrega a cabeça do metatarsal."
+ },
+ {
+  "key": "Proximal phalanx of fifth finger of foot",
+  "pt": "Falange proximal do 5º dedo do pé (dedo mínimo)",
+  "latim": "Phalanx proximalis digiti V pedis",
+  "tipo": "longo",
+  "resumo": "A maior das três falanges do 5º dedo do pé (dedo mínimo).",
+  "articulacoes": [
+   "Metatarsofalângica — base com a cabeça do 5º metatarsal",
+   "Interfalângica proximal — cabeça com a base da falange média"
+  ],
+  "clinica": "Na base chegam os tendões dos músculos interósseos e, pela expansão extensora, dos lumbricais, que fletem a metatarsofalângica e estabilizam o dedo no solo. Na base desta falange inserem-se também o abdutor e o flexor curto do dedo mínimo. Nas deformidades em garra e em martelo, a falange proximal fica em extensão sobre o metatarsal, o que desloca o coxim plantar e sobrecarrega a cabeça do metatarsal."
+ },
+ {
+  "key": "Middle phalanx of second finger of foot",
+  "pt": "Falange média do 2º dedo do pé",
+  "latim": "Phalanx media digiti II pedis",
+  "tipo": "longo",
+  "resumo": "Falange intermediária do 2º dedo do pé, curta e larga.",
+  "articulacoes": [
+   "Interfalângica proximal — base com a cabeça da falange proximal",
+   "Interfalângica distal — cabeça com a base da falange distal"
+  ],
+  "clinica": "Nas margens da face plantar insere-se o flexor curto dos dedos; no dorso da base, a parte central da expansão extensora."
+ },
+ {
+  "key": "Middle phalanx of third finger of foot",
+  "pt": "Falange média do 3º dedo do pé",
+  "latim": "Phalanx media digiti III pedis",
+  "tipo": "longo",
+  "resumo": "Falange intermediária do 3º dedo do pé, curta e larga.",
+  "articulacoes": [
+   "Interfalângica proximal — base com a cabeça da falange proximal",
+   "Interfalângica distal — cabeça com a base da falange distal"
+  ],
+  "clinica": "Nas margens da face plantar insere-se o flexor curto dos dedos; no dorso da base, a parte central da expansão extensora."
+ },
+ {
+  "key": "Middle phalanx of fourth finger of foot",
+  "pt": "Falange média do 4º dedo do pé",
+  "latim": "Phalanx media digiti IV pedis",
+  "tipo": "longo",
+  "resumo": "Falange intermediária do 4º dedo do pé, curta e larga.",
+  "articulacoes": [
+   "Interfalângica proximal — base com a cabeça da falange proximal",
+   "Interfalângica distal — cabeça com a base da falange distal"
+  ],
+  "clinica": "Nas margens da face plantar insere-se o flexor curto dos dedos; no dorso da base, a parte central da expansão extensora."
+ },
+ {
+  "key": "Middle phalanx of fifth finger of foot",
+  "pt": "Falange média do 5º dedo do pé (dedo mínimo)",
+  "latim": "Phalanx media digiti V pedis",
+  "tipo": "longo",
+  "resumo": "Falange intermediária do 5º dedo do pé (dedo mínimo), curta e larga.",
+  "articulacoes": [
+   "Interfalângica proximal — base com a cabeça da falange proximal",
+   "Interfalângica distal — cabeça com a base da falange distal"
+  ],
+  "clinica": "Nas margens da face plantar insere-se o flexor curto dos dedos; no dorso da base, a parte central da expansão extensora. No 5º dedo é comum que as falanges média e distal estejam fundidas em um só osso."
+ },
+ {
+  "key": "Distal phalanx of first finger of foot",
+  "pt": "Falange distal do hálux",
+  "latim": "Phalanx distalis hallucis",
+  "tipo": "longo",
+  "resumo": "Falange terminal do hálux, larga e achatada, que sustenta a unha.",
+  "articulacoes": [
+   "Interfalângica do hálux — base com a cabeça da falange proximal"
+  ],
+  "clinica": "Na face plantar da base insere-se o flexor longo do hálux e, na face dorsal, o extensor longo do hálux. É a falange mais atingida por traumas diretos (topadas e queda de objetos), com hematoma subungueal."
+ },
+ {
+  "key": "Distal phalanx of second finger of foot",
+  "pt": "Falange distal do 2º dedo do pé",
+  "latim": "Phalanx distalis digiti II pedis",
+  "tipo": "longo",
+  "resumo": "Falange terminal do 2º dedo do pé, pequena, que sustenta a unha.",
+  "articulacoes": [
+   "Interfalângica distal — base com a cabeça da falange média"
+  ],
+  "clinica": "Na face plantar da base insere-se o flexor longo dos dedos; no dorso, as faixas terminais da expansão extensora (extensor longo dos dedos)."
+ },
+ {
+  "key": "Distal phalanx of third finger of foot",
+  "pt": "Falange distal do 3º dedo do pé",
+  "latim": "Phalanx distalis digiti III pedis",
+  "tipo": "longo",
+  "resumo": "Falange terminal do 3º dedo do pé, pequena, que sustenta a unha.",
+  "articulacoes": [
+   "Interfalângica distal — base com a cabeça da falange média"
+  ],
+  "acidentes": [
+   {
+    "key": "Tuberosity of distal phalanx of foot",
+    "pt": "Tuberosidade da falange distal",
+    "nota": "Expansão rugosa na extremidade da falange distal, na face plantar; ancora a polpa do dedo e sustenta a unha."
+   }
+  ],
+  "clinica": "Na face plantar da base insere-se o flexor longo dos dedos; no dorso, as faixas terminais da expansão extensora (extensor longo dos dedos)."
+ },
+ {
+  "key": "Distal phalanx of fourth finger of foot",
+  "pt": "Falange distal do 4º dedo do pé",
+  "latim": "Phalanx distalis digiti IV pedis",
+  "tipo": "longo",
+  "resumo": "Falange terminal do 4º dedo do pé, pequena, que sustenta a unha.",
+  "articulacoes": [
+   "Interfalângica distal — base com a cabeça da falange média"
+  ],
+  "clinica": "Na face plantar da base insere-se o flexor longo dos dedos; no dorso, as faixas terminais da expansão extensora (extensor longo dos dedos)."
+ },
+ {
+  "key": "Distal phalanx of fifth finger of foot",
+  "pt": "Falange distal do 5º dedo do pé (dedo mínimo)",
+  "latim": "Phalanx distalis digiti V pedis",
+  "tipo": "longo",
+  "resumo": "Falange terminal do 5º dedo do pé (dedo mínimo), pequena, que sustenta a unha.",
+  "articulacoes": [
+   "Interfalângica distal — base com a cabeça da falange média"
+  ],
+  "clinica": "Na face plantar da base insere-se o flexor longo dos dedos; no dorso, as faixas terminais da expansão extensora (extensor longo dos dedos)."
+ }
+]

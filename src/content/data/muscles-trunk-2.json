@@ -1,0 +1,735 @@
+[
+  {
+    "key": "Pectoralis major muscle",
+    "pt": "Músculo peitoral maior",
+    "latim": "Musculus pectoralis major",
+    "sinonimos": [
+      "grande peitoral"
+    ],
+    "resumo": "Músculo espesso, em leque, que cobre a parte superior do tórax e forma a prega axilar anterior. É potente adutor e rotador medial do braço e o principal adutor horizontal do ombro.",
+    "origem": "Parte clavicular: metade medial da face anterior da clavícula. Parte esternocostal: face anterior do esterno e seis primeiras cartilagens costais. Parte abdominal: aponeurose do músculo oblíquo externo (lâmina anterior da bainha do reto).",
+    "insercao": "Crista do tubérculo maior do úmero (lábio lateral do sulco intertubercular). O tendão é bilaminar e torcido: as fibras claviculares inserem-se mais distal e anteriormente, e as esternocostais inferiores e abdominais passam por trás e inserem-se mais proximalmente.",
+    "inervacao": {
+      "nervo": "Nervos peitorais lateral e medial",
+      "raizes": "C5, C6 (parte clavicular); C7, C8, T1 (partes esternocostal e abdominal)",
+      "nervoKeys": [
+        "Lateral pectoral nerve",
+        "Medial pectoral nerve"
+      ]
+    },
+    "vascularizacao": "Ramos peitorais da artéria toracoacromial; ramos perfurantes da artéria torácica interna; artéria torácica lateral.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "aducao",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "rot_medial",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "aducao_horizontal",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "parte clavicular, até cerca de 60°"
+      },
+      {
+        "art": "ombro",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "parte esternocostal: estende o braço fletido até a posição neutra, contra resistência"
+      },
+      {
+        "art": "escapula",
+        "mov": "protracao",
+        "papel": "secundario",
+        "nota": "por tração sobre o úmero"
+      },
+      {
+        "art": "escapula",
+        "mov": "depressao",
+        "papel": "secundario",
+        "nota": "fibras inferiores, por meio do úmero"
+      },
+      {
+        "art": "costelas",
+        "mov": "inspiracao",
+        "papel": "secundario",
+        "nota": "inspiração forçada, com os membros superiores fixos"
+      }
+    ],
+    "funcao": "As duas partes atuam juntas na adução, na rotação medial e na adução horizontal do braço: empurrar, abraçar, arremessar, golpear de frente e nadar crawl. Separadamente, a parte clavicular flete o ombro e a esternocostal o estende a partir da flexão. Em cadeia fechada, com as mãos apoiadas, as fibras inferiores elevam o tronco, junto com o latíssimo do dorso, na marcha com muletas, nas transferências e nas barras paralelas. Excentricamente controla a descida no apoio de frente e no supino. Com os membros superiores fixos (mãos apoiadas nos joelhos ou em uma mesa), eleva as costelas e auxilia a inspiração forçada.",
+    "antagonistas": [
+      "Infraspinatus muscle",
+      "Teres minor muscle",
+      "Rhomboid major muscle",
+      "Trapezius muscle"
+    ],
+    "sinergistas": [
+      "Latissimus dorsi muscle",
+      "Teres major muscle",
+      "Subscapularis muscle",
+      "Deltoid muscle",
+      "Coracobrachialis muscle",
+      "Serratus anterior muscle"
+    ],
+    "palpacao": "Paciente em decúbito dorsal ou sentado. Segure a prega axilar anterior entre o polegar e os dedos e peça adução contra resistência. Parte clavicular: abaixo da metade medial da clavícula, com o braço fletido a 90° e adução horizontal resistida em direção ligeiramente superior. Parte esternocostal: ao lado do esterno, com adução resistida em direção ao quadril oposto. O sulco deltopeitoral, onde corre a veia cefálica, marca o limite com o deltoide.",
+    "teste": "Kendall, em decúbito dorsal. Parte superior (clavicular): ombro a 90° de flexão com leve rotação medial; o paciente aduz horizontalmente em direção à extremidade esternal da clavícula; resistência no antebraço, no sentido da abdução horizontal; estabiliza-se o ombro oposto. Parte inferior (esternocostal): parte-se do ombro em flexão e leve rotação medial e aduz-se obliquamente em direção à crista ilíaca oposta; resistência no antebraço, em sentido lateral e superior; estabiliza-se a crista ilíaca oposta.",
+    "alongamento": "Parte clavicular: abdução horizontal com o ombro a 90° de abdução e em rotação lateral. Parte esternocostal: abdução horizontal com o ombro a cerca de 135° de abdução. Pode ser feito em decúbito dorsal sobre um rolo ao longo da coluna ou com o antebraço apoiado no batente de uma porta. Kendall usa essas mesmas posições como teste de comprimento.",
+    "clinica": "O encurtamento mantém os ombros protraídos e os úmeros em rotação medial e limita a flexão, a abdução e a rotação lateral; é parte da postura de ombros anteriorizados e da síndrome cruzada superior. A ruptura ocorre tipicamente na fase excêntrica do supino, quase sempre na inserção umeral, com equimose no braço, perda da prega axilar anterior e fraqueza de adução e rotação medial. A ausência congênita da parte esternocostal é característica da síndrome de Poland. Após mastectomia e radioterapia pode haver fibrose e encurtamento, com restrição do ombro. É usado como retalho em reconstruções.",
+    "dica": "Clavicular flete, esternocostal estende a partir da flexão, e as duas aduzem e rodam medialmente.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Clavicular head of pectoralis major muscle",
+        "pt": "Parte clavicular",
+        "origem": "Metade medial da face anterior da clavícula",
+        "insercao": "Lâmina anterior do tendão, na crista do tubérculo maior",
+        "nota": "Flexão, adução horizontal e rotação medial do ombro. Inervação: nervo peitoral lateral (C5, C6)."
+      },
+      {
+        "key": "Sternocostal head of pectoralis major muscle",
+        "pt": "Parte esternocostal",
+        "origem": "Face anterior do esterno e seis primeiras cartilagens costais",
+        "insercao": "Crista do tubérculo maior; as fibras inferiores formam a lâmina posterior do tendão",
+        "nota": "Adução, rotação medial e extensão do ombro a partir da flexão; deprime a cintura escapular. Inervação: nervos peitorais lateral e medial (C7, C8, T1)."
+      },
+      {
+        "key": "(Abdominal part of pectoralis major muscle)",
+        "pt": "Parte abdominal",
+        "origem": "Lâmina anterior da bainha do músculo reto do abdome (aponeurose do oblíquo externo)",
+        "insercao": "Lâmina posterior do tendão, na parte mais proximal da crista do tubérculo maior",
+        "nota": "Fascículo inconstante e pequeno; atua com as fibras esternocostais inferiores, aduzindo o braço e deprimindo o ombro. Inervação: nervo peitoral medial (C8, T1)."
+      }
+    ]
+  },
+  {
+    "key": "Pectoralis minor muscle",
+    "pt": "Músculo peitoral menor",
+    "latim": "Musculus pectoralis minor",
+    "sinonimos": [
+      "pequeno peitoral"
+    ],
+    "resumo": "Músculo triangular e delgado, profundo ao peitoral maior, que vai das costelas ao processo coracoide. Abaixa e inclina anteriormente a escápula e serve de referência para os vasos axilares e o plexo braquial, que passam sob ele.",
+    "origem": "Faces externas da 3ª à 5ª costelas, próximo às cartilagens costais.",
+    "insercao": "Margem medial e face superior do processo coracoide da escápula.",
+    "inervacao": {
+      "nervo": "Nervo peitoral medial (com fibras do nervo peitoral lateral por uma alça comunicante)",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Medial pectoral nerve"
+      ]
+    },
+    "vascularizacao": "Ramos peitorais da artéria toracoacromial e artéria torácica lateral.",
+    "acoes": [
+      {
+        "art": "escapula",
+        "mov": "depressao",
+        "papel": "primario"
+      },
+      {
+        "art": "escapula",
+        "mov": "inclinacao_anterior",
+        "papel": "primario",
+        "nota": "o ângulo inferior afasta-se do tórax"
+      },
+      {
+        "art": "escapula",
+        "mov": "protracao",
+        "papel": "secundario"
+      },
+      {
+        "art": "escapula",
+        "mov": "rot_inferior",
+        "papel": "secundario"
+      },
+      {
+        "art": "costelas",
+        "mov": "inspiracao",
+        "papel": "secundario",
+        "nota": "inspiração forçada, com a escápula fixa"
+      }
+    ],
+    "funcao": "Puxa o processo coracoide para a frente e para baixo, estabilizando a escápula contra a parede torácica. Abaixa o ombro contra resistência, por exemplo ao apoiar-se em muletas ou nas barras paralelas, junto com o latíssimo do dorso e o trapézio ascendente. Com a escápula fixa pelos músculos posteriores, eleva a 3ª, a 4ª e a 5ª costelas e atua como músculo acessório da inspiração.",
+    "antagonistas": [
+      "Trapezius muscle",
+      "Serratus anterior muscle"
+    ],
+    "sinergistas": [
+      "Rhomboid major muscle",
+      "Levator scapulae",
+      "Subclavius muscle",
+      "Latissimus dorsi muscle"
+    ],
+    "palpacao": "Paciente sentado ou em decúbito dorsal, com o braço relaxado ao lado do corpo ou a mão nas costas. Localize o processo coracoide, abaixo da clavícula e medial à cabeça do úmero, e deslize os dedos em direção inferior e medial, rumo às costelas 3 a 5, através do peitoral maior relaxado ou por baixo de sua margem lateral, na axila. Peça para abaixar o ombro ou levá-lo para a frente: sente-se a contração profunda.",
+    "teste": "Kendall: decúbito dorsal; o paciente projeta o ombro para a frente, tirando-o da maca, sem empurrar com a mão ou o cotovelo. O examinador aplica resistência na face anterior do ombro, empurrando-o para baixo em direção à maca. Comprimento: em decúbito dorsal, medir a distância entre a face posterior do acrômio e a maca (valores acima de cerca de 2,5 cm sugerem encurtamento) ou observar se o ombro fica elevado em relação à maca.",
+    "alongamento": "Retração com inclinação posterior da escápula: em decúbito dorsal, pressão manual sobre o processo coracoide em direção posterior, superior e lateral; ou decúbito dorsal sobre um rolo ao longo da coluna torácica com os braços abertos. Evite forçar a cápsula anterior da articulação do ombro.",
+    "clinica": "O encurtamento mantém a escápula em inclinação anterior, rotação inferior e protração, reduzindo a inclinação posterior e a rotação superior necessárias à elevação do braço; essa discinesia diminui o espaço subacromial e está associada à dor subacromial. Na síndrome do desfiladeiro torácico por hiperabdução (síndrome do peitoral menor), o plexo braquial e os vasos axilares são comprimidos sob o tendão quando o braço é elevado, causando parestesias na mão. O músculo divide a artéria axilar em três partes e é referência na classificação dos linfonodos axilares em níveis.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Serratus anterior muscle",
+    "pt": "Músculo serrátil anterior",
+    "latim": "Musculus serratus anterior",
+    "sinonimos": [
+      "serrátil",
+      "músculo do boxeador",
+      "grande denteado"
+    ],
+    "resumo": "Lâmina muscular larga que envolve a parede lateral do tórax, das costelas à margem medial da escápula, formando a parede medial da axila. É o principal protrator da escápula e, com o trapézio, o motor de sua rotação superior; mantém a escápula aplicada ao tórax.",
+    "origem": "Faces externas das partes laterais da 1ª à 8ª (às vezes 9ª) costelas, por digitações; as inferiores entrelaçam-se com as do oblíquo externo do abdome.",
+    "insercao": "Face anterior (costal) da margem medial da escápula, em toda a sua extensão. Parte superior: ângulo superior. Parte média: margem medial. Parte inferior, a mais forte: ângulo inferior.",
+    "inervacao": {
+      "nervo": "Nervo torácico longo",
+      "raizes": "C5, C6, C7",
+      "nervoKeys": [
+        "Long thoracic nerve"
+      ]
+    },
+    "vascularizacao": "Artéria torácica lateral; ramos da artéria toracodorsal para a parte inferior; artéria torácica superior para a parte superior.",
+    "acoes": [
+      {
+        "art": "escapula",
+        "mov": "protracao",
+        "papel": "primario"
+      },
+      {
+        "art": "escapula",
+        "mov": "rot_superior",
+        "papel": "primario",
+        "nota": "fibras inferiores puxam o ângulo inferior lateral e anteriormente"
+      },
+      {
+        "art": "escapula",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "mantém a margem medial e o ângulo inferior contra o tórax; produz inclinação posterior e rotação lateral da escápula na elevação do braço"
+      },
+      {
+        "art": "costelas",
+        "mov": "inspiracao",
+        "papel": "secundario",
+        "nota": "apenas com a escápula fixa; contribuição discutida"
+      }
+    ],
+    "funcao": "Protrai a escápula ao empurrar, socar e alcançar à frente. Na elevação do braço forma, com o trapézio descendente e ascendente, o par de forças que roda a escápula superiormente, responsável por cerca de 60° dos 180° de elevação (ritmo escapuloumeral de aproximadamente 2:1); ao mesmo tempo produz inclinação posterior e rotação lateral da escápula, que afastam o acrômio do manguito rotador. Mantém a escápula contra o gradil costal, dando base estável para os músculos escapuloumerais. Em cadeia fechada, sustenta o tórax entre as escápulas no apoio de frente e na posição de quatro apoios e produz o movimento final de protração (push-up plus). Excentricamente controla a retração e a rotação inferior ao abaixar o braço.",
+    "antagonistas": [
+      "Rhomboid major muscle",
+      "Rhomboid minor muscle",
+      "Levator scapulae",
+      "Pectoralis minor muscle"
+    ],
+    "sinergistas": [
+      "Trapezius muscle",
+      "Pectoralis major muscle"
+    ],
+    "palpacao": "Na parede lateral do tórax, abaixo da axila, entre a margem anterior do latíssimo do dorso e a margem inferior do peitoral maior. Com o braço fletido a cerca de 90°–120°, peça para empurrar para a frente contra resistência: as digitações inferiores ficam visíveis e palpáveis sobre as costelas, alternando com as do oblíquo externo.",
+    "teste": "Kendall, sentado: ombro fletido a 120°–130°. O examinador aplica resistência na face dorsal do braço, no sentido da extensão, e outra, leve, na margem lateral da escápula, no sentido da rotação inferior, observando se a escápula mantém a rotação superior e a protração. Em decúbito dorsal: ombro a 90° de flexão, cotovelo estendido; o paciente protrai a escápula, empurrando o punho em direção ao teto, contra resistência no punho ou no cotovelo. Triagem: empurrar a parede com os cotovelos estendidos e observar se surge escápula alada.",
+    "alongamento": "Retração máxima da escápula com o braço atrás do corpo; raramente está encurtado, sendo mais comum estar alongado e fraco.",
+    "clinica": "A paralisia por lesão do nervo torácico longo (tração, mochila pesada, esvaziamento axilar, neurite, trauma na parede torácica) produz escápula alada medial: a margem medial e o ângulo inferior descolam-se do tórax, mais nitidamente ao empurrar a parede ou ao fletir o braço, e a elevação do braço acima de cerca de 90°–120° fica limitada. Mesmo sem lesão nervosa, a ativação insuficiente ou atrasada do serrátil anterior, com excesso de trapézio descendente, é achado comum na discinesia escapular e na dor subacromial; a reabilitação enfatiza exercícios como o push-up plus, o deslizamento na parede e o soco em decúbito dorsal, com boa relação entre serrátil anterior e trapézio descendente.",
+    "dica": "Serrátil anterior, nervo torácico longo, C5, C6 e C7: sua lesão faz as asas levantarem.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Subclavius muscle",
+    "pt": "Músculo subclávio",
+    "latim": "Musculus subclavius",
+    "resumo": "Pequeno músculo cilíndrico situado entre a clavícula e a primeira costela, envolvido pela fáscia clavipeitoral. Estabiliza a articulação esternoclavicular e protege os vasos subclávios.",
+    "origem": "Junção da primeira costela com sua cartilagem costal.",
+    "insercao": "Sulco do músculo subclávio, na face inferior do terço médio da clavícula.",
+    "inervacao": {
+      "nervo": "Nervo subclávio (nervo para o músculo subclávio), ramo do tronco superior do plexo braquial",
+      "raizes": "C5, C6",
+      "nervoKeys": [
+        "Subclavian nerve"
+      ]
+    },
+    "vascularizacao": "Ramo clavicular da artéria toracoacromial e artéria supraescapular.",
+    "acoes": [
+      {
+        "art": "escapula",
+        "mov": "depressao",
+        "papel": "secundario",
+        "nota": "abaixa a clavícula e, com ela, o ombro"
+      },
+      {
+        "art": "escapula",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "traciona a clavícula medialmente, estabilizando a articulação esternoclavicular"
+      }
+    ],
+    "funcao": "Ancora e abaixa a clavícula, puxando-a em direção ao esterno, o que estabiliza a articulação esternoclavicular durante os movimentos do ombro e resiste à tração lateral da clavícula, como ao pendurar-se pelos braços. Pode elevar a primeira costela quando a clavícula está fixa.",
+    "antagonistas": [
+      "Trapezius muscle",
+      "Sternocleidomastoid muscle"
+    ],
+    "sinergistas": [
+      "Pectoralis minor muscle"
+    ],
+    "palpacao": "Difícil, por estar coberto pela clavícula e pelo peitoral maior. Pode-se pressionar com a polpa do dedo sob a margem inferior do terço médio da clavícula, em direção superior e posterior.",
+    "teste": "Não há prova isolada.",
+    "alongamento": "Elevação com retração da cintura escapular.",
+    "clinica": "Nas fraturas da clavícula, amortece os fragmentos e protege os vasos subclávios e o plexo braquial. Sua hipertrofia ou fibrose pode contribuir para a compressão da veia subclávia no espaço costoclavicular (síndrome de Paget-Schroetter, trombose de esforço) e para a síndrome do desfiladeiro torácico.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Trapezius muscle",
+    "pt": "Músculo trapézio",
+    "latim": "Musculus trapezius",
+    "sinonimos": [
+      "trapézio superior, médio e inferior"
+    ],
+    "resumo": "Músculo largo, plano e triangular, o mais superficial do dorso, que une o crânio e a coluna à clavícula e à escápula. Suas três partes têm ações diferentes sobre a escápula e, em conjunto com o serrátil anterior, produzem a rotação superior necessária para elevar o braço.",
+    "origem": "Terço medial da linha nucal superior, protuberância occipital externa, ligamento nucal e processos espinhosos de C7 a T12.",
+    "insercao": "Terço lateral da clavícula (parte descendente), acrômio e espinha da escápula (parte transversa) e extremidade medial da espinha da escápula, no tubérculo deltoide (parte ascendente).",
+    "inervacao": {
+      "nervo": "Nervo acessório (motor); ramos anteriores de C3 e C4, pelo plexo cervical (propriocepção e dor, com alguma contribuição motora)",
+      "raizes": "NC XI; C3, C4",
+      "nervoKeys": [
+        "Accessory nerve (XI)",
+        "Cervical plexus"
+      ]
+    },
+    "vascularizacao": "Artéria cervical transversa (ramo superficial) e artéria dorsal da escápula; ramos da artéria occipital para a parte superior e das intercostais posteriores para a inferior.",
+    "acoes": [
+      {
+        "art": "escapula",
+        "mov": "elevacao",
+        "papel": "primario",
+        "nota": "parte descendente"
+      },
+      {
+        "art": "escapula",
+        "mov": "retracao",
+        "papel": "primario",
+        "nota": "parte transversa, auxiliada pelas outras duas"
+      },
+      {
+        "art": "escapula",
+        "mov": "depressao",
+        "papel": "primario",
+        "nota": "parte ascendente"
+      },
+      {
+        "art": "escapula",
+        "mov": "rot_superior",
+        "papel": "primario",
+        "nota": "partes descendente e ascendente, em par de forças com o serrátil anterior"
+      },
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "parte descendente, contração bilateral com a escápula fixa"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "parte descendente, contração unilateral"
+      },
+      {
+        "art": "cervical",
+        "mov": "rotacao_contralateral",
+        "papel": "secundario",
+        "nota": "parte descendente, contração unilateral"
+      }
+    ],
+    "funcao": "Na elevação do braço, a parte descendente (que eleva a extremidade lateral da clavícula) e a parte ascendente (que traciona para baixo a raiz da espinha da escápula) formam com as fibras inferiores do serrátil anterior o par de forças da rotação superior da escápula. A parte transversa retrai a escápula e neutraliza a protração do serrátil, mantendo a escápula estável sobre o tórax. A parte ascendente contribui ainda para a inclinação posterior e a rotação lateral da escápula. A parte descendente sustenta o peso do membro superior e impede a queda do ombro ao carregar peso na mão; estudos mostram que suas fibras são mais horizontais do que se supunha, de modo que agem mais sobre a clavícula do que elevando diretamente a escápula. Com as escápulas fixas, a contração bilateral estende a cabeça e o pescoço.",
+    "antagonistas": [
+      "Pectoralis minor muscle",
+      "Pectoralis major muscle",
+      "Latissimus dorsi muscle"
+    ],
+    "sinergistas": [
+      "Serratus anterior muscle",
+      "Levator scapulae",
+      "Rhomboid major muscle",
+      "Rhomboid minor muscle"
+    ],
+    "palpacao": "Parte descendente: pince a massa muscular entre o pescoço e o acrômio e peça para elevar o ombro. Parte transversa: entre os processos espinhosos de C7–T3 e o acrômio, com o paciente em decúbito ventral, braço abduzido a 90°, retraindo a escápula. Parte ascendente: da raiz da espinha da escápula aos processos espinhosos de T4–T12, em decúbito ventral, com o braço elevado em diagonal (cerca de 130°–145°) e elevado da maca; a margem lateral forma uma linha oblíqua visível.",
+    "teste": "Kendall. Parte descendente: sentado, elevação do ombro com extensão, inclinação para o mesmo lado e rotação da cabeça para o lado oposto; resistência no ombro, para baixo, e na cabeça, no sentido contrário. Parte transversa: decúbito ventral, ombro a 90° de abdução e em rotação lateral (polegar para cima); o paciente eleva o braço retraindo a escápula; resistência no antebraço, para baixo. Parte ascendente: decúbito ventral, braço em diagonal acima da cabeça, alinhado com as fibras (cerca de 130°–145° de abdução), em rotação lateral; resistência no antebraço, para baixo. Observa-se se a escápula mantém a retração e a depressão.",
+    "alongamento": "Parte descendente: flexão da cabeça com inclinação para o lado oposto e rotação para o mesmo lado, mantendo o ombro abaixado (mão segurando a borda da cadeira). Partes transversa e ascendente: protração da escápula, abraçando o próprio tronco ou levando o braço cruzado à frente do tórax com flexão da coluna torácica.",
+    "clinica": "Lesão do nervo acessório no trígono lateral do pescoço (biópsia de linfonodo, esvaziamento cervical): ombro caído, escápula deslocada lateralmente e rodada inferiormente, com alamento lateral que se acentua na abdução, fraqueza para elevar o ombro e abduzir o braço acima de 90° e dor por tração. Difere da escápula alada do serrátil anterior, que é medial e piora na flexão e ao empurrar. A parte descendente é sede frequente de dor miofascial e de cefaleia do tipo tensional, com ponto-gatilho que refere dor para a região posterolateral do pescoço e a têmpora. Na dor de ombro com discinesia escapular é comum o desequilíbrio entre trapézio descendente hiperativo e partes transversa e ascendente e serrátil anterior pouco ativos; a reabilitação busca melhorar essa relação com exercícios como remada em decúbito ventral, extensão horizontal com rotação lateral e elevação em Y.",
+    "dica": "Três partes, três direções de fibra: descendente eleva, transversa retrai, ascendente abaixa. As duas das pontas rodam a escápula para cima.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Descending part of trapezius muscle",
+        "pt": "Parte descendente (trapézio superior)",
+        "origem": "Terço medial da linha nucal superior, protuberância occipital externa e ligamento nucal",
+        "insercao": "Margem posterior do terço lateral da clavícula",
+        "nota": "Eleva a escápula e a extremidade lateral da clavícula e participa da rotação superior; com a escápula fixa, estende e inclina o pescoço para o mesmo lado e roda a cabeça para o lado oposto."
+      },
+      {
+        "key": "Transverse part of trapezius muscle",
+        "pt": "Parte transversa (trapézio médio)",
+        "origem": "Processos espinhosos e ligamentos supraespinais de C7 a T3",
+        "insercao": "Margem medial do acrômio e lábio superior da espinha da escápula",
+        "nota": "Retrai (aduz) a escápula e a estabiliza durante os movimentos do braço."
+      },
+      {
+        "key": "Ascending part of trapezius muscle",
+        "pt": "Parte ascendente (trapézio inferior)",
+        "origem": "Processos espinhosos e ligamentos supraespinais de T4 a T12",
+        "insercao": "Extremidade medial da espinha da escápula (tubérculo deltoide), por uma aponeurose",
+        "nota": "Abaixa e retrai a escápula, participa da rotação superior e da inclinação posterior. Frequentemente fraca e alongada na postura de ombros protraídos."
+      }
+    ]
+  },
+  {
+    "key": "Latissimus dorsi muscle",
+    "pt": "Músculo latíssimo do dorso",
+    "latim": "Musculus latissimus dorsi",
+    "sinonimos": [
+      "grande dorsal"
+    ],
+    "resumo": "O músculo mais largo do corpo: cobre a metade inferior do dorso e converge para o úmero, formando a prega axilar posterior. Estende, aduz e roda medialmente o braço e liga o membro superior à coluna lombar e à pelve por meio da fáscia toracolombar.",
+    "origem": "Processos espinhosos das seis vértebras torácicas inferiores (T7–T12), fáscia toracolombar (e, por ela, processos espinhosos lombares e sacrais), terço posterior da crista ilíaca, três ou quatro costelas inferiores e, de modo inconstante, ângulo inferior da escápula.",
+    "insercao": "Assoalho do sulco intertubercular do úmero, anteriormente ao tendão do redondo maior, depois de contornar a margem inferior desse músculo.",
+    "inervacao": {
+      "nervo": "Nervo toracodorsal",
+      "raizes": "C6, C7, C8",
+      "nervoKeys": [
+        "Thoracodorsal nerve"
+      ]
+    },
+    "vascularizacao": "Artéria toracodorsal (ramo da subescapular); ramos perfurantes das artérias intercostais posteriores e lombares.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "extensao",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "aducao",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "rot_medial",
+        "papel": "primario"
+      },
+      {
+        "art": "escapula",
+        "mov": "depressao",
+        "papel": "secundario",
+        "nota": "por tração sobre o úmero"
+      },
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "contração bilateral, com os braços fixos"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "secundario"
+      },
+      {
+        "art": "pelve",
+        "mov": "anteversao",
+        "papel": "secundario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "pelve",
+        "mov": "elevacao_pelve",
+        "papel": "secundario",
+        "nota": "com o braço fixo"
+      },
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "secundario",
+        "nota": "tosse e espirro"
+      }
+    ],
+    "funcao": "Em cadeia aberta puxa o braço de cima e da frente para baixo e para trás: remar, nadar, cortar lenha, puxar uma corda. Em cadeia fechada, com as mãos fixas, eleva o tronco em direção aos braços: barra fixa, escalada, marcha com muletas e elevação do corpo na cadeira de rodas (push-up sentado), sendo essencial para transferências em pessoas com paraplegia, pois continua inervado por C6–C8 e alcança a pelve. Tensiona a fáscia toracolombar e, em diagonal com o glúteo máximo do lado oposto (cadeia oblíqua posterior), transfere carga entre o membro superior e o inferior e contribui para a compressão da articulação sacroilíaca na marcha e na corrida. Contrai vigorosamente na tosse e no espirro.",
+    "antagonistas": [
+      "Deltoid muscle",
+      "Trapezius muscle",
+      "Infraspinatus muscle",
+      "Teres minor muscle"
+    ],
+    "sinergistas": [
+      "Teres major muscle",
+      "Pectoralis major muscle",
+      "Triceps brachii muscle",
+      "Subscapularis muscle",
+      "Gluteus maximus muscle"
+    ],
+    "palpacao": "Segure a prega axilar posterior entre o polegar e os dedos e peça extensão ou adução do braço contra resistência (por exemplo, pressionar a mão contra o quadril ou sobre o ombro do examinador). Siga as fibras em direção inferior e medial até a região lombar. O redondo maior fica logo acima e é mais curto e arredondado.",
+    "teste": "Kendall: decúbito ventral, braço ao lado do corpo, em rotação medial (palma para cima); o paciente estende e aduz o ombro; resistência no antebraço, no sentido da abdução com leve flexão. Comprimento: decúbito dorsal, joelhos fletidos e lombar apoiada; a flexão dos ombros acima da cabeça deve chegar à maca sem aumentar a lordose.",
+    "alongamento": "Flexão completa do ombro com rotação lateral, associada à inclinação do tronco para o lado oposto e à retroversão da pelve: posição de prece com as mãos apoiadas à frente, pendurar-se na barra ou sentado sobre os calcanhares com os braços estendidos à frente e deslocados para um lado.",
+    "clinica": "O encurtamento limita a elevação do braço e é compensado por hiperlordose lombar ao levar os braços acima da cabeça; também favorece a rotação medial e a depressão do ombro. A lesão do nervo toracodorsal (cirurgias axilares) enfraquece a extensão e a adução e impede o apoio em muletas. Rupturas e estiramentos ocorrem em arremessadores, ginastas e escaladores. É muito usado como retalho miocutâneo, por exemplo na reconstrução da mama, com déficit funcional geralmente pequeno. O trígono lombar inferior (de Petit), entre o latíssimo do dorso, o oblíquo externo e a crista ilíaca, é sede de hérnias lombares raras, e o trígono da ausculta fica junto à sua margem superior.",
+    "dica": "É o músculo da natação, das muletas e da barra fixa. Sua ação lembra o gesto de coçar a região lombar do lado oposto.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Levator scapulae",
+    "pt": "Músculo levantador da escápula",
+    "latim": "Musculus levator scapulae",
+    "sinonimos": [
+      "elevador da escápula",
+      "angular da escápula"
+    ],
+    "resumo": "Músculo em fita da região posterolateral do pescoço, que desce das vértebras cervicais superiores ao ângulo superior da escápula, profundamente ao trapézio e ao esternocleidomastóideo.",
+    "origem": "Tubérculos posteriores dos processos transversos de C1 a C4.",
+    "insercao": "Margem medial da escápula, do ângulo superior à raiz da espinha.",
+    "inervacao": {
+      "nervo": "Nervo dorsal da escápula e ramos anteriores de C3 e C4 (plexo cervical)",
+      "raizes": "C3, C4, C5",
+      "nervoKeys": [
+        "Dorsal scapular nerve",
+        "Cervical plexus"
+      ]
+    },
+    "vascularizacao": "Artéria dorsal da escápula; ramos das artérias cervical transversa e cervical ascendente.",
+    "acoes": [
+      {
+        "art": "escapula",
+        "mov": "elevacao",
+        "papel": "primario"
+      },
+      {
+        "art": "escapula",
+        "mov": "rot_inferior",
+        "papel": "primario",
+        "nota": "inclina a cavidade glenoidal para baixo"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "com a escápula fixa"
+      },
+      {
+        "art": "cervical",
+        "mov": "rotacao_ipsilateral",
+        "papel": "secundario",
+        "nota": "com a escápula fixa"
+      },
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "contração bilateral"
+      }
+    ],
+    "funcao": "Eleva a escápula com o trapézio descendente e, com os romboides e o peitoral menor, roda-a inferiormente. Excentricamente controla a rotação superior e a depressão da escápula. Com a escápula fixa, inclina e roda o pescoço para o mesmo lado; bilateralmente ajuda a estender a coluna cervical e a resistir à flexão da cabeça, trabalhando continuamente na postura de cabeça anteriorizada.",
+    "antagonistas": [
+      "Serratus anterior muscle",
+      "Pectoralis minor muscle",
+      "Latissimus dorsi muscle"
+    ],
+    "sinergistas": [
+      "Trapezius muscle",
+      "Rhomboid major muscle",
+      "Rhomboid minor muscle",
+      "Splenius colli muscle"
+    ],
+    "palpacao": "No ângulo superior da escápula, profundamente ao trapézio; para relaxar o trapézio, o paciente coloca a mão nas costas (região lombar) e eleva levemente o ombro. O ventre também é acessível no trígono lateral do pescoço, entre a margem anterior do trapézio e a margem posterior do esternocleidomastóideo, posterior aos escalenos.",
+    "teste": "Kendall testa-o junto com os romboides: decúbito ventral, cotovelo fletido, úmero aduzido e levemente estendido, com a escápula em retração, elevação e rotação inferior; resistência no braço, no sentido da abdução e da flexão, e no ombro, no sentido da depressão. A elevação resistida do ombro não o isola do trapézio descendente.",
+    "alongamento": "Sentado, com a mão do lado alongado segurando a borda da cadeira ou colocada atrás das costas: flexão da cabeça, inclinação e rotação para o lado oposto (olhar para a axila contrária). Elevar o braço do lado alongado, com a mão atrás da cabeça, roda a escápula superiormente e aumenta o alongamento.",
+    "clinica": "Causa muito comum de dor e rigidez cervical com limitação da rotação (torcicolo), frequentemente com ponto doloroso na inserção, junto ao ângulo superior da escápula. O encurtamento associa-se à postura de cabeça anteriorizada, ao ombro elevado e à escápula em rotação inferior. A sobrecarga é favorecida por carregar bolsa no ombro, segurar o telefone entre a orelha e o ombro e trabalhar com os ombros elevados. Na lesão do nervo acessório torna-se o principal elevador da escápula.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Rhomboid major muscle",
+    "pt": "Músculo romboide maior",
+    "latim": "Musculus rhomboideus major",
+    "sinonimos": [
+      "romboide"
+    ],
+    "resumo": "Músculo quadrilátero, profundo ao trapézio, que une a coluna torácica alta à margem medial da escápula. Retrai a escápula e a mantém fixa contra o tórax.",
+    "origem": "Processos espinhosos de T2 a T5 e ligamentos supraespinais correspondentes.",
+    "insercao": "Margem medial da escápula, da raiz da espinha ao ângulo inferior.",
+    "inervacao": {
+      "nervo": "Nervo dorsal da escápula",
+      "raizes": "C4, C5",
+      "nervoKeys": [
+        "Dorsal scapular nerve"
+      ]
+    },
+    "vascularizacao": "Artéria dorsal da escápula (ou ramo profundo da artéria cervical transversa) e ramos dorsais das artérias intercostais posteriores superiores.",
+    "acoes": [
+      {
+        "art": "escapula",
+        "mov": "retracao",
+        "papel": "primario"
+      },
+      {
+        "art": "escapula",
+        "mov": "rot_inferior",
+        "papel": "primario"
+      },
+      {
+        "art": "escapula",
+        "mov": "elevacao",
+        "papel": "secundario"
+      },
+      {
+        "art": "escapula",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "mantém a margem medial contra o tórax"
+      }
+    ],
+    "funcao": "Retrai e eleva a escápula e a roda inferiormente, como ao puxar algo para si, remar ou levar a mão às costas. Fixa a escápula para que os músculos do ombro tenham base estável e, com o serrátil anterior, forma uma cinta que mantém a margem medial junto ao tórax. Excentricamente controla a protração e a rotação superior ao elevar ou lançar o braço à frente. Atua com o latíssimo do dorso e o redondo maior na extensão e adução forçadas do braço.",
+    "antagonistas": [
+      "Serratus anterior muscle",
+      "Pectoralis minor muscle",
+      "Pectoralis major muscle"
+    ],
+    "sinergistas": [
+      "Rhomboid minor muscle",
+      "Trapezius muscle",
+      "Levator scapulae",
+      "Latissimus dorsi muscle"
+    ],
+    "palpacao": "Entre a margem medial da escápula e os processos espinhosos de T2–T5, através do trapézio. Com o paciente sentado ou em decúbito ventral, mão apoiada na região lombar, peça para afastar a mão das costas: o trapézio transverso fica menos ativo e os romboides elevam a margem medial, tornando-se palpáveis; a margem inferior do romboide maior aparece junto ao ângulo inferior.",
+    "teste": "Kendall: decúbito ventral, cotovelo fletido, úmero aduzido junto ao tronco e em leve extensão, de modo que a escápula fique em retração, elevação e rotação inferior. O examinador resiste com uma mão no braço, no sentido da abdução e da flexão, e com a outra no ombro, no sentido da depressão. Alternativa: mão sobre a região lombar, afastando-a das costas contra resistência.",
+    "alongamento": "Protração da escápula com flexão da coluna torácica alta: abraçar o próprio tronco, ou segurar um apoio à frente com as duas mãos e arredondar as costas.",
+    "clinica": "A lesão do nervo dorsal da escápula, que atravessa o escaleno médio, causa escápula alada discreta, com a margem medial afastada e o ângulo inferior rodado lateralmente, e dor interescapular. Na postura de ombros protraídos e hipercifose torácica os romboides ficam alongados e fracos e são sede frequente de dor interescapular miofascial; a dor nessa região também pode ser referida da coluna cervical. O predomínio de romboides e levantador da escápula sobre o serrátil anterior e o trapézio mantém a escápula em rotação inferior.",
+    "dica": "As fibras dos romboides descem das vértebras para a escápula. Menor em cima (C7–T1), maior embaixo (T2–T5).",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Rhomboid minor muscle",
+    "pt": "Músculo romboide menor",
+    "latim": "Musculus rhomboideus minor",
+    "resumo": "Pequeno músculo cilíndrico situado logo acima do romboide maior, com o qual frequentemente se funde e compartilha as funções.",
+    "origem": "Parte inferior do ligamento nucal e processos espinhosos de C7 e T1.",
+    "insercao": "Margem medial da escápula, na altura da raiz da espinha.",
+    "inervacao": {
+      "nervo": "Nervo dorsal da escápula",
+      "raizes": "C4, C5",
+      "nervoKeys": [
+        "Dorsal scapular nerve"
+      ]
+    },
+    "vascularizacao": "Artéria dorsal da escápula (ou ramo profundo da artéria cervical transversa).",
+    "acoes": [
+      {
+        "art": "escapula",
+        "mov": "retracao",
+        "papel": "primario"
+      },
+      {
+        "art": "escapula",
+        "mov": "rot_inferior",
+        "papel": "primario"
+      },
+      {
+        "art": "escapula",
+        "mov": "elevacao",
+        "papel": "secundario"
+      },
+      {
+        "art": "escapula",
+        "mov": "estabilizacao",
+        "papel": "primario"
+      }
+    ],
+    "funcao": "Idêntica à do romboide maior: retrai, eleva e roda inferiormente a escápula e a fixa contra o tórax.",
+    "antagonistas": [
+      "Serratus anterior muscle",
+      "Pectoralis minor muscle"
+    ],
+    "sinergistas": [
+      "Rhomboid major muscle",
+      "Trapezius muscle",
+      "Levator scapulae"
+    ],
+    "palpacao": "Entre os processos espinhosos de C7–T1 e a raiz da espinha da escápula, profundamente ao trapézio; não se distingue com segurança do romboide maior.",
+    "teste": "O mesmo do romboide maior; os dois são testados em conjunto.",
+    "alongamento": "O mesmo do romboide maior.",
+    "clinica": "Ver romboide maior. A dor na margem medial superior da escápula também pode vir do levantador da escápula ou ser referida da coluna cervical baixa.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Serratus posterior superior muscle",
+    "pt": "Músculo serrátil posterior superior",
+    "latim": "Musculus serratus posterior superior",
+    "resumo": "Músculo fino e quadrilátero da camada intermediária do dorso, profundo aos romboides, que desce da coluna cervicotorácica para as costelas superiores.",
+    "origem": "Parte inferior do ligamento nucal e processos espinhosos de C7 a T3.",
+    "insercao": "Margens superiores e faces externas da 2ª à 5ª costelas, lateralmente aos ângulos (Moore descreve 2ª à 4ª).",
+    "inervacao": {
+      "nervo": "Nervos intercostais (ramos anteriores dos nervos torácicos)",
+      "raizes": "T2–T5",
+      "nervoKeys": [
+        "Intercostal nerves"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores.",
+    "acoes": [
+      {
+        "art": "costelas",
+        "mov": "inspiracao",
+        "papel": "secundario",
+        "nota": "elevaria as costelas superiores; função respiratória não confirmada"
+      }
+    ],
+    "funcao": "Classicamente descrito como elevador das costelas superiores e, portanto, músculo acessório da inspiração. Estudos eletromiográficos não confirmam papel respiratório relevante, e hoje se admite que sua função seja principalmente proprioceptiva.",
+    "sinergistas": [
+      "External intercostal muscles",
+      "Levatores costarum"
+    ],
+    "palpacao": "Não é palpável de forma isolada: fica sob o trapézio e os romboides e, em parte, sob a escápula.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Flexão da coluna cervicotorácica com protração da escápula e expiração.",
+    "clinica": "Descrito como fonte de dor profunda sob a parte superior da escápula, só acessível à palpação com a escápula protraída. É músculo do dorso por localização, mas inervado por ramos anteriores, como os demais músculos da camada intermediária.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Serratus posterior inferior muscle",
+    "pt": "Músculo serrátil posterior inferior",
+    "latim": "Musculus serratus posterior inferior",
+    "resumo": "Músculo fino e quadrilátero da transição toracolombar, profundo ao latíssimo do dorso, cujas fibras sobem lateralmente para as quatro últimas costelas.",
+    "origem": "Processos espinhosos de T11 a L2, por meio da fáscia toracolombar.",
+    "insercao": "Margens inferiores da 9ª à 12ª costelas, próximo aos ângulos (Moore descreve 8ª à 12ª).",
+    "inervacao": {
+      "nervo": "Nervos intercostais inferiores e nervo subcostal (ramos anteriores dos nervos torácicos)",
+      "raizes": "T9–T12",
+      "nervoKeys": [
+        "Intercostal nerves"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores inferiores e artéria subcostal.",
+    "acoes": [
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "secundario",
+        "nota": "abaixaria as costelas inferiores; função respiratória não confirmada"
+      },
+      {
+        "art": "costelas",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "fixaria as costelas inferiores contra a tração do diafragma"
+      }
+    ],
+    "funcao": "Classicamente descrito como depressor das costelas inferiores, que as puxa para baixo e para trás e as fixa contra a tração do diafragma. Como para o serrátil posterior superior, a função respiratória não foi confirmada, e admite-se papel principalmente proprioceptivo.",
+    "sinergistas": [
+      "Quadratus lumborum muscle",
+      "Internal intercostal muscles"
+    ],
+    "palpacao": "Não é palpável de forma isolada: situa-se sob o latíssimo do dorso, sobre o eretor da espinha, na altura das últimas costelas.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Flexão do tronco com inclinação e rotação para o lado oposto, associadas à inspiração profunda.",
+    "clinica": "Pode ser fonte de dor na transição toracolombar após movimentos de rotação e extensão do tronco, devendo ser diferenciada de dor renal e de disfunções costovertebrais.",
+    "camada": "intermediaria"
+  }
+]

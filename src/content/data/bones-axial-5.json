@@ -1,0 +1,96 @@
+[
+  {
+    "key": "Vertebral column",
+    "pt": "Coluna vertebral",
+    "latim": "Columna vertebralis",
+    "tipo": "conjunto (esqueleto axial)",
+    "resumo": "Eixo ósseo do corpo, formado por 33 vértebras: 7 cervicais, 12 torácicas, 5 lombares, 5 sacrais (fundidas no sacro) e 4 coccígeas (fundidas no cóccix). Sustenta o tronco, protege a medula espinal e combina estabilidade com mobilidade.",
+    "descricao": "As 24 vértebras móveis (pré-sacrais) são unidas por discos intervertebrais, que respondem por cerca de um quarto do comprimento da coluna, pelas articulações dos processos articulares e por ligamentos (longitudinais anterior e posterior, amarelos, interespinais, supraespinal e nucal). A unidade funcional é o segmento de movimento: duas vértebras vizinhas, o disco e as duas articulações dos processos articulares. O disco (núcleo pulposo e anel fibroso) permite e amortece o movimento; as articulações dos processos articulares determinam sua direção.\n\nCurvaturas: no plano sagital o adulto tem quatro curvaturas. As cifoses torácica e sacral são primárias (existem desde a vida fetal); as lordoses cervical e lombar são secundárias, surgindo quando a criança sustenta a cabeça e, depois, fica em pé e anda. As curvaturas aumentam a resistência da coluna à compressão axial. Curvatura lateral com rotação vertebral é escoliose.\n\nOrientação das faces articulares e movimento por região: na cervical alta, a articulação atlantoccipital faz o «sim» (flexão-extensão) e a atlantoaxial o «não» (rotação). Na cervical baixa (C2 a C7), as faces a cerca de 45 graus entre os planos frontal e horizontal permitem todos os movimentos, com inclinação lateral e rotação acopladas para o mesmo lado; é a região mais móvel. Na torácica, as faces próximas do plano frontal favorecem rotação e inclinação lateral, mas as costelas e os processos espinhosos limitam o conjunto, sobretudo a extensão. Na lombar, as faces próximas do plano sagital permitem flexão e extensão amplas e bloqueiam a rotação. Em L5-S1 as faces voltam a ser mais frontais e resistem ao deslizamento anterior. As zonas de transição (craniocervical, cervicotorácica, toracolombar e lombossacral) concentram tensões e lesões.\n\nA medula espinal termina no adulto em L1-L2; abaixo, o canal contém a cauda equina. Há 31 pares de nervos espinais: os cervicais C1 a C7 saem acima da vértebra de mesmo número, C8 sai entre C7 e T1 e, daí para baixo, cada nervo sai abaixo da vértebra de mesmo número.",
+    "palpacao": "Referências de superfície: processo espinhoso de C2 (primeiro palpável abaixo do occipital); C7 (vértebra proeminente); T3 (raiz da espinha da escápula); T7 (ângulo inferior da escápula); T12 (seguindo a 12ª costela); L4 (ponto mais alto das cristas ilíacas); S2 (espinhas ilíacas posteriores superiores).",
+    "clinica": "Alterações posturais (hipercifose, hiperlordose, retificação, escoliose), hérnias de disco (mais comuns em C5-C6, C6-C7, L4-L5 e L5-S1), espondilose, estenose do canal, espondilólise e espondilolistese, fraturas por osteoporose e lesões medulares traumáticas estão entre os principais motivos de atendimento fisioterapêutico. Sinais de alerta (bandeiras vermelhas) que exigem encaminhamento: déficit neurológico progressivo, anestesia em sela, alteração esfincteriana, trauma importante, febre, perda de peso inexplicada, dor noturna que não alivia com o repouso e história de câncer."
+  },
+  {
+    "key": "Cervical vertebrae",
+    "pt": "Vértebras cervicais",
+    "latim": "Vertebrae cervicales",
+    "tipo": "conjunto (7 vértebras)",
+    "resumo": "As sete vértebras do pescoço (C1 a C7), as menores e mais móveis da coluna. Todas têm forame transversário. C1 (atlas), C2 (áxis) e C7 (vértebra proeminente) são atípicas; C3 a C6 são típicas.",
+    "descricao": "A coluna cervical divide-se funcionalmente em cervical alta (occipital, atlas e áxis), sem discos e especializada em orientar a cabeça, e cervical baixa (C2-C3 a C7-T1), com discos, processos uncinados e faces articulares inclinadas a cerca de 45 graus. Amplitudes aproximadas do conjunto: flexão de 45 a 50 graus, extensão de 75 a 85 graus, inclinação lateral de cerca de 40 graus e rotação de 80 a 90 graus para cada lado, metade dela em C1-C2. Na cervical baixa, inclinação lateral e rotação são acopladas para o mesmo lado. A artéria vertebral sobe pelos forames transversários de C6 a C1. Das raízes C5 a T1 forma-se o plexo braquial, e de C3 a C5, o nervo frênico. A descrição detalhada está em Atlas (C1), Áxis (C2), Vértebra C4 (típica) e Vértebra C7."
+  },
+  {
+    "key": "Thoracic vertebrae",
+    "pt": "Vértebras torácicas",
+    "latim": "Vertebrae thoracicae",
+    "tipo": "conjunto (12 vértebras)",
+    "resumo": "As doze vértebras do dorso (T1 a T12), identificadas pelas fóveas costais para as costelas. Formam a cifose torácica e, com as costelas e o esterno, a caixa torácica.",
+    "descricao": "T2 a T9 são típicas; T1 e T10 a T12 são atípicas. As faces articulares ficam próximas do plano frontal (cerca de 60 graus com a horizontal e 20 graus com o plano frontal), o que favorece a rotação (cerca de 30 a 35 graus para cada lado) e a inclinação lateral (25 a 30 graus), enquanto flexão (30 a 40 graus) e extensão (20 a 25 graus) são contidas pelas costelas, pelos discos finos e pelos processos espinhosos longos e imbricados. A mobilidade é maior nos segmentos inferiores. T12 é a vértebra de transição: faces superiores do tipo torácico e inferiores do tipo lombar. A descrição detalhada está em Vértebra T8 (típica), T1 e T12."
+  },
+  {
+    "key": "Lumbar vertebrae",
+    "pt": "Vértebras lombares",
+    "latim": "Vertebrae lumbales",
+    "tipo": "conjunto (5 vértebras)",
+    "resumo": "As cinco vértebras da região lombar (L1 a L5), as maiores e mais robustas da coluna, sem forames transversários nem fóveas costais. Formam a lordose lombar e sustentam o peso do tronco.",
+    "descricao": "As faces articulares ficam próximas do plano sagital (as superiores côncavas, voltadas para trás e para dentro; as inferiores convexas, voltadas para a frente e para fora), o que permite flexão (40 a 50 graus) e extensão (15 a 20 graus) amplas e inclinação lateral de cerca de 20 graus, mas limita a rotação a cerca de 5 graus para cada lado. Em L5-S1 as faces são mais frontais e resistem ao cisalhamento anterior. Os discos são espessos e respondem por boa parte da mobilidade; L4-L5 e L5-S1 concentram as hérnias. O movimento lombar combina-se com o da pelve e dos quadris no ritmo lombopélvico. A descrição detalhada está em Vértebra L3 (típica) e Vértebra L5."
+  },
+  {
+    "key": "Ribs",
+    "pt": "Costelas",
+    "latim": "Costae",
+    "tipo": "conjunto (12 pares)",
+    "resumo": "Doze pares de ossos planos, curvos e elásticos que formam a maior parte da caixa torácica. Protegem os órgãos torácicos e abdominais superiores e, ao se moverem, variam os diâmetros do tórax na respiração.",
+    "descricao": "Classificação pela ligação anterior: costelas verdadeiras (1ª a 7ª, vertebrosternais), cuja cartilagem se une diretamente ao esterno; costelas falsas (8ª a 12ª), das quais a 8ª, a 9ª e a 10ª unem-se à cartilagem de cima (vertebrocondrais), formando o arco costal, e a 11ª e a 12ª são flutuantes (livres), terminando na parede abdominal. Classificação pela forma: típicas (3ª a 9ª), com cabeça de duas faces articulares, colo, tubérculo, ângulo e sulco; atípicas (1ª, 2ª, 10ª, 11ª e 12ª).\n\nMecânica: cada costela gira em torno do eixo que passa por suas duas articulações posteriores (cabeça e tubérculo). Nas costelas superiores esse eixo aproxima-se do plano frontal e a elevação projeta o esterno para a frente e para cima, aumentando o diâmetro anteroposterior (braço de bomba). Nas inferiores o eixo aproxima-se do plano sagital e a elevação afasta as costelas para os lados, aumentando o diâmetro transverso (alça de balde). As flutuantes abrem-se como um compasso. O diafragma aumenta o diâmetro vertical e, ao apoiar-se nas vísceras abdominais, eleva as costelas inferiores. Na inspiração tranquila atuam o diafragma, os intercostais externos e os escalenos; na forçada somam-se esternocleidomastóideo, peitorais e serráteis; a expiração tranquila é passiva (retração elástica), e a forçada usa os músculos abdominais e os intercostais internos.",
+    "clinica": "Veja a sexta costela (costela típica) para fraturas, tórax instável e avaliação da mobilidade torácica, e a primeira costela para a síndrome do desfiladeiro torácico."
+  },
+  {
+    "key": "True ribs",
+    "pt": "Costelas verdadeiras",
+    "latim": "Costae verae",
+    "tipo": "conjunto (costelas 1 a 7)",
+    "resumo": "Os sete primeiros pares de costelas (vertebrosternais), cujas cartilagens costais se articulam diretamente com o esterno. Predomina nelas o movimento em braço de bomba, que aumenta o diâmetro anteroposterior do tórax."
+  },
+  {
+    "key": "False ribs",
+    "pt": "Costelas falsas",
+    "latim": "Costae spuriae",
+    "tipo": "conjunto (costelas 8 a 12)",
+    "resumo": "Os cinco últimos pares de costelas, que não alcançam diretamente o esterno. A 8ª, a 9ª e a 10ª (vertebrocondrais) unem-se à cartilagem da costela de cima e formam o arco costal; a 11ª e a 12ª são flutuantes. Predomina o movimento em alça de balde, que aumenta o diâmetro transverso."
+  },
+  {
+    "key": "Floating ribs",
+    "pt": "Costelas flutuantes",
+    "latim": "Costae fluctuantes",
+    "tipo": "conjunto (costelas 11 e 12)",
+    "resumo": "Os dois últimos pares de costelas, curtos, que terminam livres na musculatura da parede abdominal. Articulam-se apenas com o corpo de uma vértebra, sem articulação costotransversária, e movem-se como hastes de compasso; protegem os rins e dão fixação ao diafragma e ao quadrado do lombo."
+  },
+  {
+    "key": "Sternum",
+    "pt": "Esterno",
+    "latim": "Sternum",
+    "tipo": "plano",
+    "resumo": "Osso plano e mediano da parede anterior do tórax, formado por manúbrio, corpo e processo xifoide. Articula-se com as clavículas e com as sete primeiras cartilagens costais e protege o coração e os grandes vasos.",
+    "descricao": "O manúbrio fica no nível de T3-T4, o corpo de T5 a T9 e o processo xifoide em T10. As três partes unem-se pelas sínfises manubriosternal (ângulo do esterno, referência da segunda costela e do disco T4-T5) e xifosternal. Na inspiração o esterno sobe e avança com as costelas superiores (braço de bomba). A descrição detalhada está em Manúbrio do esterno, Corpo do esterno e Processo xifoide."
+  },
+  {
+    "key": "Costal cartilages",
+    "pt": "Cartilagens costais",
+    "latim": "Cartilagines costales",
+    "tipo": "cartilagem hialina",
+    "resumo": "Barras de cartilagem hialina que prolongam as costelas para a frente e dão elasticidade à parede torácica. As sete primeiras unem-se ao esterno, as da 8ª à 10ª unem-se à cartilagem de cima (arco costal) e as da 11ª e 12ª são pequenas pontas livres. Torcem-se na inspiração e ajudam no retorno expiratório; calcificam-se com a idade, reduzindo a complacência do tórax."
+  },
+  {
+    "key": "Costal arch",
+    "pt": "Arco costal (margem costal)",
+    "latim": "Arcus costalis",
+    "tipo": "conjunto",
+    "sinonimos": ["rebordo costal", "margem costal"],
+    "resumo": "Margem inferior da parede anterior do tórax, formada pelas cartilagens costais unidas da 7ª à 10ª costela. Os dois arcos formam o ângulo infraesternal, cuja abertura na inspiração é observada na avaliação respiratória; é o limite para palpar o fígado e o baço."
+  },
+  {
+    "key": "Intercostal space",
+    "pt": "Espaço intercostal",
+    "latim": "Spatium intercostale",
+    "tipo": "espaço",
+    "resumo": "Intervalo entre duas costelas vizinhas (onze de cada lado), numerado pela costela de cima. É preenchido pelos músculos intercostais externo, interno e íntimo e percorrido pelo feixe vasculonervoso intercostal, que corre no sulco da costela de cima, na ordem veia, artéria e nervo."
+  }
+]

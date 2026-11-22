@@ -1,0 +1,206 @@
+[
+  {
+    "key": "Epicranius muscle",
+    "pt": "Músculo epicrânio (occipitofrontal e temporoparietal)",
+    "latim": "Musculus epicranius",
+    "sinonimos": ["occipitofrontal", "músculo frontal", "ventre frontal do occipitofrontal"],
+    "resumo": "Camada musculoaponeurótica do couro cabeludo: o músculo occipitofrontal, com um ventre frontal e um ventre occipital unidos pela aponeurose epicrânica, e o pequeno músculo temporoparietal. O ventre frontal é o músculo que eleva os supercílios e enruga a testa, sinal-chave para diferenciar a paralisia facial periférica da central.",
+    "origem": "Ventre frontal: aponeurose epicrânica, na altura da sutura coronal (considerada sua fixação mais estável). Ventre occipital: dois terços laterais da linha nucal suprema do occipital e processo mastoide do temporal. Temporoparietal: fáscia temporal, acima da orelha.",
+    "insercao": "Ventre frontal: pele e tela subcutânea dos supercílios e da fronte, entrelaçando-se com o prócero, o corrugador do supercílio e o orbicular do olho; não tem fixação óssea. Ventre occipital e temporoparietal: aponeurose epicrânica.",
+    "inervacao": { "nervo": "Nervo facial (NC VII): ramos temporais para o ventre frontal e o temporoparietal; nervo auricular posterior para o ventre occipital", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "vascularizacao": "Artérias supraorbital e supratroclear (ventre frontal), temporal superficial e occipital/auricular posterior (ventre occipital)",
+    "acoes": [
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "ventre frontal: eleva os supercílios e forma as rugas horizontais da fronte (surpresa, atenção)" },
+      { "art": "face", "mov": "elevacao", "papel": "primario", "nota": "supercílios e pele da fronte; auxilia a abertura ampla dos olhos no olhar para cima" },
+      { "art": "face", "mov": "retracao", "papel": "secundario", "nota": "ventre occipital: traciona o couro cabeludo para trás e fixa a aponeurose" }
+    ],
+    "funcao": "O ventre frontal, atuando a partir da aponeurose, eleva os supercílios e a pele da fronte, produzindo as rugas transversais das expressões de surpresa e curiosidade; atuando de baixo, traciona o couro cabeludo para a frente. O ventre occipital puxa o couro cabeludo para trás e ancora a aponeurose, dando ponto fixo ao ventre frontal. O temporoparietal tensiona o couro cabeludo e eleva discretamente a orelha. Na ptose palpebral, o frontal é recrutado para compensar, elevando o supercílio.",
+    "antagonistas": ["Corrugator supercilii", "Procerus muscle", "Orbital part of orbicularis oculi"],
+    "sinergistas": ["Levator palpebrae superioris"],
+    "palpacao": "Apoie as polpas dos dedos sobre a fronte, acima dos supercílios, e peça ao paciente que levante as sobrancelhas como em surpresa: sente-se a contração e veem-se as rugas horizontais. O ventre occipital é palpado sobre o occipital, lateralmente à protuberância occipital externa e acima da linha nucal superior, durante o mesmo movimento.",
+    "teste": "Peça ao paciente que eleve os supercílios, enrugando a testa. Compare a altura das sobrancelhas e a profundidade das rugas dos dois lados. Na graduação de músculos faciais (Kendall; Daniels e Worthingham) usa-se escala funcional: ausente, traço, movimento incompleto/assimétrico ou normal; resistência manual leve sobre o supercílio pode ser aplicada no grau normal.",
+    "alongamento": "Não se aplica alongamento formal. Usam-se massagem e deslizamento do couro cabeludo sobre o crânio e liberação miofascial da fronte e da região occipital, úteis na cefaleia do tipo tensional.",
+    "clinica": "Paralisia facial periférica (lesão do nervo facial ou do seu núcleo, como na paralisia de Bell): o paciente não enruga a testa nem eleva o supercílio do lado afetado, e as rugas da fronte se apagam. Paralisia facial central (lesão supranuclear, como no AVC): a fronte é poupada, porque a parte do núcleo do facial que inerva a metade superior da face recebe projeções corticais dos dois hemisférios; a fraqueza predomina na metade inferior da face contralateral. Essa diferença é o primeiro passo da avaliação. Na reabilitação da paralisia facial, o frontal é trabalhado com exercícios de mímica diante do espelho e facilitação manual, evitando movimentos em massa para prevenir sincinesias; quando o ramo temporal é lesado isoladamente (cirurgias, traumas na têmpora), a recuperação costuma ser pobre e o supercílio cai. A camada de tecido conjuntivo frouxo sob a aponeurose permite o deslizamento do couro cabeludo e é a 'zona perigosa' por onde se espalham sangue e infecção; feridas que seccionam a aponeurose no plano coronal ficam entreabertas pela tração oposta dos ventres frontal e occipital. Pontos-gatilho dos ventres frontal e occipital participam da cefaleia tensional.",
+    "dica": "Testa que enruga = lesão central (AVC); testa lisa = lesão periférica (Bell).",
+    "camada": "superficial",
+    "partes": [
+      { "key": "Frontalis muscle", "pt": "Ventre frontal do músculo occipitofrontal (músculo frontal)", "origem": "Aponeurose epicrânica", "insercao": "Pele e tela subcutânea dos supercílios e da fronte", "nota": "Ramos temporais do nervo facial. Eleva os supercílios e enruga a fronte." },
+      { "key": "Occipitalis muscle", "pt": "Ventre occipital do músculo occipitofrontal (músculo occipital)", "origem": "Dois terços laterais da linha nucal suprema e processo mastoide", "insercao": "Aponeurose epicrânica", "nota": "Nervo auricular posterior (ramo do facial). Retrai o couro cabeludo." },
+      { "key": "Temporoparietalis muscle", "pt": "Músculo temporoparietal", "origem": "Fáscia temporal, acima e à frente da orelha", "insercao": "Borda lateral da aponeurose epicrânica", "nota": "Ramos temporais do nervo facial. Lâmina fina e variável, entre o frontal e os auriculares; tensiona o couro cabeludo." }
+    ]
+  },
+  {
+    "key": "Orbital part of orbicularis oculi",
+    "pt": "Músculo orbicular do olho",
+    "latim": "Musculus orbicularis oculi",
+    "sinonimos": ["orbicular dos olhos", "orbicular das pálpebras"],
+    "resumo": "Músculo esfinctérico plano que circunda a órbita e ocupa as pálpebras. É o único músculo que fecha os olhos; protege a córnea e bombeia a lágrima. Sua paralisia é a complicação mais séria da paralisia facial.",
+    "origem": "Parte orbital: parte nasal do osso frontal, processo frontal da maxila e ligamento palpebral medial. Parte palpebral: ligamento palpebral medial. Parte profunda (lacrimal): crista lacrimal posterior do osso lacrimal.",
+    "insercao": "Parte orbital: as fibras descrevem elipses completas ao redor da margem da órbita e retornam ao ponto de origem, fixando-se à pele do supercílio, da pálpebra e da bochecha. Parte palpebral: rafe palpebral lateral. Parte profunda: tarsos superior e inferior e rafe palpebral lateral, passando atrás do saco lacrimal.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos temporais e zigomáticos", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "vascularizacao": "Ramos das artérias facial, temporal superficial, e ramos palpebrais, supraorbital e lacrimal da artéria oftálmica",
+    "acoes": [
+      { "art": "face", "mov": "outro", "papel": "primario", "nota": "fecha as pálpebras: a parte palpebral faz o fechamento suave (piscar, sono); a parte orbital, o fechamento forçado" },
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "franze a pele ao redor do olho ('pés de galinha'), abaixa o supercílio e eleva a bochecha; participa do sorriso genuíno" }
+    ],
+    "funcao": "A parte palpebral fecha suavemente as pálpebras no piscar reflexo e voluntário e durante o sono, espalhando o filme lacrimal sobre a córnea. A parte orbital fecha os olhos com força, como proteção contra luz intensa, vento ou trauma, tracionando a pele da fronte, da têmpora e da bochecha em direção ao ângulo medial. A parte profunda traciona as pálpebras medialmente e comprime/dilata o saco lacrimal, funcionando como bomba que drena a lágrima para o ducto lacrimonasal.",
+    "antagonistas": ["Levator palpebrae superioris", "Frontalis muscle"],
+    "sinergistas": ["Corrugator supercilii", "Procerus muscle"],
+    "palpacao": "Apoie levemente os dedos sobre a margem lateral da órbita e sobre a pálpebra fechada e peça ao paciente que feche os olhos primeiro suavemente e depois com força: a parte orbital é sentida contraindo ao redor da margem óssea, com enrugamento da pele lateral.",
+    "teste": "Peça que feche os olhos suavemente e observe se o fechamento é completo e simétrico. Depois peça que feche com força, 'escondendo os cílios': do lado fraco os cílios permanecem mais visíveis. No grau normal, o examinador tenta abrir as pálpebras com os polegares e o paciente resiste. Registre a presença de lagoftalmo (fenda residual em milímetros) e do sinal de Bell.",
+    "alongamento": "Não se aplica alongamento formal. Nas sequelas com hipertonia, contratura ou sincinesia (o olho fecha quando o paciente sorri ou fala) usam-se massagem e alongamento manual suave das pálpebras e da região periorbital, relaxamento e treino de dissociação diante do espelho; a toxina botulínica é recurso médico associado.",
+    "clinica": "Na paralisia facial periférica o olho não fecha (lagoftalmo), o piscar é incompleto, a pálpebra inferior cai e everte (ectrópio paralítico) e a lágrima escorre pela face (epífora), porque a bomba lacrimal falha. Ao tentar fechar, o bulbo do olho gira para cima e para fora, expondo a esclera: é o sinal de Bell, um reflexo normal que se torna visível. A córnea exposta resseca e pode ulcerar (ceratite de exposição), de modo que a proteção ocular é prioridade desde o primeiro atendimento: lágrima artificial durante o dia, pomada lubrificante e oclusão à noite, óculos de proteção e orientação para fechar o olho manualmente. Na paralisia central o fechamento está em geral preservado ou apenas levemente enfraquecido. Na recuperação com reinervação aberrante surgem sincinesias, como o fechamento do olho ao movimentar a boca, e o estreitamento da rima das pálpebras. O blefaroespasmo é a contração involuntária bilateral do músculo. O reflexo corneopalpebral tem aferência pelo trigêmeo (V1) e eferência pelo facial, por meio do orbicular.",
+    "dica": "Fecha o olho = VII (orbicular). Abre o olho = III (levantador da pálpebra).",
+    "camada": "superficial",
+    "partes": [
+      { "key": "Orbital part of orbicularis oculi", "pt": "Parte orbital", "origem": "Parte nasal do frontal, processo frontal da maxila e ligamento palpebral medial", "insercao": "Fibras em alça ao redor da margem da órbita, que retornam à origem", "nota": "Mais espessa e periférica; fechamento forçado dos olhos e abaixamento do supercílio." },
+      { "key": "Palpebral part of orbicularis oculi", "pt": "Parte palpebral", "origem": "Ligamento palpebral medial", "insercao": "Rafe palpebral lateral", "nota": "Fina, dentro das pálpebras, à frente dos tarsos; fechamento suave e piscar. Inclui a parte profunda (lacrimal), que atua na drenagem da lágrima." }
+    ]
+  },
+  {
+    "key": "Orbicularis oris muscle",
+    "pt": "Músculo orbicular da boca",
+    "latim": "Musculus orbicularis oris",
+    "sinonimos": ["orbicular dos lábios"],
+    "resumo": "Músculo que circunda a rima da boca e forma a maior parte da espessura dos lábios. Não é um esfíncter simples: é um complexo de fibras próprias e de fibras vindas dos músculos vizinhos, sobretudo do bucinador. Fecha e projeta os lábios, sendo essencial para a contenção oral, a fala e a sucção.",
+    "origem": "Fibras profundas da maxila e da mandíbula, na linha mediana (fossas incisivas), e fibras que chegam dos músculos que convergem no ângulo da boca (modíolo), principalmente o bucinador, além dos levantadores e abaixadores dos lábios.",
+    "insercao": "Pele e túnica mucosa dos lábios; as fibras cruzam a linha mediana e se entrelaçam com as do lado oposto, formando no lábio superior as cristas do filtro.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos bucais e ramo marginal da mandíbula", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "vascularizacao": "Artérias labiais superior e inferior (ramos da artéria facial)",
+    "acoes": [
+      { "art": "face", "mov": "outro", "papel": "primario", "nota": "fecha a rima da boca e comprime os lábios contra os dentes (contenção oral)" },
+      { "art": "face", "mov": "protrusao", "papel": "primario", "nota": "projeta os lábios para a frente (bico, beijo, assobio)" },
+      { "art": "face", "mov": "expressao", "papel": "primario" }
+    ],
+    "funcao": "A contração tônica mantém os lábios fechados em repouso; a contração fásica os aperta, comprime contra os dentes e a gengiva ou os projeta em bico. Com o bucinador, mantém o alimento e a saliva dentro da boca durante a mastigação e a deglutição, e gera pressão intraoral para sugar, soprar e assobiar. Participa da articulação dos fonemas bilabiais (p, b, m) e labiodentais (f, v).",
+    "antagonistas": ["Zygomaticus major muscle", "Levator labii superioris", "Depressor labii inferioris", "Risorius muscle"],
+    "sinergistas": ["Bucinator", "Mentalis muscle"],
+    "palpacao": "Pince suavemente o lábio superior ou inferior entre o polegar e o indicador (um dedo enluvado por dentro) e peça ao paciente que faça um bico ou aperte os lábios: o músculo endurece.",
+    "teste": "Peça que comprima e projete os lábios, como para assobiar ou beijar. Para graduar, o paciente mantém os lábios fechados enquanto o examinador tenta afastá-los com os dedos, ou segura um abaixador de língua entre os lábios (não entre os dentes) contra a tração. Teste também a capacidade de inflar as bochechas sem deixar o ar escapar: do lado paralisado o ar sai pelo ângulo da boca.",
+    "alongamento": "Não se aplica alongamento formal. Nas hipertonias e retrações (sequelas de paralisia facial, cicatrizes, queimaduras, esclerodermia com microstomia) usam-se alongamento manual intra e extraoral dos lábios e do ângulo da boca e exercícios de abertura e estiramento labial.",
+    "clinica": "Na paralisia facial, periférica ou central, o ângulo da boca cai e desvia para o lado são, o paciente não consegue fazer bico, assobiar nem soprar, e há escape de saliva, líquidos e alimento pelo lado afetado, com prejuízo da fala (bilabiais). A reabilitação inclui treino de selamento labial, sopro e sucção graduados e exercícios simétricos diante do espelho, evitando esforço máximo em massa para não favorecer sincinesias e hiperatividade do lado são. O ramo marginal da mandíbula, que inerva o lábio inferior, é vulnerável em cirurgias submandibulares. A incompetência labial em respiradores orais e na hipotonia orofacial é abordada pela motricidade orofacial.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Bucinator",
+    "pt": "Músculo bucinador",
+    "latim": "Musculus buccinator",
+    "sinonimos": ["bucinador", "músculo da bochecha", "músculo do trompetista"],
+    "resumo": "Músculo fino e quadrilátero que forma a parede muscular da bochecha, entre a maxila e a mandíbula. É músculo da mímica, inervado pelo nervo facial, mas trabalha a serviço da mastigação, mantendo o alimento entre os dentes.",
+    "origem": "Face externa dos processos alveolares da maxila e da mandíbula, na altura dos dentes molares, e rafe pterigomandibular, que o une ao constritor superior da faringe.",
+    "insercao": "Ângulo da boca (modíolo), onde suas fibras se continuam com o orbicular da boca: as fibras centrais se cruzam, as superiores vão para o lábio superior e as inferiores para o lábio inferior.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos bucais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "vascularizacao": "Artéria bucal (ramo da maxilar) e ramos da artéria facial",
+    "acoes": [
+      { "art": "face", "mov": "outro", "papel": "primario", "nota": "comprime a bochecha contra os dentes e a gengiva, mantendo o alimento na superfície oclusal" },
+      { "art": "face", "mov": "retracao", "papel": "secundario", "nota": "traciona o ângulo da boca para trás" },
+      { "art": "face", "mov": "expressao", "papel": "secundario", "nota": "expulsa o ar das bochechas distendidas (soprar, tocar instrumentos de sopro) e participa da sucção" }
+    ],
+    "funcao": "Mantém a bochecha tensa e aplicada contra os dentes, de modo que, junto com a língua pelo lado medial, recoloca o bolo alimentar entre as superfícies oclusais durante a mastigação e impede seu acúmulo no vestíbulo da boca. Evita que a mucosa da bochecha seja mordida. Resiste à distensão das bochechas e expulsa o ar no sopro; é fundamental na sucção do lactente.",
+    "antagonistas": ["Orbicularis oris muscle"],
+    "sinergistas": ["Orbicularis oris muscle", "Risorius muscle", "Zygomaticus major muscle"],
+    "palpacao": "Com o indicador enluvado dentro do vestíbulo da boca, entre a bochecha e os molares, e o polegar por fora, peça ao paciente que sugue a bochecha ou sopre contra os lábios fechados: sente-se a parede da bochecha enrijecer contra o dedo, à frente da borda anterior do masseter.",
+    "teste": "Peça que comprima as bochechas contra os dentes, sugando-as, ou que encha as bochechas de ar e as mantenha cheias enquanto o examinador pressiona de fora: do lado fraco o ar escapa ou a bochecha cede e 'infla' passivamente. Na prova manual, o dedo enluvado dentro da bochecha tenta afastá-la dos dentes contra a contração.",
+    "alongamento": "Não se aplica alongamento formal. Nas retrações e sequelas de paralisia facial faz-se alongamento intraoral: o polegar enluvado por dentro da bochecha e os dedos por fora tracionam a bochecha para fora e para a frente, com deslizamentos lentos.",
+    "clinica": "Na paralisia facial o alimento se acumula entre a bochecha e a gengiva do lado afetado, a bochecha é mordida, infla flácida na expiração e o paciente não consegue soprar nem assobiar. Atenção a uma confusão clássica: o bucinador é motor do nervo facial; o nervo bucal, ramo do nervo mandibular (V3), apenas o atravessa para dar sensibilidade à pele e à mucosa da bochecha. O ducto parotídeo perfura o músculo e se abre no vestíbulo, em frente ao segundo molar superior. O corpo adiposo da bochecha repousa sobre sua face lateral.",
+    "dica": "Bucinador = 'trombeteiro' (do latim buccinator): o músculo de quem sopra. Motor do VII; o nervo bucal do V só passa por ele.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Zygomaticus major muscle",
+    "pt": "Músculo zigomático maior",
+    "latim": "Musculus zygomaticus major",
+    "sinonimos": ["zigomático maior", "músculo do sorriso"],
+    "resumo": "Faixa muscular que desce obliquamente do osso zigomático ao ângulo da boca. É o principal músculo do sorriso.",
+    "origem": "Face lateral do osso zigomático, à frente da sutura zigomaticotemporal.",
+    "insercao": "Ângulo da boca (modíolo), entrelaçando-se com o levantador do ângulo da boca e o orbicular da boca.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos zigomáticos e bucais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "vascularizacao": "Artéria labial superior (ramo da artéria facial)",
+    "acoes": [
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "traciona o ângulo da boca para cima e lateralmente (sorriso, riso)" },
+      { "art": "face", "mov": "elevacao", "papel": "primario", "nota": "ângulo da boca" }
+    ],
+    "funcao": "Puxa o ângulo da boca para cima e para fora, produzindo o sorriso e aprofundando o sulco nasolabial. No sorriso espontâneo (de Duchenne) contrai junto com a parte orbital do orbicular do olho; no sorriso apenas voluntário, atua quase sozinho.",
+    "antagonistas": ["Depressor anguli oris", "Orbicularis oris muscle"],
+    "sinergistas": ["Zygomaticus minor muscle", "Levator anguli oris", "Risorius muscle"],
+    "palpacao": "Trace uma linha da proeminência do osso zigomático ao ângulo da boca e apoie os dedos sobre ela; peça ao paciente que sorria: a faixa muscular é sentida contraindo, à frente do masseter.",
+    "teste": "Peça que sorria mostrando os dentes, levando os cantos da boca para cima e para fora. Observe a simetria da elevação dos ângulos e do sulco nasolabial. No grau normal pode-se aplicar leve resistência com o dedo sobre o ângulo da boca, em direção inferomedial.",
+    "alongamento": "Não se aplica alongamento formal. Nas sequelas com contratura (sulco nasolabial acentuado e ângulo da boca tracionado para cima no lado paralisado) usa-se alongamento manual intraoral: polegar enluvado por dentro da bochecha, tracionando o ângulo da boca para baixo e medialmente, com deslizamento ao longo do músculo.",
+    "clinica": "Na paralisia facial o ângulo da boca cai, o sulco nasolabial se apaga e o sorriso desvia para o lado são; é o sinal facial mais evidente no AVC (pedir para sorrir faz parte das escalas de triagem) e na paralisia de Bell. Na paralisia central pode haver dissociação: o sorriso voluntário é assimétrico, mas o sorriso emocional espontâneo é mais preservado. Na fase de sequelas surgem contratura e sincinesias (o ângulo da boca sobe quando o paciente fecha os olhos); o tratamento usa reeducação neuromuscular com espelho ou biofeedback, movimentos pequenos, lentos e simétricos. A simetria do sorriso é o desfecho mais valorizado pelos pacientes e é medida em escalas como a de Sunnybrook e a de House-Brackmann.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Zygomaticus minor muscle",
+    "pt": "Músculo zigomático menor",
+    "latim": "Musculus zygomaticus minor",
+    "sinonimos": ["zigomático menor"],
+    "resumo": "Feixe fino, medial ao zigomático maior, que vai do osso zigomático ao lábio superior.",
+    "origem": "Face lateral do osso zigomático, atrás da sutura zigomaticomaxilar.",
+    "insercao": "Pele e músculo do lábio superior, lateralmente ao levantador do lábio superior.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos zigomáticos e bucais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "elevacao", "papel": "primario", "nota": "eleva o lábio superior e aprofunda o sulco nasolabial" },
+      { "art": "face", "mov": "expressao", "papel": "secundario", "nota": "sorriso, expressão de desdém" }
+    ],
+    "funcao": "Eleva e everte o lábio superior, expondo os dentes superiores, e acentua o sulco nasolabial.",
+    "sinergistas": ["Levator labii superioris", "Levator nasolabialis", "Zygomaticus major muscle"],
+    "camada": "superficial"
+  },
+  {
+    "key": "Levator labii superioris",
+    "pt": "Músculo levantador do lábio superior",
+    "latim": "Musculus levator labii superioris",
+    "sinonimos": ["elevador do lábio superior"],
+    "resumo": "Lâmina muscular que desce da margem infraorbital ao lábio superior, cobrindo o forame infraorbital.",
+    "origem": "Margem infraorbital da maxila e do osso zigomático, acima do forame infraorbital.",
+    "insercao": "Pele e músculo do lábio superior, entre o levantador do lábio superior e da asa do nariz e o zigomático menor.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos zigomáticos e bucais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "elevacao", "papel": "primario", "nota": "eleva e everte o lábio superior" },
+      { "art": "face", "mov": "expressao", "papel": "secundario", "nota": "tristeza, desdém; aprofunda o sulco nasolabial" }
+    ],
+    "funcao": "Eleva e everte o lábio superior, expondo os dentes superiores e a gengiva.",
+    "antagonistas": ["Orbicularis oris muscle"],
+    "sinergistas": ["Levator nasolabialis", "Zygomaticus minor muscle"],
+    "teste": "Peça que eleve o lábio superior mostrando a gengiva superior; compare os lados.",
+    "clinica": "O nervo e os vasos infraorbitais emergem profundamente ao músculo, entre ele e o levantador do ângulo da boca.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Levator nasolabialis",
+    "pt": "Músculo levantador do lábio superior e da asa do nariz",
+    "latim": "Musculus levator labii superioris alaeque nasi",
+    "sinonimos": ["levantador nasolabial", "elevador do lábio superior e da asa do nariz"],
+    "resumo": "Feixe estreito ao lado do nariz, que se divide em um fascículo para a asa do nariz e outro para o lábio superior.",
+    "origem": "Processo frontal da maxila (parte superior).",
+    "insercao": "Fascículo medial: cartilagem alar maior e pele da asa do nariz. Fascículo lateral: pele e músculo do lábio superior.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos zigomáticos e bucais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "elevacao", "papel": "primario", "nota": "eleva o lábio superior e a asa do nariz" },
+      { "art": "face", "mov": "outro", "papel": "secundario", "nota": "dilata a narina" },
+      { "art": "face", "mov": "expressao", "papel": "secundario", "nota": "expressão de desprezo ou nojo" }
+    ],
+    "funcao": "Eleva o lábio superior e, ao mesmo tempo, eleva e dilata a asa do nariz.",
+    "sinergistas": ["Levator labii superioris", "Nasalis muscle"],
+    "dica": "É o músculo de nome mais longo do corpo humano (em latim: levator labii superioris alaeque nasi).",
+    "camada": "superficial"
+  },
+  {
+    "key": "Levator anguli oris",
+    "pt": "Músculo levantador do ângulo da boca",
+    "latim": "Musculus levator anguli oris",
+    "sinonimos": ["músculo canino", "elevador do ângulo da boca"],
+    "resumo": "Músculo profundo aos levantadores do lábio superior, que desce da fossa canina ao ângulo da boca.",
+    "origem": "Fossa canina da maxila, logo abaixo do forame infraorbital.",
+    "insercao": "Ângulo da boca (modíolo), entrelaçando-se com o zigomático maior, o abaixador do ângulo da boca e o orbicular da boca.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos zigomáticos e bucais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "elevacao", "papel": "primario", "nota": "eleva o ângulo da boca" },
+      { "art": "face", "mov": "expressao", "papel": "secundario", "nota": "sorriso; aprofunda o sulco nasolabial" }
+    ],
+    "funcao": "Eleva o ângulo da boca quase verticalmente, participando do sorriso e expondo os dentes caninos.",
+    "antagonistas": ["Depressor anguli oris"],
+    "sinergistas": ["Zygomaticus major muscle"],
+    "camada": "profunda"
+  }
+]

@@ -1,0 +1,435 @@
+[
+  {
+    "key": "Atlas (C1)",
+    "pt": "Atlas (C1)",
+    "latim": "Atlas",
+    "tipo": "irregular (vértebra cervical atípica)",
+    "sinonimos": ["primeira vértebra cervical", "C1"],
+    "resumo": "Primeira vértebra cervical: um anel ósseo sem corpo e sem processo espinhoso que sustenta o crânio e gira em torno do dente do áxis. É a peça-chave da região cervical alta (craniovertebral).",
+    "descricao": "O atlas é formado por duas massas laterais unidas por um arco anterior curto e um arco posterior mais longo. Não tem corpo vertebral (o que seria o seu corpo fundiu-se ao áxis e forma o dente) nem processo espinhoso; no lugar deles há o tubérculo anterior e o tubérculo posterior. É a vértebra cervical mais larga: seus processos transversos são longos, dando boa alavanca aos músculos que movem a cabeça, e cada um tem um forame transversário para a artéria vertebral.\n\nCada massa lateral tem, em cima, uma face articular superior côncava e alongada (reniforme) que recebe o côndilo occipital, e, embaixo, uma face articular inferior quase plana e circular, voltada para baixo e medialmente, que se apoia no áxis. Na face medial de cada massa lateral há um tubérculo para o ligamento transverso do atlas, que passa por trás do dente do áxis e o mantém contra a fóvea do dente, no arco anterior. Esse ligamento divide o anel do atlas em um compartimento anterior (para o dente) e um posterior (para a medula espinal).\n\nSobre o arco posterior, logo atrás da massa lateral, corre o sulco da artéria vertebral, onde a artéria faz uma curva para medial antes de perfurar a membrana atlantoccipital posterior; por ali passa também o nervo suboccipital (ramo posterior de C1).\n\nImplicação para o movimento: a articulação atlantoccipital (côndilos convexos sobre faces côncavas) permite principalmente flexão e extensão, o movimento de dizer «sim», com cerca de 15 a 20 graus no total, e uma pequena inclinação lateral; praticamente não há rotação. Já as articulações atlantoaxiais (uma mediana, em pivô, e duas laterais, planas) são especializadas em rotação, o movimento de dizer «não»: cerca de 40 a 45 graus para cada lado, aproximadamente metade de toda a rotação cervical.",
+    "articulacoes": [
+      "Atlantoccipital (par) — faces articulares superiores do atlas com os côndilos occipitais; sinovial elipsóidea (condilar)",
+      "Atlantoaxial mediana — fóvea do dente (arco anterior) e ligamento transverso com o dente do áxis; sinovial trocóidea (pivô)",
+      "Atlantoaxiais laterais (par) — faces articulares inferiores do atlas com as faces articulares superiores do áxis; sinoviais planas"
+    ],
+    "acidentes": [
+      { "key": "(Canal for vertebral artery)", "pt": "(Canal da artéria vertebral)", "nota": "Variação anatômica: uma ponte óssea sobre o sulco da artéria vertebral (ponticulus posticus ou forame arqueado) transforma o sulco em canal. Presente em uma minoria das pessoas; em geral é achado radiográfico sem sintomas." },
+      { "key": "Anterior arch of atlas", "pt": "Arco anterior do atlas", "nota": "Une as massas laterais pela frente; na sua face posterior está a fóvea do dente. Recebe a membrana atlantoccipital anterior e o ligamento longitudinal anterior." },
+      { "key": "Anterior tubercle of atlas", "pt": "Tubérculo anterior do atlas", "nota": "Saliência mediana do arco anterior; fixação do ligamento longitudinal anterior e do músculo longo do pescoço." },
+      { "key": "Facet for dens", "pt": "Fóvea do dente", "nota": "Faceta oval na face posterior do arco anterior; articula-se com a face articular anterior do dente do áxis (articulação atlantoaxial mediana)." },
+      { "key": "Groove for vertebral artery", "pt": "Sulco da artéria vertebral", "nota": "Na face superior do arco posterior. Passam a artéria vertebral (terceira parte) e o nervo suboccipital (C1). É o trecho em que a artéria fica mais exposta a tensão nos movimentos combinados de extensão e rotação cervical alta." },
+      { "key": "Inferior articular surface of atlas", "pt": "Face articular inferior do atlas", "nota": "Quase plana, circular, voltada inferomedialmente; articula-se com a face articular superior do áxis. O deslizamento dessas faces permite a rotação atlantoaxial." },
+      { "key": "Lateral mass", "pt": "Massa lateral do atlas", "nota": "Parte mais robusta do atlas; transmite o peso da cabeça dos côndilos occipitais para o áxis. Na fratura de Jefferson (compressão axial) as massas laterais são deslocadas para fora." },
+      { "key": "Posterior arch of atlas", "pt": "Arco posterior do atlas", "nota": "Corresponde às lâminas das outras vértebras; recebe a membrana atlantoccipital posterior. É fino junto ao sulco da artéria vertebral, local frequente de fratura." },
+      { "key": "Posterior tubercle of atlas", "pt": "Tubérculo posterior do atlas", "nota": "Representa um processo espinhoso rudimentar; origem do músculo reto posterior menor da cabeça e fixação do ligamento nucal. Por ser pequeno e profundo, não é palpável como os processos espinhosos abaixo dele." },
+      { "key": "Superior articular surface of atlas", "pt": "Face articular superior do atlas", "nota": "Côncava, alongada no sentido anteroposterior (reniforme), voltada para cima e medialmente; recebe o côndilo occipital. Essa forma favorece a flexão-extensão e bloqueia a rotação." },
+      { "key": "Transverse ligament tubercle", "pt": "Tubérculo do ligamento transverso do atlas", "nota": "Na face medial da massa lateral; fixação do ligamento transverso do atlas, principal estabilizador que impede a translação anterior do atlas sobre o áxis." }
+    ],
+    "palpacao": "O processo transverso do atlas é palpável profundamente no espaço entre o processo mastoide e o ângulo da mandíbula, logo abaixo e à frente da ponta do mastoide; a palpação deve ser suave, pois a região é sensível. O tubérculo posterior não é palpável: abaixo do occipital, o primeiro processo espinhoso que se sente é o do áxis (C2).",
+    "clinica": "Fratura de Jefferson: fratura em explosão dos arcos anterior e posterior por compressão axial (por exemplo, mergulho em água rasa); muitas vezes sem lesão medular, porque o anel se alarga. Instabilidade atlantoaxial: frouxidão ou ruptura do ligamento transverso do atlas (artrite reumatoide, síndrome de Down, trauma) permite que o atlas deslize para a frente e o dente comprima a medula; é contraindicação para mobilização e manipulação cervical alta e deve ser rastreada antes de técnicas manuais (por exemplo, teste de Sharp-Purser). A artéria vertebral no sulco do arco posterior merece cuidado em posições mantidas de extensão com rotação. A região suboccipital (C0-C1-C2) é fonte comum de cefaleia cervicogênica."
+  },
+  {
+    "key": "Axis (C2)",
+    "pt": "Áxis (C2)",
+    "latim": "Axis",
+    "tipo": "irregular (vértebra cervical atípica)",
+    "sinonimos": ["segunda vértebra cervical", "C2", "epistrofeu"],
+    "resumo": "Segunda vértebra cervical, a mais forte da região. Seu dente (processo odontoide) é o pivô em torno do qual o atlas e a cabeça giram.",
+    "descricao": "O áxis tem um corpo do qual se projeta para cima o dente, um processo cônico que representa o corpo do atlas incorporado a C2. O dente tem uma face articular anterior, para a fóvea do dente no arco anterior do atlas, e uma face articular posterior, sobre a qual desliza o ligamento transverso do atlas. Do ápice parte o ligamento do ápice do dente e, das laterais, os ligamentos alares, que vão ao occipital e limitam a rotação e a inclinação lateral da cabeça.\n\nDe cada lado do dente há uma face articular superior grande, levemente convexa e voltada para cima e para fora, que sustenta a massa lateral do atlas; ela fica sobre o corpo e o pedículo, e não sobre um processo articular, por isso está à frente da linha das outras articulações dos processos articulares. As faces articulares inferiores, ao contrário, já têm a orientação típica das cervicais (cerca de 45 graus) e articulam-se com C3. Entre a face superior e a inferior fica a parte interarticular, zona de transição mecanicamente frágil.\n\nO processo espinhoso é grande, robusto e bífido; nele se inserem o reto posterior maior da cabeça e o oblíquo inferior da cabeça, além do semiespinal do pescoço e do ligamento nucal. O processo transverso é pequeno e seu forame transversário é oblíquo, pois a artéria vertebral se desvia lateralmente para alcançar o atlas.\n\nImplicação para o movimento: em C1-C2 ocorre cerca de metade da rotação cervical (40 a 45 graus para cada lado), com pouca flexão-extensão e quase nenhuma inclinação lateral. Na rotação, o anel do atlas e a cabeça giram juntos em torno do dente. De C2-C3 para baixo, o padrão passa a ser o das cervicais típicas.",
+    "articulacoes": [
+      "Atlantoaxial mediana — dente com a fóvea do dente do atlas (anterior) e com o ligamento transverso do atlas (posterior); pivô",
+      "Atlantoaxiais laterais (par) — faces articulares superiores do áxis com as faces articulares inferiores do atlas",
+      "Articulações dos processos articulares C2-C3 (par) — sinoviais planas",
+      "Sínfise intervertebral C2-C3 — primeiro disco intervertebral da coluna (não há disco entre occipital, atlas e áxis)",
+      "Uncovertebrais C2-C3 — com os processos uncinados de C3"
+    ],
+    "acidentes": [
+      { "key": "Anterior articular facet of dens axis", "pt": "Face articular anterior do dente", "nota": "Faceta oval que se articula com a fóvea do dente, no arco anterior do atlas." },
+      { "key": "Apex of dens axis", "pt": "Ápice do dente", "nota": "Fixação do ligamento do ápice do dente; logo abaixo, de cada lado, fixam-se os ligamentos alares, que limitam a rotação e a inclinação lateral da cabeça." },
+      { "key": "Axis (C2)", "pt": "Áxis (C2)", "nota": "Segunda vértebra cervical. Seu processo espinhoso bífido e volumoso é o primeiro palpável abaixo do occipital." },
+      { "key": "Dens axis", "pt": "Dente do áxis", "nota": "Também chamado processo odontoide. Pivô da rotação da cabeça. Sua base estreita é o local mais comum de fratura (tipo II), com risco de não consolidação por irrigação precária." },
+      { "key": "Posterior articular facet of dens axis", "pt": "Face articular posterior do dente", "nota": "Sulco liso na face posterior do dente, recoberto por cartilagem, onde desliza o ligamento transverso do atlas." }
+    ],
+    "palpacao": "Com o paciente em decúbito dorsal ou sentado com a cabeça levemente fletida, deslize o dedo da protuberância occipital externa para baixo, na linha mediana: depois de uma depressão (onde está o atlas, sem processo espinhoso) surge a primeira saliência óssea nítida, o processo espinhoso de C2. Ele se desloca sob o dedo na rotação da cabeça apenas no fim do movimento, o que é usado em testes de mobilidade C1-C2 (teste de flexão-rotação).",
+    "clinica": "Fraturas do dente (classificação de Anderson e D'Alonzo): tipo I, no ápice; tipo II, na base (a mais comum e a mais instável); tipo III, estendendo-se ao corpo. Fratura do enforcado: fratura bilateral da parte interarticular de C2 (espondilolistese traumática do áxis), por hiperextensão. Na artrite reumatoide, a sinovite pode erodir o dente e afrouxar o ligamento transverso, causando subluxação atlantoaxial. Os ligamentos alares são avaliados por testes de estabilidade antes de técnicas manuais na cervical alta. A raiz de C2 e o nervo occipital maior (ramo posterior de C2) emergem nessa região e estão envolvidos na neuralgia occipital e na cefaleia cervicogênica."
+  },
+  {
+    "key": "Vertebra C3",
+    "pt": "Vértebra C3",
+    "latim": "Vertebra cervicalis III",
+    "tipo": "irregular (vértebra cervical típica)",
+    "resumo": "Terceira vértebra cervical, a primeira das cervicais típicas (C3 a C6). Fica aproximadamente no nível do osso hioide.",
+    "descricao": "Tem todas as características de uma vértebra cervical típica: corpo pequeno com processos uncinados, forame vertebral triangular e amplo, forames transversários, processo espinhoso curto e bífido e processos articulares inclinados cerca de 45 graus. O disco C2-C3 é o primeiro disco intervertebral da coluna. O ramo posterior de C3 dá o terceiro nervo occipital, que inerva a articulação dos processos articulares C2-C3, fonte reconhecida de cefaleia cervicogênica. Para a descrição completa dos acidentes de uma vértebra cervical típica, veja a vértebra C4.",
+    "articulacoes": [
+      "Com o áxis (C2) acima e com C4 abaixo: sínfise intervertebral (disco), articulações dos processos articulares e articulações uncovertebrais"
+    ]
+  },
+  {
+    "key": "Vertebra C4",
+    "pt": "Vértebra C4",
+    "latim": "Vertebra cervicalis IV",
+    "tipo": "irregular (vértebra cervical típica)",
+    "resumo": "Quarta vértebra cervical, modelo de vértebra cervical típica: corpo pequeno com processos uncinados, forame transversário e processo espinhoso bífido. Fica no nível da margem superior da cartilagem tireóidea e da bifurcação da artéria carótida comum.",
+    "descricao": "As vértebras cervicais típicas (C3 a C6) são as menores vértebras móveis, porque sustentam pouco peso, mas têm o forame vertebral mais amplo, triangular, para acomodar a intumescência cervical da medula. O corpo é pequeno e mais largo no sentido laterolateral; sua face superior é côncava de um lado ao outro, porque as margens laterais se elevam formando os processos uncinados, e a face inferior é correspondentemente convexa. Os processos uncinados articulam-se com o corpo da vértebra de cima nas articulações uncovertebrais (de Luschka), que guiam a flexão-extensão e limitam a inclinação lateral e a translação do corpo.\n\nO processo transverso é curto e perfurado pelo forame transversário, por onde sobem a artéria vertebral (de C6 a C1), as veias vertebrais e fibras simpáticas. Ele termina em um tubérculo anterior e um tubérculo posterior, separados pelo sulco do nervo espinal, onde repousa o ramo anterior do nervo espinal correspondente. O processo espinhoso é curto e bífido. Atenção à numeração das raízes: na região cervical cada nervo espinal sai acima da vértebra de mesmo número (o nervo C5 sai entre C4 e C5); o nervo C8 sai entre C7 e T1.\n\nOrientação das faces articulares e movimento: as faces articulares são planas e inclinadas cerca de 45 graus em relação ao plano horizontal, a meio caminho entre o plano frontal e o transversal; as superiores olham para cima e para trás, as inferiores para baixo e para a frente. Essa inclinação torna a região cervical baixa a mais móvel da coluna, permitindo flexão, extensão, inclinação lateral e rotação amplas. Como as faces são oblíquas, inclinação lateral e rotação são sempre acopladas para o mesmo lado de C2 a C7: ao inclinar para a direita, a faceta direita desliza para baixo e para trás e a esquerda para cima e para a frente, o que produz rotação para a direita. Na extensão e na inclinação para o mesmo lado, o forame intervertebral se estreita; na flexão, ele se abre.",
+    "articulacoes": [
+      "Sínfise intervertebral (disco) com C3 acima e C5 abaixo",
+      "Articulações dos processos articulares (zigapofisárias) com C3 e C5 — sinoviais planas, inclinadas cerca de 45 graus",
+      "Articulações uncovertebrais (de Luschka) — processos uncinados com as margens do corpo da vértebra acima"
+    ],
+    "acidentes": [
+      { "key": "Anterior tubercle of transverse process", "pt": "Tubérculo anterior do processo transverso", "nota": "Fixação dos músculos escaleno anterior, longo do pescoço e longo da cabeça. Em C6 é grande e chama-se tubérculo carótico (de Chassaignac), contra o qual a artéria carótida comum pode ser comprimida." },
+      { "key": "Cervical vertebra", "pt": "Vértebra cervical", "nota": "São sete. C3 a C6 são típicas; C1 (atlas), C2 (áxis) e C7 (vértebra proeminente) são atípicas. Todas têm forame transversário, a marca exclusiva das cervicais." },
+      { "key": "Foramen transversarium", "pt": "Forame transversário", "nota": "Exclusivo das vértebras cervicais. Passam a artéria vertebral (que em geral entra em C6 e sobe até C1), as veias vertebrais e o plexo simpático vertebral. Em C7 costuma passar apenas a veia." },
+      { "key": "Groove for spinal nerve", "pt": "Sulco do nervo espinal", "nota": "Na face superior do processo transverso, entre os tubérculos anterior e posterior; aloja o ramo anterior do nervo espinal, logo após a saída pelo forame intervertebral. Osteófitos uncovertebrais e facetários estreitam essa saída e causam radiculopatia cervical." },
+      { "key": "Posterior tubercle of transverse process", "pt": "Tubérculo posterior do processo transverso", "nota": "Fixação dos músculos escalenos médio e posterior, levantador da escápula (C1 a C4), esplênio do pescoço, longuíssimo do pescoço e iliocostal do pescoço. Palpável profundamente na face lateral do pescoço, atrás do esternocleidomastóideo." },
+      { "key": "Uncinate process of vertebra", "pt": "Processo uncinado (unco do corpo)", "nota": "Elevação da margem lateral da face superior do corpo de C3 a C7. Forma a articulação uncovertebral (de Luschka) com a vértebra acima; protege o forame intervertebral de hérnias posterolaterais, mas seus osteófitos (uncoartrose) podem comprimir a raiz nervosa e a artéria vertebral." }
+    ],
+    "palpacao": "Os processos espinhosos de C3 a C5 são curtos, bífidos e ficam no fundo da lordose cervical, cobertos pelo ligamento nucal; palpam-se melhor em decúbito dorsal, com a musculatura relaxada. Os pilares articulares (colunas dos processos articulares) são palpados cerca de 2 cm lateralmente à linha mediana, como uma sequência de pequenas ondulações; é ali que se avaliam mobilidade e dor segmentares.",
+    "clinica": "A cervical média e baixa é sede frequente de espondilose (uncoartrose, artrose facetária e degeneração discal), sobretudo em C5-C6 e C6-C7, com radiculopatia por estreitamento do forame intervertebral (dor irradiada, parestesia e fraqueza no miótomo correspondente; teste de Spurling reproduz os sintomas ao fechar o forame). Lesões em chicote (aceleração-desaceleração) distendem cápsulas das articulações dos processos articulares e ligamentos. O nervo frênico origina-se de C3, C4 e C5: lesões medulares acima de C4 comprometem a respiração diafragmática."
+  },
+  {
+    "key": "Vertebra C5",
+    "pt": "Vértebra C5",
+    "latim": "Vertebra cervicalis V",
+    "tipo": "irregular (vértebra cervical típica)",
+    "resumo": "Quinta vértebra cervical, típica. O segmento C5-C6 é o de maior amplitude de flexão-extensão da cervical baixa e um dos mais acometidos por degeneração discal.",
+    "descricao": "Vértebra cervical típica (veja C4 para a descrição dos acidentes). Fica no nível da cartilagem tireóidea. Entre C4 e C5 emerge a raiz C5 e, entre C5 e C6, a raiz C6; por isso a hérnia de disco C5-C6 costuma comprometer a raiz C6 (dor e parestesia até o polegar, fraqueza de flexores do cotovelo e extensores do punho, reflexo braquiorradial diminuído).",
+    "articulacoes": [
+      "Com C4 acima e C6 abaixo: sínfise intervertebral (disco), articulações dos processos articulares e articulações uncovertebrais"
+    ]
+  },
+  {
+    "key": "Vertebra C6",
+    "pt": "Vértebra C6",
+    "latim": "Vertebra cervicalis VI",
+    "tipo": "irregular (vértebra cervical típica)",
+    "resumo": "Sexta vértebra cervical, a última das típicas. Seu tubérculo anterior é o tubérculo carótico, e ela marca o nível da cartilagem cricóidea e o ponto em que a artéria vertebral entra nos forames transversários.",
+    "descricao": "Vértebra cervical típica (veja C4), com duas particularidades. O tubérculo anterior do processo transverso é grande e recebe o nome de tubérculo carótico (de Chassaignac): a artéria carótida comum passa logo à frente dele e pode ser comprimida contra ele. O processo espinhoso é mais longo que os de C3 a C5 e muitas vezes já não é bífido. No nível de C6 ficam a cartilagem cricóidea, a transição da laringe para a traqueia e da faringe para o esôfago. O segmento C6-C7 dá saída à raiz C7 (dor e parestesia até o dedo médio, fraqueza do tríceps, reflexo tricipital diminuído).",
+    "articulacoes": [
+      "Com C5 acima e C7 abaixo: sínfise intervertebral (disco), articulações dos processos articulares e articulações uncovertebrais"
+    ],
+    "palpacao": "Para diferenciar C6 de C7: com um dedo sobre cada um dos dois processos espinhosos salientes da base do pescoço, peça extensão cervical. O processo espinhoso de C6 desliza para a frente e some sob o dedo, enquanto o de C7 permanece palpável."
+  },
+  {
+    "key": "Vertebra C7",
+    "pt": "Vértebra C7 (vértebra proeminente)",
+    "latim": "Vertebra cervicalis VII (vertebra prominens)",
+    "tipo": "irregular (vértebra cervical atípica)",
+    "sinonimos": ["vértebra proeminente", "sétima vértebra cervical"],
+    "resumo": "Sétima vértebra cervical, de transição para a coluna torácica. Tem processo espinhoso longo, horizontal e não bífido, facilmente palpável na base do pescoço: é a referência para contar as vértebras.",
+    "descricao": "C7 é uma vértebra de transição cervicotorácica. O corpo é maior que o das outras cervicais e ainda tem processos uncinados. O processo espinhoso é longo, quase horizontal, termina em um tubérculo único (não bífido) e dá fixação ao ligamento nucal, ao trapézio, aos romboides, ao serrátil posterior superior e ao esplênio da cabeça. Os processos transversos são grandes, mas o forame transversário é pequeno e em geral dá passagem apenas a veias vertebrais acessórias: a artéria vertebral costuma passar à frente do processo transverso de C7 e entrar no forame de C6. O tubérculo anterior é pequeno ou ausente.\n\nAs faces articulares superiores têm orientação cervical (cerca de 45 graus), mas as inferiores já são mais verticais, aproximando-se do plano frontal como nas torácicas. A junção cervicotorácica (C7-T1) é, por isso, uma zona de transição entre a cervical muito móvel e a torácica rígida, sujeita a sobrecarga. Entre C7 e T1 emerge a raiz C8 (não existe vértebra C8).",
+    "articulacoes": [
+      "Com C6 acima: sínfise intervertebral, articulações dos processos articulares e uncovertebrais",
+      "Com T1 abaixo: sínfise intervertebral, articulações dos processos articulares e, quando presentes os processos uncinados de T1, uncovertebrais",
+      "Não se articula com costelas, exceto quando existe costela cervical (variação anatômica)"
+    ],
+    "palpacao": "Com a cabeça em leve flexão, é em geral o processo espinhoso mais saliente na base do pescoço (em algumas pessoas o de T1 é igualmente ou mais saliente). Confirme pela extensão cervical: C6 some sob o dedo, C7 permanece. Outra forma: na rotação da cabeça, o processo espinhoso de C7 move-se um pouco, e o de T1, fixo pelas costelas, quase não se move. A partir de C7 contam-se os processos espinhosos torácicos para baixo.",
+    "clinica": "Costela cervical: em menos de 1% das pessoas o elemento costal de C7 forma uma costela supranumerária, que pode comprimir o tronco inferior do plexo braquial e a artéria subclávia (uma das causas de síndrome do desfiladeiro torácico). Fratura do padejador de barro: avulsão do processo espinhoso de C7 (ou C6, T1) por tração muscular brusca. A junção cervicotorácica é ponto comum de rigidez e de acentuação da cifose com anteriorização da cabeça. O segmento C7-T1 dá saída à raiz C8 (parestesia no dedo mínimo, fraqueza dos flexores dos dedos e intrínsecos da mão)."
+  },
+  {
+    "key": "Vertebra T1",
+    "pt": "Vértebra T1",
+    "latim": "Vertebra thoracica I",
+    "tipo": "irregular (vértebra torácica atípica)",
+    "resumo": "Primeira vértebra torácica, atípica: lembra uma cervical (corpo largo, processos uncinados, espinhoso longo e horizontal) e tem uma fóvea costal superior completa para a cabeça da primeira costela.",
+    "descricao": "T1 é uma vértebra de transição. Seu corpo é largo no sentido laterolateral, como o das cervicais, e pode ter processos uncinados na face superior. O processo espinhoso é longo, espesso e quase horizontal, tão ou mais saliente que o de C7. De cada lado do corpo há uma fóvea costal superior completa (circular), que recebe sozinha a cabeça da primeira costela, e uma hemifóvea costal inferior, que com T2 recebe a cabeça da segunda costela. O processo transverso tem fóvea costal para o tubérculo da primeira costela.\n\nPelo forame intervertebral T1-T2 sai a raiz T1, que sobe sobre o colo da primeira costela para se juntar a C8 e formar o tronco inferior do plexo braquial; por isso lesões nessa região afetam a musculatura intrínseca da mão. O gânglio simpático cervicotorácico (estrelado) fica à frente do colo da primeira costela.",
+    "articulacoes": [
+      "Com C7 acima e T2 abaixo: sínfise intervertebral e articulações dos processos articulares",
+      "Articulação da cabeça da costela — fóvea costal superior completa com a cabeça da 1ª costela; hemifóvea inferior com a cabeça da 2ª costela",
+      "Costotransversária — fóvea costal do processo transverso com o tubérculo da 1ª costela"
+    ],
+    "acidentes": [
+      { "key": "Uncinate process of first thoracic vertebra", "pt": "Processo uncinado da primeira vértebra torácica", "nota": "Elevação da margem lateral da face superior do corpo de T1, semelhante à das cervicais; característica de transição, nem sempre presente." }
+    ],
+    "palpacao": "É o processo espinhoso logo abaixo do de C7 e, em algumas pessoas, o mais saliente da região. Não se desloca na rotação da cabeça nem some na extensão cervical."
+  },
+  {
+    "key": "Vertebra T2",
+    "pt": "Vértebra T2",
+    "latim": "Vertebra thoracica II",
+    "tipo": "irregular (vértebra torácica típica)",
+    "resumo": "Segunda vértebra torácica, a primeira com o padrão típico de hemifóveas costais. A incisura jugular do esterno projeta-se no nível de T2-T3.",
+    "descricao": "Vértebra torácica típica (veja T8 para a descrição dos acidentes). A hemifóvea superior recebe, com T1, a cabeça da segunda costela; a inferior, com T3, a cabeça da terceira costela. O ângulo superior da escápula fica aproximadamente no nível do processo espinhoso de T2.",
+    "articulacoes": [
+      "Com T1 e T3: sínfise intervertebral e articulações dos processos articulares",
+      "Com as cabeças das costelas 2 e 3 e com o tubérculo da costela 2 (costotransversária)"
+    ]
+  },
+  {
+    "key": "Vertebra T3",
+    "pt": "Vértebra T3",
+    "latim": "Vertebra thoracica III",
+    "tipo": "irregular (vértebra torácica típica)",
+    "resumo": "Terceira vértebra torácica, típica. Seu processo espinhoso fica no nível da raiz da espinha da escápula, referência útil na palpação do dorso.",
+    "descricao": "Vértebra torácica típica (veja T8). Com o braço ao lado do corpo, a extremidade medial (raiz) da espinha da escápula alinha-se com o processo espinhoso de T3.",
+    "articulacoes": [
+      "Com T2 e T4: sínfise intervertebral e articulações dos processos articulares",
+      "Com as cabeças das costelas 3 e 4 e com o tubérculo da costela 3"
+    ]
+  },
+  {
+    "key": "Vertebra T4",
+    "pt": "Vértebra T4",
+    "latim": "Vertebra thoracica IV",
+    "tipo": "irregular (vértebra torácica típica)",
+    "resumo": "Quarta vértebra torácica, típica. O disco T4-T5 corresponde ao plano do ângulo do esterno, que separa o mediastino superior do inferior.",
+    "descricao": "Vértebra torácica típica (veja T8). O plano transverso do tórax passa pelo ângulo do esterno, à frente, e pelo disco T4-T5, atrás: nesse nível estão a bifurcação da traqueia e o início e o fim do arco da aorta. O dermátomo T4 corresponde à linha dos mamilos.",
+    "articulacoes": [
+      "Com T3 e T5: sínfise intervertebral e articulações dos processos articulares",
+      "Com as cabeças das costelas 4 e 5 e com o tubérculo da costela 4"
+    ]
+  },
+  {
+    "key": "Vertebra T5",
+    "pt": "Vértebra T5",
+    "latim": "Vertebra thoracica V",
+    "tipo": "irregular (vértebra torácica típica)",
+    "resumo": "Quinta vértebra torácica, típica, da região média da coluna torácica, onde os processos espinhosos são longos e muito inclinados para baixo.",
+    "descricao": "Vértebra torácica típica (veja T8). De T5 a T8 os processos espinhosos são os mais longos e oblíquos, sobrepondo-se como telhas: a ponta de cada um fica no nível do corpo da vértebra de baixo, o que limita a extensão e precisa ser considerado ao localizar o nível segmentar pela palpação.",
+    "articulacoes": [
+      "Com T4 e T6: sínfise intervertebral e articulações dos processos articulares",
+      "Com as cabeças das costelas 5 e 6 e com o tubérculo da costela 5"
+    ]
+  },
+  {
+    "key": "Vertebra T6",
+    "pt": "Vértebra T6",
+    "latim": "Vertebra thoracica VI",
+    "tipo": "irregular (vértebra torácica típica)",
+    "resumo": "Sexta vértebra torácica, típica, próxima do ápice da cifose torácica.",
+    "descricao": "Vértebra torácica típica (veja T8). A região de T6 a T8 costuma corresponder ao ápice da cifose torácica e é onde o canal vertebral é mais estreito em relação à medula. Lesões medulares em T6 ou acima estão associadas ao risco de disreflexia autonômica, por perda do controle supraespinal sobre a maior parte da eferência simpática esplâncnica.",
+    "articulacoes": [
+      "Com T5 e T7: sínfise intervertebral e articulações dos processos articulares",
+      "Com as cabeças das costelas 6 e 7 e com o tubérculo da costela 6"
+    ]
+  },
+  {
+    "key": "Vertebra T7",
+    "pt": "Vértebra T7",
+    "latim": "Vertebra thoracica VII",
+    "tipo": "irregular (vértebra torácica típica)",
+    "resumo": "Sétima vértebra torácica, típica. Seu processo espinhoso fica aproximadamente no nível do ângulo inferior da escápula.",
+    "descricao": "Vértebra torácica típica (veja T8). Com o paciente em pé e os braços ao lado do corpo, a linha que une os ângulos inferiores das escápulas cruza a coluna na altura do processo espinhoso de T7 (ou do espaço T7-T8), referência usada para contar os níveis torácicos.",
+    "articulacoes": [
+      "Com T6 e T8: sínfise intervertebral e articulações dos processos articulares",
+      "Com as cabeças das costelas 7 e 8 e com o tubérculo da costela 7"
+    ]
+  },
+  {
+    "key": "Vertebra T8",
+    "pt": "Vértebra T8",
+    "latim": "Vertebra thoracica VIII",
+    "tipo": "irregular (vértebra torácica típica)",
+    "resumo": "Oitava vértebra torácica, modelo de vértebra torácica típica: corpo em forma de coração com fóveas costais, processo espinhoso longo e oblíquo e faces articulares próximas do plano frontal.",
+    "descricao": "As vértebras torácicas típicas (T2 a T9) distinguem-se por se articularem com as costelas. O corpo tem tamanho intermediário entre o das cervicais e o das lombares e, visto de cima, forma de coração. Em cada lado do corpo, junto à raiz do pedículo, há duas hemifóveas: a fóvea costal superior, que recebe a parte inferior da cabeça da costela de mesmo número, e a fóvea costal inferior, que recebe a parte superior da cabeça da costela seguinte. Assim, a cabeça de cada costela típica articula-se com duas vértebras e com o disco entre elas. O processo transverso é longo, robusto, dirigido para trás e para fora, e traz na ponta a fóvea costal do processo transverso, para o tubérculo da costela de mesmo número.\n\nO forame vertebral é pequeno e circular. As lâminas são largas e se sobrepõem, e o processo espinhoso é longo e inclinado para baixo, de modo que sua ponta fica no nível do corpo da vértebra inferior (mais acentuado de T5 a T8).\n\nOrientação das faces articulares e movimento: as faces articulares são planas e quase verticais, inclinadas cerca de 60 graus em relação ao plano horizontal e cerca de 20 graus em relação ao plano frontal; as superiores olham para trás e um pouco para fora, as inferiores para a frente e um pouco para dentro. Dispostas como segmentos de um círculo cujo centro está no corpo vertebral, elas favorecem a rotação, que é o movimento mais livre da coluna torácica (cerca de 30 a 35 graus para cada lado no total), e permitem inclinação lateral. Flexão e extensão são pequenas em cada segmento: a flexão é contida pela caixa torácica e pelos discos finos; a extensão, pelo contato dos processos articulares e dos processos espinhosos. Na prática, toda a mobilidade torácica é limitada pelas costelas e pelo esterno, sendo maior na região inferior (T9 a T12), onde as costelas são mais livres.",
+    "articulacoes": [
+      "Sínfise intervertebral (disco) com T7 e T9 — discos finos em relação à altura do corpo",
+      "Articulações dos processos articulares com T7 e T9 — sinoviais planas, próximas do plano frontal",
+      "Articulações das cabeças das costelas — fóvea costal superior com a costela 8; fóvea costal inferior com a costela 9",
+      "Costotransversária — fóvea costal do processo transverso com o tubérculo da costela 8"
+    ],
+    "acidentes": [
+      { "key": "Inferior costal facet", "pt": "Fóvea costal inferior", "nota": "Hemifóvea na margem inferior do corpo; com a fóvea costal superior da vértebra de baixo e o disco entre elas, recebe a cabeça da costela seguinte (em T8, a 9ª costela)." },
+      { "key": "Superior costal facet", "pt": "Fóvea costal superior", "nota": "Hemifóvea na margem superior do corpo, junto ao pedículo; recebe a face articular inferior da cabeça da costela de mesmo número. Em T1, T10 (frequentemente), T11 e T12 é uma fóvea completa." },
+      { "key": "Thoracic vertebra", "pt": "Vértebra torácica", "nota": "São doze. O que as identifica são as fóveas costais para as costelas. T2 a T9 são típicas; T1 e T10 a T12 são atípicas." },
+      { "key": "Transverse costal facet", "pt": "Fóvea costal do processo transverso", "nota": "Na face anterior da ponta do processo transverso de T1 a T10; articula-se com o tubérculo da costela de mesmo número (articulação costotransversária). Côncava nas vértebras superiores (a costela roda: movimento em braço de bomba) e plana nas inferiores (a costela desliza: movimento em alça de balde). Ausente em T11 e T12." }
+    ],
+    "palpacao": "Os processos espinhosos torácicos são palpáveis na linha mediana; na região média, por serem oblíquos, a ponta do processo espinhoso fica no nível do corpo da vértebra abaixo, e o processo transverso da mesma vértebra fica cerca de um nível (dois a três dedos) acima e 2 a 3 cm lateralmente. Referências: T3 na raiz da espinha da escápula, T7 no ângulo inferior da escápula. A flexão do tronco afasta os processos espinhosos e facilita a contagem.",
+    "clinica": "Fraturas por compressão em cunha do corpo vertebral são comuns na osteoporose, sobretudo na região torácica média e na transição toracolombar, e aumentam a cifose (hipercifose). Doença de Scheuermann: osteocondrose das placas terminais em adolescentes, com acunhamento anterior de vértebras contíguas e cifose rígida. Na escoliose, as vértebras torácicas rodam e levam consigo as costelas, formando a giba costal do lado da convexidade, evidenciada no teste de Adams (flexão anterior do tronco). Disfunções das articulações costovertebrais e costotransversárias causam dor paravertebral que piora com a inspiração profunda e a rotação. A hérnia de disco torácica é rara."
+  },
+  {
+    "key": "Vertebra T9",
+    "pt": "Vértebra T9",
+    "latim": "Vertebra thoracica IX",
+    "tipo": "irregular (vértebra torácica típica)",
+    "resumo": "Nona vértebra torácica, a última das típicas. A sínfise xifosternal projeta-se aproximadamente no nível de T9.",
+    "descricao": "Vértebra torácica típica (veja T8). Quando a décima costela se articula apenas com T10, T9 pode não ter fóveas costais inferiores. A partir daqui as costelas ligam-se ao esterno apenas de forma indireta (costelas falsas) e a mobilidade da coluna torácica aumenta.",
+    "articulacoes": [
+      "Com T8 e T10: sínfise intervertebral e articulações dos processos articulares",
+      "Com a cabeça da costela 9 (e, de forma variável, da costela 10) e com o tubérculo da costela 9"
+    ]
+  },
+  {
+    "key": "Vertebra T10",
+    "pt": "Vértebra T10",
+    "latim": "Vertebra thoracica X",
+    "tipo": "irregular (vértebra torácica atípica)",
+    "resumo": "Décima vértebra torácica, atípica: em geral tem uma única fóvea costal completa de cada lado para a décima costela. O dermátomo T10 corresponde ao nível do umbigo.",
+    "descricao": "T10 costuma ter, de cada lado, uma única fóvea costal completa, situada em parte no corpo e em parte no pedículo, para a cabeça da décima costela, que assim se articula com uma só vértebra. A fóvea costal do processo transverso é pequena e pode faltar. O hiato esofágico do diafragma fica no nível de T10.",
+    "articulacoes": [
+      "Com T9 e T11: sínfise intervertebral e articulações dos processos articulares",
+      "Com a cabeça da costela 10 (fóvea única) e, de forma inconstante, com seu tubérculo"
+    ]
+  },
+  {
+    "key": "Vertebra T11",
+    "pt": "Vértebra T11",
+    "latim": "Vertebra thoracica XI",
+    "tipo": "irregular (vértebra torácica atípica)",
+    "resumo": "Décima primeira vértebra torácica, atípica: uma fóvea costal completa de cada lado, no pedículo, para a costela flutuante correspondente, e processo transverso sem fóvea costal.",
+    "descricao": "O corpo já se aproxima do das lombares em tamanho e forma. De cada lado há uma única fóvea costal circular, situada principalmente no pedículo, para a cabeça da 11ª costela. O processo transverso é curto e não tem fóvea costal, pois a 11ª costela não possui tubérculo articular. O processo espinhoso é curto e quase horizontal. Sem a contenção de uma caixa torácica fechada, os segmentos T11-T12 e T12-L1 são mais móveis e mais vulneráveis.",
+    "articulacoes": [
+      "Com T10 e T12: sínfise intervertebral e articulações dos processos articulares",
+      "Com a cabeça da costela 11 (não há articulação costotransversária)"
+    ]
+  },
+  {
+    "key": "Vertebra T12",
+    "pt": "Vértebra T12",
+    "latim": "Vertebra thoracica XII",
+    "tipo": "irregular (vértebra torácica atípica)",
+    "resumo": "Décima segunda vértebra torácica, de transição toracolombar: sua metade superior é torácica e a inferior é lombar. É uma das vértebras que mais sofrem fraturas.",
+    "descricao": "T12 tem corpo volumoso, semelhante ao das lombares, com uma única fóvea costal completa de cada lado, no pedículo, para a cabeça da 12ª costela. O processo transverso é curto, sem fóvea costal, e substituído por três pequenos tubérculos (superior, inferior e lateral), que correspondem aos processos mamilar, acessório e costiforme das vértebras lombares. O processo espinhoso é curto, largo e horizontal, como o das lombares.\n\nA mudança mais importante está nos processos articulares: as faces articulares superiores ainda são do tipo torácico (planas, voltadas para trás e um pouco para fora, próximas do plano frontal), enquanto as inferiores já são do tipo lombar (convexas, voltadas para a frente e para fora, próximas do plano sagital). Assim, acima de T12 a coluna privilegia a rotação e, abaixo, a flexão-extensão. Essa mudança brusca de orientação, somada à passagem de uma região rígida (torácica, com costelas) para uma móvel (lombar) e da cifose para a lordose, concentra tensões na junção toracolombar.\n\nO hiato aórtico do diafragma fica no nível de T12, e os pilares do diafragma e o músculo psoas maior começam a fixar-se a partir dessa transição.",
+    "articulacoes": [
+      "Com T11 acima — articulações dos processos articulares do tipo torácico (plano frontal)",
+      "Com L1 abaixo — articulações dos processos articulares do tipo lombar (plano sagital)",
+      "Sínfises intervertebrais com T11 e L1",
+      "Com a cabeça da costela 12 (não há articulação costotransversária)"
+    ],
+    "palpacao": "Siga a 12ª costela (a última, curta, palpável acima da crista ilíaca, na parede posterolateral) em direção medial e para cima até a coluna: ela leva ao nível de T12. O processo espinhoso de T12 é curto e fica aproximadamente a meio caminho entre o nível do ângulo inferior da escápula (T7) e o das cristas ilíacas (L4).",
+    "clinica": "A junção toracolombar (T11 a L2) concentra a maioria das fraturas da coluna toracolombar: fraturas por compressão em cunha (quedas, osteoporose), fraturas em explosão e fraturas-luxações. A medula espinal termina, no adulto, no nível de L1-L2 (cone medular); lesões em T12-L1 podem atingir o cone medular e as raízes da cauda equina, com quadro misto de neurônio motor superior e inferior. A síndrome da junção toracolombar (de Maigne) refere dor à crista ilíaca, à região glútea e à virilha por irritação dos ramos de T12 e L1."
+  },
+  {
+    "key": "Vertebra L1",
+    "pt": "Vértebra L1",
+    "latim": "Vertebra lumbalis I",
+    "tipo": "irregular (vértebra lombar típica)",
+    "resumo": "Primeira vértebra lombar. Marca o plano transpilórico e, no adulto, o nível aproximado em que a medula espinal termina (cone medular, entre L1 e L2).",
+    "descricao": "Vértebra lombar típica (veja L3 para a descrição dos acidentes), a menor das lombares, com processos costiformes curtos. Forma com T12 a junção toracolombar, local frequente de fraturas por compressão e em explosão. No nível de L1 passa o plano transpilórico (piloro, colo do pâncreas, hilos renais, origem da artéria mesentérica superior). Os pilares do diafragma e o psoas maior fixam-se nos corpos lombares superiores. A medula espinal do adulto termina em geral entre L1 e L2; abaixo disso o canal vertebral contém apenas a cauda equina.",
+    "articulacoes": [
+      "Com T12 acima e L2 abaixo: sínfise intervertebral e articulações dos processos articulares (plano sagital)"
+    ]
+  },
+  {
+    "key": "Vertebra L2",
+    "pt": "Vértebra L2",
+    "latim": "Vertebra lumbalis II",
+    "tipo": "irregular (vértebra lombar típica)",
+    "resumo": "Segunda vértebra lombar, típica. O cone medular termina, na maioria dos adultos, entre L1 e L2.",
+    "descricao": "Vértebra lombar típica (veja L3). O pilar esquerdo do diafragma fixa-se nos corpos de L1 e L2 e o direito nos de L1 a L3. Como a medula termina em geral nesse nível, a punção lombar é feita mais abaixo (L3-L4 ou L4-L5). A raiz L2 participa da inervação dos flexores do quadril (iliopsoas).",
+    "articulacoes": [
+      "Com L1 acima e L3 abaixo: sínfise intervertebral e articulações dos processos articulares"
+    ]
+  },
+  {
+    "key": "Vertebra L3",
+    "pt": "Vértebra L3",
+    "latim": "Vertebra lumbalis III",
+    "tipo": "irregular (vértebra lombar típica)",
+    "resumo": "Terceira vértebra lombar, modelo de vértebra lombar típica: corpo grande em forma de rim, pedículos e lâminas espessos, processo espinhoso quadrilátero e faces articulares no plano sagital. Fica no ápice da lordose lombar.",
+    "descricao": "Toda vértebra típica tem um corpo, anterior, que sustenta peso, e um arco vertebral, posterior, que protege a medula. O arco é formado por dois pedículos, que o ligam ao corpo, e duas lâminas, que se unem na linha mediana; corpo e arco delimitam o forame vertebral, e a sobreposição dos forames forma o canal vertebral. Do arco partem sete processos: um espinhoso e dois transversos, que servem de alavanca a músculos e ligamentos, e quatro articulares (dois superiores e dois inferiores), que formam as articulações dos processos articulares (zigapofisárias, ou facetárias) e orientam o movimento. As incisuras vertebrais superior e inferior de vértebras vizinhas delimitam o forame intervertebral, por onde sai o nervo espinal.\n\nAs vértebras lombares são as maiores, porque sustentam o maior peso. O corpo é volumoso, mais largo que profundo, em forma de rim; os pedículos são curtos e fortes; as lâminas, espessas; o forame vertebral, triangular. O processo espinhoso é curto, espesso, em forma de machadinha e horizontal, deixando espaços entre os arcos (o que permite a punção lombar e a extensão). O que se chama processo transverso lombar é, na verdade, um processo costiforme (elemento costal); o verdadeiro processo transverso está representado pelo processo acessório, na sua base, e o processo mamilar, na margem posterior do processo articular superior, dá fixação ao multífido. L3 fica no centro da lordose, com as faces do corpo quase horizontais, e costuma ter os processos costiformes mais longos.\n\nOrientação das faces articulares e movimento: as faces articulares superiores são côncavas e olham para trás e para dentro; as inferiores são convexas e olham para a frente e para fora, encaixando-se nas superiores da vértebra de baixo. As superfícies ficam, portanto, quase verticais e próximas do plano sagital nos níveis lombares altos, tornando-se progressivamente mais frontais em direção a L5-S1. Essa disposição permite flexão e extensão amplas (cerca de 40 a 50 graus de flexão e 15 a 20 de extensão no total lombar) e inclinação lateral moderada (cerca de 20 graus para cada lado), mas bloqueia a rotação (apenas cerca de 5 graus para cada lado em toda a região lombar, 1 a 2 graus por segmento), o que protege o anel fibroso do disco contra a torção.\n\nOs discos lombares são os mais espessos da coluna e mais altos na frente, o que contribui para a lordose. Em pé, a maior parte da carga passa pelos corpos e discos, mas as articulações dos processos articulares sustentam uma parcela que aumenta com a extensão e com a perda de altura discal.",
+    "articulacoes": [
+      "Sínfise intervertebral (disco) com L2 e L4 — articulação cartilagínea secundária",
+      "Articulações dos processos articulares com L2 e L4 — sinoviais planas, próximas do plano sagital"
+    ],
+    "acidentes": [
+      { "key": "Annular epiphysis", "pt": "Epífise anular", "nota": "Anel de osso compacto na periferia das faces superior e inferior do corpo; centro de ossificação secundário que se funde ao corpo no início da vida adulta. Nele se fixam as fibras externas do anel fibroso. Na adolescência pode sofrer avulsão ou alterações (doença de Scheuermann)." },
+      { "key": "Costal part of transverse process", "pt": "Processo costiforme (parte costal do processo transverso)", "nota": "É o chamado processo transverso das lombares, homólogo a uma costela. Fixação do quadrado do lombo, do psoas maior (face anterior) e, pela aponeurose toracolombar, do transverso do abdome. Pode fraturar por tração muscular ou trauma direto." },
+      { "key": "Inferior articular facet of vertebra", "pt": "Face articular inferior", "nota": "No processo articular inferior; nas lombares é convexa e voltada para a frente e para fora, encaixando-se na face superior côncava da vértebra de baixo." },
+      { "key": "Inferior vertebral notch", "pt": "Incisura vertebral inferior", "nota": "Recorte profundo abaixo do pedículo; forma o teto do forame intervertebral logo abaixo. A raiz nervosa sai junto ao pedículo, na parte alta do forame." },
+      { "key": "Intervertebral foramen", "pt": "Forame intervertebral", "nota": "Limitado pelos pedículos (acima e abaixo), pelo disco e corpos (à frente) e pela articulação dos processos articulares (atrás). Passam o nervo espinal com o gânglio sensitivo, vasos e o ramo meníngeo. Estreita-se na extensão e na inclinação para o mesmo lado, e com perda de altura discal ou osteófitos (estenose foraminal). Na lombar, a raiz sai abaixo da vértebra de mesmo número." },
+      { "key": "Intervertebral surface", "pt": "Face intervertebral", "nota": "Faces superior e inferior do corpo, recobertas pela placa terminal cartilagínea, por onde o disco se nutre por difusão. Falhas da placa permitem herniação intraesponjosa (nódulos de Schmorl)." },
+      { "key": "Lamina of vertebral arch", "pt": "Lâmina do arco vertebral", "nota": "Une o pedículo ao processo espinhoso; entre lâminas vizinhas estendem-se os ligamentos amarelos. É removida na laminectomia para descomprimir o canal vertebral." },
+      { "key": "Lateral part of transverse process", "pt": "Parte lateral do processo transverso", "nota": "Extremidade do processo costiforme; fixação da lâmina média da aponeurose toracolombar e do quadrado do lombo. Em L5 recebe o ligamento iliolombar." },
+      { "key": "Pars interarticularis of vertebral arch", "pt": "Parte interarticular do arco vertebral (istmo)", "nota": "Segmento do arco entre os processos articulares superior e inferior. Local da espondilólise (fratura por estresse, típica de L5 em atletas que repetem extensão e rotação, como ginastas); quando bilateral pode permitir o deslizamento anterior do corpo (espondilolistese). Na radiografia oblíqua corresponde ao pescoço do «cachorrinho escocês»." },
+      { "key": "Pedicle of vertebral arch", "pt": "Pedículo do arco vertebral", "nota": "Pilar curto e resistente que liga o arco ao corpo e transmite forças entre eles; local de fixação dos parafusos pediculares nas artrodeses." },
+      { "key": "Spinous process", "pt": "Processo espinhoso", "nota": "Nas lombares é curto, largo e horizontal. Fixação dos ligamentos supraespinal e interespinais, da aponeurose toracolombar, do multífido e dos eretores da espinha. Palpável na linha mediana; o de L4 fica no nível do ponto mais alto das cristas ilíacas." },
+      { "key": "Superior articular facet of vertebra", "pt": "Face articular superior", "nota": "No processo articular superior; nas lombares é côncava e voltada para trás e para dentro. Sua orientação sagital permite flexão-extensão e bloqueia a rotação." },
+      { "key": "Superior articular process of vertebra", "pt": "Processo articular superior", "nota": "Projeta-se para cima a partir da junção do pedículo com a lâmina; na sua margem posterior está o processo mamilar, fixação do multífido. Sua hipertrofia artrósica estreita o recesso lateral e o forame intervertebral." },
+      { "key": "Superior vertebral notch", "pt": "Incisura vertebral superior", "nota": "Recorte raso acima do pedículo; forma o assoalho do forame intervertebral logo acima." },
+      { "key": "Transverse process", "pt": "Processo transverso", "nota": "Alavanca lateral para músculos e ligamentos. Nas lombares é formado principalmente pelo elemento costal (processo costiforme); o de L3 costuma ser o mais longo. Não é palpável diretamente, por ficar sob a massa do eretor da espinha." },
+      { "key": "Vertebra", "pt": "Vértebra", "nota": "Unidade óssea da coluna vertebral: 7 cervicais, 12 torácicas, 5 lombares, 5 sacrais (fundidas no sacro) e 3 a 5 coccígeas (fundidas no cóccix)." },
+      { "key": "Vertebral arch", "pt": "Arco vertebral", "nota": "Parte posterior da vértebra, formada por dois pedículos e duas lâminas; com o corpo delimita o forame vertebral e dá origem aos sete processos." },
+      { "key": "Vertebral body", "pt": "Corpo vertebral", "nota": "Parte anterior, que sustenta peso; aumenta de tamanho de C2 até L5. Formado por osso esponjoso revestido por fina camada compacta, é o local das fraturas por compressão na osteoporose." },
+      { "key": "Vertebral foramen", "pt": "Forame vertebral", "nota": "Espaço entre o corpo e o arco; triangular nas lombares. O conjunto dos forames forma o canal vertebral, que abaixo de L1-L2 contém a cauda equina. Seu estreitamento é a estenose do canal vertebral, com claudicação neurogênica que alivia ao fletir o tronco." }
+    ],
+    "palpacao": "Os processos espinhosos lombares são largos e palpáveis na linha mediana, melhor com o paciente em decúbito ventral com um travesseiro sob o abdome ou sentado com leve flexão. Localize o ponto mais alto das cristas ilíacas: a linha que os une (linha supracristal, de Tuffier) cruza o processo espinhoso de L4 ou o espaço L4-L5; L3 é o processo espinhoso imediatamente acima. As articulações dos processos articulares ficam cerca de 2 a 3 cm lateralmente aos espaços interespinhosos, sob a massa muscular, e os processos transversos, mais laterais e profundos.",
+    "clinica": "A coluna lombar é a sede mais comum de dor musculoesquelética. Cerca de 95% das hérnias de disco lombares ocorrem em L4-L5 e L5-S1; são em geral posterolaterais, onde o anel fibroso é mais fino e não é reforçado pelo ligamento longitudinal posterior, e comprimem a raiz que desce para o forame de baixo (hérnia L4-L5 atinge em geral a raiz L5; hérnia L5-S1, a raiz S1). A raiz L3 e a L4 formam o nervo femoral: seu comprometimento causa dor na face anterior da coxa, fraqueza do quadríceps e diminuição do reflexo patelar. Outras condições: artrose das articulações dos processos articulares (dor que piora na extensão), estenose do canal vertebral, espondilólise e espondilolistese, e fraturas dos processos transversos por trauma. A síndrome da cauda equina (anestesia em sela, retenção urinária, fraqueza bilateral) é urgência médica e sinal de alerta que o fisioterapeuta deve reconhecer e encaminhar."
+  },
+  {
+    "key": "Vertebra L4",
+    "pt": "Vértebra L4",
+    "latim": "Vertebra lumbalis IV",
+    "tipo": "irregular (vértebra lombar típica)",
+    "resumo": "Quarta vértebra lombar. Seu processo espinhoso fica no nível do ponto mais alto das cristas ilíacas, e o disco L4-L5 é um dos mais acometidos por hérnia.",
+    "descricao": "Vértebra lombar típica (veja L3). A linha que une os pontos mais altos das cristas ilíacas (plano supracristal) cruza o processo espinhoso de L4 ou o espaço L4-L5, referência para a punção lombar e para contar os níveis. A aorta abdominal bifurca-se à frente de L4. O ligamento iliolombar pode ter um feixe fixado no processo costiforme de L4. O segmento L4-L5 é o mais móvel da coluna lombar em flexão-extensão e local frequente de hérnia discal (geralmente com compressão da raiz L5: fraqueza do extensor longo do hálux e dos dorsiflexores, parestesia no dorso do pé) e de espondilolistese degenerativa.",
+    "articulacoes": [
+      "Com L3 acima e L5 abaixo: sínfise intervertebral e articulações dos processos articulares"
+    ],
+    "palpacao": "Com as mãos sobre o ponto mais alto das cristas ilíacas, os polegares encontram-se na linha mediana sobre o processo espinhoso de L4 ou o espaço L4-L5."
+  },
+  {
+    "key": "Vertebra L5",
+    "pt": "Vértebra L5",
+    "latim": "Vertebra lumbalis V",
+    "tipo": "irregular (vértebra lombar atípica)",
+    "resumo": "Quinta vértebra lombar, a maior e mais robusta das vértebras móveis. Tem corpo em cunha, processos transversos maciços e transmite todo o peso do tronco ao sacro na junção lombossacral.",
+    "descricao": "L5 tem o maior corpo vertebral, nitidamente mais alto na frente do que atrás (em cunha), o que, com o disco L5-S1 também cuneiforme, forma o ângulo lombossacral. Os processos transversos (costiformes) são curtos, cônicos e muito espessos, unidos a toda a face lateral do pedículo e ao corpo; deles partem os ligamentos iliolombares, que ancoram L5 ao ílio e resistem ao deslizamento anterior e à inclinação lateral. O processo espinhoso é o menor dos lombares.\n\nOrientação das faces articulares: as faces articulares inferiores de L5 estão mais afastadas entre si e voltadas mais para a frente do que as das outras lombares, aproximando-se do plano frontal, e encaixam-se nos processos articulares superiores do sacro. Como a face superior do sacro é inclinada para a frente (cerca de 30 a 40 graus em relação à horizontal na posição ereta), o peso do tronco gera uma força de cisalhamento anterior sobre L5; essa orientação mais frontal funciona como um gancho ósseo que, junto com o disco, os ligamentos iliolombares e a musculatura, impede que L5 deslize sobre S1. Em contrapartida, permite um pouco mais de rotação do que nos segmentos lombares superiores e mantém boa amplitude de flexão-extensão.",
+    "articulacoes": [
+      "Com L4 acima: sínfise intervertebral e articulações dos processos articulares",
+      "Lombossacral (L5-S1): sínfise intervertebral (disco em cunha) e articulações dos processos articulares com os processos articulares superiores do sacro",
+      "Ligação ao ílio pelos ligamentos iliolombares (sem articulação direta)"
+    ],
+    "palpacao": "O processo espinhoso de L5 é pequeno e fica em uma depressão logo acima do sacro, abaixo do de L4 (nível das cristas ilíacas) e acima do nível das espinhas ilíacas posteriores superiores (S2). Em decúbito ventral, é o último processo espinhoso que ainda se move na palpação de mobilidade posteroanterior antes da superfície rígida do sacro.",
+    "clinica": "Espondilólise e espondilolistese ístmica ocorrem sobretudo em L5: o defeito bilateral da parte interarticular separa o corpo (que desliza para a frente sobre o sacro) do arco posterior, que fica para trás; pode haver degrau palpável entre os processos espinhosos e encurtamento dos isquiotibiais. Hérnia L5-S1 comprime em geral a raiz S1 (dor na face posterior da perna e planta do pé, fraqueza na flexão plantar, reflexo aquileu diminuído). Variações de transição são frequentes: sacralização de L5 (fusão parcial ou total ao sacro) e lombarização de S1, que alteram a contagem e a mecânica da região."
+  },
+  {
+    "key": "Sacrum",
+    "pt": "Sacro",
+    "latim": "Os sacrum",
+    "tipo": "irregular",
+    "resumo": "Osso triangular formado pela fusão das cinco vértebras sacrais. Encaixa-se como uma cunha entre os ossos do quadril e transmite o peso do tronco para a pelve e os membros inferiores pelas articulações sacroilíacas.",
+    "descricao": "O sacro tem uma base, superior, um ápice, inferior, uma face pélvica, côncava e lisa, uma face dorsal, convexa e rugosa, e duas partes laterais. A base é formada pela face superior de S1: sua margem anterior saliente é o promontório, e de cada lado está a asa do sacro. Para trás e para cima projetam-se os processos articulares superiores, que se articulam com L5. Na posição ereta o sacro é inclinado para a frente, de modo que a base olha para a frente e para cima.\n\nA face pélvica mostra quatro linhas transversas, que marcam a fusão dos corpos (concluída por volta dos 25 anos), e quatro pares de forames sacrais anteriores, por onde saem os ramos anteriores de S1 a S4, que formam o plexo sacral. O músculo piriforme origina-se dessa face, ao lado dos forames. A face dorsal tem cinco cristas longitudinais: a crista sacral mediana (processos espinhosos fundidos), as cristas sacrais mediais (processos articulares fundidos) e as cristas sacrais laterais (processos transversos fundidos), com quatro pares de forames sacrais posteriores para os ramos posteriores. Nela se fixam o eretor da espinha, o multífido, a aponeurose toracolombar e parte do glúteo máximo. O canal sacral continua o canal vertebral e contém as raízes sacrais e coccígeas da cauda equina e o filamento terminal; o saco dural termina no nível de S2. Embaixo, a falta das lâminas de S5 (e às vezes S4) deixa o hiato sacral, ladeado pelos cornos sacrais.\n\nCada parte lateral tem, na metade superior (S1 a S3), a face auricular, em forma de orelha, que se articula com o ílio, e atrás dela a tuberosidade sacral, rugosa, para os fortes ligamentos sacroilíacos interósseos. O sacro feminino é mais curto, mais largo e menos curvo que o masculino.\n\nMovimento: a articulação sacroilíaca tem superfícies irregulares que se encaixam e ligamentos muito fortes; seus movimentos são pequenos (poucos graus de rotação e 1 a 2 mm de translação). Na nutação, a base do sacro (promontório) move-se para a frente e para baixo e o ápice para trás e para cima; os ligamentos sacrotuberal, sacroespinal e interósseos se tensionam, aumentando a estabilidade (fechamento de forma e de força). Na contranutação ocorre o inverso. A mobilidade aumenta na gestação, pela ação hormonal sobre os ligamentos.",
+    "articulacoes": [
+      "Lombossacral — base do sacro com o corpo de L5 (disco L5-S1) e processos articulares superiores do sacro com os inferiores de L5",
+      "Sacroilíaca (par) — face auricular do sacro com a face auricular do ílio; parte anterior sinovial e parte posterior fibrosa (sindesmose)",
+      "Sacrococcígea — ápice do sacro com a base do cóccix; sínfise, frequentemente ossificada com a idade"
+    ],
+    "acidentes": [
+      { "key": "Ala of sacrum", "pt": "Asa do sacro", "nota": "Parte lateral da base, de cada lado do corpo de S1. É cruzada pelo tronco lombossacral (L4-L5), pelo nervo obturatório e pelos vasos iliolombares; dá origem a fibras do músculo ilíaco." },
+      { "key": "Anterior sacral foramina", "pt": "Forames sacrais anteriores", "nota": "Quatro pares na face pélvica; dão passagem aos ramos anteriores dos nervos S1 a S4 (plexo sacral, incluindo as raízes do nervo isquiático e os nervos esplâncnicos pélvicos) e a ramos das artérias sacrais laterais." },
+      { "key": "Apex of sacrum", "pt": "Ápice do sacro", "nota": "Extremidade inferior, com uma faceta oval para a base do cóccix (articulação sacrococcígea)." },
+      { "key": "Auricular surface of sacrum", "pt": "Face auricular do sacro", "nota": "Superfície articular em forma de orelha na parte lateral de S1 a S3, recoberta por cartilagem hialina; articula-se com o ílio na articulação sacroilíaca. Suas irregularidades aumentam com a idade e ajudam a travar a articulação." },
+      { "key": "Base of sacrum", "pt": "Base do sacro", "nota": "Face superior de S1, com o corpo no centro, as asas dos lados e os processos articulares superiores atrás. Sua inclinação em relação à horizontal (cerca de 30 a 40 graus em pé) determina o grau de lordose lombar e o cisalhamento em L5-S1." },
+      { "key": "Dorsal surface of sacrum", "pt": "Face dorsal do sacro", "nota": "Convexa e rugosa; origem do eretor da espinha e do multífido, fixação da aponeurose toracolombar e de fibras do glúteo máximo. Palpável sob a pele entre as duas espinhas ilíacas posteriores superiores." },
+      { "key": "Intermediate sacral crest", "pt": "Crista sacral medial", "nota": "Também chamada crista sacral intermédia. Fileira de tubérculos, medial aos forames sacrais posteriores, formada pela fusão dos processos articulares; termina embaixo no corno sacral." },
+      { "key": "Intervertebral foramina", "pt": "Forames intervertebrais do sacro", "nota": "Aberturas laterais do canal sacral, dentro do osso; cada uma comunica o canal com um forame sacral anterior e um posterior, por onde saem os ramos do nervo espinal sacral correspondente." },
+      { "key": "Lateral part of sacrum", "pt": "Parte lateral do sacro", "nota": "Massa óssea lateral aos forames sacrais, formada pela fusão dos processos transversos e elementos costais; contém a face auricular e a tuberosidade sacral." },
+      { "key": "Lateral sacral crest", "pt": "Crista sacral lateral", "nota": "Fileira de tubérculos, lateral aos forames sacrais posteriores, formada pela fusão dos processos transversos. Fixação dos ligamentos sacroilíacos posteriores e do ligamento sacrotuberal." },
+      { "key": "Median sacral crest", "pt": "Crista sacral mediana", "nota": "Formada pelos processos espinhosos fundidos de S1 a S4 (três ou quatro tubérculos); fixação do ligamento supraespinal e da aponeurose toracolombar. O processo espinhoso de S2 fica no nível das espinhas ilíacas posteriores superiores." },
+      { "key": "Pelvic surface of sacrum", "pt": "Face pélvica do sacro", "nota": "Côncava e lisa, forma a parede posterior da pelve menor. Origem do músculo piriforme (segmentos S2 a S4), que sai pelo forame isquiático maior; o plexo sacral repousa sobre o piriforme." },
+      { "key": "Posterior sacral foramina", "pt": "Forames sacrais posteriores", "nota": "Quatro pares na face dorsal; dão passagem aos ramos posteriores dos nervos sacrais, que inervam o multífido e a pele da região sacral e glútea medial (nervos clúnios médios)." },
+      { "key": "Promontory", "pt": "Promontório", "nota": "Margem anterior saliente do corpo de S1. Referência obstétrica (medida dos diâmetros conjugados da abertura superior da pelve) e ponto que se move para a frente e para baixo na nutação." },
+      { "key": "Sacral canal", "pt": "Canal sacral", "nota": "Continuação do canal vertebral. Contém as raízes sacrais e coccígeas da cauda equina, o filamento terminal e, até o nível de S2, o saco dural com líquido cerebrospinal." },
+      { "key": "Sacral hiatus", "pt": "Hiato sacral", "nota": "Abertura inferior do canal sacral, por ausência das lâminas e do processo espinhoso de S5 (às vezes S4), fechada pelo ligamento sacrococcígeo posterior superficial. Via de acesso para a anestesia peridural caudal." },
+      { "key": "Sacral horn", "pt": "Corno sacral", "nota": "Processo articular inferior de S5, de cada lado do hiato sacral; articula-se com o corno coccígeo por ligamentos. Palpável na parte alta da fenda interglútea, serve de guia para localizar o hiato sacral." },
+      { "key": "Sacral tuberosity", "pt": "Tuberosidade sacral", "nota": "Área rugosa atrás da face auricular; fixação dos ligamentos sacroilíacos interósseos, os mais fortes da articulação e principais responsáveis por transferir o peso do sacro para os ílios." },
+      { "key": "Sacrum", "pt": "Sacro", "nota": "Cinco vértebras sacrais fundidas; forma a parede posterior da pelve e a chave do arco pélvico." },
+      { "key": "Superior articular process of sacrum", "pt": "Processo articular superior do sacro", "nota": "Par de processos de S1 cujas faces articulares, côncavas e voltadas para trás e para dentro, recebem os processos articulares inferiores de L5. Sua orientação mais frontal resiste ao deslizamento anterior de L5." },
+      { "key": "Transverse ridges", "pt": "Linhas transversas", "nota": "Quatro linhas na face pélvica que marcam a fusão dos corpos das cinco vértebras sacrais e correspondem aos discos intervertebrais ossificados." }
+    ],
+    "palpacao": "Localize as espinhas ilíacas posteriores superiores (EIPS), sob as covinhas lombares: a linha entre elas cruza o processo espinhoso de S2. A crista sacral mediana é palpável na linha mediana entre as EIPS e a fenda interglútea. Mais abaixo, no início da fenda, sentem-se os dois cornos sacrais e, entre eles, a depressão do hiato sacral. O sulco sacral, medial a cada EIPS, e o ângulo inferolateral do sacro são usados na avaliação da posição do sacro. A articulação sacroilíaca em si não é palpável, pois fica coberta pelo ílio e pelos ligamentos posteriores.",
+    "clinica": "Disfunção e dor sacroilíaca: dor unilateral abaixo de L5, sobre a região da EIPS, que pode referir para a nádega e a face posterior da coxa; o diagnóstico clínico apoia-se em um conjunto de testes de provocação (distração, compressão, thrust da coxa, Gaenslen, thrust sacral) e não na palpação de movimento isolada. Na gestação e no pós-parto a frouxidão ligamentar favorece a dor da cintura pélvica. Sacroiliíte é marca das espondiloartrites, como a espondilite anquilosante (dor inflamatória, rigidez matinal). Fraturas do sacro ocorrem em traumas de alta energia e, por insuficiência, em idosos com osteoporose. O piriforme, que se origina da face pélvica, pode comprimir o nervo isquiático (síndrome do piriforme). Lesões das raízes sacrais S2 a S4 afetam o controle esfincteriano e o assoalho pélvico."
+  },
+  {
+    "key": "Coccyx",
+    "pt": "Cóccix",
+    "latim": "Os coccygis",
+    "tipo": "irregular",
+    "sinonimos": ["osso da cauda"],
+    "resumo": "Pequeno osso triangular formado pela fusão de três a cinco (geralmente quatro) vértebras coccígeas rudimentares. É o ponto de fixação posterior do assoalho pélvico e apoia parte do peso na posição sentada.",
+    "descricao": "O cóccix é o remanescente do esqueleto da cauda embrionária. A primeira vértebra coccígea (Co1) é a maior e pode permanecer separada das demais; tem uma base que se articula com o ápice do sacro, dois cornos coccígeos, que se dirigem para cima ao encontro dos cornos sacrais, e processos transversos rudimentares. As vértebras seguintes são nódulos ósseos progressivamente menores, sem arco vertebral, até o ápice.\n\nNo cóccix fixam-se parte do glúteo máximo (face posterior), o músculo isquiococcígeo (coccígeo) e, por meio do corpo (ligamento) anococcígeo, o levantador do ânus; também recebe fibras dos ligamentos sacrotuberal e sacroespinal. O filamento terminal da medula termina em sua face dorsal. O cóccix não sustenta peso em pé; na posição sentada, sobretudo com o tronco inclinado para trás, forma com os túberes isquiáticos um tripé de apoio e flexiona-se levemente para a frente. Na defecação e no parto, desloca-se para trás, aumentando a abertura inferior da pelve.",
+    "articulacoes": [
+      "Sacrococcígea — base do cóccix com o ápice do sacro; sínfise com disco fibrocartilagíneo fino, reforçada pelos ligamentos sacrococcígeos; pode ossificar-se com a idade",
+      "Intercoccígeas — entre os segmentos coccígeos, em geral fundidas no adulto"
+    ],
+    "acidentes": [
+      { "key": "Apex of coccyx", "pt": "Ápice do cóccix", "nota": "Extremidade inferior, arredondada; fixação do corpo (ligamento) anococcígeo e de fibras do esfíncter externo do ânus." },
+      { "key": "Base of coccyx", "pt": "Base do cóccix", "nota": "Face superior de Co1, com faceta oval para o ápice do sacro." },
+      { "key": "Coccygeal horn", "pt": "Corno coccígeo", "nota": "Processo articular rudimentar de Co1; une-se ao corno sacral pelo ligamento intercornual, completando o forame para o ramo posterior do nervo S5." },
+      { "key": "Coccyx", "pt": "Cóccix", "nota": "Palpável na fenda interglútea, cerca de 2,5 cm acima e atrás do ânus." }
+    ],
+    "palpacao": "Com o paciente em decúbito ventral ou lateral, palpe a fenda interglútea a partir dos cornos sacrais para baixo: o cóccix é sentido como uma pequena peça óssea curva, com o ápice voltado para a frente. Dor à pressão direta é o principal achado na coccidínia. A mobilidade da articulação sacrococcígea pode ser avaliada por via externa ou, por profissional habilitado, por toque retal.",
+    "clinica": "Coccidínia (coccigodinia): dor no cóccix que piora ao sentar e ao levantar-se da cadeira, comum após queda sentada, parto vaginal difícil ou microtrauma repetido (ciclismo, sentar prolongado em superfície dura); mais frequente em mulheres. O manejo inclui almofada com alívio central, correção da postura sentada, terapia manual e relaxamento dos músculos do assoalho pélvico, cuja tensão (levantador do ânus, isquiococcígeo) mantém a dor. Fraturas e luxações sacrococcígeas ocorrem por trauma direto."
+  }
+]

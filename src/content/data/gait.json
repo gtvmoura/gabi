@@ -1,0 +1,143 @@
+{
+  "fases": [
+    {
+      "fase": "Contato inicial",
+      "percentual": "0–2%",
+      "descricao": "Instante em que o pé toca o solo, normalmente pelo calcanhar. Inicia o apoio e o primeiro período de duplo apoio. O membro é posicionado para começar o rolamento do calcanhar; a força de reação do solo passa à frente do quadril e atrás do tornozelo.",
+      "musculos": [
+        { "key": "Tibialis anterior muscle", "papel": "mantém o tornozelo em posição neutra e prepara o controle excêntrico da descida do pé" },
+        { "key": "Extensor hallucis longus", "papel": "auxilia o tibial anterior a manter o antepé elevado" },
+        { "key": "Extensor digitorum longus", "papel": "auxilia a manter o antepé elevado" },
+        { "key": "Vastus lateralis muscle", "papel": "pré-ativação para estabilizar o joelho quase estendido" },
+        { "key": "Vastus medialis muscle", "papel": "pré-ativação para estabilizar o joelho quase estendido" },
+        { "key": "Vastus intermedius muscle", "papel": "pré-ativação para estabilizar o joelho" },
+        { "key": "Gluteus maximus muscle", "papel": "extensor do quadril — começa a conter o momento flexor do quadril e do tronco" },
+        { "key": "Long head of biceps femoris", "papel": "extensor do quadril; protege o joelho da hiperextensão" },
+        { "key": "Semitendinosus muscle", "papel": "extensor do quadril; protege o joelho da hiperextensão" },
+        { "key": "Semimembranosus muscle", "papel": "extensor do quadril; protege o joelho da hiperextensão" }
+      ],
+      "articulacoes": "Quadril em cerca de 20° de flexão; joelho próximo da extensão (0° a 5° de flexão); tornozelo em posição neutra; pelve rodada para a frente do lado do contato."
+    },
+    {
+      "fase": "Resposta à carga",
+      "percentual": "2–12%",
+      "descricao": "O peso é transferido rapidamente para o membro, até o outro pé sair do chão. O pé desce ao solo girando sobre o calcanhar (primeiro rolamento, do calcanhar) e o joelho flete para absorver o impacto. É a fase de maior demanda muscular, com predomínio de contrações excêntricas.",
+      "musculos": [
+        { "key": "Tibialis anterior muscle", "papel": "excêntrico — controla a queda do antepé e traciona a tíbia para a frente" },
+        { "key": "Extensor hallucis longus", "papel": "excêntrico — auxilia o controle da flexão plantar" },
+        { "key": "Extensor digitorum longus", "papel": "excêntrico — auxilia o controle da flexão plantar" },
+        { "key": "Vastus lateralis muscle", "papel": "excêntrico — controla a flexão do joelho e absorve o impacto (pico de atividade do quadríceps)" },
+        { "key": "Vastus medialis muscle", "papel": "excêntrico — controla a flexão do joelho e absorve o impacto" },
+        { "key": "Vastus intermedius muscle", "papel": "excêntrico — controla a flexão do joelho" },
+        { "key": "Gluteus maximus muscle", "papel": "estabiliza o quadril e o tronco contra a flexão; inicia a extensão do quadril" },
+        { "key": "Adductor magnus", "papel": "auxilia a extensão e a estabilização do quadril" },
+        { "key": "Gluteus medius muscle", "papel": "estabiliza a pelve no plano frontal, impedindo a queda do lado oposto" },
+        { "key": "Gluteus minimus muscle", "papel": "auxilia a estabilização da pelve no plano frontal" },
+        { "key": "Tensor fasciae latae", "papel": "auxilia a estabilização da pelve no plano frontal" },
+        { "key": "Tibialis posterior muscle", "papel": "excêntrico — controla a eversão do retropé (pronação)" },
+        { "key": "Erector spinae", "papel": "controla a inclinação anterior do tronco" }
+      ],
+      "articulacoes": "Quadril em cerca de 20° de flexão; joelho flete até 15°–20°; tornozelo em cerca de 5°–10° de flexão plantar, até o pé ficar plano no solo; retropé em eversão (pronação), com rotação medial da tíbia."
+    },
+    {
+      "fase": "Apoio médio",
+      "percentual": "12–31%",
+      "descricao": "Primeira metade do apoio simples: começa quando o pé oposto sai do solo e termina quando o peso está alinhado sobre o antepé. O corpo avança sobre o pé fixo, com a tíbia girando sobre o tálus (segundo rolamento, do tornozelo). O membro oposto está no balanço.",
+      "musculos": [
+        { "key": "Soleus muscle", "papel": "excêntrico — controla o avanço da tíbia sobre o pé e, com isso, estabiliza o joelho" },
+        { "key": "Medial head of gastrocnemius", "papel": "excêntrico — auxilia o controle do avanço da tíbia" },
+        { "key": "Lateral head of gastrocnemius", "papel": "excêntrico — auxilia o controle do avanço da tíbia" },
+        { "key": "Gluteus medius muscle", "papel": "estabiliza a pelve no plano frontal durante o apoio unipodal" },
+        { "key": "Gluteus minimus muscle", "papel": "estabiliza a pelve no plano frontal" },
+        { "key": "Tensor fasciae latae", "papel": "estabiliza a pelve no plano frontal" },
+        { "key": "Vastus lateralis muscle", "papel": "concêntrico apenas no início, estendendo o joelho; depois silencia" },
+        { "key": "Vastus medialis muscle", "papel": "concêntrico apenas no início, estendendo o joelho; depois silencia" },
+        { "key": "Tibialis posterior muscle", "papel": "sustenta o arco longitudinal medial e controla o retropé" },
+        { "key": "Fibularis longus muscle", "papel": "estabiliza o primeiro raio e o pé no plano frontal" }
+      ],
+      "articulacoes": "Quadril estende-se da flexão até a posição neutra; joelho estende-se até cerca de 5° de flexão; tornozelo passa da flexão plantar para cerca de 5° de dorsiflexão."
+    },
+    {
+      "fase": "Apoio terminal",
+      "percentual": "31–50%",
+      "descricao": "Segunda metade do apoio simples: começa com a elevação do calcanhar e termina quando o pé oposto toca o solo. O corpo avança à frente do pé de apoio, que gira sobre as cabeças dos metatarsais (terceiro rolamento, do antepé). O membro fica «para trás», o que alonga o passo.",
+      "musculos": [
+        { "key": "Soleus muscle", "papel": "pico de atividade — contém a dorsiflexão, estabiliza o tornozelo e permite a elevação do calcanhar" },
+        { "key": "Medial head of gastrocnemius", "papel": "pico de atividade — elevação do calcanhar e propulsão" },
+        { "key": "Lateral head of gastrocnemius", "papel": "pico de atividade — elevação do calcanhar e propulsão" },
+        { "key": "Tibialis posterior muscle", "papel": "inverte o retropé e trava o mediopé, tornando o pé uma alavanca rígida" },
+        { "key": "Flexor hallucis longus", "papel": "estabiliza o hálux e o arco medial; auxilia a flexão plantar" },
+        { "key": "Flexor digitorum longus", "papel": "estabiliza os dedos contra o solo; auxilia a flexão plantar" },
+        { "key": "Fibularis longus muscle", "papel": "mantém o primeiro metatarsal apoiado e estabiliza o pé lateralmente" },
+        { "key": "Fibularis brevis muscle", "papel": "estabiliza o pé lateralmente" },
+        { "key": "Tensor fasciae latae", "papel": "controla a extensão do quadril e estabiliza a pelve" }
+      ],
+      "articulacoes": "Quadril em extensão máxima (coxa cerca de 20° atrás da vertical); joelho próximo da extensão (cerca de 5° de flexão), começando a fletir no final; tornozelo em cerca de 10° de dorsiflexão com o calcanhar elevado; metatarsofalângicas em cerca de 30° de extensão."
+    },
+    {
+      "fase": "Pré-balanço",
+      "percentual": "50–62%",
+      "descricao": "Segundo período de duplo apoio: vai do contato inicial do pé oposto até a saída dos dedos do solo. O peso é transferido para o outro membro e o membro de trás é preparado para o balanço. O joelho flete de forma predominantemente passiva.",
+      "musculos": [
+        { "key": "Adductor longus", "papel": "inicia a flexão do quadril e controla a transferência de peso para o outro lado" },
+        { "key": "Rectus femoris muscle", "papel": "flete o quadril e controla excentricamente a velocidade de flexão do joelho" },
+        { "key": "Iliacus muscle", "papel": "inicia a flexão do quadril (avanço da coxa)" },
+        { "key": "Gracilis muscle", "papel": "auxilia a flexão do quadril e do joelho" },
+        { "key": "Sartorius muscle", "papel": "auxilia a flexão do quadril e do joelho" },
+        { "key": "Soleus muscle", "papel": "atividade residual decrescente — a flexão plantar ocorre com o membro já sendo descarregado" },
+        { "key": "Medial head of gastrocnemius", "papel": "atividade residual decrescente; contribui para iniciar a flexão do joelho" },
+        { "key": "Tibialis anterior muscle", "papel": "começa a se ativar no final, preparando a dorsiflexão do balanço" }
+      ],
+      "articulacoes": "Quadril passa da extensão para a posição neutra; joelho flete rapidamente até cerca de 40°; tornozelo em cerca de 15° de flexão plantar; metatarsofalângicas em cerca de 60° de extensão."
+    },
+    {
+      "fase": "Balanço inicial",
+      "percentual": "62–75%",
+      "descricao": "Começa quando o pé deixa o solo e termina quando o pé em balanço fica ao lado do pé de apoio. Os objetivos são liberar o pé do chão e acelerar o membro para a frente.",
+      "musculos": [
+        { "key": "Iliacus muscle", "papel": "concêntrico — flete o quadril e avança a coxa" },
+        { "key": "Sartorius muscle", "papel": "concêntrico — flete o quadril e o joelho" },
+        { "key": "Gracilis muscle", "papel": "concêntrico — flete o quadril e o joelho" },
+        { "key": "Adductor longus", "papel": "auxilia a flexão do quadril" },
+        { "key": "Short head of biceps femoris", "papel": "concêntrico — flete o joelho para liberar o pé" },
+        { "key": "Tibialis anterior muscle", "papel": "concêntrico — dorsiflexão para liberar o pé" },
+        { "key": "Extensor hallucis longus", "papel": "concêntrico — dorsiflexão e extensão do hálux" },
+        { "key": "Extensor digitorum longus", "papel": "concêntrico — dorsiflexão e extensão dos dedos" }
+      ],
+      "articulacoes": "Quadril flete até cerca de 15°; joelho flete até cerca de 60° (pico de flexão do ciclo); tornozelo passa de 15° para cerca de 5° de flexão plantar."
+    },
+    {
+      "fase": "Balanço médio",
+      "percentual": "75–87%",
+      "descricao": "Vai do momento em que o pé em balanço cruza o membro de apoio até a tíbia ficar vertical. O membro avança principalmente por inércia, como um pêndulo, com pouca atividade muscular; o ponto crítico é manter o pé afastado do solo.",
+      "musculos": [
+        { "key": "Tibialis anterior muscle", "papel": "mantém o tornozelo em posição neutra, garantindo a liberação do pé" },
+        { "key": "Extensor hallucis longus", "papel": "auxilia a manter a dorsiflexão" },
+        { "key": "Extensor digitorum longus", "papel": "auxilia a manter a dorsiflexão" },
+        { "key": "Iliacus muscle", "papel": "atividade leve no início — o quadril continua fletindo principalmente por inércia" },
+        { "key": "Long head of biceps femoris", "papel": "começa a se ativar no final, para frear o membro" },
+        { "key": "Semitendinosus muscle", "papel": "começa a se ativar no final, para frear o membro" },
+        { "key": "Semimembranosus muscle", "papel": "começa a se ativar no final, para frear o membro" }
+      ],
+      "articulacoes": "Quadril em cerca de 25° de flexão (pico); joelho estende-se passivamente até cerca de 25° de flexão; tornozelo em posição neutra."
+    },
+    {
+      "fase": "Balanço terminal",
+      "percentual": "87–100%",
+      "descricao": "Vai da tíbia vertical até o pé tocar o solo. O avanço do membro é desacelerado e o joelho completa a extensão, posicionando o membro para um novo contato inicial e definindo o comprimento do passo.",
+      "musculos": [
+        { "key": "Long head of biceps femoris", "papel": "excêntrico — desacelera a flexão do quadril e a extensão do joelho (pico de atividade dos isquiotibiais)" },
+        { "key": "Semitendinosus muscle", "papel": "excêntrico — desacelera a flexão do quadril e a extensão do joelho" },
+        { "key": "Semimembranosus muscle", "papel": "excêntrico — desacelera a flexão do quadril e a extensão do joelho" },
+        { "key": "Vastus lateralis muscle", "papel": "concêntrico — completa a extensão do joelho e prepara a absorção do impacto" },
+        { "key": "Vastus medialis muscle", "papel": "concêntrico — completa a extensão do joelho e prepara a absorção do impacto" },
+        { "key": "Vastus intermedius muscle", "papel": "concêntrico — completa a extensão do joelho" },
+        { "key": "Tibialis anterior muscle", "papel": "mantém o tornozelo neutro, preparando o contato pelo calcanhar" },
+        { "key": "Extensor digitorum longus", "papel": "auxilia a manter o tornozelo neutro" },
+        { "key": "Gluteus maximus muscle", "papel": "começa a se ativar no final, preparando a aceitação do peso" },
+        { "key": "Gluteus medius muscle", "papel": "começa a se ativar no final, preparando a estabilização da pelve" }
+      ],
+      "articulacoes": "Quadril em cerca de 20° de flexão; joelho estende-se até próximo de 0°–5° de flexão; tornozelo em posição neutra."
+    }
+  ]
+}

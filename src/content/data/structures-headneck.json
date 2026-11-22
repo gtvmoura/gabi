@@ -1,0 +1,37 @@
+[
+  {
+    "key": "Epicranial aponeurosis",
+    "pt": "Aponeurose epicrânica (gálea aponeurótica)",
+    "latim": "Galea aponeurotica (Aponeurosis epicranialis)",
+    "resumo": "Lâmina tendínea larga e resistente que recobre a calvária e une o ventre frontal ao ventre occipital do músculo occipitofrontal; lateralmente recebe o músculo temporoparietal e continua-se com a fáscia temporal. É a terceira camada do couro cabeludo (pele, tela subcutânea densa, aponeurose, tecido conjuntivo frouxo e pericrânio), firmemente aderida à pele e separada do pericrânio por tecido frouxo, o que permite o deslizamento do couro cabeludo sobre o crânio.",
+    "clinica": "Feridas que seccionam a aponeurose no plano coronal ficam entreabertas, pela tração em sentidos opostos dos ventres frontal e occipital, e precisam de sutura por planos. O tecido conjuntivo frouxo subaponeurótico é a 'zona perigosa' do couro cabeludo: sangue e infecção espalham-se por ele e podem atingir as pálpebras (equimose periorbital), já que o ventre frontal não tem inserção óssea. A tensão da aponeurose e dos seus ventres musculares participa da cefaleia do tipo tensional."
+  },
+  {
+    "key": "Common tendinous ring",
+    "pt": "Anel tendíneo comum",
+    "latim": "Anulus tendineus communis",
+    "resumo": "Anel fibroso situado no ápice da órbita, que circunda o canal óptico e a parte medial da fissura orbital superior. Dele se originam os quatro músculos retos do bulbo do olho (superior, inferior, medial e lateral). Atravessam o anel o nervo óptico e a artéria oftálmica (pelo canal óptico) e os ramos superior e inferior do nervo oculomotor, o nervo nasociliar e o nervo abducente (pela fissura orbital superior); os nervos troclear, frontal e lacrimal passam por fora dele. Também chamado anel de Zinn.",
+    "clinica": "Como os retos superior e medial se prendem junto à bainha do nervo óptico, a neurite óptica causa dor ao movimentar os olhos. Lesões do ápice da órbita comprometem ao mesmo tempo a visão e a motricidade ocular (síndrome do ápice orbital)."
+  },
+  {
+    "key": "Trochlea of superior oblique muscle",
+    "pt": "Tróclea do músculo oblíquo superior",
+    "latim": "Trochlea musculi obliqui superioris",
+    "resumo": "Pequena alça fibrocartilagínea fixada à fóvea (ou espinha) troclear do osso frontal, na parte anteromedial do teto da órbita. Funciona como polia: o tendão do músculo oblíquo superior passa por ela, envolto por uma bainha sinovial, e muda de direção para trás e lateralmente até o bulbo do olho. É essa mudança de direção que explica as ações do músculo (depressão, abdução e intorsão).",
+    "clinica": "Trauma ou inflamação da região superomedial da órbita pode restringir o deslizamento do tendão (síndrome de Brown), limitando a elevação do olho em adução. A trocleíte causa dor no ângulo superomedial da órbita, que piora com o movimento ocular."
+  },
+  {
+    "key": "Superior tarsus",
+    "pt": "Tarso superior",
+    "latim": "Tarsus superior",
+    "resumo": "Lâmina de tecido conjuntivo denso, em forma de meia-lua e com cerca de 10 mm de altura no centro, que constitui o esqueleto fibroso da pálpebra superior e lhe dá forma e firmeza. Em sua face anterior insere-se a aponeurose do músculo levantador da pálpebra superior e em sua borda superior o músculo tarsal superior (liso, de inervação simpática). Prende-se às margens da órbita pelos ligamentos palpebrais medial e lateral e pelo septo orbital, e contém as glândulas tarsais (de Meibômio), cuja secreção lipídica retarda a evaporação da lágrima.",
+    "clinica": "A obstrução de uma glândula tarsal produz o calázio; a infecção aguda, o hordéolo interno. A paralisia do músculo tarsal superior na síndrome de Horner causa ptose parcial."
+  },
+  {
+    "key": "Inferior tarsus",
+    "pt": "Tarso inferior",
+    "latim": "Tarsus inferior",
+    "resumo": "Lâmina de tecido conjuntivo denso que forma o esqueleto fibroso da pálpebra inferior; é mais estreita que o tarso superior (cerca de 5 mm de altura). Fixa-se às margens da órbita pelos ligamentos palpebrais medial e lateral e pelo septo orbital e contém glândulas tarsais. A parte palpebral do músculo orbicular do olho recobre sua face anterior.",
+    "clinica": "Na paralisia facial, a perda do tônus do orbicular do olho deixa a pálpebra inferior caída e evertida (ectrópio paralítico), afastando o ponto lacrimal do bulbo do olho e causando lacrimejamento (epífora) e exposição da córnea."
+  }
+]

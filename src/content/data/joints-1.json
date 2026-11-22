@@ -1,0 +1,985 @@
+{
+ "articulacoes": [
+  {
+   "key": "Glenohumeral joint",
+   "pt": "Articulação do ombro (glenoumeral)",
+   "art": "ombro",
+   "tipo": "Sinovial esferoide (triaxial)",
+   "graus": 3,
+   "resumo": "Articulação entre a cabeça do úmero e a cavidade glenoidal da escápula. É a articulação mais móvel do corpo e, por isso mesmo, a que mais sofre luxações: a estabilidade depende muito mais de músculos (manguito rotador) e cápsula do que do encaixe ósseo.\n\nA elevação completa do braço é um movimento do complexo do ombro: cerca de 120° ocorrem na glenoumeral e 60° na escapulotorácica (ritmo escapuloumeral de aproximadamente 2:1), com participação das articulações esternoclavicular e acromioclavicular.",
+   "superficies": "Cabeça do úmero (cerca de um terço de esfera, voltada medial, superior e posteriormente; retrovertida em torno de 30°) e cavidade glenoidal da escápula, rasa e pequena, ampliada pelo lábio glenoidal. Apenas cerca de um quarto a um terço da cabeça está em contato com a glenoide em cada posição. Ambas as superfícies são revestidas por cartilagem hialina.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–180°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "O valor de 180° é do complexo do ombro (glenoumeral + cintura escapular); na glenoumeral isolada, cerca de 120°. Limitada pela tensão da cápsula posterior/inferior e dos extensores."
+    },
+    {
+     "mov": "extensao",
+     "adm": "0–45°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–45°; AAOS: 0–60°. Limitada pela cápsula anterior e pelo ligamento coracoumeral."
+    },
+    {
+     "mov": "abducao",
+     "adm": "0–180°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Exige rotação lateral do úmero para que o tubérculo maior passe sob o arco coracoacromial. Arco doloroso entre 60° e 120° sugere dor subacromial."
+    },
+    {
+     "mov": "aducao",
+     "adm": "0–40°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Medida com o braço passando à frente do tronco (Marques)."
+    },
+    {
+     "mov": "rot_medial",
+     "adm": "0–90°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Medida com o ombro a 90° de abdução e cotovelo a 90° (Marques: 0–90°; AAOS: 0–70°). Limitada pela cápsula posterior."
+    },
+    {
+     "mov": "rot_lateral",
+     "adm": "0–90°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Medida a 90° de abdução. Limitada pela cápsula anterior e pelos ligamentos glenoumerais; é o primeiro movimento a se perder no padrão capsular."
+    },
+    {
+     "mov": "abducao_horizontal",
+     "adm": "0–45°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "A partir de 90° de abdução (valor de Magee)."
+    },
+    {
+     "mov": "aducao_horizontal",
+     "adm": "0–130°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "A partir de 90° de abdução (valor de Magee). Dor no fim do movimento sugere acometimento acromioclavicular."
+    },
+    {
+     "mov": "circunducao",
+     "adm": "combinação dos anteriores",
+     "plano": "vários planos",
+     "eixo": "vários eixos"
+    }
+   ],
+   "estabilidade": "Estática: lábio glenoidal (aprofunda a cavidade), cápsula articular, ligamentos glenoumerais superior, médio e inferior, ligamento coracoumeral e a pressão intra-articular negativa. O ligamento glenoumeral inferior é o principal freio à translação anterior com o braço abduzido e rodado lateralmente.\n\nDinâmica: manguito rotador (supraespinal, infraespinal, redondo menor e subescapular), que centraliza e comprime a cabeça do úmero contra a glenoide; cabeça longa do bíceps; deltoide; e os músculos escapulares (serrátil anterior, trapézio, romboides), que posicionam a glenoide sob a cabeça do úmero.",
+   "posicaoRepouso": "Cerca de 55° de abdução e 30° de adução horizontal (plano da escápula).",
+   "posicaoFechada": "Abdução completa com rotação lateral.",
+   "padraoCapsular": "Rotação lateral > abdução > rotação medial.",
+   "sensacaoFinal": "Firme (estiramento capsular/ligamentar) em todos os movimentos.",
+   "clinica": "Luxação anterior (mais de 90% das luxações): mecanismo de abdução com rotação lateral; pode associar-se a lesão de Bankart (lábio anteroinferior), lesão de Hill-Sachs (impactação posterolateral da cabeça do úmero) e lesão do nervo axilar. A reabilitação enfatiza controle do manguito e dos escapulares e evita, no início, a combinação abdução + rotação lateral.\n\nCapsulite adesiva (ombro congelado): rigidez dolorosa com padrão capsular típico e perda de movimento ativo e passivo. Síndrome do impacto/dor subacromial e tendinopatias e rupturas do manguito rotador (principalmente supraespinal). Lesões SLAP do lábio superior em arremessadores. Osteoartrose glenoumeral."
+  },
+  {
+   "key": "Acromioclavicular joint",
+   "pt": "Articulação acromioclavicular",
+   "art": "escapula",
+   "tipo": "Sinovial plana",
+   "graus": 3,
+   "resumo": "Pequena articulação entre a extremidade acromial da clavícula e o acrômio. Permite os ajustes finos da escápula sobre o tórax e transmite forças do membro superior para a clavícula.",
+   "superficies": "Face articular acromial da clavícula e face articular clavicular do acrômio, ambas revestidas por fibrocartilagem; um disco articular incompleto pode estar presente.",
+   "movimentos": [
+    {
+     "mov": "rot_superior",
+     "adm": "até cerca de 30°",
+     "plano": "frontal (plano da escápula)",
+     "eixo": "anteroposterior",
+     "nota": "Ajuste da escápula sobre a clavícula nas fases finais da elevação do braço (Neumann)."
+    },
+    {
+     "mov": "rot_inferior",
+     "adm": "retorno da rotação superior",
+     "plano": "frontal (plano da escápula)",
+     "eixo": "anteroposterior"
+    },
+    {
+     "mov": "outro",
+     "adm": "5–30°",
+     "plano": "transversal e sagital",
+     "eixo": "vertical e laterolateral",
+     "nota": "Ajustes de rotação medial/lateral e de inclinação anterior/posterior da escápula, que a mantêm acoplada à curvatura do tórax."
+    }
+   ],
+   "estabilidade": "Cápsula reforçada pelos ligamentos acromioclaviculares (controlam o deslocamento horizontal) e, principalmente, pelos ligamentos coracoclaviculares – conoide e trapezoide – que impedem a subida da clavícula em relação ao acrômio. Reforço dinâmico das inserções do deltoide e do trapézio.",
+   "posicaoRepouso": "Braço ao lado do corpo, em posição anatômica.",
+   "posicaoFechada": "Abdução do ombro a 90°.",
+   "padraoCapsular": "Dor nos extremos de movimento, especialmente adução horizontal e elevação completa.",
+   "sensacaoFinal": "Firme.",
+   "clinica": "Luxação acromioclavicular (\"separação do ombro\"): queda sobre a ponta do ombro com o braço aduzido. Classificação de Rockwood (I a VI): no tipo I há entorse dos ligamentos acromioclaviculares; no II, ruptura deles com coracoclaviculares íntegros; do III em diante, ruptura também dos coracoclaviculares, com elevação aparente da clavícula (\"sinal da tecla\"). Artrose acromioclavicular é frequente e dói no arco final da elevação (170–180°) e na adução horizontal."
+  },
+  {
+   "key": "Sternoclavicular joint",
+   "pt": "Articulação esternoclavicular",
+   "art": "escapula",
+   "tipo": "Sinovial selar (funcionalmente triaxial), com disco articular",
+   "graus": 3,
+   "resumo": "Única articulação óssea entre o membro superior e o esqueleto axial. Todo movimento da escápula sobre o tórax implica movimento da clavícula nesta articulação.",
+   "superficies": "Extremidade esternal da clavícula, incisura clavicular do manúbrio do esterno e a primeira cartilagem costal. Um disco articular fibrocartilagíneo completo divide a cavidade em dois compartimentos e absorve as forças transmitidas pela clavícula.",
+   "movimentos": [
+    {
+     "mov": "elevacao",
+     "adm": "0–45°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Limitada pelo ligamento costoclavicular (valores de Neumann)."
+    },
+    {
+     "mov": "depressao",
+     "adm": "0–10°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Limitada pelo ligamento interclavicular e pela primeira costela."
+    },
+    {
+     "mov": "protracao",
+     "adm": "0–15 a 30°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Limitada pelo ligamento esternoclavicular posterior e pelo costoclavicular."
+    },
+    {
+     "mov": "retracao",
+     "adm": "0–15 a 30°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Limitada pelo ligamento esternoclavicular anterior."
+    },
+    {
+     "mov": "outro",
+     "adm": "40–50°",
+     "plano": "sagital",
+     "eixo": "eixo longitudinal da clavícula",
+     "nota": "Rotação posterior da clavícula, que acontece passivamente durante a elevação do braço acima de 90°, tracionada pelos ligamentos coracoclaviculares."
+    }
+   ],
+   "estabilidade": "Muito estável apesar da pouca congruência óssea: disco articular, ligamentos esternoclaviculares anterior e posterior, ligamento interclavicular e ligamento costoclavicular (o principal). Reforço dinâmico de esternocleidomastóideo, subclávio e esterno-hióideo/esternotireóideo.",
+   "posicaoRepouso": "Braço ao lado do corpo.",
+   "posicaoFechada": "Elevação máxima do braço (rotação posterior completa da clavícula).",
+   "padraoCapsular": "Dor nos extremos de movimento.",
+   "sensacaoFinal": "Firme.",
+   "clinica": "É tão estável que a clavícula costuma fraturar antes de a articulação luxar. A luxação anterior é a mais comum; a posterior é rara, mas é uma urgência, pois pode comprimir traqueia, esôfago e grandes vasos no mediastino superior. Em menores de 25 anos, o que parece luxação pode ser descolamento epifisário medial da clavícula. Local de artrose e de artrites."
+  },
+  {
+   "key": "Elbow joint",
+   "pt": "Articulação do cotovelo",
+   "art": "cotovelo",
+   "tipo": "Sinovial composta; funciona como gínglimo (dobradiça) uniaxial",
+   "graus": 1,
+   "resumo": "Três articulações dentro de uma única cápsula: umeroulnar, umerorradial e radioulnar proximal. As duas primeiras fazem flexão e extensão; a radioulnar proximal participa da pronação e supinação do antebraço.",
+   "superficies": "Tróclea do úmero com a incisura troclear da ulna; capítulo do úmero com a fóvea da cabeça do rádio; circunferência articular da cabeça do rádio com a incisura radial da ulna.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–145°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–145°; AAOS: 0–150°. Sensação final macia (aproximação das massas musculares do braço e antebraço)."
+    },
+    {
+     "mov": "extensao",
+     "adm": "145–0°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Sensação final dura (olécrano na fossa do olécrano). Hiperextensão de 5–10° é comum, sobretudo em mulheres e crianças."
+    }
+   ],
+   "estabilidade": "Estática: congruência óssea umeroulnar (principal no cotovelo estendido), ligamento colateral ulnar (principal freio ao valgo, sobretudo a banda anterior) e complexo ligamentar lateral (colateral radial, colateral ulnar lateral e ligamento anular), que resiste ao varo e à instabilidade rotatória posterolateral.\n\nDinâmica: flexores-pronadores (reforçam o lado medial), extensores do punho e ancôneo (lado lateral), bíceps, braquial e tríceps.",
+   "posicaoRepouso": "Umeroulnar: 70° de flexão com 10° de supinação. Umerorradial: extensão e supinação completas.",
+   "posicaoFechada": "Umeroulnar: extensão com supinação. Umerorradial: 90° de flexão com 5° de supinação.",
+   "padraoCapsular": "Flexão mais limitada que a extensão.",
+   "sensacaoFinal": "Flexão: macia (tecidos moles). Extensão: dura (osso com osso).",
+   "clinica": "Ângulo de carregamento: valgo fisiológico de cerca de 5–15° em extensão, em geral maior nas mulheres. Epicondilite lateral (\"cotovelo de tenista\", origem do extensor radial curto do carpo) e medial (\"cotovelo de golfista\"). Luxação posterior (queda sobre a mão espalmada). Lesão do ligamento colateral ulnar em arremessadores. Pronação dolorosa da criança (subluxação da cabeça do rádio). Rigidez pós-traumática é muito comum: o cotovelo tolera mal imobilização prolongada. Neuropatia do nervo ulnar no túnel cubital."
+  },
+  {
+   "key": "Humero-ulnar joint",
+   "pt": "Articulação umeroulnar",
+   "tipo": "Sinovial gínglimo (uniaxial)",
+   "graus": 1,
+   "resumo": "Parte do cotovelo entre a tróclea do úmero e a incisura troclear da ulna. É a principal responsável pela flexão-extensão e pela estabilidade óssea do cotovelo.",
+   "superficies": "Tróclea do úmero (em carretel) e incisura troclear da ulna, entre o olécrano e o processo coronoide.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–145°",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    },
+    {
+     "mov": "extensao",
+     "adm": "145–0°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "O eixo é levemente oblíquo, o que gera o ângulo de carregamento em extensão."
+    }
+   ],
+   "posicaoRepouso": "70° de flexão e 10° de supinação.",
+   "posicaoFechada": "Extensão com supinação.",
+   "padraoCapsular": "Flexão > extensão.",
+   "clinica": "Fraturas do olécrano e do processo coronoide comprometem a estabilidade. Na técnica articular de Kaltenborn, a tração é feita perpendicular ao plano de tratamento da incisura troclear (cerca de 45° em relação à diáfise da ulna)."
+  },
+  {
+   "key": "Humeroradial joint",
+   "pt": "Articulação umerorradial",
+   "tipo": "Sinovial esferoide pela forma, mas limitada a dois eixos pelo ligamento anular e pela ulna",
+   "graus": 2,
+   "resumo": "Parte do cotovelo entre o capítulo do úmero e a cabeça do rádio. Acompanha a flexão-extensão e gira durante a pronação-supinação; transmite parte da carga axial da mão para o úmero.",
+   "superficies": "Capítulo do úmero (convexo) e fóvea articular da cabeça do rádio (côncava).",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–145°",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    },
+    {
+     "mov": "extensao",
+     "adm": "145–0°",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    },
+    {
+     "mov": "pronacao",
+     "adm": "0–90°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "A cabeça do rádio gira sobre o capítulo."
+    },
+    {
+     "mov": "supinacao",
+     "adm": "0–90°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)"
+    }
+   ],
+   "posicaoRepouso": "Extensão e supinação completas.",
+   "posicaoFechada": "90° de flexão com 5° de supinação.",
+   "padraoCapsular": "Flexão, extensão, supinação, pronação.",
+   "clinica": "Fraturas da cabeça do rádio (queda sobre a mão espalmada) limitam a pronossupinação e a extensão. Dor lateral do cotovelo pode vir desta articulação (plica sinovial, condropatia), simulando epicondilite."
+  },
+  {
+   "key": "Proximal radio-ulnar joint",
+   "pt": "Articulação radioulnar proximal",
+   "art": "radioulnar",
+   "tipo": "Sinovial trocoide (pivô), uniaxial",
+   "graus": 1,
+   "resumo": "Articulação entre a cabeça do rádio e a incisura radial da ulna, dentro da cápsula do cotovelo. Junto com a radioulnar distal, permite a pronação e a supinação: o rádio gira em torno da ulna.",
+   "superficies": "Circunferência articular da cabeça do rádio (convexa) e anel osteofibroso formado pela incisura radial da ulna e pelo ligamento anular.",
+   "movimentos": [
+    {
+     "mov": "pronacao",
+     "adm": "0–90°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Marques: 0–90°; AAOS: 0–80°. Medir com o cotovelo a 90° junto ao tronco, para eliminar a rotação do ombro. Eixo: da cabeça do rádio à cabeça da ulna."
+    },
+    {
+     "mov": "supinacao",
+     "adm": "0–90°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Marques: 0–90°; AAOS: 0–80°."
+    }
+   ],
+   "estabilidade": "Ligamento anular (principal), ligamento quadrado, membrana interóssea e corda oblíqua.",
+   "posicaoRepouso": "70° de flexão do cotovelo e 35° de supinação.",
+   "posicaoFechada": "5° de supinação.",
+   "padraoCapsular": "Supinação e pronação igualmente limitadas.",
+   "sensacaoFinal": "Firme.",
+   "clinica": "Pronação dolorosa (\"cotovelo de babá\"): em crianças pequenas, a tração do antebraço faz a cabeça do rádio escapar parcialmente do ligamento anular. Fratura-luxação de Monteggia: fratura da ulna com luxação da cabeça do rádio."
+  },
+  {
+   "key": "Distal radio-ulnar joint",
+   "pt": "Articulação radioulnar distal",
+   "art": "radioulnar",
+   "tipo": "Sinovial trocoide (pivô), uniaxial",
+   "graus": 1,
+   "resumo": "Articulação entre a cabeça da ulna e a incisura ulnar do rádio. Na pronação, a extremidade distal do rádio roda e cruza à frente da ulna, levando a mão consigo.",
+   "superficies": "Cabeça da ulna (convexa) e incisura ulnar do rádio (côncava). O disco articular une o rádio ao processo estiloide da ulna e separa esta articulação da radiocarpal.",
+   "movimentos": [
+    {
+     "mov": "pronacao",
+     "adm": "0–90°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)"
+    },
+    {
+     "mov": "supinacao",
+     "adm": "0–90°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)"
+    }
+   ],
+   "estabilidade": "Complexo da fibrocartilagem triangular (disco articular e ligamentos radioulnares dorsal e palmar) é o principal estabilizador; auxiliam o pronador quadrado, o tendão do extensor ulnar do carpo e sua bainha, e a membrana interóssea.",
+   "posicaoRepouso": "10° de supinação.",
+   "posicaoFechada": "5° de supinação.",
+   "padraoCapsular": "Dor nos extremos da rotação.",
+   "sensacaoFinal": "Firme.",
+   "clinica": "Lesões do complexo da fibrocartilagem triangular causam dor no lado ulnar do punho, pior em pronossupinação com carga e em desvio ulnar. Instabilidade após fratura distal do rádio; fratura-luxação de Galeazzi (fratura do rádio com luxação radioulnar distal); lesão de Essex-Lopresti (fratura da cabeça do rádio com ruptura da membrana interóssea e da radioulnar distal)."
+  },
+  {
+   "key": "Radio-ulnar syndesmoses",
+   "pt": "Sindesmose radioulnar",
+   "tipo": "Fibrosa (sindesmose)",
+   "graus": 0,
+   "resumo": "União fibrosa entre as diáfises do rádio e da ulna, feita pela membrana interóssea do antebraço e pela corda oblíqua. Mantém os dois ossos unidos durante a pronossupinação, transmite carga do rádio para a ulna e dá origem a músculos profundos do antebraço.",
+   "movimentos": [
+    {
+     "mov": "estabilizacao",
+     "adm": "sem movimento próprio",
+     "plano": "—",
+     "eixo": "—",
+     "nota": "Acompanha a rotação do rádio; a membrana fica mais tensa em posição neutra/leve supinação."
+    }
+   ],
+   "clinica": "Ruptura na lesão de Essex-Lopresti, com migração proximal do rádio."
+  },
+  {
+   "key": "Radiocarpal joint",
+   "pt": "Articulação radiocarpal (punho)",
+   "art": "punho",
+   "tipo": "Sinovial elipsoide (condilar), biaxial",
+   "graus": 2,
+   "resumo": "Articulação entre o rádio (com o disco articular) e a fileira proximal do carpo. Os movimentos do punho são sempre a soma da radiocarpal com a mediocarpal.",
+   "superficies": "Face articular carpal do rádio e disco articular radioulnar (superfície côncava) com escafoide, semilunar e piramidal (superfície convexa). A ulna não se articula diretamente com o carpo. A face do rádio inclina-se em direção ulnar (cerca de 25°) e palmar (cerca de 10°).",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–90°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–90°; AAOS: 0–80°. Segundo Kapandji, maior contribuição da radiocarpal (cerca de 50°) que da mediocarpal (35°). Medir com os dedos relaxados."
+    },
+    {
+     "mov": "extensao",
+     "adm": "0–70°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Segundo Kapandji, maior contribuição da mediocarpal (50°) que da radiocarpal (35°). Limitada pelos ligamentos radiocarpais palmares."
+    },
+    {
+     "mov": "desvio_radial",
+     "adm": "0–20°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Sensação final dura: escafoide contra o processo estiloide do rádio."
+    },
+    {
+     "mov": "desvio_ulnar",
+     "adm": "0–45°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Marques: 0–45°; AAOS: 0–30°. Maior que o radial porque o estiloide da ulna é mais curto."
+    },
+    {
+     "mov": "circunducao",
+     "adm": "combinação dos anteriores",
+     "plano": "vários planos",
+     "eixo": "vários eixos"
+    }
+   ],
+   "estabilidade": "Estática: ligamentos radiocarpais palmares (os mais fortes: radioescafocapitato e radiolunares), radiocarpal dorsal, ulnocarpais e colaterais. Dinâmica: tendões dos flexores e extensores do carpo. A posição funcional do punho é de 20–30° de extensão com leve desvio ulnar, a que dá maior força de preensão.",
+   "posicaoRepouso": "Neutra com leve desvio ulnar.",
+   "posicaoFechada": "Extensão com desvio radial.",
+   "padraoCapsular": "Flexão e extensão igualmente limitadas.",
+   "sensacaoFinal": "Firme em flexão, extensão e desvio ulnar; dura em desvio radial.",
+   "clinica": "Fratura distal do rádio (Colles: desvio dorsal, deformidade em \"dorso de garfo\"; Smith: desvio palmar) por queda sobre a mão espalmada. Fratura do escafoide: dor na tabaqueira anatômica e risco de necrose avascular do polo proximal. Síndrome do túnel do carpo. Punho reumatoide. Na reabilitação, recuperar a extensão do punho é prioridade para a preensão."
+  },
+  {
+   "key": "Intercarpal joints",
+   "pt": "Articulações intercarpais (inclui a mediocarpal)",
+   "tipo": "Sinoviais planas; a mediocarpal funciona como articulação composta, em conjunto com a radiocarpal",
+   "graus": 2,
+   "resumo": "Articulações entre os ossos do carpo. A mais importante é a mediocarpal, entre a fileira proximal (escafoide, semilunar, piramidal) e a distal (trapézio, trapezoide, capitato, hamato), responsável por boa parte da flexão, da extensão e dos desvios do punho. A articulação do pisiforme com o piramidal é separada.",
+   "superficies": "Mediocarpal: cabeça do capitato e hamato encaixam-se na concavidade formada por escafoide, semilunar e piramidal; lateralmente, o escafoide articula-se com trapézio e trapezoide. A fileira proximal não recebe inserções tendíneas e se comporta como um \"segmento intercalado\", controlado só por ligamentos.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "cerca de 35° dos 85–90° do punho",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Estimativa de Kapandji."
+    },
+    {
+     "mov": "extensao",
+     "adm": "cerca de 50° dos 70–85° do punho",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Estimativa de Kapandji."
+    },
+    {
+     "mov": "desvio_radial",
+     "adm": "parte dos 20° do punho",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "No desvio radial a fileira proximal flexiona; no ulnar, estende."
+    },
+    {
+     "mov": "desvio_ulnar",
+     "adm": "parte dos 30–45° do punho",
+     "plano": "frontal",
+     "eixo": "anteroposterior"
+    }
+   ],
+   "estabilidade": "Ligamentos interósseos (escafolunar e lunopiramidal são os essenciais), ligamentos intercarpais palmares e dorsais.",
+   "posicaoRepouso": "Neutra ou leve flexão, com desvio ulnar.",
+   "posicaoFechada": "Extensão com desvio ulnar.",
+   "padraoCapsular": "Flexão e extensão igualmente limitadas.",
+   "clinica": "Instabilidades do carpo: ruptura do ligamento escafolunar leva à instabilidade em DISI (semilunar em extensão) e, com o tempo, ao colapso avançado escafolunar (SLAC); ruptura do lunopiramidal leva a VISI (semilunar em flexão). Luxação perilunar e do semilunar em traumas de alta energia."
+  },
+  {
+   "key": "Carpometacarpal joints",
+   "pt": "Articulações carpometacarpais",
+   "art": "polegar",
+   "tipo": "Polegar: sinovial selar (biaxial). 2ª a 5ª: sinoviais planas",
+   "graus": 2,
+   "resumo": "Articulações entre a fileira distal do carpo e as bases dos metacarpais. A do polegar (trapeziometacarpal) é a mais importante: é ela que permite a oposição. A 2ª e a 3ª são praticamente imóveis e formam o pilar fixo da mão; a 4ª e a 5ª são móveis e permitem o arqueamento da palma na preensão.\n\nOs movimentos e amplitudes abaixo referem-se à carpometacarpal do polegar. Atenção: os movimentos do polegar ocorrem em planos girados 90° em relação aos dos dedos – flexão e extensão acontecem no plano da palma; abdução e adução, perpendiculares à palma.",
+   "superficies": "Polegar: trapézio e base do 1º metacarpal, ambos em forma de sela, com cápsula frouxa. 2º metacarpal com trapézio, trapezoide e capitato; 3º com capitato; 4º com capitato e hamato; 5º com hamato.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–15°",
+     "plano": "frontal (plano da palma)",
+     "eixo": "anteroposterior",
+     "nota": "O polegar desliza sobre a palma em direção ulnar."
+    },
+    {
+     "mov": "extensao",
+     "adm": "0–70°",
+     "plano": "frontal (plano da palma)",
+     "eixo": "anteroposterior",
+     "nota": "Marques: 0–70° (extensão/abdução radial); AAOS: 0–20° para a extensão carpometacarpal isolada. A diferença é de método de medida."
+    },
+    {
+     "mov": "abducao",
+     "adm": "0–70°",
+     "plano": "sagital (perpendicular à palma)",
+     "eixo": "laterolateral",
+     "nota": "Abdução palmar: o polegar se afasta da palma para a frente."
+    },
+    {
+     "mov": "aducao",
+     "adm": "70–0°",
+     "plano": "sagital (perpendicular à palma)",
+     "eixo": "laterolateral"
+    },
+    {
+     "mov": "oposicao",
+     "adm": "polpa do polegar alcança a base do 5º dedo",
+     "plano": "combinado",
+     "eixo": "combinado",
+     "nota": "Combina abdução, flexão e rotação medial do 1º metacarpal. Avaliada pela distância entre a polpa do polegar e a base do dedo mínimo."
+    },
+    {
+     "mov": "reposicao",
+     "adm": "retorno da oposição",
+     "plano": "combinado",
+     "eixo": "combinado"
+    }
+   ],
+   "estabilidade": "Polegar: cápsula frouxa reforçada por ligamentos (o oblíquo anterior e o dorsorradial são os principais) e pelos músculos tenares e o primeiro interósseo dorsal. Dedos: ligamentos carpometacarpais dorsais, palmares e interósseos.",
+   "posicaoRepouso": "Polegar: a meio caminho entre abdução-adução e flexão-extensão.",
+   "posicaoFechada": "Polegar: oposição completa.",
+   "padraoCapsular": "Polegar: abdução e extensão limitadas.",
+   "sensacaoFinal": "Firme.",
+   "clinica": "Rizartrose (artrose trapeziometacarpal): muito frequente em mulheres após a menopausa; dor na base do polegar ao fazer pinça e ao abrir potes, teste de compressão axial com rotação (grind test) positivo, deformidade em adução com hiperextensão da metacarpofalângica. Tratamento conservador com órtese, proteção articular e fortalecimento do primeiro interósseo dorsal e tenares. Fratura-luxação de Bennett (base do 1º metacarpal). Fratura do colo do 5º metacarpal (\"fratura do boxeador\")."
+  },
+  {
+   "key": "Intermetacarpal joints",
+   "pt": "Articulações intermetacarpais",
+   "tipo": "Sinoviais planas",
+   "graus": 1,
+   "resumo": "Pequenas articulações entre as bases adjacentes do 2º ao 5º metacarpais. Compartilham a cavidade sinovial com as carpometacarpais e permitem leve deslizamento, que contribui para o arco transverso da mão.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "deslizamento mínimo",
+     "plano": "—",
+     "eixo": "—",
+     "nota": "Maior entre o 4º e o 5º metacarpais."
+    }
+   ]
+  },
+  {
+   "key": "Metacarpophalangeal joints",
+   "pt": "Articulações metacarpofalângicas",
+   "art": "dedos_mao",
+   "tipo": "Sinoviais elipsoides (condilares), biaxiais; a do polegar funciona quase como gínglimo",
+   "graus": 2,
+   "resumo": "Articulações entre as cabeças dos metacarpais e as bases das falanges proximais (\"nós dos dedos\"). Fazem flexão, extensão, abdução e adução dos dedos.",
+   "superficies": "Cabeça convexa do metacarpal e base côncava da falange proximal, ampliada na face palmar pela placa palmar (fibrocartilagem). A cabeça do metacarpal é mais larga na face palmar e tem formato excêntrico (em came).",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–90°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Aumenta do 2º para o 5º dedo. Polegar: 0–50° (Marques) a 0–60°."
+    },
+    {
+     "mov": "extensao",
+     "adm": "0–30°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–30°; AAOS: 0–45°. Varia muito com a frouxidão ligamentar. Polegar: cerca de 0°."
+    },
+    {
+     "mov": "abducao",
+     "adm": "0–20°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Referência: 3º dedo (eixo da mão). Só é possível com as metacarpofalângicas em extensão, pois em flexão os colaterais estão tensos."
+    },
+    {
+     "mov": "aducao",
+     "adm": "20–0°",
+     "plano": "frontal",
+     "eixo": "anteroposterior"
+    }
+   ],
+   "estabilidade": "Ligamentos colaterais (frouxos em extensão, tensos em flexão), placa palmar (limita a hiperextensão), ligamento metacarpal transverso profundo, capuz extensor e músculos intrínsecos (interósseos e lumbricais).",
+   "posicaoRepouso": "Leve flexão.",
+   "posicaoFechada": "Dedos: flexão completa. Polegar: oposição completa.",
+   "padraoCapsular": "Flexão mais limitada que a extensão.",
+   "sensacaoFinal": "Flexão: firme ou dura. Extensão e abdução: firme.",
+   "clinica": "Imobilizar as metacarpofalângicas em extensão leva ao encurtamento dos ligamentos colaterais e à rigidez em extensão; por isso a posição de segurança para imobilização da mão é com metacarpofalângicas em 70–90° de flexão e interfalângicas em extensão (posição intrínseco-plus). Artrite reumatoide: sinovite, desvio ulnar dos dedos e subluxação palmar. Lesão do ligamento colateral ulnar da metacarpofalângica do polegar (\"polegar do esquiador\"). Dedo em gatilho (polia A1, ao nível desta articulação)."
+  },
+  {
+   "key": "Interphalangeal joints of hand",
+   "pt": "Articulações interfalângicas da mão",
+   "art": "dedos_mao",
+   "tipo": "Sinoviais gínglimos (uniaxiais)",
+   "graus": 1,
+   "resumo": "Articulações em dobradiça entre as falanges: interfalângicas proximais (IFP) e distais (IFD) do 2º ao 5º dedo e a interfalângica única do polegar. Fazem apenas flexão e extensão.",
+   "superficies": "Cabeça da falange proximal ou média (em polia, com dois côndilos) e base da falange seguinte (com duas concavidades separadas por uma crista), ampliada pela placa palmar.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "IFP: 0–110°; IFD: 0–90°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "AAOS: IFP 0–100°. Interfalângica do polegar: 0–80°."
+    },
+    {
+     "mov": "extensao",
+     "adm": "IFP: 0°; IFD: 0–10°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Interfalângica do polegar: 0–20° de hiperextensão. Limitada pela placa palmar."
+    }
+   ],
+   "estabilidade": "Ligamentos colaterais próprios e acessórios, placa palmar e aparelho extensor (banda central e bandas laterais), além das bainhas e polias dos tendões flexores.",
+   "posicaoRepouso": "Leve flexão.",
+   "posicaoFechada": "Extensão completa.",
+   "padraoCapsular": "Flexão mais limitada que a extensão.",
+   "sensacaoFinal": "Flexão da IFP: dura ou macia; flexão da IFD e extensão: firme.",
+   "clinica": "A IFP enrijece em flexão com facilidade (retração da placa palmar): imobilizar em extensão. Deformidade em botoeira (ruptura da banda central: IFP em flexão, IFD em hiperextensão) e em pescoço de cisne (IFP em hiperextensão, IFD em flexão). Dedo em martelo (ruptura do extensor terminal na IFD). Artrose: nódulos de Heberden (IFD) e de Bouchard (IFP). Entorses e luxações dorsais da IFP em esportes com bola."
+  }
+ ],
+ "ligamentos": [
+  {
+   "key": "Articular capsule of glenohumeral joint",
+   "pt": "Cápsula articular da articulação do ombro (glenoumeral)",
+   "funcao": "Manga fibrosa frouxa, do colo da escápula e lábio glenoidal ao colo anatômico do úmero; seu volume é cerca de duas vezes o da cabeça do úmero, o que permite a grande mobilidade. Inferiormente forma o recesso axilar, que se desdobra na elevação do braço. É reforçada pelos ligamentos glenoumerais e coracoumeral e pelos tendões do manguito rotador.",
+   "clinica": "Na capsulite adesiva a cápsula fica espessada e retraída, com obliteração do recesso axilar e perda de movimento no padrão capsular (rotação lateral > abdução > rotação medial). A retração da cápsula posterior limita a rotação medial e a adução horizontal em arremessadores."
+  },
+  {
+   "key": "Coracohumeral ligament",
+   "pt": "Ligamento coracoumeral",
+   "funcao": "Da base do processo coracoide aos tubérculos maior e menor do úmero, reforçando a parte superior da cápsula e o intervalo dos rotadores. Limita a rotação lateral com o braço aduzido e a translação inferior da cabeça do úmero; ajuda a sustentar o peso do braço pendente.",
+   "clinica": "Fica espessado e encurtado na capsulite adesiva, o que explica a perda precoce da rotação lateral."
+  },
+  {
+   "key": "Glenoid labrum",
+   "pt": "Lábio glenoidal",
+   "funcao": "Anel fibrocartilagíneo fixado à margem da cavidade glenoidal. Aprofunda a cavidade (em cerca de 50%), aumenta a área de contato e serve de inserção para os ligamentos glenoumerais e para o tendão da cabeça longa do bíceps, superiormente.",
+   "clinica": "Lesão de Bankart: desinserção do lábio anteroinferior na luxação anterior, causa de instabilidade recidivante. Lesão SLAP: lábio superior, de anterior a posterior, junto à âncora do bíceps, típica de arremessadores e de quedas sobre o braço estendido."
+  },
+  {
+   "key": "Superior glenohumeral ligament",
+   "pt": "Ligamento glenoumeral superior",
+   "funcao": "Do tubérculo supraglenoidal e lábio superior à região acima do tubérculo menor. Limita a translação inferior e a rotação lateral da cabeça do úmero com o braço ao lado do corpo."
+  },
+  {
+   "key": "Middle glenohumeral ligament",
+   "pt": "Ligamento glenoumeral médio",
+   "funcao": "Do lábio anterossuperior à região do tubérculo menor, sob o tendão do subescapular. Limita a translação anterior e a rotação lateral com o braço em torno de 45° de abdução. É variável e pode estar ausente."
+  },
+  {
+   "key": "Inferior glenohumeral ligament",
+   "pt": "Ligamento glenoumeral inferior",
+   "funcao": "Complexo em forma de rede, do lábio inferior ao colo anatômico do úmero, com banda anterior, banda posterior e recesso axilar entre elas. É o principal estabilizador estático com o braço abduzido: a banda anterior limita a translação anterior em abdução com rotação lateral; a banda posterior limita a translação posterior em abdução com rotação medial.",
+   "clinica": "É a estrutura que falha na luxação anterior do ombro (junto com o lábio, na lesão de Bankart, ou no lado umeral, na lesão HAGL). O teste de apreensão coloca este ligamento sob tensão."
+  },
+  {
+   "key": "Transverse humeral ligament",
+   "pt": "Ligamento transverso do úmero",
+   "funcao": "Faixa fibrosa entre os tubérculos maior e menor, que transforma o sulco intertubercular em túnel e ajuda a manter o tendão da cabeça longa do bíceps no lugar.",
+   "clinica": "A luxação medial do tendão do bíceps está associada sobretudo a lesões do subescapular e da polia do bíceps (ligamentos coracoumeral e glenoumeral superior), mais do que a este ligamento isolado."
+  },
+  {
+   "key": "Coraco-acromial ligament",
+   "pt": "Ligamento coracoacromial",
+   "funcao": "Faixa triangular forte entre o processo coracoide e o acrômio, dois pontos do mesmo osso. Com eles forma o arco coracoacromial, um \"teto\" que impede o deslocamento superior da cabeça do úmero.",
+   "clinica": "O espaço subacromial, sob o arco, contém o tendão do supraespinal, a bolsa subacromial e o tendão da cabeça longa do bíceps; é nele que ocorre o impacto subacromial, testado pelas manobras de Neer e de Hawkins-Kennedy."
+  },
+  {
+   "key": "Superior transverse scapular ligament",
+   "pt": "Ligamento transverso superior da escápula",
+   "funcao": "Fecha a incisura da escápula, transformando-a em forame. O nervo supraescapular passa por baixo do ligamento e os vasos supraescapulares, em geral, por cima.",
+   "clinica": "Local de compressão do nervo supraescapular, com fraqueza e atrofia do supraespinal e do infraespinal e dor posterior no ombro."
+  },
+  {
+   "key": "Inferior transverse scapular ligament",
+   "pt": "Ligamento transverso inferior da escápula",
+   "funcao": "Faixa inconstante da espinha da escápula à margem da cavidade glenoidal, sobre a incisura espinoglenoidal, por onde passam o nervo e os vasos supraescapulares rumo à fossa infraespinal.",
+   "clinica": "Compressão do nervo supraescapular neste ponto (por exemplo, por cisto paralabral, ou em jogadores de vôlei) afeta apenas o infraespinal."
+  },
+  {
+   "key": "Acromioclavicular ligament",
+   "pt": "Ligamento acromioclavicular",
+   "funcao": "Espessamento superior (e inferior) da cápsula, entre a clavícula e o acrômio. Controla principalmente o deslocamento horizontal (anteroposterior) da clavícula.",
+   "clinica": "É o primeiro a ser lesado nas entorses acromioclaviculares (Rockwood I e II)."
+  },
+  {
+   "key": "Articular capsule of acromioclavicular joint",
+   "pt": "Cápsula articular da articulação acromioclavicular",
+   "funcao": "Cápsula fina e frouxa que envolve a articulação, reforçada superior e inferiormente pelos ligamentos acromioclaviculares e pelas fibras do deltoide e do trapézio."
+  },
+  {
+   "key": "Articular disc of acromioclavicular joint",
+   "pt": "Disco articular da articulação acromioclavicular",
+   "funcao": "Disco fibrocartilagíneo em cunha, geralmente incompleto, que pende da parte superior da cápsula e melhora o encaixe das superfícies.",
+   "clinica": "Degenera cedo, a partir da segunda ou terceira década, contribuindo para a artrose acromioclavicular."
+  },
+  {
+   "key": "Conoid ligament",
+   "pt": "Ligamento conoide",
+   "funcao": "Parte posteromedial do ligamento coracoclavicular: cone invertido da base do processo coracoide ao tubérculo conoide da clavícula. Limita o deslocamento superior da clavícula e sua rotação; é ele que traciona a clavícula em rotação posterior durante a elevação do braço.",
+   "clinica": "Rompe-se, com o trapezoide, nas luxações acromioclaviculares a partir do tipo III de Rockwood."
+  },
+  {
+   "key": "Trapezoid ligament",
+   "pt": "Ligamento trapezoide",
+   "funcao": "Parte anterolateral do ligamento coracoclavicular: lâmina do processo coracoide à linha trapezóidea da clavícula. Impede que o acrômio deslize medialmente sob a clavícula (resiste à compressão axial) e limita o deslocamento superior da clavícula.",
+   "clinica": "Com o conoide, suspende a escápula na clavícula; a ruptura de ambos deixa o ombro \"caído\" em relação à clavícula."
+  },
+  {
+   "key": "Anterior sternoclavicular ligament",
+   "pt": "Ligamento esternoclavicular anterior",
+   "funcao": "Reforço anterior da cápsula, da extremidade esternal da clavícula ao manúbrio. Limita a translação anterior e a retração da clavícula."
+  },
+  {
+   "key": "Posterior sternoclavicular ligament",
+   "pt": "Ligamento esternoclavicular posterior",
+   "funcao": "Reforço posterior da cápsula, mais forte que o anterior. Limita a translação posterior e a protração da clavícula.",
+   "clinica": "Sua resistência explica por que a luxação posterior, a mais perigosa, é rara."
+  },
+  {
+   "key": "Articular capsule of sternoclavicular joint",
+   "pt": "Cápsula articular da articulação esternoclavicular",
+   "funcao": "Envolve a articulação e fixa-se ao disco articular; é reforçada pelos ligamentos esternoclaviculares anterior e posterior e pelo interclavicular."
+  },
+  {
+   "key": "Articular disc of sternoclavicular joint",
+   "pt": "Disco articular da articulação esternoclavicular",
+   "funcao": "Disco fibrocartilagíneo completo, preso em cima à clavícula e embaixo à primeira cartilagem costal. Divide a articulação em duas cavidades, amortece as forças vindas do membro superior e impede o deslocamento medial da clavícula."
+  },
+  {
+   "key": "Costoclavicular ligament",
+   "pt": "Ligamento costoclavicular",
+   "funcao": "Ligamento curto e muito forte, da primeira costela e sua cartilagem à impressão do ligamento costoclavicular, na face inferior da clavícula. É o principal estabilizador da esternoclavicular: limita a elevação da clavícula e também a protração e a retração."
+  },
+  {
+   "key": "Interclavicular ligament",
+   "pt": "Ligamento interclavicular",
+   "funcao": "Une as extremidades esternais das duas clavículas, passando pela incisura jugular do manúbrio. Limita a depressão da clavícula."
+  },
+  {
+   "key": "Annular ligament of radius",
+   "pt": "Ligamento anular do rádio",
+   "funcao": "Faixa que contorna a cabeça do rádio, presa às margens anterior e posterior da incisura radial da ulna, formando com ela um anel osteofibroso. Mantém a cabeça do rádio junto à ulna e permite que ela gire na pronossupinação.",
+   "clinica": "Pronação dolorosa: em crianças de 1 a 4 anos, a tração do antebraço estendido e pronado faz a cabeça do rádio deslizar parcialmente para fora do anel. A criança mantém o braço imóvel, em pronação; a redução é feita com supinação e flexão do cotovelo (ou hiperpronação)."
+  },
+  {
+   "key": "Articular capsule of elbow joint",
+   "pt": "Cápsula articular da articulação do cotovelo",
+   "funcao": "Envolve as três articulações do cotovelo. É fina e frouxa anterior e posteriormente, para permitir a flexão-extensão, e reforçada dos lados pelos ligamentos colaterais.",
+   "clinica": "Muito reativa ao trauma e à imobilização: a retração da cápsula anterior é a causa mais comum de perda de extensão do cotovelo. Derrame articular é mais visível no recesso posterolateral, entre epicôndilo lateral, cabeça do rádio e olécrano."
+  },
+  {
+   "key": "Quadrate ligament",
+   "pt": "Ligamento quadrado",
+   "funcao": "Faixa fina da margem inferior da incisura radial da ulna ao colo do rádio. Reforça a parte inferior da cápsula da radioulnar proximal e limita os extremos de pronação e supinação."
+  },
+  {
+   "key": "Radial collateral ligament",
+   "pt": "Ligamento colateral radial (do cotovelo)",
+   "funcao": "Do epicôndilo lateral do úmero ao ligamento anular, em leque. Faz parte do complexo ligamentar lateral e resiste ao varo; sua porção ulnar (ligamento colateral ulnar lateral, que chega à crista do supinador) impede a instabilidade rotatória posterolateral.",
+   "clinica": "A insuficiência do complexo lateral, após luxação do cotovelo, causa instabilidade rotatória posterolateral: sensação de falseio ao apoiar-se nos braços de uma cadeira para levantar."
+  },
+  {
+   "key": "Ulnar collateral ligament",
+   "pt": "Ligamento colateral ulnar (do cotovelo)",
+   "funcao": "Do epicôndilo medial do úmero à ulna, com três bandas: anterior (ao tubérculo do processo coronoide, a mais forte), posterior (ao olécrano) e transversa. A banda anterior é o principal freio ao estresse em valgo do cotovelo.",
+   "clinica": "Lesão por sobrecarga em valgo em arremessadores (beisebol, dardo, handebol), com dor medial na fase de armação tardia do arremesso; teste de estresse em valgo a 20–30° de flexão e teste de valgo em movimento. O nervo ulnar passa logo atrás do ligamento."
+  },
+  {
+   "key": "Interosseous membrane of forearm",
+   "pt": "Membrana interóssea do antebraço",
+   "funcao": "Lâmina fibrosa entre as margens interósseas do rádio e da ulna. Suas fibras principais descem oblíquas do rádio para a ulna, de modo que a carga recebida pelo rádio no punho é transferida em parte para a ulna e daí ao úmero. Mantém os ossos unidos e dá origem a músculos profundos do antebraço.",
+   "clinica": "Ruptura na lesão de Essex-Lopresti (com fratura da cabeça do rádio e instabilidade radioulnar distal), com migração proximal do rádio e dor no punho."
+  },
+  {
+   "key": "Oblique cord",
+   "pt": "Corda oblíqua",
+   "funcao": "Pequena faixa fibrosa da tuberosidade da ulna ao rádio, logo abaixo da tuberosidade do rádio, com fibras em direção oposta à da membrana interóssea. Importância funcional pequena; pode limitar a supinação extrema."
+  },
+  {
+   "key": "Articular disc of distal radio-ulnar joint",
+   "pt": "Disco articular da articulação radioulnar distal",
+   "funcao": "Fibrocartilagem triangular com a base presa à incisura ulnar do rádio e o ápice à fóvea e ao processo estiloide da ulna. Une rádio e ulna, separa a radioulnar distal da radiocarpal e transmite parte da carga axial do carpo para a ulna (cerca de 20% com variância ulnar neutra).",
+   "clinica": "É o centro do complexo da fibrocartilagem triangular (CFCT). Lesões traumáticas (queda sobre a mão em pronação, torção) ou degenerativas (mais comuns com ulna longa/variância ulnar positiva) causam dor ulnar no punho, estalido e dor à compressão em desvio ulnar. A periferia é vascularizada e pode cicatrizar; a parte central é avascular."
+  },
+  {
+   "key": "Dorsal radio-ulnar ligament",
+   "pt": "Ligamento radioulnar dorsal",
+   "funcao": "Da margem dorsal da incisura ulnar do rádio à fóvea e ao estiloide da ulna, na borda dorsal do disco. Com o palmar, é o principal estabilizador da radioulnar distal; classicamente descreve-se que suas fibras superficiais ficam tensas na pronação (há divergência entre autores).",
+   "clinica": "Componente do complexo da fibrocartilagem triangular; sua lesão leva à instabilidade da radioulnar distal, com a cabeça da ulna proeminente e \"tecla de piano\"."
+  },
+  {
+   "key": "Palmar radio-ulnar ligament",
+   "pt": "Ligamento radioulnar palmar",
+   "funcao": "Da margem palmar da incisura ulnar do rádio à fóvea e ao estiloide da ulna, na borda palmar do disco. Estabiliza a radioulnar distal; classicamente descreve-se que suas fibras superficiais ficam tensas na supinação. Dá origem aos ligamentos ulnocarpais palmares.",
+   "clinica": "Componente do complexo da fibrocartilagem triangular."
+  },
+  {
+   "key": "Articular capsule of radiocarpal joint",
+   "pt": "Cápsula articular da articulação radiocarpal",
+   "funcao": "Envolve a articulação do rádio e do disco articular com a fileira proximal do carpo, reforçada por ligamentos palmares (mais fortes) e dorsais.",
+   "clinica": "Cistos sinoviais (gânglios) do punho originam-se da cápsula, com frequência dorsalmente, junto ao ligamento escafolunar."
+  },
+  {
+   "key": "Dorsal radiocarpal ligament",
+   "pt": "Ligamento radiocarpal dorsal",
+   "funcao": "Da margem dorsal do rádio ao semilunar e ao piramidal, em trajeto oblíquo. Limita a flexão do punho e faz o carpo acompanhar o rádio na pronação."
+  },
+  {
+   "key": "Radial collateral ligament of wrist joint",
+   "pt": "Ligamento colateral radial do carpo",
+   "funcao": "Do processo estiloide do rádio ao escafoide (e trapézio). Limita o desvio ulnar. É um reforço capsular pouco individualizado, em relação com a artéria radial."
+  },
+  {
+   "key": "Ulnar collateral ligament of wrist joint",
+   "pt": "Ligamento colateral ulnar do carpo",
+   "funcao": "Do processo estiloide da ulna ao piramidal e ao pisiforme. Limita o desvio radial e integra o complexo da fibrocartilagem triangular."
+  },
+  {
+   "key": "Radiocapitate ligament",
+   "pt": "Ligamento radiocapitato",
+   "funcao": "Feixe palmar do rádio ao capitato, parte dos ligamentos radiocarpais palmares (corresponde, na nomenclatura atual, ao trajeto do radioescafocapitato). Limita a extensão do punho e impede o deslizamento ulnar do carpo."
+  },
+  {
+   "key": "Radioscaphocapitate ligament",
+   "pt": "Ligamento radioescafocapitato",
+   "funcao": "Do processo estiloide do rádio, cruza a cintura do escafoide e chega ao capitato. É um dos ligamentos palmares mais fortes: limita a extensão e o desvio ulnar, impede a translação ulnar do carpo e serve de fulcro em torno do qual o escafoide roda."
+  },
+  {
+   "key": "Ulnocapitate ligament",
+   "pt": "Ligamento ulnocapitato",
+   "funcao": "Da fóvea da ulna e do ligamento radioulnar palmar ao capitato. Parte dos ligamentos ulnocarpais palmares; reforça a parte ulnar do punho e ajuda a formar o ligamento arqueado (\"em V\") palmar."
+  },
+  {
+   "key": "Ulnolunate ligament",
+   "pt": "Ligamento ulnolunar",
+   "funcao": "Do ligamento radioulnar palmar ao semilunar. Ligamento ulnocarpal palmar que integra o complexo da fibrocartilagem triangular e limita a extensão e o desvio radial."
+  },
+  {
+   "key": "Ulnotriquetral ligament",
+   "pt": "Ligamento ulnopiramidal",
+   "funcao": "Do ligamento radioulnar palmar e do estiloide da ulna ao piramidal. Ligamento ulnocarpal palmar do complexo da fibrocartilagem triangular; estabiliza o lado ulnar do carpo.",
+   "clinica": "Sua lesão é causa de dor ulnar no punho, com dor à palpação na fóvea ulnar (sinal da fóvea)."
+  },
+  {
+   "key": "Ulnopisiform ligament",
+   "pt": "Ligamento ulnopisiforme",
+   "funcao": "Feixe do lado ulnar do punho, da ulna ao pisiforme; reforço capsular medial associado ao ligamento colateral ulnar do carpo."
+  },
+  {
+   "key": "Dorsal ulnocarpal ligament",
+   "pt": "Ligamento ulnocarpal dorsal",
+   "funcao": "Reforço dorsal do lado ulnar da cápsula, da região da cabeça/estiloide da ulna ao piramidal, em relação com a bainha do extensor ulnar do carpo. Estabiliza dorsalmente o lado ulnar do punho."
+  },
+  {
+   "key": "Capitohamate interosseous ligament",
+   "pt": "Ligamento interósseo capitato-hamato",
+   "funcao": "Ligamento curto e forte entre o capitato e o hamato. Une firmemente a fileira distal do carpo, que funciona como um bloco, e mantém o arco transverso do carpo."
+  },
+  {
+   "key": "Palmar capitohamate ligament",
+   "pt": "Ligamento capitato-hamato palmar",
+   "funcao": "Une as faces palmares do capitato e do hamato; reforça a fileira distal do carpo."
+  },
+  {
+   "key": "Trapeziotrapezoidal interosseous ligament",
+   "pt": "Ligamento interósseo trapézio-trapezoide",
+   "funcao": "Une o trapézio ao trapezoide, na fileira distal do carpo, que se move como uma unidade."
+  },
+  {
+   "key": "Trapezoideocapitate interosseous ligament",
+   "pt": "Ligamento interósseo trapezoide-capitato",
+   "funcao": "Une o trapezoide ao capitato, na fileira distal do carpo."
+  },
+  {
+   "key": "Palmar trapezoideocapitate ligament",
+   "pt": "Ligamento trapezoide-capitato palmar",
+   "funcao": "Une as faces palmares do trapezoide e do capitato."
+  },
+  {
+   "key": "Dorsal intercarpal ligaments",
+   "pt": "Ligamentos intercarpais dorsais",
+   "funcao": "Feixes dorsais entre os ossos do carpo; o principal vai do piramidal ao escafoide, trapézio e trapezoide. Com o radiocarpal dorsal forma um \"V\" lateral que estabiliza o escafoide e a fileira proximal."
+  },
+  {
+   "key": "Lunotriquetral interosseous ligament",
+   "pt": "Ligamento interósseo lunopiramidal",
+   "funcao": "Une o semilunar ao piramidal, em forma de C, com partes dorsal, proximal e palmar (a palmar é a mais forte). Faz a fileira proximal mover-se em conjunto.",
+   "clinica": "Sua ruptura (queda sobre a mão em extensão e desvio radial) causa dor ulnar no punho e pode levar à instabilidade em VISI, com o semilunar em flexão. Teste do balanço (ballottement) lunopiramidal."
+  },
+  {
+   "key": "Palmar lunotriquetral ligament",
+   "pt": "Ligamento lunopiramidal palmar",
+   "funcao": "Une as faces palmares do semilunar e do piramidal, reforçando o ligamento interósseo correspondente."
+  },
+  {
+   "key": "Scapholunate interosseous ligament",
+   "pt": "Ligamento interósseo escafolunar",
+   "funcao": "Une o escafoide ao semilunar, em forma de C, com partes dorsal (a mais forte), proximal e palmar. É o ligamento mais importante para a estabilidade do carpo: faz o escafoide (que tende à flexão) e o semilunar (que tende à extensão) moverem-se juntos.",
+   "clinica": "Ruptura em queda sobre a mão em extensão e desvio ulnar: dor dorsorradial, teste de Watson (deslocamento do escafoide) positivo, aumento do espaço escafolunar na radiografia (acima de 3 mm, sinal de Terry-Thomas) e instabilidade em DISI. Sem tratamento, evolui para artrose (colapso avançado escafolunar – SLAC). Na reabilitação evita-se, no início, preensão com carga, que afasta escafoide e semilunar."
+  },
+  {
+   "key": "Palmar scaphotriquetral ligament",
+   "pt": "Ligamento escafopiramidal palmar",
+   "funcao": "Feixe palmar transversal do escafoide ao piramidal, que passa à frente da cabeça do capitato e ajuda a contê-la, como um lábio da articulação mediocarpal."
+  },
+  {
+   "key": "Scaphocapitate ligament",
+   "pt": "Ligamento escafocapitato",
+   "funcao": "Do polo distal do escafoide ao capitato. Estabiliza o escafoide na mediocarpal e forma o braço radial do ligamento arqueado palmar."
+  },
+  {
+   "key": "Scaphotrapeziotrapezoidal ligament",
+   "pt": "Ligamento escafotrapézio-trapezoide",
+   "funcao": "Do polo distal do escafoide ao trapézio e ao trapezoide. Estabiliza o polo distal do escafoide e limita sua flexão.",
+   "clinica": "A articulação escafotrapézio-trapezoide é um local frequente de artrose, muitas vezes associada à rizartrose."
+  },
+  {
+   "key": "Triquetrocapitate ligament",
+   "pt": "Ligamento piramidal-capitato",
+   "funcao": "Do piramidal ao capitato, na face palmar. Com o piramidal-hamato forma o braço ulnar do ligamento arqueado palmar, que estabiliza a mediocarpal.",
+   "clinica": "Sua frouxidão está ligada à instabilidade mediocarpal, com ressalto doloroso no desvio ulnar."
+  },
+  {
+   "key": "Triquetrohamate ligament",
+   "pt": "Ligamento piramidal-hamato",
+   "funcao": "Do piramidal ao hamato. Estabiliza o lado ulnar da articulação mediocarpal, parte do braço ulnar do ligamento arqueado palmar."
+  },
+  {
+   "key": "Radiate carpal ligament",
+   "pt": "Ligamento radiado do carpo",
+   "funcao": "Conjunto de feixes palmares que irradiam da cabeça do capitato para os ossos vizinhos (escafoide, semilunar, piramidal). Reforça a face palmar da mediocarpal."
+  },
+  {
+   "key": "Pisohamate ligament",
+   "pt": "Ligamento piso-hamato",
+   "funcao": "Do pisiforme ao hâmulo do hamato; é um prolongamento do tendão do flexor ulnar do carpo. Ajuda a formar o assoalho do canal ulnar (de Guyon).",
+   "clinica": "No canal de Guyon passam o nervo e a artéria ulnares; a compressão ali (ciclistas, uso de muletas ou ferramentas) causa a \"paralisia do guidão\"."
+  },
+  {
+   "key": "Pisometacarpal ligament",
+   "pt": "Ligamento pisometacarpal",
+   "funcao": "Do pisiforme à base do 5º metacarpal; prolongamento do tendão do flexor ulnar do carpo, que transmite sua força ao metacarpo."
+  },
+  {
+   "key": "Pisotriquetral ligament",
+   "pt": "Ligamento pisopiramidal",
+   "funcao": "Cápsula e feixes que unem o pisiforme (osso sesamoide no tendão do flexor ulnar do carpo) ao piramidal, numa pequena articulação sinovial plana própria.",
+   "clinica": "A artrose pisopiramidal causa dor na base da eminência hipotenar, reproduzida ao mobilizar o pisiforme sobre o piramidal."
+  },
+  {
+   "key": "Dorsal carpometacarpal ligaments",
+   "pt": "Ligamentos carpometacarpais dorsais",
+   "funcao": "Feixes dorsais, os mais fortes, da fileira distal do carpo às bases dos metacarpais. Mantêm a 2ª e a 3ª carpometacarpais praticamente imóveis.",
+   "clinica": "A \"bossa carpal\" é uma saliência óssea dorsal na base do 2º/3º metacarpal, às vezes dolorosa."
+  },
+  {
+   "key": "Palmar carpometacarpal ligaments",
+   "pt": "Ligamentos carpometacarpais palmares",
+   "funcao": "Feixes palmares da fileira distal do carpo às bases dos metacarpais. Reforçam as carpometacarpais pela face palmar."
+  },
+  {
+   "key": "Dorsal metacarpal ligaments",
+   "pt": "Ligamentos metacarpais dorsais",
+   "funcao": "Unem dorsalmente as bases do 2º ao 5º metacarpais."
+  },
+  {
+   "key": "Palmar metacarpal ligaments",
+   "pt": "Ligamentos metacarpais palmares",
+   "funcao": "Unem as bases do 2º ao 5º metacarpais pela face palmar."
+  },
+  {
+   "key": "Interosseous metacarpal ligaments",
+   "pt": "Ligamentos metacarpais interósseos",
+   "funcao": "Feixes curtos e fortes entre as faces adjacentes das bases do 2º ao 5º metacarpais, logo distais às superfícies articulares."
+  },
+  {
+   "key": "Articular capsules of metacarpophalangeal joints",
+   "pt": "Cápsulas articulares das articulações metacarpofalângicas",
+   "funcao": "Cápsulas frouxas, sobretudo dorsalmente, o que permite 90° de flexão. São reforçadas dos lados pelos ligamentos colaterais, na face palmar pela placa palmar e, no dorso, pelo capuz extensor.",
+   "clinica": "Na artrite reumatoide a sinovite distende a cápsula e os ligamentos, favorecendo o desvio ulnar e a subluxação palmar das falanges."
+  },
+  {
+   "key": "Collateral metacarpophalangeal ligaments",
+   "pt": "Ligamentos colaterais das articulações metacarpofalângicas",
+   "funcao": "De cada lado da cabeça do metacarpal, em trajeto oblíquo, à base da falange proximal (parte própria) e à placa palmar (parte acessória). Ficam frouxos em extensão e tensos em flexão, por causa do formato em came da cabeça do metacarpal; por isso a abdução dos dedos só é ampla em extensão.",
+   "clinica": "Imobilizar em flexão de 70–90° mantém os colaterais alongados e previne rigidez em extensão. No polegar, a ruptura do colateral ulnar (\"polegar do esquiador\" ou do guarda-caça) causa instabilidade na pinça; quando a aponeurose do adutor se interpõe (lesão de Stener), o ligamento não cicatriza sem cirurgia."
+  },
+  {
+   "key": "Deep transverse metacarpal ligament",
+   "pt": "Ligamento metacarpal transverso profundo",
+   "funcao": "Une as placas palmares das metacarpofalângicas do 2º ao 5º dedo, mantendo as cabeças dos metacarpais juntas e sustentando o arco transverso distal da mão. O polegar fica livre. Os tendões dos lumbricais passam à frente (palmar) e os dos interósseos atrás (dorsal) do ligamento."
+  },
+  {
+   "key": "Articular capsules of proximal interphalangeal joints",
+   "pt": "Cápsulas articulares das articulações interfalângicas proximais",
+   "funcao": "Envolvem cada interfalângica proximal, reforçadas dos lados pelos colaterais, na face palmar pela placa palmar e no dorso pela banda central do aparelho extensor.",
+   "clinica": "Articulação que enrijece com facilidade após trauma ou imobilização; edema persistente (\"dedo em fuso\") é comum após entorses."
+  },
+  {
+   "key": "Articular capsules of distal interphalangeal joints",
+   "pt": "Cápsulas articulares das articulações interfalângicas distais",
+   "funcao": "Envolvem cada interfalângica distal, reforçadas pelos colaterais, pela placa palmar e pelo tendão extensor terminal no dorso.",
+   "clinica": "Cistos mucosos dorsais e nódulos de Heberden surgem aqui na artrose."
+  },
+  {
+   "key": "Collateral interphalangeal ligaments of hand",
+   "pt": "Ligamentos colaterais das articulações interfalângicas da mão",
+   "funcao": "De cada lado da cabeça da falange à base da falange seguinte e à placa palmar. Impedem desvios laterais; a tensão varia pouco ao longo do movimento, o que dá estabilidade lateral em qualquer grau de flexão.",
+   "clinica": "Entorses por desvio lateral em esportes com bola; teste de estresse em varo e valgo com a articulação em extensão e em 30° de flexão."
+  },
+  {
+   "key": "Palmar interphalangeal ligaments",
+   "pt": "Ligamentos palmares das articulações interfalângicas (placas palmares)",
+   "funcao": "Placas fibrocartilagíneas espessas na face palmar de cada interfalângica, presas firmemente à base da falange distal e, por freios mais frouxos, à falange proximal. Limitam a hiperextensão e ampliam a superfície articular.",
+   "clinica": "Lesão por hiperextensão (às vezes com avulsão óssea da base da falange média). A insuficiência leva à deformidade em pescoço de cisne; a retração da placa leva à contratura em flexão da interfalângica proximal."
+  }
+ ]
+}

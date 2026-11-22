@@ -1,0 +1,799 @@
+[
+  {
+    "key": "Erector spinae",
+    "pt": "Músculo eretor da espinha",
+    "latim": "Musculus erector spinae",
+    "sinonimos": [
+      "eretores da espinha",
+      "sacroespinal",
+      "paravertebrais"
+    ],
+    "resumo": "Grande massa muscular longitudinal da camada intermediária dos músculos próprios do dorso, que ocupa o sulco entre os processos espinhosos e os ângulos das costelas, do sacro ao crânio. Divide-se em três colunas, de lateral para medial: iliocostal, longuíssimo e espinal. É o principal extensor da coluna vertebral.",
+    "origem": "Tendão comum largo, fixado à parte posterior da crista ilíaca, à face posterior do sacro, aos ligamentos sacroilíacos posteriores, aos processos espinhosos sacrais e lombares inferiores e ao ligamento supraespinal.",
+    "insercao": "Iliocostal: ângulos das costelas e processos transversos cervicais. Longuíssimo: processos transversos torácicos e cervicais, costelas (entre os tubérculos e os ângulos) e processo mastoide. Espinal: processos espinhosos torácicos superiores e cervicais e crânio.",
+    "inervacao": {
+      "nervo": "Ramos posteriores dos nervos espinais (ramos laterais e intermédios), de modo segmentar",
+      "raizes": "C1–S1, conforme o nível",
+      "nervoKeys": [
+        "Spinal nerves",
+        "Posterior rami of lumbar nerves"
+      ]
+    },
+    "vascularizacao": "Ramos dorsais das artérias intercostais posteriores, subcostal e lombares; artérias sacrais laterais; na região cervical, artérias cervical profunda, occipital e vertebral.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "primario",
+        "nota": "contração unilateral, sobretudo o iliocostal"
+      },
+      {
+        "art": "tronco",
+        "mov": "rotacao_ipsilateral",
+        "papel": "secundario"
+      },
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "partes do pescoço e da cabeça"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario"
+      },
+      {
+        "art": "cervical",
+        "mov": "rotacao_ipsilateral",
+        "papel": "secundario",
+        "nota": "longuíssimo da cabeça"
+      },
+      {
+        "art": "pelve",
+        "mov": "anteversao",
+        "papel": "primario",
+        "nota": "com o tronco fixo, em par de forças com os flexores do quadril"
+      }
+    ],
+    "funcao": "A contração concêntrica bilateral estende a coluna e a cabeça, por exemplo ao voltar da posição inclinada para a frente junto com o glúteo máximo e os isquiotibiais. Sua função mais frequente, porém, é excêntrica: controla a flexão do tronco contra a gravidade. Na flexão completa em pé, o músculo silencia e a carga passa para os ligamentos posteriores, os discos e a fáscia toracolombar (fenômeno de flexão-relaxamento). Unilateralmente inclina o tronco para o mesmo lado; ao inclinar para o lado oposto, age excentricamente. Na marcha, contrai-se de cada lado no contato inicial do pé oposto, limitando a inclinação e a flexão do tronco. Na posição ortostática relaxada tem atividade baixa e intermitente. Com o tronco fixo, antevertem a pelve e aumentam a lordose lombar. As fibras profundas lombares (partes lombares do longuíssimo e do iliocostal, que se prendem diretamente às vértebras) geram também compressão e controlam o cisalhamento anterior das vértebras.",
+    "antagonistas": [
+      "Rectus abdominis muscle",
+      "External abdominal oblique muscle",
+      "Internal abdominal oblique muscle"
+    ],
+    "sinergistas": [
+      "Multifidus muscles",
+      "Semispinalis muscles",
+      "Quadratus lumborum muscle",
+      "Gluteus maximus muscle",
+      "Latissimus dorsi muscle"
+    ],
+    "palpacao": "Paciente em decúbito ventral. Palpe a massa longitudinal de cada lado dos processos espinhosos, mais volumosa na região lombar, e peça para elevar a cabeça e o tronco da maca. Na região lombar a margem lateral do músculo é nítida, a cerca de quatro dedos da linha mediana; lateralmente a ela encontra-se o quadrado do lombo. Na região torácica o músculo afila-se e fica sob o trapézio e os romboides.",
+    "teste": "Kendall, extensores do dorso: decúbito ventral, mãos atrás da cabeça ou da região lombar, membros inferiores estabilizados na maca (os extensores do quadril precisam fixar a pelve). O paciente estende o tronco até a amplitude completa e sustenta. A resistência à fadiga é avaliada pelo teste de Biering-Sørensen: tronco para fora da maca, sustentado na horizontal, cronometrando-se o tempo.",
+    "alongamento": "Flexão do tronco: sentado em uma cadeira, inclinar-se para a frente entre os joelhos; posição de prece (sentado sobre os calcanhares, tronco fletido à frente); em decúbito dorsal, abraçar os joelhos junto ao tórax. Associar inclinação lateral para enfatizar um dos lados.",
+    "clinica": "O espasmo protetor dos eretores acompanha a maioria das lombalgias agudas; na lombalgia crônica é comum a perda do fenômeno de flexão-relaxamento, com atividade mantida no fim da flexão. Estiramentos ocorrem ao levantar carga com o tronco fletido e rodado. O encurtamento bilateral lombar, com abdominais fracos, aumenta a lordose e a anteversão pélvica; a fraqueza leva à cifose e à dificuldade de endireitar o tronco. A assimetria de volume aparece nas escolioses, com proeminência do lado da convexidade na região lombar. A resistência dos extensores é melhor preditor de lombalgia do que a força máxima, o que orienta o treino para a resistência.",
+    "dica": "De lateral para medial, as colunas formam a frase: I Love Spine (Iliocostal, Longuíssimo, Espinal).",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Iliocostalis muscles",
+    "pt": "Músculo iliocostal",
+    "latim": "Musculus iliocostalis",
+    "sinonimos": [
+      "iliocostais"
+    ],
+    "resumo": "Coluna lateral do eretor da espinha, que se prende às costelas. Por estar mais afastada da linha mediana, é a coluna com maior braço de alavanca para a inclinação lateral do tronco.",
+    "origem": "Tendão comum do eretor da espinha (crista ilíaca, sacro, processos espinhosos lombares e sacrais) para a parte lombar; ângulos das costelas para as partes torácica e cervical.",
+    "insercao": "Ângulos das costelas inferiores (parte lombar), ângulos das costelas superiores e processo transverso de C7 (parte torácica) e tubérculos posteriores dos processos transversos de C4 a C6 (parte cervical).",
+    "inervacao": {
+      "nervo": "Ramos laterais dos ramos posteriores dos nervos espinais",
+      "raizes": "C8–L1, conforme o nível",
+      "nervoKeys": [
+        "Spinal nerves",
+        "Posterior rami of lumbar nerves"
+      ]
+    },
+    "vascularizacao": "Ramos dorsais das artérias intercostais posteriores, subcostal e lombares; artéria cervical profunda para a parte cervical.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "primario",
+        "nota": "contração unilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "rotacao_ipsilateral",
+        "papel": "secundario"
+      },
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "parte cervical"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "parte cervical"
+      },
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "secundario",
+        "nota": "parte lombar abaixa as costelas inferiores"
+      }
+    ],
+    "funcao": "Bilateralmente estende a coluna; unilateralmente a inclina para o mesmo lado e auxilia a rotação ipsilateral, desfazendo a rotação produzida pelos oblíquos. Excentricamente controla a flexão e a inclinação contralateral do tronco. A parte lombar abaixa as costelas inferiores e pode auxiliar a expiração forçada.",
+    "antagonistas": [
+      "Rectus abdominis muscle",
+      "External abdominal oblique muscle"
+    ],
+    "sinergistas": [
+      "Longissimus muscles",
+      "Spinalis muscles",
+      "Quadratus lumborum muscle",
+      "Multifidus muscles"
+    ],
+    "palpacao": "É a parte mais lateral da massa do eretor da espinha: na região lombar, forma sua margem lateral, entre a crista ilíaca e as últimas costelas; na região torácica, palpa-se sobre os ângulos das costelas, medialmente à margem medial da escápula. Sente-se a contração durante a extensão do tronco em decúbito ventral.",
+    "teste": "Testado em conjunto com o eretor da espinha (extensão do tronco em decúbito ventral). A elevação lateral do tronco em decúbito lateral avalia os flexores laterais como grupo.",
+    "alongamento": "Flexão do tronco combinada com inclinação para o lado oposto.",
+    "clinica": "Sede frequente de dor miofascial ao longo dos ângulos das costelas e na região lombar lateral, com dor referida para a região glútea (parte lombar) ou para a parede torácica e o abdome (parte torácica), podendo simular dor visceral.",
+    "camada": "intermediaria",
+    "partes": [
+      {
+        "key": "Iliocostalis lumborum muscle",
+        "pt": "Músculo iliocostal do lombo",
+        "origem": "Tendão comum do eretor da espinha: crista ilíaca, sacro e processos espinhosos lombares; fáscia toracolombar",
+        "insercao": "Ângulos das seis ou sete costelas inferiores; fibras profundas nos processos costais lombares",
+        "nota": "Parte mais volumosa; extensão e inclinação lateral da coluna lombar. A Terminologia Anatômica inclui nela a parte torácica como uma de suas divisões."
+      },
+      {
+        "key": "Iliocostalis thoracis muscle",
+        "pt": "Músculo iliocostal do tórax",
+        "origem": "Ângulos das seis costelas inferiores, medialmente às inserções do iliocostal do lombo",
+        "insercao": "Ângulos das seis costelas superiores e processo transverso de C7",
+        "nota": "Estende e inclina a coluna torácica."
+      },
+      {
+        "key": "Iliocostalis colli muscle",
+        "pt": "Músculo iliocostal do pescoço",
+        "origem": "Ângulos da 3ª à 6ª costelas",
+        "insercao": "Tubérculos posteriores dos processos transversos de C4 a C6",
+        "nota": "Também chamado iliocostal cervical. Estende e inclina a coluna cervical baixa."
+      }
+    ]
+  },
+  {
+    "key": "Longissimus muscles",
+    "pt": "Músculo longuíssimo",
+    "latim": "Musculus longissimus",
+    "sinonimos": [
+      "longuíssimos",
+      "dorsal longo"
+    ],
+    "resumo": "Coluna intermédia do eretor da espinha, a mais longa e volumosa, que se prende aos processos transversos e é a única das três a alcançar o crânio como músculo distinto.",
+    "origem": "Tendão comum do eretor da espinha e processos costais e acessórios lombares (parte torácica); processos transversos torácicos superiores (partes do pescoço e da cabeça).",
+    "insercao": "Processos transversos torácicos e costelas entre os tubérculos e os ângulos (parte torácica); processos transversos de C2 a C6 (parte do pescoço); margem posterior do processo mastoide (parte da cabeça).",
+    "inervacao": {
+      "nervo": "Ramos laterais dos ramos posteriores dos nervos espinais",
+      "raizes": "C1–S1, conforme o nível",
+      "nervoKeys": [
+        "Spinal nerves",
+        "Posterior rami of lumbar nerves"
+      ]
+    },
+    "vascularizacao": "Ramos dorsais das artérias intercostais posteriores e lombares, artérias sacrais laterais; artérias cervical profunda e occipital para as partes superiores.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "contração unilateral"
+      },
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "longuíssimos do pescoço e da cabeça"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario"
+      },
+      {
+        "art": "cervical",
+        "mov": "rotacao_ipsilateral",
+        "papel": "secundario",
+        "nota": "longuíssimo da cabeça"
+      }
+    ],
+    "funcao": "É o principal extensor do tronco entre as três colunas. As fibras lombares profundas, que vão dos processos acessórios e costais lombares à crista ilíaca, têm orientação oblíqua para trás e para baixo e resistem ao cisalhamento anterior das vértebras lombares. O longuíssimo da cabeça estende a cabeça e a roda para o mesmo lado. Excentricamente controla a flexão do tronco e da cabeça.",
+    "antagonistas": [
+      "Rectus abdominis muscle",
+      "Sternocleidomastoid muscle",
+      "Longus colli muscle"
+    ],
+    "sinergistas": [
+      "Iliocostalis muscles",
+      "Spinalis muscles",
+      "Multifidus muscles",
+      "Semispinalis muscles",
+      "Splenius muscles"
+    ],
+    "palpacao": "Forma o relevo mais saliente do eretor da espinha, cerca de dois dedos lateralmente aos processos espinhosos, nas regiões lombar e torácica baixa; contrai na extensão do tronco em decúbito ventral. As partes do pescoço e da cabeça ficam cobertas pelos esplênios e não são palpáveis isoladamente.",
+    "teste": "Testado com o eretor da espinha: extensão do tronco em decúbito ventral. As partes cervicais são testadas com os extensores posterolaterais do pescoço (Kendall): decúbito ventral, extensão da cabeça com rotação para o lado testado, resistência na região posterolateral da cabeça.",
+    "alongamento": "Flexão do tronco; para as partes superiores, flexão da cabeça e do pescoço com rotação e inclinação para o lado oposto.",
+    "clinica": "Participa do espasmo paravertebral nas lombalgias e é a parte do eretor mais estudada por eletromiografia de superfície. Os pontos-gatilho da parte torácica referem dor para a região lombar baixa e glútea.",
+    "camada": "intermediaria",
+    "partes": [
+      {
+        "key": "Longissimus thoracis muscle",
+        "pt": "Músculo longuíssimo do tórax",
+        "origem": "Tendão comum do eretor da espinha (sacro, crista ilíaca, processos espinhosos lombares) e processos acessórios e costais lombares",
+        "insercao": "Processos transversos de todas as vértebras torácicas e costelas (geralmente as nove ou dez inferiores), entre os tubérculos e os ângulos; a parte lombar insere-se nos processos acessórios e costais lombares",
+        "nota": "É a maior parte do eretor da espinha."
+      },
+      {
+        "key": "Longissimus colli muscle",
+        "pt": "Músculo longuíssimo do pescoço",
+        "origem": "Processos transversos de T1 a T5",
+        "insercao": "Tubérculos posteriores dos processos transversos de C2 a C6",
+        "nota": "Também chamado longuíssimo cervical. Estende e inclina a coluna cervical."
+      },
+      {
+        "key": "Longissimus capitis muscle",
+        "pt": "Músculo longuíssimo da cabeça",
+        "origem": "Processos transversos de T1 a T5 e processos articulares de C4 a C7",
+        "insercao": "Margem posterior do processo mastoide do temporal, profundamente ao esplênio da cabeça e ao esternocleidomastóideo",
+        "nota": "Estende a cabeça, inclina-a e roda-a para o mesmo lado."
+      }
+    ]
+  },
+  {
+    "key": "Spinalis muscles",
+    "pt": "Músculo espinal",
+    "latim": "Musculus spinalis",
+    "sinonimos": [
+      "espinais",
+      "espinhal"
+    ],
+    "resumo": "Coluna medial do eretor da espinha, a menor e menos constante, que une processos espinhosos entre si, junto à linha mediana.",
+    "origem": "Processos espinhosos das vértebras lombares superiores e torácicas inferiores (parte torácica) e ligamento nucal e processos espinhosos cervicotorácicos (parte do pescoço).",
+    "insercao": "Processos espinhosos das vértebras torácicas superiores (parte torácica) e cervicais (parte do pescoço); osso occipital, junto com o semiespinal da cabeça (parte da cabeça).",
+    "inervacao": {
+      "nervo": "Ramos posteriores dos nervos espinais",
+      "raizes": "C2–L3, conforme o nível",
+      "nervoKeys": [
+        "Spinal nerves"
+      ]
+    },
+    "vascularizacao": "Ramos dorsais das artérias intercostais posteriores e lombares; artéria cervical profunda.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "contribuição pequena"
+      },
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "partes do pescoço e da cabeça"
+      }
+    ],
+    "funcao": "Auxilia a extensão da coluna torácica e cervical. Por estar junto à linha mediana, quase não tem alavanca para inclinação lateral ou rotação.",
+    "antagonistas": [
+      "Rectus abdominis muscle"
+    ],
+    "sinergistas": [
+      "Longissimus muscles",
+      "Iliocostalis muscles",
+      "Semispinalis muscles"
+    ],
+    "palpacao": "Imediatamente ao lado dos processos espinhosos torácicos; não se distingue do longuíssimo e dos músculos transversoespinais.",
+    "teste": "Testado com o eretor da espinha.",
+    "alongamento": "Flexão da coluna torácica e cervical.",
+    "clinica": "Sem importância clínica isolada. As partes do pescoço e da cabeça são inconstantes.",
+    "camada": "intermediaria",
+    "partes": [
+      {
+        "key": "Spinalis thoracis muscle",
+        "pt": "Músculo espinal do tórax",
+        "origem": "Processos espinhosos de T11 a L2",
+        "insercao": "Processos espinhosos de T2 a T8 (número variável)",
+        "nota": "Parte mais constante e bem definida; funde-se lateralmente com o longuíssimo do tórax."
+      },
+      {
+        "key": "Spinalis colli muscle",
+        "pt": "Músculo espinal do pescoço",
+        "origem": "Parte inferior do ligamento nucal e processos espinhosos de C7 a T2",
+        "insercao": "Processo espinhoso do áxis (às vezes também de C3 e C4)",
+        "nota": "Também chamado espinal cervical. Inconstante."
+      },
+      {
+        "key": "Spinalis capitis muscle",
+        "pt": "Músculo espinal da cabeça",
+        "origem": "Processos espinhosos cervicais inferiores e torácicos superiores",
+        "insercao": "Osso occipital, entre as linhas nucais superior e inferior, com o semiespinal da cabeça",
+        "nota": "Geralmente fundido ao semiespinal da cabeça, do qual raramente se separa."
+      }
+    ]
+  },
+  {
+    "key": "Splenius muscles",
+    "pt": "Músculos esplênios",
+    "latim": "Musculi splenii",
+    "sinonimos": [
+      "esplênio"
+    ],
+    "resumo": "Camada superficial dos músculos próprios do dorso, na região posterior do pescoço. São dois músculos planos (da cabeça e do pescoço) que sobem lateralmente a partir da linha mediana e envolvem os músculos profundos como uma bandagem.",
+    "origem": "Metade inferior do ligamento nucal e processos espinhosos de C7 a T6.",
+    "insercao": "Processo mastoide e terço lateral da linha nucal superior (esplênio da cabeça); tubérculos posteriores dos processos transversos de C1 a C3 (esplênio do pescoço).",
+    "inervacao": {
+      "nervo": "Ramos laterais dos ramos posteriores dos nervos cervicais médios e inferiores",
+      "raizes": "C2–C6",
+      "nervoKeys": [
+        "Cervical nerves"
+      ]
+    },
+    "vascularizacao": "Ramos musculares das artérias occipital, cervical profunda e cervical transversa.",
+    "acoes": [
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "cervical",
+        "mov": "rotacao_ipsilateral",
+        "papel": "primario",
+        "nota": "contração unilateral"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "contração unilateral"
+      }
+    ],
+    "funcao": "Bilateralmente estendem a cabeça e o pescoço e, excentricamente, controlam a flexão da cabeça, por exemplo ao olhar para baixo. Unilateralmente rodam e inclinam a cabeça para o mesmo lado; na rotação da cabeça trabalham com o esternocleidomastóideo do lado oposto. São importantes na sustentação da cabeça na postura anteriorizada, quando permanecem em contração prolongada.",
+    "antagonistas": [
+      "Sternocleidomastoid muscle",
+      "Longus colli muscle",
+      "Longus capitis muscle"
+    ],
+    "sinergistas": [
+      "Semispinalis muscles",
+      "Longissimus capitis muscle",
+      "Trapezius muscle",
+      "Levator scapulae",
+      "Obliquus inferior capitis muscle"
+    ],
+    "palpacao": "O esplênio da cabeça é palpável no trígono lateral do pescoço, entre a margem anterior do trapézio descendente e a margem posterior do esternocleidomastóideo, logo abaixo do processo mastoide e posterior ao levantador da escápula. Peça extensão com rotação da cabeça para o mesmo lado contra leve resistência.",
+    "teste": "Kendall, extensores posterolaterais do pescoço: decúbito ventral, cabeça em extensão e rodada para o lado testado; resistência na região posterolateral da cabeça, no sentido da flexão anterolateral. O teste envolve também o semiespinal e o eretor da espinha cervicais.",
+    "alongamento": "Flexão da cabeça e do pescoço com rotação e inclinação para o lado oposto.",
+    "clinica": "Comprometidos no torcicolo e nas lesões por aceleração e desaceleração (chicote). Os pontos-gatilho do esplênio da cabeça referem dor para o vértice do crânio, e os do esplênio do pescoço para a região da órbita e da têmpora, contribuindo para a cefaleia cervicogênica e a do tipo tensional. A postura de cabeça anteriorizada com extensão da cervical alta os mantém encurtados.",
+    "dica": "Esplênio vem do grego para bandagem: eles enfaixam os músculos profundos do pescoço.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Splenius capitis muscle",
+        "pt": "Músculo esplênio da cabeça",
+        "origem": "Metade inferior do ligamento nucal e processos espinhosos de C7 a T3 (ou T4)",
+        "insercao": "Processo mastoide do temporal e terço lateral da linha nucal superior, profundamente ao esternocleidomastóideo",
+        "nota": "Estende a cabeça e a roda e inclina para o mesmo lado."
+      },
+      {
+        "key": "Splenius colli muscle",
+        "pt": "Músculo esplênio do pescoço",
+        "origem": "Processos espinhosos de T3 a T6",
+        "insercao": "Tubérculos posteriores dos processos transversos de C1 a C3",
+        "nota": "Também chamado esplênio cervical. Estende a coluna cervical e a roda e inclina para o mesmo lado."
+      }
+    ]
+  },
+  {
+    "key": "Semispinalis muscles",
+    "pt": "Músculos semiespinais",
+    "latim": "Musculi semispinales",
+    "sinonimos": [
+      "semiespinal",
+      "semiespinhal"
+    ],
+    "resumo": "Camada mais superficial do grupo transversoespinal, presente apenas da região torácica para cima. Seus fascículos longos sobem dos processos transversos para os processos espinhosos situados quatro a seis vértebras acima e para o occipital.",
+    "origem": "Processos transversos das vértebras torácicas (de T1 a T10) e, para o semiespinal da cabeça, também processos articulares de C4 a C6.",
+    "insercao": "Processos espinhosos das vértebras torácicas superiores e cervicais (partes do tórax e do pescoço) e osso occipital, entre as linhas nucais superior e inferior (parte da cabeça).",
+    "inervacao": {
+      "nervo": "Ramos posteriores dos nervos espinais cervicais e torácicos; o semiespinal da cabeça recebe também o nervo occipital maior (C2)",
+      "raizes": "C1–T6",
+      "nervoKeys": [
+        "Spinal nerves",
+        "Cervical nerves"
+      ]
+    },
+    "vascularizacao": "Artéria cervical profunda, ramo descendente da artéria occipital e ramos dorsais das artérias intercostais posteriores.",
+    "acoes": [
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "partes do pescoço e da cabeça, contração bilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "parte do tórax, na coluna torácica"
+      },
+      {
+        "art": "cervical",
+        "mov": "rotacao_contralateral",
+        "papel": "secundario",
+        "nota": "contração unilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "rotacao_contralateral",
+        "papel": "secundario",
+        "nota": "parte do tórax"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "São extensores potentes da cabeça, do pescoço e da coluna torácica. O semiespinal da cabeça é o maior músculo da nuca e o principal extensor da cabeça; o semiespinal do pescoço, inserido no grande processo espinhoso do áxis, estabiliza essa vértebra e dá base aos músculos suboccipitais. Unilateralmente rodam a coluna para o lado oposto. Trabalham excentricamente e de modo tônico para sustentar a cabeça, cujo centro de gravidade fica à frente da coluna cervical.",
+    "antagonistas": [
+      "Sternocleidomastoid muscle",
+      "Longus colli muscle",
+      "Longus capitis muscle"
+    ],
+    "sinergistas": [
+      "Splenius muscles",
+      "Multifidus muscles",
+      "Longissimus muscles",
+      "Trapezius muscle",
+      "Rectus posterior major capitis muscle"
+    ],
+    "palpacao": "O semiespinal da cabeça forma os dois relevos longitudinais de cada lado da linha mediana da nuca, profundamente ao trapézio, e é palpável logo abaixo do occipital durante a extensão da cabeça contra resistência. As partes do pescoço e do tórax são profundas e não se individualizam.",
+    "teste": "Testados com os extensores do pescoço (Kendall): decúbito ventral, extensão da cabeça e do pescoço contra resistência na região occipital. A resistência dos extensores cervicais profundos pode ser avaliada pelo tempo de sustentação da cabeça em posição neutra, em decúbito ventral.",
+    "alongamento": "Flexão da cabeça e do pescoço (queixo em direção ao esterno), associada a leve rotação para o mesmo lado do músculo.",
+    "clinica": "O nervo occipital maior atravessa o semiespinal da cabeça (e o trapézio) e pode ser irritado nesse ponto, causando neuralgia occipital e cefaleia que irradia da nuca para o vértice. Na dor cervical crônica e após lesão em chicote observam-se alterações do semiespinal do pescoço e dos multífidos (redução da área, infiltração gordurosa e inibição), com predomínio dos extensores superficiais; por isso a reabilitação inclui exercícios específicos para os extensores cervicais profundos.",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Semispinalis thoracis muscle",
+        "pt": "Músculo semiespinal do tórax",
+        "origem": "Processos transversos de T6 a T10",
+        "insercao": "Processos espinhosos de C6 a T4",
+        "nota": "Estende a coluna torácica e a roda para o lado oposto."
+      },
+      {
+        "key": "Semispinalis colli muscle",
+        "pt": "Músculo semiespinal do pescoço",
+        "origem": "Processos transversos de T1 a T5 ou T6",
+        "insercao": "Processos espinhosos de C2 a C5, principalmente o do áxis",
+        "nota": "Também chamado semiespinal cervical. Estende a coluna cervical, roda-a para o lado oposto e estabiliza o áxis."
+      }
+    ]
+  },
+  {
+    "key": "Multifidus muscles",
+    "pt": "Músculos multífidos",
+    "latim": "Musculi multifidi",
+    "sinonimos": [
+      "multífido"
+    ],
+    "resumo": "Camada intermediária do grupo transversoespinal: fascículos curtos e oblíquos que preenchem o sulco ao lado dos processos espinhosos, do sacro ao áxis, cruzando de dois a quatro segmentos. São mais volumosos na região lombar, onde atuam como os principais estabilizadores segmentares da coluna.",
+    "origem": "Face posterior do sacro, espinha ilíaca posterossuperior, ligamentos sacroilíacos posteriores e aponeurose do eretor da espinha; processos mamilares das vértebras lombares; processos transversos das vértebras torácicas; processos articulares de C4 a C7.",
+    "insercao": "Processos espinhosos das vértebras situadas dois a quatro segmentos acima, até o áxis. Na região lombar, as fibras profundas prendem-se também às lâminas e às cápsulas das articulações dos processos articulares.",
+    "inervacao": {
+      "nervo": "Ramos mediais dos ramos posteriores dos nervos espinais, de modo segmentar: cada fascículo é inervado pelo nervo do nível do processo espinhoso em que se insere",
+      "raizes": "C3–S3, conforme o nível",
+      "nervoKeys": [
+        "Spinal nerves",
+        "Posterior rami of lumbar nerves"
+      ]
+    },
+    "vascularizacao": "Ramos dorsais das artérias lombares e intercostais posteriores, artérias sacrais laterais e artéria cervical profunda.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "controle segmentar e compressão das vértebras; fibras profundas"
+      },
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "contração bilateral; fibras superficiais"
+      },
+      {
+        "art": "tronco",
+        "mov": "rotacao_contralateral",
+        "papel": "secundario",
+        "nota": "ação fraca; na rotação neutraliza a flexão produzida pelos oblíquos"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "secundario"
+      },
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "parte do pescoço"
+      },
+      {
+        "art": "cervical",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "parte do pescoço"
+      },
+      {
+        "art": "pelve",
+        "mov": "anteversao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Na região lombar, as fibras superficiais, mais longas, estendem a coluna e aumentam a lordose; as profundas, curtas e próximas do eixo de movimento, quase não geram torque, mas comprimem os segmentos e controlam a translação e a rotação entre as vértebras, aumentando a rigidez segmentar. As fibras profundas ativam-se de forma antecipatória nos movimentos dos membros, independentemente da direção, junto com o transverso do abdome. Na rotação do tronco, os multífidos contraem dos dois lados para anular o momento flexor dos oblíquos do abdome. Ao se contraírem, expandem-se dentro do envoltório da fáscia toracolombar e a tensionam; pela origem no sacro e nos ligamentos sacroilíacos, contribuem para a nutação do sacro e para a estabilidade da articulação sacroilíaca. Protegem as cápsulas das articulações dos processos articulares de serem pinçadas.",
+    "antagonistas": [
+      "Rectus abdominis muscle",
+      "External abdominal oblique muscle"
+    ],
+    "sinergistas": [
+      "Transversus abdominis muscle",
+      "Erector spinae",
+      "Rotatores",
+      "Semispinalis muscles",
+      "Levator ani",
+      "Diaphragm"
+    ],
+    "palpacao": "Na região lombar, imediatamente ao lado dos processos espinhosos, no sulco entre eles e o longuíssimo; em L5–S1 e sobre o sacro, os multífidos são a única massa muscular entre os processos espinhosos e a espinha ilíaca posterossuperior. Com o paciente em decúbito ventral, afunde os polegares de cada lado do processo espinhoso e peça para inchar suavemente o músculo contra os dedos, sem mover a coluna nem a pelve; alternativamente, peça uma elevação mínima do braço oposto. Compare a firmeza e a simetria entre os lados e os níveis.",
+    "teste": "Não há prova manual de força isolada. Avalia-se a capacidade de ativação isométrica segmentar pela palpação (contração lenta, simétrica e sustentada por 10 segundos, com respiração normal), de preferência com ultrassonografia, que mostra o espessamento e permite medir a área de secção transversa. A extensão do tronco em decúbito ventral testa-os junto com o eretor da espinha.",
+    "alongamento": "Flexão da coluna com leve rotação para o mesmo lado do músculo; na prática alongam-se junto com o eretor da espinha, por exemplo abraçando os joelhos em decúbito dorsal.",
+    "clinica": "Após um primeiro episódio de lombalgia aguda ocorre atrofia rápida e localizada do multífido lombar, no nível e no lado dos sintomas, que não se recupera espontaneamente com a remissão da dor; na lombalgia crônica há redução da área de secção transversa, infiltração gordurosa e atraso de ativação. Exercícios específicos de ativação, depois integrados a tarefas funcionais, restauram o trofismo e foram associados à menor recorrência de lombalgia. Alterações semelhantes são descritas nos multífidos cervicais após lesão em chicote. A abordagem cirúrgica posterior da coluna pode desnervar o músculo, pois cada fascículo depende de um único ramo medial; esse mesmo ramo é o alvo da denervação por radiofrequência das articulações dos processos articulares.",
+    "dica": "Regra dos transversoespinais: quanto mais profundo, mais curto. Semiespinal cruza 4 a 6 vértebras, multífido 2 a 4, rotadores 1 a 2.",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Multifidus lumborum muscle",
+        "pt": "Músculo multífido do lombo",
+        "origem": "Face posterior do sacro, espinha ilíaca posterossuperior, ligamentos sacroilíacos posteriores, aponeurose do eretor da espinha e processos mamilares lombares",
+        "insercao": "Processos espinhosos lombares, dois a quatro segmentos acima",
+        "nota": "Parte mais espessa e clinicamente mais importante; estabilizador segmentar da coluna lombar e da articulação sacroilíaca."
+      },
+      {
+        "key": "Multifidus thoracis muscle",
+        "pt": "Músculo multífido do tórax",
+        "origem": "Processos transversos das vértebras torácicas",
+        "insercao": "Processos espinhosos torácicos, dois a quatro segmentos acima",
+        "nota": "Mais delgado; coberto pelo semiespinal do tórax."
+      },
+      {
+        "key": "Multifidus colli muscle",
+        "pt": "Músculo multífido do pescoço",
+        "origem": "Processos articulares de C4 a C7",
+        "insercao": "Processos espinhosos cervicais, até o áxis",
+        "nota": "Também chamado multífido cervical. Prende-se às cápsulas das articulações dos processos articulares cervicais; estabilizador segmentar do pescoço."
+      }
+    ]
+  },
+  {
+    "key": "Rotatores",
+    "pt": "Músculos rotadores",
+    "latim": "Musculi rotatores",
+    "sinonimos": [
+      "rotadores curtos e longos"
+    ],
+    "resumo": "Camada mais profunda do grupo transversoespinal: pequenos fascículos que unem o processo transverso de uma vértebra à vértebra imediatamente acima ou à seguinte. São bem desenvolvidos apenas na região torácica.",
+    "origem": "Processos transversos das vértebras (processos mamilares na região lombar; processos articulares na cervical).",
+    "insercao": "Junção da lâmina com o processo transverso ou base do processo espinhoso da vértebra imediatamente superior (rotadores curtos) ou da segunda vértebra acima (rotadores longos).",
+    "inervacao": {
+      "nervo": "Ramos mediais dos ramos posteriores dos nervos espinais",
+      "raizes": "Segmentar (principalmente T1–T11)",
+      "nervoKeys": [
+        "Spinal nerves"
+      ]
+    },
+    "vascularizacao": "Ramos dorsais das artérias intercostais posteriores e lombares.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "estabilização e propriocepção segmentares"
+      },
+      {
+        "art": "tronco",
+        "mov": "rotacao_contralateral",
+        "papel": "secundario",
+        "nota": "ação fraca"
+      },
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "contração bilateral, ação fraca"
+      }
+    ],
+    "funcao": "Apesar do nome, são pequenos demais e ficam muito perto do eixo de movimento para produzir rotação significativa. Têm altíssima densidade de fusos neuromusculares e funcionam sobretudo como sensores de posição e de movimento entre as vértebras, além de fazerem ajustes finos e estabilizarem os segmentos junto com os multífidos.",
+    "sinergistas": [
+      "Multifidus muscles",
+      "Semispinalis muscles",
+      "Interspinales muscles"
+    ],
+    "palpacao": "Não são palpáveis: ficam na profundidade do sulco entre os processos espinhosos e os transversos, sob os multífidos.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Flexão com rotação da coluna torácica para o mesmo lado do músculo.",
+    "clinica": "Sem síndrome própria. Supõe-se que participem das alterações de propriocepção e de controle motor segmentar associadas à dor na coluna torácica.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Interspinales muscles",
+    "pt": "Músculos interespinais",
+    "latim": "Musculi interspinales",
+    "sinonimos": [
+      "interespinhais"
+    ],
+    "resumo": "Pequenos músculos pares e curtos que unem os processos espinhosos de vértebras vizinhas, de cada lado do ligamento interespinal. Estão presentes nas regiões cervical e lombar e são rudimentares ou ausentes na torácica.",
+    "origem": "Face superior do processo espinhoso de uma vértebra.",
+    "insercao": "Face inferior do processo espinhoso da vértebra imediatamente acima.",
+    "inervacao": {
+      "nervo": "Ramos mediais dos ramos posteriores dos nervos espinais",
+      "raizes": "Segmentar",
+      "nervoKeys": [
+        "Spinal nerves",
+        "Posterior rami of lumbar nerves"
+      ]
+    },
+    "vascularizacao": "Ramos dorsais das artérias segmentares: cervical profunda, intercostais posteriores e lombares.",
+    "acoes": [
+      {
+        "art": "cervical",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "interespinais do pescoço"
+      },
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "interespinais do lombo"
+      },
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "estabilização e propriocepção segmentares"
+      }
+    ],
+    "funcao": "Auxiliam a extensão entre vértebras adjacentes e estabilizam os segmentos durante os movimentos. Como os demais músculos segmentares curtos, são ricos em fusos neuromusculares e têm função principalmente proprioceptiva.",
+    "sinergistas": [
+      "Multifidus muscles",
+      "Rotatores",
+      "Intertransversarii muscles"
+    ],
+    "palpacao": "Não são palpáveis individualmente; ficam entre os processos espinhosos, de cada lado do ligamento interespinal.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Flexão da coluna cervical e lombar.",
+    "clinica": "Podem ser lesados, junto com os ligamentos interespinal e supraespinal, nos traumas em hiperflexão.",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Interspinales colli muscles",
+        "pt": "Músculos interespinais do pescoço",
+        "nota": "Seis pares, entre os processos espinhosos bífidos de C2 a T1. São os mais bem definidos. Também chamados interespinais cervicais."
+      },
+      {
+        "key": "Interspinales thoracis muscles",
+        "pt": "Músculos interespinais do tórax",
+        "nota": "Inconstantes; quando presentes, limitam-se aos extremos da região torácica (T1–T2 e T11–T12)."
+      },
+      {
+        "key": "Interspinales lumborum muscles",
+        "pt": "Músculos interespinais do lombo",
+        "nota": "Quatro pares, entre os processos espinhosos de L1 a L5; às vezes há um par entre L5 e o sacro."
+      }
+    ]
+  },
+  {
+    "key": "Intertransversarii muscles",
+    "pt": "Músculos intertransversários",
+    "latim": "Musculi intertransversarii",
+    "resumo": "Pequenos músculos segmentares que unem os processos transversos de vértebras vizinhas. São mais desenvolvidos nas regiões cervical e lombar, onde se dividem em fascículos com inervações diferentes.",
+    "origem": "Processo transverso (ou processo costal, acessório ou mamilar, na região lombar) de uma vértebra.",
+    "insercao": "Processo correspondente da vértebra adjacente.",
+    "inervacao": {
+      "nervo": "Ramos posteriores dos nervos espinais para os intertransversários mediais do lombo, os torácicos e a parte medial dos posteriores do pescoço; ramos anteriores para os laterais do lombo, os anteriores do pescoço e a parte lateral dos posteriores do pescoço",
+      "raizes": "Segmentar",
+      "nervoKeys": [
+        "Spinal nerves",
+        "Anterior rami of lumbar nerves",
+        "Posterior rami of lumbar nerves"
+      ]
+    },
+    "vascularizacao": "Artérias segmentares: lombares, intercostais posteriores, cervical profunda, cervical ascendente e vertebral.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "intertransversários do lombo, contração unilateral"
+      },
+      {
+        "art": "cervical",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "intertransversários do pescoço"
+      },
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "estabilização e propriocepção segmentares"
+      }
+    ],
+    "funcao": "Auxiliam a inclinação lateral e, bilateralmente, estabilizam os segmentos vertebrais. São pequenos e ricos em fusos neuromusculares, com função predominantemente proprioceptiva. Compreendem: no pescoço, os intertransversários anteriores e posteriores; no tórax, fascículos rudimentares nos níveis inferiores; no lombo, os mediais (do processo acessório de uma vértebra ao processo mamilar da seguinte, músculos próprios do dorso) e os laterais, estes com uma parte dorsal e outra ventral, inervados por ramos anteriores e, por isso, classificados como hipaxiais, da mesma camada que o quadrado do lombo.",
+    "sinergistas": [
+      "Quadratus lumborum muscle",
+      "Interspinales muscles",
+      "Multifidus muscles",
+      "Rotatores"
+    ],
+    "palpacao": "Não são palpáveis.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Inclinação lateral da coluna para o lado oposto.",
+    "clinica": "Sem síndrome própria; têm interesse sobretudo anatômico e como elementos proprioceptivos do controle segmentar.",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Dorsal parts of lateral intertransversarii lumborum muscles",
+        "pt": "Partes dorsais dos músculos intertransversários laterais do lombo",
+        "origem": "Processo acessório de uma vértebra lombar",
+        "insercao": "Processo costal (transverso) da vértebra lombar seguinte",
+        "nota": "Inervadas por ramos anteriores dos nervos lombares."
+      },
+      {
+        "key": "Ventral parts of lateral intertransversarii lumborum muscles",
+        "pt": "Partes ventrais dos músculos intertransversários laterais do lombo",
+        "origem": "Processo costal (transverso) de uma vértebra lombar",
+        "insercao": "Processo costal da vértebra lombar adjacente",
+        "nota": "Inervadas por ramos anteriores dos nervos lombares; situam-se no mesmo plano do quadrado do lombo."
+      }
+    ]
+  }
+]

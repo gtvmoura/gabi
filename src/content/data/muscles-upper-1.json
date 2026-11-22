@@ -1,0 +1,695 @@
+[
+  {
+    "key": "Deltoid muscle",
+    "pt": "Músculo deltoide",
+    "latim": "Musculus deltoideus",
+    "sinonimos": [
+      "deltoide"
+    ],
+    "resumo": "Músculo espesso e triangular que recobre a articulação do ombro e dá a ele o contorno arredondado. É o principal abdutor do braço e, por suas três partes, participa de quase todos os movimentos da articulação glenoumeral.",
+    "origem": "Parte clavicular: terço lateral da clavícula (margem anterior). Parte acromial: margem lateral e face superior do acrômio. Parte espinal: margem inferior da espinha da escápula.",
+    "insercao": "Tuberosidade para o músculo deltoide, na face lateral do corpo do úmero.",
+    "inervacao": {
+      "nervo": "Nervo axilar",
+      "raizes": "C5, C6",
+      "nervoKeys": [
+        "Axillary nerve"
+      ]
+    },
+    "vascularizacao": "Artéria circunflexa posterior do úmero e ramo deltóideo da artéria toracoacromial.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "abducao",
+        "papel": "primario",
+        "nota": "parte acromial; o supraespinal inicia e acompanha o movimento"
+      },
+      {
+        "art": "ombro",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "parte clavicular"
+      },
+      {
+        "art": "ombro",
+        "mov": "rot_medial",
+        "papel": "secundario",
+        "nota": "parte clavicular"
+      },
+      {
+        "art": "ombro",
+        "mov": "aducao_horizontal",
+        "papel": "secundario",
+        "nota": "parte clavicular"
+      },
+      {
+        "art": "ombro",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "parte espinal"
+      },
+      {
+        "art": "ombro",
+        "mov": "rot_lateral",
+        "papel": "secundario",
+        "nota": "parte espinal"
+      },
+      {
+        "art": "ombro",
+        "mov": "abducao_horizontal",
+        "papel": "primario",
+        "nota": "parte espinal"
+      }
+    ],
+    "funcao": "A parte acromial, multipenada e muito potente, abduz o braço; as partes clavicular e espinal atuam como estabilizadoras durante a abdução e como motoras da flexão e da extensão. O deltoide forma com o manguito rotador um par de forças: sozinho ele tracionaria a cabeça do úmero para cima, contra o arco coracoacromial; o manguito comprime e deprime a cabeça, permitindo a elevação. Nos primeiros graus de abdução a linha de tração do deltoide é pouco eficiente, daí a importância do supraespinal. Trabalha excentricamente ao abaixar objetos e ao controlar a descida do braço, e isometricamente ao sustentar cargas com o braço pendente (impede a luxação inferior do úmero). As partes clavicular e espinal balançam o membro durante a marcha.",
+    "antagonistas": [
+      "Latissimus dorsi muscle",
+      "Pectoralis major muscle",
+      "Teres major muscle"
+    ],
+    "sinergistas": [
+      "Supraspinatus muscle",
+      "Coracobrachialis muscle",
+      "Pectoralis major muscle",
+      "Trapezius muscle",
+      "Serratus anterior muscle"
+    ],
+    "palpacao": "Com o braço abduzido a cerca de 90° contra resistência, o contorno das três partes fica visível. Palpe a parte clavicular abaixo do terço lateral da clavícula, a acromial lateralmente ao acrômio e a espinal abaixo da espinha da escápula; siga as fibras até convergirem na tuberosidade para o músculo deltoide, aproximadamente no meio da face lateral do braço.",
+    "teste": "Parte acromial (Kendall): paciente sentado, ombro abduzido a 90°, cotovelo fletido; resistência para baixo sobre a extremidade distal do braço, estabilizando a escápula. Parte clavicular: abdução leve com flexão e discreta rotação lateral, resistência em direção à extensão e adução. Parte espinal: abdução leve com extensão e discreta rotação medial, resistência em direção à flexão. Observe elevação do ombro (trapézio) ou inclinação do tronco como compensações.",
+    "alongamento": "Parte clavicular: extensão com rotação lateral do ombro (mãos entrelaçadas atrás do corpo). Parte espinal: adução horizontal, levando o braço à frente do tórax com a outra mão. Parte acromial: adução do braço por trás ou pela frente do tronco.",
+    "clinica": "A lesão do nervo axilar (fratura do colo cirúrgico do úmero, luxação anterior da glenoumeral, uso inadequado de muletas) causa paresia e atrofia do deltoide, com perda do contorno arredondado do ombro e hipoestesia na face lateral do braço (área do nervo cutâneo lateral superior do braço). Sempre teste a sensibilidade dessa área e a contração do deltoide após uma luxação. O paciente compensa parcialmente a abdução com o supraespinal e a rotação lateral do úmero (cabeça longa do bíceps). É local comum de injeção intramuscular, que deve ser feita na parte acromial, alguns centímetros abaixo do acrômio, para poupar o nervo axilar. Dor na inserção deltóidea frequentemente é dor referida do manguito rotador ou da bolsa subacromial.",
+    "dica": "Três partes, três direções: clavicular puxa para a frente, acromial para o lado, espinal para trás. A forma lembra a letra grega delta (Δ) invertida.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Clavicular part of deltoid muscle",
+        "pt": "Parte clavicular (anterior)",
+        "origem": "Terço lateral da clavícula",
+        "insercao": "Tuberosidade para o músculo deltoide do úmero",
+        "acoes": [
+          {
+            "art": "ombro",
+            "mov": "flexao",
+            "papel": "primario"
+          },
+          {
+            "art": "ombro",
+            "mov": "rot_medial",
+            "papel": "secundario"
+          },
+          {
+            "art": "ombro",
+            "mov": "aducao_horizontal",
+            "papel": "secundario"
+          }
+        ],
+        "nota": "Sinergista do peitoral maior (parte clavicular) e do coracobraquial."
+      },
+      {
+        "key": "Acromial part of deltoid muscle",
+        "pt": "Parte acromial (média)",
+        "origem": "Acrômio",
+        "insercao": "Tuberosidade para o músculo deltoide do úmero",
+        "acoes": [
+          {
+            "art": "ombro",
+            "mov": "abducao",
+            "papel": "primario"
+          }
+        ],
+        "nota": "Parte multipenada, a mais forte; principal responsável pela abdução."
+      },
+      {
+        "key": "Scapular spinal part of deltoid muscle",
+        "pt": "Parte espinal (posterior)",
+        "origem": "Espinha da escápula",
+        "insercao": "Tuberosidade para o músculo deltoide do úmero",
+        "acoes": [
+          {
+            "art": "ombro",
+            "mov": "extensao",
+            "papel": "primario"
+          },
+          {
+            "art": "ombro",
+            "mov": "rot_lateral",
+            "papel": "secundario"
+          },
+          {
+            "art": "ombro",
+            "mov": "abducao_horizontal",
+            "papel": "primario"
+          }
+        ],
+        "nota": "Atua com o infraespinal e o redondo menor na rotação lateral e na abdução horizontal."
+      }
+    ]
+  },
+  {
+    "key": "Supraspinatus muscle",
+    "pt": "Músculo supraespinal",
+    "latim": "Musculus supraspinatus",
+    "sinonimos": [
+      "supraespinhoso",
+      "supra-espinhal"
+    ],
+    "resumo": "Músculo do manguito rotador situado na fossa supraespinal, sob o trapézio. Seu tendão passa sob o arco coracoacromial e é o mais frequentemente lesado do ombro.",
+    "origem": "Fossa supraespinal da escápula (dois terços mediais).",
+    "insercao": "Faceta superior do tubérculo maior do úmero; as fibras se fundem à cápsula articular do ombro.",
+    "inervacao": {
+      "nervo": "Nervo supraescapular",
+      "raizes": "C5, C6 (contribuição variável de C4)",
+      "nervoKeys": [
+        "Suprascapular nerve"
+      ]
+    },
+    "vascularizacao": "Artéria supraescapular.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "abducao",
+        "papel": "primario",
+        "nota": "inicia a abdução e auxilia o deltoide em toda a amplitude"
+      },
+      {
+        "art": "ombro",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "comprime a cabeça do úmero contra a cavidade glenoidal"
+      },
+      {
+        "art": "ombro",
+        "mov": "rot_lateral",
+        "papel": "secundario",
+        "nota": "ação fraca"
+      }
+    ],
+    "funcao": "Atua em toda a amplitude da abdução, sendo especialmente importante nos primeiros graus, quando o deltoide tem alavanca desfavorável. Junto com os demais músculos do manguito, centraliza e comprime a cabeça do úmero na cavidade glenoidal, opondo-se à translação superior provocada pelo deltoide. Com o braço pendente, sustenta a cabeça do úmero contra a tração da gravidade (por exemplo, ao carregar uma sacola), evitando a subluxação inferior. É muito solicitado em atividades acima da cabeça e em arremessos, nos quais desacelera o braço excentricamente.",
+    "antagonistas": [
+      "Latissimus dorsi muscle",
+      "Pectoralis major muscle",
+      "Teres major muscle"
+    ],
+    "sinergistas": [
+      "Deltoid muscle",
+      "Infraspinatus muscle",
+      "Teres minor muscle",
+      "Subscapularis muscle"
+    ],
+    "palpacao": "O ventre é palpado profundamente ao trapézio, logo acima da espinha da escápula, e se contrai no início da abdução. Para o tendão: paciente sentado, braço atrás do corpo em extensão, adução e rotação medial (dorso da mão na região lombar); o tendão desliza para a frente do acrômio e pode ser palpado logo abaixo de sua margem anterior, sobre o tubérculo maior.",
+    "teste": "Teste de Jobe (lata vazia): braço elevado a 90° no plano da escápula (cerca de 30° à frente do plano frontal), rotação medial com o polegar para baixo; o examinador aplica resistência para baixo. Dor sugere tendinopatia; fraqueza sugere ruptura. A variante lata cheia (polegar para cima) provoca menos dor e é igualmente útil para avaliar força. Teste do braço caído: o paciente não consegue baixar lentamente o braço a partir de 90° de abdução em rupturas extensas.",
+    "alongamento": "Adução do braço por trás do tronco com rotação medial (levar o dorso da mão em direção à escápula oposta), ou adução horizontal associada a leve tração; alongamentos devem ser indolores em ombros com sintomas de impacto.",
+    "clinica": "É o tendão central da síndrome do impacto subacromial: ao elevar o braço, o tendão e a bolsa subacromial podem ser comprimidos contra o acrômio e o ligamento coracoacromial, gerando arco doloroso entre cerca de 60° e 120° de abdução (testes de Neer e de Hawkins-Kennedy). A região próxima à inserção é relativamente hipovascular (zona crítica), o que favorece tendinopatia degenerativa, tendinite calcária e rupturas parciais ou totais, mais comuns após os 40–50 anos. A lesão do nervo supraescapular na incisura da escápula causa atrofia do supraespinal e do infraespinal. Na reabilitação, priorizam-se o controle escapular, o fortalecimento do manguito abaixo de 90° e a correção de déficits de rotação.",
+    "dica": "SIRS: Supraespinal, Infraespinal, Redondo menor (no tubérculo maior, de cima para baixo) e Subescapular (no tubérculo menor).",
+    "camada": "profunda"
+  },
+  {
+    "key": "Infraspinatus muscle",
+    "pt": "Músculo infraespinal",
+    "latim": "Musculus infraspinatus",
+    "sinonimos": [
+      "infraespinhoso",
+      "infra-espinhal"
+    ],
+    "resumo": "Músculo triangular do manguito rotador que ocupa a fossa infraespinal. É o principal rotador lateral do ombro.",
+    "origem": "Fossa infraespinal da escápula (dois terços mediais) e fáscia infraespinal.",
+    "insercao": "Faceta média do tubérculo maior do úmero.",
+    "inervacao": {
+      "nervo": "Nervo supraescapular",
+      "raizes": "C5, C6",
+      "nervoKeys": [
+        "Suprascapular nerve"
+      ]
+    },
+    "vascularizacao": "Artéria supraescapular e artéria circunflexa da escápula.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "rot_lateral",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "mantém a cabeça do úmero na cavidade glenoidal e limita a translação posterior"
+      },
+      {
+        "art": "ombro",
+        "mov": "abducao_horizontal",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Com o redondo menor responde pela maior parte da força de rotação lateral. Durante a elevação do braço, deprime e roda lateralmente a cabeça do úmero, afastando o tubérculo maior do acrômio. No arremesso e em saques, contrai-se excentricamente com grande intensidade para desacelerar a rotação medial e a adução horizontal, razão de sua sobrecarga em atletas. É essencial para levar a mão à cabeça e à nuca (pentear o cabelo).",
+    "antagonistas": [
+      "Subscapularis muscle",
+      "Pectoralis major muscle",
+      "Latissimus dorsi muscle",
+      "Teres major muscle"
+    ],
+    "sinergistas": [
+      "Teres minor muscle",
+      "Deltoid muscle",
+      "Supraspinatus muscle"
+    ],
+    "palpacao": "Paciente em decúbito ventral com o braço pendente para fora da maca ou apoiado sobre os cotovelos. Palpe abaixo da espinha da escápula, medialmente à parte espinal do deltoide; boa parte do ventre é superficial. Peça rotação lateral leve para sentir a contração. O tendão é palpado logo abaixo do ângulo posterior do acrômio com o ombro em flexão de 90°, leve adução e rotação lateral.",
+    "teste": "Rotação lateral resistida com o braço ao lado do corpo e cotovelo a 90° (o examinador resiste no punho, estabilizando o cotovelo). Kendall: decúbito ventral, ombro abduzido a 90°, braço apoiado na maca e antebraço pendente; o paciente roda lateralmente contra resistência no antebraço distal. Sinal do atraso da rotação lateral (lag sign): incapacidade de manter a rotação lateral máxima colocada passivamente indica ruptura.",
+    "alongamento": "Rotação medial com adução horizontal: alongamento cruzado do braço à frente do tórax ou alongamento do dorminhoco (decúbito lateral sobre o lado tratado, ombro a 90° de flexão, rotação medial passiva suave).",
+    "clinica": "Tendinopatia e rupturas geralmente acompanham as do supraespinal (rupturas posterossuperiores). A compressão do nervo supraescapular na incisura espinoglenoidal, por cisto paralabral ou tração repetitiva (jogadores de voleibol), causa atrofia isolada do infraespinal, visível como depressão abaixo da espinha da escápula. Pontos-gatilho no infraespinal referem dor profunda na face anterior do ombro. O déficit de rotação medial glenoumeral em arremessadores relaciona-se à rigidez das estruturas posteriores, incluindo este músculo.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Teres minor muscle",
+    "pt": "Músculo redondo menor",
+    "latim": "Musculus teres minor",
+    "resumo": "Músculo estreito do manguito rotador, situado ao longo da margem lateral da escápula, logo abaixo do infraespinal, com o qual atua na rotação lateral.",
+    "origem": "Face posterior da escápula, nos dois terços superiores da margem lateral.",
+    "insercao": "Faceta inferior do tubérculo maior do úmero.",
+    "inervacao": {
+      "nervo": "Nervo axilar",
+      "raizes": "C5, C6",
+      "nervoKeys": [
+        "Axillary nerve"
+      ]
+    },
+    "vascularizacao": "Artéria circunflexa da escápula e artéria circunflexa posterior do úmero.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "rot_lateral",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "comprime e deprime a cabeça do úmero"
+      },
+      {
+        "art": "ombro",
+        "mov": "aducao",
+        "papel": "secundario",
+        "nota": "ação fraca"
+      }
+    ],
+    "funcao": "Roda lateralmente o úmero, com contribuição relativa maior quando o braço está abduzido. Compõe, com o infraespinal e o subescapular, a parte inferior do manguito que se opõe à translação superior da cabeça do úmero produzida pelo deltoide. Atua excentricamente na desaceleração do arremesso.",
+    "antagonistas": [
+      "Subscapularis muscle",
+      "Pectoralis major muscle",
+      "Latissimus dorsi muscle",
+      "Teres major muscle"
+    ],
+    "sinergistas": [
+      "Infraspinatus muscle",
+      "Deltoid muscle"
+    ],
+    "palpacao": "Localize a margem lateral da escápula, acima do ângulo inferior. O redondo menor é a pequena faixa muscular logo acima do redondo maior e abaixo da parte espinal do deltoide. Diferencie-os pedindo rotação: o redondo menor contrai na rotação lateral e o redondo maior na rotação medial.",
+    "teste": "Rotação lateral resistida com o ombro a 90° de abdução e cotovelo a 90° (teste de Patte). Sinal do corneteiro (hornblower): o paciente não consegue manter a rotação lateral com o braço abduzido a 90° e, ao levar a mão à boca, eleva o cotovelo acima da mão; indica lesão do redondo menor, geralmente em rupturas maciças do manguito.",
+    "alongamento": "O mesmo do infraespinal: rotação medial com adução horizontal (alongamento cruzado do braço ou do dorminhoco).",
+    "clinica": "Forma o limite superior do espaço quadrangular (com redondo maior, cabeça longa do tríceps e úmero), por onde passam o nervo axilar e a artéria circunflexa posterior do úmero; a compressão nesse local (síndrome do espaço quadrangular) causa dor posterior no ombro e atrofia do redondo menor e do deltoide. A integridade do redondo menor é fator prognóstico importante em rupturas maciças do manguito, pois pode ser o único rotador lateral remanescente.",
+    "dica": "Redondo menor e deltoide são os dois músculos do nervo axilar; o redondo maior, apesar do nome, é do nervo subescapular inferior e roda medialmente.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Subscapularis muscle",
+    "pt": "Músculo subescapular",
+    "latim": "Musculus subscapularis",
+    "resumo": "Músculo largo e multipenado que preenche a fossa subescapular, na face costal da escápula. É o maior e mais forte do manguito rotador e o único que roda medialmente.",
+    "origem": "Fossa subescapular (dois terços mediais da face costal da escápula).",
+    "insercao": "Tubérculo menor do úmero e parte anterior da cápsula articular do ombro.",
+    "inervacao": {
+      "nervo": "Nervos subescapulares superior e inferior",
+      "raizes": "C5, C6 (C7)",
+      "nervoKeys": [
+        "Superior subscapular nerve",
+        "Inferior subscapular nerve"
+      ]
+    },
+    "vascularizacao": "Artéria subescapular e artéria torácica lateral.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "rot_medial",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "aducao",
+        "papel": "secundario"
+      },
+      {
+        "art": "ombro",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "barreira anterior contra a luxação da cabeça do úmero"
+      }
+    ],
+    "funcao": "Além de rodar medialmente o braço, é o estabilizador dinâmico anterior da glenoumeral, resistindo à translação anterior da cabeça do úmero, sobretudo em abdução e rotação lateral. Forma um par de forças transversal com o infraespinal e o redondo menor, centralizando a cabeça do úmero durante a elevação. Seu tendão contribui para manter o tendão da cabeça longa do bíceps no sulco intertubercular. É ativo ao levar a mão às costas, ao abotoar roupas atrás do corpo e na fase de aceleração do arremesso.",
+    "antagonistas": [
+      "Infraspinatus muscle",
+      "Teres minor muscle"
+    ],
+    "sinergistas": [
+      "Pectoralis major muscle",
+      "Latissimus dorsi muscle",
+      "Teres major muscle",
+      "Deltoid muscle"
+    ],
+    "palpacao": "Paciente em decúbito dorsal com o braço abduzido e relaxado. Deslize os dedos pela axila, entre o latíssimo do dorso (parede posterior) e a caixa torácica, em direção à face anterior da escápula; a contração é sentida na rotação medial leve. A palpação é sensível e deve ser gradual. O tendão é palpado sobre o tubérculo menor, medial ao sulco intertubercular, com o braço em rotação lateral.",
+    "teste": "Teste de Gerber (lift-off): dorso da mão sobre a região lombar; o paciente deve afastar a mão das costas e manter a posição. Teste de compressão abdominal (belly-press): mão sobre o abdome, pressionar mantendo o cotovelo à frente do tronco; o cotovelo que cai para trás indica fraqueza. Teste do abraço de urso (bear hug): mão sobre o ombro oposto, resistir à tentativa do examinador de afastá-la. Úteis quando a rotação medial resistida simples é mascarada pelo peitoral maior e pelo latíssimo do dorso.",
+    "alongamento": "Rotação lateral do ombro com o braço ao lado do corpo e, progressivamente, em abdução (por exemplo, decúbito dorsal com o cotovelo a 90° e bastão empurrando a mão para fora).",
+    "clinica": "Rupturas do subescapular ocorrem em traumas com rotação lateral forçada ou em rupturas anterossuperiores do manguito e costumam associar-se à subluxação medial do tendão da cabeça longa do bíceps. O encurtamento limita a rotação lateral e a elevação, comum em posturas com ombros protraídos e após imobilização. A bolsa subtendínea do subescapular comunica-se com a cavidade articular. Em hemiplegia espástica, a hipertonia do subescapular contribui para o padrão de adução e rotação medial e para o ombro doloroso.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Teres major muscle",
+    "pt": "Músculo redondo maior",
+    "latim": "Musculus teres major",
+    "resumo": "Músculo espesso e arredondado que vai do ângulo inferior da escápula ao úmero, formando com o latíssimo do dorso a prega axilar posterior. Não pertence ao manguito rotador.",
+    "origem": "Face posterior do ângulo inferior da escápula.",
+    "insercao": "Crista do tubérculo menor (lábio medial do sulco intertubercular do úmero).",
+    "inervacao": {
+      "nervo": "Nervo subescapular inferior",
+      "raizes": "C5, C6",
+      "nervoKeys": [
+        "Inferior subscapular nerve"
+      ]
+    },
+    "vascularizacao": "Artéria circunflexa da escápula e artéria toracodorsal.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "aducao",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "rot_medial",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "a partir da posição fletida"
+      }
+    ],
+    "funcao": "Trabalha em conjunto com o latíssimo do dorso para aduzir, estender e rodar medialmente o braço, principalmente contra resistência (remar, escalar, puxar-se em barra). Para que tracione o úmero e não a escápula, depende da estabilização escapular pelos romboides. Ajuda a estabilizar a cabeça do úmero durante a abdução, contraindo-se excentricamente.",
+    "antagonistas": [
+      "Deltoid muscle",
+      "Supraspinatus muscle",
+      "Infraspinatus muscle",
+      "Teres minor muscle"
+    ],
+    "sinergistas": [
+      "Latissimus dorsi muscle",
+      "Pectoralis major muscle",
+      "Subscapularis muscle"
+    ],
+    "palpacao": "Paciente em decúbito ventral com o braço pendente para fora da maca ou com a mão sobre a região lombar. Localize o ângulo inferior e a margem lateral da escápula; o redondo maior é o ventre arredondado que sai do ângulo inferior em direção à axila. Peça rotação medial ou adução resistida para confirmar; o redondo menor, logo acima, contrai na rotação lateral.",
+    "teste": "Kendall: decúbito ventral, ombro em extensão, adução e rotação medial, com o dorso da mão apoiado sobre a região posterior da crista ilíaca. O examinador aplica resistência no braço, acima do cotovelo, em direção à abdução e flexão.",
+    "alongamento": "Elevação completa do braço em flexão e rotação lateral com a escápula estabilizada (impedir que o ângulo inferior deslize lateralmente), por exemplo em decúbito dorsal com as mãos atrás da cabeça e o tronco apoiado.",
+    "clinica": "Raramente é lesado de forma isolada; estiramentos ocorrem em arremessadores, nadadores e praticantes de escalada. O encurtamento, junto com o do latíssimo do dorso, limita a flexão e a rotação lateral do ombro e traciona a escápula em rotação superior precoce. Forma o limite inferior do espaço quadrangular e do espaço triangular; seu tendão, com o do latíssimo do dorso, é usado em transferências tendíneas para rupturas irreparáveis do manguito.",
+    "dica": "É o 'pequeno ajudante do latíssimo': mesmas ações (adução, extensão e rotação medial) e inserção vizinha no lábio medial do sulco intertubercular.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Biceps brachii muscle",
+    "pt": "Músculo bíceps braquial",
+    "latim": "Musculus biceps brachii",
+    "sinonimos": [
+      "bíceps"
+    ],
+    "resumo": "Músculo fusiforme de duas cabeças na face anterior do braço. Cruza três articulações (ombro, cotovelo e radioulnar proximal) e é o supinador mais potente do antebraço, além de flexor do cotovelo.",
+    "origem": "Cabeça longa: tubérculo supraglenoidal da escápula e lábio glenoidal superior. Cabeça curta: ápice do processo coracoide da escápula.",
+    "insercao": "Tuberosidade do rádio e, por meio da aponeurose do músculo bíceps braquial, fáscia do antebraço.",
+    "inervacao": {
+      "nervo": "Nervo musculocutâneo",
+      "raizes": "C5, C6",
+      "nervoKeys": [
+        "Musculocutaneous nerve"
+      ]
+    },
+    "vascularizacao": "Ramos musculares da artéria braquial.",
+    "acoes": [
+      {
+        "art": "radioulnar",
+        "mov": "supinacao",
+        "papel": "primario",
+        "nota": "mais potente com o cotovelo fletido a 90°"
+      },
+      {
+        "art": "cotovelo",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "mais eficiente com o antebraço supinado"
+      },
+      {
+        "art": "ombro",
+        "mov": "flexao",
+        "papel": "secundario"
+      },
+      {
+        "art": "ombro",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "o tendão da cabeça longa ajuda a conter a cabeça do úmero"
+      }
+    ],
+    "funcao": "Combina flexão do cotovelo e supinação, como ao usar um saca-rolhas ou apertar um parafuso com a mão direita e levar comida à boca. Com o antebraço pronado sua participação na flexão diminui, e o braquial assume o trabalho. Controla excentricamente a extensão do cotovelo ao baixar cargas. O tendão da cabeça longa passa dentro da cápsula do ombro e pelo sulco intertubercular, contribuindo para deprimir e estabilizar a cabeça do úmero; a cabeça curta auxilia a flexão e a adução do braço. Em cadeia fechada (barra fixa com pegada supinada) aproxima o braço do antebraço fixo.",
+    "antagonistas": [
+      "Triceps brachii muscle",
+      "Anconeus muscle",
+      "Pronator quadratus",
+      "Deep head of pronator teres"
+    ],
+    "sinergistas": [
+      "Brachialis muscle",
+      "Brachioradialis muscle",
+      "Supinator",
+      "Coracobrachialis muscle"
+    ],
+    "palpacao": "Com o cotovelo fletido contra resistência e o antebraço supinado, o ventre salta na face anterior do braço. O tendão distal é palpado como um cordão no centro da fossa cubital, e a aponeurose bicipital, medialmente a ele. O tendão da cabeça longa é palpado no sulco intertubercular, entre os tubérculos maior e menor, com o braço em cerca de 10° de rotação medial; a sensibilidade deve ser comparada com o lado oposto.",
+    "teste": "Kendall: paciente sentado ou em decúbito dorsal, cotovelo fletido pouco menos de 90° e antebraço supinado; resistência no antebraço distal em direção à extensão. Teste de Speed: flexão resistida do ombro com cotovelo estendido e antebraço supinado, dor no sulco intertubercular. Teste de Yergason: supinação resistida com o cotovelo a 90° junto ao tronco. Teste do gancho (hook test) para o tendão distal: com o cotovelo a 90° e supinação ativa, o examinador engancha o dedo sob o tendão pela face lateral; a ausência do cordão indica ruptura.",
+    "alongamento": "Extensão do ombro com o cotovelo estendido e o antebraço pronado (por exemplo, mão apoiada atrás do corpo em uma mesa, com os dedos voltados para trás, abaixando o tronco).",
+    "clinica": "A tendinopatia da cabeça longa causa dor anterior no ombro e costuma acompanhar a doença do manguito rotador e o impacto. A ruptura do tendão da cabeça longa produz o sinal do Popeye (ventre retraído distalmente) com pouca perda funcional; já a ruptura do tendão distal, típica de homens de meia-idade em esforço excêntrico, reduz muito a força de supinação e em geral é tratada cirurgicamente. A âncora do tendão no lábio superior está envolvida nas lesões SLAP. O reflexo bicipital avalia principalmente C5 e C6. A aponeurose bicipital protege a artéria braquial e o nervo mediano na fossa cubital.",
+    "dica": "Bíceps: 'saca a rolha (supina) e leva a taça à boca (flete)'. Três músculos do nervo musculocutâneo: BBC (bíceps, braquial, coracobraquial).",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Long head of biceps brachii",
+        "pt": "Cabeça longa",
+        "origem": "Tubérculo supraglenoidal da escápula e lábio glenoidal superior",
+        "nota": "Tendão intracapsular (mas extrassinovial) que percorre o sulco intertubercular envolto pela bainha tendínea intertubercular; sede de tendinopatia, subluxação e ruptura."
+      },
+      {
+        "key": "Short head of biceps brachii",
+        "pt": "Cabeça curta",
+        "origem": "Ápice do processo coracoide da escápula, junto com o coracobraquial",
+        "nota": "Situada medialmente; auxilia a flexão e a adução do ombro."
+      }
+    ]
+  },
+  {
+    "key": "Brachialis muscle",
+    "pt": "Músculo braquial",
+    "latim": "Musculus brachialis",
+    "resumo": "Músculo largo e achatado situado profundamente ao bíceps braquial, na metade distal do braço. É o flexor mais constante do cotovelo.",
+    "origem": "Metade distal da face anterior do úmero e septos intermusculares medial e lateral.",
+    "insercao": "Processo coronoide e tuberosidade da ulna.",
+    "inervacao": {
+      "nervo": "Nervo musculocutâneo (pequena parte lateral do músculo recebe ramo do nervo radial)",
+      "raizes": "C5, C6 (C7 pelo nervo radial)",
+      "nervoKeys": [
+        "Musculocutaneous nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria braquial e artéria recorrente radial.",
+    "acoes": [
+      {
+        "art": "cotovelo",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "em qualquer posição do antebraço e em qualquer velocidade"
+      }
+    ],
+    "funcao": "Por inserir-se na ulna, não é influenciado pela pronação ou supinação e flete o cotovelo em todas as situações, com ou sem carga: é o 'burro de carga' da flexão. Sustenta a posição fletida do cotovelo de forma isométrica e controla excentricamente a extensão, como ao pousar um objeto pesado sobre a mesa. Com o antebraço pronado, é o principal responsável pela flexão.",
+    "antagonistas": [
+      "Triceps brachii muscle",
+      "Anconeus muscle"
+    ],
+    "sinergistas": [
+      "Biceps brachii muscle",
+      "Brachioradialis muscle",
+      "Deep head of pronator teres"
+    ],
+    "palpacao": "Com o cotovelo fletido e o antebraço pronado (para reduzir a ação do bíceps), palpe de cada lado do tendão e do ventre distal do bíceps, na parte inferior do braço; lateralmente, o braquial é acessível entre o bíceps e o tríceps, logo abaixo da inserção do deltoide.",
+    "teste": "Kendall: cotovelo fletido pouco menos de 90° com o antebraço pronado; o examinador resiste no antebraço distal em direção à extensão. A pronação diminui a contribuição do bíceps, embora não o exclua.",
+    "alongamento": "Extensão completa do cotovelo; como é monoarticular, a posição do ombro e do antebraço não altera o alongamento.",
+    "clinica": "É sede clássica de miosite ossificante após luxação ou fratura do cotovelo e após contusão no braço; mobilizações passivas forçadas e massagem vigorosa na fase aguda devem ser evitadas. O encurtamento do braquial e da cápsula anterior é causa frequente de déficit de extensão após imobilização do cotovelo. Na lesão do nervo musculocutâneo, a flexão do cotovelo fica muito enfraquecida, mas é mantida em parte pelo braquiorradial e pela porção do braquial inervada pelo nervo radial.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Coracobrachialis muscle",
+    "pt": "Músculo coracobraquial",
+    "latim": "Musculus coracobrachialis",
+    "resumo": "Músculo alongado na parte superomedial do braço, perfurado pelo nervo musculocutâneo. Auxilia a flexão e a adução do braço.",
+    "origem": "Ápice do processo coracoide da escápula, em tendão comum com a cabeça curta do bíceps braquial.",
+    "insercao": "Terço médio da face medial do corpo do úmero.",
+    "inervacao": {
+      "nervo": "Nervo musculocutâneo",
+      "raizes": "C5, C6, C7",
+      "nervoKeys": [
+        "Musculocutaneous nerve"
+      ]
+    },
+    "vascularizacao": "Ramos musculares da artéria braquial.",
+    "acoes": [
+      {
+        "art": "ombro",
+        "mov": "flexao",
+        "papel": "secundario"
+      },
+      {
+        "art": "ombro",
+        "mov": "aducao",
+        "papel": "secundario"
+      },
+      {
+        "art": "ombro",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "mantém a cabeça do úmero na cavidade glenoidal"
+      }
+    ],
+    "funcao": "Auxilia a flexão e a adução do braço e traz o membro de volta à posição neutra a partir da abdução ou da extensão. Com a cabeça curta do bíceps e o deltoide, resiste à luxação inferior da cabeça do úmero ao sustentar cargas. Participa do balanço do braço durante a marcha.",
+    "antagonistas": [
+      "Deltoid muscle",
+      "Latissimus dorsi muscle",
+      "Teres major muscle"
+    ],
+    "sinergistas": [
+      "Biceps brachii muscle",
+      "Pectoralis major muscle",
+      "Deltoid muscle"
+    ],
+    "palpacao": "Com o braço abduzido a 90° e rodado lateralmente, palpe na parede lateral da axila, medialmente à cabeça curta do bíceps e posteriormente à margem do peitoral maior; a contração é percebida na adução horizontal resistida. O pulso da artéria braquial é sentido logo atrás dele.",
+    "teste": "Kendall: paciente sentado ou em decúbito dorsal, ombro em flexão com rotação lateral e cotovelo totalmente fletido com antebraço supinado (para encurtar o bíceps e reduzir sua participação); resistência na parte distal do braço em direção à extensão e leve abdução.",
+    "alongamento": "Extensão com abdução e rotação lateral do ombro, mantendo o cotovelo fletido para não tensionar o bíceps.",
+    "clinica": "O nervo musculocutâneo atravessa o músculo e pode ser comprimido por hipertrofia ou esforço intenso, causando fraqueza da flexão do cotovelo e hipoestesia na face lateral do antebraço (nervo cutâneo lateral do antebraço), poupando o próprio coracobraquial. O processo coracoide com o tendão conjunto é transferido para a margem anterior da glenoide na cirurgia de Latarjet para instabilidade anterior. É um marco para localizar a artéria braquial e o nervo mediano no braço.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Triceps brachii muscle",
+    "pt": "Músculo tríceps braquial",
+    "latim": "Musculus triceps brachii",
+    "sinonimos": [
+      "tríceps"
+    ],
+    "resumo": "Único músculo do compartimento posterior do braço, com três cabeças. É o principal extensor do cotovelo; a cabeça longa também cruza o ombro.",
+    "origem": "Cabeça longa: tubérculo infraglenoidal da escápula. Cabeça lateral: face posterior do úmero, acima do sulco do nervo radial. Cabeça medial: face posterior do úmero, abaixo do sulco do nervo radial, e septos intermusculares.",
+    "insercao": "Face superior do olécrano da ulna e fáscia do antebraço.",
+    "inervacao": {
+      "nervo": "Nervo radial",
+      "raizes": "C6, C7, C8",
+      "nervoKeys": [
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria braquial profunda e artéria colateral ulnar superior.",
+    "acoes": [
+      {
+        "art": "cotovelo",
+        "mov": "extensao",
+        "papel": "primario"
+      },
+      {
+        "art": "ombro",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "cabeça longa"
+      },
+      {
+        "art": "ombro",
+        "mov": "aducao",
+        "papel": "secundario",
+        "nota": "cabeça longa"
+      },
+      {
+        "art": "ombro",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "a cabeça longa sustenta inferiormente a cabeça do úmero em abdução"
+      }
+    ],
+    "funcao": "A cabeça medial é a mais constante, ativa em qualquer extensão do cotovelo; as cabeças lateral e longa são recrutadas contra resistência. Em cadeia fechada estende o cotovelo ao empurrar, levantar-se de uma cadeira com apoio das mãos, fazer flexões de braço, usar muletas, andador e ao realizar transferências, sendo decisivo para a independência de cadeirantes. Controla excentricamente a flexão do cotovelo ao abaixar o corpo. A cabeça longa auxilia a extensão e a adução do ombro e limita a translação inferior do úmero com o braço abduzido.",
+    "antagonistas": [
+      "Biceps brachii muscle",
+      "Brachialis muscle",
+      "Brachioradialis muscle"
+    ],
+    "sinergistas": [
+      "Anconeus muscle",
+      "Latissimus dorsi muscle",
+      "Teres major muscle"
+    ],
+    "palpacao": "Com o cotovelo estendido contra resistência, as cabeças formam uma ferradura na face posterior do braço: a cabeça lateral é a saliência lateral logo abaixo do deltoide; a cabeça longa, a saliência medial que pode ser seguida até a axila, entre os redondos maior e menor; a cabeça medial é palpada distalmente, de cada lado do tendão, acima do olécrano.",
+    "teste": "Kendall: decúbito ventral, ombro abduzido a 90° com o braço apoiado na maca e o antebraço pendente; o paciente estende o cotovelo até pouco antes da extensão completa e o examinador resiste no antebraço distal em direção à flexão. Alternativa em decúbito dorsal com o ombro a 90° de flexão. Evite testar em extensão total travada, que mascara fraqueza.",
+    "alongamento": "Flexão completa do cotovelo combinada com flexão completa do ombro (mão entre as escápulas, cotovelo apontando para cima, com auxílio da outra mão), o que alonga também a cabeça longa.",
+    "clinica": "O reflexo tricipital avalia principalmente C7. Na fratura do corpo do úmero com lesão do nervo radial no sulco, o tríceps costuma ser poupado, porque seus ramos saem mais proximalmente; a fraqueza do tríceps indica lesão mais alta (axila, como na paralisia por muleta) ou radiculopatia de C7. A tendinopatia insercional e a ruptura do tendão são raras e ligadas a esforços de empurrar e a queda sobre a mão; a bursite do olécrano localiza-se superficialmente ao tendão. A cabeça longa separa o espaço quadrangular (nervo axilar) do espaço triangular.",
+    "dica": "A cabeça medial é o 'burro de carga' da extensão do cotovelo, assim como o braquial é o da flexão.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Long head of triceps brachii",
+        "pt": "Cabeça longa",
+        "origem": "Tubérculo infraglenoidal da escápula",
+        "acoes": [
+          {
+            "art": "cotovelo",
+            "mov": "extensao",
+            "papel": "primario"
+          },
+          {
+            "art": "ombro",
+            "mov": "extensao",
+            "papel": "secundario"
+          },
+          {
+            "art": "ombro",
+            "mov": "aducao",
+            "papel": "secundario"
+          }
+        ],
+        "nota": "Única cabeça biarticular: auxilia a extensão e a adução do ombro."
+      },
+      {
+        "key": "Lateral head of triceps brachii",
+        "pt": "Cabeça lateral",
+        "origem": "Face posterior do úmero, superior e lateralmente ao sulco do nervo radial",
+        "acoes": [
+          {
+            "art": "cotovelo",
+            "mov": "extensao",
+            "papel": "primario"
+          }
+        ],
+        "nota": "A mais forte; recrutada contra resistência."
+      },
+      {
+        "key": "Medial head of triceps brachii",
+        "pt": "Cabeça medial",
+        "origem": "Face posterior do úmero, inferiormente ao sulco do nervo radial",
+        "acoes": [
+          {
+            "art": "cotovelo",
+            "mov": "extensao",
+            "papel": "primario"
+          }
+        ],
+        "nota": "Profunda, recoberta pelas outras duas; ativa em toda extensão do cotovelo."
+      }
+    ]
+  }
+]

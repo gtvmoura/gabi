@@ -1,0 +1,516 @@
+[
+  {
+    "key": "Abductor pollicis brevis",
+    "pt": "Músculo abdutor curto do polegar",
+    "latim": "Musculus abductor pollicis brevis",
+    "sinonimos": [
+      "ACP"
+    ],
+    "resumo": "Músculo mais superficial e lateral da eminência tenar. Afasta o polegar perpendicularmente à palma e é o melhor músculo para avaliar a função motora do nervo mediano na mão.",
+    "origem": "Retináculo dos músculos flexores e tubérculos do escafoide e do trapézio.",
+    "insercao": "Face lateral da base da falange proximal do polegar, com expansão para o aparelho extensor.",
+    "inervacao": {
+      "nervo": "Ramo recorrente (tenar) do nervo mediano",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Median nerve"
+      ]
+    },
+    "vascularizacao": "Ramo palmar superficial da artéria radial.",
+    "acoes": [
+      {
+        "art": "polegar",
+        "mov": "abducao",
+        "papel": "primario",
+        "nota": "abdução palmar: afasta o polegar anteriormente, em plano perpendicular à palma"
+      },
+      {
+        "art": "polegar",
+        "mov": "oposicao",
+        "papel": "secundario",
+        "nota": "auxilia a fase inicial da oposição"
+      },
+      {
+        "art": "polegar",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "articulação interfalângica, pela expansão extensora"
+      }
+    ],
+    "funcao": "Leva o polegar para a frente da palma, posicionando-o para a oposição e para abarcar objetos; sem ele, a mão não se molda a objetos cilíndricos ou esféricos. Atua com o oponente e o flexor curto durante a oposição e a pinça.",
+    "antagonistas": [
+      "Oblique head of adductor pollicis"
+    ],
+    "sinergistas": [
+      "Abductor pollicis longus",
+      "Opponens pollicis muscle",
+      "Deep head of flexor pollicis brevis"
+    ],
+    "palpacao": "Palpe a parte anterolateral da eminência tenar, sobre o primeiro metacarpal, enquanto o paciente eleva o polegar perpendicularmente à palma (dorso da mão apoiado na mesa, polegar apontando para o teto).",
+    "teste": "Kendall: dorso da mão apoiado na mesa; o paciente eleva o polegar verticalmente, afastando-o da palma, e o examinador resiste na face lateral da falange proximal em direção à adução. Compare sempre com o lado oposto e observe o volume da eminência tenar.",
+    "alongamento": "Adução e extensão do polegar, levando-o para junto e para trás do plano da palma.",
+    "clinica": "A fraqueza e a atrofia do abdutor curto do polegar são os sinais motores mais confiáveis da síndrome do túnel do carpo avançada e das lesões do nervo mediano, pois é inervado quase exclusivamente por ele. Na lesão do mediano, a atrofia tenar e a perda da abdução palmar e da oposição deixam o polegar no mesmo plano dos outros dedos (mão simiesca). O ramo recorrente do mediano é superficial e vulnerável a ferimentos na base da eminência tenar. A abdução palmar é usada como medida funcional na reabilitação e na indicação de oponentoplastia.",
+    "dica": "Tenar e mediano: OAF (Oponente, Abdutor curto, Flexor curto) mais os dois primeiros lumbricais. Todo o restante dos intrínsecos é do nervo ulnar.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Deep head of flexor pollicis brevis",
+    "pt": "Músculo flexor curto do polegar",
+    "latim": "Musculus flexor pollicis brevis",
+    "sinonimos": [
+      "FCP"
+    ],
+    "resumo": "Músculo da eminência tenar, medial ao abdutor curto do polegar, com duas cabeças entre as quais passa o tendão do flexor longo do polegar. Tem inervação dupla na descrição clássica.",
+    "origem": "Cabeça superficial: retináculo dos músculos flexores e tubérculo do trapézio. Cabeça profunda: ossos trapezoide e capitato.",
+    "insercao": "Face lateral da base da falange proximal do polegar, por tendão que contém o osso sesamoide radial.",
+    "inervacao": {
+      "nervo": "Cabeça superficial: ramo recorrente do nervo mediano. Cabeça profunda: ramo profundo do nervo ulnar.",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Median nerve",
+        "Deep branch of ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Ramo palmar superficial da artéria radial.",
+    "acoes": [
+      {
+        "art": "polegar",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "articulações metacarpofalângica e carpometacarpal"
+      },
+      {
+        "art": "polegar",
+        "mov": "oposicao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Flete a falange proximal do polegar e auxilia a oposição, dando firmeza à pinça e à preensão. Estabiliza a articulação metacarpofalângica para que o flexor longo atue com eficiência na interfalângica.",
+    "antagonistas": [
+      "Extensor pollicis brevis",
+      "Extensor pollicis longus"
+    ],
+    "sinergistas": [
+      "Flexor pollicis longus",
+      "Opponens pollicis muscle",
+      "Abductor pollicis brevis",
+      "Oblique head of adductor pollicis"
+    ],
+    "palpacao": "Palpe a parte medial da eminência tenar, próxima à prega tenar, enquanto o paciente flete a metacarpofalângica do polegar mantendo a interfalângica estendida.",
+    "teste": "Kendall: o examinador estabiliza o primeiro metacarpal; o paciente flete a articulação metacarpofalângica do polegar sem fletir a interfalângica (para reduzir a ação do flexor longo). Resistência na face palmar da falange proximal em direção à extensão.",
+    "alongamento": "Extensão da metacarpofalângica e da carpometacarpal do polegar, com abdução radial.",
+    "clinica": "A inervação é variável: a cabeça superficial costuma ser do mediano e a profunda do ulnar, mas o músculo todo pode depender de um só nervo. Por isso, alguma flexão da metacarpofalângica e certo volume tenar podem persistir após lesão completa do nervo mediano. Os ossos sesamoides de seus tendões de inserção podem ser sede de sesamoidite ou fratura em traumas de hiperextensão do polegar.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Deep head of flexor pollicis brevis",
+        "pt": "Cabeça profunda",
+        "origem": "Ossos trapezoide e capitato",
+        "nota": "Geralmente inervada pelo ramo profundo do nervo ulnar; situa-se profundamente ao tendão do flexor longo do polegar."
+      },
+      {
+        "key": "Superficial head of flexor pollicis brevis",
+        "pt": "Cabeça superficial",
+        "origem": "Retináculo dos músculos flexores e tubérculo do trapézio",
+        "nota": "Inervada pelo ramo recorrente do nervo mediano."
+      }
+    ]
+  },
+  {
+    "key": "Opponens pollicis muscle",
+    "pt": "Músculo oponente do polegar",
+    "latim": "Musculus opponens pollicis",
+    "resumo": "Músculo quadrangular situado profundamente ao abdutor curto do polegar. É o único tenar que se insere no primeiro metacarpal e é o motor da oposição.",
+    "origem": "Retináculo dos músculos flexores e tubérculo do trapézio.",
+    "insercao": "Toda a extensão da margem lateral (radial) do primeiro metacarpal.",
+    "inervacao": {
+      "nervo": "Ramo recorrente (tenar) do nervo mediano",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Median nerve"
+      ]
+    },
+    "vascularizacao": "Ramo palmar superficial da artéria radial.",
+    "acoes": [
+      {
+        "art": "polegar",
+        "mov": "oposicao",
+        "papel": "primario",
+        "nota": "flete, abduz e roda medialmente o primeiro metacarpal na articulação carpometacarpal"
+      }
+    ],
+    "funcao": "Roda e leva o primeiro metacarpal em direção ao centro da palma, colocando a polpa do polegar de frente para as polpas dos outros dedos. A oposição é o movimento mais importante da mão humana e depende da articulação selar carpometacarpal do polegar; os demais tenares completam o movimento atuando sobre a falange proximal.",
+    "antagonistas": [
+      "Extensor pollicis longus",
+      "Abductor pollicis longus",
+      "Oblique head of adductor pollicis"
+    ],
+    "sinergistas": [
+      "Abductor pollicis brevis",
+      "Deep head of flexor pollicis brevis",
+      "Opponens digiti minimi muscle of hand"
+    ],
+    "palpacao": "Com o polegar relaxado, pressione profundamente ao longo da margem radial do primeiro metacarpal, deslocando o abdutor curto do polegar para o lado medial; a contração é sentida ao opor o polegar ao dedo mínimo.",
+    "teste": "Kendall: o paciente opõe o polegar, levando o primeiro metacarpal em direção ao dedo mínimo; o examinador resiste na cabeça do primeiro metacarpal, tentando rodá-lo lateralmente, estendê-lo e aduzi-lo. Clinicamente, peça que una as polpas do polegar e do dedo mínimo e observe se a unha do polegar fica paralela à palma; a simples flexão sem rotação indica substituição pelos flexores.",
+    "alongamento": "Extensão e abdução radial do primeiro metacarpal com rotação lateral (reposição), levando o polegar para trás do plano da palma.",
+    "clinica": "A perda da oposição na lesão do nervo mediano compromete grande parte da função da mão e pode exigir órtese que mantenha o polegar em abdução palmar ou cirurgia de oponentoplastia. Na rizartrose (artrose carpometacarpal do polegar), o fortalecimento do oponente e do primeiro interósseo dorsal é usado para estabilizar a base do primeiro metacarpal. É importante manter a primeira comissura aberta nas lesões nervosas e na espasticidade para evitar a contratura em adução.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Oblique head of adductor pollicis",
+    "pt": "Músculo adutor do polegar",
+    "latim": "Musculus adductor pollicis",
+    "resumo": "Músculo em leque, profundo na palma, com cabeças oblíqua e transversa; entre elas passa a artéria radial para formar o arco palmar profundo. É o músculo da força da pinça e é inervado pelo nervo ulnar.",
+    "origem": "Cabeça oblíqua: bases do segundo e do terceiro metacarpais, capitato e ossos adjacentes. Cabeça transversa: face anterior do corpo do terceiro metacarpal.",
+    "insercao": "Face medial (ulnar) da base da falange proximal do polegar, por tendão que contém o osso sesamoide ulnar, e expansão extensora.",
+    "inervacao": {
+      "nervo": "Ramo profundo do nervo ulnar",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Deep branch of ulnar nerve",
+        "Ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Arco palmar profundo.",
+    "acoes": [
+      {
+        "art": "polegar",
+        "mov": "aducao",
+        "papel": "primario",
+        "nota": "aproxima o polegar do segundo metacarpal"
+      },
+      {
+        "art": "polegar",
+        "mov": "flexao",
+        "papel": "secundario",
+        "nota": "articulação metacarpofalângica"
+      }
+    ],
+    "funcao": "Gera a maior parte da força da pinça lateral (pinça de chave) e da preensão firme entre o polegar e o indicador, trabalhando com o primeiro interósseo dorsal. Estabiliza a articulação metacarpofalângica do polegar contra o desvio radial.",
+    "antagonistas": [
+      "Abductor pollicis longus",
+      "Abductor pollicis brevis"
+    ],
+    "sinergistas": [
+      "Deep head of flexor pollicis brevis",
+      "Flexor pollicis longus",
+      "Opponens pollicis muscle",
+      "Dorsal interossei muscles of hand"
+    ],
+    "palpacao": "Palpe a primeira comissura pela face palmar, entre o primeiro e o segundo metacarpais, profundamente ao primeiro interósseo dorsal, enquanto o paciente aperta uma folha de papel entre o polegar e a face radial do indicador.",
+    "teste": "Kendall: o paciente aduz o polegar contra a palma, mantendo-o estendido; o examinador resiste na face medial da falange proximal em direção à abdução. Sinal de Froment: ao segurar uma folha de papel entre o polegar e o indicador enquanto o examinador a puxa, o paciente com fraqueza do adutor flete a interfalângica do polegar, substituindo-o pelo flexor longo do polegar (nervo mediano). A hiperextensão associada da metacarpofalângica é o sinal de Jeanne.",
+    "alongamento": "Abdução ampla do polegar, radial e palmar, abrindo a primeira comissura.",
+    "clinica": "O sinal de Froment positivo indica lesão do nervo ulnar; nesses casos a força da pinça lateral cai acentuadamente. A atrofia do adutor e do primeiro interósseo dorsal produz o afundamento visível da primeira comissura no dorso da mão. O encurtamento do adutor gera contratura em adução do polegar (polegar na palma), comum na espasticidade e após imobilização, que limita a preensão de objetos grandes. A aponeurose do adutor pode interpor-se entre as extremidades do ligamento colateral ulnar rompido da metacarpofalângica (lesão de Stener, no polegar do esquiador), impedindo a cicatrização.",
+    "dica": "Adutor do polegar: fica junto ao tenar, mas é do nervo ulnar. Froment = papel que escorrega.",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Oblique head of adductor pollicis",
+        "pt": "Cabeça oblíqua",
+        "origem": "Bases do segundo e do terceiro metacarpais e capitato"
+      },
+      {
+        "key": "Transverse head of adductor pollicis",
+        "pt": "Cabeça transversa",
+        "origem": "Face anterior do corpo do terceiro metacarpal",
+        "nota": "A artéria radial e o ramo profundo do nervo ulnar passam entre as duas cabeças."
+      }
+    ]
+  },
+  {
+    "key": "Abductor digiti minimi of hand",
+    "pt": "Músculo abdutor do dedo mínimo",
+    "latim": "Musculus abductor digiti minimi",
+    "sinonimos": [
+      "abdutor do quinto dedo"
+    ],
+    "resumo": "Músculo mais superficial e medial da eminência hipotenar, que forma a margem ulnar da mão.",
+    "origem": "Osso pisiforme e tendão do flexor ulnar do carpo.",
+    "insercao": "Face medial (ulnar) da base da falange proximal do quinto dedo e expansão extensora.",
+    "inervacao": {
+      "nervo": "Ramo profundo do nervo ulnar",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Deep branch of ulnar nerve",
+        "Ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar (ramo palmar profundo).",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "abducao",
+        "papel": "primario",
+        "nota": "quinto dedo"
+      },
+      {
+        "art": "dedos_mao",
+        "mov": "flexao",
+        "papel": "secundario",
+        "nota": "articulação metacarpofalângica do quinto dedo"
+      }
+    ],
+    "funcao": "Afasta o dedo mínimo do anular, ampliando a abertura da mão para agarrar objetos grandes, como uma bola ou um copo largo, e para alcançar teclas distantes. Pela expansão extensora, auxilia a extensão das interfalângicas do quinto dedo.",
+    "antagonistas": [
+      "Palmar interossei muscles"
+    ],
+    "sinergistas": [
+      "Flexor digiti minimi of hand",
+      "Opponens digiti minimi muscle of hand",
+      "Humeral head of flexor carpi ulnaris"
+    ],
+    "palpacao": "Palpe a margem ulnar da mão, entre o pisiforme e a base do dedo mínimo, enquanto o paciente abduz o quinto dedo contra leve resistência.",
+    "teste": "Kendall: mão apoiada, dedos estendidos; o paciente abduz o dedo mínimo e o examinador resiste na face ulnar da falange proximal (ou média) em direção à adução. É um teste rápido e confiável da função motora do nervo ulnar e do miótomo T1.",
+    "alongamento": "Adução do quinto dedo em direção ao anular com extensão da metacarpofalângica.",
+    "clinica": "A atrofia da eminência hipotenar indica lesão do nervo ulnar, no túnel cubital ou no canal de Guyon; nas compressões restritas ao ramo profundo distal ao canal, os hipotenares podem estar preservados. É o músculo de registro habitual nos estudos de condução motora do nervo ulnar. Pode ser transferido para restaurar a oposição do polegar (oponentoplastia de Huber).",
+    "camada": "superficial"
+  },
+  {
+    "key": "Flexor digiti minimi of hand",
+    "pt": "Músculo flexor curto do dedo mínimo",
+    "latim": "Musculus flexor digiti minimi brevis",
+    "sinonimos": [
+      "flexor do dedo mínimo",
+      "flexor curto do quinto dedo"
+    ],
+    "resumo": "Pequeno músculo da eminência hipotenar, lateral ao abdutor do dedo mínimo; pode estar ausente ou fundido aos vizinhos.",
+    "origem": "Hâmulo do osso hamato e retináculo dos músculos flexores.",
+    "insercao": "Face medial da base da falange proximal do quinto dedo, junto com o abdutor do dedo mínimo.",
+    "inervacao": {
+      "nervo": "Ramo profundo do nervo ulnar",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Deep branch of ulnar nerve",
+        "Ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar (ramo palmar profundo).",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "articulação metacarpofalângica do quinto dedo"
+      }
+    ],
+    "funcao": "Flete a falange proximal do dedo mínimo, contribuindo para o fechamento do lado ulnar da mão, que é o responsável pela força na preensão de cabos e ferramentas.",
+    "antagonistas": [
+      "Extensor digiti minimi",
+      "Extensor digitorum"
+    ],
+    "sinergistas": [
+      "Abductor digiti minimi of hand",
+      "Opponens digiti minimi muscle of hand",
+      "Lumbrical muscles of hand"
+    ],
+    "palpacao": "Palpe a eminência hipotenar imediatamente lateral ao abdutor do dedo mínimo, distalmente ao hâmulo do hamato, enquanto o paciente flete a metacarpofalângica do quinto dedo com as interfalângicas estendidas.",
+    "teste": "Kendall: o paciente flete a metacarpofalângica do dedo mínimo mantendo as interfalângicas estendidas; o examinador estabiliza a mão e resiste na face palmar da falange proximal em direção à extensão.",
+    "alongamento": "Extensão da metacarpofalângica do quinto dedo.",
+    "clinica": "É acometido com os demais hipotenares nas lesões do nervo ulnar. O nervo e a artéria ulnares passam junto à sua origem no hâmulo do hamato; fraturas do hâmulo (golfe, tênis, beisebol) e a compressão prolongada pelo guidão em ciclistas podem lesar o ramo profundo do nervo ulnar nesse ponto. A síndrome do martelo hipotenar é a lesão da artéria ulnar por impactos repetidos nessa região.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Opponens digiti minimi muscle of hand",
+    "pt": "Músculo oponente do dedo mínimo",
+    "latim": "Musculus opponens digiti minimi",
+    "sinonimos": [
+      "oponente do quinto dedo"
+    ],
+    "resumo": "Músculo mais profundo da eminência hipotenar, que atua sobre o quinto metacarpal para aprofundar a concavidade da palma.",
+    "origem": "Hâmulo do osso hamato e retináculo dos músculos flexores.",
+    "insercao": "Margem medial (ulnar) do corpo do quinto metacarpal.",
+    "inervacao": {
+      "nervo": "Ramo profundo do nervo ulnar",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Deep branch of ulnar nerve",
+        "Ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar (ramo palmar profundo).",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "oposicao",
+        "papel": "primario",
+        "nota": "flete e roda lateralmente o quinto metacarpal na articulação carpometacarpal"
+      }
+    ],
+    "funcao": "Traz o quinto metacarpal para a frente e o roda em direção ao polegar, acentuando o arco transverso distal da mão (mão em concha). Esse movimento melhora o contato do lado ulnar da mão com os objetos e aumenta a firmeza da preensão de força.",
+    "antagonistas": [
+      "Extensor digiti minimi"
+    ],
+    "sinergistas": [
+      "Opponens pollicis muscle",
+      "Flexor digiti minimi of hand",
+      "Abductor digiti minimi of hand"
+    ],
+    "palpacao": "Pressione profundamente a eminência hipotenar ao longo da margem ulnar do quinto metacarpal, afastando o abdutor e o flexor curto, enquanto o paciente opõe o dedo mínimo ao polegar.",
+    "teste": "Kendall: o paciente leva o quinto metacarpal em direção ao polegar, formando a concha da mão; o examinador resiste na face palmar da cabeça do quinto metacarpal, tentando aplanar a palma.",
+    "alongamento": "Aplanamento da palma, afastando o quinto metacarpal dorsalmente.",
+    "clinica": "Sua paralisia, na lesão do nervo ulnar, contribui para o aplanamento do arco transverso da mão e para a perda da força de preensão. Na reabilitação, a capacidade de formar a concha da mão é um bom indicador da recuperação dos intrínsecos ulnares.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Lumbrical muscles of hand",
+    "pt": "Músculos lumbricais da mão",
+    "latim": "Musculi lumbricales manus",
+    "sinonimos": [
+      "lumbricais"
+    ],
+    "resumo": "Quatro pequenos músculos em forma de verme, únicos por se originarem de tendões (do flexor profundo dos dedos) e se inserirem em outros tendões (expansões extensoras). Ligam o sistema flexor ao extensor dos dedos.",
+    "origem": "Tendões do flexor profundo dos dedos na palma. Primeiro e segundo (unipenados): lados radiais dos tendões para os dedos indicador e médio. Terceiro e quarto (bipenados): lados adjacentes dos tendões para os dedos médio e anular e para os dedos anular e mínimo.",
+    "insercao": "Lado radial das expansões extensoras do segundo ao quinto dedos, depois de passarem anteriormente ao ligamento metacarpal transverso profundo.",
+    "inervacao": {
+      "nervo": "Primeiro e segundo lumbricais: nervo mediano (ramos digitais palmares). Terceiro e quarto lumbricais: ramo profundo do nervo ulnar.",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Median nerve",
+        "Deep branch of ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Arcos palmares superficial e profundo e artérias digitais palmares comuns.",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "articulações metacarpofalângicas"
+      },
+      {
+        "art": "dedos_mao",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "articulações interfalângicas proximais e distais"
+      }
+    ],
+    "funcao": "Realizam a posição intrínseca positiva: metacarpofalângicas fletidas com interfalângicas estendidas, como ao segurar uma folha de papel, um prato ou cartas de baralho e no traço ascendente da escrita. Ao se contraírem, tracionam distalmente o tendão do flexor profundo, reduzindo sua tensão, e ao mesmo tempo tensionam o aparelho extensor, o que permite estender as interfalângicas em qualquer posição das metacarpofalângicas. São muito ricos em fusos musculares e têm importante papel proprioceptivo na coordenação entre flexores e extensores.",
+    "antagonistas": [
+      "Extensor digitorum",
+      "Humero-ulnar head of flexor digitorum superficialis"
+    ],
+    "sinergistas": [
+      "Dorsal interossei muscles of hand",
+      "Palmar interossei muscles",
+      "Flexor digitorum profundus"
+    ],
+    "palpacao": "Não são palpáveis individualmente com segurança; situam-se na palma, ao lado radial dos tendões flexores, proximalmente às cabeças dos metacarpais.",
+    "teste": "Kendall: o paciente mantém as metacarpofalângicas fletidas com as interfalângicas estendidas. O examinador resiste primeiro no dorso das falanges média e distal, em direção à flexão, e depois na face palmar da falange proximal, em direção à extensão. São testados em conjunto com os interósseos. Teste de Bunnell-Littler para encurtamento dos intrínsecos: a flexão passiva da interfalângica proximal é menor com a metacarpofalângica estendida do que com ela fletida.",
+    "alongamento": "Extensão das metacarpofalângicas combinada com flexão das interfalângicas proximais e distais (posição em gancho ou intrínseca negativa).",
+    "clinica": "A paralisia dos intrínsecos produz a mão em garra: hiperextensão das metacarpofalângicas e flexão das interfalângicas. Na lesão baixa do nervo ulnar, a garra predomina no quarto e no quinto dedos, porque os dois primeiros lumbricais (nervo mediano) estão preservados; na lesão combinada de mediano e ulnar atinge os quatro dedos. Órteses que bloqueiam a hiperextensão das metacarpofalângicas permitem ao extensor dos dedos estender as interfalângicas. O dedo lumbrical positivo (extensão paradoxal das interfalângicas ao tentar fletir o dedo) ocorre quando o flexor profundo é seccionado distalmente à origem do lumbrical. A contratura dos intrínsecos, comum na artrite reumatoide, favorece a deformidade em pescoço de cisne.",
+    "dica": "Posição do lumbrical = mão em 'bico de pato' ou formando a letra L: dobra na base do dedo, dedo reto. Inervação igual à metade correspondente do flexor profundo: dois laterais pelo mediano, dois mediais pelo ulnar.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Dorsal interossei muscles of hand",
+    "pt": "Músculos interósseos dorsais da mão",
+    "latim": "Musculi interossei dorsales manus",
+    "sinonimos": [
+      "interósseos dorsais"
+    ],
+    "resumo": "Quatro músculos bipenados que ocupam os espaços entre os metacarpais e são visíveis no dorso da mão. Abduzem os dedos em relação ao eixo do dedo médio.",
+    "origem": "Lados adjacentes de dois metacarpais vizinhos (do primeiro ao quinto), por duas cabeças.",
+    "insercao": "Bases das falanges proximais e expansões extensoras do segundo ao quarto dedos. Primeiro: lado radial do indicador. Segundo: lado radial do dedo médio. Terceiro: lado ulnar do dedo médio. Quarto: lado ulnar do dedo anular.",
+    "inervacao": {
+      "nervo": "Ramo profundo do nervo ulnar",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Deep branch of ulnar nerve",
+        "Ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Artérias metacarpais dorsais e palmares.",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "abducao",
+        "papel": "primario",
+        "nota": "dedos indicador, médio (para ambos os lados) e anular, a partir do eixo do terceiro dedo"
+      },
+      {
+        "art": "dedos_mao",
+        "mov": "flexao",
+        "papel": "secundario",
+        "nota": "articulações metacarpofalângicas"
+      },
+      {
+        "art": "dedos_mao",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "articulações interfalângicas, pela expansão extensora"
+      }
+    ],
+    "funcao": "Abrem os dedos em leque e, junto com os palmares e os lumbricais, fletem as metacarpofalângicas e estendem as interfalângicas. Estabilizam as metacarpofalângicas contra desvios laterais durante a preensão e a pinça. O primeiro interósseo dorsal é o maior e essencial para a pinça: estabiliza o indicador contra a pressão do polegar e auxilia a estabilidade da base do primeiro metacarpal.",
+    "antagonistas": [
+      "Palmar interossei muscles"
+    ],
+    "sinergistas": [
+      "Lumbrical muscles of hand",
+      "Abductor digiti minimi of hand",
+      "Palmar interossei muscles"
+    ],
+    "palpacao": "O primeiro interósseo dorsal é facilmente palpado e visível no dorso da primeira comissura, entre o primeiro e o segundo metacarpais, ao abduzir o indicador contra resistência ou ao fazer a pinça. Os demais são palpados no dorso da mão, nos espaços entre os metacarpais.",
+    "teste": "Kendall: mão apoiada com a palma para baixo e dedos estendidos; o paciente abduz cada dedo e o examinador resiste na falange proximal em direção ao eixo do dedo médio. O dedo médio é testado nos dois sentidos (desvio radial e ulnar). A incapacidade de mover o dedo médio de um lado para o outro com a palma apoiada é o sinal de Egawa. A incapacidade de cruzar o dedo médio sobre o indicador também indica fraqueza dos interósseos.",
+    "alongamento": "Adução do dedo correspondente, associada à extensão da metacarpofalângica com flexão das interfalângicas para alongar o componente intrínseco.",
+    "clinica": "A atrofia dos interósseos, com sulcos visíveis entre os metacarpais no dorso da mão e afundamento da primeira comissura, é sinal clássico de lesão do nervo ulnar e também ocorre em lesões de C8–T1, do tronco inferior do plexo braquial (paralisia de Klumpke, síndrome do desfiladeiro torácico) e em doenças do neurônio motor. A fraqueza reduz muito a força de pinça e de preensão e contribui para a mão em garra. Na artrite reumatoide, o encurtamento dos intrínsecos favorece o desvio ulnar dos dedos e a deformidade em pescoço de cisne. O fortalecimento do primeiro interósseo dorsal faz parte do tratamento conservador da rizartrose.",
+    "dica": "DAB e PAD: os Dorsais ABduzem, os Palmares ADuzem. O dedo médio tem dois dorsais e nenhum palmar.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Palmar interossei muscles",
+    "pt": "Músculos interósseos palmares",
+    "latim": "Musculi interossei palmares",
+    "sinonimos": [
+      "interósseos palmares",
+      "interósseos volares"
+    ],
+    "resumo": "Três músculos unipenados situados na face palmar dos metacarpais. Aduzem os dedos em direção ao dedo médio.",
+    "origem": "Faces palmares dos corpos dos metacarpais. Primeiro: lado ulnar do segundo metacarpal. Segundo: lado radial do quarto metacarpal. Terceiro: lado radial do quinto metacarpal.",
+    "insercao": "Bases das falanges proximais e expansões extensoras dos dedos indicador (lado ulnar), anular e mínimo (lado radial), sempre no mesmo lado da origem.",
+    "inervacao": {
+      "nervo": "Ramo profundo do nervo ulnar",
+      "raizes": "C8, T1",
+      "nervoKeys": [
+        "Deep branch of ulnar nerve",
+        "Ulnar nerve"
+      ]
+    },
+    "vascularizacao": "Artérias metacarpais palmares (arco palmar profundo).",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "aducao",
+        "papel": "primario",
+        "nota": "dedos indicador, anular e mínimo em direção ao eixo do terceiro dedo"
+      },
+      {
+        "art": "dedos_mao",
+        "mov": "flexao",
+        "papel": "secundario",
+        "nota": "articulações metacarpofalângicas"
+      },
+      {
+        "art": "dedos_mao",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "articulações interfalângicas, pela expansão extensora"
+      }
+    ],
+    "funcao": "Fecham os dedos, mantendo-os unidos para reter objetos finos entre eles ou formar uma concha com a mão para conter líquidos. Com os interósseos dorsais e os lumbricais, fletem as metacarpofalângicas e estendem as interfalângicas, e controlam a rotação e o desvio dos dedos durante a preensão.",
+    "antagonistas": [
+      "Dorsal interossei muscles of hand",
+      "Abductor digiti minimi of hand"
+    ],
+    "sinergistas": [
+      "Lumbrical muscles of hand",
+      "Dorsal interossei muscles of hand",
+      "Oblique head of adductor pollicis"
+    ],
+    "palpacao": "São profundos e de difícil palpação; a contração pode ser sentida pressionando-se a face palmar entre os metacarpais enquanto o paciente aperta um objeto fino entre dois dedos estendidos.",
+    "teste": "Kendall: dedos estendidos; o paciente aduz o dedo testado em direção ao dedo médio e o examinador tenta afastá-lo, tracionando a falange proximal. Teste do papel: o paciente segura uma folha entre dois dedos estendidos e aduzidos enquanto o examinador a puxa; a folha escapa facilmente quando há fraqueza.",
+    "alongamento": "Abdução do dedo correspondente, com extensão da metacarpofalângica e flexão das interfalângicas.",
+    "clinica": "A fraqueza na lesão do nervo ulnar impede manter os dedos unidos. O sinal de Wartenberg é a posição do dedo mínimo em abdução persistente, por paralisia do terceiro interósseo palmar frente à ação do extensor do dedo mínimo, e faz o dedo prender-se ao colocar a mão no bolso. Sua atrofia acompanha a dos interósseos dorsais na mão em garra ulnar. Alguns autores descrevem um quarto interósseo palmar, rudimentar, para o polegar, geralmente considerado parte do adutor ou do flexor curto do polegar.",
+    "dica": "PAD: Palmares ADuzem. São três porque o dedo médio é o eixo e o polegar tem adutor próprio.",
+    "camada": "profunda"
+  }
+]

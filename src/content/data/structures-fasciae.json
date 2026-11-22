@@ -1,0 +1,314 @@
+[
+  {
+    "key": "Linea alba",
+    "pt": "Linha alba",
+    "latim": "Linea alba",
+    "resumo": "Rafe tendínea mediana da parede anterior do abdome, que vai do processo xifoide à sínfise púbica. É formada pelo entrecruzamento das aponeuroses dos músculos oblíquo externo, oblíquo interno e transverso do abdome dos dois lados e separa os dois músculos retos do abdome. É mais larga acima do umbigo e estreita abaixo dele; contém o anel umbilical. Transmite as forças entre os músculos abdominais dos dois lados.",
+    "clinica": "Seu alargamento e afrouxamento caracterizam a diástase dos músculos retos do abdome, comum na gestação e no pós-parto; avalia-se pela distância entre os retos acima, na altura e abaixo do umbigo, em repouso e durante a elevação da cabeça, e pela capacidade de a linha gerar tensão quando o transverso do abdome contrai. É sede de hérnias epigástricas e umbilicais. Por ser pouco vascularizada, é a via das incisões medianas (laparotomia)."
+  },
+  {
+    "key": "Tendinous arch of levator ani",
+    "pt": "Arco tendíneo do músculo levantador do ânus",
+    "latim": "Arcus tendineus musculi levatoris ani",
+    "resumo": "Espessamento linear da fáscia do músculo obturador interno, estendido do corpo do púbis à espinha isquiática, na parede lateral da pelve. Dá origem a grande parte do músculo levantador do ânus (iliococcígeo e parte do pubococcígeo). Não deve ser confundido com o arco tendíneo da fáscia da pelve, situado medialmente a ele, que sustenta a vagina e a bexiga.",
+    "clinica": "O desprendimento do levantador do ânus de suas fixações laterais e púbicas, sobretudo no parto vaginal, enfraquece o suporte das vísceras pélvicas e associa-se ao prolapso de órgãos pélvicos e à incontinência urinária."
+  },
+  {
+    "key": "Superficial investing cervical fascia",
+    "pt": "Lâmina superficial (de revestimento) da fáscia cervical",
+    "latim": "Lamina superficialis fasciae cervicalis",
+    "resumo": "Camada mais externa da fáscia cervical (profunda), que envolve todo o pescoço como um colar, logo abaixo da tela subcutânea e do platisma. Desdobra-se para envolver os músculos esternocleidomastóideo e trapézio e as glândulas submandibular e parótida. Fixa-se superiormente à mandíbula, ao processo mastoide e à linha nucal superior, inferiormente ao esterno, à clavícula, ao acrômio e à espinha da escápula, e posteriormente ao ligamento nucal.",
+    "clinica": "Forma o teto do trígono lateral do pescoço, no qual o nervo acessório corre superficialmente e pode ser lesado. As lâminas da fáscia cervical delimitam compartimentos que orientam a disseminação de infecções e permitem o deslizamento das estruturas do pescoço na deglutição e nos movimentos da cabeça."
+  },
+  {
+    "key": "Investing abdominal fascia",
+    "pt": "Fáscia de revestimento do abdome",
+    "latim": "Fascia investiens abdominis",
+    "resumo": "Fáscia muscular (profunda) que recobre os músculos da parede anterolateral do abdome e suas aponeuroses. Tem lâminas superficial, intermédia e profunda, que revestem as faces dos músculos oblíquo externo, oblíquo interno e transverso do abdome. A lâmina superficial, sobre o oblíquo externo, é fina e aderente e fica logo abaixo da tela subcutânea.",
+    "clinica": "Por ser muito fina, não forma compartimentos rígidos, o que permite a distensão da parede abdominal na respiração, na gestação e após as refeições."
+  },
+  {
+    "key": "Diaphragmatic fascia",
+    "pt": "Fáscia diafragmática",
+    "latim": "Fascia diaphragmatica",
+    "resumo": "Parte da fáscia endoabdominal que reveste a face inferior (abdominal) do diafragma, entre o músculo e o peritônio. Continua-se com a fáscia transversal na parede do abdome e espessa-se sobre o psoas maior e o quadrado do lombo, formando os ligamentos arqueados medial e lateral, de onde se originam fibras do diafragma."
+  },
+  {
+    "key": "Iliopsoas fascia",
+    "pt": "Fáscia do iliopsoas (fáscia ilíaca)",
+    "latim": "Fascia iliopsoas",
+    "resumo": "Parte da fáscia endoabdominal que recobre os músculos psoas maior e ilíaco. A parte que reveste o psoas (fáscia do psoas) fixa-se medialmente às vértebras lombares e espessa-se superiormente no ligamento arqueado medial; a parte ilíaca prende-se à crista ilíaca e, abaixo, ao ligamento inguinal, de onde acompanha o músculo até a coxa. Forma o arco iliopectíneo e o assoalho da lacuna dos músculos.",
+    "clinica": "Um abscesso do psoas (classicamente por tuberculose vertebral) pode descer dentro da bainha fascial e exteriorizar-se na região inguinal ou na parte proximal da coxa, causando dor e postura do quadril em flexão. O nervo femoral corre profundamente à fáscia ilíaca, o que fundamenta o bloqueio do compartimento da fáscia ilíaca usado na analgesia de fraturas e cirurgias do quadril."
+  },
+  {
+    "key": "Transversalis fascia",
+    "pt": "Fáscia transversal",
+    "latim": "Fascia transversalis",
+    "resumo": "Parte da fáscia endoabdominal que reveste a face profunda do músculo transverso do abdome e de sua aponeurose, separada do peritônio parietal pela gordura extraperitoneal. Continua-se com as fáscias diafragmática, do iliopsoas e da pelve. Abaixo da linha arqueada é a única camada, além do peritônio, atrás do músculo reto do abdome. Apresenta o anel inguinal profundo e forma a fáscia espermática interna.",
+    "clinica": "Constitui a parede posterior do canal inguinal. Na hérnia inguinal indireta o saco herniário atravessa o anel inguinal profundo, lateralmente aos vasos epigástricos inferiores; na direta, empurra a fáscia transversal enfraquecida no trígono inguinal (de Hesselbach), medialmente a esses vasos."
+  },
+  {
+    "key": "Masseteric fascia",
+    "pt": "Fáscia massetérica",
+    "latim": "Fascia masseterica",
+    "resumo": "Fáscia resistente que recobre o músculo masseter, fixada superiormente ao arco zigomático e inferiormente à margem e ao ângulo da mandíbula. Posteriormente continua-se com a fáscia parotídea e deriva da lâmina superficial da fáscia cervical.",
+    "clinica": "Por ser pouco distensível, o edema da parótida (por exemplo, na caxumba) e as infecções da região são muito dolorosos, com piora à mastigação."
+  },
+  {
+    "key": "Superficial layer of temporal fascia",
+    "pt": "Lâmina superficial da fáscia temporal",
+    "latim": "Lamina superficialis fasciae temporalis",
+    "resumo": "A fáscia temporal é uma lâmina forte que recobre o músculo temporal e lhe dá origem, fixada superiormente à linha temporal superior. Acima do arco zigomático divide-se em duas lâminas: a superficial prende-se à margem lateral (externa) do arco, e a profunda, à margem medial, ficando entre elas gordura e vasos.",
+    "clinica": "O ramo temporal do nervo facial cruza o arco zigomático superficialmente a essa lâmina, sendo vulnerável em cirurgias e traumas da região temporal. A fáscia temporal é usada como enxerto, por exemplo na timpanoplastia."
+  },
+  {
+    "key": "Fascia lata",
+    "pt": "Fáscia lata",
+    "latim": "Fascia lata",
+    "resumo": "Fáscia muscular (profunda) da coxa: envoltório espesso e resistente que reveste os músculos como uma meia elástica. Fixa-se superiormente ao ligamento inguinal, à crista ilíaca, ao sacro, ao ligamento sacrotuberal e ao ramo isquiopúbico, e inferiormente continua-se com a fáscia da perna. Lateralmente espessa-se no trato iliotibial; emite os septos intermusculares lateral e medial, que se fixam à linha áspera e ajudam a delimitar os compartimentos anterior, medial e posterior da coxa. Abaixo do ligamento inguinal apresenta o hiato safeno, por onde a veia safena magna alcança a veia femoral.",
+    "clinica": "Por limitar a expansão dos músculos, aumenta a eficiência da contração e do retorno venoso. A síndrome compartimental da coxa é rara, por causa do grande volume dos compartimentos. Fragmentos da fáscia lata são usados como enxerto. Defeitos na fáscia permitem hérnias musculares, que aparecem como abaulamentos durante a contração."
+  },
+  {
+    "key": "Iliotibial tract",
+    "pt": "Trato iliotibial",
+    "latim": "Tractus iliotibialis",
+    "sinonimos": ["banda iliotibial", "fita de Maissiat"],
+    "resumo": "Espessamento longitudinal da fáscia lata na face lateral da coxa, que vai do tubérculo ilíaco, na crista ilíaca, ao tubérculo anterolateral da tíbia (tubérculo de Gerdy), com expansões para a patela e o retináculo lateral da patela. Recebe proximalmente a inserção do tensor da fáscia lata e de cerca de três quartos do glúteo máximo e está ligado ao fêmur pelo septo intermuscular lateral. Estabiliza lateralmente o quadril e o joelho: em apoio unipodal ajuda a manter a pelve nivelada, e no joelho passa à frente do eixo de flexão em extensão e atrás dele a partir de cerca de 30° de flexão.",
+    "clinica": "Síndrome do trato iliotibial: principal causa de dor lateral no joelho em corredores e ciclistas, sobre o epicôndilo lateral do fêmur, mais intensa por volta de 30° de flexão; atribui-se hoje à compressão do tecido adiposo inervado situado sob o trato, mais do que ao atrito. Associa-se à fraqueza dos abdutores e rotadores laterais do quadril, com adução e rotação medial do fêmur na fase de apoio. Testes: Ober (encurtamento do tensor da fáscia lata e do trato) e Noble (compressão sobre o epicôndilo lateral). A tensão excessiva pode lateralizar a patela e contribuir para a dor patelofemoral, e o ressalto do trato sobre o trocanter maior caracteriza o quadril em ressalto externo, associado à dor trocantérica. O trato em si quase não se alonga; o tratamento privilegia o fortalecimento do quadril e o ajuste da carga de treino."
+  },
+  {
+    "key": "Lateral femoral intermuscular septum",
+    "pt": "Septo intermuscular lateral da coxa",
+    "latim": "Septum intermusculare femoris laterale",
+    "resumo": "Lâmina forte que se estende da face profunda da fáscia lata e do trato iliotibial ao lábio lateral da linha áspera e à linha supracondilar lateral do fêmur. Separa o compartimento anterior (vasto lateral) do posterior (cabeça curta do bíceps femoral) e dá origem a fibras desses músculos.",
+    "clinica": "Ancora o trato iliotibial ao fêmur, o que explica por que o trato não desliza livremente sobre o epicôndilo lateral. É o plano usado nos acessos cirúrgicos laterais ao fêmur."
+  },
+  {
+    "key": "Medial femoral intermuscular septum",
+    "pt": "Septo intermuscular medial da coxa",
+    "latim": "Septum intermusculare femoris mediale",
+    "resumo": "Lâmina mais fina que o septo lateral, que vai da fáscia lata ao lábio medial da linha áspera, entre o vasto medial e os músculos adutores. Separa o compartimento anterior do medial. A membrana vastoadutora, estendida entre o vasto medial e os adutores longo e magno, forma o teto do canal dos adutores.",
+    "clinica": "No canal dos adutores (de Hunter) passam a artéria e a veia femorais e o nervo safeno; o nervo safeno pode ser comprimido ao atravessar a membrana vastoadutora, causando dor na face medial do joelho e da perna."
+  },
+  {
+    "key": "Iliopectineal arch",
+    "pt": "Arco iliopectíneo",
+    "latim": "Arcus iliopectineus",
+    "resumo": "Faixa espessada da fáscia do iliopsoas, estendida do ligamento inguinal à eminência iliopúbica. Divide o espaço sob o ligamento inguinal em dois compartimentos: a lacuna dos músculos, lateral, por onde passam o músculo iliopsoas, o nervo femoral e o nervo cutâneo femoral lateral, e a lacuna dos vasos, medial, com a artéria e a veia femorais e o canal femoral.",
+    "clinica": "Explica por que o nervo femoral fica fora da bainha femoral, em um compartimento separado do dos vasos. O nervo cutâneo femoral lateral pode ser comprimido junto à espinha ilíaca anterossuperior, ao passar sob o ligamento inguinal (meralgia parestésica). A hérnia femoral ocorre na lacuna dos vasos, medialmente à veia femoral."
+  },
+  {
+    "key": "Piriformis fascia",
+    "pt": "Fáscia do músculo piriforme",
+    "latim": "Fascia musculi piriformis",
+    "resumo": "Parte da fáscia parietal da pelve que reveste a face pélvica do músculo piriforme, na parede posterolateral da pelve. Os nervos do plexo sacral ficam entre essa fáscia e o músculo, enquanto os vasos ilíacos internos ficam medialmente a ela.",
+    "clinica": "Relaciona-se com a síndrome do piriforme (dor glútea profunda com irradiação pelo trajeto do nervo isquiático), em que o nervo é comprimido ou irritado junto ao músculo ao sair pelo forame isquiático maior."
+  },
+  {
+    "key": "Popliteal fascia",
+    "pt": "Fáscia poplítea",
+    "latim": "Fascia poplitea",
+    "resumo": "Parte da fáscia muscular que forma o teto da fossa poplítea, contínua superiormente com a fáscia lata e inferiormente com a fáscia da perna. É resistente, reforçada por fibras transversais, e é perfurada pela veia safena parva e pelo nervo cutâneo femoral posterior.",
+    "clinica": "Fica tensa com o joelho em extensão e relaxa em flexão; por isso a fossa poplítea deve ser palpada (pulso poplíteo, cisto de Baker) com o joelho levemente fletido. Por ser pouco distensível, as lesões expansivas da fossa, como o cisto poplíteo e o aneurisma da artéria poplítea, causam dor e compressão do feixe vasculonervoso."
+  },
+  {
+    "key": "Crural fascia",
+    "pt": "Fáscia da perna (fáscia crural)",
+    "latim": "Fascia cruris",
+    "resumo": "Fáscia muscular (profunda) da perna, contínua com a fáscia lata. Está fundida ao periósteo da face medial da tíbia, é espessa na parte proximal anterior, onde dá origem a fibras musculares, e espessa-se distalmente para formar os retináculos dos extensores, dos flexores e dos fibulares. Com os septos intermusculares anterior e posterior e a membrana interóssea, delimita os compartimentos anterior, lateral e posterior da perna; este é dividido em partes superficial e profunda pelo septo intermuscular transverso.",
+    "clinica": "Como os compartimentos são pouco distensíveis, o aumento de pressão em seu interior causa síndrome compartimental. Na forma aguda (fratura da tíbia, esmagamento, reperfusão), há dor desproporcional que piora ao alongamento passivo dos músculos, tensão à palpação, parestesia e, tardiamente, perda de força; os pulsos podem estar presentes. É emergência, tratada por fasciotomia. Na forma crônica do esforço, típica de corredores, a dor e a sensação de pressão surgem com o exercício e cedem com o repouso, mais no compartimento anterior. A fáscia também participa da síndrome do estresse tibial medial, pela tração na margem medial da tíbia, e é essencial para a bomba muscular da panturrilha."
+  },
+  {
+    "key": "Anterior intermuscular septum of leg",
+    "pt": "Septo intermuscular anterior da perna",
+    "latim": "Septum intermusculare cruris anterius",
+    "resumo": "Lâmina que se estende da face profunda da fáscia da perna à margem anterior da fíbula. Separa o compartimento anterior (tibial anterior, extensores longos dos dedos e do hálux, fibular terceiro; nervo fibular profundo) do compartimento lateral (fibulares longo e curto; nervo fibular superficial).",
+    "clinica": "É a referência para as fasciotomias dos compartimentos anterior e lateral da perna. O nervo fibular superficial perfura a fáscia junto a esse septo, no terço distal da perna, onde pode ser comprimido ou lesado."
+  },
+  {
+    "key": "Posterior intermuscular septum of leg",
+    "pt": "Septo intermuscular posterior da perna",
+    "latim": "Septum intermusculare cruris posterius",
+    "resumo": "Lâmina que se estende da fáscia da perna à margem posterior da fíbula. Separa o compartimento lateral (músculos fibulares) do compartimento posterior (tríceps sural e músculos profundos).",
+    "clinica": "Junto com o septo anterior, delimita o compartimento lateral da perna, pequeno e pouco distensível."
+  },
+  {
+    "key": "Transverse intermuscular septum of leg",
+    "pt": "Septo intermuscular transverso da perna",
+    "latim": "Septum intermusculare cruris transversum",
+    "sinonimos": ["lâmina profunda da fáscia da perna"],
+    "resumo": "Lâmina fascial estendida da tíbia à fíbula, no plano frontal, que divide o compartimento posterior da perna em parte superficial (gastrocnêmio, sóleo e plantar) e parte profunda (tibial posterior, flexor longo dos dedos, flexor longo do hálux e poplíteo, com o nervo tibial e os vasos tibiais posteriores e fibulares). Distalmente continua-se com o retináculo dos músculos flexores.",
+    "clinica": "A parte profunda do compartimento posterior é sede da síndrome compartimental crônica do esforço profunda e é de acesso cirúrgico mais difícil na fasciotomia. Dor ao alongar passivamente os dedos em extensão sugere seu acometimento."
+  },
+  {
+    "key": "Superior extensor retinaculum of ankle",
+    "pt": "Retináculo superior dos músculos extensores",
+    "latim": "Retinaculum musculorum extensorum superius",
+    "sinonimos": ["ligamento transverso da perna"],
+    "resumo": "Faixa transversal espessada da fáscia da perna, estendida da margem anterior da fíbula à margem anterior da tíbia, logo acima dos maléolos. Mantém junto à perna os tendões dos músculos tibial anterior, extensor longo do hálux, extensor longo dos dedos e fibular terceiro, impedindo que se afastem em corda de arco na dorsiflexão.",
+    "clinica": "A tenossinovite do tibial anterior e dos extensores sob o retináculo causa dor e crepitação na face anterior do tornozelo, em corredores e em quem usa calçado ou cadarço muito apertado."
+  },
+  {
+    "key": "Inferior extensor retinaculum of ankle",
+    "pt": "Retináculo inferior dos músculos extensores",
+    "latim": "Retinaculum musculorum extensorum inferius",
+    "sinonimos": ["ligamento cruciforme"],
+    "resumo": "Faixa em forma de Y deitado no dorso do pé. O tronco fixa-se lateralmente à face superior do calcâneo, na região do seio do tarso, e os dois ramos dirigem-se medialmente: o superior ao maléolo medial e o inferior à margem medial do pé e à aponeurose plantar. Forma alças que mantêm os tendões extensores e o fibular terceiro aplicados ao dorso do pé.",
+    "clinica": "Suas raízes no seio do tarso contribuem para a estabilidade da articulação talocalcânea e podem ser lesadas nas entorses em inversão, participando da síndrome do seio do tarso. Na reconstrução ligamentar lateral do tornozelo (Broström-Gould) o retináculo é usado como reforço. O nervo fibular profundo pode ser comprimido sob ele (síndrome do túnel do tarso anterior), com dor no dorso do pé e parestesia no primeiro espaço interdigital."
+  },
+  {
+    "key": "Flexor retinaculum of ankle",
+    "pt": "Retináculo dos músculos flexores (do tornozelo)",
+    "latim": "Retinaculum musculorum flexorum pedis",
+    "sinonimos": ["ligamento lacinado"],
+    "resumo": "Faixa fibrosa estendida do maléolo medial à face medial do calcâneo, que transforma os sulcos retromaleolares em túneis e forma o teto do túnel do tarso. Sob ele passam, de anterior para posterior: tendão do tibial posterior, tendão do flexor longo dos dedos, artéria e veias tibiais posteriores, nervo tibial e tendão do flexor longo do hálux.",
+    "clinica": "Síndrome do túnel do tarso: compressão do nervo tibial ou de seus ramos plantares sob o retináculo (pé plano com valgo do retropé, sequela de fratura ou entorse, tenossinovite, cistos, varizes), com dor em queimação e parestesia na planta do pé e nos dedos, que pioram ao ficar em pé e caminhar e à noite; sinal de Tinel atrás do maléolo medial e teste de dorsiflexão com eversão positivos. O pulso tibial posterior é palpado nesse local, entre o maléolo medial e o tendão do calcâneo.",
+    "dica": "Ordem das estruturas atrás do maléolo medial: Tom, Dick And Very Nervous Harry (Tibial posterior, flexor longo dos Dedos, Artéria, Veias, Nervo tibial, flexor longo do Hálux)."
+  },
+  {
+    "key": "Superior fibular retinaculum",
+    "pt": "Retináculo superior dos músculos fibulares",
+    "latim": "Retinaculum musculorum fibularium superius",
+    "sinonimos": ["retináculo peroneal superior"],
+    "resumo": "Faixa fibrosa estendida da ponta e da margem posterior do maléolo lateral à face lateral do calcâneo. Mantém os tendões dos músculos fibular longo e fibular curto, envolvidos por uma bainha sinovial comum, no sulco atrás do maléolo lateral.",
+    "clinica": "Sua ruptura ou descolamento, em geral por dorsiflexão forçada com contração brusca dos fibulares (esqui, futebol), permite a subluxação ou luxação dos tendões fibulares para a frente do maléolo, com estalido doloroso e sensação de instabilidade lateral; é frequentemente confundida com entorse do tornozelo. Associa-se a tendinopatia e rupturas longitudinais do fibular curto."
+  },
+  {
+    "key": "Inferior fibular retinaculum",
+    "pt": "Retináculo inferior dos músculos fibulares",
+    "latim": "Retinaculum musculorum fibularium inferius",
+    "sinonimos": ["retináculo peroneal inferior"],
+    "resumo": "Faixa fibrosa na face lateral do calcâneo, contínua com o retináculo inferior dos extensores. Fixa-se à tróclea fibular e forma dois túneis separados: o superior para o tendão do fibular curto e o inferior para o do fibular longo.",
+    "clinica": "A tenossinovite estenosante dos fibulares pode ocorrer nesse nível, especialmente quando a tróclea fibular é hipertrofiada, com dor abaixo do maléolo lateral."
+  },
+  {
+    "key": "Plantar aponeurosis",
+    "pt": "Aponeurose plantar",
+    "latim": "Aponeurosis plantaris",
+    "sinonimos": ["fáscia plantar"],
+    "resumo": "Parte central, espessa e resistente, da fáscia muscular da planta do pé. Origina-se do processo medial da tuberosidade do calcâneo e divide-se distalmente em cinco faixas, que se fixam às bainhas fibrosas dos tendões flexores, aos ligamentos plantares das articulações metatarsofalângicas e às bases das falanges proximais. Protege as estruturas plantares e sustenta o arco longitudinal do pé como a corda de um arco. Pelo mecanismo de molinete (windlass), a extensão dos dedos, sobretudo do hálux, no fim da fase de apoio enrola a aponeurose em torno das cabeças dos metatarsais, eleva o arco, inverte o retropé e transforma o pé em alavanca rígida para a impulsão.",
+    "clinica": "Fasciite (fasciopatia) plantar: causa mais comum de dor na região plantar do calcanhar, de natureza mais degenerativa que inflamatória, na origem no processo medial da tuberosidade do calcâneo. A dor é pior nos primeiros passos pela manhã e após repouso, com sensibilidade à palpação local e ao teste do molinete (extensão passiva do hálux). Fatores associados: limitação da dorsiflexão do tornozelo, encurtamento do tríceps sural, índice de massa corporal elevado, permanência prolongada em pé e aumento brusco de corrida. Tratamento: educação e ajuste de carga, alongamento específico da aponeurose e da panturrilha, fortalecimento com carga progressiva (elevação do calcanhar com os dedos em extensão), bandagem e palmilhas. A fibromatose plantar (doença de Ledderhose) forma nódulos na aponeurose e é análoga à doença de Dupuytren da mão."
+  },
+  {
+    "key": "Superficial transverse metatarsal ligament",
+    "pt": "Ligamento metatarsal transverso superficial",
+    "latim": "Ligamentum metatarsale transversum superficiale",
+    "resumo": "Conjunto de fibras transversais da aponeurose plantar, sob a pele, na altura das cabeças dos metatarsais, que une as cinco faixas digitais da aponeurose. Não deve ser confundido com o ligamento metatarsal transverso profundo, que une as cabeças dos metatarsais.",
+    "clinica": "Ajuda a manter o coxim adiposo plantar sob as cabeças dos metatarsais. No neuroma de Morton, o nervo digital plantar comum é comprimido contra o ligamento metatarsal transverso profundo, em geral no terceiro espaço."
+  },
+  {
+    "key": "Clavipectoral fascia",
+    "pt": "Fáscia clavipeitoral",
+    "latim": "Fascia clavipectoralis",
+    "resumo": "Lâmina fascial profunda ao músculo peitoral maior, que se estende da clavícula ao assoalho da axila. Envolve o músculo subclávio e o peitoral menor; a parte entre eles é a membrana costocoracoide, atravessada pela veia cefálica, pela artéria toracoacromial e pelo nervo peitoral lateral. Abaixo do peitoral menor continua-se como ligamento suspensor da axila, que se prende à fáscia axilar e mantém a concavidade da axila quando o braço é abduzido.",
+    "clinica": "Sua retração, junto com a do peitoral menor, mantém a escápula em inclinação anterior e protração. O feixe vasculonervoso axilar passa atrás dela e do peitoral menor, onde pode ser comprimido na elevação do braço (síndrome do peitoral menor)."
+  },
+  {
+    "key": "Pectoral fascia",
+    "pt": "Fáscia peitoral",
+    "latim": "Fascia pectoralis",
+    "resumo": "Fáscia muscular fina que reveste o músculo peitoral maior, fixada à clavícula e ao esterno. Lateralmente continua-se com a fáscia axilar e com a fáscia do deltoide, e inferiormente com a fáscia da parede abdominal. Forma o leito da mama, da qual é separada pelo espaço retromamário, de tecido conjuntivo frouxo.",
+    "clinica": "O espaço retromamário permite que a mama deslize sobre o peitoral maior. A fixação da mama, que passa a subir com a contração do músculo, sugere invasão da fáscia por tumor. Após mastectomia e radioterapia, aderências entre a pele, a fáscia e o músculo limitam a mobilidade do ombro e são alvo da mobilização cicatricial e do alongamento."
+  },
+  {
+    "key": "Deltoid fascia",
+    "pt": "Fáscia deltóidea",
+    "latim": "Fascia deltoidea",
+    "resumo": "Fáscia muscular que reveste o músculo deltoide e emite septos entre seus fascículos. Fixa-se superiormente à clavícula, ao acrômio e à espinha da escápula e continua-se anteriormente com a fáscia peitoral, posteriormente com a fáscia infraespinal e inferiormente com a fáscia do braço."
+  },
+  {
+    "key": "Brachial fascia",
+    "pt": "Fáscia do braço (fáscia braquial)",
+    "latim": "Fascia brachii",
+    "resumo": "Fáscia muscular que envolve o braço como uma manga, contínua superiormente com as fáscias deltóidea, peitoral e axilar e inferiormente com a fáscia do antebraço. Fixa-se aos epicôndilos do úmero e ao olécrano e emite os septos intermusculares medial e lateral, que dividem o braço em compartimento anterior (flexores, nervo musculocutâneo) e posterior (tríceps braquial, nervo radial). É perfurada pela veia basílica e por nervos cutâneos.",
+    "clinica": "A síndrome compartimental do braço é rara, mas pode ocorrer após fraturas do úmero, esmagamentos ou compressão prolongada."
+  },
+  {
+    "key": "Medial intermuscular septum of arm",
+    "pt": "Septo intermuscular medial do braço",
+    "latim": "Septum intermusculare brachii mediale",
+    "resumo": "Lâmina que vai da fáscia do braço à margem medial e à crista supraepicondilar medial do úmero, até o epicôndilo medial. Separa os compartimentos anterior e posterior e dá origem a fibras do braquial e da cabeça medial do tríceps. É perfurado pelo nervo ulnar, que passa do compartimento anterior para o posterior no terço médio do braço.",
+    "clinica": "Uma faixa fascial inconstante entre o septo e a cabeça medial do tríceps (arcada de Struthers) é apontada como local de compressão do nervo ulnar no braço; o septo também pode comprimir o nervo após sua transposição anterior cirúrgica, se não for ressecado."
+  },
+  {
+    "key": "Lateral intermuscular septum of arm",
+    "pt": "Septo intermuscular lateral do braço",
+    "latim": "Septum intermusculare brachii laterale",
+    "resumo": "Lâmina que vai da fáscia do braço à margem lateral e à crista supraepicondilar lateral do úmero, da tuberosidade para o músculo deltoide ao epicôndilo lateral. Separa os compartimentos anterior e posterior e dá origem a fibras do tríceps, do braquial, do braquiorradial e do extensor radial longo do carpo. É perfurado pelo nervo radial e pela artéria colateral radial, que passam do compartimento posterior para o anterior.",
+    "clinica": "No ponto em que perfura o septo, cerca de 10 cm acima do epicôndilo lateral, o nervo radial fica relativamente fixo e junto ao osso; por isso é vulnerável nas fraturas do terço distal da diáfise do úmero (fratura de Holstein-Lewis), com queda do punho."
+  },
+  {
+    "key": "Antebrachial fascia",
+    "pt": "Fáscia do antebraço (fáscia antebraquial)",
+    "latim": "Fascia antebrachii",
+    "resumo": "Fáscia muscular que envolve o antebraço, contínua com a fáscia do braço. Proximalmente é espessa, dá origem a fibras dos músculos flexores e extensores e é reforçada pela aponeurose do músculo bíceps braquial; fixa-se à margem posterior da ulna. Com a membrana interóssea e os septos, delimita os compartimentos anterior (flexores e pronadores) e posterior (extensores e supinador). No punho espessa-se, formando o retináculo dos músculos extensores e, anteriormente, o ligamento carpal palmar.",
+    "clinica": "A síndrome compartimental aguda do antebraço, após fratura supracondilar do úmero em crianças, fraturas do antebraço ou imobilização apertada, pode evoluir para a contratura isquêmica de Volkmann, com punho e dedos em flexão por fibrose dos flexores profundos. Dor desproporcional e dor à extensão passiva dos dedos são sinais de alerta. A forma crônica do esforço ocorre em motociclistas, remadores e escaladores."
+  },
+  {
+    "key": "Extensor retinaculum of wrist",
+    "pt": "Retináculo dos músculos extensores (do punho)",
+    "latim": "Retinaculum musculorum extensorum manus",
+    "sinonimos": ["ligamento dorsal do carpo"],
+    "resumo": "Faixa oblíqua espessada da fáscia do antebraço no dorso do punho, estendida da margem anterior do rádio ao piramidal e ao pisiforme. Emite septos que se fixam ao rádio e formam seis compartimentos (túneis) osteofibrosos para os tendões extensores e suas bainhas sinoviais, de lateral para medial: 1, abdutor longo e extensor curto do polegar; 2, extensores radiais longo e curto do carpo; 3, extensor longo do polegar (medial ao tubérculo dorsal do rádio); 4, extensor dos dedos e extensor do indicador; 5, extensor do dedo mínimo; 6, extensor ulnar do carpo. Impede que os tendões se afastem em corda de arco na extensão do punho.",
+    "clinica": "Tenossinovite de De Quervain: estenosante, no primeiro compartimento, com dor no processo estiloide do rádio e teste de Finkelstein positivo, frequente em quem cuida de bebês e em atividades com desvio ulnar repetido. Síndrome da intersecção: dor e crepitação cerca de 4 a 6 cm acima do punho, onde os tendões do primeiro compartimento cruzam os do segundo. O extensor longo do polegar pode romper junto ao tubérculo dorsal do rádio após fratura distal do rádio ou na artrite reumatoide. A subluxação do extensor ulnar do carpo ocorre por lesão da sua bainha no sexto compartimento. Os cistos sinoviais dorsais do punho surgem nessa região."
+  },
+  {
+    "key": "Flexor retinaculum of wrist",
+    "pt": "Retináculo dos músculos flexores (do punho)",
+    "latim": "Retinaculum musculorum flexorum manus",
+    "sinonimos": ["ligamento transverso do carpo", "ligamento anular anterior do carpo"],
+    "resumo": "Faixa fibrosa forte e transversal, na face palmar do carpo, fixada medialmente ao pisiforme e ao hâmulo do hamato e lateralmente aos tubérculos do escafoide e do trapézio. Fecha a concavidade do carpo e a transforma no túnel do carpo, por onde passam o nervo mediano e nove tendões: quatro do flexor superficial dos dedos, quatro do flexor profundo dos dedos e o do flexor longo do polegar. Funciona como polia para os tendões flexores, mantém o arco transverso do carpo e dá origem aos músculos tenares e hipotenares. Passam superficialmente a ele o nervo e a artéria ulnares (no canal ulnar, de Guyon), o tendão do palmar longo e o ramo cutâneo palmar do nervo mediano.",
+    "clinica": "Síndrome do túnel do carpo: a neuropatia compressiva mais comum, por compressão do nervo mediano sob o retináculo. Causa parestesia e dor no polegar, no indicador, no dedo médio e na metade lateral do anular, com piora noturna e alívio ao sacudir a mão; nos casos avançados há fraqueza e atrofia tenar (abdutor curto e oponente do polegar). A sensibilidade da palma sobre a eminência tenar é preservada, porque o ramo cutâneo palmar passa por fora do túnel. Testes: Phalen, Tinel no punho e compressão do carpo (Durkan). Fatores associados: movimentos repetitivos e vibração, gestação, diabetes, hipotireoidismo, artrite reumatoide e obesidade. Tratamento conservador: órtese noturna com o punho em posição neutra, educação e exercícios de deslizamento do nervo e dos tendões. Tratamento cirúrgico: secção do retináculo, que pode ser seguida de dor no pilar e redução transitória da força de preensão."
+  },
+  {
+    "key": "Palmar aponeurosis",
+    "pt": "Aponeurose palmar",
+    "latim": "Aponeurosis palmaris",
+    "resumo": "Parte central, triangular e espessa, da fáscia da palma da mão. O ápice, proximal, continua-se com o retináculo dos flexores e com o tendão do músculo palmar longo; a base divide-se em quatro faixas longitudinais (pré-tendíneas), dirigidas aos dedos 2 a 5, onde se continuam com as bainhas fibrosas dos tendões flexores. Fibras verticais prendem-na à pele da palma, e septos profundos, aos metacarpais. Protege os tendões, vasos e nervos da palma e fixa a pele, dando firmeza à preensão.",
+    "clinica": "Contratura (doença) de Dupuytren: fibromatose progressiva da aponeurose palmar e da fáscia dos dedos, com nódulos e cordas que levam à flexão fixa das articulações metacarpofalângicas e interfalângicas proximais, sobretudo dos dedos anular e mínimo. É mais comum em homens acima de 50 anos de ascendência norte-europeia e associa-se a história familiar, diabetes, etilismo e tabagismo. O teste da mesa (incapacidade de apoiar a palma e os dedos estendidos sobre uma superfície) orienta a indicação de tratamento (fasciectomia, aponeurotomia percutânea com agulha ou colagenase). A reabilitação pós-operatória inclui órtese em extensão, cuidados com a cicatriz e exercícios de deslizamento tendíneo. Os septos da aponeurose também delimitam os espaços fasciais por onde se propagam as infecções da palma."
+  },
+  {
+    "key": "Superficial transverse metacarpal ligament",
+    "pt": "Ligamento metacarpal transverso superficial",
+    "latim": "Ligamentum metacarpale transversum superficiale",
+    "sinonimos": ["ligamento natatório"],
+    "resumo": "Faixa de fibras transversais superficiais da fáscia palmar, sob a pele das pregas interdigitais, na altura das articulações metacarpofalângicas dos dedos 2 a 5. Une as faixas longitudinais da aponeurose palmar e sustenta as comissuras dos dedos, limitando sua abdução.",
+    "clinica": "Pode ser acometido na doença de Dupuytren (corda natatória), o que retrai as comissuras e limita o afastamento dos dedos."
+  },
+  {
+    "key": "Dorsal fascia of hand",
+    "pt": "Fáscia dorsal da mão",
+    "latim": "Fascia dorsalis manus",
+    "resumo": "Fáscia do dorso da mão, contínua proximalmente com o retináculo dos extensores. Sua lâmina superficial, fina, recobre os tendões extensores e funde-se nos dedos com as expansões extensoras; a lâmina profunda reveste os músculos interósseos dorsais e fixa-se aos metacarpais.",
+    "clinica": "A pele e a tela subcutânea do dorso da mão são frouxas e móveis, ao contrário das da palma. Por isso o edema da mão acumula-se no dorso, mesmo quando a lesão ou a infecção é palmar; o edema mantido favorece a rigidez em extensão das articulações metacarpofalângicas, que deve ser prevenida com elevação, movimento ativo e posicionamento adequado."
+  },
+  {
+    "key": "Thoracolumbar fascia",
+    "pt": "Fáscia toracolombar",
+    "latim": "Fascia thoracolumbalis",
+    "sinonimos": ["aponeurose lombar", "fáscia lombodorsal"],
+    "resumo": "Complexo de lâminas fasciais e aponeuróticas que envolve os músculos próprios do dorso. Na região torácica é fina e vai dos processos espinhosos aos ângulos das costelas; na região lombar é espessa e tem três lâminas. A posterior recobre o eretor da espinha e os multífidos e fixa-se aos processos espinhosos e ao sacro. A média passa entre o eretor da espinha e o quadrado do lombo e fixa-se aos processos costais das vértebras lombares. A anterior reveste a face anterior do quadrado do lombo. As lâminas unem-se na margem lateral do eretor da espinha, formando a rafe lateral, onde se inserem o transverso do abdome e o oblíquo interno. Alguns autores descrevem apenas duas lâminas e consideram a anterior como fáscia do quadrado do lombo.",
+    "clinica": "É a peça de ligação entre o tronco, a pelve e os membros: a tensão produzida pelo transverso do abdome e pelo oblíquo interno (lateralmente), pelo latíssimo do dorso e pelo glúteo máximo do lado oposto (em diagonal) e pela expansão dos multífidos e do eretor da espinha (por dentro) enrijece a coluna lombar e comprime as articulações sacroilíacas, contribuindo para a estabilização lombopélvica e para a transferência de carga na marcha e ao levantar pesos. É ricamente inervada por terminações nervosas livres e pode ser fonte de dor lombar; estudos de ultrassonografia mostram que, na lombalgia crônica, ela é mais espessa e suas camadas deslizam menos."
+  },
+  {
+    "key": "Posterior layer of thoracolumbar fascia",
+    "pt": "Lâmina posterior da fáscia toracolombar",
+    "latim": "Lamina posterior fasciae thoracolumbalis",
+    "resumo": "Lâmina mais superficial e mais forte da fáscia toracolombar, que recobre posteriormente o eretor da espinha e os multífidos. Fixa-se aos processos espinhosos lombares e sacrais, ao ligamento supraespinal, à crista ilíaca e à espinha ilíaca posterossuperior, e continua-se inferiormente com o ligamento sacrotuberal. Tem uma camada superficial, formada principalmente pela aponeurose do latíssimo do dorso e do serrátil posterior inferior, e uma camada profunda, que envolve os músculos paravertebrais. As fibras das duas camadas cruzam-se em treliça.",
+    "clinica": "As fibras cruzam a linha mediana em direção ao glúteo máximo do lado oposto, formando a cadeia oblíqua posterior (latíssimo do dorso, fáscia toracolombar e glúteo máximo contralateral), que estabiliza a articulação sacroilíaca e transmite forças entre o membro superior e o inferior na marcha, na corrida e nos arremessos."
+  },
+  {
+    "key": "Middle layer of thoracolumbar fascia",
+    "pt": "Lâmina média da fáscia toracolombar",
+    "latim": "Lamina media fasciae thoracolumbalis",
+    "resumo": "Lâmina aponeurótica forte situada entre o eretor da espinha, posteriormente, e o quadrado do lombo, anteriormente. Fixa-se medialmente às extremidades dos processos costais (transversos) das vértebras lombares e aos ligamentos intertransversários, superiormente à 12ª costela e inferiormente à crista ilíaca e ao ligamento iliolombar. Lateralmente continua-se com a aponeurose de origem do transverso do abdome.",
+    "clinica": "É a principal via pela qual a contração do transverso do abdome traciona os processos costais lombares e aumenta a rigidez segmentar da coluna. Nas fraturas por avulsão dos processos costais lombares, essa tração participa do mecanismo de lesão."
+  },
+  {
+    "key": "Anterior layer of thoracolumbar fascia",
+    "pt": "Lâmina anterior da fáscia toracolombar (fáscia do quadrado do lombo)",
+    "latim": "Lamina anterior fasciae thoracolumbalis",
+    "resumo": "Lâmina fina que reveste a face anterior do músculo quadrado do lombo, considerada parte da fáscia endoabdominal. Fixa-se medialmente à face anterior dos processos costais lombares, inferiormente ao ligamento iliolombar e à crista ilíaca e, superiormente, espessa-se entre o processo costal de L1 e a 12ª costela, formando o ligamento arqueado lateral, do qual se originam fibras do diafragma. Lateralmente une-se à lâmina média.",
+    "clinica": "Separa o quadrado do lombo da gordura pararrenal e do rim. O ligamento arqueado lateral liga funcionalmente o quadrado do lombo ao diafragma. Os bloqueios anestésicos do quadrado do lombo são feitos nos planos fasciais ao redor desse músculo."
+  }
+]

@@ -1,0 +1,441 @@
+[
+ {
+  "key": "Lungs",
+  "pt": "Pulmões",
+  "latim": "Pulmones",
+  "resumo": "Órgãos da respiração, situados nas cavidades pleurais, de cada lado do mediastino. Cada pulmão tem um ápice, uma base (face diafragmática), faces costal e mediastinal e o hilo, por onde passam brônquio principal, artéria e veias pulmonares. O pulmão direito tem três lobos e o esquerdo, dois. Cada lobo divide-se em segmentos broncopulmonares, unidades supridas por um brônquio segmentar e um ramo da artéria pulmonar, onde ocorre a hematose nos alvéolos.",
+  "clinica": "Na superfície, a margem inferior do pulmão cruza a 6ª costela na linha medioclavicular, a 8ª na linha axilar média e a 10ª junto à coluna, em respiração tranquila; a pleura parietal desce cerca de duas costelas a mais (8ª, 10ª e 12ª). Conhecer a projeção de lobos e segmentos orienta a ausculta, a drenagem postural e as técnicas de reexpansão pulmonar."
+ },
+ {
+  "key": "Right lung",
+  "pt": "Pulmão direito",
+  "latim": "Pulmo dexter",
+  "resumo": "Maior, mais largo e um pouco mais curto que o esquerdo (a cúpula direita do diafragma é mais alta por causa do fígado). Possui três lobos — superior, médio e inferior — separados pelas fissuras oblíqua e horizontal, e dez segmentos broncopulmonares: 3 no lobo superior (apical, posterior, anterior), 2 no médio (lateral, medial) e 5 no inferior (superior e basilares medial, anterior, lateral e posterior).",
+  "clinica": "Como o brônquio principal direito é mais calibroso e vertical, material aspirado tende a ir para o pulmão direito. O lobo médio projeta-se apenas na face anterior do tórax (entre a 4ª e a 6ª costelas), por isso deve ser auscultado pela frente."
+ },
+ {
+  "key": "Left lung",
+  "pt": "Pulmão esquerdo",
+  "latim": "Pulmo sinister",
+  "resumo": "Mais estreito e longo que o direito, pois o coração se projeta para a esquerda. Possui dois lobos — superior e inferior — separados pela fissura oblíqua. O lobo superior apresenta a incisura cardíaca e a língula, que corresponde ao lobo médio do lado direito. Descrevem-se de 8 a 10 segmentos, pois os segmentos apical e posterior costumam fundir-se (apicoposterior) e, com frequência, os basilares anterior e medial (anteromedial).",
+  "clinica": "A face mediastinal apresenta a impressão cardíaca e sulcos para o arco da aorta e a aorta descendente. Na ausculta, o lobo inferior ocupa quase toda a face posterior do tórax; o lobo superior predomina na face anterior."
+ },
+ {
+  "key": "Superior lobe of right lung",
+  "pt": "Lobo superior do pulmão direito",
+  "latim": "Lobus superior pulmonis dextri",
+  "resumo": "Lobo situado acima da fissura horizontal (na frente) e da fissura oblíqua (atrás). Contém os segmentos apical (SI), posterior (SII) e anterior (SIII), ventilados pelo brônquio lobar superior direito.",
+  "clinica": "O segmento posterior é local frequente de pneumonia aspirativa em pacientes que aspiram em decúbito dorsal. Na drenagem postural clássica, os segmentos apicais são drenados com o paciente sentado, e os segmentos anterior e posterior com variações de decúbito."
+ },
+ {
+  "key": "Middle lobe of right lung",
+  "pt": "Lobo médio do pulmão direito",
+  "latim": "Lobus medius pulmonis dextri",
+  "resumo": "Lobo em forma de cunha, situado entre a fissura horizontal (acima) e a fissura oblíqua (abaixo e atrás). Contém os segmentos lateral (SIV) e medial (SV). Projeta-se na parede anterior do tórax, à direita do esterno, aproximadamente entre a 4ª e a 6ª cartilagens costais.",
+  "clinica": "O brônquio lobar médio é relativamente estreito e longo e pode ser comprimido por linfonodos vizinhos, favorecendo atelectasia crônica (síndrome do lobo médio). Deve ser auscultado na face anterior ou lateral do tórax."
+ },
+ {
+  "key": "Inferior lobe of right lung",
+  "pt": "Lobo inferior do pulmão direito",
+  "latim": "Lobus inferior pulmonis dextri",
+  "resumo": "Lobo situado abaixo e atrás da fissura oblíqua; apoia-se sobre o diafragma. Contém o segmento superior (SVI) e os quatro segmentos basilares: medial (SVII), anterior (SVIII), lateral (SIX) e posterior (SX).",
+  "clinica": "Os segmentos basilares são os mais sujeitos a acúmulo de secreção e atelectasia em pacientes acamados e no pós-operatório de cirurgias abdominais e torácicas, e os mais atingidos por aspiração em posição sentada ou em pé. O segmento superior é atingido na aspiração em decúbito dorsal. A ausculta das bases é feita na região posterior do tórax, abaixo da escápula."
+ },
+ {
+  "key": "Superior lobe of left lung",
+  "pt": "Lobo superior do pulmão esquerdo",
+  "latim": "Lobus superior pulmonis sinistri",
+  "resumo": "Lobo situado acima e à frente da fissura oblíqua. Contém os segmentos apicoposterior (SI+SII), anterior (SIII) e os segmentos lingulares superior (SIV) e inferior (SV). Sua margem anterior apresenta a incisura cardíaca.",
+  "clinica": "Ocupa quase toda a face anterior do hemitórax esquerdo. A língula comporta-se funcionalmente como o lobo médio direito e é drenada em posição semelhante, com o paciente girado para a direita."
+ },
+ {
+  "key": "Lingula of left lung",
+  "pt": "Língula do pulmão esquerdo",
+  "latim": "Lingula pulmonis sinistri",
+  "resumo": "Prolongamento em forma de língua da parte anteroinferior do lobo superior esquerdo, abaixo da incisura cardíaca. É formada pelos segmentos lingulares superior e inferior e equivale, do ponto de vista do desenvolvimento, ao lobo médio do pulmão direito."
+ },
+ {
+  "key": "Inferior lobe of left lung",
+  "pt": "Lobo inferior do pulmão esquerdo",
+  "latim": "Lobus inferior pulmonis sinistri",
+  "resumo": "Lobo situado abaixo e atrás da fissura oblíqua, apoiado sobre a cúpula esquerda do diafragma. Contém o segmento superior (SVI) e os segmentos basilares medial (SVII), anterior (SVIII), lateral (SIX) e posterior (SX); os basilares medial e anterior frequentemente formam um único segmento anteromedial.",
+  "clinica": "Atelectasia do lobo inferior esquerdo é frequente no pós-operatório de cirurgia cardíaca. Como no lado direito, as bases são auscultadas na região posterior do tórax."
+ },
+ {
+  "key": "Oblique fissure of right lung",
+  "pt": "Fissura oblíqua do pulmão direito",
+  "latim": "Fissura obliqua pulmonis dextri",
+  "resumo": "Fenda profunda que separa o lobo inferior dos lobos superior e médio do pulmão direito. Na superfície, segue aproximadamente uma linha que vai do processo espinhoso de T2–T3, atrás, cruza a 5ª costela na linha axilar média e termina na 6ª junção costocondral, na frente.",
+  "clinica": "A projeção das fissuras permite deduzir qual lobo está sob o estetoscópio. Com o braço em abdução completa, a margem medial da escápula acompanha aproximadamente a fissura oblíqua."
+ },
+ {
+  "key": "Oblique fissure of left lung",
+  "pt": "Fissura oblíqua do pulmão esquerdo",
+  "latim": "Fissura obliqua pulmonis sinistri",
+  "resumo": "Única fissura do pulmão esquerdo; separa o lobo superior do inferior. Tem trajeto semelhante ao da fissura oblíqua direita: do nível de T2–T3, atrás, até a 6ª junção costocondral, na frente."
+ },
+ {
+  "key": "Horizontal fissure of right lung",
+  "pt": "Fissura horizontal do pulmão direito",
+  "latim": "Fissura horizontalis pulmonis dextri",
+  "resumo": "Fissura exclusiva do pulmão direito, que separa o lobo superior do lobo médio. Parte da fissura oblíqua na linha axilar média e segue para a frente acompanhando a 4ª costela e a 4ª cartilagem costal até o esterno.",
+  "clinica": "Com frequência é incompleta. Acima dela, na face anterior, ausculta-se o lobo superior; abaixo, o lobo médio."
+ },
+ {
+  "key": "Apex of lung",
+  "pt": "Ápice do pulmão",
+  "latim": "Apex pulmonis",
+  "resumo": "Extremidade superior arredondada do pulmão, recoberta pela cúpula da pleura. Ultrapassa a abertura superior do tórax e projeta-se na raiz do pescoço, cerca de 2 a 3 cm acima do terço medial da clavícula.",
+  "clinica": "Por estar acima da clavícula, pode ser lesado em ferimentos e punções na base do pescoço (pneumotórax). Tumores do ápice (tumor de Pancoast) podem comprometer o plexo braquial inferior e o tronco simpático, causando dor no membro superior e síndrome de Horner."
+ },
+ {
+  "key": "Hilum of lung",
+  "pt": "Hilo do pulmão",
+  "latim": "Hilum pulmonis",
+  "resumo": "Área da face mediastinal por onde entram e saem as estruturas que formam a raiz do pulmão: brônquio principal, artéria pulmonar, duas veias pulmonares, vasos bronquiais, nervos e linfáticos. Em geral, as veias pulmonares ocupam as posições mais anterior e inferior e o brônquio fica posterior; a artéria pulmonar é superior no pulmão esquerdo e anterior ao brônquio no direito."
+ },
+ {
+  "key": "Pleura",
+  "pt": "Pleura",
+  "latim": "Pleura",
+  "resumo": "Membrana serosa que reveste cada pulmão (pleura visceral) e a parede da cavidade torácica, o diafragma e o mediastino (pleura parietal). Entre as duas há a cavidade pleural, espaço virtual com uma fina camada de líquido que permite o deslizamento do pulmão e mantém pressão subatmosférica, acoplando o pulmão à parede torácica. Nos recessos costodiafragmáticos, a pleura parietal não é ocupada pelo pulmão na respiração tranquila.",
+  "clinica": "A pleura parietal é sensível à dor (nervos intercostais e frênico); a visceral, não. Dor pleurítica piora com a inspiração profunda e a irritação da pleura diafragmática pode ser referida no ombro (C3–C5). Ar (pneumotórax) ou líquido (derrame pleural) na cavidade desacoplam o pulmão da parede e reduzem a expansibilidade; o líquido acumula-se primeiro no recesso costodiafragmático."
+ },
+ {
+  "key": "Trachea",
+  "pt": "Traqueia",
+  "latim": "Trachea",
+  "resumo": "Tubo fibrocartilagíneo com cerca de 10 a 12 cm, que continua a laringe a partir da margem inferior da cartilagem cricóidea (C6) e termina dividindo-se nos brônquios principais ao nível do ângulo do esterno (T4–T5). É mantida aberta por 16 a 20 cartilagens em forma de C, cuja abertura posterior é fechada pelo músculo traqueal, em contato com o esôfago. No ponto de bifurcação há uma crista interna, a carina.",
+  "clinica": "A mucosa da carina é muito sensível e desencadeia o reflexo de tosse — o que se observa durante a aspiração traqueal. A traqueostomia é feita em geral entre o 2º e o 4º anéis traqueais. O transporte mucociliar da traqueia e dos brônquios é a base fisiológica das técnicas de higiene brônquica."
+ },
+ {
+  "key": "Bronchi",
+  "pt": "Brônquios",
+  "latim": "Bronchi",
+  "resumo": "Vias aéreas de condução que se ramificam a partir da traqueia: brônquios principais (um para cada pulmão), brônquios lobares (três à direita, dois à esquerda) e brônquios segmentares (um para cada segmento broncopulmonar), que continuam se dividindo até os bronquíolos. Têm cartilagem na parede, epitélio ciliado e glândulas produtoras de muco.",
+  "clinica": "Cada segmento broncopulmonar tem seu próprio brônquio, com direção característica. A drenagem postural clássica posiciona o paciente de modo que o brônquio do segmento a ser drenado fique verticalizado, usando a gravidade para deslocar a secreção em direção às vias aéreas centrais."
+ },
+ {
+  "key": "Right main bronchus",
+  "pt": "Brônquio principal direito",
+  "latim": "Bronchus principalis dexter",
+  "resumo": "Ramo direito da bifurcação da traqueia. É mais curto (cerca de 2,5 cm), mais calibroso e mais vertical que o esquerdo. Dá origem ao brônquio lobar superior direito antes de entrar no hilo e continua como brônquio intermédio, que se divide nos brônquios lobares médio e inferior.",
+  "clinica": "Por ser quase uma continuação da traqueia, corpos estranhos e material aspirado entram com mais frequência no pulmão direito. Na intubação seletiva acidental, o tubo costuma alojar-se no brônquio direito, deixando o pulmão esquerdo sem ventilação (murmúrio vesicular abolido à esquerda)."
+ },
+ {
+  "key": "Left main bronchus",
+  "pt": "Brônquio principal esquerdo",
+  "latim": "Bronchus principalis sinister",
+  "resumo": "Ramo esquerdo da bifurcação da traqueia. É mais longo (cerca de 5 cm), mais estreito e mais horizontal que o direito. Passa sob o arco da aorta e à frente do esôfago e da aorta descendente antes de alcançar o hilo, onde se divide nos brônquios lobares superior e inferior esquerdos.",
+  "clinica": "Seu trajeto mais horizontal dificulta a entrada de sondas de aspiração às cegas, que tendem a seguir para o lado direito."
+ },
+ {
+  "key": "Right superior lobar bronchus",
+  "pt": "Brônquio lobar superior direito",
+  "latim": "Bronchus lobaris superior dexter",
+  "resumo": "Primeiro ramo do brônquio principal direito; origina-se acima da artéria pulmonar direita (por isso é chamado brônquio epiarterial). Divide-se nos brônquios segmentares apical (BI), posterior (BII) e anterior (BIII)."
+ },
+ {
+  "key": "Intermediate bronchus",
+  "pt": "Brônquio intermédio",
+  "latim": "Bronchus intermedius",
+  "resumo": "Segmento do brônquio principal direito compreendido entre a origem do brônquio lobar superior e a divisão em brônquios lobares médio e inferior. Só existe no lado direito."
+ },
+ {
+  "key": "Middle lobar bronchus",
+  "pt": "Brônquio lobar médio",
+  "latim": "Bronchus lobaris medius",
+  "resumo": "Ramo do brônquio intermédio dirigido para a frente e para baixo, que ventila o lobo médio do pulmão direito. Divide-se nos brônquios segmentares lateral (BIV) e medial (BV).",
+  "clinica": "É estreito e cercado por linfonodos; a compressão ou obstrução por secreção favorece a atelectasia do lobo médio."
+ },
+ {
+  "key": "Right inferior lobar bronchus",
+  "pt": "Brônquio lobar inferior direito",
+  "latim": "Bronchus lobaris inferior dexter",
+  "resumo": "Continuação do brônquio intermédio para o lobo inferior direito. Emite primeiro, para trás, o brônquio segmentar superior (BVI) e depois os brônquios segmentares basilares medial (BVII), anterior (BVIII), lateral (BIX) e posterior (BX).",
+  "clinica": "O brônquio do segmento superior dirige-se diretamente para trás; por isso, em decúbito dorsal, é o caminho preferencial do material aspirado."
+ },
+ {
+  "key": "Left superior lobar bronchus",
+  "pt": "Brônquio lobar superior esquerdo",
+  "latim": "Bronchus lobaris superior sinister",
+  "resumo": "Ramo do brônquio principal esquerdo para o lobo superior. Divide-se em uma parte superior, que origina os brônquios segmentares apicoposterior (BI+BII) e anterior (BIII), e uma parte lingular, que origina os brônquios lingulares superior (BIV) e inferior (BV)."
+ },
+ {
+  "key": "Left inferior lobar bronchus",
+  "pt": "Brônquio lobar inferior esquerdo",
+  "latim": "Bronchus lobaris inferior sinister",
+  "resumo": "Ramo do brônquio principal esquerdo para o lobo inferior. Origina o brônquio segmentar superior (BVI) e os brônquios segmentares basilares (BVII a BX); os basilares medial e anterior frequentemente saem por um tronco comum (anteromedial)."
+ },
+ {
+  "key": "Larynx",
+  "pt": "Laringe",
+  "latim": "Larynx",
+  "resumo": "Órgão da fonação e esfíncter protetor da via aérea inferior, situado na parte anterior do pescoço, ao nível de C3 a C6, entre a faringe e a traqueia. Seu esqueleto é formado pelas cartilagens tireóidea, cricóidea e epiglótica (ímpares) e aritenóideas, corniculadas e cuneiformes (pares). Contém as pregas vocais, cuja abertura entre si é a rima da glote. Os músculos intrínsecos são inervados pelo nervo vago: o cricotireóideo pelo ramo externo do nervo laríngeo superior e todos os demais pelo nervo laríngeo recorrente.",
+  "clinica": "O fechamento da glote é indispensável para a fase compressiva da tosse e para proteger a via aérea na deglutição. Lesão do nervo laríngeo recorrente (cirurgias de tireoide, cardíacas ou torácicas) causa rouquidão e tosse ineficaz. A cânula de traqueostomia e o tubo orotraqueal impedem o fechamento glótico, reduzindo a eficácia da tosse."
+ },
+ {
+  "key": "Epiglottis",
+  "pt": "Epiglote",
+  "latim": "Epiglottis",
+  "resumo": "Cartilagem elástica em forma de folha, revestida de mucosa, situada atrás da raiz da língua e do osso hioide, à frente do ádito da laringe. Na deglutição, a laringe se eleva e a epiglote inclina-se para trás, ajudando a desviar o bolo alimentar da via aérea.",
+  "clinica": "Falhas na elevação da laringe e na proteção da via aérea (por exemplo, após AVE) levam a disfagia e risco de pneumonia aspirativa."
+ },
+ {
+  "key": "Pharynx",
+  "pt": "Faringe",
+  "latim": "Pharynx",
+  "resumo": "Tubo musculomembranáceo comum às vias respiratória e digestória, que se estende da base do crânio até a margem inferior da cartilagem cricóidea (C6), onde continua como esôfago. Divide-se em parte nasal (nasofaringe), parte oral (orofaringe) e parte laríngea (laringofaringe). Sua parede tem os músculos constritores superior, médio e inferior e músculos longitudinais, inervados principalmente pelo nervo vago através do plexo faríngeo (o estilofaríngeo é inervado pelo glossofaríngeo).",
+  "clinica": "A perda de tônus dos músculos da faringe durante o sono contribui para a apneia obstrutiva. A fase faríngea da deglutição é reflexa e depende dos nervos glossofaríngeo e vago."
+ },
+ {
+  "key": "Nasopharynx",
+  "pt": "Parte nasal da faringe (nasofaringe)",
+  "latim": "Pars nasalis pharyngis",
+  "resumo": "Parte superior da faringe, atrás da cavidade nasal e acima do palato mole. Tem função exclusivamente respiratória. Em sua parede lateral abre-se a tuba auditiva e, no teto e na parede posterior, está a tonsila faríngea.",
+  "clinica": "A hipertrofia da tonsila faríngea (adenoide) em crianças obstrui a passagem de ar e leva à respiração oral."
+ },
+ {
+  "key": "Oropharynx",
+  "pt": "Parte oral da faringe (orofaringe)",
+  "latim": "Pars oralis pharyngis",
+  "resumo": "Parte média da faringe, atrás da cavidade oral, entre o palato mole e a margem superior da epiglote. Dá passagem ao ar e ao alimento. Nas paredes laterais, entre os arcos palatoglosso e palatofaríngeo, ficam as tonsilas palatinas."
+ },
+ {
+  "key": "Laryngopharynx",
+  "pt": "Parte laríngea da faringe (laringofaringe)",
+  "latim": "Pars laryngea pharyngis",
+  "resumo": "Parte inferior da faringe, atrás da laringe, da margem superior da epiglote até a margem inferior da cartilagem cricóidea, onde continua como esôfago. De cada lado do ádito da laringe há um recesso piriforme, por onde escoa o alimento na deglutição.",
+  "clinica": "Resíduos alimentares podem acumular-se nos recessos piriformes em pacientes com disfagia e ser aspirados depois da deglutição."
+ },
+ {
+  "key": "Mucosa of nasal cavity",
+  "pt": "Túnica mucosa da cavidade nasal",
+  "latim": "Tunica mucosa nasi",
+  "resumo": "Revestimento da cavidade nasal. A maior parte é mucosa respiratória, com epitélio ciliado, glândulas e rica rede vascular, que aquece, umidifica e filtra o ar inspirado; no teto da cavidade há a mucosa olfatória. As conchas nasais aumentam a área de contato do ar com a mucosa.",
+  "clinica": "Quando a via aérea superior é desviada por tubo orotraqueal ou traqueostomia, perde-se esse condicionamento do ar, sendo necessária umidificação artificial para evitar o ressecamento das secreções."
+ },
+ {
+  "key": "Soft palate",
+  "pt": "Palato mole",
+  "latim": "Palatum molle",
+  "resumo": "Parte posterior, muscular e móvel do palato, que termina na úvula. Durante a deglutição e a fala eleva-se e fecha a comunicação entre a nasofaringe e a orofaringe. Seus músculos são inervados pelo nervo vago (plexo faríngeo), com exceção do tensor do véu palatino, inervado pelo nervo mandibular (V3).",
+  "clinica": "Na lesão unilateral do nervo vago, o palato do lado afetado não se eleva e a úvula desvia para o lado são."
+ },
+ {
+  "key": "Tongue",
+  "pt": "Língua",
+  "latim": "Lingua",
+  "resumo": "Órgão muscular da cavidade oral, envolvido na mastigação, deglutição, fala e gustação. Os músculos intrínsecos e extrínsecos são inervados pelo nervo hipoglosso (XII), exceto o palatoglosso (vago). Nos dois terços anteriores, a sensibilidade geral é do nervo lingual (V3) e a gustação da corda do tímpano (VII); no terço posterior, ambas são do nervo glossofaríngeo (IX).",
+  "clinica": "Na lesão do nervo hipoglosso, a língua, ao ser protraída, desvia para o lado da lesão. No paciente inconsciente em decúbito dorsal, a queda da língua para trás pode obstruir a via aérea."
+ },
+ {
+  "key": "Parotid gland",
+  "pt": "Glândula parótida",
+  "latim": "Glandula parotidea",
+  "resumo": "Maior glândula salivar, situada à frente e abaixo da orelha, entre o ramo da mandíbula e o músculo esternocleidomastóideo. Seu ducto cruza o masseter, perfura o bucinador e abre-se no vestíbulo da boca, em frente ao segundo dente molar superior. É atravessada pelo nervo facial, que se divide em seus ramos terminais dentro dela. A inervação secretora parassimpática vem do nervo glossofaríngeo.",
+  "clinica": "Tumores e cirurgias da parótida podem lesar o nervo facial e causar paralisia facial periférica."
+ },
+ {
+  "key": "Submandibular gland",
+  "pt": "Glândula submandibular",
+  "latim": "Glandula submandibularis",
+  "resumo": "Glândula salivar situada no trígono submandibular, contornando a margem posterior do músculo milo-hióideo. Seu ducto abre-se na carúncula sublingual, ao lado do frênulo da língua. A inervação secretora parassimpática vem do nervo facial (corda do tímpano)."
+ },
+ {
+  "key": "Sublingual gland",
+  "pt": "Glândula sublingual",
+  "latim": "Glandula sublingualis",
+  "resumo": "Menor das glândulas salivares maiores, situada no assoalho da boca, sob a mucosa, entre a mandíbula e o músculo genioglosso. Abre-se por vários pequenos ductos na prega sublingual. Inervação secretora parassimpática pelo nervo facial (corda do tímpano)."
+ },
+ {
+  "key": "Oesophagus",
+  "pt": "Esôfago",
+  "latim": "Oesophagus",
+  "resumo": "Tubo muscular com cerca de 25 cm que conduz o alimento da faringe (C6) ao estômago. Desce pelo pescoço e pelo mediastino atrás da traqueia e do coração, atravessa o diafragma no hiato esofágico (T10) e termina no óstio cárdico (T11). O terço superior tem músculo estriado, o inferior músculo liso e o médio, ambos.",
+  "clinica": "O refluxo gastroesofágico pode causar tosse crônica e microaspirações; por isso se evita a posição de cabeça baixa (Trendelenburg) logo após as refeições ou dieta enteral."
+ },
+ {
+  "key": "Stomach",
+  "pt": "Estômago",
+  "latim": "Gaster",
+  "resumo": "Parte dilatada do canal alimentar entre o esôfago e o duodeno, situada no epigástrio, na região umbilical e no hipocôndrio esquerdo. Divide-se em cárdia, fundo, corpo e parte pilórica (antro e canal pilórico), com curvaturas maior e menor. Armazena o alimento, mistura-o com o suco gástrico e inicia a digestão das proteínas.",
+  "clinica": "A distensão gástrica eleva o diafragma e pode limitar a expansão das bases pulmonares. A hérnia de hiato é a passagem de parte do estômago para o tórax pelo hiato esofágico."
+ },
+ {
+  "key": "Duodenum",
+  "pt": "Duodeno",
+  "latim": "Duodenum",
+  "resumo": "Primeira e mais curta parte do intestino delgado (cerca de 25 cm), em forma de C em torno da cabeça do pâncreas. Tem quatro partes: superior, descendente, horizontal (inferior) e ascendente; é retroperitoneal em sua maior parte. Na parte descendente, a papila maior do duodeno recebe o ducto colédoco e o ducto pancreático."
+ },
+ {
+  "key": "Jejunum",
+  "pt": "Jejuno",
+  "latim": "Jejunum",
+  "resumo": "Segunda parte do intestino delgado; inicia-se na flexura duodenojejunal e corresponde a aproximadamente os dois quintos proximais do intestino delgado mesentérico, continuando-se com o íleo. Ocupa sobretudo o quadrante superior esquerdo e é o principal local de absorção de nutrientes."
+ },
+ {
+  "key": "Ascending colon",
+  "pt": "Colo ascendente",
+  "latim": "Colon ascendens",
+  "resumo": "Parte do intestino grosso que sobe do ceco, pelo lado direito do abdome, até a flexura direita (hepática) do colo, sob o fígado. É secundariamente retroperitoneal. Absorve água e eletrólitos.",
+  "clinica": "A massagem abdominal para constipação segue o sentido do trânsito no colo: ascendente (direita), transverso e descendente (esquerda)."
+ },
+ {
+  "key": "Transverse colon",
+  "pt": "Colo transverso",
+  "latim": "Colon transversum",
+  "resumo": "Parte mais longa e móvel do intestino grosso; cruza o abdome da flexura direita (hepática) à flexura esquerda (esplênica) do colo, suspensa pelo mesocolo transverso. O omento maior prende-se a ela."
+ },
+ {
+  "key": "Descending colon",
+  "pt": "Colo descendente",
+  "latim": "Colon descendens",
+  "resumo": "Parte do intestino grosso que desce da flexura esquerda (esplênica) do colo, pelo lado esquerdo do abdome, até a fossa ilíaca esquerda, onde continua como colo sigmoide. É secundariamente retroperitoneal."
+ },
+ {
+  "key": "Sigmoid colon",
+  "pt": "Colo sigmoide",
+  "latim": "Colon sigmoideum",
+  "resumo": "Alça em forma de S que liga o colo descendente ao reto, na fossa ilíaca esquerda e na pelve. É intraperitoneal e móvel, suspensa pelo mesocolo sigmoide. Armazena as fezes antes da evacuação."
+ },
+ {
+  "key": "Vermiform appendix",
+  "pt": "Apêndice vermiforme",
+  "latim": "Appendix vermiformis",
+  "resumo": "Divertículo tubular estreito, rico em tecido linfoide, que se origina na parede posteromedial do ceco, abaixo da junção ileocecal. Sua posição é variável, sendo a retrocecal a mais comum.",
+  "clinica": "Na apendicite, a dor começa em geral na região periumbilical e depois localiza-se na fossa ilíaca direita, com sensibilidade máxima no ponto de McBurney (junção dos terços lateral e médio da linha entre a espinha ilíaca anterossuperior direita e o umbigo)."
+ },
+ {
+  "key": "Liver",
+  "pt": "Fígado",
+  "latim": "Hepar",
+  "resumo": "Maior glândula do corpo (cerca de 1,5 kg), situada no hipocôndrio direito e no epigástrio, logo abaixo do diafragma e protegida pelas costelas inferiores. Anatomicamente tem lobos direito, esquerdo, caudado e quadrado; funcionalmente divide-se em oito segmentos. Recebe sangue da veia porta e da artéria hepática própria. Produz a bile, metaboliza nutrientes e fármacos, armazena glicogênio e sintetiza proteínas plasmáticas, como albumina e fatores de coagulação.",
+  "clinica": "Move-se com o diafragma na respiração e sua margem inferior pode ser palpada sob a margem costal direita na inspiração profunda. A irritação da cápsula ou do diafragma adjacente pode causar dor referida no ombro direito."
+ },
+ {
+  "key": "Gallbladder",
+  "pt": "Vesícula biliar",
+  "latim": "Vesica biliaris",
+  "resumo": "Saco em forma de pera situado na fossa da vesícula biliar, na face visceral do fígado. Armazena e concentra a bile, liberando-a no duodeno pelos ductos cístico e colédoco após as refeições. Tem fundo, corpo, infundíbulo e colo.",
+  "clinica": "O fundo projeta-se junto à extremidade da 9ª cartilagem costal direita, na linha medioclavicular. Na colecistite, a dor localiza-se no hipocôndrio direito e pode irradiar para o ombro e a região escapular direitos."
+ },
+ {
+  "key": "Bile duct",
+  "pt": "Ducto colédoco",
+  "latim": "Ductus choledochus",
+  "resumo": "Ducto formado pela união do ducto hepático comum com o ducto cístico. Desce no omento menor, passa atrás da parte superior do duodeno e da cabeça do pâncreas e une-se ao ducto pancreático na ampola hepatopancreática, que se abre na papila maior do duodeno.",
+  "clinica": "Sua obstrução por cálculo ou por tumor da cabeça do pâncreas causa icterícia."
+ },
+ {
+  "key": "Pancreas",
+  "pt": "Pâncreas",
+  "latim": "Pancreas",
+  "resumo": "Glândula mista, retroperitoneal, disposta transversalmente na parede posterior do abdome, ao nível de L1–L2, atrás do estômago. Tem cabeça (envolvida pelo duodeno), colo, corpo e cauda (em direção ao hilo esplênico). A parte exócrina secreta o suco pancreático, levado ao duodeno pelo ducto pancreático; a parte endócrina (ilhotas pancreáticas) secreta insulina e glucagon.",
+  "clinica": "A dor de origem pancreática é sentida no epigástrio e costuma irradiar para o dorso. A deficiência de insulina causa o diabetes melito."
+ },
+ {
+  "key": "Greater omentum",
+  "pt": "Omento maior",
+  "latim": "Omentum majus",
+  "resumo": "Grande prega de peritônio, rica em gordura, que pende da curvatura maior do estômago como um avental sobre as alças intestinais e se fixa ao colo transverso. Pode deslocar-se e aderir a áreas inflamadas, ajudando a limitar a disseminação de infecções na cavidade peritoneal."
+ },
+ {
+  "key": "Kidney",
+  "pt": "Rim",
+  "latim": "Ren",
+  "resumo": "Órgão par, retroperitoneal, situado de cada lado da coluna vertebral, aproximadamente entre T12 e L3; o rim direito é um pouco mais baixo por causa do fígado. Filtra o sangue e produz a urina, regulando o volume e a composição dos líquidos corporais, o equilíbrio ácido-base e a pressão arterial; produz ainda eritropoetina e ativa a vitamina D. No hilo, na margem medial, entram a artéria renal e saem a veia renal e a pelve renal.",
+  "clinica": "A face posterior relaciona-se com o diafragma, a 12ª costela e os músculos psoas maior e quadrado do lombo; a dor renal é sentida na região lombar (ângulo costovertebral) e deve ser diferenciada da dor lombar musculoesquelética, que varia com movimento e postura."
+ },
+ {
+  "key": "Renal pelvis",
+  "pt": "Pelve renal",
+  "latim": "Pelvis renalis",
+  "resumo": "Dilatação em forma de funil formada pela união dos cálices renais maiores, situada no seio e no hilo do rim. Recolhe a urina e continua-se com o ureter."
+ },
+ {
+  "key": "Ureter",
+  "pt": "Ureter",
+  "latim": "Ureter",
+  "resumo": "Tubo muscular retroperitoneal, com 25 a 30 cm, que conduz a urina da pelve renal à bexiga por movimentos peristálticos. Apresenta três estreitamentos: na junção com a pelve renal, ao cruzar os vasos ilíacos na abertura superior da pelve e ao atravessar a parede da bexiga.",
+  "clinica": "Cálculos tendem a impactar nos estreitamentos, causando cólica com dor que irradia da região lombar para a região inguinal e os genitais."
+ },
+ {
+  "key": "Urinary bladder",
+  "pt": "Bexiga urinária",
+  "latim": "Vesica urinaria",
+  "resumo": "Órgão muscular oco que armazena a urina, situado na pelve menor, atrás da sínfise púbica, quando vazio. Sua parede é formada pelo músculo detrusor. A contração do detrusor na micção é promovida pelo parassimpático (nervos esplâncnicos pélvicos, S2–S4); o simpático (T11–L2) favorece o enchimento; o esfíncter externo da uretra, estriado e voluntário, é inervado pelo nervo pudendo (S2–S4).",
+  "clinica": "A continência depende também da sustentação dada pelos músculos do assoalho pélvico, alvo da fisioterapia pélvica. Lesões medulares acima do centro sacral da micção causam bexiga neurogênica hiper-reflexa; lesões do cone medular ou da cauda equina, bexiga flácida."
+ },
+ {
+  "key": "Urethra",
+  "pt": "Uretra",
+  "latim": "Urethra",
+  "resumo": "Canal que conduz a urina da bexiga ao meio externo. Na mulher é curta (cerca de 4 cm) e abre-se no vestíbulo da vagina; no homem é longa (cerca de 18 a 20 cm), com partes intramural, prostática, membranácea e esponjosa, e conduz também o sêmen.",
+  "clinica": "A uretra feminina curta favorece infecções urinárias. O esfíncter externo e os músculos do assoalho pélvico participam do mecanismo de continência."
+ },
+ {
+  "key": "Prostate",
+  "pt": "Próstata",
+  "latim": "Prostata",
+  "resumo": "Glândula acessória do sistema genital masculino, situada abaixo da bexiga, envolvendo a parte prostática da uretra, à frente do reto. Secreta parte do líquido seminal.",
+  "clinica": "A hiperplasia prostática benigna comprime a uretra e dificulta a micção. Após a prostatectomia pode ocorrer incontinência urinária, tratada com treinamento dos músculos do assoalho pélvico."
+ },
+ {
+  "key": "Testis",
+  "pt": "Testículo",
+  "latim": "Testis",
+  "resumo": "Gônada masculina, par, situada no escroto. Produz os espermatozoides nos túbulos seminíferos e o hormônio testosterona."
+ },
+ {
+  "key": "Epididymis",
+  "pt": "Epidídimo",
+  "latim": "Epididymis",
+  "resumo": "Estrutura alongada aplicada à margem posterior do testículo, formada por um ducto muito enovelado, com cabeça, corpo e cauda. Nele os espermatozoides amadurecem e são armazenados; continua-se com o ducto deferente."
+ },
+ {
+  "key": "Ductus deferens",
+  "pt": "Ducto deferente",
+  "latim": "Ductus deferens",
+  "resumo": "Ducto muscular que conduz os espermatozoides da cauda do epidídimo até o ducto ejaculatório. Sobe no funículo espermático, atravessa o canal inguinal e, na pelve, une-se ao ducto da glândula seminal atrás da bexiga."
+ },
+ {
+  "key": "Seminal gland",
+  "pt": "Glândula seminal (vesícula seminal)",
+  "latim": "Glandula seminalis",
+  "resumo": "Glândula par situada atrás da bexiga e acima da próstata. Produz a maior parte do líquido seminal; seu ducto une-se ao ducto deferente para formar o ducto ejaculatório."
+ },
+ {
+  "key": "Thyroid gland",
+  "pt": "Glândula tireoide",
+  "latim": "Glandula thyroidea",
+  "resumo": "Glândula endócrina situada na parte anterior do pescoço, ao nível de C5 a T1, com dois lobos unidos por um istmo que cruza o 2º e o 3º anéis traqueais. Produz os hormônios tireoidianos (T3 e T4), que regulam o metabolismo, e a calcitonina.",
+  "clinica": "Move-se para cima com a laringe na deglutição, o que ajuda a identificá-la à palpação. Os nervos laríngeos recorrentes passam atrás de seus lobos e podem ser lesados em tireoidectomias."
+ },
+ {
+  "key": "Superior parathyroid gland",
+  "pt": "Glândula paratireoide superior",
+  "latim": "Glandula parathyroidea superior",
+  "resumo": "Pequena glândula endócrina situada na face posterior do lobo da tireoide. Em geral há quatro glândulas paratireoides (duas superiores e duas inferiores). Secretam o paratormônio, que eleva a concentração de cálcio no sangue.",
+  "clinica": "A retirada inadvertida das paratireoides em tireoidectomias causa hipocalcemia, com parestesias, cãibras e tetania."
+ },
+ {
+  "key": "Suprarenal gland",
+  "pt": "Glândula suprarrenal",
+  "latim": "Glandula suprarenalis",
+  "resumo": "Glândula endócrina par, retroperitoneal, situada sobre o polo superior de cada rim. O córtex produz glicocorticoides (cortisol), mineralocorticoides (aldosterona) e androgênios; a medula produz adrenalina e noradrenalina sob comando simpático."
+ },
+ {
+  "key": "Hypophysis",
+  "pt": "Hipófise",
+  "latim": "Hypophysis; Glandula pituitaria",
+  "resumo": "Glândula endócrina situada na fossa hipofisial da sela turca do osso esfenoide, ligada ao hipotálamo pelo infundíbulo. A adeno-hipófise secreta GH, prolactina, TSH, ACTH, FSH e LH sob controle de hormônios hipotalâmicos; a neuro-hipófise libera ADH (vasopressina) e ocitocina, produzidos no hipotálamo.",
+  "clinica": "Tumores da hipófise podem comprimir o quiasma óptico, logo acima, causando hemianopsia bitemporal."
+ },
+ {
+  "key": "Pineal gland",
+  "pt": "Glândula pineal",
+  "latim": "Glandula pinealis",
+  "resumo": "Pequena glândula endócrina do epitálamo, situada na linha mediana, atrás do terceiro ventrículo e acima dos colículos superiores. Secreta melatonina, sobretudo no escuro, participando da regulação do ritmo circadiano e do sono."
+ }
+]

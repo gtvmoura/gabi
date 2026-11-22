@@ -1,0 +1,166 @@
+[
+  {
+    "key": "Median nerve",
+    "pt": "Nervo mediano",
+    "raizes": "C6, C7, C8, T1 (C5 de forma inconstante)",
+    "origem": "União da raiz lateral (fascículo lateral, C6–C7) com a raiz medial (fascículo medial, C8–T1), à frente da artéria axilar.",
+    "trajeto": "No braço desce junto à artéria braquial, primeiro lateral a ela e, na metade do braço, cruzando para o lado medial; não emite ramos no braço. Na fossa cubital fica medial à artéria braquial e ao tendão do bíceps, sob a aponeurose bicipital. Entra no antebraço entre as duas cabeças do pronador redondo, passa sob o arco tendíneo do flexor superficial dos dedos e desce entre o flexor superficial e o flexor profundo dos dedos. No punho torna-se superficial, entre os tendões do flexor radial do carpo e do palmar longo, e atravessa o túnel do carpo, profundamente ao retináculo dos flexores, para se dividir na palma.",
+    "motor": "Antebraço (ramos diretos): pronador redondo, flexor radial do carpo, palmar longo e flexor superficial dos dedos.\n\nAntebraço (nervo interósseo anterior): flexor longo do polegar, metade lateral do flexor profundo dos dedos (indicador e dedo médio) e pronador quadrado.\n\nMão: ramo recorrente (tenar) para abdutor curto do polegar, oponente do polegar e cabeça superficial do flexor curto do polegar; ramos digitais para o 1º e o 2º lumbricais.",
+    "sensitivo": "Ramo palmar: pele da eminência tenar e da parte central da palma (nasce antes do túnel do carpo e passa por fora dele). Nervos digitais palmares: face palmar do polegar, indicador, dedo médio e metade lateral do anular, além do dorso das falanges distais desses dedos (leitos ungueais).",
+    "lesao": "Síndrome do túnel do carpo (neuropatia compressiva mais comum): parestesia e dor nos três dedos e meio laterais, pior à noite e em atividades com o punho fletido; sinais de Tinel e Phalen e teste de compressão do carpo positivos; em casos avançados, atrofia da eminência tenar e fraqueza da abdução e da oposição do polegar. A sensibilidade da eminência tenar fica preservada (ramo palmar não passa pelo túnel).\n\nSíndrome do pronador redondo: compressão entre as cabeças do pronador redondo ou sob o arco do flexor superficial dos dedos; dor na face anterior do antebraço que piora com pronação resistida, parestesia que inclui a eminência tenar, sem piora noturna típica.\n\nLesão alta (fratura supracondilar do úmero, ferimentos no braço ou cotovelo): perda da pronação, fraqueza da flexão do punho com desvio ulnar, incapacidade de fletir o polegar e as articulações interfalângicas do indicador e do dedo médio — ao tentar fechar a mão surge a “mão em bênção” (mão do pregador). Polegar aduzido e sem oposição, com atrofia tenar: “mão simiesca”.",
+    "resumo": "Nervo dos flexores e pronadores do antebraço e dos músculos tenares (C6–T1). Atravessa o túnel do carpo, local da neuropatia compressiva mais comum do corpo."
+  },
+  {
+    "key": "Muscular branches of median nerve",
+    "pt": "Ramos musculares do nervo mediano",
+    "raizes": "C6–T1",
+    "resumo": "Saem do nervo mediano na fossa cubital e no antebraço proximal para os músculos pronador redondo, flexor radial do carpo, palmar longo e flexor superficial dos dedos. Na mão, o ramo recorrente (tenar) inerva abdutor curto do polegar, oponente do polegar e cabeça superficial do flexor curto do polegar."
+  },
+  {
+    "key": "Anterior interosseous nerve of forearm",
+    "pt": "Nervo interósseo anterior do antebraço",
+    "raizes": "C8, T1 (C7)",
+    "origem": "Ramo do nervo mediano, emitido logo após sua passagem entre as cabeças do pronador redondo.",
+    "trajeto": "Desce sobre a face anterior da membrana interóssea, entre o flexor longo do polegar e o flexor profundo dos dedos, acompanhado pela artéria interóssea anterior. Passa profundamente ao pronador quadrado e termina na cápsula do punho.",
+    "motor": "Flexor longo do polegar, metade lateral do flexor profundo dos dedos (indicador e dedo médio) e pronador quadrado.",
+    "sensitivo": "Não tem território cutâneo; ramos articulares para as articulações radiocarpal, radioulnar distal e do carpo.",
+    "lesao": "Síndrome do interósseo anterior (Kiloh-Nevin): compressão por bandas fibrosas do pronador redondo ou do flexor superficial dos dedos, fraturas do antebraço ou neurite. Dor na face anterior do antebraço proximal e fraqueza puramente motora: incapacidade de fletir a interfalângica do polegar e a interfalângica distal do indicador. O paciente não consegue fazer o “OK” em círculo — a pinça fica achatada, polpa com polpa (sinal da pinça). Fraqueza da pronação com o cotovelo fletido (pronador quadrado). Não há perda de sensibilidade cutânea.",
+    "resumo": "Ramo motor profundo do mediano: inerva flexor longo do polegar, flexor profundo dos dedos (2º e 3º) e pronador quadrado. Sua lesão impede o sinal de “OK”, sem perda sensitiva."
+  },
+  {
+    "key": "Palmar branch of median nerve",
+    "pt": "Ramo palmar do nervo mediano",
+    "resumo": "Ramo cutâneo que nasce no antebraço distal, alguns centímetros acima do punho, e passa superficialmente ao retináculo dos flexores (fora do túnel do carpo). Inerva a pele da eminência tenar e da parte central da palma; por isso essa área fica preservada na síndrome do túnel do carpo."
+  },
+  {
+    "key": "Common palmar digital branches of median nerve",
+    "pt": "Nervos digitais palmares comuns do nervo mediano",
+    "resumo": "Ramos terminais do mediano na palma, profundamente à aponeurose palmar e ao arco palmar superficial. Inervam o 1º e o 2º lumbricais e dividem-se nos nervos digitais palmares próprios para o polegar, indicador, dedo médio e metade lateral do anular."
+  },
+  {
+    "key": "Proper palmar digital branches of median nerve",
+    "pt": "Nervos digitais palmares próprios do nervo mediano",
+    "resumo": "Percorrem as bordas dos dedos junto às artérias digitais. Inervam a pele palmar do polegar, indicador, dedo médio e metade lateral do anular, e também o dorso das falanges distais e os leitos ungueais desses dedos."
+  },
+  {
+    "key": "(Communicating branch of median nerve with ulnar nerve)",
+    "pt": "(Ramo comunicante do nervo mediano com o nervo ulnar)",
+    "resumo": "Conexão inconstante entre os nervos mediano e ulnar (os parênteses indicam variação anatômica). No antebraço é chamada anastomose de Martin-Gruber, pela qual fibras motoras do mediano passam ao ulnar; na palma há a comunicação entre os nervos digitais comuns (anastomose de Berrettini), de fibras sensitivas. Essas comunicações explicam quadros clínicos atípicos, como preservação de músculos intrínsecos da mão em lesões do ulnar ou do mediano."
+  },
+  {
+    "key": "Ulnar nerve",
+    "pt": "Nervo ulnar",
+    "sinonimos": ["nervo cubital"],
+    "raizes": "C8, T1 (frequentemente também C7)",
+    "origem": "Ramo terminal do fascículo medial do plexo braquial.",
+    "trajeto": "Desce medialmente à artéria braquial até a metade do braço, onde perfura o septo intermuscular medial e passa ao compartimento posterior. Contorna por trás o epicôndilo medial do úmero, no sulco do nervo ulnar (túnel cubital), onde é superficial e palpável. Entra no antebraço entre as duas cabeças do flexor ulnar do carpo e desce sobre o flexor profundo dos dedos, coberto pelo flexor ulnar do carpo, acompanhado pela artéria ulnar na metade distal. No punho passa superficialmente ao retináculo dos flexores, lateral ao pisiforme, pelo canal ulnar (de Guyon), e divide-se em ramo superficial e ramo profundo. Não emite ramos no braço.",
+    "motor": "Antebraço: flexor ulnar do carpo e metade medial do flexor profundo dos dedos (anular e mínimo).\n\nMão (ramo superficial): palmar curto.\n\nMão (ramo profundo): abdutor do dedo mínimo, flexor curto do dedo mínimo, oponente do dedo mínimo, 3º e 4º lumbricais, todos os interósseos palmares e dorsais, adutor do polegar e cabeça profunda do flexor curto do polegar.",
+    "sensitivo": "Pele da borda medial da mão, face palmar e dorsal, dedo mínimo e metade medial do anular (ramo palmar, ramo dorsal e nervos digitais do ramo superficial).",
+    "lesao": "Cotovelo (local mais comum): síndrome do túnel cubital, fratura do epicôndilo medial, apoio prolongado sobre o cotovelo ou flexão mantida. Parestesia no dedo mínimo e na metade medial do anular, fraqueza e atrofia dos interósseos (sulcos entre os metacarpais, primeiro espaço interósseo deprimido) e da eminência hipotenar.\n\nPunho: compressão no canal de Guyon (ciclistas, apoio sobre a região hipotenar, cisto sinovial, fratura do hâmulo do hamato). A sensibilidade do dorso da mão fica preservada, pois o ramo dorsal nasce acima do punho.\n\nSinais: mão em garra ulnar (hiperextensão das metacarpofalângicas e flexão das interfalângicas do 4º e 5º dedos, por perda dos lumbricais mediais e interósseos); a garra é mais evidente na lesão no punho do que na lesão no cotovelo, porque nesta o flexor profundo dos dedos também está paralisado (paradoxo ulnar). Sinal de Froment (flexão da interfalângica do polegar ao segurar um papel, compensando o adutor do polegar), sinal de Wartenberg (dedo mínimo permanece abduzido), incapacidade de abduzir e aduzir os dedos e de cruzar os dedos.",
+    "resumo": "Nervo da maior parte dos músculos intrínsecos da mão (C8–T1). Passa atrás do epicôndilo medial e pelo canal de Guyon; sua lesão causa mão em garra e sinal de Froment."
+  },
+  {
+    "key": "Muscular branches of ulnar nerve",
+    "pt": "Ramos musculares do nervo ulnar",
+    "raizes": "C7, C8, T1",
+    "resumo": "Emitidos logo abaixo do cotovelo para o flexor ulnar do carpo e para a metade medial do flexor profundo dos dedos (tendões do anular e do mínimo). São os únicos músculos do antebraço inervados pelo nervo ulnar."
+  },
+  {
+    "key": "Palmar branch of ulnar nerve",
+    "pt": "Ramo palmar do nervo ulnar",
+    "resumo": "Ramo cutâneo que nasce na metade do antebraço, desce junto à artéria ulnar e perfura a fáscia acima do punho. Inerva a pele da parte medial da palma, sobre a eminência hipotenar."
+  },
+  {
+    "key": "Dorsal branch of ulnar nerve",
+    "pt": "Ramo dorsal do nervo ulnar",
+    "resumo": "Nasce cerca de 5 cm acima do punho, passa sob o tendão do flexor ulnar do carpo e contorna a ulna para o dorso. Inerva a pele da metade medial do dorso da mão e origina os nervos digitais dorsais. Como sai antes do canal de Guyon, a sensibilidade dorsal fica preservada nas compressões do ulnar no punho."
+  },
+  {
+    "key": "Dorsal digital branches of ulnar nerve",
+    "pt": "Nervos digitais dorsais do nervo ulnar",
+    "resumo": "Ramos terminais do ramo dorsal do nervo ulnar. Inervam a pele do dorso do dedo mínimo e da metade medial do anular, até aproximadamente a falange média (o território pode se estender à metade medial do dedo médio)."
+  },
+  {
+    "key": "Superficial branch of ulnar nerve",
+    "pt": "Ramo superficial do nervo ulnar",
+    "resumo": "Um dos dois ramos terminais do ulnar no canal de Guyon. Inerva o músculo palmar curto e, pelos nervos digitais palmares, a pele palmar do dedo mínimo e da metade medial do anular."
+  },
+  {
+    "key": "Common palmar digital branches of ulnar nerve",
+    "pt": "Nervos digitais palmares comuns do nervo ulnar",
+    "resumo": "Ramo do ramo superficial do ulnar que se dirige ao quarto espaço interdigital e se divide em nervos digitais palmares próprios para os lados adjacentes do anular e do mínimo. Comunica-se com o nervo mediano na palma."
+  },
+  {
+    "key": "Proper palmar digital branches of ulnar nerve",
+    "pt": "Nervos digitais palmares próprios do nervo ulnar",
+    "resumo": "Inervam a pele palmar do dedo mínimo (ambos os lados) e do lado medial do anular, além do dorso das falanges distais desses dedos."
+  },
+  {
+    "key": "Deep branch of ulnar nerve",
+    "pt": "Ramo profundo do nervo ulnar",
+    "raizes": "C8, T1",
+    "origem": "Ramo terminal do nervo ulnar no canal de Guyon.",
+    "trajeto": "Passa entre o abdutor e o flexor curto do dedo mínimo, perfura o oponente do dedo mínimo, contorna o hâmulo do hamato e cruza a palma profundamente aos tendões flexores, acompanhando o arco palmar profundo, até terminar no adutor do polegar e no primeiro interósseo dorsal.",
+    "motor": "Abdutor, flexor curto e oponente do dedo mínimo; 3º e 4º lumbricais; interósseos palmares e dorsais; adutor do polegar; cabeça profunda do flexor curto do polegar.",
+    "sensitivo": "Não tem território cutâneo; ramos articulares para o carpo.",
+    "lesao": "Compressão no canal de Guyon ou junto ao hâmulo do hamato (ciclistas, uso de ferramentas apoiadas na palma, cisto sinovial). Quadro motor puro: atrofia dos interósseos e do adutor do polegar, garra ulnar, sinais de Froment e de Wartenberg, com sensibilidade preservada.",
+    "resumo": "Ramo motor do ulnar na mão: inerva os hipotenares, interósseos, lumbricais mediais e adutor do polegar — os músculos da preensão fina e de força."
+  },
+  {
+    "key": "Radial nerve",
+    "pt": "Nervo radial",
+    "raizes": "C5, C6, C7, C8, T1",
+    "origem": "Ramo terminal (o maior) do fascículo posterior do plexo braquial.",
+    "trajeto": "Desce atrás da artéria axilar, passa pelo intervalo triangular (hiato do tríceps) junto com a artéria braquial profunda e percorre o sulco do nervo radial, na face posterior da diáfise do úmero, entre as cabeças lateral e medial do tríceps. No terço distal do braço perfura o septo intermuscular lateral e passa à frente do epicôndilo lateral, entre o braquial e o braquiorradial. Na fossa cubital divide-se em ramo superficial (sensitivo) e ramo profundo (motor), que atravessa o supinador e continua como nervo interósseo posterior.",
+    "motor": "Braço: tríceps braquial, ancôneo, braquiorradial e extensor radial longo do carpo (e um pequeno ramo para a parte lateral do braquial).\n\nRamo profundo: extensor radial curto do carpo e supinador.\n\nNervo interósseo posterior: extensor dos dedos, extensor do dedo mínimo, extensor ulnar do carpo, abdutor longo do polegar, extensor curto do polegar, extensor longo do polegar e extensor do indicador.",
+    "sensitivo": "Face posterior do braço (nervo cutâneo posterior do braço), face lateral inferior do braço (nervo cutâneo lateral inferior do braço), face posterior do antebraço (nervo cutâneo posterior do antebraço) e, pelo ramo superficial, dorso lateral da mão e dorso do polegar, indicador, dedo médio (e metade do anular) até a articulação interfalângica proximal. A área de inervação exclusiva é pequena: dorso do primeiro espaço interósseo.",
+    "lesao": "Axila (muletas axilares, braço pendente sobre o encosto da cadeira): perda também do tríceps — fraqueza da extensão do cotovelo, reflexo tricipital abolido, mão caída e perda sensitiva na face posterior do braço e do antebraço.\n\nSulco do nervo radial (fratura da diáfise do úmero, “paralisia do sábado à noite”, compressão por garrote): tríceps em geral preservado; mão caída (punho caído) por paralisia dos extensores do punho e dos dedos, incapacidade de estender as metacarpofalângicas e o polegar, fraqueza da supinação e da flexão do cotovelo em posição neutra (braquiorradial), reflexo braquiorradial diminuído e hipoestesia no dorso do primeiro espaço interósseo. A preensão fica fraca porque o punho não é estabilizado em extensão.\n\nAntebraço proximal: ver nervo interósseo posterior (quadro motor sem perda sensitiva) e ramo superficial (quadro sensitivo puro).",
+    "resumo": "Nervo de todos os extensores do membro superior (C5–T1). Percorre o sulco radial do úmero, onde é lesado em fraturas da diáfise, causando a mão caída."
+  },
+  {
+    "key": "Muscular branches of radial nerve",
+    "pt": "Ramos musculares do nervo radial",
+    "raizes": "C5–C8",
+    "resumo": "Ramos emitidos no braço: para as três cabeças do tríceps braquial e o ancôneo (saem antes ou no início do sulco radial, por isso costumam ser poupados nas fraturas da diáfise do úmero) e, acima do cotovelo, para o braquiorradial e o extensor radial longo do carpo."
+  },
+  {
+    "key": "Inferior lateral brachial cutaneous nerve",
+    "pt": "Nervo cutâneo lateral inferior do braço",
+    "raizes": "C5, C6",
+    "resumo": "Ramo do nervo radial que nasce no sulco radial, perfura a cabeça lateral do tríceps abaixo da inserção do deltoide e inerva a pele da face lateral da metade inferior do braço."
+  },
+  {
+    "key": "Posterior antebrachial cutaneous nerve",
+    "pt": "Nervo cutâneo posterior do antebraço",
+    "raizes": "C5–C8",
+    "resumo": "Ramo do nervo radial que nasce no sulco radial, perfura a cabeça lateral do tríceps e desce pela face posterior do antebraço, inervando a pele dessa região até o punho."
+  },
+  {
+    "key": "Superficial branch of radial nerve",
+    "pt": "Ramo superficial do nervo radial",
+    "raizes": "C6, C7, C8",
+    "resumo": "Ramo terminal sensitivo do radial. Desce sob o braquiorradial, lateral à artéria radial, emerge entre os tendões do braquiorradial e do extensor radial longo do carpo no terço distal do antebraço e cruza a tabaqueira anatômica. Inerva o dorso lateral da mão e dos dedos laterais. Sua compressão no antebraço distal (pulseira, relógio, algemas, gesso apertado) causa dor e parestesia no dorso do polegar sem fraqueza: síndrome de Wartenberg (cheiralgia parestésica)."
+  },
+  {
+    "key": "Dorsal digital branches of radial nerve",
+    "pt": "Nervos digitais dorsais do nervo radial",
+    "resumo": "Ramos terminais do ramo superficial do radial. Inervam a pele do dorso do polegar, do indicador, do dedo médio e da metade lateral do anular até a altura da articulação interfalângica proximal; o dorso das falanges distais pertence ao nervo mediano."
+  },
+  {
+    "key": "Deep branch of radial nerve",
+    "pt": "Ramo profundo do nervo radial",
+    "raizes": "C7, C8 (C6)",
+    "resumo": "Ramo terminal motor do radial, originado à frente do epicôndilo lateral. Inerva o extensor radial curto do carpo e o supinador, contorna o colo do rádio atravessando o supinador (sob a arcada de Frohse, ponto de compressão) e, ao sair dele no compartimento posterior, passa a se chamar nervo interósseo posterior."
+  },
+  {
+    "key": "Posterior interosseous nerve of forearm",
+    "pt": "Nervo interósseo posterior do antebraço",
+    "raizes": "C7, C8",
+    "origem": "Continuação do ramo profundo do nervo radial após atravessar o músculo supinador.",
+    "trajeto": "Desce entre as camadas superficial e profunda dos extensores do antebraço, acompanhando a artéria interóssea posterior; no terço distal aprofunda-se sob o extensor longo do polegar, corre sobre a membrana interóssea e termina no dorso do carpo.",
+    "motor": "Extensor dos dedos, extensor do dedo mínimo, extensor ulnar do carpo, abdutor longo do polegar, extensor curto do polegar, extensor longo do polegar e extensor do indicador (o ramo profundo já inervou o extensor radial curto do carpo e o supinador).",
+    "sensitivo": "Não tem território cutâneo; ramos articulares para o punho e o carpo.",
+    "lesao": "Síndrome do interósseo posterior: compressão na arcada de Frohse (borda do supinador), por lipoma ou cisto, fratura-luxação da cabeça do rádio (Monteggia) ou movimentos repetidos de pronação e supinação. Fraqueza da extensão das metacarpofalângicas dos dedos e do polegar (“dedos caídos”) sem mão caída verdadeira: o punho ainda se estende, mas com desvio radial, pois o extensor radial longo do carpo está preservado e o extensor ulnar do carpo paralisado. Não há perda de sensibilidade.\n\nSíndrome do túnel radial: compressão no mesmo local com predomínio de dor na face lateral do antebraço proximal, sem fraqueza evidente; faz diagnóstico diferencial com a epicondilite lateral.",
+    "resumo": "Continuação motora do ramo profundo do radial: inerva os extensores dos dedos e do polegar. Sua lesão causa dedos caídos com extensão do punho preservada (em desvio radial) e sem perda sensitiva."
+  }
+]

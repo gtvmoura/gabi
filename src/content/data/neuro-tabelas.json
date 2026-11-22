@@ -1,0 +1,142 @@
+{
+  "dermatomos": [
+    { "nivel": "C2", "area": "Região occipital e parte posterior do couro cabeludo", "ponto": "Pelo menos 1 cm lateral à protuberância occipital externa (ou 3 cm atrás da orelha)" },
+    { "nivel": "C3", "area": "Face lateral e anterior do pescoço", "ponto": "Fossa supraclavicular, na linha medioclavicular" },
+    { "nivel": "C4", "area": "Parte superior do ombro (região da clavícula e do acrômio)", "ponto": "Sobre a articulação acromioclavicular" },
+    { "nivel": "C5", "area": "Face lateral do braço (região deltóidea até o cotovelo)", "ponto": "Face lateral (radial) da fossa cubital, logo acima do cotovelo" },
+    { "nivel": "C6", "area": "Face lateral do antebraço, polegar (e indicador)", "ponto": "Dorso da falange proximal do polegar" },
+    { "nivel": "C7", "area": "Dedo médio e parte central da mão", "ponto": "Dorso da falange proximal do dedo médio" },
+    { "nivel": "C8", "area": "Dedo mínimo, borda medial da mão e do antebraço distal", "ponto": "Dorso da falange proximal do dedo mínimo" },
+    { "nivel": "T1", "area": "Face medial do antebraço e do cotovelo", "ponto": "Face medial (ulnar) da fossa cubital, logo acima do epicôndilo medial" },
+    { "nivel": "T2", "area": "Face medial do braço e axila", "ponto": "Ápice da axila" },
+    { "nivel": "T3", "area": "Faixa torácica ao nível do 3º espaço intercostal", "ponto": "3º espaço intercostal, na linha medioclavicular" },
+    { "nivel": "T4", "area": "Faixa torácica ao nível dos mamilos", "ponto": "4º espaço intercostal (linha dos mamilos), na linha medioclavicular" },
+    { "nivel": "T5", "area": "Faixa torácica entre os mamilos e o processo xifoide", "ponto": "5º espaço intercostal, na linha medioclavicular" },
+    { "nivel": "T6", "area": "Faixa ao nível do processo xifoide", "ponto": "6º espaço intercostal (nível do processo xifoide), na linha medioclavicular" },
+    { "nivel": "T7", "area": "Faixa logo abaixo do processo xifoide (epigástrio)", "ponto": "7º espaço intercostal, na linha medioclavicular" },
+    { "nivel": "T8", "area": "Faixa abdominal superior, entre o xifoide e o umbigo", "ponto": "8º espaço intercostal, na linha medioclavicular" },
+    { "nivel": "T9", "area": "Faixa abdominal logo acima do umbigo", "ponto": "9º espaço intercostal, na linha medioclavicular" },
+    { "nivel": "T10", "area": "Faixa ao nível do umbigo", "ponto": "10º espaço intercostal (nível do umbigo), na linha medioclavicular" },
+    { "nivel": "T11", "area": "Faixa abdominal entre o umbigo e a região inguinal", "ponto": "11º espaço intercostal, entre os níveis de T10 e T12, na linha medioclavicular" },
+    { "nivel": "T12", "area": "Faixa logo acima do ligamento inguinal e região suprapúbica", "ponto": "Ponto médio do ligamento inguinal" },
+    { "nivel": "L1", "area": "Região inguinal e parte superior da face anterior da coxa", "ponto": "Meio caminho entre os pontos de T12 e L2" },
+    { "nivel": "L2", "area": "Face anterior e medial da parte média da coxa", "ponto": "Face anteromedial da coxa, no ponto médio entre o meio do ligamento inguinal e o côndilo medial do fêmur" },
+    { "nivel": "L3", "area": "Face anterior da parte distal da coxa e face medial do joelho", "ponto": "Côndilo medial do fêmur, acima do joelho" },
+    { "nivel": "L4", "area": "Face medial da perna e maléolo medial", "ponto": "Maléolo medial" },
+    { "nivel": "L5", "area": "Face anterolateral da perna, dorso do pé e hálux", "ponto": "Dorso do pé, sobre a 3ª articulação metatarsofalângica" },
+    { "nivel": "S1", "area": "Borda lateral do pé, dedo mínimo, calcanhar e face posterolateral da perna", "ponto": "Face lateral do calcâneo" },
+    { "nivel": "S2", "area": "Face posterior da coxa e fossa poplítea", "ponto": "Ponto médio da fossa poplítea" },
+    { "nivel": "S3", "area": "Parte medial da nádega e prega glútea", "ponto": "Túber isquiático ou prega infraglútea" },
+    { "nivel": "S4", "area": "Região perianal (anestesia em sela, junto com S3 e S5)", "ponto": "Região perianal, a menos de 1 cm da junção mucocutânea (testado junto com S5)" },
+    { "nivel": "S5", "area": "Pele ao redor do ânus", "ponto": "Região perianal, a menos de 1 cm da junção mucocutânea (testado junto com S4)" }
+  ],
+  "miotomos": [
+    { "nivel": "C1–C2", "movimento": "Flexão do pescoço", "musculos": "Reto anterior e reto lateral da cabeça, longo da cabeça, longo do pescoço, esternocleidomastóideo" },
+    { "nivel": "C3", "movimento": "Flexão lateral do pescoço", "musculos": "Escalenos, longo da cabeça, longo do pescoço, trapézio" },
+    { "nivel": "C4", "movimento": "Elevação dos ombros", "musculos": "Trapézio (parte descendente), levantador da escápula; diafragma (C3–C5)" },
+    { "nivel": "C5", "movimento": "Abdução do ombro; flexão do cotovelo (músculo-chave ASIA: flexores do cotovelo)", "musculos": "Deltoide, supraespinal, bíceps braquial, braquial" },
+    { "nivel": "C6", "movimento": "Extensão do punho (músculo-chave ASIA); flexão do cotovelo", "musculos": "Extensores radiais longo e curto do carpo, bíceps braquial, braquiorradial, supinador" },
+    { "nivel": "C7", "movimento": "Extensão do cotovelo (músculo-chave ASIA); flexão do punho", "musculos": "Tríceps braquial, flexor radial do carpo, extensor dos dedos" },
+    { "nivel": "C8", "movimento": "Flexão dos dedos — falange distal do dedo médio (músculo-chave ASIA); extensão do polegar; desvio ulnar", "musculos": "Flexor profundo dos dedos, flexor longo do polegar, extensor longo do polegar, flexor e extensor ulnar do carpo" },
+    { "nivel": "T1", "movimento": "Abdução e adução dos dedos (músculo-chave ASIA: abdutor do dedo mínimo)", "musculos": "Interósseos dorsais e palmares, abdutor do dedo mínimo, lumbricais" },
+    { "nivel": "T2–T12", "movimento": "Sem músculo-chave nos membros; avaliados pela mecânica respiratória e pelo controle de tronco (sinal de Beevor para T10)", "musculos": "Intercostais (T1–T11); músculos abdominais (T7–T12)" },
+    { "nivel": "L1–L2", "movimento": "Flexão do quadril (músculo-chave ASIA de L2)", "musculos": "Iliopsoas" },
+    { "nivel": "L3", "movimento": "Extensão do joelho (músculo-chave ASIA)", "musculos": "Quadríceps femoral; adutores da coxa (L2–L4)" },
+    { "nivel": "L4", "movimento": "Dorsiflexão do tornozelo (músculo-chave ASIA)", "musculos": "Tibial anterior" },
+    { "nivel": "L5", "movimento": "Extensão do hálux (músculo-chave ASIA); abdução do quadril", "musculos": "Extensor longo do hálux, extensor longo dos dedos, glúteo médio" },
+    { "nivel": "S1", "movimento": "Flexão plantar do tornozelo (músculo-chave ASIA); eversão do pé; extensão do quadril", "musculos": "Gastrocnêmio, sóleo, fibulares longo e curto, glúteo máximo" },
+    { "nivel": "S2", "movimento": "Flexão do joelho; flexão dos dedos do pé", "musculos": "Isquiotibiais (L5–S2), flexor longo dos dedos, flexor longo do hálux, intrínsecos do pé" },
+    { "nivel": "S3–S4", "movimento": "Controle dos esfíncteres; contração voluntária anal (testada na classificação ASIA)", "musculos": "Esfíncter externo do ânus, músculos do assoalho pélvico, bexiga (parassimpático S2–S4)" }
+  ],
+  "reflexos": [
+    { "reflexo": "Bicipital", "nivel": "C5–C6 (principalmente C5)", "nervo": "Musculocutâneo", "como": "Paciente com o cotovelo semifletido e relaxado, antebraço apoiado. O examinador coloca o polegar sobre o tendão do bíceps na fossa cubital e percute o próprio polegar. Resposta: contração do bíceps com flexão do cotovelo." },
+    { "reflexo": "Braquiorradial (estilorradial)", "nivel": "C5–C6 (principalmente C6)", "nervo": "Radial", "como": "Antebraço apoiado em posição neutra, cotovelo semifletido. Percutir o tendão do braquiorradial na parte distal do rádio, 2–5 cm acima do processo estiloide. Resposta: flexão do cotovelo e leve supinação." },
+    { "reflexo": "Tricipital", "nivel": "C7 (C6–C8)", "nervo": "Radial", "como": "Sustentar o braço do paciente em abdução, com o antebraço pendente e o cotovelo a 90°. Percutir o tendão do tríceps logo acima do olécrano. Resposta: extensão do cotovelo." },
+    { "reflexo": "Flexores dos dedos", "nivel": "C8 (C7–T1)", "nervo": "Mediano e ulnar", "como": "Mão do paciente relaxada, dedos semifletidos. O examinador apoia seus dedos sobre a face palmar dos dedos do paciente e percute os próprios dedos. Resposta: flexão dos dedos. Em geral discreto; exaltado nas lesões do neurônio motor superior." },
+    { "reflexo": "Patelar", "nivel": "L2–L4 (principalmente L4)", "nervo": "Femoral", "como": "Paciente sentado com as pernas pendentes (ou em decúbito dorsal com o joelho semifletido e apoiado). Percutir o ligamento da patela, entre a patela e a tuberosidade da tíbia. Resposta: contração do quadríceps com extensão do joelho. A manobra de Jendrassik (entrelaçar e tracionar as mãos) facilita a resposta." },
+    { "reflexo": "Isquiotibiais mediais", "nivel": "L5 (L5–S1)", "nervo": "Isquiático (componente tibial)", "como": "Paciente em decúbito ventral com o joelho levemente fletido. O examinador coloca o polegar sobre o tendão do semitendíneo e do semimembranáceo, na parte medial da fossa poplítea, e percute o polegar. Resposta: flexão do joelho. É o reflexo mais usado para avaliar L5." },
+    { "reflexo": "Aquileu (do tendão do calcâneo)", "nivel": "S1 (S1–S2)", "nervo": "Tibial", "como": "Paciente ajoelhado sobre uma cadeira, sentado com as pernas pendentes ou em decúbito ventral com os pés para fora da maca. Manter leve dorsiflexão passiva e percutir o tendão do calcâneo. Resposta: flexão plantar." },
+    { "reflexo": "Cutâneo-abdominais (superficiais)", "nivel": "Superior T7–T9; médio T9–T11; inferior T11–T12", "nervo": "Intercostais (toracoabdominais) e subcostal", "como": "Paciente em decúbito dorsal, abdome relaxado. Estimular a pele de lateral para medial, em cada quadrante, com um objeto de ponta romba. Resposta: contração dos músculos abdominais com desvio do umbigo para o lado estimulado. Abolidos nas lesões do neurônio motor superior." },
+    { "reflexo": "Cremastérico (superficial)", "nivel": "L1–L2", "nervo": "Genitofemoral (aferência também pelo ilioinguinal)", "como": "Estimular a pele da face medial superior da coxa. Resposta: elevação do testículo do mesmo lado por contração do músculo cremaster." },
+    { "reflexo": "Cutâneo-plantar", "nivel": "L5–S2 (principalmente S1)", "nervo": "Tibial", "como": "Estimular a borda lateral da planta do pé, do calcanhar em direção à base dos dedos, curvando medialmente sob as cabeças dos metatarsais. Resposta normal: flexão dos dedos. Resposta patológica (sinal de Babinski): extensão do hálux com abertura em leque dos demais dedos, indicando lesão do trato corticospinal (neurônio motor superior); é normal em lactentes." },
+    { "reflexo": "Bulbocavernoso", "nivel": "S2–S4", "nervo": "Pudendo", "como": "Comprimir a glande ou o clitóris (ou tracionar levemente a sonda vesical) e observar ou palpar a contração do esfíncter externo do ânus. Seu retorno marca o fim do choque medular após uma lesão medular." },
+    { "reflexo": "Anal (cutâneo-anal)", "nivel": "S2–S4", "nervo": "Pudendo (nervo retal inferior)", "como": "Estimular a pele perianal com objeto de ponta romba. Resposta: contração do esfíncter externo do ânus. Avalia a integridade dos segmentos sacrais." },
+    { "reflexo": "Mandibular (massetérico)", "nivel": "Ponte (nervo trigêmeo, V)", "nervo": "Trigêmeo (aferência e eferência pelo nervo mandibular)", "como": "Boca entreaberta e relaxada; o examinador apoia o dedo sobre o mento e percute de cima para baixo. Resposta: leve fechamento da boca. Exaltado nas lesões bilaterais do neurônio motor superior acima da ponte." },
+    { "reflexo": "Corneano", "nivel": "Ponte (nervos V e VII)", "nervo": "Aferência: trigêmeo (nervo oftálmico); eferência: facial", "como": "Tocar levemente a córnea com um filamento de algodão, aproximando-o lateralmente, fora do campo visual. Resposta: fechamento dos dois olhos (direto e consensual)." }
+  ],
+  "plexos": [
+    {
+      "nome": "Plexo cervical",
+      "raizes": "C1–C4",
+      "texto": "Formado pelos ramos anteriores de C1 a C4, que se unem em alças profundamente ao esternocleidomastóideo, à frente dos músculos levantador da escápula e escaleno médio.\n\nRamos cutâneos (superficiais): emergem todos na metade da borda posterior do esternocleidomastóideo, no ponto nervoso do pescoço — local usado para o bloqueio anestésico do plexo. São os nervos occipital menor, auricular magno, cervical transverso e supraclaviculares.\n\nRamos motores (profundos): a alça cervical inerva os músculos infra-hióideos; o nervo frênico é o nervo motor do diafragma; ramos segmentares inervam os músculos pré-vertebrais, os escalenos e o levantador da escápula.\n\nNervo frênico (C3, C4, C5 — principalmente C4): desce sobre a face anterior do escaleno anterior, entra no tórax entre a artéria e a veia subclávias, passa à frente da raiz do pulmão, entre o pericárdio e a pleura mediastinal, e chega ao diafragma. É o único nervo motor do diafragma e dá sensibilidade ao pericárdio, à pleura mediastinal e diafragmática e ao peritônio diafragmático. A irritação do diafragma causa dor referida no ombro (dermátomo C4). Lesões medulares acima de C3 causam dependência de ventilação mecânica; a lesão unilateral do nervo paralisa a hemicúpula diafragmática, que sobe e apresenta movimento paradoxal.\n\nMacete: “C3, C4 e C5 mantêm o diafragma vivo”.",
+      "ramos": [
+        "Nervo occipital menor (C2): pele atrás da orelha e parte lateral da região occipital",
+        "Nervo auricular magno (C2–C3): pele da orelha, da região parotídea e do ângulo da mandíbula",
+        "Nervo cervical transverso (C2–C3): pele da face anterior do pescoço",
+        "Nervos supraclaviculares (C3–C4): pele sobre a clavícula, a parte superior do tórax e o ombro",
+        "Alça cervical (C1–C3): esterno-hióideo, esternotireóideo e omo-hióideo; fibras de C1 que acompanham o nervo hipoglosso inervam tíreo-hióideo e gênio-hióideo",
+        "Nervo frênico (C3–C5): diafragma",
+        "Ramos musculares: reto anterior e reto lateral da cabeça, longo da cabeça e longo do pescoço, escalenos, levantador da escápula (C3–C4); ramos proprioceptivos para esternocleidomastóideo (C2–C3) e trapézio (C3–C4)"
+      ]
+    },
+    {
+      "nome": "Plexo braquial",
+      "raizes": "C5–T1",
+      "texto": "Formado pelos ramos anteriores de C5 a T1. Organiza-se em cinco níveis: Raízes, Troncos, Divisões, Fascículos e Ramos terminais.\n\nRaízes (5): C5, C6, C7, C8 e T1, entre os escalenos anterior e médio.\n\nTroncos (3), no trígono cervical posterior: superior (C5–C6), médio (C7) e inferior (C8–T1).\n\nDivisões (6), atrás da clavícula: cada tronco dá uma divisão anterior (para os músculos flexores, compartimentos anteriores) e uma posterior (para os extensores, compartimentos posteriores).\n\nFascículos (3), na axila, nomeados pela posição em relação à artéria axilar: lateral (divisões anteriores dos troncos superior e médio, C5–C7), medial (divisão anterior do tronco inferior, C8–T1) e posterior (as três divisões posteriores, C5–T1).\n\nRamos terminais (5): musculocutâneo (fascículo lateral), axilar e radial (fascículo posterior), ulnar (fascículo medial) e mediano (uma raiz do fascículo lateral e outra do medial, formando o “M” do plexo à frente da artéria axilar, junto com o musculocutâneo e o ulnar).\n\nParte supraclavicular: raízes e troncos, com seus ramos (dorsal da escápula, torácico longo, supraescapular e subclávio). Parte infraclavicular: fascículos e seus ramos.\n\nMacetes: a sequência 5–3–6–3–5 (raízes, troncos, divisões, fascículos, ramos terminais). Ramos do fascículo posterior: STAR (Subescapulares, Toracodorsal, Axilar, Radial). Ramos do fascículo medial: os que têm “medial” no nome (peitoral medial, cutâneo medial do braço, cutâneo medial do antebraço, raiz medial do mediano) mais o ulnar. Ramos do fascículo lateral: peitoral lateral, musculocutâneo e raiz lateral do mediano.\n\nLesões: tronco superior (Erb-Duchenne, C5–C6) — braço em adução e rotação medial, cotovelo estendido, antebraço pronado (“gorjeta de garçom”); tronco inferior (Klumpke, C8–T1) — mão em garra, perda sensitiva na borda ulnar, possível síndrome de Horner; síndrome do desfiladeiro torácico — compressão no hiato dos escalenos, no espaço costoclavicular ou sob o peitoral menor.",
+      "ramos": [
+        "Das raízes: nervo dorsal da escápula (C5) — romboides e levantador da escápula",
+        "Das raízes: nervo torácico longo (C5–C7) — serrátil anterior",
+        "Do tronco superior: nervo supraescapular (C5–C6) — supraespinal e infraespinal",
+        "Do tronco superior: nervo subclávio (C5–C6) — subclávio",
+        "Do fascículo lateral: nervo peitoral lateral (C5–C7) — peitoral maior",
+        "Do fascículo lateral: nervo musculocutâneo (C5–C7) — coracobraquial, bíceps braquial, braquial; pele lateral do antebraço",
+        "Do fascículo lateral: raiz lateral do nervo mediano (C6–C7)",
+        "Do fascículo medial: nervo peitoral medial (C8–T1) — peitoral menor e peitoral maior",
+        "Do fascículo medial: nervo cutâneo medial do braço (C8–T1)",
+        "Do fascículo medial: nervo cutâneo medial do antebraço (C8–T1)",
+        "Do fascículo medial: nervo ulnar (C8–T1, às vezes C7) — flexor ulnar do carpo, metade medial do flexor profundo dos dedos e maioria dos intrínsecos da mão",
+        "Do fascículo medial: raiz medial do nervo mediano (C8–T1)",
+        "Nervo mediano (C6–T1) — maioria dos flexores do antebraço, músculos tenares e 1º e 2º lumbricais",
+        "Do fascículo posterior: nervo subescapular superior (C5–C6) — subescapular",
+        "Do fascículo posterior: nervo toracodorsal (C6–C8) — latíssimo do dorso",
+        "Do fascículo posterior: nervo subescapular inferior (C5–C6) — subescapular e redondo maior",
+        "Do fascículo posterior: nervo axilar (C5–C6) — deltoide e redondo menor",
+        "Do fascículo posterior: nervo radial (C5–T1) — tríceps braquial e todos os extensores do antebraço"
+      ]
+    },
+    {
+      "nome": "Plexo lombar",
+      "raizes": "L1–L4 (com contribuição de T12)",
+      "texto": "Formado pelos ramos anteriores de L1 a L4, no interior do músculo psoas maior, à frente dos processos transversos lombares. Os ramos anteriores de L2 a L4 separam-se em divisões anteriores (que formam o nervo obturatório, para os adutores) e posteriores (que formam os nervos femoral e cutâneo femoral lateral).\n\nRelação com o psoas maior: pela borda lateral emergem, de cima para baixo, os nervos ílio-hipogástrico, ilioinguinal, cutâneo femoral lateral e femoral; pela face anterior, o genitofemoral; pela borda medial, o obturatório e o tronco lombossacral.\n\nO tronco lombossacral (parte de L4 e todo o L5) desce à pelve e une o plexo lombar ao plexo sacral, formando o plexo lombossacral.\n\nSaída da pelve: o femoral passa sob o ligamento inguinal, lateral à artéria femoral (de lateral para medial: Nervo, Artéria, Veia — NAV); o obturatório passa pelo canal obturatório; o cutâneo femoral lateral passa junto à espinha ilíaca anterossuperior, onde pode ser comprimido (meralgia parestésica).\n\nMacete das raízes: os dois primeiros ramos vêm de L1 (ílio-hipogástrico e ilioinguinal), o genitofemoral de L1–L2, o cutâneo femoral lateral de L2–L3 e os dois grandes nervos (femoral e obturatório) de L2–L4.",
+      "ramos": [
+        "Nervo ílio-hipogástrico (T12–L1): oblíquo interno e transverso do abdome; pele suprapúbica e glútea superolateral",
+        "Nervo ilioinguinal (L1): oblíquo interno e transverso do abdome; pele da região inguinal, parte medial superior da coxa e genitais externos anteriores",
+        "Nervo genitofemoral (L1–L2): cremaster (ramo genital); pele do trígono femoral (ramo femoral)",
+        "Nervo cutâneo femoral lateral (L2–L3): pele da face anterolateral da coxa",
+        "Nervo femoral (L2–L4): ilíaco, pectíneo, sartório e quadríceps femoral; pele anterior da coxa e medial da perna (nervo safeno)",
+        "Nervo obturatório (L2–L4): adutores longo, curto e magno, grácil e obturador externo; pele medial da coxa",
+        "Ramos musculares diretos: psoas maior e menor (L1–L3), quadrado do lombo (T12–L4)",
+        "Tronco lombossacral (L4–L5): une-se ao plexo sacral"
+      ]
+    },
+    {
+      "nome": "Plexo sacral",
+      "raizes": "L4–S4",
+      "texto": "Formado pelo tronco lombossacral (L4–L5) e pelos ramos anteriores de S1 a S4, sobre a face anterior do músculo piriforme, na parede posterior da pelve.\n\nO piriforme é a chave da região glútea: quase todos os ramos saem da pelve pelo forame isquiático maior. Acima do piriforme passam apenas o nervo e os vasos glúteos superiores. Abaixo do piriforme passam os nervos glúteo inferior, isquiático, cutâneo femoral posterior, pudendo, o nervo para o obturador interno e o nervo para o quadrado femoral. O nervo pudendo e o nervo para o obturador interno contornam a espinha isquiática e reentram pelo forame isquiático menor.\n\nNervo glúteo inferior (L5–S2): sai abaixo do piriforme e penetra na face profunda do glúteo máximo, seu único músculo. Sua lesão enfraquece a extensão do quadril contra resistência: dificuldade para levantar-se da cadeira, subir escadas e correr, com inclinação do tronco para trás na fase de apoio.\n\nO nervo isquiático (L4–S3) é o maior ramo; reúne os componentes tibial (divisões anteriores) e fibular comum (divisões posteriores), que se separam em geral no ápice da fossa poplítea.\n\nAs fibras parassimpáticas sacrais (S2–S4) formam os nervos esplâncnicos pélvicos, para a bexiga, o reto e os órgãos genitais.\n\nMacete: “S2, S3 e S4 mantêm as fezes fora do chão” (nervo pudendo e controle esfincteriano).",
+      "ramos": [
+        "Nervo glúteo superior (L4–S1): glúteo médio, glúteo mínimo e tensor da fáscia lata",
+        "Nervo glúteo inferior (L5–S2): glúteo máximo",
+        "Nervo isquiático (L4–S3): isquiotibiais e parte do adutor magno; pelos nervos tibial e fibular comum, toda a perna e o pé",
+        "Nervo tibial (L4–S3): compartimento posterior da perna e planta do pé",
+        "Nervo fibular comum (L4–S2): compartimentos lateral (fibular superficial) e anterior (fibular profundo) da perna",
+        "Nervo cutâneo femoral posterior (S1–S3): pele da nádega inferior, face posterior da coxa e períneo",
+        "Nervo pudendo (S2–S4): músculos do períneo, esfíncteres externos do ânus e da uretra; pele do períneo e dos genitais externos",
+        "Nervo para o músculo piriforme (S1–S2)",
+        "Nervo para o obturador interno (L5–S2): obturador interno e gêmeo superior",
+        "Nervo para o quadrado femoral (L4–S1): quadrado femoral e gêmeo inferior",
+        "Nervos para o levantador do ânus e o isquiococcígeo (S3–S4)",
+        "Nervos esplâncnicos pélvicos (S2–S4): fibras parassimpáticas para as vísceras pélvicas"
+      ]
+    }
+  ]
+}

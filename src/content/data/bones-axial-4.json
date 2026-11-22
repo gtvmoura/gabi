@@ -1,0 +1,379 @@
+[
+  {
+    "key": "Mandible",
+    "pt": "Mandíbula",
+    "latim": "Mandibula",
+    "tipo": "irregular",
+    "resumo": "Osso ímpar, em forma de ferradura, que forma o esqueleto do mento e da parte inferior da face. É o único osso móvel do crânio: articula-se com os temporais nas articulações temporomandibulares (ATM) e recebe os músculos da mastigação.",
+    "descricao": "A mandíbula tem um corpo horizontal, que sustenta os dentes inferiores, e dois ramos verticais; corpo e ramo encontram-se no ângulo da mandíbula. O corpo tem uma base (margem inferior) e uma parte alveolar, com os alvéolos dentais. Na face externa destacam-se a protuberância mentual, os tubérculos mentuais, o forame mentual e a linha oblíqua; na face interna, as espinhas genianas, a linha milo-hióidea, a fóvea sublingual, a fóvea submandibular e a fossa digástrica.\n\nCada ramo termina em dois processos separados pela incisura da mandíbula: o processo coronoide, anterior, onde se insere o músculo temporal, e o processo condilar, posterior, formado pela cabeça (côndilo) e pelo colo; na frente do colo, a fóvea pterigóidea recebe o pterigóideo lateral. Na face medial do ramo abre-se o forame da mandíbula, protegido pela língula (fixação do ligamento esfenomandibular), por onde entram o nervo e os vasos alveolares inferiores; o canal da mandíbula leva-os até os dentes e ao forame mentual. O masseter insere-se na face lateral do ramo e do ângulo, e o pterigóideo medial, na face medial do ângulo, formando juntos uma alça muscular que suspende a mandíbula.\n\nATM e movimento: a cabeça da mandíbula articula-se com a fossa mandibular e o tubérculo articular do temporal, com um disco articular fibrocartilagíneo que divide a articulação em dois compartimentos. No inferior (côndilo-disco) ocorre rotação, como uma dobradiça; no superior (disco-temporal), translação (deslizamento). Na abertura da boca, os primeiros 20 a 25 mm são principalmente rotação; depois o côndilo e o disco deslizam para a frente até o tubérculo articular. As duas articulações trabalham sempre juntas. Movimentos: depressão (abertura, de 40 a 50 mm entre os incisivos, o que equivale aproximadamente à largura de três dedos do próprio paciente), elevação (fechamento), protrusão, retrusão e lateralidade, em que o côndilo do lado oposto desliza para a frente enquanto o do mesmo lado gira.\n\nMúsculos: elevam a mandíbula o temporal, o masseter e o pterigóideo medial; protraem os pterigóideos laterais, auxiliados pelos mediais e pelo masseter superficial; retraem as fibras posteriores do temporal; abaixam os pterigóideos laterais com os músculos supra-hióideos (digástrico, milo-hióideo e gênio-hióideo) e a gravidade; a lateralidade resulta da ação do pterigóideo lateral e do medial de um lado com o temporal do outro. Todos os músculos da mastigação são inervados pelo nervo mandibular (V3).",
+    "articulacoes": [
+      "Temporomandibular (par) — cabeça da mandíbula com a fossa mandibular e o tubérculo articular do temporal, com disco articular; sinovial bicondilar (gínglimo-artrodial)",
+      "Gonfoses (articulações dentoalveolares) — com os dentes inferiores, pelo periodonto",
+      "Oclusão — contato funcional dos dentes inferiores com os superiores (não é articulação verdadeira, mas define a posição de fechamento da ATM)"
+    ],
+    "acidentes": [
+      { "key": "(Mandibular symphysis)", "pt": "(Sínfise da mandíbula)", "nota": "Linha mediana de fusão das duas metades da mandíbula, que se unem durante o primeiro ano de vida." },
+      { "key": "Base of mandible", "pt": "Base da mandíbula", "nota": "Margem inferior do corpo, espessa e arredondada, palpável do mento ao ângulo. A artéria facial cruza-a à frente do masseter, onde se sente seu pulso. Inserção do platisma." },
+      { "key": "Body of mandible", "pt": "Corpo da mandíbula", "nota": "Parte horizontal em ferradura; sustenta a parte alveolar com os dentes inferiores. Local frequente de fratura, sobretudo na região do canino e do forame mentual." },
+      { "key": "Digastric fossa", "pt": "Fossa digástrica", "nota": "Depressão na face interna da base, de cada lado da linha mediana; inserção do ventre anterior do músculo digástrico, abaixador da mandíbula." },
+      { "key": "Genion", "pt": "Gênio (ponto craniométrico)", "nota": "Ponto craniométrico situado no ápice das espinhas genianas, na face interna da sínfise." },
+      { "key": "Gnathion", "pt": "Gnátio (ponto craniométrico)", "nota": "Ponto craniométrico mediano mais anterior e inferior do contorno do mento, usado em cefalometria." },
+      { "key": "Inferior mental spine", "pt": "Espinha geniana inferior", "nota": "Na face interna da sínfise, abaixo da superior; origem do músculo gênio-hióideo, que eleva e traciona o hioide para a frente." },
+      { "key": "Mandibular dental arch", "pt": "Arco dental mandibular (inferior)", "nota": "Conjunto dos dentes inferiores, implantados na parte alveolar: no adulto, 16 dentes (4 incisivos, 2 caninos, 4 pré-molares e 6 molares)." },
+      { "key": "Mental foramen", "pt": "Forame mentual", "nota": "Na face externa do corpo, abaixo do segundo pré-molar. Dá saída ao nervo mentual (ramo terminal do nervo alveolar inferior, de V3) e aos vasos mentuais, para a pele do mento e o lábio inferior. Ponto doloroso à pressão." },
+      { "key": "Mental protuberance", "pt": "Protuberância mentual", "nota": "Elevação triangular mediana da face externa que forma o mento (queixo); palpável." },
+      { "key": "Mental tubercle", "pt": "Tubérculo mentual", "nota": "Saliência de cada lado da base da protuberância mentual." },
+      { "key": "Mylohyoid line", "pt": "Linha milo-hióidea", "nota": "Crista oblíqua na face interna do corpo. Origem do músculo milo-hióideo, que forma o assoalho da boca; em sua extremidade posterior fixam-se o constritor superior da faringe e a rafe pterigomandibular. Separa a fóvea sublingual (acima) da fóvea submandibular (abaixo)." },
+      { "key": "Oblique line of mandible", "pt": "Linha oblíqua da mandíbula", "nota": "Crista na face externa que vai do tubérculo mentual à margem anterior do ramo. Origem dos músculos abaixador do lábio inferior e abaixador do ângulo da boca; atrás, junto aos molares, do bucinador." },
+      { "key": "Sublingual fossa", "pt": "Fóvea sublingual", "nota": "Depressão na face interna do corpo, acima da parte anterior da linha milo-hióidea; aloja a glândula sublingual." },
+      { "key": "Superior mental spine", "pt": "Espinha geniana superior", "nota": "Na face interna da sínfise; origem do músculo genioglosso, que protrai a língua e mantém a via aérea aberta." }
+    ],
+    "palpacao": "Cabeça da mandíbula: à frente do trago, com abertura e fechamento da boca, ou com o dedo mínimo no meato acústico externo; compare os dois lados quanto a sincronia, estalidos e dor. Ângulo e ramo: abaixo e à frente do lóbulo da orelha; o masseter salta sobre o ramo ao apertar os dentes. Processo coronoide: sob o arco zigomático, com a boca aberta, ou por dentro da boca, junto ao tendão do temporal. Base da mandíbula e protuberância mentual: subcutâneas. Observe a trajetória da abertura: desvio em C para um lado sugere hipomobilidade desse lado; desvio em S sugere incoordenação muscular ou deslocamento de disco com redução. Meça a abertura com régua entre as bordas dos incisivos.",
+    "clinica": "Disfunção temporomandibular (DTM): conjunto de condições com dor na ATM e nos músculos da mastigação, estalidos, crepitação e limitação da abertura. No deslocamento anterior do disco com redução há estalido na abertura e no fechamento (estalido recíproco); sem redução, a abertura fica limitada (em torno de 25 a 30 mm), com desvio para o lado acometido (travamento fechado). Posição de repouso da ATM: boca levemente entreaberta, lábios em contato e dentes afastados; posição de aproximação máxima: dentes firmemente cerrados; padrão capsular: limitação da abertura da boca. Luxação: na abertura exagerada (bocejo) o côndilo ultrapassa o tubérculo articular e a boca fica travada aberta. Fraturas: a mandíbula costuma fraturar em dois pontos; os locais mais comuns são o colo do côndilo, o ângulo e o corpo. O bruxismo sobrecarrega masseter e temporal. A postura de anteriorização da cabeça altera a posição de repouso da mandíbula e a atividade dos músculos mastigatórios e hióideos, razão pela qual a avaliação da ATM inclui a coluna cervical."
+  },
+  {
+    "key": "Hyoid bone",
+    "pt": "Osso hioide",
+    "latim": "Os hyoideum",
+    "tipo": "irregular",
+    "resumo": "Osso ímpar em forma de U situado na parte anterior do pescoço, no nível de C3, entre a mandíbula e a laringe. Não se articula com nenhum outro osso: fica suspenso por músculos e ligamentos e serve de base móvel para a língua e de apoio para a laringe.",
+    "descricao": "O hioide tem um corpo, anterior, dois cornos maiores, que se projetam para trás, e dois cornos menores, pequenas pontas na junção do corpo com os cornos maiores. Está suspenso dos processos estiloides dos temporais pelos ligamentos estilo-hióideos e ligado à cartilagem tireóidea pela membrana tíreo-hióidea.\n\nNele se inserem os músculos supra-hióideos (digástrico, estilo-hióideo, milo-hióideo e gênio-hióideo), que o elevam na deglutição e, com o hioide fixo, abaixam a mandíbula; os músculos infra-hióideos (esterno-hióideo, omo-hióideo e tíreo-hióideo; o esternotireóideo atua indiretamente), que o abaixam e fixam; além do hioglosso e do genioglosso (língua) e do constritor médio da faringe. A elevação e a anteriorização do hioide e da laringe são eventos centrais da fase faríngea da deglutição, pois ajudam a fechar a via aérea e a abrir o esôfago.",
+    "articulacoes": [
+      "Não se articula com outros ossos",
+      "Ligamento estilo-hióideo — une o corno menor ao processo estiloide do temporal",
+      "Membrana tíreo-hióidea — une o hioide à cartilagem tireóidea"
+    ],
+    "acidentes": [
+      { "key": "Body of hyoid bone", "pt": "Corpo do osso hioide", "nota": "Parte anterior, quadrilátera. Inserção de gênio-hióideo, milo-hióideo, esterno-hióideo, omo-hióideo e fibras do genioglosso. Palpável na linha mediana, acima da cartilagem tireóidea." },
+      { "key": "Greater horn of hyoid bone", "pt": "Corno maior do osso hioide", "nota": "Projeta-se para trás a partir do corpo. Origem do hioglosso e do constritor médio da faringe; inserção do tíreo-hióideo e do estilo-hióideo (junto ao corpo); fixação da membrana tíreo-hióidea. Sua ponta é palpável à frente do esternocleidomastóideo e é a parte que mais fratura no estrangulamento." },
+      { "key": "Lesser horn of hyoid bone", "pt": "Corno menor do osso hioide", "nota": "Pequena projeção cônica na união do corpo com o corno maior; fixação do ligamento estilo-hióideo." }
+    ],
+    "palpacao": "Com o pescoço relaxado, em posição neutra, coloque o polegar e o indicador de cada lado do pescoço, logo acima da cartilagem tireóidea e abaixo da mandíbula, no ângulo entre o assoalho da boca e o pescoço: sente-se um arco ósseo firme que pode ser deslocado suavemente de um lado para o outro e que sobe durante a deglutição. Palpe com delicadeza e nunca dos dois lados com força ao mesmo tempo, pela proximidade das artérias carótidas.",
+    "clinica": "A elevação reduzida do hioide e da laringe é um achado frequente na disfagia orofaríngea (por exemplo, após acidente vascular cerebral); exercícios como o de Shaker visam fortalecer os músculos supra-hióideos. A posição do hioide muda com a postura da cabeça e do pescoço e influencia a mandíbula e a via aérea. Fratura do hioide é rara e sugere estrangulamento ou trauma direto no pescoço."
+  },
+  {
+    "key": "Maxilla",
+    "pt": "Maxila",
+    "latim": "Maxilla",
+    "tipo": "irregular (pneumático)",
+    "resumo": "Osso par que forma o esqueleto da parte média da face: sustenta os dentes superiores e participa do assoalho da órbita, da parede lateral da cavidade nasal e do palato duro. Contém o seio maxilar.",
+    "descricao": "Cada maxila tem um corpo, oco, que contém o seio maxilar (o maior dos seios paranasais), e quatro processos: frontal, que sobe ao lado do nariz; zigomático, que se une ao osso zigomático; alveolar, que aloja os dentes superiores; e palatino, que com o do lado oposto forma os dois terços anteriores do palato duro. Na face anterior, abaixo da margem da órbita, o forame infraorbital dá saída ao nervo infraorbital (ramo de V2) e aos vasos de mesmo nome. As duas maxilas unem-se na sutura intermaxilar; a falha de fusão dos processos palatinos origina a fenda palatina. As fraturas da face média são descritas pela classificação de Le Fort.",
+    "articulacoes": [
+      "Com a maxila oposta — sutura intermaxilar e sutura palatina mediana",
+      "Com o frontal e o etmoide",
+      "Com os ossos nasal, lacrimal, zigomático, palatino, vômer e concha nasal inferior",
+      "Gonfoses — com os dentes superiores"
+    ],
+    "acidentes": [
+      { "key": "Maxillary dental arch", "pt": "Arco dental maxilar (superior)", "nota": "Conjunto dos dentes superiores, implantados no processo alveolar: no adulto, 16 dentes. As raízes dos pré-molares e molares ficam muito próximas do assoalho do seio maxilar." }
+    ]
+  },
+  {
+    "key": "Zygomatic bone",
+    "pt": "Osso zigomático",
+    "latim": "Os zygomaticum",
+    "tipo": "irregular",
+    "sinonimos": ["osso malar"],
+    "resumo": "Osso par que forma a proeminência da bochecha (maçã do rosto) e parte da parede lateral e do assoalho da órbita.",
+    "descricao": "Tem três faces (lateral, orbital e temporal) e dois processos principais: o frontal, que sobe pela margem lateral da órbita, e o temporal, que se une ao processo zigomático do temporal para formar o arco zigomático. Do arco e do osso zigomático origina-se o músculo masseter; da face lateral, os músculos zigomáticos maior e menor. Sob o arco passa o tendão do músculo temporal em direção ao processo coronoide. É frequentemente fraturado em traumas da face.",
+    "articulacoes": [
+      "Com o frontal — sutura frontozigomática",
+      "Com a asa maior do esfenoide — sutura esfenozigomática",
+      "Com o temporal — sutura temporozigomática (arco zigomático)",
+      "Com a maxila — sutura zigomaticomaxilar"
+    ]
+  },
+  {
+    "key": "Nasal bone",
+    "pt": "Osso nasal",
+    "latim": "Os nasale",
+    "tipo": "plano",
+    "resumo": "Pequeno osso par, retangular, que forma o dorso ósseo (ponte) do nariz. É o osso da face mais frequentemente fraturado.",
+    "descricao": "Os dois ossos nasais unem-se na linha mediana (sutura internasal) e articulam-se em cima com o frontal, no násio, e dos lados com os processos frontais das maxilas. Suas margens inferiores continuam-se com as cartilagens do nariz.",
+    "articulacoes": [
+      "Com o osso nasal oposto, o frontal e a maxila",
+      "Com a lâmina perpendicular do etmoide e a cartilagem do septo nasal, profundamente"
+    ]
+  },
+  {
+    "key": "Lacrimal bone",
+    "pt": "Osso lacrimal",
+    "latim": "Os lacrimale",
+    "tipo": "plano",
+    "resumo": "O menor e mais frágil osso da face, par, situado na parte anterior da parede medial da órbita. Com a maxila forma a fossa do saco lacrimal, início da via de drenagem da lágrima para o nariz.",
+    "descricao": "Lâmina fina, do tamanho aproximado de uma unha. Sua crista lacrimal posterior limita atrás a fossa do saco lacrimal, que se continua para baixo com o canal lacrimonasal, que se abre no meato nasal inferior.",
+    "articulacoes": [
+      "Com o frontal, o etmoide, a maxila e a concha nasal inferior"
+    ]
+  },
+  {
+    "key": "Palatine bone",
+    "pt": "Osso palatino",
+    "latim": "Os palatinum",
+    "tipo": "irregular",
+    "resumo": "Osso par em forma de L, situado atrás da maxila. Sua lâmina horizontal forma o terço posterior do palato duro, e a lâmina perpendicular, parte da parede lateral da cavidade nasal.",
+    "descricao": "A lâmina horizontal une-se à do lado oposto e ao processo palatino da maxila; em sua margem posterior fixa-se a aponeurose do palato mole. Junto a ela abre-se o forame palatino maior (nervo e vasos palatinos maiores). A lâmina perpendicular sobe até a órbita, onde termina no processo orbital, e limita medialmente a fossa pterigopalatina. O processo piramidal encaixa-se entre as lâminas do processo pterigoide do esfenoide.",
+    "articulacoes": [
+      "Com o palatino oposto, a maxila, o esfenoide, o etmoide, a concha nasal inferior e o vômer"
+    ]
+  },
+  {
+    "key": "Vomer",
+    "pt": "Vômer",
+    "latim": "Vomer",
+    "tipo": "plano",
+    "resumo": "Osso ímpar, fino, em forma de lâmina de arado, que forma a parte posteroinferior do septo nasal.",
+    "descricao": "Articula-se em cima com o corpo do esfenoide, por suas asas, e com a lâmina perpendicular do etmoide; à frente, com a cartilagem do septo nasal; embaixo, com as maxilas e os palatinos. Sua margem posterior, livre, separa os dois cóanos. O desvio do septo nasal envolve com frequência a união do vômer com a cartilagem.",
+    "articulacoes": [
+      "Com o esfenoide, o etmoide, as duas maxilas e os dois palatinos",
+      "Com a cartilagem do septo nasal"
+    ]
+  },
+  {
+    "key": "Inferior nasal concha bone",
+    "pt": "Concha nasal inferior",
+    "latim": "Concha nasalis inferior",
+    "tipo": "irregular",
+    "sinonimos": ["corneto inferior"],
+    "resumo": "Osso par, independente, em forma de lâmina enrolada, preso à parede lateral da cavidade nasal. Coberto por mucosa muito vascularizada, aquece, umedece e filtra o ar inspirado.",
+    "descricao": "Diferentemente das conchas nasais superior e média, que pertencem ao etmoide, a concha inferior é um osso próprio. Abaixo dela fica o meato nasal inferior, onde se abre o canal lacrimonasal. A hipertrofia de sua mucosa é causa comum de obstrução nasal e de respiração oral.",
+    "articulacoes": [
+      "Com a maxila, o palatino, o lacrimal e o etmoide"
+    ]
+  },
+  {
+    "key": "Malleus",
+    "pt": "Martelo",
+    "latim": "Malleus",
+    "tipo": "irregular (ossículo da audição)",
+    "resumo": "O maior e mais lateral dos três ossículos da audição. Seu cabo está preso à membrana timpânica e recebe as vibrações sonoras, que transmite à bigorna.",
+    "acidentes": [
+      { "key": "Anterior process of malleus", "pt": "Processo anterior do martelo", "nota": "Fina espícula que parte do colo; fixação do ligamento anterior do martelo." },
+      { "key": "Articular facet of head of malleus", "pt": "Face articular da cabeça do martelo", "nota": "Articula-se com o corpo da bigorna (articulação incudomalear, sinovial selar)." },
+      { "key": "Handle of malleus", "pt": "Cabo (manúbrio) do martelo", "nota": "Fixo à face medial da membrana timpânica, até o umbigo da membrana. Nele se insere o músculo tensor do tímpano (nervo mandibular, V3), que amortece sons intensos." },
+      { "key": "Head of malleus", "pt": "Cabeça do martelo", "nota": "Parte superior arredondada, situada no recesso epitimpânico." },
+      { "key": "Lateral process of malleus", "pt": "Processo lateral do martelo", "nota": "Faz saliência na membrana timpânica, visível na otoscopia." },
+      { "key": "Neck of malleus", "pt": "Colo do martelo", "nota": "Estreitamento entre a cabeça e o cabo; a corda do tímpano cruza medialmente a ele." }
+    ]
+  },
+  {
+    "key": "Incus",
+    "pt": "Bigorna",
+    "latim": "Incus",
+    "tipo": "irregular (ossículo da audição)",
+    "resumo": "Ossículo intermediário da orelha média, situado entre o martelo e o estribo; transmite as vibrações de um ao outro.",
+    "acidentes": [
+      { "key": "Articular facet for malleus", "pt": "Face articular para o martelo", "nota": "No corpo da bigorna; forma com a cabeça do martelo a articulação incudomalear." },
+      { "key": "Articular facet for stapes", "pt": "Face articular para o estribo", "nota": "No processo lenticular; forma com a cabeça do estribo a articulação incudoestapedial (sinovial esferóidea)." },
+      { "key": "Body of incus", "pt": "Corpo da bigorna", "nota": "Situado no recesso epitimpânico; dele partem o ramo curto, para trás, e o ramo longo, para baixo." },
+      { "key": "Lenticular process of incus", "pt": "Processo lenticular da bigorna", "nota": "Pequena dilatação na extremidade do ramo longo, dobrada medialmente, que se articula com o estribo." },
+      { "key": "Long limb of incus", "pt": "Ramo longo da bigorna", "nota": "Desce paralelo ao cabo do martelo e termina no processo lenticular." }
+    ]
+  },
+  {
+    "key": "Stapes",
+    "pt": "Estribo",
+    "latim": "Stapes",
+    "tipo": "irregular (ossículo da audição)",
+    "resumo": "O menor osso do corpo humano e o mais medial dos ossículos da audição. Sua base encaixa-se na janela do vestíbulo (oval) e transmite as vibrações à perilinfa da orelha interna.",
+    "acidentes": [
+      { "key": "Anterior limb of stapes", "pt": "Ramo anterior do estribo", "nota": "Mais curto e reto que o posterior; une a cabeça à base." },
+      { "key": "Articular facet of head of stapes", "pt": "Face articular da cabeça do estribo", "nota": "Articula-se com o processo lenticular da bigorna." },
+      { "key": "Base of stapes", "pt": "Base do estribo", "nota": "Placa oval presa à margem da janela do vestíbulo pelo ligamento anular; seu movimento em pistão põe a perilinfa em vibração." },
+      { "key": "Posterior limb of stapes", "pt": "Ramo posterior do estribo", "nota": "Mais curvo que o anterior. Junto a ele, no colo, insere-se o músculo estapédio (nervo facial, VII); na paralisia facial periférica, a perda desse músculo causa hiperacusia." },
+      { "key": "Stapes", "pt": "Estribo", "nota": "Formado por cabeça, colo, dois ramos e base. A área da membrana timpânica é muito maior que a da base do estribo, o que amplifica a pressão sonora na passagem do ar para o líquido." }
+    ]
+  },
+  {
+    "key": "Thyroid cartilage",
+    "pt": "Cartilagem tireóidea",
+    "latim": "Cartilago thyroidea",
+    "tipo": "cartilagem hialina",
+    "resumo": "A maior cartilagem da laringe, formada por duas lâminas unidas na frente em ângulo, que protege as pregas vocais. Fica no nível de C4 e C5 e forma a proeminência laríngea (pomo de adão).",
+    "acidentes": [
+      { "key": "Inferior horn of thyroid cartilage", "pt": "Corno inferior da cartilagem tireóidea", "nota": "Articula-se com a cartilagem cricóidea (articulação cricotireóidea), em torno da qual a cartilagem tireóidea bascula para tensionar as pregas vocais." },
+      { "key": "Inferior thyroid notch", "pt": "Incisura tireóidea inferior", "nota": "Pequeno recorte mediano na margem inferior." },
+      { "key": "Inferior thyroid tubercle", "pt": "Tubérculo tireóideo inferior", "nota": "Extremidade inferior da linha oblíqua." },
+      { "key": "Lamina of thyroid cartilage", "pt": "Lâmina da cartilagem tireóidea", "nota": "Direita e esquerda; unem-se na frente em ângulo mais agudo no homem (cerca de 90 graus) do que na mulher (cerca de 120 graus)." },
+      { "key": "Laryngeal prominence", "pt": "Proeminência laríngea", "nota": "Pomo de adão: saliência mediana palpável e visível, mais marcada no homem após a puberdade. Logo atrás dela fixam-se as pregas vocais." },
+      { "key": "Oblique line of thyroid cartilage", "pt": "Linha oblíqua da cartilagem tireóidea", "nota": "Crista na face externa da lâmina. Inserção do esternotireóideo, origem do tíreo-hióideo e de fibras do constritor inferior da faringe." },
+      { "key": "Superior horn of thyroid cartilage", "pt": "Corno superior da cartilagem tireóidea", "nota": "Liga-se ao corno maior do hioide pelo ligamento tíreo-hióideo lateral." },
+      { "key": "Superior thyroid notch", "pt": "Incisura tireóidea superior", "nota": "Recorte em V na margem superior, acima da proeminência laríngea; palpável." },
+      { "key": "Superior thyroid tubercle", "pt": "Tubérculo tireóideo superior", "nota": "Extremidade superior da linha oblíqua." }
+    ]
+  },
+  {
+    "key": "Cricoid cartilage",
+    "pt": "Cartilagem cricóidea",
+    "latim": "Cartilago cricoidea",
+    "tipo": "cartilagem hialina",
+    "resumo": "Cartilagem em forma de anel de sinete, a única que circunda completamente a via aérea. Fica no nível de C6, abaixo da cartilagem tireóidea, e marca a transição da laringe para a traqueia.",
+    "acidentes": [
+      { "key": "Arch of cricoid cartilage", "pt": "Arco da cartilagem cricóidea", "nota": "Parte anterior, estreita, palpável abaixo da cartilagem tireóidea. Entre as duas estende-se o ligamento cricotireóideo mediano, local da cricotireoidostomia de emergência. Origem do músculo cricotireóideo." },
+      { "key": "Arytenoid articular surface", "pt": "Face articular aritenóidea", "nota": "Na margem superior da lâmina; articula-se com a base da cartilagem aritenóidea (articulação cricoaritenóidea)." },
+      { "key": "Lamina of cricoid cartilage", "pt": "Lâmina da cartilagem cricóidea", "nota": "Parte posterior, alta e quadrilátera; origem do músculo cricoaritenóideo posterior, o único que abre a rima da glote." },
+      { "key": "Thyroid articular surface", "pt": "Face articular tireóidea", "nota": "Na face lateral, na união do arco com a lâmina; articula-se com o corno inferior da cartilagem tireóidea." }
+    ]
+  },
+  {
+    "key": "Arytenoid cartilage",
+    "pt": "Cartilagem aritenóidea",
+    "latim": "Cartilago arytenoidea",
+    "tipo": "cartilagem hialina",
+    "resumo": "Cartilagem par, em forma de pirâmide, apoiada sobre a lâmina da cartilagem cricóidea. Nela se fixam as pregas vocais, e seus movimentos abrem e fecham a glote.",
+    "acidentes": [
+      { "key": "Anterolateral surface of arytenoid cartilage", "pt": "Face anterolateral da cartilagem aritenóidea", "nota": "Apresenta o colículo, a crista arqueada e as fóveas triangular e oblonga." },
+      { "key": "Apex of arytenoid cartilage", "pt": "Ápice da cartilagem aritenóidea", "nota": "Sustenta a cartilagem corniculada e dá fixação à prega ariepiglótica." },
+      { "key": "Arcuate crest", "pt": "Crista arqueada", "nota": "Crista curva na face anterolateral, que separa a fóvea triangular da fóvea oblonga." },
+      { "key": "Articular surface of arytenoid cartilage", "pt": "Face articular da cartilagem aritenóidea", "nota": "Na base; articula-se com a lâmina da cartilagem cricóidea. A articulação cricoaritenóidea permite deslizamento e rotação, que aproximam ou afastam os processos vocais." },
+      { "key": "Base of arytenoid cartilage", "pt": "Base da cartilagem aritenóidea", "nota": "Face inferior, côncava; dela partem o processo vocal, para a frente, e o processo muscular, para o lado." },
+      { "key": "Colliculus of arytenoid cartilage", "pt": "Colículo da cartilagem aritenóidea", "nota": "Pequena elevação na face anterolateral, próxima do ápice." },
+      { "key": "Medial surface of arytenoid cartilage", "pt": "Face medial da cartilagem aritenóidea", "nota": "Lisa, coberta por mucosa; limita a parte intercartilagínea da rima da glote." },
+      { "key": "Muscular process", "pt": "Processo muscular", "nota": "Ângulo lateral da base. Inserção dos músculos cricoaritenóideo posterior (abdutor das pregas vocais) e cricoaritenóideo lateral (adutor)." },
+      { "key": "Oblong fovea", "pt": "Fóvea oblonga", "nota": "Depressão inferior da face anterolateral; inserção do músculo tireoaritenóideo (incluindo o músculo vocal)." },
+      { "key": "Posterior surface of arytenoid cartilage", "pt": "Face posterior da cartilagem aritenóidea", "nota": "Côncava; inserção dos músculos aritenóideos transverso e oblíquo, que fecham a parte posterior da glote." },
+      { "key": "Triangular fovea", "pt": "Fóvea triangular", "nota": "Depressão superior da face anterolateral, acima da crista arqueada." },
+      { "key": "Vocal process", "pt": "Processo vocal", "nota": "Ângulo anterior da base; fixação posterior do ligamento vocal, que forma o esqueleto da prega vocal." }
+    ]
+  },
+  {
+    "key": "Corniculate cartilage",
+    "pt": "Cartilagem corniculada",
+    "latim": "Cartilago corniculata",
+    "tipo": "cartilagem elástica",
+    "resumo": "Pequeno nódulo par de cartilagem elástica apoiado no ápice da cartilagem aritenóidea, dentro da prega ariepiglótica."
+  },
+  {
+    "key": "Nasal septal cartilage",
+    "pt": "Cartilagem do septo nasal",
+    "latim": "Cartilago septi nasi",
+    "tipo": "cartilagem hialina",
+    "resumo": "Lâmina quadrilátera de cartilagem hialina que forma a parte anterior do septo nasal, unindo-se atrás à lâmina perpendicular do etmoide e ao vômer; seu desvio é causa comum de obstrução nasal."
+  },
+  {
+    "key": "Lateral process of nasal septal cartilage",
+    "pt": "Processo lateral da cartilagem do septo nasal",
+    "latim": "Processus lateralis cartilaginis septi nasi",
+    "tipo": "cartilagem hialina",
+    "sinonimos": ["cartilagem lateral do nariz", "cartilagem alar superior"],
+    "resumo": "Expansão triangular da cartilagem do septo para cada lado, que forma a parede lateral do dorso do nariz abaixo do osso nasal."
+  },
+  {
+    "key": "Major alar cartilage",
+    "pt": "Cartilagem alar maior",
+    "latim": "Cartilago alaris major",
+    "tipo": "cartilagem hialina",
+    "resumo": "Cartilagem par em forma de U que sustenta o ápice do nariz e a narina; seu ramo medial participa da parte móvel do septo e o ramo lateral, da asa do nariz."
+  },
+  {
+    "key": "Upper medial incisor",
+    "pt": "Incisivo central superior",
+    "latim": "Dens incisivus medialis superior",
+    "tipo": "dente",
+    "resumo": "Dente anterior superior mais próximo da linha mediana, de coroa larga em forma de pá e raiz única, especializado em cortar; a distância entre as bordas dos incisivos centrais superiores e inferiores é a medida usada para a abertura da boca."
+  },
+  {
+    "key": "Upper lateral incisor",
+    "pt": "Incisivo lateral superior",
+    "latim": "Dens incisivus lateralis superior",
+    "tipo": "dente",
+    "resumo": "Segundo dente a partir da linha mediana na arcada superior, menor que o incisivo central, com raiz única; função de corte."
+  },
+  {
+    "key": "Upper canine",
+    "pt": "Canino superior",
+    "latim": "Dens caninus superior",
+    "tipo": "dente",
+    "resumo": "Dente de coroa pontiaguda com uma única cúspide e a raiz mais longa de toda a dentição; perfura e rasga os alimentos e guia a mandíbula nos movimentos de lateralidade (guia canina)."
+  },
+  {
+    "key": "Lower medial incisor",
+    "pt": "Incisivo central inferior",
+    "latim": "Dens incisivus medialis inferior",
+    "tipo": "dente",
+    "resumo": "O menor dente permanente, de coroa estreita e raiz única; oclui atrás dos incisivos superiores e é o primeiro dente decíduo a irromper, por volta dos 6 meses."
+  },
+  {
+    "key": "Lower lateral incisor",
+    "pt": "Incisivo lateral inferior",
+    "latim": "Dens incisivus lateralis inferior",
+    "tipo": "dente",
+    "resumo": "Segundo dente a partir da linha mediana na arcada inferior, um pouco maior que o incisivo central inferior, com raiz única; função de corte."
+  },
+  {
+    "key": "Lower canine",
+    "pt": "Canino inferior",
+    "latim": "Dens caninus inferior",
+    "tipo": "dente",
+    "resumo": "Dente de cúspide única e raiz longa, no ângulo da arcada inferior; perfura e rasga os alimentos e participa da guia de lateralidade com o canino superior."
+  },
+  {
+    "key": "Upper first premolar",
+    "pt": "Primeiro pré-molar superior",
+    "latim": "Dens premolaris primus superior",
+    "tipo": "dente",
+    "resumo": "Dente posterior com duas cúspides (vestibular e palatina) e, com frequência, duas raízes; inicia a trituração dos alimentos."
+  },
+  {
+    "key": "Upper second premolar",
+    "pt": "Segundo pré-molar superior",
+    "latim": "Dens premolaris secundus superior",
+    "tipo": "dente",
+    "resumo": "Dente posterior com duas cúspides de tamanho semelhante e, em geral, uma raiz; tritura os alimentos e substitui o segundo molar decíduo."
+  },
+  {
+    "key": "Upper first molar tooth",
+    "pt": "Primeiro molar superior",
+    "latim": "Dens molaris primus superior",
+    "tipo": "dente",
+    "resumo": "O maior dente da arcada superior, com quatro cúspides principais e três raízes (duas vestibulares e uma palatina) próximas do seio maxilar; irrompe por volta dos 6 anos e é referência para classificar a oclusão."
+  },
+  {
+    "key": "Upper second molar tooth",
+    "pt": "Segundo molar superior",
+    "latim": "Dens molaris secundus superior",
+    "tipo": "dente",
+    "resumo": "Molar com três raízes, um pouco menor que o primeiro; irrompe por volta dos 12 anos. O ducto parotídeo abre-se na bochecha em frente à sua coroa."
+  },
+  {
+    "key": "Lower first premolar",
+    "pt": "Primeiro pré-molar inferior",
+    "latim": "Dens premolaris primus inferior",
+    "tipo": "dente",
+    "resumo": "Dente com cúspide vestibular grande e cúspide lingual pequena, de raiz única; faz a transição entre o canino e os dentes trituradores."
+  },
+  {
+    "key": "Lower second premolar",
+    "pt": "Segundo pré-molar inferior",
+    "latim": "Dens premolaris secundus inferior",
+    "tipo": "dente",
+    "resumo": "Dente de raiz única com duas ou três cúspides; o forame mentual fica em geral abaixo de seu ápice."
+  },
+  {
+    "key": "Lower first molar tooth",
+    "pt": "Primeiro molar inferior",
+    "latim": "Dens molaris primus inferior",
+    "tipo": "dente",
+    "resumo": "O maior dente da arcada inferior, com cinco cúspides e duas raízes (mesial e distal). É o primeiro dente permanente a irromper, por volta dos 6 anos, e suporta grande parte da força mastigatória.",
+    "descricao": "Serve de modelo para as partes de um dente. Todo dente tem coroa, colo e raiz. A coroa é revestida por esmalte; a raiz, por cemento; por dentro está a dentina, que envolve a cavidade pulpar, com vasos e nervos que entram pelo forame do ápice. O dente prende-se ao alvéolo pelo periodonto (gonfose), cujos mecanorreceptores informam a força da mordida. As faces são nomeadas em relação à arcada: mesial (voltada para a linha mediana da arcada), distal (oposta), vestibular (para o lábio ou a bochecha), lingual ou palatina (para a língua ou o palato) e oclusal (de mastigação). A dentição permanente tem 32 dentes, e a decídua, 20.",
+    "acidentes": [
+      { "key": "Crown of tooth", "pt": "Coroa do dente", "nota": "Parte visível na boca, revestida por esmalte, o tecido mais duro do corpo." },
+      { "key": "Cusp of tooth", "pt": "Cúspide do dente", "nota": "Elevação da face oclusal; as cúspides de dentes antagonistas encaixam-se na oclusão e trituram o alimento." },
+      { "key": "Distal surface of tooth", "pt": "Face distal do dente", "nota": "Face de contato voltada para o fim da arcada, afastando-se da linha mediana." },
+      { "key": "Lingual surface of tooth", "pt": "Face lingual do dente", "nota": "Voltada para a língua; nos dentes superiores chama-se face palatina." },
+      { "key": "Mesial surface of tooth", "pt": "Face mesial do dente", "nota": "Face de contato voltada para a linha mediana da arcada." },
+      { "key": "Neck of tooth", "pt": "Colo do dente", "nota": "Estreitamento entre a coroa e a raiz, onde o esmalte encontra o cemento; coberto pela gengiva." },
+      { "key": "Occlusal surface of tooth", "pt": "Face oclusal do dente", "nota": "Face de mastigação dos pré-molares e molares, que entra em contato com os dentes da arcada oposta. Contatos prematuros e bruxismo sobrecarregam a ATM e os músculos da mastigação." },
+      { "key": "Root apex", "pt": "Ápice da raiz do dente", "nota": "Extremidade da raiz, com o forame do ápice, por onde entram vasos e nervos da polpa (ramos dos nervos alveolares, do trigêmeo)." },
+      { "key": "Root of tooth", "pt": "Raiz do dente", "nota": "Parte implantada no alvéolo, revestida por cemento e presa ao osso pelo periodonto. O primeiro molar inferior tem duas raízes." },
+      { "key": "Vestibular surface of tooth", "pt": "Face vestibular do dente", "nota": "Voltada para o vestíbulo da boca: labial nos dentes anteriores e bucal nos posteriores." }
+    ]
+  },
+  {
+    "key": "Lower second molar tooth",
+    "pt": "Segundo molar inferior",
+    "latim": "Dens molaris secundus inferior",
+    "tipo": "dente",
+    "resumo": "Molar com quatro cúspides e duas raízes, um pouco menor que o primeiro; irrompe por volta dos 12 anos."
+  }
+]

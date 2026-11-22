@@ -1,0 +1,146 @@
+[
+  {
+    "key": "Bicipitoradial bursa",
+    "pt": "Bolsa bicipitorradial",
+    "latim": "Bursa bicipitoradialis",
+    "resumo": "Bolsa sinovial situada entre o tendão distal do bíceps braquial e a parte anterior da tuberosidade do rádio. Reduz o atrito do tendão contra o osso durante a pronação, quando a tuberosidade roda para trás e o tendão se enrola no rádio.",
+    "clinica": "A bursite bicipitorradial causa dor e, às vezes, tumefação na fossa cubital, piores na pronação completa e na flexão resistida do cotovelo. Pode acompanhar a tendinopatia ou a ruptura parcial do tendão distal do bíceps e, quando volumosa, comprimir o ramo superficial ou o ramo profundo do nervo radial."
+  },
+  {
+    "key": "Coracobrachial bursa",
+    "pt": "Bolsa do músculo coracobraquial",
+    "latim": "Bursa musculi coracobrachialis",
+    "resumo": "Bolsa sinovial inconstante localizada abaixo do processo coracoide, entre o tendão conjunto do coracobraquial com a cabeça curta do bíceps e o tendão do subescapular. Facilita o deslizamento entre esses tendões nas rotações do ombro.",
+    "clinica": "Pode inflamar-se em quadros de impacto subcoracoide, com dor anterior no ombro agravada por flexão, adução e rotação medial combinadas."
+  },
+  {
+    "key": "Subacromial bursa",
+    "pt": "Bolsa subacromial",
+    "latim": "Bursa subacromialis",
+    "resumo": "Grande bolsa sinovial situada entre o acrômio e o ligamento coracoacromial, acima, e o tendão do supraespinal e a cápsula do ombro, abaixo. Em geral é contínua com a bolsa subdeltóidea e não se comunica com a cavidade articular quando o manguito está íntegro. Permite o deslizamento do manguito rotador e do tubérculo maior sob o arco coracoacromial durante a elevação do braço.",
+    "clinica": "A bursite subacromial é componente frequente da síndrome do impacto e da dor subacromial: dor na face lateral do ombro e do braço, arco doloroso entre cerca de 60° e 120° de abdução, dor noturna ao deitar sobre o lado afetado e testes de Neer e de Hawkins-Kennedy positivos. Raramente é isolada; associa-se à tendinopatia do supraespinal, à tendinite calcária e à discinesia escapular. Na ruptura completa do manguito, a bolsa passa a comunicar-se com a articulação glenoumeral. O tratamento prioriza controle de carga, exercícios para o manguito e a musculatura escapular e correção de fatores posturais e de mobilidade."
+  },
+  {
+    "key": "Subcutaneous acromial bursa",
+    "pt": "Bolsa subcutânea acromial",
+    "latim": "Bursa subcutanea acromialis",
+    "resumo": "Bolsa sinovial subcutânea situada entre a pele e a face superior do acrômio. Permite que a pele deslize sobre essa saliência óssea.",
+    "clinica": "Pode inflamar-se por atrito ou pressão repetida sobre o ombro, como ao carregar cargas ou alças pesadas, causando dor e tumefação superficiais sobre o acrômio."
+  },
+  {
+    "key": "Subdeltoid bursa",
+    "pt": "Bolsa subdeltóidea",
+    "latim": "Bursa subdeltoidea",
+    "resumo": "Bolsa sinovial localizada entre a face profunda do deltoide e o tubérculo maior do úmero com os tendões do manguito rotador. Geralmente é contínua com a bolsa subacromial, formando a bolsa subacromial-subdeltóidea, que reduz o atrito entre o deltoide e o manguito.",
+    "clinica": "Participa do mesmo quadro da bursite subacromial. O espessamento ou derrame da bolsa é achado comum na ultrassonografia de ombros com impacto, tendinite calcária ou ruptura do manguito, e a dor é referida à região da inserção do deltoide."
+  },
+  {
+    "key": "Subtendinous bursa of infraspinatus muscle",
+    "pt": "Bolsa subtendínea do músculo infraespinal",
+    "latim": "Bursa subtendinea musculi infraspinati",
+    "resumo": "Pequena bolsa sinovial inconstante entre o tendão do infraespinal e a cápsula da articulação do ombro, próxima à inserção no tubérculo maior. Pode comunicar-se com a cavidade articular."
+  },
+  {
+    "key": "Subtendinous bursa of teres major muscle",
+    "pt": "Bolsa subtendínea do músculo redondo maior",
+    "latim": "Bursa subtendinea musculi teretis majoris",
+    "resumo": "Bolsa sinovial situada entre o tendão do redondo maior e o úmero, junto à inserção na crista do tubérculo menor. Facilita o deslizamento do tendão sobre o osso."
+  },
+  {
+    "key": "Subtendinous bursa of trapezius muscle",
+    "pt": "Bolsa subtendínea do músculo trapézio",
+    "latim": "Bursa subtendinea musculi trapezii",
+    "resumo": "Bolsa sinovial entre o tendão da parte ascendente (inferior) do trapézio e a extremidade medial da espinha da escápula. Permite que o tendão deslize sobre a área triangular lisa da espinha durante a rotação da escápula."
+  },
+  {
+    "key": "Subtendinous bursa of triceps brachii muscle",
+    "pt": "Bolsa subtendínea do músculo tríceps braquial",
+    "latim": "Bursa subtendinea musculi tricipitis brachii",
+    "resumo": "Bolsa sinovial entre o tendão do tríceps braquial e a parte superior do olécrano, logo acima da inserção. Reduz o atrito do tendão na flexão e extensão do cotovelo.",
+    "clinica": "A bursite subtendínea é incomum e causa dor posterior profunda no cotovelo, pior na extensão resistida e na flexão completa; relaciona-se a movimentos repetidos de flexão e extensão. Não deve ser confundida com a bursite subcutânea do olécrano, muito mais frequente, que forma tumefação superficial visível."
+  },
+  {
+    "key": "Intertubercular tendon sheath",
+    "pt": "Bainha tendínea intertubercular",
+    "latim": "Vagina tendinis intertubercularis",
+    "resumo": "Prolongamento tubular da membrana sinovial da articulação do ombro que envolve o tendão da cabeça longa do bíceps braquial no sulco intertubercular do úmero, sob o ligamento transverso do úmero. Permite o deslizamento do úmero sobre o tendão durante os movimentos do ombro.",
+    "clinica": "Como é contínua com a cavidade articular, acumula líquido em derrames e sinovites da glenoumeral. A tenossinovite da cabeça longa do bíceps causa dor à palpação do sulco intertubercular e testes de Speed e de Yergason positivos, e costuma acompanhar doença do manguito rotador. Lesões do subescapular e da polia do bíceps permitem a subluxação medial do tendão."
+  },
+  {
+    "key": "Tendon sheath - abd. pollicis longus - ext. pollicis brevis",
+    "pt": "Bainha dos tendões dos músculos abdutor longo e extensor curto do polegar",
+    "latim": "Vagina tendinum musculorum abductoris longi et extensoris pollicis brevis",
+    "resumo": "Bainha sinovial do primeiro compartimento dorsal do punho, que envolve os tendões do abdutor longo e do extensor curto do polegar sob o retináculo dos músculos extensores, sobre a face lateral do processo estiloide do rádio. Esses tendões formam o limite radial da tabaqueira anatômica.",
+    "clinica": "É a sede da tenossinovite estenosante de De Quervain: dor e espessamento sobre o processo estiloide do rádio, agravados por pinça, preensão e desvio ulnar do punho, com teste de Finkelstein positivo. É frequente em mães e cuidadores de lactentes e em atividades com desvios repetidos do punho. A existência de um septo que separa o extensor curto em subcompartimento próprio dificulta o tratamento conservador. Usam-se órtese de punho e polegar, orientação de atividades e exercícios progressivos; o ramo superficial do nervo radial passa sobre o compartimento e pode ser irritado."
+  },
+  {
+    "key": "Tendon sheath of extensor carpi ulnaris",
+    "pt": "Bainha do tendão do músculo extensor ulnar do carpo",
+    "latim": "Vagina tendinis musculi extensoris carpi ulnaris",
+    "resumo": "Bainha sinovial do sexto compartimento dorsal do punho, que envolve o tendão do extensor ulnar do carpo no sulco da cabeça da ulna. O tendão é mantido no sulco por uma sub-bainha fibrosa própria, que integra o complexo da fibrocartilagem triangular.",
+    "clinica": "A tenossinovite e a instabilidade do extensor ulnar do carpo são causas de dor no lado ulnar do punho em esportes de raquete e taco. A ruptura da sub-bainha permite a subluxação do tendão, com estalido doloroso na supinação com flexão e desvio ulnar. Na artrite reumatoide, a sinovite desse compartimento é precoce."
+  },
+  {
+    "key": "Tendon sheath of extensor digiti minimi manus",
+    "pt": "Bainha do tendão do músculo extensor do dedo mínimo",
+    "latim": "Vagina tendinis musculi extensoris digiti minimi",
+    "resumo": "Bainha sinovial do quinto compartimento dorsal do punho, que envolve o tendão do extensor do dedo mínimo sobre a articulação radioulnar distal.",
+    "clinica": "Na artrite reumatoide com subluxação dorsal da cabeça da ulna, o tendão sofre atrito e costuma ser o primeiro extensor a romper (síndrome de Vaughan-Jackson)."
+  },
+  {
+    "key": "Tendon sheath of extensor digitorum and extensor indicis",
+    "pt": "Bainha dos tendões dos músculos extensor dos dedos e extensor do indicador",
+    "latim": "Vagina tendinum musculorum extensoris digitorum et extensoris indicis",
+    "resumo": "Bainha sinovial comum do quarto compartimento dorsal do punho, que envolve os quatro tendões do extensor dos dedos e o tendão do extensor do indicador, medialmente ao tubérculo dorsal do rádio. O nervo interósseo posterior termina no assoalho desse compartimento.",
+    "clinica": "A tenossinovite dos extensores forma tumefação alongada no dorso do punho, que se move com os dedos, e é comum na artrite reumatoide, podendo evoluir para ruptura tendínea. Cistos sinoviais dorsais do punho surgem nas proximidades, em geral a partir da articulação escafossemilunar."
+  },
+  {
+    "key": "Tendon sheath of extensor pollicis longus",
+    "pt": "Bainha do tendão do músculo extensor longo do polegar",
+    "latim": "Vagina tendinis musculi extensoris pollicis longi",
+    "resumo": "Bainha sinovial do terceiro compartimento dorsal do punho, que envolve o tendão do extensor longo do polegar em seu trajeto oblíquo ao redor do lado ulnar do tubérculo dorsal do rádio, que funciona como polia.",
+    "clinica": "O compartimento é estreito e pouco vascularizado; após fraturas do rádio distal, mesmo sem desvio, ou na artrite reumatoide, o tendão pode romper tardiamente nesse ponto, com perda da extensão da interfalângica do polegar."
+  },
+  {
+    "key": "Tendon sheath of extensors carpi radialis",
+    "pt": "Bainha dos tendões dos músculos extensores radiais do carpo",
+    "latim": "Vagina tendinum musculorum extensorum carpi radialium",
+    "resumo": "Bainha sinovial do segundo compartimento dorsal do punho, que envolve os tendões do extensor radial longo e do extensor radial curto do carpo, lateralmente ao tubérculo dorsal do rádio.",
+    "clinica": "Proximalmente ao compartimento, esses tendões são cruzados pelos ventres do abdutor longo e do extensor curto do polegar; o atrito nesse cruzamento causa a síndrome de intersecção, com dor, edema e crepitação no dorso do antebraço distal, cerca de 4 a 6 cm acima do punho, em remadores, levantadores de peso e esquiadores. Diferencia-se da tenossinovite de De Quervain pela localização mais proximal e dorsal."
+  },
+  {
+    "key": "Common flexor tendon sheath",
+    "pt": "Bainha comum dos tendões dos músculos flexores",
+    "latim": "Vagina communis tendinum musculorum flexorum",
+    "resumo": "Bainha sinovial (bolsa ulnar) que envolve os oito tendões dos flexores superficial e profundo dos dedos no túnel do carpo, estendendo-se do antebraço distal até o meio da palma. Em geral continua-se com a bainha sinovial digital do dedo mínimo.",
+    "clinica": "A tenossinovite dessa bainha aumenta o conteúdo do túnel do carpo e é um dos mecanismos da compressão do nervo mediano (síndrome do túnel do carpo), sobretudo em movimentos repetitivos, artrite reumatoide e gestação. Por continuar-se com a bainha do dedo mínimo e, com frequência, comunicar-se com a do flexor longo do polegar, infecções podem propagar-se entre o dedo mínimo e o polegar (abscesso em ferradura) e para o espaço de Parona, no antebraço distal."
+  },
+  {
+    "key": "Tendon sheath of flexor carpi radialis",
+    "pt": "Bainha do tendão do músculo flexor radial do carpo",
+    "latim": "Vagina tendinis musculi flexoris carpi radialis",
+    "resumo": "Bainha sinovial que envolve o tendão do flexor radial do carpo em seu túnel osteofibroso próprio, no sulco do trapézio, separado do túnel do carpo por uma lâmina do retináculo dos músculos flexores.",
+    "clinica": "A tenossinovite do flexor radial do carpo causa dor na face anterolateral do punho, junto ao tubérculo do escafoide, agravada pela flexão resistida do punho; associa-se a artrose escafotrapeziotrapezoide e da base do polegar."
+  },
+  {
+    "key": "Tendon sheath of flexor pollicis longus",
+    "pt": "Bainha do tendão do músculo flexor longo do polegar",
+    "latim": "Vagina tendinis musculi flexoris pollicis longi",
+    "resumo": "Bainha sinovial (bolsa radial) que envolve o tendão do flexor longo do polegar desde o antebraço distal, através do túnel do carpo, até a falange distal do polegar, de forma contínua.",
+    "clinica": "Por ser contínua do polegar ao punho, uma tenossinovite infecciosa do polegar pode alcançar rapidamente o túnel do carpo e o antebraço e, havendo comunicação com a bainha comum dos flexores, o dedo mínimo. O espessamento na polia A1 produz o polegar em gatilho."
+  },
+  {
+    "key": "Cruciform part of fibrous sheath of digit of hand",
+    "pt": "Parte cruciforme da bainha fibrosa dos dedos da mão",
+    "latim": "Pars cruciformis vaginae fibrosae digitorum manus",
+    "resumo": "Conjunto de fibras cruzadas e finas da bainha fibrosa dos dedos, situadas sobre as articulações interfalângicas e entre as partes anulares: são as polias cruciformes (C1 a C3). Por serem flexíveis, dobram-se como uma sanfona e permitem a flexão do dedo sem que a bainha se enrugue, enquanto as partes anulares (polias A1 a A5) mantêm os tendões flexores junto às falanges.",
+    "clinica": "As polias anulares A2 e A4 são as mais importantes para evitar o efeito de corda de arco dos tendões flexores; sua ruptura é típica de escaladores (pegada em arco), em geral no dedo anular, com dor e, às vezes, estalido audível. O dedo em gatilho resulta do estreitamento na polia A1. As partes cruciformes são os locais por onde a bainha pode ser aberta com menor prejuízo mecânico nas cirurgias de tendão."
+  },
+  {
+    "key": "Synovial sheaths of digits of hand",
+    "pt": "Bainhas sinoviais dos dedos da mão",
+    "latim": "Vaginae synoviales digitorum manus",
+    "resumo": "Bainhas sinoviais que envolvem os tendões dos flexores superficial e profundo dentro do túnel osteofibroso de cada dedo, das cabeças dos metacarpais até as falanges distais. Lubrificam e nutrem os tendões, que recebem vasos pelos vínculos tendíneos. As do segundo, terceiro e quarto dedos geralmente são independentes; a do dedo mínimo costuma continuar-se com a bainha comum dos flexores.",
+    "clinica": "A tenossinovite infecciosa dos flexores, em geral por ferimento perfurante, é uma urgência: os quatro sinais de Kanavel são dedo em flexão de repouso, edema fusiforme, dor à palpação ao longo da bainha e dor intensa à extensão passiva. O atraso no tratamento leva a necrose e aderências tendíneas. Na zona II dos flexores, onde os dois tendões compartilham a bainha, o reparo exige protocolos de mobilização precoce controlada para evitar aderências. A tenossinovite estenosante na polia A1 causa o dedo em gatilho."
+  }
+]

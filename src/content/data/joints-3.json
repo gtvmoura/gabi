@@ -1,0 +1,685 @@
+{
+ "articulacoes": [
+  {
+   "key": "Intervertebral symphysis",
+   "pt": "Sínfise intervertebral (articulações dos corpos vertebrais)",
+   "art": "tronco",
+   "tipo": "Cartilagínea secundária (sínfise)",
+   "graus": 3,
+   "resumo": "União entre os corpos de vértebras adjacentes por meio do disco intervertebral, de C2–C3 a L5–S1 (23 discos; não há disco entre o occipital e o atlas nem entre o atlas e o áxis). Cada segmento move-se pouco, mas a soma dá a grande mobilidade da coluna. O \"segmento de movimento\" é formado por duas vértebras, o disco e as duas articulações dos processos articulares (zigoapofisárias), que orientam o movimento.\n\nAs amplitudes abaixo são as do conjunto toracolombar medidas na goniometria; as da coluna cervical estão na entrada das articulações dos processos articulares.",
+   "superficies": "Faces intervertebrais dos corpos vertebrais, recobertas por placas terminais de cartilagem hialina, unidas pelo disco: anel fibroso (lamelas concêntricas de fibrocartilagem com fibras oblíquas, alternadas a cada camada) e núcleo pulposo (gel rico em água e proteoglicanos). Os discos respondem por cerca de um quarto do comprimento da coluna.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–95°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Coluna toracolombar; Marques: 0–95°; AAOS: 0–80°. Inclui movimento da pelve se esta não for estabilizada; por isso também se usam a distância dedo-chão e o teste de Schober. A maior parte ocorre na lombar, sobretudo em L4–L5 e L5–S1. O núcleo desloca-se para trás e a parte posterior do anel é tensionada."
+    },
+    {
+     "mov": "extensao",
+     "adm": "0–35°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–35°; AAOS: 0–25°. Limitada pelo ligamento longitudinal anterior, pelo contato dos processos espinhosos e pelas articulações dos processos articulares."
+    },
+    {
+     "mov": "flexao_lateral",
+     "adm": "0–40°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Marques: 0–40°; AAOS: 0–35°. Na torácica é limitada pelas costelas."
+    },
+    {
+     "mov": "rotacao_ipsilateral",
+     "adm": "0–35°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Rotação do tronco para cada lado; Marques: 0–35°; AAOS: 0–45°. Ocorre principalmente na coluna torácica; na lombar é de apenas cerca de 5° no total, pela orientação sagital das facetas."
+    }
+   ],
+   "estabilidade": "Estática: anel fibroso, ligamentos longitudinais anterior e posterior, ligamentos amarelos, interespinais, supraespinal e intertransversários, cápsulas das articulações dos processos articulares. Dinâmica: multífidos e demais músculos profundos, eretores da espinha, transverso do abdome e oblíquos (por meio da fáscia toracolombar e da pressão intra-abdominal), diafragma e assoalho pélvico.",
+   "clinica": "Hérnia de disco: mais comum em L4–L5 e L5–S1 e, na cervical, em C5–C6 e C6–C7; em geral posterolateral, ao lado do ligamento longitudinal posterior. Na lombar, a hérnia posterolateral costuma comprimir a raiz que desce para o nível de baixo (L4–L5 → raiz L5; L5–S1 → raiz S1); na cervical, comprime a raiz que sai naquele nível (C5–C6 → raiz C6). A maioria melhora com tratamento conservador. Sinais de alerta: síndrome da cauda equina (anestesia em sela, retenção ou incontinência urinária/fecal, fraqueza bilateral) é urgência cirúrgica. Degeneração discal com perda de altura, osteófitos e estenose. A pressão no disco é maior sentado e em flexão com carga do que em pé (Nachemson). Os discos perdem água ao longo do dia, e a estatura diminui 1–2 cm."
+  },
+  {
+   "key": "Lumbosacral symphysis",
+   "pt": "Sínfise lombossacral (articulação lombossacral)",
+   "art": "tronco",
+   "tipo": "Cartilagínea secundária (sínfise), associada a duas articulações sinoviais planas dos processos articulares",
+   "graus": 3,
+   "resumo": "União entre L5 e o sacro, pelo disco L5–S1 (em cunha, mais alto na frente) e pelas articulações dos processos articulares. É a transição entre a coluna móvel e a pelve e recebe grandes forças de cisalhamento anterior, porque a base do sacro é inclinada para a frente.",
+   "superficies": "Face inferior do corpo de L5 e base do sacro, unidas pelo disco; processos articulares inferiores de L5 com os superiores do sacro, estes orientados mais no plano frontal, o que ajuda a impedir o deslizamento anterior de L5.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "parte importante da flexão lombar",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "L5–S1 é um dos segmentos lombares com maior flexão-extensão."
+    },
+    {
+     "mov": "extensao",
+     "adm": "parte da extensão lombar",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    },
+    {
+     "mov": "flexao_lateral",
+     "adm": "pequena",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Limitada pelos ligamentos iliolombares."
+    }
+   ],
+   "estabilidade": "Disco, orientação das facetas, ligamentos iliolombares e lombossacrais, ligamentos longitudinais; músculos multífidos, eretores, psoas e abdominais. O ângulo sacro-horizontal é de cerca de 40° em pé (Neumann); quanto maior, maior o cisalhamento anterior.",
+   "clinica": "Espondilólise (defeito da parte interarticular, mais em L5, comum em jovens que fazem esportes com extensão repetida) e espondilolistese (deslizamento anterior de L5 sobre S1). Hérnia de L5–S1 com radiculopatia S1 (dor na face posterior da perna e borda lateral do pé, reflexo aquileu diminuído, fraqueza da flexão plantar). Vértebra de transição (sacralização de L5 ou lombarização de S1)."
+  },
+  {
+   "key": "Sacrococcygeal joint",
+   "pt": "Articulação sacrococcígea",
+   "tipo": "Cartilagínea secundária (sínfise)",
+   "graus": 1,
+   "resumo": "União entre o ápice do sacro e a base do cóccix, por um disco fibrocartilagíneo fino e ligamentos sacrococcígeos. Tende a ossificar com a idade.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "pequena, passiva",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    },
+    {
+     "mov": "extensao",
+     "adm": "pequena, passiva",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "O cóccix desloca-se para trás na defecação e no parto, ampliando a abertura inferior da pelve."
+    }
+   ],
+   "clinica": "Coccidínia: dor ao sentar, após queda sentado, parto ou por microtrauma repetido; orienta-se almofada com recorte posterior e ajuste da postura sentada. Os músculos do assoalho pélvico e o glúteo máximo inserem-se no cóccix."
+  },
+  {
+   "key": "Zygapophysial joints",
+   "pt": "Articulações dos processos articulares (zigoapofisárias, \"facetárias\")",
+   "art": "cervical",
+   "tipo": "Sinoviais planas",
+   "graus": 3,
+   "resumo": "Articulações entre os processos articulares inferiores de uma vértebra e os superiores da vértebra de baixo, um par por segmento. Permitem deslizamentos e, pela orientação de suas faces, determinam quais movimentos cada região da coluna faz melhor. Também sustentam parte da carga axial, mais em extensão.\n\nCervical (C2–C7): faces a cerca de 45° entre os planos frontal e horizontal – todos os movimentos são amplos, e flexão lateral e rotação acontecem acopladas para o mesmo lado. Torácica: faces quase no plano frontal – favorecem rotação e flexão lateral, limitadas pelas costelas. Lombar: faces próximas do plano sagital – favorecem flexão e extensão e bloqueiam a rotação.\n\nAs amplitudes abaixo são as da coluna cervical como um todo (incluindo as articulações atlantoccipital e atlantoaxial).",
+   "superficies": "Faces articulares dos processos articulares superior e inferior, revestidas por cartilagem hialina, com cápsula frouxa (mais frouxa na cervical) e pequenas pregas sinoviais (meniscoides).",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–65°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Coluna cervical; Marques: 0–65°; AAOS: 0–45°. As facetas inferiores deslizam para cima e para a frente (abertura). Cerca de um terço da flexão-extensão cervical vem do complexo occipital–C1–C2."
+    },
+    {
+     "mov": "extensao",
+     "adm": "0–50°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–50°; AAOS: 0–45°. As facetas deslizam para baixo e para trás (fechamento); o forame intervertebral diminui."
+    },
+    {
+     "mov": "flexao_lateral",
+     "adm": "0–40°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Marques: 0–40°; AAOS: 0–45°. De C2 a C7 vem sempre acoplada à rotação para o mesmo lado."
+    },
+    {
+     "mov": "rotacao_ipsilateral",
+     "adm": "0–55°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Rotação da cabeça para cada lado; Marques: 0–55°; AAOS: 0–60°; valores de 70–90° são citados por Magee. Cerca de metade ocorre na articulação atlantoaxial."
+    }
+   ],
+   "estabilidade": "Cápsulas articulares, ligamentos amarelos, interespinais e supraespinal/nucal; músculos profundos (multífidos, rotadores, flexores profundos do pescoço).",
+   "posicaoRepouso": "A meio caminho entre flexão e extensão.",
+   "posicaoFechada": "Extensão completa.",
+   "padraoCapsular": "Flexão lateral e rotação igualmente limitadas, e extensão.",
+   "sensacaoFinal": "Firme.",
+   "clinica": "Dor facetária: dor local, pior em extensão e rotação, que pode ser referida (da cervical para ombro e escápula; da lombar para nádega e coxa), sem sinais neurológicos. São inervadas pelos ramos mediais dos ramos posteriores dos nervos espinais. Artrose facetária com osteófitos contribui para a estenose do forame intervertebral e do canal. Na lesão em chicote, as cápsulas facetárias cervicais são fonte frequente de dor. Mobilizações articulares usam os deslizamentos de abertura e fechamento das facetas."
+  },
+  {
+   "key": "Uncovertebral joints",
+   "pt": "Articulações uncovertebrais (de Luschka)",
+   "tipo": "Pequenas fendas de aspecto sinovial que se formam nas margens laterais dos discos cervicais",
+   "graus": 1,
+   "resumo": "Existem de C3 a C7, entre os uncos dos corpos (processos uncinados, saliências das margens laterais da face superior do corpo) e as margens chanfradas do corpo da vértebra de cima. Guiam a flexão e a extensão, limitam a flexão lateral e protegem a margem posterolateral do disco. Surgem durante a infância e não são consideradas articulações verdadeiras por todos os autores.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "deslizamento que acompanha a flexão-extensão cervical",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    }
+   ],
+   "clinica": "Osteófitos uncovertebrais (uncoartrose) estreitam o forame intervertebral, logo atrás, e podem comprimir a raiz nervosa (radiculopatia cervical) ou, lateralmente, a artéria vertebral."
+  },
+  {
+   "key": "Median atlanto-axial joint",
+   "pt": "Articulação atlantoaxial mediana",
+   "art": "cervical",
+   "tipo": "Sinovial trocoide (pivô), uniaxial",
+   "graus": 1,
+   "resumo": "Articulação entre o dente do áxis (C2) e o anel formado pelo arco anterior do atlas (C1) e pelo ligamento transverso do atlas. É o pivô da rotação da cabeça: o atlas, com o crânio, gira em torno do dente. Responde por cerca de metade de toda a rotação cervical.\n\nObservação: a articulação atlantoccipital (entre os côndilos occipitais e o atlas; sinovial elipsoide, responsável pelo movimento de \"sim\", com cerca de 15–25° de flexão-extensão) não tem estrutura própria neste modelo 3D.",
+   "superficies": "Face articular anterior do dente com a fóvea do dente, no arco anterior do atlas; face articular posterior do dente com o ligamento transverso do atlas. São duas cavidades sinoviais, uma à frente e outra atrás do dente.",
+   "movimentos": [
+    {
+     "mov": "rotacao_ipsilateral",
+     "adm": "cerca de 40–45° para cada lado",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Movimento de \"não\". Limitada principalmente pelos ligamentos alares."
+    }
+   ],
+   "estabilidade": "Ligamento transverso do atlas (parte do ligamento cruciforme), que mantém o dente contra o arco anterior e protege a medula; ligamentos alares (do dente aos côndilos occipitais), que limitam a rotação e a flexão lateral; ligamento do ápice do dente e membrana tectória.",
+   "posicaoFechada": "Extensão.",
+   "clinica": "Instabilidade atlantoaxial: frouxidão ou ruptura do ligamento transverso na artrite reumatoide, na síndrome de Down e em traumas; o dente pode comprimir a medula. Sinais de alerta: dor cervical alta com parestesias em mãos e pés, tontura, alteração da marcha. Antes de técnicas manuais cervicais, avaliar a estabilidade (teste de Sharp-Purser, testes dos ligamentos alares). Fraturas do dente do áxis e do atlas (Jefferson). Cefaleia cervicogênica: o teste de flexão-rotação avalia a mobilidade de C1–C2."
+  },
+  {
+   "key": "Lateral atlanto-axial joint",
+   "pt": "Articulação atlantoaxial lateral",
+   "art": "cervical",
+   "tipo": "Sinovial plana",
+   "graus": 1,
+   "resumo": "Par de articulações entre as faces articulares inferiores das massas laterais do atlas e as faces articulares superiores do áxis. Deslizam durante a rotação da cabeça, em conjunto com a articulação atlantoaxial mediana.",
+   "superficies": "Faces articulares inferiores do atlas e superiores do áxis, ambas levemente convexas no plano sagital por causa da cartilagem; por isso o atlas desce um pouco ao rodar.",
+   "movimentos": [
+    {
+     "mov": "rotacao_ipsilateral",
+     "adm": "cerca de 40–45° para cada lado (com a mediana)",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Na rotação para um lado, a massa lateral desse lado desliza para trás e a do lado oposto, para a frente."
+    },
+    {
+     "mov": "flexao",
+     "adm": "cerca de 10° de flexão-extensão no total",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    }
+   ],
+   "clinica": "A raiz e o gânglio de C2 passam atrás desta articulação; sua irritação relaciona-se à neuralgia occipital e à cefaleia cervicogênica. Subluxação rotatória atlantoaxial na criança causa torcicolo."
+  },
+  {
+   "key": "Costovertebral joints",
+   "pt": "Articulações costovertebrais",
+   "art": "costelas",
+   "tipo": "Sinoviais planas (articulação da cabeça da costela + articulação costotransversária)",
+   "graus": 1,
+   "resumo": "Ligam cada costela à coluna torácica em dois pontos: a cabeça da costela com os corpos vertebrais e o tubérculo da costela com o processo transverso. As duas articulações funcionam juntas, como uma dobradiça cujo eixo passa pelo colo da costela, e é a direção desse eixo que define como a costela se move na respiração.",
+   "superficies": "Ver as articulações da cabeça da costela e costotransversária.",
+   "movimentos": [
+    {
+     "mov": "inspiracao",
+     "adm": "elevação das costelas",
+     "plano": "varia com o nível",
+     "eixo": "ao longo do colo da costela",
+     "nota": "Costelas superiores: o eixo é mais próximo do plano frontal, e a elevação aumenta o diâmetro anteroposterior do tórax (movimento em \"braço de bomba\"). Costelas inferiores: o eixo é mais próximo do sagital, e a elevação aumenta o diâmetro transverso (movimento em \"alça de balde\")."
+    },
+    {
+     "mov": "expiracao_forcada",
+     "adm": "depressão das costelas",
+     "plano": "varia com o nível",
+     "eixo": "ao longo do colo da costela",
+     "nota": "Na respiração tranquila, a expiração é passiva (recuo elástico)."
+    }
+   ],
+   "estabilidade": "Ligamentos radiado e intra-articular da cabeça da costela e ligamentos costotransversários (costotransversário propriamente dito, lateral e superior).",
+   "clinica": "Hipomobilidade ou irritação costovertebral causa dor paravertebral torácica que piora na inspiração profunda, tosse e rotação do tronco, podendo irradiar ao longo da costela. Na espondilite anquilosante estas articulações se fundem e a expansibilidade torácica diminui (medida por cirtometria)."
+  },
+  {
+   "key": "Joint of head of rib",
+   "pt": "Articulação da cabeça da costela",
+   "tipo": "Sinovial plana",
+   "graus": 1,
+   "resumo": "Articulação entre a cabeça da costela e os corpos vertebrais. Da 2ª à 9ª costelas, a cabeça articula-se com duas vértebras (a de mesmo número e a de cima) e com o disco entre elas; a 1ª, a 11ª e a 12ª (e em geral a 10ª) articulam-se com uma única vértebra.",
+   "superficies": "Faces articulares da cabeça da costela com as fóveas costais dos corpos vertebrais; a crista da cabeça prende-se ao disco pelo ligamento intra-articular, que divide a cavidade em duas.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "pequena rotação e deslizamento",
+     "plano": "—",
+     "eixo": "ao longo do colo da costela",
+     "nota": "Acompanha a elevação e a depressão das costelas na respiração."
+    }
+   ]
+  },
+  {
+   "key": "Costotransverse joint",
+   "pt": "Articulação costotransversária",
+   "tipo": "Sinovial plana",
+   "graus": 1,
+   "resumo": "Articulação entre o tubérculo da costela e a fóvea costal do processo transverso da vértebra de mesmo número. Existe da 1ª à 10ª costelas; a 11ª e a 12ª não a possuem, o que as torna mais livres (\"flutuantes\").",
+   "superficies": "Face articular do tubérculo da costela e fóvea costal do processo transverso. Nas costelas superiores as faces são curvas (permitem rotação do colo); nas inferiores são planas (permitem deslizamento para cima e para baixo).",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "rotação (costelas superiores) ou deslizamento (inferiores)",
+     "plano": "—",
+     "eixo": "ao longo do colo da costela"
+    }
+   ]
+  },
+  {
+   "key": "Sternochondral joints",
+   "pt": "Articulações esternocostais",
+   "art": "costelas",
+   "tipo": "Sinoviais planas (2ª à 7ª); a 1ª é uma sincondrose",
+   "graus": 1,
+   "resumo": "Articulações entre as cartilagens costais das costelas verdadeiras e o esterno. A da 2ª costela fica na altura do ângulo do esterno e tem duas cavidades. Permitem pequenos deslizamentos que acompanham a respiração; a elasticidade das cartilagens costais dá o restante da mobilidade.",
+   "superficies": "Extremidades das cartilagens costais e incisuras costais do esterno, com ligamentos esternocostais radiados e, na 2ª, ligamento intra-articular.",
+   "movimentos": [
+    {
+     "mov": "inspiracao",
+     "adm": "deslizamento e leve torção das cartilagens",
+     "plano": "—",
+     "eixo": "—"
+    },
+    {
+     "mov": "expiracao_forcada",
+     "adm": "retorno",
+     "plano": "—",
+     "eixo": "—"
+    }
+   ],
+   "clinica": "Costocondrite: dor à palpação das junções esternocostais e costocondrais (em geral da 2ª à 5ª), sem edema; a síndrome de Tietze é semelhante, mas com tumefação local. São causas benignas de dor torácica anterior, mas sempre é preciso excluir causas cardíacas e pulmonares."
+  },
+  {
+   "key": "Interchondral joints",
+   "pt": "Articulações intercondrais",
+   "tipo": "Sinoviais planas",
+   "graus": 1,
+   "resumo": "Articulações entre as margens das cartilagens costais vizinhas, da 6ª à 9ª (a união entre a 9ª e a 10ª costuma ser fibrosa). Formam a margem costal e permitem leve deslizamento na respiração.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "deslizamento mínimo",
+     "plano": "—",
+     "eixo": "—"
+    }
+   ],
+   "clinica": "Síndrome da costela deslizante: hipermobilidade da extremidade anterior das cartilagens das costelas falsas (8ª à 10ª), com dor e estalido na margem costal."
+  },
+  {
+   "key": "Costochondral joints",
+   "pt": "Articulações costocondrais",
+   "tipo": "Cartilagíneas primárias (sincondroses)",
+   "graus": 0,
+   "resumo": "Uniões entre a extremidade anterior de cada costela óssea e sua cartilagem costal (hialina), envolvidas pelo periósteo contínuo com o pericôndrio. Não têm movimento próprio; a flexibilidade vem da cartilagem.",
+   "movimentos": [
+    {
+     "mov": "estabilizacao",
+     "adm": "sem movimento",
+     "plano": "—",
+     "eixo": "—"
+    }
+   ],
+   "clinica": "Local de dor na costocondrite e de separação costocondral em traumas torácicos e em esportes de contato."
+  },
+  {
+   "key": "Sternochondral synchondrosis of first rib",
+   "pt": "Sincondrose esternocostal da primeira costela",
+   "tipo": "Cartilagínea primária (sincondrose)",
+   "graus": 0,
+   "resumo": "União direta, sem cavidade articular, entre a primeira cartilagem costal e o manúbrio do esterno. Praticamente imóvel: a 1ª costela e o manúbrio movem-se como um bloco, o que dá base firme para a articulação esternoclavicular e para o ligamento costoclavicular.",
+   "movimentos": [
+    {
+     "mov": "estabilizacao",
+     "adm": "sem movimento",
+     "plano": "—",
+     "eixo": "—"
+    }
+   ]
+  },
+  {
+   "key": "Cartilaginous joints of sternum",
+   "pt": "Articulações cartilagíneas do esterno (sínfises manubriesternal e xifosternal)",
+   "tipo": "Manubriesternal: sínfise. Xifosternal: sincondrose (ossifica-se na idade adulta)",
+   "graus": 1,
+   "resumo": "Uniões entre as três partes do esterno. A sínfise manubriesternal forma o ângulo do esterno (de Louis), saliência palpável que marca a 2ª cartilagem costal – ponto de partida para contar costelas e espaços intercostais – e o nível do disco T4–T5.",
+   "movimentos": [
+    {
+     "mov": "inspiracao",
+     "adm": "poucos graus",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "O ângulo entre manúbrio e corpo varia levemente na respiração profunda."
+    }
+   ],
+   "clinica": "Referência para ausculta e para a contagem das costelas. A sínfise manubriesternal pode inflamar nas espondiloartrites."
+  }
+ ],
+ "ligamentos": [
+  {
+   "key": "Intervertebral disc C2-C3",
+   "pt": "Disco intervertebral C2–C3",
+   "funcao": "Disco cervical entre os corpos de C2 e C3: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos cervicais são relativamente altos em relação aos corpos e mais espessos na frente, o que contribui para a lordose e para a grande mobilidade do pescoço.",
+   "clinica": "Hérnia posterolateral ou estreitamento do forame neste nível afeta a raiz C3 (na cervical, a raiz sai acima da vértebra de mesmo número). Primeiro disco da coluna (não há disco entre o atlas e o áxis). Hérnias são raras neste nível."
+  },
+  {
+   "key": "Intervertebral disc C3-C4",
+   "pt": "Disco intervertebral C3–C4",
+   "funcao": "Disco cervical entre os corpos de C3 e C4: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos cervicais são relativamente altos em relação aos corpos e mais espessos na frente, o que contribui para a lordose e para a grande mobilidade do pescoço.",
+   "clinica": "Hérnia posterolateral ou estreitamento do forame neste nível afeta a raiz C4 (na cervical, a raiz sai acima da vértebra de mesmo número)."
+  },
+  {
+   "key": "Intervertebral disc C4-C5",
+   "pt": "Disco intervertebral C4–C5",
+   "funcao": "Disco cervical entre os corpos de C4 e C5: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos cervicais são relativamente altos em relação aos corpos e mais espessos na frente, o que contribui para a lordose e para a grande mobilidade do pescoço.",
+   "clinica": "Hérnia posterolateral ou estreitamento do forame neste nível afeta a raiz C5 (na cervical, a raiz sai acima da vértebra de mesmo número). Radiculopatia C5: dor no ombro e na face lateral do braço, fraqueza de deltoide e bíceps, reflexo bicipital diminuído."
+  },
+  {
+   "key": "Intervertebral disc C5-C6",
+   "pt": "Disco intervertebral C5–C6",
+   "funcao": "Disco cervical entre os corpos de C5 e C6: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos cervicais são relativamente altos em relação aos corpos e mais espessos na frente, o que contribui para a lordose e para a grande mobilidade do pescoço.",
+   "clinica": "Hérnia posterolateral ou estreitamento do forame neste nível afeta a raiz C6 (na cervical, a raiz sai acima da vértebra de mesmo número). Um dos níveis cervicais mais acometidos por degeneração e hérnia. Radiculopatia C6: dor e parestesia na face lateral do antebraço, polegar e indicador; fraqueza de flexores do cotovelo e extensores do punho; reflexos bicipital e braquiorradial diminuídos."
+  },
+  {
+   "key": "Intervertebral disc C6-C7",
+   "pt": "Disco intervertebral C6–C7",
+   "funcao": "Disco cervical entre os corpos de C6 e C7: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos cervicais são relativamente altos em relação aos corpos e mais espessos na frente, o que contribui para a lordose e para a grande mobilidade do pescoço.",
+   "clinica": "Hérnia posterolateral ou estreitamento do forame neste nível afeta a raiz C7 (na cervical, a raiz sai acima da vértebra de mesmo número). Com C5–C6, o nível cervical mais acometido. Radiculopatia C7: dor posterior no braço e parestesia no dedo médio; fraqueza de tríceps e flexores do punho; reflexo tricipital diminuído."
+  },
+  {
+   "key": "Intervertebral disc C7-T1",
+   "pt": "Disco intervertebral C7–T1",
+   "funcao": "Disco cervical entre os corpos de C7 e T1: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos cervicais são relativamente altos em relação aos corpos e mais espessos na frente, o que contribui para a lordose e para a grande mobilidade do pescoço.",
+   "clinica": "Hérnia posterolateral ou estreitamento do forame neste nível afeta a raiz C8 (na cervical, a raiz sai acima da vértebra de mesmo número). Transição cervicotorácica. Radiculopatia C8: parestesia no lado ulnar do antebraço e nos dedos anular e mínimo; fraqueza dos flexores dos dedos e dos intrínsecos da mão."
+  },
+  {
+   "key": "Intervertebral disc T1-T2",
+   "pt": "Disco intervertebral T1–T2",
+   "funcao": "Disco torácico entre os corpos de T1 e T2: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel.",
+   "clinica": "Hérnias torácicas são raras."
+  },
+  {
+   "key": "Intervertebral disc T2-T3",
+   "pt": "Disco intervertebral T2–T3",
+   "funcao": "Disco torácico entre os corpos de T2 e T3: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel."
+  },
+  {
+   "key": "Intervertebral disc T3-T4",
+   "pt": "Disco intervertebral T3–T4",
+   "funcao": "Disco torácico entre os corpos de T3 e T4: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel."
+  },
+  {
+   "key": "Intervertebral disc T4-T5",
+   "pt": "Disco intervertebral T4–T5",
+   "funcao": "Disco torácico entre os corpos de T4 e T5: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel."
+  },
+  {
+   "key": "Intervertebral disc T5-T6",
+   "pt": "Disco intervertebral T5–T6",
+   "funcao": "Disco torácico entre os corpos de T5 e T6: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel."
+  },
+  {
+   "key": "Intervertebral disc T6-T7",
+   "pt": "Disco intervertebral T6–T7",
+   "funcao": "Disco torácico entre os corpos de T6 e T7: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel.",
+   "clinica": "Hérnias torácicas são raras."
+  },
+  {
+   "key": "Intervertebral disc T7-T8",
+   "pt": "Disco intervertebral T7–T8",
+   "funcao": "Disco torácico entre os corpos de T7 e T8: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel."
+  },
+  {
+   "key": "Intervertebral disc T8-T9",
+   "pt": "Disco intervertebral T8–T9",
+   "funcao": "Disco torácico entre os corpos de T8 e T9: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel."
+  },
+  {
+   "key": "Intervertebral disc T9-T10",
+   "pt": "Disco intervertebral T9–T10",
+   "funcao": "Disco torácico entre os corpos de T9 e T10: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel."
+  },
+  {
+   "key": "Intervertebral disc T10-T11",
+   "pt": "Disco intervertebral T10–T11",
+   "funcao": "Disco torácico entre os corpos de T10 e T11: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel."
+  },
+  {
+   "key": "Intervertebral disc T11-T12",
+   "pt": "Disco intervertebral T11–T12",
+   "funcao": "Disco torácico entre os corpos de T11 e T12: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos torácicos são os mais finos em relação aos corpos, o que, com as costelas, torna essa região a menos móvel.",
+   "clinica": "Hérnias torácicas são raras."
+  },
+  {
+   "key": "Intervertebral disc T12-L1",
+   "pt": "Disco intervertebral T12–L1",
+   "funcao": "Disco toracolombar entre os corpos de T12 e L1: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento.",
+   "clinica": "Transição toracolombar, zona de mudança brusca na orientação das facetas e local frequente de fraturas por compressão."
+  },
+  {
+   "key": "Intervertebral disc L1-L2",
+   "pt": "Disco intervertebral L1–L2",
+   "funcao": "Disco lombar entre os corpos de L1 e L2: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos lombares são os mais espessos da coluna e mais altos na frente, contribuindo para a lordose lombar.",
+   "clinica": "A hérnia posterolateral neste nível costuma comprimir a raiz L2, que desce para o forame de baixo; a hérnia foraminal (extremo lateral) comprime a raiz L1."
+  },
+  {
+   "key": "Intervertebral disc L2-L3",
+   "pt": "Disco intervertebral L2–L3",
+   "funcao": "Disco lombar entre os corpos de L2 e L3: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos lombares são os mais espessos da coluna e mais altos na frente, contribuindo para a lordose lombar.",
+   "clinica": "A hérnia posterolateral neste nível costuma comprimir a raiz L3, que desce para o forame de baixo; a hérnia foraminal (extremo lateral) comprime a raiz L2."
+  },
+  {
+   "key": "Intervertebral disc L3-L4",
+   "pt": "Disco intervertebral L3–L4",
+   "funcao": "Disco lombar entre os corpos de L3 e L4: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos lombares são os mais espessos da coluna e mais altos na frente, contribuindo para a lordose lombar.",
+   "clinica": "A hérnia posterolateral neste nível costuma comprimir a raiz L4, que desce para o forame de baixo; a hérnia foraminal (extremo lateral) comprime a raiz L3. Radiculopatia L4 (hérnia posterolateral): dor na face anterior da coxa e medial da perna, fraqueza de quadríceps e tibial anterior, reflexo patelar diminuído."
+  },
+  {
+   "key": "Intervertebral disc L4-L5",
+   "pt": "Disco intervertebral L4–L5",
+   "funcao": "Disco lombar entre os corpos de L4 e L5: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos lombares são os mais espessos da coluna e mais altos na frente, contribuindo para a lordose lombar.",
+   "clinica": "A hérnia posterolateral neste nível costuma comprimir a raiz L5, que desce para o forame de baixo; a hérnia foraminal (extremo lateral) comprime a raiz L4. Com L5–S1, concentra a grande maioria das hérnias lombares. Radiculopatia L5 (hérnia posterolateral): dor na face lateral da perna e dorso do pé, fraqueza do extensor longo do hálux e dos dorsiflexores (e do glúteo médio), em geral sem alteração de reflexo patelar ou aquileu. Fica aproximadamente no nível das cristas ilíacas (L4)."
+  },
+  {
+   "key": "Intervertebral disc L5-S1",
+   "pt": "Disco intervertebral L5–S1",
+   "funcao": "Disco lombar entre os corpos de L5 e S1: anel fibroso por fora e núcleo pulposo por dentro. Une as vértebras, absorve e distribui a carga e permite os pequenos movimentos do segmento. Os discos lombares são os mais espessos da coluna e mais altos na frente, contribuindo para a lordose lombar.",
+   "clinica": "A hérnia posterolateral neste nível costuma comprimir a raiz S1, que desce para o forame de baixo; a hérnia foraminal (extremo lateral) comprime a raiz L5. Disco em cunha, mais alto na frente, sob forte cisalhamento. Radiculopatia S1 (hérnia posterolateral): dor na face posterior da coxa e da perna e borda lateral do pé, fraqueza da flexão plantar, reflexo aquileu diminuído. Nível mais comum de espondilolistese."
+  },
+  {
+   "key": "Nucleus pulposus C2-C3",
+   "pt": "Núcleo pulposo C2–C3",
+   "funcao": "Centro gelatinoso do disco C2–C3, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus C3-C4",
+   "pt": "Núcleo pulposo C3–C4",
+   "funcao": "Centro gelatinoso do disco C3–C4, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus C4-C5",
+   "pt": "Núcleo pulposo C4–C5",
+   "funcao": "Centro gelatinoso do disco C4–C5, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus C5-C6",
+   "pt": "Núcleo pulposo C5–C6",
+   "funcao": "Centro gelatinoso do disco C5–C6, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso.",
+   "clinica": "A herniação do núcleo neste nível afeta a raiz C6. Na cervical, as articulações uncovertebrais protegem em parte a região posterolateral do disco."
+  },
+  {
+   "key": "Nucleus pulposus C6-C7",
+   "pt": "Núcleo pulposo C6–C7",
+   "funcao": "Centro gelatinoso do disco C6–C7, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus C7-T1",
+   "pt": "Núcleo pulposo C7–T1",
+   "funcao": "Centro gelatinoso do disco C7–T1, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T1-T2",
+   "pt": "Núcleo pulposo T1–T2",
+   "funcao": "Centro gelatinoso do disco T1–T2, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T2-T3",
+   "pt": "Núcleo pulposo T2–T3",
+   "funcao": "Centro gelatinoso do disco T2–T3, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T3-T4",
+   "pt": "Núcleo pulposo T3–T4",
+   "funcao": "Centro gelatinoso do disco T3–T4, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T4-T5",
+   "pt": "Núcleo pulposo T4–T5",
+   "funcao": "Centro gelatinoso do disco T4–T5, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T5-T6",
+   "pt": "Núcleo pulposo T5–T6",
+   "funcao": "Centro gelatinoso do disco T5–T6, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T6-T7",
+   "pt": "Núcleo pulposo T6–T7",
+   "funcao": "Centro gelatinoso do disco T6–T7, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T7-T8",
+   "pt": "Núcleo pulposo T7–T8",
+   "funcao": "Centro gelatinoso do disco T7–T8, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T8-T9",
+   "pt": "Núcleo pulposo T8–T9",
+   "funcao": "Centro gelatinoso do disco T8–T9, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T9-T10",
+   "pt": "Núcleo pulposo T9–T10",
+   "funcao": "Centro gelatinoso do disco T9–T10, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T10-T11",
+   "pt": "Núcleo pulposo T10–T11",
+   "funcao": "Centro gelatinoso do disco T10–T11, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T11-T12",
+   "pt": "Núcleo pulposo T11–T12",
+   "funcao": "Centro gelatinoso do disco T11–T12, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus T12-L1",
+   "pt": "Núcleo pulposo T12–L1",
+   "funcao": "Centro gelatinoso do disco T12–L1, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus L1-L2",
+   "pt": "Núcleo pulposo L1–L2",
+   "funcao": "Centro gelatinoso do disco L1–L2, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus L2-L3",
+   "pt": "Núcleo pulposo L2–L3",
+   "funcao": "Centro gelatinoso do disco L2–L3, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso."
+  },
+  {
+   "key": "Nucleus pulposus L3-L4",
+   "pt": "Núcleo pulposo L3–L4",
+   "funcao": "Centro gelatinoso do disco L3–L4, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso.",
+   "clinica": "No adulto jovem o núcleo lombar tem cerca de 70–90% de água; a hidratação diminui com a idade e com a carga mantida ao longo do dia."
+  },
+  {
+   "key": "Nucleus pulposus L4-L5",
+   "pt": "Núcleo pulposo L4–L5",
+   "funcao": "Centro gelatinoso do disco L4–L5, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso.",
+   "clinica": "Na flexão o núcleo é empurrado para trás; flexão repetida ou mantida com carga e rotação favorece a migração do núcleo por fissuras do anel (protrusão, extrusão, sequestro). Com a idade, o núcleo perde água e fica fibroso, e a distinção com o anel diminui. A centralização da dor irradiada com movimentos repetidos (em geral de extensão) é sinal de bom prognóstico na abordagem de McKenzie."
+  },
+  {
+   "key": "Nucleus pulposus L5-S1",
+   "pt": "Núcleo pulposo L5–S1",
+   "funcao": "Centro gelatinoso do disco L5–S1, rico em água e proteoglicanos. Funciona como uma almofada hidráulica: sob compressão, distribui a pressão em todas as direções e tensiona o anel fibroso.",
+   "clinica": "Material do núcleo herniado posterolateralmente aqui atinge a raiz S1; hérnia central volumosa pode comprimir a cauda equina (urgência)."
+  },
+  {
+   "key": "Sacrococcygeal symphysis",
+   "pt": "Sínfise sacrococcígea",
+   "funcao": "União entre o ápice do sacro e a base do cóccix por um disco fibrocartilagíneo fino, reforçada pelos ligamentos sacrococcígeos. Permite leve flexão e extensão passivas do cóccix (ao sentar, na defecação e no parto) e tende a se ossificar com a idade.",
+   "clinica": "Coccidínia após queda sentado ou parto: dor localizada ao sentar e ao levantar-se da cadeira."
+  },
+  {
+   "key": "Anterior longitudinal ligament",
+   "pt": "Ligamento longitudinal anterior",
+   "funcao": "Faixa larga e forte na face anterior dos corpos vertebrais e discos, da base do occipital e do tubérculo anterior do atlas até a face pélvica do sacro. É o único ligamento da coluna que limita a extensão; reforça a frente dos discos e mantém a estabilidade das curvaturas lordóticas.",
+   "clinica": "Pode ser lesado nos traumas em hiperextensão, como na lesão em chicote cervical. Calcifica-se na hiperostose esquelética idiopática difusa e forma pontes ósseas (sindesmófitos) na espondilite anquilosante."
+  },
+  {
+   "key": "Posterior longitudinal ligament",
+   "pt": "Ligamento longitudinal posterior",
+   "funcao": "Dentro do canal vertebral, na face posterior dos corpos e discos, de C2 (onde continua para cima como membrana tectória) até o sacro. Largo sobre os discos, aos quais adere, e estreito sobre os corpos; afina-se na região lombar. Limita a flexão e reforça a parte posterior central do anel fibroso.",
+   "clinica": "Como reforça o centro e é estreito na lombar, as hérnias de disco costumam sair posterolateralmente, ao lado dele, em direção à raiz nervosa. É ricamente inervado (nervo sinuvertebral) e fonte de dor. Sua ossificação, mais comum na cervical, pode causar mielopatia."
+  },
+  {
+   "key": "Ligamenta flava",
+   "pt": "Ligamentos amarelos",
+   "funcao": "Ligamentos pares, segmentares, entre as lâminas de vértebras adjacentes, de C2 ao sacro, formando a parede posterior do canal vertebral. São formados principalmente por fibras elásticas (daí a cor): freiam o fim da flexão, ajudam a coluna a voltar à posição ereta e mantêm-se tensos sem formar dobras para dentro do canal na extensão.",
+   "clinica": "Com a idade perdem elasticidade e se espessam (hipertrofia), abaulando para o canal em extensão: componente importante da estenose do canal lombar, cuja claudicação neurogênica melhora ao sentar e ao inclinar o tronco para a frente. São atravessados na punção lombar e na anestesia peridural (perda de resistência)."
+  },
+  {
+   "key": "Interspinous ligaments",
+   "pt": "Ligamentos interespinais",
+   "funcao": "Membranas finas entre processos espinhosos adjacentes, da raiz ao ápice, entre os ligamentos amarelos (à frente) e o supraespinal (atrás). Limitam a flexão e o deslizamento anterior da vértebra de cima; são mais desenvolvidos na região lombar.",
+   "clinica": "Estão entre as primeiras estruturas a serem tensionadas e lesadas nos traumas em flexão."
+  },
+  {
+   "key": "Supraspinous ligament",
+   "pt": "Ligamento supraespinal",
+   "funcao": "Cordão fibroso que une os ápices dos processos espinhosos de C7 até a região lombar baixa/sacro; acima de C7 continua como ligamento nucal. Limita a flexão da coluna.",
+   "clinica": "Palpável entre os processos espinhosos, que se afastam na flexão. É frequentemente ausente ou fraco em L5–S1."
+  },
+  {
+   "key": "Intertransverse ligaments",
+   "pt": "Ligamentos intertransversários",
+   "funcao": "Unem processos transversos adjacentes. Limitam a flexão lateral para o lado oposto. São feixes esparsos na cervical, cordões na torácica e membranas finas na lombar."
+  },
+  {
+   "key": "Nuchal ligament",
+   "pt": "Ligamento nucal",
+   "funcao": "Septo fibroelástico mediano da protuberância e crista occipitais externas ao processo espinhoso de C7, preso aos processos espinhosos cervicais. Equivale ao supraespinal na região cervical: limita a flexão da cabeça e do pescoço e dá origem a músculos (trapézio, esplênio da cabeça, romboide menor, serrátil posterior superior).",
+   "clinica": "Ajuda a sustentar a cabeça na postura em flexão mantida; pode ser lesado em traumas em hiperflexão."
+  },
+  {
+   "key": "Intercornual ligament",
+   "pt": "Ligamento intercornual",
+   "funcao": "Feixe que une o corno sacral ao corno coccígeo, de cada lado; parte dos ligamentos sacrococcígeos laterais. Reforça a articulação sacrococcígea e delimita, com o sacro, a passagem do 5º nervo sacral."
+  },
+  {
+   "key": "External intercostal membrane",
+   "pt": "Membrana intercostal externa",
+   "funcao": "Lâmina aponeurótica que substitui o músculo intercostal externo na parte anterior de cada espaço intercostal, da junção costocondral até o esterno. Suas fibras têm a mesma direção do músculo (para baixo e para a frente)."
+  },
+  {
+   "key": "Internal intercostal membrane",
+   "pt": "Membrana intercostal interna",
+   "funcao": "Lâmina aponeurótica que substitui o músculo intercostal interno na parte posterior de cada espaço intercostal, do ângulo da costela até a coluna vertebral."
+  },
+  {
+   "key": "Costotransverse ligament",
+   "pt": "Ligamento costotransversário",
+   "funcao": "Feixes curtos e fortes entre a face posterior do colo da costela e a face anterior do processo transverso da vértebra de mesmo número, preenchendo o forame costotransversário. Prende a costela ao processo transverso e mantém o eixo de rotação ao longo do colo.",
+   "clinica": "O conjunto é completado pelos ligamentos costotransversários lateral (do tubérculo da costela ao ápice do processo transverso) e superior (do colo da costela ao processo transverso da vértebra de cima)."
+  },
+  {
+   "key": "Radiate ligament of head of rib",
+   "pt": "Ligamento radiado da cabeça da costela",
+   "funcao": "Feixes que se abrem em leque da margem anterior da cabeça da costela para os corpos das duas vértebras vizinhas e para o disco entre elas. Reforça anteriormente a cápsula da articulação da cabeça da costela."
+  },
+  {
+   "key": "Intra-articular ligament of head of rib",
+   "pt": "Ligamento intra-articular da cabeça da costela",
+   "funcao": "Feixe curto, dentro da articulação, da crista da cabeça da costela ao disco intervertebral. Divide a cavidade articular em duas (superior e inferior). Existe nas costelas que se articulam com duas vértebras (2ª à 9ª/10ª); falta na 1ª, 11ª e 12ª."
+  }
+ ]
+}

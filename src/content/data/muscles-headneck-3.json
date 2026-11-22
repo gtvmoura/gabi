@@ -1,0 +1,295 @@
+[
+  {
+    "key": "Deep part of masseter",
+    "pt": "Músculo masseter",
+    "latim": "Musculus masseter",
+    "sinonimos": ["masseter"],
+    "resumo": "Músculo quadrilátero, espesso e muito potente, que recobre a face lateral do ramo da mandíbula. É o músculo da mastigação mais superficial e mais fácil de palpar, e o mais envolvido no apertamento dentário e nas disfunções temporomandibulares.",
+    "origem": "Parte superficial: processo maxilar do osso zigomático e dois terços anteriores da borda inferior do arco zigomático. Parte profunda: face medial e terço posterior da borda inferior do arco zigomático.",
+    "insercao": "Parte superficial: ângulo da mandíbula e metade inferior da face lateral do ramo (tuberosidade massetérica). Parte profunda: metade superior da face lateral do ramo e face lateral do processo coronoide.",
+    "inervacao": { "nervo": "Nervo massetérico, ramo do nervo mandibular (NC V3)", "raizes": "NC V3", "nervoKeys": ["Mandibular nerve", "Trigeminal nerve (V)"] },
+    "vascularizacao": "Artéria massetérica (ramo da artéria maxilar); ramos da artéria facial e da artéria transversa da face",
+    "acoes": [
+      { "art": "atm", "mov": "elevacao", "papel": "primario", "nota": "fecha a boca com grande força (oclusão)" },
+      { "art": "atm", "mov": "protrusao", "papel": "secundario", "nota": "fibras superficiais, oblíquas para baixo e para trás" },
+      { "art": "atm", "mov": "retrusao", "papel": "secundario", "nota": "fibras profundas, mais verticais e posteriores; componente pequeno" },
+      { "art": "atm", "mov": "lateralidade", "papel": "secundario", "nota": "desvio para o mesmo lado na trituração" }
+    ],
+    "funcao": "Eleva a mandíbula e gera a maior parte da força de mordida na região dos molares. As fibras superficiais, oblíquas, também protraem a mandíbula; as profundas, verticais, estabilizam o côndilo contra a eminência articular e ajudam discretamente na retrusão. Forma com o pterigóideo medial uma cinta muscular que suspende o ângulo da mandíbula. Na mastigação unilateral atua do lado de trabalho, junto com o temporal do mesmo lado.",
+    "antagonistas": ["Digastric muscle", "Mylohyoid muscle", "Geniohyoid muscle", "Inferior head of lateral pterygoid muscle"],
+    "sinergistas": ["Temporalis muscle", "Medial pterygoid muscle"],
+    "palpacao": "Coloque os dedos sobre a bochecha, entre o arco zigomático e o ângulo da mandíbula, e peça ao paciente que aperte os dentes: o ventre endurece e salta sob os dedos. Palpe a origem (borda inferior do arco zigomático), o ventre e a inserção (ângulo da mandíbula). A palpação bimanual, com o indicador enluvado por dentro da bochecha e o polegar por fora, permite pinçar o músculo e localizar faixas tensas. A parte profunda é palpada logo à frente da ATM, abaixo da parte posterior do arco zigomático. Compare os lados quanto a volume, tônus e dor.",
+    "teste": "O paciente fecha a boca e aperta os dentes com firmeza enquanto o examinador palpa os dois masseteres, comparando volume, simetria e força de contração. Para testar a força, tenta-se abaixar a mandíbula pelo mento contra o fechamento mantido, ou pede-se que morda um abaixador de língua de cada lado, que o examinador tenta retirar. Fraqueza ou atrofia unilateral indica lesão do nervo trigêmeo (raiz motora). Avalia-se também o reflexo mandibular (percussão do mento com a boca entreaberta).",
+    "alongamento": "Abertura ampla e relaxada da boca; alongamento passivo assistido com o polegar enluvado do terapeuta apoiado sobre os molares inferiores, tracionando a mandíbula para baixo e levemente para a frente, ou autoalongamento com os dedos sobre os incisivos inferiores. Associar liberação miofascial intra e extraoral e, em casa, a posição de repouso mandibular: lábios fechados, dentes desencostados e língua no palato.",
+    "clinica": "É o músculo mais acometido na dor miofascial da disfunção temporomandibular (DTM). O apertamento e o bruxismo causam hipertrofia (face mais quadrada), dor, fadiga matinal e pontos-gatilho que referem dor para os molares superiores e inferiores, a maxila, a mandíbula, o supercílio e, na parte profunda, para a orelha e a ATM, podendo vir acompanhados de zumbido. O espasmo protetor (trismo) limita a abertura da boca, por exemplo após anestesia do nervo alveolar inferior, extrações de terceiros molares ou infecções. A abertura funcional normal é de cerca de 40 a 55 mm (três dedos do paciente entre os incisivos). O ducto parotídeo cruza sua face superficial e a artéria facial é palpável na borda anteroinferior do músculo, sobre a mandíbula.",
+    "dica": "Aperte os dentes com os dedos na bochecha: o que salta é o masseter; com os dedos na têmpora, é o temporal.",
+    "camada": "superficial",
+    "partes": [
+      { "key": "Deep part of masseter", "pt": "Parte profunda", "origem": "Face medial e terço posterior da borda inferior do arco zigomático", "insercao": "Metade superior da face lateral do ramo e processo coronoide da mandíbula", "nota": "Fibras quase verticais; eleva a mandíbula e auxilia discretamente a retrusão." },
+      { "key": "Superficial part of masseter", "pt": "Parte superficial", "origem": "Processo maxilar do osso zigomático e dois terços anteriores da borda inferior do arco zigomático", "insercao": "Ângulo e metade inferior da face lateral do ramo da mandíbula", "nota": "Maior porção; fibras oblíquas para baixo e para trás; eleva e protrai a mandíbula." }
+    ]
+  },
+  {
+    "key": "Temporalis muscle",
+    "pt": "Músculo temporal",
+    "latim": "Musculus temporalis",
+    "sinonimos": ["temporal"],
+    "resumo": "Músculo largo, em leque, que ocupa a fossa temporal na lateral do crânio e converge para um tendão que passa por baixo do arco zigomático. É o principal posicionador da mandíbula: eleva-a e é o único retrusor eficiente.",
+    "origem": "Assoalho da fossa temporal, abaixo da linha temporal inferior, e face profunda da fáscia temporal.",
+    "insercao": "Ápice, bordas e face medial do processo coronoide da mandíbula e borda anterior do ramo, quase até o último molar.",
+    "inervacao": { "nervo": "Nervos temporais profundos (anterior e posterior), ramos do nervo mandibular (NC V3)", "raizes": "NC V3", "nervoKeys": ["Mandibular nerve", "Trigeminal nerve (V)"] },
+    "vascularizacao": "Artérias temporais profundas (ramos da maxilar) e artéria temporal média (ramo da temporal superficial)",
+    "acoes": [
+      { "art": "atm", "mov": "elevacao", "papel": "primario", "nota": "fibras anteriores (verticais) e médias" },
+      { "art": "atm", "mov": "retrusao", "papel": "primario", "nota": "fibras posteriores, quase horizontais" },
+      { "art": "atm", "mov": "lateralidade", "papel": "secundario", "nota": "desvio da mandíbula para o mesmo lado" }
+    ],
+    "funcao": "As fibras anteriores, verticais, elevam a mandíbula; as posteriores, horizontais, tracionam o processo coronoide para trás, retraindo a mandíbula protraída e recolocando o côndilo na fossa mandibular ao final do fechamento. A contração unilateral desvia a mandíbula para o mesmo lado. Mantém, com atividade tônica leve, a posição de repouso mandibular contra a gravidade e faz o fechamento rápido e os ajustes finos da oclusão, enquanto o masseter fornece a força.",
+    "antagonistas": ["Inferior head of lateral pterygoid muscle", "Digastric muscle"],
+    "sinergistas": ["Deep part of masseter", "Medial pterygoid muscle"],
+    "palpacao": "Coloque os dedos sobre a têmpora, acima do arco zigomático e à frente e acima da orelha, e peça ao paciente que aperte e relaxe os dentes. Palpe em três faixas: anterior (acima e atrás da borda lateral da órbita, fibras verticais), média (acima da orelha) e posterior (acima e atrás da orelha, fibras horizontais). O tendão pode ser palpado por dentro da boca, deslizando o indicador para cima ao longo da borda anterior do ramo da mandíbula até o processo coronoide, com a boca entreaberta.",
+    "teste": "Com a boca fechada e os dentes apertados, o examinador palpa os dois temporais e compara volume e contração; em seguida tenta abaixar a mandíbula pelo mento contra a resistência do paciente. Para as fibras posteriores, resiste-se à retrusão a partir da mandíbula protraída. Atrofia (depressão da fossa temporal) sugere lesão da raiz motora do trigêmeo.",
+    "alongamento": "Abertura ampla e relaxada da boca, que pode ser associada a leve protrusão para enfatizar as fibras posteriores; alongamento passivo com tração da mandíbula para baixo e para a frente pelo terapeuta. Complementar com liberação miofascial sobre a fossa temporal, em direção cranial, enquanto o paciente abre a boca lentamente.",
+    "clinica": "Dor miofascial do temporal é uma das principais causas de cefaleia associada à DTM e se confunde com a cefaleia do tipo tensional: os pontos-gatilho referem dor para a têmpora, o supercílio, a região retro-orbital e os dentes superiores. Hiperatividade no bruxismo e no apertamento diurno. Na postura de anteriorização da cabeça, a tração dos supra e infra-hióideos tende a abrir a boca e o temporal aumenta sua atividade tônica para mantê-la fechada. A tendinite da inserção no processo coronoide produz dor intraoral e na região zigomática. Fibrose após cirurgia, radioterapia ou trauma causa limitação crônica da abertura. A dor temporal em idosos com claudicação mandibular exige descartar arterite temporal (artéria temporal superficial sobre o músculo), uma urgência médica.",
+    "dica": "Leque: fibras da frente fecham, fibras de trás puxam a mandíbula para trás.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Medial pterygoid muscle",
+    "pt": "Músculo pterigóideo medial",
+    "latim": "Musculus pterygoideus medialis",
+    "sinonimos": ["pterigoideo medial", "pterigóideo interno"],
+    "resumo": "Músculo quadrilátero espesso situado na face medial do ramo da mandíbula, como uma imagem em espelho do masseter, com o qual forma a cinta pterigomassetérica.",
+    "origem": "Cabeça profunda (maior): face medial da lâmina lateral do processo pterigoide e processo piramidal do osso palatino. Cabeça superficial: túber da maxila e processo piramidal do palatino.",
+    "insercao": "Face medial do ramo e do ângulo da mandíbula (tuberosidade pterigóidea), abaixo do forame da mandíbula.",
+    "inervacao": { "nervo": "Nervo pterigóideo medial, ramo do tronco do nervo mandibular (NC V3)", "raizes": "NC V3", "nervoKeys": ["Mandibular nerve", "Trigeminal nerve (V)"] },
+    "vascularizacao": "Ramos pterigóideos da artéria maxilar",
+    "acoes": [
+      { "art": "atm", "mov": "elevacao", "papel": "primario", "nota": "fecha a boca, em sinergia com o masseter e o temporal" },
+      { "art": "atm", "mov": "protrusao", "papel": "secundario", "nota": "contração bilateral, com o pterigóideo lateral" },
+      { "art": "atm", "mov": "lateralidade", "papel": "primario", "nota": "contração unilateral: desvia a mandíbula para o lado oposto (movimentos de trituração)" }
+    ],
+    "funcao": "Eleva a mandíbula com força e, por sua direção oblíqua (para baixo, para trás e para fora), auxilia a protrusão. Atuando de um lado só, junto com o pterigóideo lateral do mesmo lado, leva o mento para o lado oposto; a alternância entre os lados produz os movimentos de trituração da mastigação.",
+    "antagonistas": ["Digastric muscle", "Mylohyoid muscle"],
+    "sinergistas": ["Deep part of masseter", "Temporalis muscle", "Inferior head of lateral pterygoid muscle"],
+    "palpacao": "Extraoral: com a cabeça do paciente levemente inclinada para o lado examinado, enganche os dedos por baixo e por dentro do ângulo da mandíbula, pressionando para cima contra a face medial; a inserção endurece no apertamento dentário. Intraoral: com o indicador enluvado, deslize atrás do último molar inferior, medialmente ao ramo da mandíbula, sobre a prega pterigomandibular; a palpação é desconfortável e pode provocar reflexo de vômito.",
+    "teste": "Avaliado com os elevadores (apertamento dentário e resistência à depressão da mandíbula) e, de forma mais específica, pelo desvio lateral resistido: o paciente desvia o mento para um lado enquanto o examinador resiste com a mão na lateral da mandíbula; testa-se os pterigóideos do lado oposto ao do desvio.",
+    "alongamento": "Abertura ampla da boca; para enfatizar um lado, associar desvio lateral da mandíbula para o mesmo lado do músculo a alongar. Liberação intraoral com o dedo enluvado sobre o ventre, pedindo aberturas lentas.",
+    "clinica": "Acometido na dor miofascial da DTM, com dor referida mal localizada para o fundo da boca, a garganta, a região retromandibular e a ATM, sensação de ouvido tampado e dor à deglutição. O espasmo causa trismo, clássico após a anestesia do nervo alveolar inferior, quando a agulha atravessa o músculo ou forma hematoma, e nas infecções do espaço pterigomandibular. Na lesão unilateral do nervo mandibular, a mandíbula desvia para o lado lesado ao abrir a boca, por ação sem oposição dos pterigóideos do lado são.",
+    "dica": "Masseter por fora, pterigóideo medial por dentro: os dois abraçam o ângulo da mandíbula como uma tipoia.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Inferior head of lateral pterygoid muscle",
+    "pt": "Músculo pterigóideo lateral",
+    "latim": "Musculus pterygoideus lateralis",
+    "sinonimos": ["pterigoideo lateral", "pterigóideo externo"],
+    "resumo": "Músculo curto e horizontal da fossa infratemporal, com duas cabeças que convergem para trás em direção à ATM. É o único músculo da mastigação que abre a boca e o único ligado diretamente à cápsula e ao disco articular, sendo central na biomecânica e na disfunção da ATM.",
+    "origem": "Cabeça superior: face infratemporal e crista infratemporal da asa maior do esfenoide. Cabeça inferior: face lateral da lâmina lateral do processo pterigoide.",
+    "insercao": "Cabeça inferior: fóvea pterigóidea, no colo da mandíbula. Cabeça superior: cápsula e disco articular da ATM (em proporção variável) e parte superior da fóvea pterigóidea.",
+    "inervacao": { "nervo": "Nervo pterigóideo lateral, ramo da divisão anterior do nervo mandibular (NC V3)", "raizes": "NC V3", "nervoKeys": ["Anterior division of mandibular nerve", "Mandibular nerve"] },
+    "vascularizacao": "Ramos pterigóideos da artéria maxilar",
+    "acoes": [
+      { "art": "atm", "mov": "protrusao", "papel": "primario", "nota": "cabeça inferior, bilateralmente: traciona o côndilo e o disco para a frente" },
+      { "art": "atm", "mov": "depressao", "papel": "primario", "nota": "cabeça inferior: produz a translação anterior do côndilo necessária à abertura ampla da boca" },
+      { "art": "atm", "mov": "lateralidade", "papel": "primario", "nota": "contração unilateral: desvia a mandíbula para o lado oposto" },
+      { "art": "atm", "mov": "estabilizacao", "papel": "primario", "nota": "cabeça superior: ativa no fechamento, controla o disco e o côndilo contra a eminência articular" }
+    ],
+    "funcao": "As duas cabeças têm funções diferentes e em grande parte recíprocas. A cabeça inferior é ativa na abertura, na protrusão e no desvio para o lado oposto: puxa o côndilo para a frente e para baixo ao longo da eminência articular (translação), enquanto os supra-hióideos giram a mandíbula. A cabeça superior é ativa principalmente no fechamento e no apertamento, quando controla excentricamente o retorno do disco e do côndilo, mantendo-os aplicados contra a vertente posterior da eminência. Na contração unilateral, o côndilo do mesmo lado avança e o mento vai para o lado oposto.",
+    "antagonistas": ["Temporalis muscle", "Deep part of masseter"],
+    "sinergistas": ["Medial pterygoid muscle", "Digastric muscle", "Superficial part of masseter"],
+    "palpacao": "A palpação direta é controversa: o músculo é profundo e estudos anatômicos mostram que o dedo dificilmente o alcança. A técnica intraoral clássica consiste em deslizar o dedo mínimo enluvado para trás, entre a bochecha e o processo alveolar superior, até atrás do túber da maxila, com a boca entreaberta e a mandíbula desviada para o lado examinado; a dor ali obtida pode vir também do pterigóideo medial ou do tendão do temporal. Por isso prefere-se a avaliação funcional: dor à protrusão resistida e ao desvio contralateral resistido.",
+    "teste": "Protrusão resistida: o paciente projeta a mandíbula para a frente e o examinador aplica resistência no mento, em direção posterior. Desvio lateral resistido: o paciente desvia o mento para um lado contra a resistência da mão na lateral da mandíbula, testando os pterigóideos do lado oposto. Abertura resistida com a mão sob o mento. Observe a trajetória de abertura: desvio para um lado indica fraqueza do pterigóideo lateral desse mesmo lado ou hipomobilidade da ATM desse lado.",
+    "alongamento": "Não há posição de alongamento seletivo eficaz; a retrusão da mandíbula com os dentes levemente afastados e o fechamento em posição retruída alongam a cabeça inferior. Na prática usam-se relaxamento, liberação intraoral cuidadosa e exercícios de controle, como a abertura da boca com a ponta da língua no palato, que limita a translação e a protrusão excessivas.",
+    "clinica": "Hiperatividade ou espasmo da cabeça inferior produz dor pré-auricular profunda, dificuldade de ocluir os dentes posteriores do mesmo lado e desvio do mento para o lado oposto. A cabeça superior é implicada no deslocamento anterior do disco articular, por tração anteromedial do disco quando há frouxidão dos tecidos retrodiscais, com estalido à abertura (deslocamento com redução) ou bloqueio (sem redução); essa relação causal ainda é debatida. Pontos-gatilho referem dor para a ATM e a região maxilar (simula sinusite). Na fratura do colo da mandíbula, o músculo traciona o côndilo para a frente e medialmente. Na lesão do nervo mandibular ou hipomobilidade unilateral, a mandíbula desvia para o lado afetado durante a abertura e a protrusão. Na luxação anterior da ATM o côndilo ultrapassa a eminência articular e fica travado pelo espasmo dos elevadores.",
+    "dica": "Lateral = Leva para a frente e abre. É o único dos quatro mastigadores que abaixa a mandíbula.",
+    "camada": "profunda",
+    "partes": [
+      { "key": "Inferior head of lateral pterygoid muscle", "pt": "Cabeça inferior", "origem": "Face lateral da lâmina lateral do processo pterigoide", "insercao": "Fóvea pterigóidea do colo da mandíbula", "nota": "Maior; ativa na abertura, na protrusão e no desvio contralateral." },
+      { "key": "Superior head of lateral pterygoid muscle", "pt": "Cabeça superior", "origem": "Face e crista infratemporais da asa maior do esfenoide", "insercao": "Cápsula e disco articular da ATM e fóvea pterigóidea", "nota": "Menor; ativa no fechamento e no apertamento, estabilizando o disco e o côndilo." }
+    ]
+  },
+  {
+    "key": "Genioglossus muscle",
+    "pt": "Músculo genioglosso",
+    "latim": "Musculus genioglossus",
+    "resumo": "Músculo extrínseco da língua em forma de leque, que forma a maior parte do seu volume. É o principal protrusor da língua e mantém a via aérea aberta.",
+    "origem": "Espinha geniana (mentual) superior da mandíbula.",
+    "insercao": "Todo o dorso da língua, do ápice à raiz (aponeurose da língua), e corpo do osso hioide pelas fibras mais inferiores.",
+    "inervacao": { "nervo": "Nervo hipoglosso (NC XII)", "raizes": "NC XII", "nervoKeys": ["Hypoglossal nerve (XII)"] },
+    "vascularizacao": "Artéria lingual (ramos sublingual e profundo da língua)",
+    "acoes": [
+      { "art": "face", "mov": "outro", "papel": "primario", "nota": "língua: protrusão (fibras posteriores), depressão da parte central formando um sulco, retração do ápice (fibras anteriores); a contração unilateral desvia a língua para o lado oposto" }
+    ],
+    "funcao": "A contração bilateral projeta a língua para fora e deprime sua parte central. Seu tônus impede que a língua caia para trás e obstrua a faringe, especialmente em decúbito dorsal e durante o sono.",
+    "sinergistas": ["Hyoglossus muscle", "Geniohyoid muscle"],
+    "teste": "Peça ao paciente que ponha a língua para fora na linha mediana e depois a empurre contra a bochecha de cada lado, enquanto o examinador resiste por fora. Observe desvio, atrofia e fasciculações.",
+    "clinica": "Na lesão do nervo hipoglosso (neurônio motor inferior), a língua protraída desvia para o lado lesado, empurrada pelo genioglosso são, com atrofia e fasciculações desse lado. Na lesão supranuclear (AVC), desvia para o lado oposto ao da lesão cerebral, ou seja, para o lado da hemiparesia. O relaxamento do genioglosso na anestesia geral, no coma e no sono permite a queda da língua e obstrução da via aérea, razão da manobra de elevação do mento/tração da mandíbula e fator da apneia obstrutiva do sono.",
+    "dica": "'A língua lambe a lesão': no nervo periférico lesado, a ponta aponta para o lado doente.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Hyoglossus muscle",
+    "pt": "Músculo hioglosso",
+    "latim": "Musculus hyoglossus",
+    "resumo": "Músculo extrínseco da língua, fino e quadrilátero, que sobe do osso hioide para a lateral da língua.",
+    "origem": "Corpo e corno maior do osso hioide.",
+    "insercao": "Faces lateral e inferior da língua, entrelaçando-se com os músculos intrínsecos.",
+    "inervacao": { "nervo": "Nervo hipoglosso (NC XII)", "raizes": "NC XII", "nervoKeys": ["Hypoglossal nerve (XII)"] },
+    "vascularizacao": "Artéria lingual (ramos) e artéria submentual",
+    "acoes": [
+      { "art": "face", "mov": "outro", "papel": "primario", "nota": "língua: deprime as bordas laterais e retrai a língua" }
+    ],
+    "funcao": "Abaixa a língua, sobretudo suas bordas, e a puxa para trás, encurtando-a.",
+    "sinergistas": ["Genioglossus muscle"],
+    "clinica": "Referência anatômica importante: a artéria lingual passa profundamente ao hioglosso, enquanto o nervo hipoglosso, o nervo lingual e o ducto submandibular passam sobre sua face lateral.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Superior rectus muscle",
+    "pt": "Músculo reto superior",
+    "latim": "Musculus rectus superior",
+    "sinonimos": ["reto superior do bulbo do olho"],
+    "resumo": "Músculo extrínseco do bulbo do olho situado no teto da órbita, abaixo do levantador da pálpebra superior.",
+    "origem": "Anel tendíneo comum (parte superior), no ápice da órbita.",
+    "insercao": "Esclera, na face superior do bulbo do olho, à frente do equador (cerca de 7 a 8 mm do limbo da córnea).",
+    "inervacao": { "nervo": "Nervo oculomotor (NC III), ramo superior", "raizes": "NC III", "nervoKeys": ["Oculomotor nerve (III)"] },
+    "vascularizacao": "Ramos musculares da artéria oftálmica",
+    "acoes": [
+      { "art": "olho", "mov": "elevacao", "papel": "primario", "nota": "ação máxima e mais pura com o olho abduzido" },
+      { "art": "olho", "mov": "aducao", "papel": "secundario" },
+      { "art": "olho", "mov": "rot_medial", "papel": "secundario", "nota": "intorsão (rotação medial do polo superior)" }
+    ],
+    "funcao": "Eleva o olhar. Como o eixo da órbita diverge cerca de 23° do eixo visual, na posição primária o músculo também aduz e gira medialmente o bulbo; com o olho abduzido torna-se elevador puro.",
+    "antagonistas": ["Inferior rectus muscle"],
+    "sinergistas": ["Inferior oblique muscle", "Levator palpebrae superioris"],
+    "teste": "Teste em H dos movimentos oculares: o paciente olha para o lado (abdução) e depois para cima; nessa posição a elevação depende do reto superior.",
+    "clinica": "Acometido na paralisia do nervo oculomotor, na qual o olho fica desviado 'para baixo e para fora', com ptose e, se as fibras parassimpáticas forem atingidas, midríase.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Inferior rectus muscle",
+    "pt": "Músculo reto inferior",
+    "latim": "Musculus rectus inferior",
+    "sinonimos": ["reto inferior do bulbo do olho"],
+    "resumo": "Músculo extrínseco do bulbo do olho situado no assoalho da órbita.",
+    "origem": "Anel tendíneo comum (parte inferior).",
+    "insercao": "Esclera, na face inferior do bulbo do olho, à frente do equador.",
+    "inervacao": { "nervo": "Nervo oculomotor (NC III), ramo inferior", "raizes": "NC III", "nervoKeys": ["Oculomotor nerve (III)"] },
+    "vascularizacao": "Ramos musculares da artéria oftálmica e artéria infraorbital",
+    "acoes": [
+      { "art": "olho", "mov": "depressao", "papel": "primario", "nota": "ação máxima com o olho abduzido" },
+      { "art": "olho", "mov": "aducao", "papel": "secundario" },
+      { "art": "olho", "mov": "rot_lateral", "papel": "secundario", "nota": "extorsão (rotação lateral do polo superior)" }
+    ],
+    "funcao": "Abaixa o olhar; na posição primária também aduz e gira lateralmente o bulbo. É depressor puro com o olho abduzido.",
+    "antagonistas": ["Superior rectus muscle"],
+    "sinergistas": ["Superior oblique muscle"],
+    "teste": "Teste em H: o paciente olha para o lado (abdução) e depois para baixo.",
+    "clinica": "Pode ficar encarcerado na fratura do assoalho da órbita (blow-out), limitando a elevação do olhar e causando diplopia vertical. É o músculo mais acometido na orbitopatia tireoidiana.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Medial rectus muscle",
+    "pt": "Músculo reto medial",
+    "latim": "Musculus rectus medialis",
+    "sinonimos": ["reto medial do bulbo do olho"],
+    "resumo": "O mais forte dos músculos retos; percorre a parede medial da órbita.",
+    "origem": "Anel tendíneo comum (parte medial).",
+    "insercao": "Esclera, na face medial do bulbo do olho, à frente do equador (o mais próximo do limbo da córnea).",
+    "inervacao": { "nervo": "Nervo oculomotor (NC III), ramo inferior", "raizes": "NC III", "nervoKeys": ["Oculomotor nerve (III)"] },
+    "vascularizacao": "Ramos musculares da artéria oftálmica",
+    "acoes": [
+      { "art": "olho", "mov": "aducao", "papel": "primario" }
+    ],
+    "funcao": "Aduz o bulbo do olho (olhar para o nariz). A contração bilateral simultânea produz a convergência para a visão de perto.",
+    "antagonistas": ["Lateral rectus muscle"],
+    "teste": "Teste em H: adução horizontal; avaliar também a convergência aproximando um alvo do nariz.",
+    "clinica": "Na paralisia do oculomotor o olho desvia lateralmente (estrabismo divergente) por ação sem oposição do reto lateral. Na oftalmoplegia internuclear (lesão do fascículo longitudinal medial, comum na esclerose múltipla) o olho não aduz no olhar lateral, mas a convergência pode estar preservada. A insuficiência de convergência é comum após concussão e é abordada na reabilitação vestibular e oculomotora.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Lateral rectus muscle",
+    "pt": "Músculo reto lateral",
+    "latim": "Musculus rectus lateralis",
+    "sinonimos": ["reto lateral do bulbo do olho"],
+    "resumo": "Músculo reto que percorre a parede lateral da órbita; único músculo inervado pelo nervo abducente.",
+    "origem": "Anel tendíneo comum (parte lateral), com fibras também da asa maior do esfenoide.",
+    "insercao": "Esclera, na face lateral do bulbo do olho, à frente do equador.",
+    "inervacao": { "nervo": "Nervo abducente (NC VI)", "raizes": "NC VI", "nervoKeys": ["Abducens nerve (VI)"] },
+    "vascularizacao": "Ramos musculares da artéria oftálmica e artéria lacrimal",
+    "acoes": [
+      { "art": "olho", "mov": "abducao", "papel": "primario" }
+    ],
+    "funcao": "Abduz o bulbo do olho (olhar para a têmpora).",
+    "antagonistas": ["Medial rectus muscle"],
+    "teste": "Teste em H: abdução horizontal.",
+    "clinica": "Na paralisia do nervo abducente o olho fica desviado medialmente (estrabismo convergente), não abduz e há diplopia horizontal que piora ao olhar para o lado lesado; o paciente pode girar a cabeça para esse lado para compensar. O nervo abducente tem longo trajeto intracraniano e é vulnerável ao aumento da pressão intracraniana.",
+    "dica": "RL6 OS4, o resto 3: Reto Lateral = NC VI; Oblíquo Superior = NC IV; todos os demais = NC III.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Superior oblique muscle",
+    "pt": "Músculo oblíquo superior",
+    "latim": "Musculus obliquus superior",
+    "sinonimos": ["oblíquo superior do bulbo do olho", "músculo troclear"],
+    "resumo": "Músculo longo e fino da parte superomedial da órbita, cujo tendão muda de direção ao passar pela tróclea; único músculo inervado pelo nervo troclear.",
+    "origem": "Corpo do esfenoide, superomedialmente ao canal óptico (fora do anel tendíneo comum).",
+    "insercao": "O tendão atravessa a tróclea, na parte anteromedial do teto da órbita, volta-se para trás e lateralmente, passa sob o reto superior e insere-se na esclera do quadrante posterossuperolateral do bulbo, atrás do equador.",
+    "inervacao": { "nervo": "Nervo troclear (NC IV)", "raizes": "NC IV", "nervoKeys": ["Trochlear nerve (IV)"] },
+    "vascularizacao": "Ramos musculares da artéria oftálmica",
+    "acoes": [
+      { "art": "olho", "mov": "rot_medial", "papel": "primario", "nota": "intorsão (rotação medial do polo superior)" },
+      { "art": "olho", "mov": "depressao", "papel": "primario", "nota": "abaixa o olhar, sobretudo com o olho aduzido" },
+      { "art": "olho", "mov": "abducao", "papel": "secundario" }
+    ],
+    "funcao": "Por se inserir atrás do equador vindo da frente (da tróclea), puxa a parte posterior do bulbo para cima e medialmente: o olhar vai para baixo e para fora, com intorsão. É o depressor do olho aduzido, importante para ler e descer escadas.",
+    "antagonistas": ["Inferior oblique muscle"],
+    "sinergistas": ["Inferior rectus muscle"],
+    "teste": "Teste em H: o paciente olha para o nariz (adução) e depois para baixo; nessa posição a depressão depende do oblíquo superior.",
+    "clinica": "A paralisia do nervo troclear (frequente após traumatismo craniano) causa diplopia vertical e torcional que piora ao olhar para baixo e para dentro, como ao descer escadas ou ler. O paciente compensa inclinando a cabeça para o lado oposto ao da lesão e baixando o queixo, o que pode ser confundido com torcicolo (torcicolo ocular).",
+    "camada": "profunda"
+  },
+  {
+    "key": "Inferior oblique muscle",
+    "pt": "Músculo oblíquo inferior",
+    "latim": "Musculus obliquus inferior",
+    "sinonimos": ["oblíquo inferior do bulbo do olho"],
+    "resumo": "Único músculo extrínseco do olho que se origina na parte anterior da órbita; passa por baixo do bulbo, de medial para lateral e para trás.",
+    "origem": "Face orbital da maxila, na parte anteromedial do assoalho da órbita, lateralmente ao sulco lacrimal.",
+    "insercao": "Esclera do quadrante posteroinferolateral do bulbo, atrás do equador, profundamente ao reto lateral.",
+    "inervacao": { "nervo": "Nervo oculomotor (NC III), ramo inferior", "raizes": "NC III", "nervoKeys": ["Oculomotor nerve (III)"] },
+    "vascularizacao": "Ramos musculares da artéria oftálmica e artéria infraorbital",
+    "acoes": [
+      { "art": "olho", "mov": "rot_lateral", "papel": "primario", "nota": "extorsão (rotação lateral do polo superior)" },
+      { "art": "olho", "mov": "elevacao", "papel": "primario", "nota": "eleva o olhar, sobretudo com o olho aduzido" },
+      { "art": "olho", "mov": "abducao", "papel": "secundario" }
+    ],
+    "funcao": "Puxa a parte posterior do bulbo para baixo e medialmente: o olhar vai para cima e para fora, com extorsão. É o elevador do olho aduzido.",
+    "antagonistas": ["Superior oblique muscle"],
+    "sinergistas": ["Superior rectus muscle"],
+    "teste": "Teste em H: o paciente olha para o nariz (adução) e depois para cima.",
+    "clinica": "Comprometido na paralisia do nervo oculomotor. O ramo para o oblíquo inferior leva as fibras parassimpáticas ao gânglio ciliar.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Levator palpebrae superioris",
+    "pt": "Músculo levantador da pálpebra superior",
+    "latim": "Musculus levator palpebrae superioris",
+    "sinonimos": ["elevador da pálpebra superior"],
+    "resumo": "Músculo fino e triangular situado no teto da órbita, acima do reto superior; abre o olho elevando a pálpebra superior.",
+    "origem": "Asa menor do esfenoide, acima e à frente do canal óptico.",
+    "insercao": "Por uma aponeurose larga, na pele da pálpebra superior e na face anterior do tarso superior; a lâmina profunda contém músculo liso (músculo tarsal superior), que se insere na borda superior do tarso.",
+    "inervacao": { "nervo": "Nervo oculomotor (NC III), ramo superior; o músculo tarsal superior (liso) recebe fibras simpáticas", "raizes": "NC III", "nervoKeys": ["Oculomotor nerve (III)"] },
+    "vascularizacao": "Artéria oftálmica (ramos musculares e artéria supraorbital)",
+    "acoes": [
+      { "art": "face", "mov": "elevacao", "papel": "primario", "nota": "eleva a pálpebra superior (abre a rima das pálpebras)" }
+    ],
+    "funcao": "Eleva e retrai a pálpebra superior; é o antagonista da parte palpebral do orbicular do olho. O componente liso mantém a abertura tônica da pálpebra.",
+    "antagonistas": ["Palpebral part of orbicularis oculi"],
+    "sinergistas": ["Superior rectus muscle", "Frontalis muscle"],
+    "clinica": "Ptose palpebral completa indica lesão do nervo oculomotor; ptose parcial, com miose, sugere lesão simpática (síndrome de Horner, por exemplo no tumor de ápice pulmonar ou lesões do tronco inferior/cadeia cervical). Ptose flutuante que piora com a fadiga é típica da miastenia grave. Atenção: na paralisia facial o olho não fecha (orbicular do olho, NC VII); na paralisia do oculomotor o olho não abre.",
+    "dica": "O III abre o olho, o VII fecha.",
+    "camada": "profunda"
+  }
+]

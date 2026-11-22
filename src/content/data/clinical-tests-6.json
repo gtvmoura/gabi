@@ -1,0 +1,101 @@
+[
+  {
+    "id": "gaveta-anterior-tornozelo",
+    "nome": "Teste da gaveta anterior do tornozelo",
+    "art": "tornozelo",
+    "objetivo": "Avaliar a integridade do ligamento talofibular anterior.",
+    "estruturas": ["Anterior talofibular ligament", "Talus", "Fibula", "Tibia", "Ankle joint", "Lateral collateral ligament of ankle"],
+    "posicao": "Sentado na borda da maca com o joelho fletido (relaxa o tríceps sural) ou em decúbito dorsal, tornozelo em cerca de 10°–20° de flexão plantar.",
+    "execucao": "O examinador estabiliza a tíbia e a fíbula distais com uma mão e, com a outra, envolve o calcâneo por trás e traciona o pé (tálus) anteriormente.",
+    "positivo": "Translação anterior do tálus maior que a do lado oposto, com ponto final mole; pode surgir uma depressão (sinal do sulco) na face anterolateral do tornozelo.",
+    "observacao": "Logo após a entorse, dor e edema limitam o exame; o teste é mais confiável quando repetido por volta de 4 a 5 dias após a lesão. A gaveta positiva associada a hematoma e dor à palpação do ligamento torna a ruptura muito provável."
+  },
+  {
+    "id": "inclinacao-talar",
+    "nome": "Teste de inclinação talar (talar tilt / estresse em inversão)",
+    "art": "tornozelo",
+    "objetivo": "Avaliar o ligamento calcaneofibular (e, em flexão plantar, o talofibular anterior).",
+    "estruturas": ["Calcaneofibular ligament", "Anterior talofibular ligament", "Talus", "Calcaneus", "Lateral malleolus", "Ankle joint"],
+    "posicao": "Sentado ou em decúbito lateral/dorsal, joelho fletido, tornozelo em posição neutra (90°).",
+    "execucao": "O examinador estabiliza a perna distal e, segurando o calcâneo e o tálus, inclina o retropé em inversão (adução). Repetir em flexão plantar testa mais o talofibular anterior. A inclinação em eversão avalia o ligamento deltóideo.",
+    "positivo": "Inclinação do tálus em inversão maior que a do lado oposto, com ponto final mole e dor lateral.",
+    "observacao": "Frouxidão em inversão com o tornozelo neutro sugere lesão combinada do talofibular anterior e do calcaneofibular, já que o segundo raramente se rompe de forma isolada."
+  },
+  {
+    "id": "thompson",
+    "nome": "Teste de Thompson (Simmonds)",
+    "art": "tornozelo",
+    "objetivo": "Detectar ruptura completa do tendão do calcâneo.",
+    "estruturas": ["Calcaneal tendon", "Medial head of gastrocnemius", "Lateral head of gastrocnemius", "Soleus muscle", "Calcaneus"],
+    "posicao": "Decúbito ventral, com os pés para fora da maca (ou ajoelhado sobre uma cadeira), musculatura relaxada.",
+    "execucao": "O examinador comprime o ventre do tríceps sural, um pouco distal ao ponto de maior circunferência da panturrilha.",
+    "positivo": "Ausência de flexão plantar do pé (ou movimento nitidamente menor que o do lado oposto).",
+    "observacao": "Teste de alta acurácia. Reforçam o diagnóstico: falha (gap) palpável no tendão e perda do equino fisiológico em prono com os joelhos fletidos (teste de Matles). O paciente pode conseguir fletir plantarmente contra pouca resistência usando os flexores longos e os fibulares, o que não exclui ruptura."
+  },
+  {
+    "id": "squeeze-sindesmose",
+    "nome": "Teste de compressão da perna (squeeze test da sindesmose)",
+    "art": "tornozelo",
+    "objetivo": "Investigar lesão da sindesmose tibiofibular distal (entorse «alta» do tornozelo).",
+    "estruturas": ["Tibiofibular syndesmosis", "Anterior tibiofibular ligament", "Posterior tibiofibular ligament", "Interosseous membrane of leg", "Fibula", "Tibia"],
+    "posicao": "Sentado na borda da maca, perna pendente, ou em decúbito dorsal.",
+    "execucao": "O examinador comprime a tíbia contra a fíbula no terço médio da perna, bem acima da área lesada.",
+    "positivo": "Dor referida distalmente, na região da sindesmose (anterolateral, logo acima da articulação do tornozelo).",
+    "observacao": "Específico, mas pouco sensível. Dor no local da compressão deve levantar suspeita de fratura da fíbula ou de síndrome compartimental. Combinar com o teste de rotação lateral e a palpação do ligamento tibiofibular anterior."
+  },
+  {
+    "id": "kleiger",
+    "nome": "Teste de Kleiger (estresse em rotação lateral)",
+    "art": "tornozelo",
+    "objetivo": "Investigar lesão da sindesmose tibiofibular distal e do ligamento deltóideo.",
+    "estruturas": ["Anterior tibiofibular ligament", "Tibiofibular syndesmosis", "Medial collateral ligament of ankle", "Tibionavicular ligament", "Tibiocalcaneal ligament", "Talus"],
+    "posicao": "Sentado na borda da maca, joelho fletido a 90°, perna pendente.",
+    "execucao": "O examinador estabiliza a perna distal com uma mão e, com a outra, segura o pé com o tornozelo em posição neutra (ou leve dorsiflexão) e aplica rotação lateral do pé em relação à perna.",
+    "positivo": "Dor anterolateral sobre a sindesmose (lesão sindesmótica). Dor medial, com sensação de deslocamento do tálus em relação ao maléolo medial, sugere lesão do ligamento deltóideo.",
+    "observacao": "É um dos testes mais utilizados para a entorse alta, que tem recuperação mais lenta que a entorse lateral comum."
+  },
+  {
+    "id": "homans",
+    "nome": "Sinal de Homans",
+    "art": "tornozelo",
+    "objetivo": "Teste clássico para suspeita de trombose venosa profunda da perna; hoje tem valor histórico.",
+    "estruturas": ["Popliteal vein", "Soleus muscle", "Medial head of gastrocnemius", "Lateral head of gastrocnemius", "Femoral vein"],
+    "posicao": "Decúbito dorsal, joelho estendido (ou levemente fletido).",
+    "execucao": "O examinador realiza dorsiflexão passiva do tornozelo, podendo associar compressão da panturrilha.",
+    "positivo": "Dor profunda na panturrilha durante a dorsiflexão.",
+    "observacao": "ATENÇÃO: acurácia baixa, com muitos falso-positivos e falso-negativos; não confirma nem exclui trombose venosa profunda e não deve ser usado isoladamente. Na suspeita clínica (dor e edema unilateral da panturrilha, calor, empastamento, fatores de risco como cirurgia recente, imobilização ou câncer), aplicar uma regra de predição clínica como o escore de Wells e encaminhar para avaliação médica (D-dímero, ultrassonografia com Doppler)."
+  },
+  {
+    "id": "windlass",
+    "nome": "Teste do molinete (windlass)",
+    "art": "tornozelo",
+    "objetivo": "Investigar fasciopatia plantar (fascite plantar), tensionando a aponeurose plantar.",
+    "estruturas": ["Plantar aponeurosis", "Calcaneus", "Medial process of calcaneal tuberosity", "Proximal phalanx of first finger of foot", "First metatarsal bone", "Metatarsophalangeal joints"],
+    "posicao": "Sem carga: sentado, joelho fletido a 90° e tornozelo estabilizado em posição neutra. Com carga: em pé sobre um degrau, com os dedos para fora da borda.",
+    "execucao": "O examinador estende passivamente a articulação metatarsofalângica do hálux até o final da amplitude ou até o surgimento da dor.",
+    "positivo": "Reprodução da dor na face plantar medial do calcanhar ou ao longo do arco longitudinal medial.",
+    "observacao": "Muito específico, mas pouco sensível (a versão com carga é mais sensível). O mecanismo de molinete é fisiológico: a extensão dos dedos enrola a aponeurose em torno das cabeças dos metatarsais, eleva o arco longitudinal e torna o pé uma alavanca rígida na impulsão."
+  },
+  {
+    "id": "tinel-tunel-do-tarso",
+    "nome": "Sinal de Tinel no túnel do tarso",
+    "art": "tornozelo",
+    "objetivo": "Investigar compressão do nervo tibial atrás do maléolo medial (síndrome do túnel do tarso).",
+    "estruturas": ["Tibial nerve", "Flexor retinaculum of ankle", "Medial malleolus", "Medial plantar nerve", "Lateral plantar nerve", "Posterior tibial artery"],
+    "posicao": "Decúbito dorsal ou sentado, pé relaxado.",
+    "execucao": "O examinador percute o trajeto do nervo tibial posteriormente ao maléolo medial, sob o retináculo dos flexores.",
+    "positivo": "Parestesia ou choque irradiado para a planta do pé e os dedos (território dos nervos plantares medial e lateral).",
+    "observacao": "Pode ser complementado pelo teste de dorsiflexão-eversão mantidas, que tensiona o nervo e estreita o túnel. Diferenciar de fasciopatia plantar e de radiculopatia S1."
+  },
+  {
+    "id": "mulder",
+    "nome": "Sinal de Mulder",
+    "art": "tornozelo",
+    "objetivo": "Investigar neuroma de Morton (neuroma interdigital), mais comum no terceiro espaço intermetatarsal.",
+    "estruturas": ["Common plantar digital branches of medial plantar nerve", "Common plantar digital branches of lateral plantar nerve", "Deep transverse metatarsal ligament", "Third metatarsal bone", "Fourth metatarsal bone"],
+    "posicao": "Decúbito dorsal ou sentado, pé relaxado.",
+    "execucao": "O examinador comprime o antepé no sentido mediolateral, aproximando as cabeças dos metatarsais, enquanto pressiona com o polegar da outra mão o espaço intermetatarsal suspeito pela face plantar.",
+    "positivo": "Estalido palpável (clique de Mulder), acompanhado de dor ou parestesia nos dedos adjacentes ao espaço.",
+    "observacao": "O nervo digital plantar comum passa sob o ligamento metatarsal transverso profundo, onde pode ser comprimido. Dor à compressão do espaço intermetatarsal sem clique também sugere o diagnóstico. Calçados estreitos e de salto alto agravam os sintomas."
+  }
+]

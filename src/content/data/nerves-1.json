@@ -1,0 +1,271 @@
+[
+  {
+    "key": "Brachial plexus",
+    "pt": "Plexo braquial",
+    "raizes": "C5–T1 (ramos anteriores); contribuições inconstantes de C4 (plexo pré-fixado) ou T2 (pós-fixado)",
+    "origem": "Ramos anteriores dos nervos espinais C5, C6, C7, C8 e T1.",
+    "trajeto": "As raízes emergem entre os músculos escalenos anterior e médio (hiato dos escalenos), junto com a artéria subclávia. No trígono cervical posterior unem-se em três troncos (superior, médio e inferior). Atrás da clavícula cada tronco se divide em divisão anterior e posterior. Na axila as divisões formam três fascículos (lateral, posterior e medial), nomeados pela posição em relação à artéria axilar, profundamente ao músculo peitoral menor. Dos fascículos saem os cinco ramos terminais: musculocutâneo, axilar, radial, mediano e ulnar.",
+    "motor": "Todos os músculos do membro superior e do cíngulo do membro superior, exceto o trapézio (nervo acessório) e parte do levantador da escápula (C3–C4).",
+    "sensitivo": "Toda a pele do membro superior, exceto a região sobre o ombro (nervos supraclaviculares, C3–C4) e a axila e parte medial proximal do braço (nervo intercostobraquial, T2).",
+    "lesao": "Lesão alta (tronco superior, C5–C6; paralisia de Erb-Duchenne): tração que aumenta o ângulo entre pescoço e ombro (parto, queda de moto). Membro em adução e rotação medial do ombro, cotovelo estendido e antebraço pronado (“gorjeta de garçom”).\n\nLesão baixa (tronco inferior, C8–T1; paralisia de Klumpke): tração do braço em abdução forçada. Paralisia dos músculos intrínsecos da mão (mão em garra) e perda sensitiva na borda medial do antebraço e da mão; pode haver síndrome de Horner se T1 for avulsionada.\n\nSíndrome do desfiladeiro torácico: compressão do plexo (principalmente tronco inferior) e dos vasos subclávios no hiato dos escalenos, no espaço costoclavicular ou sob o peitoral menor, com parestesia na borda ulnar e fraqueza da mão que pioram com os braços elevados.",
+    "resumo": "Rede nervosa formada pelos ramos anteriores de C5 a T1 que inerva o membro superior. Organiza-se em raízes, troncos, divisões, fascículos e ramos terminais."
+  },
+  {
+    "key": "Roots of brachial plexus",
+    "pt": "Raízes do plexo braquial",
+    "raizes": "C5, C6, C7, C8 e T1",
+    "origem": "São os ramos anteriores dos nervos espinais C5–T1 (não confundir com as raízes anterior e posterior do nervo espinal).",
+    "trajeto": "Saem dos forames intervertebrais, passam atrás da artéria vertebral e emergem no pescoço entre os músculos escalenos anterior e médio, acima e atrás da artéria subclávia. C5 e C6 unem-se no tronco superior, C7 continua como tronco médio, C8 e T1 formam o tronco inferior.",
+    "motor": "Ramos que saem diretamente das raízes: nervo dorsal da escápula (C5) para romboides e levantador da escápula; nervo torácico longo (C5–C7) para o serrátil anterior; ramos musculares para os escalenos e o longo do pescoço; contribuição de C5 para o nervo frênico.",
+    "sensitivo": "Não emitem ramos cutâneos diretos.",
+    "lesao": "Avulsão radicular (lesão pré-ganglionar) em traumas de alta energia: prognóstico ruim, sem regeneração espontânea. Sinais de lesão ao nível da raiz: escápula alada (serrátil anterior e romboides comprometidos), paralisia do diafragma e síndrome de Horner (T1). Compressão no hiato dos escalenos na síndrome do desfiladeiro torácico.",
+    "resumo": "Os cinco ramos anteriores (C5–T1) que iniciam o plexo braquial, entre os escalenos anterior e médio. Dão origem aos nervos dorsal da escápula e torácico longo."
+  },
+  {
+    "key": "Superior trunk of brachial plexus",
+    "pt": "Tronco superior do plexo braquial",
+    "raizes": "C5–C6",
+    "origem": "União das raízes C5 e C6 na borda lateral do músculo escaleno médio (ponto de Erb do plexo).",
+    "trajeto": "Curto, situado no trígono cervical posterior, acima da clavícula. Antes de se dividir emite os nervos supraescapular e subclávio; em seguida separa-se em divisão anterior (para o fascículo lateral) e divisão posterior (para o fascículo posterior).",
+    "motor": "Ramos diretos: nervo supraescapular (supraespinal e infraespinal) e nervo subclávio (músculo subclávio). Por meio de suas divisões, leva as fibras C5–C6 para deltoide, redondo menor, bíceps braquial, braquial, braquiorradial, supinador, rotadores laterais do ombro e parte do peitoral maior.",
+    "sensitivo": "Fibras dos dermátomos C5 e C6: face lateral do braço e do antebraço e polegar.",
+    "lesao": "Paralisia de Erb-Duchenne (lesão alta do plexo): distensão por afastamento brusco entre cabeça e ombro (parto com distocia de ombro, queda sobre o ombro, acidentes de moto) ou compressão por mochila pesada. Perda de abdução e rotação lateral do ombro, flexão do cotovelo e supinação: membro pendente em adução e rotação medial, cotovelo estendido e antebraço pronado (“gorjeta de garçom”). Reflexos bicipital e braquiorradial diminuídos; hipoestesia na face lateral do braço e do antebraço.",
+    "resumo": "Formado por C5 e C6; origina os nervos supraescapular e subclávio. Sua lesão causa a paralisia de Erb-Duchenne."
+  },
+  {
+    "key": "Middle trunk of brachial plexus",
+    "pt": "Tronco médio do plexo braquial",
+    "raizes": "C7",
+    "origem": "Continuação direta da raiz C7.",
+    "trajeto": "Passa entre os troncos superior e inferior no trígono cervical posterior e, atrás da clavícula, divide-se em divisão anterior (une-se à do tronco superior para formar o fascículo lateral) e divisão posterior (para o fascículo posterior). Não emite ramos colaterais.",
+    "motor": "Conduz as fibras C7, destinadas sobretudo ao nervo radial (tríceps braquial, extensores do punho e dos dedos) e, pelo fascículo lateral, ao nervo mediano (pronador redondo, flexor radial do carpo) e ao peitoral maior.",
+    "sensitivo": "Fibras do dermátomo C7: dedo médio e parte central da mão.",
+    "lesao": "Lesão isolada é rara; em geral acompanha a lesão do tronco superior (Erb “estendida”, C5–C7), acrescentando fraqueza da extensão do cotovelo, do punho e dos dedos e diminuição do reflexo tricipital.",
+    "resumo": "Continuação da raiz C7, sem ramos colaterais. Suas fibras destinam-se principalmente aos extensores do cotovelo, punho e dedos."
+  },
+  {
+    "key": "Inferior trunk of brachial plexus",
+    "pt": "Tronco inferior do plexo braquial",
+    "raizes": "C8–T1",
+    "origem": "União das raízes C8 e T1 atrás do músculo escaleno anterior.",
+    "trajeto": "Apoia-se sobre a primeira costela, atrás da artéria subclávia e próximo ao ápice do pulmão. Divide-se em divisão anterior (que continua como fascículo medial) e divisão posterior (pequena, para o fascículo posterior). Não emite ramos colaterais.",
+    "motor": "Conduz as fibras C8–T1 para os músculos intrínsecos da mão (nervos ulnar e mediano) e para os flexores longos dos dedos.",
+    "sensitivo": "Fibras dos dermátomos C8 e T1: borda medial da mão, dedo mínimo e face medial do antebraço.",
+    "lesao": "Paralisia de Klumpke (lesão baixa do plexo): tração do membro em abdução (agarrar-se durante uma queda, parto com tração do braço). Paralisia dos intrínsecos da mão com mão em garra, fraqueza dos flexores dos dedos e anestesia na borda medial do antebraço e da mão; síndrome de Horner (ptose, miose, anidrose) se houver avulsão de T1.\n\nTambém é o tronco mais comprometido na síndrome do desfiladeiro torácico (costela cervical, banda fibrosa) e no tumor do ápice pulmonar (tumor de Pancoast).",
+    "resumo": "Formado por C8 e T1, repousa sobre a primeira costela. Sua lesão (Klumpke) compromete a mão: garra e perda sensitiva na borda ulnar."
+  },
+  {
+    "key": "Anterior division of superior trunk of brachial plexus",
+    "pt": "Divisão anterior do tronco superior do plexo braquial",
+    "raizes": "C5–C6",
+    "resumo": "Une-se à divisão anterior do tronco médio para formar o fascículo lateral. As divisões anteriores levam fibras para os compartimentos anteriores (flexores) do membro superior; daqui saem fibras para os nervos musculocutâneo, peitoral lateral e raiz lateral do mediano."
+  },
+  {
+    "key": "Posterior division of superior trunk of brachial plexus",
+    "pt": "Divisão posterior do tronco superior do plexo braquial",
+    "raizes": "C5–C6",
+    "resumo": "Une-se às divisões posteriores dos troncos médio e inferior para formar o fascículo posterior. Leva as fibras C5–C6 destinadas aos nervos axilar, subescapulares e radial (compartimentos posteriores, extensores)."
+  },
+  {
+    "key": "Anterior division of middle trunk of brachial plexus",
+    "pt": "Divisão anterior do tronco médio do plexo braquial",
+    "raizes": "C7",
+    "resumo": "Une-se à divisão anterior do tronco superior para formar o fascículo lateral. Conduz as fibras C7 para o nervo musculocutâneo, o nervo peitoral lateral e a raiz lateral do nervo mediano."
+  },
+  {
+    "key": "Posterior division of middle trunk of brachial plexus",
+    "pt": "Divisão posterior do tronco médio do plexo braquial",
+    "raizes": "C7",
+    "resumo": "Junta-se às outras duas divisões posteriores para formar o fascículo posterior. Leva as fibras C7 para os nervos radial e toracodorsal (músculos extensores)."
+  },
+  {
+    "key": "Anterior division of inferior trunk of brachial plexus",
+    "pt": "Divisão anterior do tronco inferior do plexo braquial",
+    "raizes": "C8–T1",
+    "resumo": "Continua sozinha como fascículo medial, de onde saem o nervo ulnar, a raiz medial do nervo mediano, o nervo peitoral medial e os nervos cutâneos mediais do braço e do antebraço."
+  },
+  {
+    "key": "Posterior division of inferior trunk of brachial plexus",
+    "pt": "Divisão posterior do tronco inferior do plexo braquial",
+    "raizes": "C8 (pouca ou nenhuma contribuição de T1)",
+    "resumo": "A menor das divisões; une-se às divisões posteriores dos troncos superior e médio para formar o fascículo posterior, levando fibras para os nervos radial e toracodorsal."
+  },
+  {
+    "key": "Posterior cord of brachial plexus",
+    "pt": "Fascículo posterior do plexo braquial",
+    "sinonimos": ["cordão posterior", "fascículo posterior"],
+    "raizes": "C5–T1",
+    "origem": "União das três divisões posteriores dos troncos superior, médio e inferior.",
+    "trajeto": "Situa-se atrás da segunda parte da artéria axilar, profundamente ao músculo peitoral menor e à frente do músculo subescapular. Emite três ramos colaterais sobre a parede posterior da axila e termina, na borda inferior do subescapular, dividindo-se nos nervos axilar e radial.",
+    "motor": "Ramos, de proximal para distal: nervo subescapular superior (subescapular), nervo toracodorsal (latíssimo do dorso), nervo subescapular inferior (subescapular e redondo maior), nervo axilar (deltoide e redondo menor) e nervo radial (tríceps braquial, ancôneo, braquiorradial e todos os extensores do punho e dos dedos, supinador e abdutor longo do polegar).",
+    "sensitivo": "Por meio dos nervos axilar e radial: pele da face lateral do ombro, face posterior do braço e do antebraço e dorso lateral da mão.",
+    "lesao": "Compressão na axila por uso incorreto de muletas axilares ou por luxação do ombro. Combina os quadros de lesão do axilar e do radial: fraqueza da abdução do ombro (deltoide), da extensão do cotovelo (tríceps), mão caída e fraqueza de adução e rotação medial (latíssimo do dorso, subescapular).",
+    "dica": "Macete dos ramos: STAR — Subescapulares (superior e inferior), Toracodorsal, Axilar, Radial.",
+    "resumo": "Formado pelas três divisões posteriores, fica atrás da artéria axilar. Inerva os músculos posteriores (extensores) do membro superior por meio dos nervos axilar e radial."
+  },
+  {
+    "key": "Dorsal scapular nerve",
+    "pt": "Nervo dorsal da escápula",
+    "sinonimos": ["nervo escapular dorsal"],
+    "raizes": "C5 (com contribuição frequente de C4)",
+    "origem": "Raiz C5 do plexo braquial (ramo supraclavicular).",
+    "trajeto": "Perfura o músculo escaleno médio, dirige-se para trás e para baixo, profundamente ao levantador da escápula, e desce ao longo da borda medial da escápula, na face profunda dos romboides, acompanhado pelo ramo profundo da artéria cervical transversa (artéria dorsal da escápula).",
+    "motor": "Romboide maior, romboide menor e, de forma parcial, levantador da escápula (que também recebe ramos de C3–C4).",
+    "sensitivo": "Não tem território cutâneo.",
+    "lesao": "Compressão ou estiramento no escaleno médio (hipertrofia, postura de cabeça anteriorizada, movimentos repetidos acima da cabeça). Dor na região interescapular, fraqueza da retração da escápula e escápula alada discreta: a borda medial se afasta do tórax e a escápula fica lateralizada, com o ângulo inferior rodado lateralmente.",
+    "resumo": "Ramo da raiz C5 que atravessa o escaleno médio e inerva os romboides e o levantador da escápula."
+  },
+  {
+    "key": "Long thoracic nerve",
+    "pt": "Nervo torácico longo",
+    "sinonimos": ["nervo de Bell"],
+    "raizes": "C5, C6, C7",
+    "origem": "Raízes C5–C7 do plexo braquial (ramo supraclavicular). As raízes de C5 e C6 perfuram o escaleno médio.",
+    "trajeto": "Desce atrás do plexo braquial e dos vasos axilares, passa sobre a primeira costela e percorre a face superficial do músculo serrátil anterior, ao longo da linha axilar média, emitindo ramos para cada digitação do músculo. O trajeto longo e superficial na parede torácica o torna vulnerável.",
+    "motor": "Serrátil anterior.",
+    "sensitivo": "Não tem território cutâneo.",
+    "lesao": "Lesado em cirurgias da axila e da mama (esvaziamento axilar, mastectomia), drenagem torácica, traumas na parede lateral do tórax, tração por carga pesada no ombro (mochila) e neurite (síndrome de Parsonage-Turner).\n\nParalisia do serrátil anterior: escápula alada medial — a borda medial e o ângulo inferior se destacam do tórax, o que fica mais evidente ao empurrar a parede com os braços estendidos ou ao fletir o ombro. Perda da protração e da rotação superior da escápula, com dificuldade de elevar o braço acima de 90°.",
+    "resumo": "Nervo do serrátil anterior (C5–C7), que desce pela parede lateral do tórax. Sua lesão produz a escápula alada clássica."
+  },
+  {
+    "key": "Suprascapular nerve",
+    "pt": "Nervo supraescapular",
+    "raizes": "C5, C6 (às vezes C4)",
+    "origem": "Tronco superior do plexo braquial.",
+    "trajeto": "Cruza o trígono cervical posterior em direção lateral, profundamente ao trapézio e ao omo-hióideo. Passa pela incisura da escápula por baixo do ligamento transverso superior da escápula (a artéria supraescapular passa por cima). Na fossa supraespinal inerva o supraespinal, contorna a base da espinha da escápula pela incisura espinoglenoidal e chega à fossa infraespinal.",
+    "motor": "Supraespinal e infraespinal.",
+    "sensitivo": "Não tem território cutâneo habitual; emite ramos articulares para as articulações do ombro (glenoumeral) e acromioclavicular, responsáveis por grande parte da sensibilidade da cápsula do ombro.",
+    "lesao": "Compressão na incisura da escápula (ligamento espessado, tração repetitiva): compromete supraespinal e infraespinal, com dor posterior profunda no ombro, fraqueza no início da abdução e na rotação lateral e atrofia das fossas supra e infraespinal.\n\nCompressão na incisura espinoglenoidal (cisto paralabral, atletas de arremesso e voleibol): atrofia e fraqueza isoladas do infraespinal, muitas vezes indolor. O quadro pode simular lesão do manguito rotador.",
+    "resumo": "Ramo do tronco superior (C5–C6) que passa pela incisura da escápula e inerva supraespinal e infraespinal, além da cápsula do ombro."
+  },
+  {
+    "key": "Subclavian nerve",
+    "pt": "Nervo subclávio",
+    "raizes": "C5, C6",
+    "origem": "Tronco superior do plexo braquial.",
+    "resumo": "Pequeno ramo do tronco superior que desce à frente do plexo e da artéria subclávia para inervar o músculo subclávio. Pode enviar uma raiz acessória ao nervo frênico (nervo frênico acessório)."
+  },
+  {
+    "key": "Lateral pectoral nerve",
+    "pt": "Nervo peitoral lateral",
+    "raizes": "C5, C6, C7",
+    "origem": "Fascículo lateral do plexo braquial.",
+    "trajeto": "Cruza anteriormente a artéria e a veia axilares, perfura a fáscia clavipeitoral junto com a artéria toracoacromial e penetra na face profunda do peitoral maior. Envia um ramo comunicante ao nervo peitoral medial (alça peitoral), à frente da artéria axilar.",
+    "motor": "Peitoral maior, principalmente a parte clavicular e a porção superior da parte esternocostal; pela alça peitoral, contribui para o peitoral menor.",
+    "sensitivo": "Não tem território cutâneo; ramos articulares para a articulação acromioclavicular.",
+    "lesao": "Lesão isolada é incomum (cirurgia de mama, fratura da clavícula). Causa atrofia e fraqueza da parte clavicular do peitoral maior, com perda de força na flexão e na adução horizontal do ombro.",
+    "dica": "O nome vem do fascículo de origem (lateral), não da posição: no tórax ele fica medial ao nervo peitoral medial.",
+    "resumo": "Ramo do fascículo lateral (C5–C7) que perfura a fáscia clavipeitoral e inerva sobretudo a parte clavicular do peitoral maior."
+  },
+  {
+    "key": "Medial pectoral nerve",
+    "pt": "Nervo peitoral medial",
+    "raizes": "C8, T1",
+    "origem": "Fascículo medial do plexo braquial.",
+    "trajeto": "Passa entre a artéria e a veia axilares, recebe o ramo comunicante do nervo peitoral lateral e penetra na face profunda do peitoral menor. Parte de suas fibras atravessa ou contorna o peitoral menor para alcançar o peitoral maior.",
+    "motor": "Peitoral menor e parte esternocostal (inferior) do peitoral maior.",
+    "sensitivo": "Não tem território cutâneo.",
+    "lesao": "Pode ser lesado em cirurgias de mama e da axila. Causa atrofia da porção inferior do peitoral maior e fraqueza da adução e da extensão do ombro a partir da posição fletida.",
+    "resumo": "Ramo do fascículo medial (C8–T1) que perfura e inerva o peitoral menor e alcança a parte esternocostal do peitoral maior."
+  },
+  {
+    "key": "Musculocutaneous nerve",
+    "pt": "Nervo musculocutâneo",
+    "raizes": "C5, C6, C7",
+    "origem": "Ramo terminal do fascículo lateral do plexo braquial.",
+    "trajeto": "Sai do fascículo lateral na borda inferior do peitoral menor, perfura o músculo coracobraquial e desce entre o bíceps braquial e o braquial, inervando ambos. Logo acima do cotovelo emerge lateralmente ao tendão do bíceps, perfura a fáscia e continua como nervo cutâneo lateral do antebraço.",
+    "motor": "Coracobraquial, bíceps braquial e braquial (a parte lateral do braquial também recebe um pequeno ramo do nervo radial).",
+    "sensitivo": "Pele da face lateral do antebraço, do cotovelo ao punho, pelo nervo cutâneo lateral do antebraço. Ramos articulares para o cotovelo.",
+    "lesao": "Lesão isolada é rara: luxação anterior do ombro, ferimentos na axila, compressão no coracobraquial por exercício intenso; o ramo sensitivo pode ser comprimido sob a aponeurose bicipital. Fraqueza acentuada da flexão do cotovelo e da supinação (a flexão persiste parcialmente pelo braquiorradial e pelo pronador redondo), atrofia do compartimento anterior do braço, reflexo bicipital diminuído e hipoestesia na face lateral do antebraço.",
+    "dica": "Macete BBC: Bíceps, Braquial, Coracobraquial.",
+    "resumo": "Nervo do compartimento anterior do braço (C5–C7): perfura o coracobraquial, inerva bíceps e braquial e termina como nervo cutâneo lateral do antebraço."
+  },
+  {
+    "key": "Lateral antebrachial cutaneous nerve",
+    "pt": "Nervo cutâneo lateral do antebraço",
+    "raizes": "C5–C6 (C6–C7 segundo Moore)",
+    "resumo": "Continuação sensitiva do nervo musculocutâneo. Emerge lateralmente ao tendão do bíceps, junto à veia cefálica, e inerva a pele da face lateral (radial) do antebraço até a base da eminência tenar. Pode ser lesado em punções venosas na fossa cubital."
+  },
+  {
+    "key": "Medial brachial cutaneous nerve",
+    "pt": "Nervo cutâneo medial do braço",
+    "raizes": "C8, T1",
+    "resumo": "Menor ramo do fascículo medial. Desce medialmente aos vasos axilares e braquiais, comunica-se com o nervo intercostobraquial (T2) e inerva a pele da face medial do braço até o epicôndilo medial."
+  },
+  {
+    "key": "Medial antebrachial cutaneous nerve",
+    "pt": "Nervo cutâneo medial do antebraço",
+    "raizes": "C8, T1",
+    "resumo": "Ramo do fascículo medial que desce entre a artéria e a veia axilares, perfura a fáscia do braço junto com a veia basílica e divide-se em ramos anterior e posterior. Inerva a pele da face medial do antebraço até o punho."
+  },
+  {
+    "key": "Anterior branch of medial antebrachial cutaneous nerve",
+    "pt": "Ramo anterior do nervo cutâneo medial do antebraço",
+    "raizes": "C8, T1",
+    "resumo": "O maior dos dois ramos; passa junto à veia intermédia do cotovelo e inerva a pele da face anteromedial do antebraço até o punho."
+  },
+  {
+    "key": "Posterior branch of medial antebrachial cutaneous nerve",
+    "pt": "Ramo posterior do nervo cutâneo medial do antebraço",
+    "raizes": "C8, T1",
+    "resumo": "Passa à frente do epicôndilo medial e contorna a borda ulnar do antebraço para inervar a pele da face posteromedial do antebraço."
+  },
+  {
+    "key": "Superior subscapular nerve",
+    "pt": "Nervo subescapular superior",
+    "raizes": "C5, C6",
+    "origem": "Fascículo posterior do plexo braquial (primeiro ramo).",
+    "trajeto": "Curto; dirige-se para trás e penetra diretamente na parte superior do músculo subescapular.",
+    "motor": "Parte superior do subescapular.",
+    "sensitivo": "Não tem território cutâneo.",
+    "lesao": "Lesão isolada é rara. Junto com o subescapular inferior, sua lesão enfraquece a rotação medial do ombro e a estabilização anterior da cabeça do úmero.",
+    "resumo": "Primeiro ramo do fascículo posterior (C5–C6); inerva a parte superior do músculo subescapular."
+  },
+  {
+    "key": "Inferior subscapular nerve",
+    "pt": "Nervo subescapular inferior",
+    "raizes": "C5, C6",
+    "origem": "Fascículo posterior do plexo braquial.",
+    "trajeto": "Desce sobre a face anterior do subescapular, profundamente aos vasos subescapulares, inerva a parte inferior desse músculo e termina no redondo maior.",
+    "motor": "Parte inferior do subescapular e redondo maior.",
+    "sensitivo": "Não tem território cutâneo.",
+    "lesao": "Lesão isolada é rara (cirurgias na axila, abordagens anteriores do ombro). Fraqueza da rotação medial e da adução/extensão do ombro.",
+    "resumo": "Ramo do fascículo posterior (C5–C6) que inerva a parte inferior do subescapular e o redondo maior."
+  },
+  {
+    "key": "Thoracodorsal nerve",
+    "pt": "Nervo toracodorsal",
+    "sinonimos": ["nervo subescapular médio"],
+    "raizes": "C6, C7, C8",
+    "origem": "Fascículo posterior do plexo braquial, entre os nervos subescapulares superior e inferior.",
+    "trajeto": "Desce pela parede posterior da axila, sobre o subescapular, acompanhando a artéria toracodorsal, e penetra na face profunda do latíssimo do dorso.",
+    "motor": "Latíssimo do dorso.",
+    "sensitivo": "Não tem território cutâneo.",
+    "lesao": "Vulnerável em cirurgias da parte inferior da axila (esvaziamento axilar no câncer de mama) e em cirurgias da escápula. Fraqueza da extensão, adução e rotação medial do ombro: dificuldade de puxar o corpo para cima (escalar, barra), de usar muletas axilares (o ombro sobe, pois o latíssimo não deprime o cíngulo) e de impulsionar a cadeira de rodas e fazer transferências.",
+    "resumo": "Ramo do fascículo posterior (C6–C8) que inerva o latíssimo do dorso."
+  },
+  {
+    "key": "Axillary nerve",
+    "pt": "Nervo axilar",
+    "sinonimos": ["nervo circunflexo"],
+    "raizes": "C5, C6",
+    "origem": "Ramo terminal do fascículo posterior do plexo braquial.",
+    "trajeto": "Passa à frente do subescapular, logo abaixo da cápsula da articulação do ombro, e atravessa o espaço quadrangular (limitado por redondo menor, redondo maior, cabeça longa do tríceps e úmero) junto com a artéria circunflexa posterior do úmero. Contorna o colo cirúrgico do úmero de trás para a frente, profundamente ao deltoide, cerca de 5 cm abaixo do acrômio.",
+    "motor": "Deltoide e redondo menor.",
+    "sensitivo": "Pele sobre a parte inferior do deltoide (face lateral do ombro e do braço proximal), pelo nervo cutâneo lateral superior do braço — a área da “insígnia do regimento”. Ramos articulares para a articulação do ombro.",
+    "lesao": "Lesado na luxação anterior (anteroinferior) do ombro, na fratura do colo cirúrgico do úmero, em injeções intramusculares mal posicionadas no deltoide e por compressão no espaço quadrangular.\n\nAtrofia do deltoide (ombro perde o contorno arredondado, acrômio saliente), fraqueza da abdução do ombro acima dos primeiros 15°, da flexão e da extensão, fraqueza da rotação lateral (redondo menor) e hipoestesia na face lateral do braço proximal. Testar a sensibilidade na “insígnia do regimento” é a forma de avaliar o nervo quando o ombro está luxado e doloroso.",
+    "resumo": "Nervo do deltoide e do redondo menor (C5–C6). Atravessa o espaço quadrangular e contorna o colo cirúrgico do úmero, onde é lesado em luxações e fraturas."
+  },
+  {
+    "key": "Muscular branches of axillary nerve",
+    "pt": "Ramos musculares do nervo axilar",
+    "raizes": "C5, C6",
+    "resumo": "O ramo anterior do nervo axilar contorna o colo cirúrgico do úmero e inerva as partes clavicular e acromial do deltoide; o ramo posterior inerva o redondo menor e a parte espinal do deltoide antes de continuar como nervo cutâneo lateral superior do braço."
+  },
+  {
+    "key": "Superior lateral brachial cutaneous nerve",
+    "pt": "Nervo cutâneo lateral superior do braço",
+    "raizes": "C5, C6",
+    "resumo": "Ramo terminal sensitivo do nervo axilar. Contorna a borda posterior do deltoide e inerva a pele sobre a parte inferior desse músculo, na face lateral do braço proximal (“insígnia do regimento”). A perda de sensibilidade nessa área indica lesão do nervo axilar."
+  }
+]

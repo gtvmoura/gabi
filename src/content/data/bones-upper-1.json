@@ -1,0 +1,595 @@
+[
+ {
+  "key": "Clavicle",
+  "pt": "Clavícula",
+  "latim": "Clavicula",
+  "tipo": "longo",
+  "resumo": "Osso longo em forma de S alongado que liga o esterno à escápula. É a única conexão óssea entre o membro superior e o esqueleto axial e funciona como uma escora que mantém o ombro afastado do tórax.",
+  "descricao": "A clavícula é subcutânea e palpável em toda a sua extensão. Os dois terços mediais são convexos anteriormente e o terço lateral é côncavo anteriormente e achatado. A extremidade esternal é robusta e articula-se com o manúbrio do esterno e a primeira cartilagem costal; a extremidade acromial é plana e articula-se com o acrômio.\n\nA face superior é lisa e fica logo abaixo da pele e do platisma. A face inferior é rugosa e traz as marcas dos ligamentos que a prendem à primeira costela (impressão do ligamento costoclavicular) e ao processo coracoide (tubérculo conoide e linha trapezóidea), além do sulco do músculo subclávio. Dão origem ou inserção na clavícula: esternocleidomastóideo (cabeça clavicular), peitoral maior (parte clavicular), deltoide (parte clavicular), trapézio (parte descendente), subclávio e esterno-hióideo.\n\nFuncionalmente, a clavícula transmite forças do membro superior ao esqueleto axial, mantém a escápula e o braço afastados do tronco, garantindo amplitude ao ombro, e protege o feixe neurovascular que passa atrás dela (vasos subclávios e plexo braquial). Durante a elevação completa do braço ela se eleva e roda posteriormente em torno do próprio eixo, movimento indispensável ao ritmo escapuloumeral. É o primeiro osso a iniciar a ossificação e, diferentemente dos demais ossos longos, ossifica-se em grande parte por via intramembranosa; a epífise esternal é uma das últimas do corpo a se fundir.",
+  "articulacoes": [
+   "Esternoclavicular — com a incisura clavicular do manúbrio do esterno e a 1ª cartilagem costal (sinovial selar, com disco articular)",
+   "Acromioclavicular — com a face articular clavicular do acrômio (sinovial plana)"
+  ],
+  "acidentes": [
+   {
+    "key": "Acromial end",
+    "pt": "Extremidade acromial",
+    "nota": "Extremidade lateral, achatada, que se articula com o acrômio. Palpável como um pequeno degrau no topo do ombro; fica mais saliente nas luxações acromioclaviculares (sinal da tecla)."
+   },
+   {
+    "key": "Acromial facet",
+    "pt": "Face articular acromial",
+    "nota": "Pequena faceta oval na extremidade lateral para a articulação acromioclavicular."
+   },
+   {
+    "key": "Body of clavicle",
+    "pt": "Corpo da clavícula",
+    "nota": "Diáfise em S. A transição entre os terços médio e lateral é o ponto mais fraco e o local mais comum de fratura."
+   },
+   {
+    "key": "Conoid tubercle",
+    "pt": "Tubérculo conoide",
+    "nota": "Saliência na face inferior do terço lateral, junto à margem posterior; inserção do ligamento conoide (parte medial do ligamento coracoclavicular)."
+   },
+   {
+    "key": "Groove for subclavius muscle",
+    "pt": "Sulco do músculo subclávio",
+    "nota": "Depressão longitudinal na face inferior do terço médio, onde se insere o músculo subclávio."
+   },
+   {
+    "key": "Impression for costoclavicular ligament",
+    "pt": "Impressão do ligamento costoclavicular",
+    "nota": "Área rugosa na face inferior da extremidade esternal; fixação do ligamento costoclavicular, principal estabilizador da articulação esternoclavicular."
+   },
+   {
+    "key": "Sternal articular surface",
+    "pt": "Face articular esternal",
+    "nota": "Superfície em sela que se articula com o manúbrio e a 1ª cartilagem costal, com um disco articular interposto."
+   },
+   {
+    "key": "Sternal end",
+    "pt": "Extremidade esternal",
+    "nota": "Extremidade medial, volumosa, que ultrapassa superiormente o manúbrio e ajuda a delimitar a incisura jugular. Facilmente palpável."
+   },
+   {
+    "key": "Trapezoid line",
+    "pt": "Linha trapezóidea",
+    "nota": "Crista oblíqua na face inferior, lateral ao tubérculo conoide; inserção do ligamento trapezoide (parte lateral do ligamento coracoclavicular)."
+   },
+   {
+    "key": "Tuberosity for coracoclavicular ligament",
+    "pt": "Tuberosidade do ligamento coracoclavicular",
+    "nota": "Conjunto formado pelo tubérculo conoide e pela linha trapezóidea. O ligamento coracoclavicular suspende a escápula na clavícula e é o principal freio à separação acromioclavicular."
+   }
+  ],
+  "palpacao": "Com o paciente sentado, localize a incisura jugular e deslize lateralmente até a extremidade esternal, que é saliente. Siga o corpo: convexidade anterior nos dois terços mediais e concavidade anterior no terço lateral. Na extremidade lateral, a interlinha acromioclavicular é percebida como um pequeno sulco ou degrau imediatamente medial ao acrômio; pedir uma leve rotação do ombro ajuda a confirmá-la. Abaixo da concavidade lateral fica o sulco deltopeitoral, onde se palpa profundamente o processo coracoide.",
+  "clinica": "A fratura da clavícula é uma das mais frequentes, sobretudo em crianças e em quedas sobre o ombro ou sobre a mão estendida. Ocorre tipicamente na junção dos terços médio e lateral. O fragmento medial é elevado pelo esternocleidomastóideo; o fragmento lateral cai com o peso do membro e é tracionado medialmente pelos adutores do ombro (peitoral maior), o que encurta o ombro. O paciente costuma sustentar o braço lesado com a outra mão.\n\nNas luxações acromioclaviculares (queda sobre a ponta do ombro), a gravidade depende da integridade do ligamento coracoclavicular: quando ele se rompe, o ombro cai e a extremidade acromial da clavícula fica saliente. As luxações esternoclaviculares são raras; a posterior é potencialmente grave pela proximidade da traqueia e dos grandes vasos. Na reabilitação, lembre que a rotação posterior e a elevação da clavícula são necessárias para a elevação completa do braço."
+ },
+ {
+  "key": "Scapula",
+  "pt": "Escápula",
+  "latim": "Scapula",
+  "tipo": "plano",
+  "sinonimos": [
+   "omoplata"
+  ],
+  "resumo": "Osso plano triangular apoiado sobre a face posterolateral do tórax, aproximadamente entre a 2ª e a 7ª costelas. Serve de base móvel para o úmero e de origem ou inserção para 17 músculos.",
+  "descricao": "A escápula tem duas faces (costal e posterior), três margens (medial, lateral e superior) e três ângulos (superior, inferior e lateral). A face costal é côncava e forma a fossa subescapular. A face posterior é dividida pela espinha da escápula em fossa supraespinal e fossa infraespinal, que se comunicam lateralmente pela incisura espinoglenoidal.\n\nA espinha continua-se lateralmente com o acrômio, que forma o ponto mais alto do ombro e se articula com a clavícula. O ângulo lateral, espessado, sustenta a cavidade glenoidal, rasa e piriforme, voltada lateralmente, anteriormente e um pouco para cima; ela é aprofundada pelo lábio glenoidal. Da margem superior projeta-se anterolateralmente o processo coracoide, em forma de dedo fletido.\n\nA escápula não tem articulação óssea direta com o tórax: desliza sobre ele na chamada articulação escapulotorácica (funcional), mantida por músculos. Em repouso, fica a cerca de 5 cm da linha mediana, com a raiz da espinha na altura do processo espinhoso de T3 e o ângulo inferior na altura de T7. Seu plano é oblíquo, cerca de 30° a 40° anterior ao plano frontal (plano da escápula).\n\nSeus movimentos são elevação e depressão, protração (abdução) e retração (adução), rotação superior e inferior, além de inclinações. Na elevação do braço, a rotação superior da escápula acompanha o movimento glenoumeral na proporção global aproximada de 2:1 (ritmo escapuloumeral), produzida pelo par de forças entre trapézio e serrátil anterior.",
+  "articulacoes": [
+   "Glenoumeral (do ombro) — cavidade glenoidal com a cabeça do úmero (sinovial esferoide)",
+   "Acromioclavicular — acrômio com a extremidade acromial da clavícula (sinovial plana)",
+   "Escapulotorácica — articulação funcional (não sinovial) entre a face costal e a parede torácica, por meio dos músculos subescapular e serrátil anterior"
+  ],
+  "acidentes": [
+   {
+    "key": "Acromial angle",
+    "pt": "Ângulo do acrômio",
+    "nota": "Ponto em que a margem lateral do acrômio se continua com a espinha da escápula, na face posterior do ombro. Referência palpável usada para medir o comprimento do braço e localizar o portal posterior do ombro."
+   },
+   {
+    "key": "Acromion",
+    "pt": "Acrômio",
+    "nota": "Expansão lateral da espinha que forma o teto do ombro. Origem da parte acromial do deltoide e inserção de fibras do trapézio. Com o ligamento coracoacromial forma o arco coracoacromial, sob o qual passam o tendão do supraespinal e a bolsa subacromial (local do impacto subacromial)."
+   },
+   {
+    "key": "Clavicular facet",
+    "pt": "Face articular clavicular",
+    "nota": "Pequena faceta oval na margem medial do acrômio para a articulação acromioclavicular."
+   },
+   {
+    "key": "Coracoid process",
+    "pt": "Processo coracoide",
+    "nota": "Origem da cabeça curta do bíceps braquial e do coracobraquial (ápice) e inserção do peitoral menor (margem medial). Dá fixação aos ligamentos coracoclavicular, coracoacromial e coracoumeral. Palpável profundamente no sulco deltopeitoral, cerca de 2,5 cm abaixo da clavícula, na junção dos terços médio e lateral; a palpação costuma ser sensível."
+   },
+   {
+    "key": "Costal surface of scapula",
+    "pt": "Face costal",
+    "nota": "Face anterior, côncava, voltada para as costelas; ocupada pela fossa subescapular. Junto à margem medial insere-se o serrátil anterior."
+   },
+   {
+    "key": "Deltoid tubercle",
+    "pt": "Tubérculo deltóideo (da espinha da escápula)",
+    "nota": "Pequena saliência na parte medial da espinha da escápula, onde se inserem as fibras ascendentes (inferiores) do trapézio e onde começa a origem da parte espinal do deltoide."
+   },
+   {
+    "key": "Glenoid fossa",
+    "pt": "Cavidade glenoidal",
+    "nota": "Superfície articular rasa e piriforme para a cabeça do úmero, aprofundada pelo lábio glenoidal. Cobre apenas cerca de um terço da cabeça do úmero, o que explica a grande mobilidade e a instabilidade da articulação."
+   },
+   {
+    "key": "Glenoid process of scapula",
+    "pt": "Processo glenoidal (cabeça da escápula)",
+    "nota": "Parte espessada do ângulo lateral que sustenta a cavidade glenoidal, unida ao restante do osso pelo colo da escápula."
+   },
+   {
+    "key": "Inferior angle of scapula",
+    "pt": "Ângulo inferior",
+    "nota": "Referência palpável na altura do processo espinhoso de T7 e da 7ª costela. Origem do redondo maior e, às vezes, de fibras do latíssimo do dorso. Seu deslocamento lateral indica rotação superior da escápula."
+   },
+   {
+    "key": "Infraglenoid tubercle",
+    "pt": "Tubérculo infraglenoidal",
+    "nota": "Logo abaixo da cavidade glenoidal; origem da cabeça longa do tríceps braquial."
+   },
+   {
+    "key": "Infraspinous fossa",
+    "pt": "Fossa infraespinal",
+    "nota": "Abaixo da espinha, na face posterior; origem do músculo infraespinal."
+   },
+   {
+    "key": "Lateral angle of scapula",
+    "pt": "Ângulo lateral",
+    "nota": "Ângulo espessado que contém a cavidade glenoidal."
+   },
+   {
+    "key": "Lateral border of scapula",
+    "pt": "Margem lateral",
+    "nota": "Margem espessa, voltada para a axila. Origem do redondo menor (dois terços superiores) e do redondo maior (terço inferior e ângulo inferior)."
+   },
+   {
+    "key": "Medial border of scapula",
+    "pt": "Margem medial",
+    "nota": "Margem vertebral. Inserção do levantador da escápula (do ângulo superior à raiz da espinha), do romboide menor (na altura da raiz da espinha) e do romboide maior (abaixo dela); na face costal, ao longo de toda a margem, insere-se o serrátil anterior. Seu afastamento do tórax caracteriza a escápula alada."
+   },
+   {
+    "key": "Neck of scapula",
+    "pt": "Colo da escápula",
+    "nota": "Estreitamento entre o processo glenoidal e o restante da escápula."
+   },
+   {
+    "key": "Posterior surface of scapula",
+    "pt": "Face posterior",
+    "nota": "Face dorsal, convexa, dividida pela espinha em fossas supraespinal e infraespinal."
+   },
+   {
+    "key": "Scapula",
+    "pt": "Escápula"
+   },
+   {
+    "key": "Scapular notch",
+    "pt": "Incisura da escápula",
+    "nota": "Na margem superior, medial à base do processo coracoide. É fechada pelo ligamento transverso superior da escápula: o nervo supraescapular passa abaixo do ligamento e os vasos supraescapulares passam acima. Local de compressão do nervo supraescapular (fraqueza do supraespinal e do infraespinal)."
+   },
+   {
+    "key": "Spine of scapula",
+    "pt": "Espinha da escápula",
+    "nota": "Crista palpável em toda a extensão; sua raiz medial fica na altura de T3. Inserção do trapézio (partes transversa e ascendente) e origem da parte espinal do deltoide."
+   },
+   {
+    "key": "Spinoglenoid notch",
+    "pt": "Incisura espinoglenoidal",
+    "nota": "Passagem entre as fossas supraespinal e infraespinal, lateral à espinha. Por ela passam o nervo e os vasos supraescapulares rumo ao infraespinal; uma compressão nesse ponto (por exemplo, por cisto) enfraquece isoladamente o infraespinal."
+   },
+   {
+    "key": "Subscapular fossa",
+    "pt": "Fossa subescapular",
+    "nota": "Concavidade da face costal; origem do músculo subescapular."
+   },
+   {
+    "key": "Superior angle of scapula",
+    "pt": "Ângulo superior",
+    "nota": "Na altura aproximada de T2; inserção do levantador da escápula. Ponto frequente de dor e tensão muscular."
+   },
+   {
+    "key": "Superior border of scapula",
+    "pt": "Margem superior",
+    "nota": "A mais curta e fina; contém a incisura da escápula. Junto à incisura origina-se o ventre inferior do omo-hióideo."
+   },
+   {
+    "key": "Supraglenoid tubercle",
+    "pt": "Tubérculo supraglenoidal",
+    "nota": "Logo acima da cavidade glenoidal; origem da cabeça longa do bíceps braquial, cujo tendão é intracapsular e se continua com o lábio glenoidal superior (região das lesões SLAP)."
+   },
+   {
+    "key": "Supraspinous fossa",
+    "pt": "Fossa supraespinal",
+    "nota": "Acima da espinha; origem do músculo supraespinal."
+   }
+  ],
+  "palpacao": "Comece pelo acrômio, plano e subcutâneo no topo do ombro; siga sua margem lateral até o ângulo do acrômio e continue medialmente pela espinha até a raiz, na margem medial (altura de T3). Desça pela margem medial até o ângulo inferior (T7); colocar a mão do paciente atrás das costas descola a margem medial e facilita a palpação. O ângulo superior fica sob o trapézio e é mais difícil de sentir. A margem lateral é palpada pela axila, coberta pelos redondos e pelo latíssimo do dorso. O processo coracoide é palpado anteriormente, no sulco deltopeitoral, abaixo do terço lateral da clavícula.",
+  "clinica": "Escápula alada: a paralisia do serrátil anterior (lesão do nervo torácico longo) faz a margem medial e o ângulo inferior se afastarem do tórax, principalmente ao empurrar uma parede, e limita a elevação do braço acima de 90°. Fraqueza do trapézio (nervo acessório) também altera a posição escapular, com queda do ombro e dificuldade na abdução.\n\nA discinesia escapular, isto é, a alteração da posição e do movimento da escápula, está associada à dor no ombro, ao impacto subacromial e à instabilidade glenoumeral; a avaliação do ritmo escapuloumeral faz parte do exame fisioterapêutico do ombro. A forma do acrômio (plano, curvo ou ganchoso) influencia o espaço subacromial.\n\nAs fraturas da escápula são incomuns e geralmente decorrem de trauma de alta energia, porque o osso é bem protegido por músculos; costumam vir acompanhadas de fraturas de costelas. A compressão do nervo supraescapular na incisura da escápula ou na incisura espinoglenoidal causa dor posterior no ombro e atrofia do supraespinal e/ou do infraespinal."
+ },
+ {
+  "key": "Humerus",
+  "pt": "Úmero",
+  "latim": "Humerus",
+  "tipo": "longo",
+  "resumo": "Osso do braço e o maior osso do membro superior. Articula-se proximalmente com a escápula, no ombro, e distalmente com o rádio e a ulna, no cotovelo. Três nervos têm contato direto com ele: axilar, radial e ulnar.",
+  "descricao": "A extremidade proximal tem a cabeça do úmero, que corresponde a cerca de um terço de esfera e está voltada medial, superior e posteriormente (retroversão em torno de 20° a 30° em relação ao eixo dos epicôndilos). O colo anatômico circunda a cabeça e dá inserção à cápsula articular. Lateralmente fica o tubérculo maior e anteriormente o tubérculo menor, separados pelo sulco intertubercular, por onde corre o tendão da cabeça longa do bíceps. Logo abaixo dos tubérculos o osso se estreita no colo cirúrgico, local frequente de fratura.\n\nO corpo é cilíndrico em cima e triangular embaixo. Na face anterolateral, perto do meio, está a tuberosidade para o músculo deltoide. Na face posterior, o sulco do nervo radial desce obliquamente de medial para lateral, separando as origens das cabeças lateral e medial do tríceps. Distalmente, as margens medial e lateral tornam-se as cristas supraepicondilares.\n\nA extremidade distal é achatada no sentido anteroposterior e forma o côndilo do úmero, com o capítulo (lateral, para a cabeça do rádio) e a tróclea (medial, para a ulna), além de três fossas: radial e coronóidea na frente, do olécrano atrás. Os epicôndilos medial e lateral são salientes e palpáveis; o medial é maior e dá origem aos flexores e ao pronador redondo, enquanto o lateral dá origem aos extensores e ao supinador. A tróclea desce mais medialmente, o que gera o ângulo de carregamento (valgo fisiológico) do cotovelo.",
+  "articulacoes": [
+   "Glenoumeral (do ombro) — cabeça do úmero com a cavidade glenoidal da escápula (sinovial esferoide)",
+   "Umeroulnar — tróclea do úmero com a incisura troclear da ulna (gínglimo)",
+   "Umerorradial — capítulo do úmero com a fóvea da cabeça do rádio"
+  ],
+  "acidentes": [
+   {
+    "key": "Anatomical neck of humerus",
+    "pt": "Colo anatômico",
+    "nota": "Sulco raso que contorna a cabeça e a separa dos tubérculos; linha de inserção da cápsula articular do ombro."
+   },
+   {
+    "key": "Anterior border of humerus",
+    "pt": "Margem anterior",
+    "nota": "Desce da crista do tubérculo maior até a fossa coronóidea, separando as faces anteromedial e anterolateral."
+   },
+   {
+    "key": "Anterolateral surface of humerus",
+    "pt": "Face anterolateral",
+    "nota": "Contém a tuberosidade para o músculo deltoide; sua parte inferior dá origem a fibras do braquial."
+   },
+   {
+    "key": "Anteromedial surface of humerus",
+    "pt": "Face anteromedial",
+    "nota": "No terço médio recebe a inserção do coracobraquial; a parte inferior dá origem ao braquial."
+   },
+   {
+    "key": "Body of humerus",
+    "pt": "Corpo do úmero",
+    "nota": "Diáfise. Fraturas do terço médio podem lesar o nervo radial, que corre em contato com o osso no sulco do nervo radial."
+   },
+   {
+    "key": "Capitulum of humerus",
+    "pt": "Capítulo do úmero",
+    "nota": "Eminência arredondada lateral, visível só nas faces anterior e inferior; articula-se com a fóvea da cabeça do rádio."
+   },
+   {
+    "key": "Condyle of humerus",
+    "pt": "Côndilo do úmero",
+    "nota": "Conjunto da extremidade distal: capítulo, tróclea e fossas radial, coronóidea e do olécrano."
+   },
+   {
+    "key": "Coronoid fossa",
+    "pt": "Fossa coronóidea",
+    "nota": "Acima da tróclea, anteriormente; recebe o processo coronoide da ulna na flexão completa do cotovelo."
+   },
+   {
+    "key": "Crest of greater tubercle",
+    "pt": "Crista do tubérculo maior",
+    "nota": "Lábio lateral do sulco intertubercular; inserção do peitoral maior."
+   },
+   {
+    "key": "Crest of lesser tubercle",
+    "pt": "Crista do tubérculo menor",
+    "nota": "Lábio medial do sulco intertubercular; inserção do redondo maior. O latíssimo do dorso insere-se no assoalho do sulco."
+   },
+   {
+    "key": "Deltoid tuberosity",
+    "pt": "Tuberosidade para o músculo deltoide",
+    "nota": "Rugosidade em V na face anterolateral, perto do meio do corpo; inserção do deltoide. Palpável na face lateral do braço, no vértice do músculo."
+   },
+   {
+    "key": "Greater tubercle",
+    "pt": "Tubérculo maior",
+    "nota": "Saliência lateral com três facetas: superior (supraespinal), média (infraespinal) e inferior (redondo menor). É o ponto ósseo mais lateral do ombro, palpável logo abaixo e lateralmente ao acrômio; a rotação medial com extensão do braço expõe a inserção do supraespinal à frente do acrômio."
+   },
+   {
+    "key": "Groove for ulnar nerve",
+    "pt": "Sulco do nervo ulnar",
+    "nota": "Na face posterior do epicôndilo medial. O nervo ulnar é superficial e vulnerável nesse ponto (o choque ao bater o cotovelo) e segue para o túnel cubital."
+   },
+   {
+    "key": "Head of humerus",
+    "pt": "Cabeça do úmero",
+    "nota": "Superfície articular em terço de esfera, voltada medial, superior e posteriormente. É bem maior que a cavidade glenoidal, o que favorece a mobilidade em detrimento da estabilidade."
+   },
+   {
+    "key": "Humerus",
+    "pt": "Úmero"
+   },
+   {
+    "key": "Intertubercular sulcus",
+    "pt": "Sulco intertubercular",
+    "nota": "Entre os tubérculos maior e menor; aloja o tendão da cabeça longa do bíceps braquial com sua bainha sinovial, mantido pelo ligamento transverso do úmero. Palpável anteriormente com o braço em leve rotação lateral; local da dor na tendinopatia da cabeça longa do bíceps."
+   },
+   {
+    "key": "Lateral border of humerus",
+    "pt": "Margem lateral",
+    "nota": "Vai do tubérculo maior ao epicôndilo lateral; distalmente torna-se a crista supraepicondilar lateral. Dá fixação ao septo intermuscular lateral."
+   },
+   {
+    "key": "Lateral epicondyle of humerus",
+    "pt": "Epicôndilo lateral",
+    "nota": "Origem comum dos extensores do punho e dos dedos (extensor radial curto do carpo, extensor dos dedos, extensor do dedo mínimo, extensor ulnar do carpo), do supinador e do ancôneo, além do ligamento colateral radial. Sede da epicondilalgia lateral (cotovelo de tenista)."
+   },
+   {
+    "key": "Lateral supracondylar ridge",
+    "pt": "Crista supraepicondilar lateral",
+    "nota": "Origem do braquiorradial (dois terços superiores) e do extensor radial longo do carpo (terço inferior)."
+   },
+   {
+    "key": "Lesser tubercle",
+    "pt": "Tubérculo menor",
+    "nota": "Saliência anterior; inserção do subescapular. Palpável medialmente ao sulco intertubercular, com o braço em rotação lateral."
+   },
+   {
+    "key": "Medial border of humerus",
+    "pt": "Margem medial",
+    "nota": "Vai da crista do tubérculo menor ao epicôndilo medial; distalmente torna-se a crista supraepicondilar medial. Dá fixação ao septo intermuscular medial."
+   },
+   {
+    "key": "Medial epicondyle of humerus",
+    "pt": "Epicôndilo medial",
+    "nota": "Mais saliente que o lateral. Origem comum dos flexores (pronador redondo, flexor radial do carpo, palmar longo, flexor ulnar do carpo e flexor superficial dos dedos) e do ligamento colateral ulnar. Sede da epicondilalgia medial (cotovelo de golfista). O nervo ulnar passa atrás dele."
+   },
+   {
+    "key": "Medial supracondylar ridge",
+    "pt": "Crista supraepicondilar medial",
+    "nota": "Prolongamento distal da margem medial; origem de fibras do pronador redondo (cabeça umeral) e fixação do septo intermuscular medial."
+   },
+   {
+    "key": "Olecranon fossa",
+    "pt": "Fossa do olécrano",
+    "nota": "Depressão posterior profunda que recebe o olécrano na extensão completa do cotovelo; o contato ósseo dá a sensação final dura da extensão."
+   },
+   {
+    "key": "Posterior surface of humerus",
+    "pt": "Face posterior",
+    "nota": "Origem da cabeça lateral do tríceps (acima do sulco do nervo radial) e da cabeça medial (abaixo dele)."
+   },
+   {
+    "key": "Radial fossa",
+    "pt": "Fossa radial",
+    "nota": "Acima do capítulo, anteriormente; recebe a cabeça do rádio na flexão completa do cotovelo."
+   },
+   {
+    "key": "Radial groove",
+    "pt": "Sulco do nervo radial",
+    "nota": "Sulco oblíquo na face posterior do corpo, por onde passam o nervo radial e a artéria braquial profunda. Nas fraturas da diáfise o nervo pode ser lesado, causando a mão caída (perda da extensão do punho e dos dedos)."
+   },
+   {
+    "key": "Surgical neck of humerus",
+    "pt": "Colo cirúrgico",
+    "nota": "Estreitamento logo abaixo dos tubérculos. Local frequente de fratura, sobretudo em idosos com osteoporose. O nervo axilar e a artéria circunflexa posterior do úmero contornam o colo cirúrgico e podem ser lesados: fraqueza do deltoide e do redondo menor e perda de sensibilidade na face lateral do ombro."
+   },
+   {
+    "key": "Trochlea of humerus",
+    "pt": "Tróclea do úmero",
+    "nota": "Superfície em carretel, medial ao capítulo, que se articula com a incisura troclear da ulna. Sua margem medial é mais saliente e desce mais, o que determina o ângulo de carregamento do cotovelo."
+   }
+  ],
+  "palpacao": "Proximalmente, o tubérculo maior é palpado logo abaixo da margem lateral do acrômio; com rotação medial e lateral passivas do braço, sentem-se passar sob o dedo o tubérculo maior, o sulco intertubercular e o tubérculo menor. A cabeça do úmero pode ser sentida profundamente na axila com o braço abduzido. A tuberosidade para o deltoide fica na metade lateral do braço. No cotovelo, os epicôndilos medial e lateral são subcutâneos: em extensão eles ficam alinhados com o olécrano e, a 90° de flexão, os três pontos formam um triângulo isósceles (referência perdida na luxação do cotovelo e mantida na fratura supracondilar). O nervo ulnar rola sob o dedo no sulco atrás do epicôndilo medial.",
+  "clinica": "Fraturas e nervos em risco: no colo cirúrgico, o nervo axilar (avaliar a contração do deltoide e a sensibilidade na face lateral do ombro); no terço médio do corpo, o nervo radial (mão caída); na região supracondilar, o nervo mediano e a artéria braquial; no epicôndilo medial, o nervo ulnar.\n\nA fratura do colo cirúrgico é típica do idoso que cai sobre o braço ou a mão; a rigidez do ombro é a principal complicação e a mobilização precoce, respeitando a consolidação, é parte central da reabilitação. A fratura supracondilar por queda com o cotovelo estendido é característica da criança; sua complicação temida é a isquemia dos flexores do antebraço, com contratura isquêmica de Volkmann. Fraturas do tubérculo maior podem acompanhar a luxação anterior do ombro e comprometem o manguito rotador.\n\nNa luxação anterior da articulação do ombro, a cabeça do úmero desloca-se anterior e inferiormente; pode haver lesão do nervo axilar e uma fratura por impactação na parte posterolateral da cabeça (lesão de Hill-Sachs). Os epicôndilos são sede das epicondilalgias lateral e medial, tendinopatias de sobrecarga das origens extensora e flexora."
+ },
+ {
+  "key": "Radius",
+  "pt": "Rádio",
+  "latim": "Radius",
+  "tipo": "longo",
+  "resumo": "Osso lateral do antebraço (lado do polegar). É estreito no cotovelo e largo no punho, onde recebe a maior parte da carga transmitida pela mão. Gira em torno da ulna na pronação e na supinação.",
+  "descricao": "A extremidade proximal tem a cabeça do rádio, um disco cuja face superior côncava (fóvea articular) se articula com o capítulo do úmero e cuja circunferência articular gira dentro do anel formado pela incisura radial da ulna e pelo ligamento anular. Abaixo ficam o colo e, medialmente, a tuberosidade do rádio, onde se insere o bíceps braquial.\n\nO corpo é levemente curvo, com convexidade lateral, e tem três margens (anterior, posterior e interóssea) e três faces (anterior, posterior e lateral). A margem interóssea, medial e cortante, dá fixação à membrana interóssea do antebraço, que une os dois ossos e transmite carga do rádio para a ulna. A curvatura do rádio é importante para a amplitude de pronação e supinação e deve ser restaurada nas fraturas.\n\nA extremidade distal é alargada. Sua face inferior, a face articular carpal, articula-se com o escafoide e o semilunar. Lateralmente prolonga-se no processo estiloide do rádio; medialmente, a incisura ulnar recebe a cabeça da ulna. Na face posterior há o tubérculo dorsal (de Lister) e sulcos para os tendões extensores. A face articular distal está inclinada para o lado ulnar e para a palma (inclinação palmar), o que explica a maior amplitude de flexão e de desvio ulnar do punho.\n\nNa pronação, a cabeça do rádio gira no lugar enquanto a extremidade distal desliza em torno da cabeça da ulna, levando a mão consigo; o rádio cruza a ulna. Na supinação, os dois ossos ficam paralelos.",
+  "articulacoes": [
+   "Umerorradial — fóvea da cabeça do rádio com o capítulo do úmero",
+   "Radiulnar proximal — circunferência articular da cabeça com a incisura radial da ulna e o ligamento anular (trocoide)",
+   "Radiulnar distal — incisura ulnar do rádio com a cabeça da ulna (trocoide)",
+   "Radiocarpal (do punho) — face articular carpal com o escafoide e o semilunar (elipsoide)"
+  ],
+  "acidentes": [
+   {
+    "key": "Anterior border of radius",
+    "pt": "Margem anterior",
+    "nota": "Desce obliquamente a partir da tuberosidade do rádio (linha oblíqua anterior), onde se origina a cabeça radial do flexor superficial dos dedos, até o processo estiloide."
+   },
+   {
+    "key": "Anterior surface of radius",
+    "pt": "Face anterior",
+    "nota": "Origem do flexor longo do polegar (dois terços superiores) e inserção do pronador quadrado (quarto distal)."
+   },
+   {
+    "key": "Articular circumference of head of radius",
+    "pt": "Circunferência articular da cabeça do rádio",
+    "nota": "Contorno liso da cabeça que gira contra a incisura radial da ulna e dentro do ligamento anular na pronação e na supinação."
+   },
+   {
+    "key": "Articular facet of head of radius",
+    "pt": "Fóvea articular da cabeça do rádio",
+    "nota": "Depressão rasa na face superior da cabeça, para o capítulo do úmero."
+   },
+   {
+    "key": "Body of radius",
+    "pt": "Corpo do rádio",
+    "nota": "Diáfise curva, de convexidade lateral. Fratura do terço distal com luxação da articulação radiulnar distal é a fratura-luxação de Galeazzi."
+   },
+   {
+    "key": "Carpal articular surface",
+    "pt": "Face articular carpal",
+    "nota": "Face inferior côncava, dividida por uma crista em área lateral triangular (escafoide) e área medial quadrilátera (semilunar). Continua-se medialmente com o disco articular do punho."
+   },
+   {
+    "key": "Dorsal radial tubercle",
+    "pt": "Tubérculo dorsal do rádio (tubérculo de Lister)",
+    "nota": "Saliência palpável no dorso da extremidade distal, alinhada com o 3º metacarpal. O tendão do extensor longo do polegar contorna-o medialmente, usando-o como polia; lateralmente passam os extensores radiais do carpo. Referência para localizar o semilunar e o escafoide."
+   },
+   {
+    "key": "Grooves for extensor tendons",
+    "pt": "Sulcos dos tendões dos músculos extensores",
+    "nota": "Sulcos no dorso da extremidade distal que conduzem os tendões extensores sob o retináculo: lateralmente ao tubérculo dorsal, os extensores radiais longo e curto do carpo; medialmente a ele, o extensor longo do polegar e, mais medialmente, o extensor dos dedos e o extensor do indicador."
+   },
+   {
+    "key": "Head of radius",
+    "pt": "Cabeça do rádio",
+    "nota": "Palpável na face posterolateral do cotovelo, cerca de 2 cm distal ao epicôndilo lateral; sente-se girar sob o dedo na pronação e supinação. Fratura comum na queda sobre a mão estendida."
+   },
+   {
+    "key": "Interosseous border of radius",
+    "pt": "Margem interóssea",
+    "nota": "Margem medial cortante; fixação da membrana interóssea do antebraço."
+   },
+   {
+    "key": "Lateral surface of radius",
+    "pt": "Face lateral",
+    "nota": "Recebe a inserção do supinador (terço proximal) e do pronador redondo (terço médio)."
+   },
+   {
+    "key": "Neck of radius",
+    "pt": "Colo do rádio",
+    "nota": "Estreitamento abaixo da cabeça, envolvido pela parte inferior do ligamento anular."
+   },
+   {
+    "key": "Posterior border of radius",
+    "pt": "Margem posterior",
+    "nota": "Bem definida apenas no terço médio; separa as faces posterior e lateral."
+   },
+   {
+    "key": "Posterior surface of radius",
+    "pt": "Face posterior",
+    "nota": "Origem do abdutor longo do polegar e do extensor curto do polegar, no terço médio."
+   },
+   {
+    "key": "Pronator tuberosity",
+    "pt": "Tuberosidade para o músculo pronador redondo",
+    "nota": "Área rugosa no meio da face lateral, no ponto de maior convexidade do rádio; inserção do pronador redondo."
+   },
+   {
+    "key": "Radial styloid process",
+    "pt": "Processo estiloide do rádio",
+    "nota": "Projeção lateral distal, palpável na tabaqueira anatômica; desce cerca de 1 cm além do processo estiloide da ulna. Dá fixação ao ligamento colateral radial do carpo. Sobre sua face lateral correm os tendões do abdutor longo e do extensor curto do polegar (1º compartimento extensor), local da tenossinovite de De Quervain."
+   },
+   {
+    "key": "Radial tuberosity",
+    "pt": "Tuberosidade do rádio",
+    "nota": "Saliência medial abaixo do colo; inserção do tendão do bíceps braquial na parte posterior, com uma bolsa na parte anterior. Na pronação a tuberosidade vira para trás, enrolando o tendão, o que explica a ação supinadora do bíceps."
+   },
+   {
+    "key": "Radius",
+    "pt": "Rádio"
+   },
+   {
+    "key": "Suprastyloid crest",
+    "pt": "Crista supraestiloide",
+    "nota": "Crista na face lateral da extremidade distal, logo acima do processo estiloide; inserção do braquiorradial."
+   },
+   {
+    "key": "Ulnar notch",
+    "pt": "Incisura ulnar",
+    "nota": "Concavidade medial da extremidade distal que se articula com a cabeça da ulna. De sua margem inferior parte o disco articular (complexo da fibrocartilagem triangular)."
+   }
+  ],
+  "palpacao": "No cotovelo, localize o epicôndilo lateral e desça cerca de 2 cm: a depressão é a interlinha umerorradial e, logo abaixo, a cabeça do rádio gira sob o dedo quando o antebraço é pronado e supinado passivamente. O corpo é coberto por músculos na metade proximal e torna-se palpável lateralmente na metade distal. No punho, o processo estiloide é palpado na base da tabaqueira anatômica, e o tubérculo dorsal (de Lister) é uma pequena saliência no dorso, cerca de um terço da largura do punho a partir do lado radial, em linha com o 3º metacarpal. Comparar a altura dos dois processos estiloides: o do rádio é normalmente mais distal.",
+  "clinica": "Fratura de Colles: fratura transversal da extremidade distal do rádio, cerca de 2 cm acima do punho, por queda sobre a mão estendida com o punho em extensão; é a fratura mais comum do antebraço, típica de mulheres após os 50 anos com osteoporose. O fragmento distal desloca-se dorsalmente e encurta, produzindo a deformidade em dorso de garfo; é frequente a avulsão associada do processo estiloide da ulna e o estiloide do rádio perde sua posição mais distal. Complicações relevantes para a reabilitação: rigidez de punho e dedos, perda de supinação, síndrome do túnel do carpo, síndrome dolorosa regional complexa e ruptura tardia do tendão do extensor longo do polegar junto ao tubérculo dorsal. A fratura de Smith é o inverso (desvio palmar do fragmento distal, queda sobre o punho fletido).\n\nA fratura da cabeça ou do colo do rádio ocorre na queda sobre a mão estendida, com dor lateral no cotovelo e limitação da pronação e supinação; a perda de extensão do cotovelo é a sequela mais comum. Na criança pequena, a tração brusca do antebraço em pronação pode subluxar a cabeça do rádio sob o ligamento anular (pronação dolorosa). A fratura-luxação de Galeazzi associa fratura do rádio distal à luxação radiulnar distal."
+ },
+ {
+  "key": "Ulna",
+  "pt": "Ulna",
+  "latim": "Ulna",
+  "tipo": "longo",
+  "sinonimos": [
+   "cúbito"
+  ],
+  "resumo": "Osso medial do antebraço (lado do dedo mínimo). É o osso estabilizador: robusto no cotovelo, onde forma a principal articulação com o úmero, e delgado no punho, onde não se articula diretamente com o carpo.",
+  "descricao": "A extremidade proximal é volumosa e tem duas projeções: o olécrano, posterior, que forma a ponta do cotovelo, e o processo coronoide, anterior. Entre eles fica a incisura troclear, que abraça a tróclea do úmero. Na face lateral do processo coronoide está a incisura radial, para a cabeça do rádio, e abaixo dele a tuberosidade da ulna, onde se insere o braquial.\n\nO corpo é triangular em cima e afila-se distalmente. Tem três margens (anterior, posterior e interóssea) e três faces (anterior, posterior e medial). A margem posterior é subcutânea do olécrano ao processo estiloide, o que a torna palpável em toda a extensão. A margem interóssea, lateral, dá fixação à membrana interóssea.\n\nA extremidade distal é a cabeça da ulna, pequena e arredondada, com o processo estiloide projetando-se da parte posteromedial. A cabeça articula-se lateralmente com a incisura ulnar do rádio e inferiormente com o disco articular (fibrocartilagem triangular), que a separa do carpo. Na pronação e na supinação a ulna permanece praticamente fixa enquanto o rádio gira ao seu redor.",
+  "articulacoes": [
+   "Umeroulnar — incisura troclear com a tróclea do úmero (gínglimo)",
+   "Radiulnar proximal — incisura radial com a circunferência articular da cabeça do rádio",
+   "Radiulnar distal — cabeça da ulna com a incisura ulnar do rádio; a face inferior da cabeça relaciona-se com o disco articular, sem contato direto com os ossos do carpo",
+   "Sindesmose radiulnar — membrana interóssea do antebraço"
+  ],
+  "acidentes": [
+   {
+    "key": "Anterior border of ulna",
+    "pt": "Margem anterior",
+    "nota": "Desce da face medial do processo coronoide ao processo estiloide; separa as faces anterior e medial."
+   },
+   {
+    "key": "Articular circumference of head of ulna",
+    "pt": "Circunferência articular da cabeça da ulna",
+    "nota": "Contorno liso anterolateral da cabeça, que se articula com a incisura ulnar do rádio."
+   },
+   {
+    "key": "Body of ulna",
+    "pt": "Corpo da ulna",
+    "nota": "Diáfise. Fratura isolada por trauma direto ao proteger o rosto é a fratura do cassetete; fratura do terço proximal com luxação da cabeça do rádio é a fratura-luxação de Monteggia."
+   },
+   {
+    "key": "Coronoid process of ulna",
+    "pt": "Processo coronoide",
+    "nota": "Projeção anterior que forma a parte inferior da incisura troclear e é um estabilizador ósseo importante do cotovelo. Em sua face anterior e na tuberosidade logo abaixo insere-se o braquial. Pode fraturar nas luxações posteriores do cotovelo."
+   },
+   {
+    "key": "Head of ulna",
+    "pt": "Cabeça da ulna",
+    "nota": "Extremidade distal. Forma a saliência arredondada no dorso do punho, do lado do dedo mínimo, mais evidente com o antebraço em pronação."
+   },
+   {
+    "key": "Interosseous border of ulna",
+    "pt": "Margem interóssea",
+    "nota": "Margem lateral cortante; fixação da membrana interóssea do antebraço. Proximalmente continua-se com a crista do músculo supinador."
+   },
+   {
+    "key": "Medial surface of ulna",
+    "pt": "Face medial",
+    "nota": "Em seus três quartos superiores origina-se o flexor profundo dos dedos; distalmente é subcutânea."
+   },
+   {
+    "key": "Olecranon",
+    "pt": "Olécrano",
+    "nota": "Projeção posterior que forma a ponta do cotovelo e serve de braço de alavanca ao tríceps braquial, que se insere em sua face superior; o ancôneo insere-se na face lateral. A face posterior é subcutânea, coberta pela bolsa subcutânea do olécrano (sede de bursite). Encaixa-se na fossa do olécrano na extensão."
+   },
+   {
+    "key": "Posterior border of ulna",
+    "pt": "Margem posterior",
+    "nota": "Subcutânea e palpável do olécrano ao processo estiloide. Dá fixação à aponeurose comum do flexor ulnar do carpo, do extensor ulnar do carpo e do flexor profundo dos dedos."
+   },
+   {
+    "key": "Posterior surface of ulna",
+    "pt": "Face posterior",
+    "nota": "Proximalmente recebe o ancôneo; mais abaixo dá origem ao abdutor longo do polegar, ao extensor longo do polegar e ao extensor do indicador."
+   },
+   {
+    "key": "Radial notch",
+    "pt": "Incisura radial",
+    "nota": "Faceta côncava na face lateral do processo coronoide para a cabeça do rádio; em suas margens anterior e posterior fixa-se o ligamento anular do rádio."
+   },
+   {
+    "key": "Sublime tubercle",
+    "pt": "Tubérculo sublime",
+    "nota": "Pequena saliência na margem medial do processo coronoide. Inserção do feixe anterior do ligamento colateral ulnar, principal estabilizador do cotovelo contra o estresse em valgo (lesado em arremessadores); nas proximidades origina-se a cabeça umeroulnar do flexor superficial dos dedos."
+   },
+   {
+    "key": "Supinator crest",
+    "pt": "Crista do músculo supinador",
+    "nota": "Crista abaixo da incisura radial, na face lateral; origem do supinador e fixação do ligamento colateral ulnar lateral."
+   },
+   {
+    "key": "Trochlear notch",
+    "pt": "Incisura troclear",
+    "nota": "Grande concavidade em forma de chave inglesa, formada pelo olécrano e pelo processo coronoide, que se articula com a tróclea do úmero. O encaixe ósseo dá ao cotovelo grande estabilidade."
+   },
+   {
+    "key": "Tuberosity of ulna",
+    "pt": "Tuberosidade da ulna",
+    "nota": "Área rugosa logo abaixo do processo coronoide; inserção do músculo braquial."
+   },
+   {
+    "key": "Ulna",
+    "pt": "Ulna"
+   },
+   {
+    "key": "Ulnar styloid process",
+    "pt": "Processo estiloide da ulna",
+    "nota": "Projeção posteromedial da cabeça, palpável no lado ulnar do punho com o antebraço em supinação; termina cerca de 1 cm proximal ao estiloide do rádio. Fixação do ligamento colateral ulnar do carpo e, em sua base, do disco articular. Entre ele e a cabeça corre o tendão do extensor ulnar do carpo."
+   }
+  ],
+  "palpacao": "O olécrano é a ponta do cotovelo; a partir dele, siga a margem posterior, subcutânea, por todo o antebraço até a cabeça da ulna e o processo estiloide. Com o cotovelo fletido a 90°, o olécrano e os dois epicôndilos formam um triângulo. A cabeça da ulna é a saliência dorsal do punho em pronação; em supinação, palpa-se o processo estiloide na face posteromedial. A depressão logo distal ao estiloide, entre os tendões do extensor e do flexor ulnar do carpo, corresponde ao complexo da fibrocartilagem triangular, e dor nesse ponto sugere lesão dessa estrutura.",
+  "clinica": "A fratura do olécrano ocorre por queda sobre o cotovelo ou por contração brusca do tríceps, que traciona o fragmento proximal; como é intra-articular, costuma exigir fixação e mobilização precoce para evitar a rigidez em flexão. A bursite do olécrano é a inflamação da bolsa subcutânea por atrito ou trauma repetido.\n\nA fratura-luxação de Monteggia associa fratura do terço proximal da ulna à luxação da cabeça do rádio e pode lesar o nervo interósseo posterior. Fraturas do processo coronoide acompanham luxações do cotovelo e, quando grandes, deixam instabilidade. No punho, a avulsão do processo estiloide da ulna é comum junto com a fratura de Colles, e lesões do complexo da fibrocartilagem triangular causam dor ulnar à pronação, supinação e desvio ulnar com carga. Uma ulna relativamente longa (variância ulnar positiva) sobrecarrega o compartimento ulnar do carpo."
+ }
+]

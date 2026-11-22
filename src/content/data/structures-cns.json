@@ -1,0 +1,582 @@
+[
+ {
+  "key": "Frontal lobe",
+  "pt": "Lobo frontal",
+  "latim": "Lobus frontalis",
+  "resumo": "Lobo situado à frente do sulco central e acima do sulco lateral. Contém o giro pré-central (área motora primária), as áreas pré-motora e motora suplementar, o campo ocular frontal, a área de Broca (giro frontal inferior do hemisfério dominante) e o córtex pré-frontal, responsável por planejamento, tomada de decisão, controle do comportamento e atenção.",
+  "clinica": "Lesões frontais combinam, conforme a extensão, hemiparesia contralateral, afasia de expressão (hemisfério dominante), apraxia e alterações de comportamento, iniciativa e funções executivas, que interferem diretamente na adesão e no aprendizado motor durante a reabilitação."
+ },
+ {
+  "key": "Precentral gyrus",
+  "pt": "Giro pré-central",
+  "latim": "Gyrus precentralis",
+  "resumo": "Giro do lobo frontal situado imediatamente à frente do sulco central. Corresponde à área motora primária (área 4 de Brodmann), origem de grande parte das fibras do trato corticospinal. Tem organização somatotópica (homúnculo motor): face e mão na parte lateral, tronco mais acima e membro inferior na face medial do hemisfério (lóbulo paracentral).",
+  "clinica": "Lesão causa paresia contralateral com sinais de neurônio motor superior. No AVE da artéria cerebral média, que irriga a face superolateral, a hemiparesia predomina na face e no membro superior; no AVE da artéria cerebral anterior, que irriga a face medial, predomina no membro inferior."
+ },
+ {
+  "key": "Central sulcus",
+  "pt": "Sulco central",
+  "latim": "Sulcus centralis",
+  "resumo": "Sulco profundo que percorre obliquamente a face superolateral do hemisfério e separa o lobo frontal do lobo parietal. É ladeado pelo giro pré-central (motor), à frente, e pelo giro pós-central (somestésico), atrás. Também é conhecido como sulco de Rolando."
+ },
+ {
+  "key": "Superior frontal gyrus",
+  "pt": "Giro frontal superior",
+  "latim": "Gyrus frontalis superior",
+  "resumo": "Giro longitudinal situado acima do sulco frontal superior, que se continua na face medial do hemisfério. Sua parte posterior medial contém a área motora suplementar (parte da área 6), envolvida no planejamento e na iniciação de sequências de movimentos e na coordenação bimanual.",
+  "clinica": "Lesões da área motora suplementar causam dificuldade para iniciar o movimento e a fala, em geral com boa recuperação."
+ },
+ {
+  "key": "Middle frontal gyrus",
+  "pt": "Giro frontal médio",
+  "latim": "Gyrus frontalis medius",
+  "resumo": "Giro situado entre os sulcos frontais superior e inferior. Sua parte posterior contém o campo ocular frontal (área 8), que comanda os movimentos conjugados voluntários dos olhos para o lado oposto; o restante participa do córtex pré-frontal dorsolateral (funções executivas e memória operacional).",
+  "clinica": "Na lesão aguda do campo ocular frontal, os olhos desviam-se para o lado da lesão (o paciente \"olha para a lesão\")."
+ },
+ {
+  "key": "Opercular part of inferior frontal gyrus",
+  "pt": "Parte opercular do giro frontal inferior",
+  "latim": "Pars opercularis gyri frontalis inferioris",
+  "resumo": "Parte posterior do giro frontal inferior, entre o sulco pré-central e o ramo ascendente do sulco lateral. No hemisfério dominante (geralmente o esquerdo) forma, com a parte triangular, a área de Broca (áreas 44 e 45), responsável pela programação motora da fala.",
+  "clinica": "Lesão (território do ramo superior da artéria cerebral média esquerda) causa afasia de Broca: fala não fluente, com esforço, e compreensão relativamente preservada, quase sempre associada a hemiparesia direita de predomínio braquiofacial."
+ },
+ {
+  "key": "Triangular part of inferior frontal gyrus",
+  "pt": "Parte triangular do giro frontal inferior",
+  "latim": "Pars triangularis gyri frontalis inferioris",
+  "resumo": "Parte do giro frontal inferior situada entre os ramos anterior e ascendente do sulco lateral. Corresponde à área 45 de Brodmann e, no hemisfério dominante, integra a área de Broca junto com a parte opercular."
+ },
+ {
+  "key": "Parietal lobe",
+  "pt": "Lobo parietal",
+  "latim": "Lobus parietalis",
+  "resumo": "Lobo situado atrás do sulco central e acima do sulco lateral, limitado posteriormente pelo sulco parietoccipital. Contém o giro pós-central (área somestésica primária) e os lóbulos parietais superior e inferior (giros supramarginal e angular), áreas de associação que integram informações somestésicas, visuais e auditivas para a percepção do corpo e do espaço.",
+  "clinica": "Lesões do lobo parietal direito causam com frequência heminegligência esquerda e alterações do esquema corporal; as do esquerdo, apraxia e distúrbios de linguagem e cálculo. Esses déficits perceptivos costumam limitar a reabilitação mais do que a própria fraqueza."
+ },
+ {
+  "key": "Postcentral gyrus",
+  "pt": "Giro pós-central",
+  "latim": "Gyrus postcentralis",
+  "resumo": "Giro do lobo parietal situado logo atrás do sulco central. Corresponde à área somestésica primária (áreas 3, 1 e 2 de Brodmann), que recebe do tálamo (núcleos ventral posterolateral e posteromedial) as informações de tato, pressão, dor, temperatura e propriocepção da metade oposta do corpo, com somatotopia semelhante à do giro pré-central.",
+  "clinica": "Lesão causa perda da sensibilidade discriminativa contralateral: prejuízo do tato epicrítico, da propriocepção consciente, da discriminação de dois pontos e da estereognosia, com dor e temperatura menos afetadas. O déficit proprioceptivo compromete o controle motor e o equilíbrio."
+ },
+ {
+  "key": "Superior parietal lobule",
+  "pt": "Lóbulo parietal superior",
+  "latim": "Lobulus parietalis superior",
+  "resumo": "Região do lobo parietal situada acima do sulco intraparietal (áreas 5 e 7). É área de associação somestésica e visuomotora, que integra tato e propriocepção com a visão para orientar o membro no espaço e reconhecer objetos pelo tato.",
+  "clinica": "Lesões causam astereognosia e dificuldade em guiar a mão até um alvo sob controle visual (ataxia óptica)."
+ },
+ {
+  "key": "Supramarginal gyrus",
+  "pt": "Giro supramarginal",
+  "latim": "Gyrus supramarginalis",
+  "resumo": "Giro do lóbulo parietal inferior que contorna a extremidade posterior do sulco lateral (área 40). Participa da integração somestésica, do processamento fonológico da linguagem e do planejamento de gestos.",
+  "clinica": "Lesões no hemisfério dominante associam-se a apraxia ideomotora (dificuldade de executar gestos sob comando ou imitação, sem fraqueza que a explique) e a afasia de condução."
+ },
+ {
+  "key": "Angular gyrus",
+  "pt": "Giro angular",
+  "latim": "Gyrus angularis",
+  "resumo": "Giro do lóbulo parietal inferior que contorna a extremidade posterior do sulco temporal superior (área 39). É área de associação multimodal ligada à leitura, à escrita e ao cálculo.",
+  "clinica": "Lesão no hemisfério dominante pode causar alexia com agrafia e a síndrome de Gerstmann (agrafia, acalculia, agnosia digital e confusão direita-esquerda). No hemisfério direito, lesões parietais inferiores causam heminegligência esquerda."
+ },
+ {
+  "key": "Temporal lobe",
+  "pt": "Lobo temporal",
+  "latim": "Lobus temporalis",
+  "resumo": "Lobo situado abaixo do sulco lateral. Contém o córtex auditivo primário (giros temporais transversos), a área de Wernicke (parte posterior do giro temporal superior do hemisfério dominante), áreas de reconhecimento visual de objetos e faces e, na face medial, o hipocampo e o corpo amigdaloide, ligados à memória e às emoções."
+ },
+ {
+  "key": "Superior temporal gyrus (Lateral part)",
+  "pt": "Giro temporal superior (parte lateral)",
+  "latim": "Gyrus temporalis superior",
+  "resumo": "Giro situado entre o sulco lateral e o sulco temporal superior. Contém áreas auditivas de associação (área 22); sua parte posterior, no hemisfério dominante, corresponde à área de Wernicke, essencial para a compreensão da linguagem.",
+  "clinica": "Lesão (ramo inferior da artéria cerebral média esquerda) causa afasia de Wernicke: fala fluente, porém sem sentido, com compreensão gravemente comprometida. Como o paciente não entende comandos verbais, a terapia deve apoiar-se em demonstração e pistas gestuais e táteis."
+ },
+ {
+  "key": "Transverse temporal gyri",
+  "pt": "Giros temporais transversos",
+  "latim": "Gyri temporales transversi",
+  "resumo": "Giros curtos situados na face superior do giro temporal superior, escondidos no fundo do sulco lateral (giros de Heschl). Correspondem à área auditiva primária (áreas 41 e 42), que recebe a radiação auditiva vinda do corpo geniculado medial.",
+  "clinica": "Como cada córtex auditivo recebe informações das duas orelhas, a lesão unilateral não causa surdez, apenas discreta redução da acuidade e dificuldade para localizar sons."
+ },
+ {
+  "key": "Occipital lobe",
+  "pt": "Lobo occipital",
+  "latim": "Lobus occipitalis",
+  "resumo": "Lobo posterior do hemisfério, atrás do sulco parietoccipital. É dedicado à visão: a área visual primária (área 17) situa-se nas margens do sulco calcarino, e as áreas visuais de associação (18 e 19) ocupam o restante do lobo.",
+  "clinica": "É irrigado pela artéria cerebral posterior; seu infarto causa hemianopsia homônima contralateral, que aumenta o risco de colisões e quedas e deve ser considerada no treino de marcha."
+ },
+ {
+  "key": "Calcarine sulcus",
+  "pt": "Sulco calcarino",
+  "latim": "Sulcus calcarinus",
+  "resumo": "Sulco profundo da face medial do lobo occipital, entre o cúneo (acima) e o giro lingual (abaixo). Em suas margens está a área visual primária (córtex estriado, área 17), que recebe a radiação óptica vinda do corpo geniculado lateral. A margem superior representa o campo visual inferior e a inferior, o campo superior; a mácula projeta-se na parte posterior.",
+  "clinica": "Lesão unilateral causa hemianopsia homônima contralateral, frequentemente com preservação da visão macular."
+ },
+ {
+  "key": "Insula",
+  "pt": "Ínsula (lobo insular)",
+  "latim": "Insula; Lobus insularis",
+  "resumo": "Porção do córtex cerebral situada no fundo do sulco lateral, encoberta pelos opérculos frontal, parietal e temporal. Participa da gustação, da sensibilidade visceral e da interocepção, do processamento da dor e de aspectos emocionais e autonômicos."
+ },
+ {
+  "key": "Limbic lobe",
+  "pt": "Lobo límbico",
+  "latim": "Lobus limbicus",
+  "resumo": "Anel de córtex na face medial do hemisfério, em torno do corpo caloso e do diencéfalo, formado principalmente pelo giro do cíngulo, o giro para-hipocampal e o hipocampo. Integra o sistema límbico, relacionado às emoções, à motivação e à memória."
+ },
+ {
+  "key": "Hippocampus",
+  "pt": "Hipocampo",
+  "latim": "Hippocampus",
+  "resumo": "Eminência alongada de córtex antigo situada no assoalho do corno inferior do ventrículo lateral, na face medial do lobo temporal. Através do fórnice conecta-se aos corpos mamilares e a outras estruturas do circuito de Papez. É essencial para a consolidação de novas memórias declarativas e para a memória espacial.",
+  "clinica": "Lesão bilateral causa amnésia anterógrada. É uma das primeiras regiões acometidas na doença de Alzheimer. A memória de procedimentos (aprendizado motor) depende de outros circuitos (núcleos da base e cerebelo) e pode estar preservada, o que é explorado na reabilitação."
+ },
+ {
+  "key": "Amygdaloid body",
+  "pt": "Corpo amigdaloide",
+  "latim": "Corpus amygdaloideum",
+  "resumo": "Conjunto de núcleos situado na parte anterior do lobo temporal, à frente do hipocampo, junto à extremidade do corno inferior do ventrículo lateral. Componente central do sistema límbico, atribui significado emocional aos estímulos, especialmente medo e ameaça, e desencadeia as respostas autonômicas e comportamentais correspondentes."
+ },
+ {
+  "key": "Corpus callosum",
+  "pt": "Corpo caloso",
+  "latim": "Corpus callosum",
+  "resumo": "Maior comissura do cérebro: larga lâmina de fibras brancas que une áreas corticais correspondentes dos dois hemisférios. Divide-se em rostro, joelho, tronco e esplênio e forma o teto dos ventrículos laterais.",
+  "clinica": "Permite a transferência de informações entre os hemisférios, importante para tarefas bimanuais. Sua secção ou agenesia leva à síndrome de desconexão inter-hemisférica."
+ },
+ {
+  "key": "Fornix",
+  "pt": "Fórnice",
+  "latim": "Fornix",
+  "resumo": "Feixe arqueado de fibras brancas que parte do hipocampo, contorna o tálamo por cima e termina principalmente no corpo mamilar do hipotálamo. É a principal via eferente do hipocampo e parte do circuito de Papez, relacionado à memória."
+ },
+ {
+  "key": "Anterior commissure",
+  "pt": "Comissura anterior",
+  "latim": "Commissura anterior",
+  "resumo": "Pequeno feixe compacto de fibras que cruza a linha mediana à frente das colunas do fórnice, unindo partes dos lobos temporais e estruturas olfatórias dos dois hemisférios."
+ },
+ {
+  "key": "White matter of telencephalon",
+  "pt": "Substância branca do telencéfalo",
+  "latim": "Substantia alba telencephali",
+  "resumo": "Massa de fibras mielínicas situada sob o córtex (centro branco medular). Reúne fibras de associação (ligam áreas do mesmo hemisfério), comissurais (ligam os dois hemisférios, como o corpo caloso) e de projeção (ligam o córtex a centros subcorticais). As fibras de projeção convergem na coroa radiada e passam pela cápsula interna, lâmina compacta situada entre o núcleo lentiforme, lateralmente, e o núcleo caudado e o tálamo, medialmente. A perna posterior da cápsula interna contém o trato corticospinal e as radiações talâmicas somestésicas.",
+  "clinica": "Como as fibras estão muito concentradas na cápsula interna, pequenas lesões causam grandes déficits. Infartos lacunares (artérias lenticuloestriadas, ramos da artéria cerebral média) e hemorragias hipertensivas nessa região produzem hemiparesia contralateral proporcionada (face, braço e perna), com ou sem hemi-hipoestesia."
+ },
+ {
+  "key": "Caudate nucleus",
+  "pt": "Núcleo caudado",
+  "latim": "Nucleus caudatus",
+  "resumo": "Núcleo da base em forma de C, com cabeça, corpo e cauda, que acompanha o ventrículo lateral. Junto com o putame forma o estriado (neoestriado), principal porta de entrada dos núcleos da base, que recebe projeções do córtex cerebral e fibras dopaminérgicas da substância negra. Participa mais dos circuitos cognitivos e oculomotores.",
+  "clinica": "Na doença de Huntington há degeneração do estriado, sobretudo do núcleo caudado, com coreia (movimentos involuntários rápidos e irregulares), alterações cognitivas e de comportamento."
+ },
+ {
+  "key": "Putamen",
+  "pt": "Putame",
+  "latim": "Putamen",
+  "resumo": "Parte lateral do núcleo lentiforme, situada entre o globo pálido e a cápsula externa. Forma, com o núcleo caudado, o estriado. É a principal entrada do circuito motor dos núcleos da base: recebe aferências dos córtices motor e somestésico e dopamina da parte compacta da substância negra (via nigroestriatal).",
+  "clinica": "Na doença de Parkinson, a degeneração dos neurônios dopaminérgicos da substância negra (no mesencéfalo) reduz a dopamina no estriado, sobretudo no putame, resultando em bradicinesia, rigidez, tremor de repouso e instabilidade postural. Pistas visuais e auditivas externas ajudam a compensar a falha da geração interna do movimento. O putame é também local frequente de hemorragia hipertensiva."
+ },
+ {
+  "key": "Globus pallidus",
+  "pt": "Globo pálido",
+  "latim": "Globus pallidus",
+  "resumo": "Parte medial do núcleo lentiforme, dividida em segmentos lateral (externo) e medial (interno). O segmento medial, junto com a parte reticular da substância negra, é a principal saída dos núcleos da base: envia projeções inibitórias (GABA) aos núcleos ventral anterior e ventral lateral do tálamo, que modulam o córtex motor.",
+  "clinica": "O globo pálido medial é um dos alvos da estimulação cerebral profunda no tratamento da doença de Parkinson e das distonias."
+ },
+ {
+  "key": "Lentiform nucleus",
+  "pt": "Núcleo lentiforme",
+  "latim": "Nucleus lentiformis",
+  "resumo": "Massa de substância cinzenta em forma de lente biconvexa, situada lateralmente à cápsula interna. É formado pelo putame (lateral) e pelo globo pálido (medial), que são funcionalmente distintos. Núcleo caudado e núcleo lentiforme constituem o corpo estriado.",
+  "clinica": "As doenças dos núcleos da base não causam paralisia, mas distúrbios do movimento: hipocinéticos (Parkinson) ou hipercinéticos (coreia, atetose, balismo, distonia), além de alterações do tônus."
+ },
+ {
+  "key": "Thalamus",
+  "pt": "Tálamo",
+  "latim": "Thalamus",
+  "resumo": "Par de massas ovoides de substância cinzenta do diencéfalo, de cada lado do terceiro ventrículo. É a principal estação de retransmissão para o córtex: quase todas as vias sensitivas (exceto a olfatória) fazem sinapse nele — o núcleo ventral posterolateral recebe a sensibilidade do corpo e o ventral posteromedial, a da face. Os núcleos ventral anterior e ventral lateral retransmitem ao córtex motor as informações dos núcleos da base e do cerebelo. Participa ainda da ativação cortical, da atenção e da memória.",
+  "clinica": "Lesão talâmica (em geral vascular, ramos da artéria cerebral posterior) causa perda de todas as modalidades sensitivas no hemicorpo contralateral e pode evoluir com dor central intensa (síndrome talâmica de Déjerine-Roussy)."
+ },
+ {
+  "key": "Hypothalamus",
+  "pt": "Hipotálamo",
+  "latim": "Hypothalamus",
+  "resumo": "Parte do diencéfalo situada abaixo do tálamo, formando o assoalho e a parte inferior das paredes do terceiro ventrículo. É o principal centro de controle da homeostase: comanda o sistema nervoso autônomo e a hipófise, regula a temperatura corporal, a fome, a sede, o ciclo sono-vigília e participa do comportamento emocional."
+ },
+ {
+  "key": "Mamillary body",
+  "pt": "Corpo mamilar",
+  "latim": "Corpus mammillare",
+  "resumo": "Par de pequenas eminências arredondadas na face inferior do hipotálamo, atrás do túber cinéreo. Recebe o fórnice e projeta-se para o núcleo anterior do tálamo (trato mamilotalâmico), integrando o circuito de Papez.",
+  "clinica": "É lesado na deficiência de tiamina (síndrome de Wernicke-Korsakoff, comum no alcoolismo), que cursa com ataxia, alterações oculomotoras, confusão e amnésia."
+ },
+ {
+  "key": "Optic chiasm",
+  "pt": "Quiasma óptico",
+  "latim": "Chiasma opticum",
+  "resumo": "Lâmina de fibras situada à frente do túber cinéreo e acima da hipófise, onde os dois nervos ópticos se encontram. Nele cruzam apenas as fibras provenientes das metades nasais das retinas, que conduzem os campos visuais temporais.",
+  "clinica": "A compressão da parte mediana, por tumor de hipófise, por exemplo, causa hemianopsia bitemporal (perda dos campos laterais dos dois olhos)."
+ },
+ {
+  "key": "Optic tract",
+  "pt": "Trato óptico",
+  "latim": "Tractus opticus",
+  "resumo": "Feixe de fibras que vai do quiasma óptico ao corpo geniculado lateral, contornando o pedúnculo cerebral. Cada trato contém fibras da retina temporal do mesmo lado e da retina nasal do lado oposto, ou seja, conduz o campo visual contralateral.",
+  "clinica": "Lesão do trato óptico (assim como da radiação óptica ou do córtex visual) causa hemianopsia homônima contralateral."
+ },
+ {
+  "key": "Lateral geniculate body",
+  "pt": "Corpo geniculado lateral",
+  "latim": "Corpus geniculatum laterale",
+  "resumo": "Pequena eminência na parte posterior do tálamo (metatálamo) onde terminam as fibras do trato óptico. É o relé talâmico da via visual: origina a radiação óptica, que se dirige ao córtex visual primário no sulco calcarino."
+ },
+ {
+  "key": "Medial geniculate body",
+  "pt": "Corpo geniculado medial",
+  "latim": "Corpus geniculatum mediale",
+  "resumo": "Eminência do metatálamo, medial ao corpo geniculado lateral. É o relé talâmico da via auditiva: recebe fibras do colículo inferior pelo braço do colículo inferior e origina a radiação auditiva para os giros temporais transversos."
+ },
+ {
+  "key": "Lateral ventricle",
+  "pt": "Ventrículo lateral",
+  "latim": "Ventriculus lateralis",
+  "resumo": "Cavidade de cada hemisfério cerebral, em forma de C, com corno frontal (anterior), parte central, corno occipital (posterior) e corno temporal (inferior). Contém plexo corióideo, que produz líquido cerebrospinal, e comunica-se com o terceiro ventrículo pelo forame interventricular.",
+  "clinica": "A obstrução da circulação do líquido cerebrospinal causa hidrocefalia, com dilatação dos ventrículos. Na hidrocefalia de pressão normal do idoso ocorre a tríade distúrbio de marcha, demência e incontinência urinária."
+ },
+ {
+  "key": "Third ventricle",
+  "pt": "Terceiro ventrículo",
+  "latim": "Ventriculus tertius",
+  "resumo": "Cavidade mediana estreita do diencéfalo, situada entre os dois tálamos e hipotálamos. Recebe o líquido cerebrospinal dos ventrículos laterais pelos forames interventriculares e comunica-se com o quarto ventrículo pelo aqueduto do mesencéfalo."
+ },
+ {
+  "key": "Aqueduct of midbrain",
+  "pt": "Aqueduto do mesencéfalo",
+  "latim": "Aqueductus mesencephali",
+  "resumo": "Canal estreito que atravessa o mesencéfalo, entre o teto e o tegmento, ligando o terceiro ao quarto ventrículo. É circundado pela substância cinzenta periaquedutal, que participa da modulação da dor.",
+  "clinica": "Por ser o ponto mais estreito do sistema ventricular, sua obstrução (estenose congênita, tumores) causa hidrocefalia com dilatação dos ventrículos laterais e do terceiro ventrículo."
+ },
+ {
+  "key": "Fourth ventricle",
+  "pt": "Quarto ventrículo",
+  "latim": "Ventriculus quartus",
+  "resumo": "Cavidade situada entre a ponte e o bulbo, à frente, e o cerebelo, atrás. Seu assoalho é a fossa romboide. Continua-se acima com o aqueduto do mesencéfalo e abaixo com o canal central da medula; o líquido cerebrospinal passa dele ao espaço subaracnóideo pela abertura mediana e pelas duas aberturas laterais."
+ },
+ {
+  "key": "Choroid plexus",
+  "pt": "Plexo corióideo",
+  "latim": "Plexus choroideus",
+  "resumo": "Estrutura vascular franjada, formada por pia-máter vascularizada revestida por epitélio ependimário, presente nos ventrículos laterais, no terceiro e no quarto ventrículos. Produz a maior parte do líquido cerebrospinal (cerca de 500 mL por dia, para um volume circulante de aproximadamente 150 mL).",
+  "clinica": "O líquido cerebrospinal protege o sistema nervoso central contra choques mecânicos e é reabsorvido principalmente nas granulações aracnóideas, para os seios da dura-máter."
+ },
+ {
+  "key": "Brainstem",
+  "pt": "Tronco encefálico",
+  "latim": "Truncus encephali",
+  "resumo": "Parte do encéfalo situada entre a medula espinal e o diencéfalo, à frente do cerebelo. É formado, de baixo para cima, pelo bulbo, pela ponte e pelo mesencéfalo. Contém os núcleos dos nervos cranianos III a XII, a formação reticular (controle do nível de consciência, da respiração, da circulação e do tônus postural) e é atravessado por todas as vias ascendentes e descendentes que ligam o cérebro à medula.",
+  "clinica": "Lesões unilaterais produzem as síndromes alternas: paralisia de nervo craniano do lado da lesão e hemiparesia e/ou perda sensitiva do lado oposto do corpo."
+ },
+ {
+  "key": "Midbrain",
+  "pt": "Mesencéfalo",
+  "latim": "Mesencephalon",
+  "resumo": "Parte mais alta do tronco encefálico, entre a ponte e o diencéfalo, atravessada pelo aqueduto do mesencéfalo. Atrás do aqueduto fica o teto (colículos superiores e inferiores); à frente, os pedúnculos cerebrais, formados pelo tegmento (núcleos dos nervos oculomotor e troclear, núcleo rubro, formação reticular), pela substância negra e pela base do pedúnculo.",
+  "clinica": "A substância negra, lâmina pigmentada entre o tegmento e a base do pedúnculo, contém os neurônios dopaminérgicos que degeneram na doença de Parkinson. Lesão da base do mesencéfalo causa a síndrome de Weber: paralisia do nervo oculomotor do lado da lesão e hemiparesia contralateral."
+ },
+ {
+  "key": "Base of peduncle",
+  "pt": "Base do pedúnculo cerebral",
+  "latim": "Basis pedunculi",
+  "resumo": "Parte anterior do pedúnculo cerebral, formada por feixes compactos de fibras descendentes vindas do córtex: tratos corticospinal e corticonuclear, na parte média, e fibras corticopontinas, nas partes medial e lateral. Separa-se do tegmento pela substância negra.",
+  "clinica": "Sua lesão causa hemiparesia contralateral, incluindo a parte inferior da face. Na hérnia do unco, a compressão do mesencéfalo pode lesar a base do pedúnculo e o nervo oculomotor."
+ },
+ {
+  "key": "Red nucleus",
+  "pt": "Núcleo rubro",
+  "latim": "Nucleus ruber",
+  "resumo": "Núcleo ovoide, de cor rósea, situado no tegmento do mesencéfalo, ao nível do colículo superior. Recebe fibras do cerebelo (pelo pedúnculo cerebelar superior) e do córtex motor e origina o trato rubrospinal, que cruza a linha mediana e facilita os músculos flexores, sobretudo do membro superior; envia também fibras para o complexo olivar inferior.",
+  "clinica": "Lesões situadas acima do núcleo rubro produzem a postura de decorticação (flexão dos membros superiores e extensão dos inferiores); lesões do tronco abaixo dele, a postura de descerebração (extensão dos quatro membros)."
+ },
+ {
+  "key": "Superior colliculus",
+  "pt": "Colículo superior",
+  "latim": "Colliculus superior",
+  "resumo": "Par de eminências superiores do teto do mesencéfalo. Recebe fibras da retina e do córtex visual e coordena reflexos visuais: movimentos dos olhos e da cabeça em direção a estímulos visuais (via trato tetospinal) e movimentos oculares sacádicos."
+ },
+ {
+  "key": "Inferior colliculus",
+  "pt": "Colículo inferior",
+  "latim": "Colliculus inferior",
+  "resumo": "Par de eminências inferiores do teto do mesencéfalo. É estação obrigatória da via auditiva: recebe o lemnisco lateral e envia fibras ao corpo geniculado medial pelo braço do colículo inferior. Participa também de reflexos de orientação a sons."
+ },
+ {
+  "key": "Pons",
+  "pt": "Ponte",
+  "latim": "Pons",
+  "resumo": "Parte média do tronco encefálico, entre o bulbo e o mesencéfalo, à frente do cerebelo. A parte basilar contém os núcleos pontinos, que recebem fibras do córtex cerebral e as retransmitem ao cerebelo oposto pelo pedúnculo cerebelar médio, além dos tratos corticospinal e corticonuclear. O tegmento contém os núcleos dos nervos trigêmeo (V), abducente (VI), facial (VII) e vestibulococlear (VIII).",
+  "clinica": "Lesão unilateral da base pode causar hemiparesia contralateral com paralisia ipsilateral do nervo abducente e/ou do facial. A lesão bilateral da base da ponte (trombose da artéria basilar) causa a síndrome do encarceramento: tetraplegia e anartria com consciência preservada, restando os movimentos verticais dos olhos e o piscar."
+ },
+ {
+  "key": "Medulla oblongata",
+  "pt": "Bulbo (medula oblonga)",
+  "latim": "Medulla oblongata; Bulbus",
+  "resumo": "Parte inferior do tronco encefálico, contínua com a medula espinal ao nível do forame magno. Apresenta na face anterior as pirâmides e, lateralmente, as olivas. Contém os núcleos dos nervos glossofaríngeo (IX), vago (X), acessório (XI) e hipoglosso (XII), os núcleos grácil e cuneiforme e os centros respiratório, vasomotor e do vômito da formação reticular.",
+  "clinica": "Lesões bulbares podem ser fatais por comprometer os centros respiratório e cardiovascular. A síndrome bulbar lateral (de Wallenberg, por oclusão da artéria vertebral ou da cerebelar inferior posterior) cursa com disfagia, disfonia, vertigem, ataxia e síndrome de Horner do lado da lesão, perda de dor e temperatura na face do mesmo lado e no corpo do lado oposto, sem paralisia dos membros."
+ },
+ {
+  "key": "Pyramid of medulla oblongata",
+  "pt": "Pirâmide do bulbo",
+  "latim": "Pyramis medullae oblongatae",
+  "resumo": "Eminência longitudinal de cada lado da fissura mediana anterior do bulbo, formada pelas fibras do trato corticospinal. Na parte inferior do bulbo, a maioria dessas fibras (cerca de 75 a 90%) cruza a linha mediana na decussação das pirâmides e forma o trato corticospinal lateral; as restantes descem do mesmo lado como trato corticospinal anterior.",
+  "clinica": "A decussação das pirâmides explica por que lesões da via motora acima dela causam paralisia do lado oposto do corpo, e lesões na medula, paralisia do mesmo lado."
+ },
+ {
+  "key": "Olive",
+  "pt": "Oliva",
+  "latim": "Oliva",
+  "resumo": "Eminência oval na face lateral do bulbo, entre os sulcos anterolateral e posterolateral, produzida pelo núcleo olivar inferior. Esse núcleo recebe fibras do córtex, do núcleo rubro e da medula e projeta-se para o cerebelo do lado oposto pelo pedúnculo cerebelar inferior (fibras trepadeiras), participando da aprendizagem motora e da correção de erros do movimento."
+ },
+ {
+  "key": "Cerebellum",
+  "pt": "Cerebelo",
+  "latim": "Cerebellum",
+  "resumo": "Órgão situado na fossa posterior do crânio, atrás do tronco encefálico e abaixo do tentório, ligado ao tronco por três pares de pedúnculos cerebelares. Tem uma parte mediana, o verme, e dois hemisférios. Funcionalmente: o vestibulocerebelo (lobo floculonodular) controla o equilíbrio e os movimentos oculares; o espinocerebelo (verme e zona intermédia) regula o tônus, a postura e a execução dos movimentos; o cerebrocerebelo (zona lateral dos hemisférios) participa do planejamento e da coordenação de movimentos finos e da aprendizagem motora.",
+  "clinica": "As lesões cerebelares não causam paralisia, mas incoordenação (ataxia) do mesmo lado da lesão: dismetria, decomposição do movimento, disdiadococinesia, tremor de intenção, hipotonia, disartria e nistagmo. Lesões do verme causam ataxia de tronco e marcha de base alargada; lesões dos hemisférios, ataxia dos membros ipsilaterais."
+ },
+ {
+  "key": "Flocculus",
+  "pt": "Flóculo",
+  "latim": "Flocculus",
+  "resumo": "Pequeno lóbulo do hemisfério cerebelar situado junto ao pedúnculo cerebelar médio e ao nervo vestibulococlear. Com o nódulo do verme forma o lobo floculonodular (vestibulocerebelo), que tem conexões recíprocas com os núcleos vestibulares e controla o equilíbrio e a estabilização do olhar (reflexo vestíbulo-ocular).",
+  "clinica": "Lesões do lobo floculonodular causam desequilíbrio do tronco, marcha atáxica e nistagmo, mesmo com coordenação dos membros preservada quando o paciente está deitado."
+ },
+ {
+  "key": "Nodule of vermis",
+  "pt": "Nódulo do verme",
+  "latim": "Nodulus vermis",
+  "resumo": "Porção mais inferior e anterior do verme do cerebelo, voltada para o quarto ventrículo. Une-se aos flóculos pelos pedúnculos dos flóculos, formando o lobo floculonodular (vestibulocerebelo)."
+ },
+ {
+  "key": "Tonsil of cerebellum",
+  "pt": "Tonsila do cerebelo",
+  "latim": "Tonsilla cerebelli",
+  "resumo": "Lóbulo arredondado da face inferior de cada hemisfério cerebelar, situado junto à linha mediana, logo acima do forame magno e atrás do bulbo.",
+  "clinica": "No aumento da pressão intracraniana, as tonsilas podem herniar pelo forame magno e comprimir o bulbo, com risco de parada respiratória."
+ },
+ {
+  "key": "Superior cerebellar peduncle",
+  "pt": "Pedúnculo cerebelar superior",
+  "latim": "Pedunculus cerebellaris superior",
+  "resumo": "Feixe de fibras que liga o cerebelo ao mesencéfalo. É a principal via eferente do cerebelo: leva fibras dos núcleos denteado e interpósitos, que cruzam na decussação dos pedúnculos cerebelares superiores e terminam no núcleo rubro e no tálamo (núcleo ventral lateral) do lado oposto. Contém também o trato espinocerebelar anterior, aferente.",
+  "clinica": "Como a via eferente do cerebelo cruza e as vias motoras descendentes cruzam de volta, os sinais de uma lesão do hemisfério cerebelar aparecem do mesmo lado do corpo."
+ },
+ {
+  "key": "Spinal cord",
+  "pt": "Medula espinal",
+  "latim": "Medulla spinalis",
+  "resumo": "Parte do sistema nervoso central alojada no canal vertebral, do forame magno até o nível de L1–L2 no adulto, onde termina no cone medular; abaixo dele as raízes formam a cauda equina. Tem 31 segmentos (8 cervicais, 12 torácicos, 5 lombares, 5 sacrais e 1 coccígeo) e as intumescências cervical e lombossacral, de onde saem os plexos para os membros. Em corte transversal, a substância cinzenta central, em forma de H, é envolvida pela substância branca, organizada nos funículos anterior, lateral e posterior.",
+  "clinica": "Na lesão medular completa perdem-se a motricidade voluntária e a sensibilidade abaixo do nível da lesão, com alteração do controle vesical, intestinal e autonômico. Após a fase de choque medular surgem sinais de neurônio motor superior (espasticidade, hiper-reflexia) abaixo do nível. Como a medula é mais curta que a coluna, o segmento medular não corresponde à vértebra de mesmo número."
+ },
+ {
+  "key": "Anterior horn of spinal cord",
+  "pt": "Corno anterior da medula espinal",
+  "latim": "Cornu anterius medullae spinalis",
+  "resumo": "Coluna anterior da substância cinzenta da medula. Contém os corpos dos neurônios motores inferiores: motoneurônios alfa, que inervam as fibras musculares esqueléticas, e gama, que inervam os fusos neuromusculares. Os neurônios para a musculatura axial são mediais e os dos membros, laterais; por isso o corno anterior é mais volumoso nas intumescências.",
+  "clinica": "Sua lesão causa síndrome do neurônio motor inferior no território correspondente: paralisia flácida, hipotonia, arreflexia, atrofia intensa e fasciculações. É acometido na poliomielite, na atrofia muscular espinal e, junto com o neurônio motor superior, na esclerose lateral amiotrófica."
+ },
+ {
+  "key": "Posterior horn of spinal cord",
+  "pt": "Corno posterior da medula espinal",
+  "latim": "Cornu posterius medullae spinalis",
+  "resumo": "Coluna posterior da substância cinzenta da medula, que recebe as fibras sensitivas das raízes posteriores. Contém, entre outros, a substância gelatinosa, onde ocorre a modulação da transmissão da dor, e neurônios que originam as vias ascendentes de dor, temperatura e tato.",
+  "clinica": "A substância gelatinosa é o local do mecanismo de \"comporta\" da dor, pelo qual a estimulação de fibras táteis de grosso calibre inibe a transmissão nociceptiva — um dos fundamentos propostos para o efeito analgésico da TENS."
+ },
+ {
+  "key": "Intermediolateral nucleus",
+  "pt": "Núcleo intermediolateral",
+  "latim": "Nucleus intermediolateralis",
+  "resumo": "Coluna de neurônios que forma o corno lateral da medula nos segmentos T1 a L2. Contém os neurônios pré-ganglionares do sistema nervoso simpático, cujos axônios saem pelas raízes anteriores e alcançam os gânglios do tronco simpático.",
+  "clinica": "Nas lesões medulares acima de T6, a perda do controle supraespinal sobre esses neurônios permite a disreflexia autonômica: crise de hipertensão grave desencadeada por estímulos abaixo da lesão (bexiga cheia, por exemplo), que constitui emergência. Há também hipotensão ortostática e prejuízo da termorregulação."
+ },
+ {
+  "key": "Lateral corticospinal tract",
+  "pt": "Trato corticospinal lateral",
+  "latim": "Tractus corticospinalis lateralis",
+  "resumo": "Principal via da motricidade voluntária. Formado pelas fibras do trato corticospinal que cruzaram na decussação das pirâmides, desce no funículo lateral da medula e termina nos neurônios motores do corno anterior do mesmo lado, controlando sobretudo os movimentos finos e fracionados da musculatura distal dos membros.",
+  "clinica": "Sua lesão causa síndrome do neurônio motor superior abaixo da lesão: paresia, espasticidade, hiper-reflexia, clônus e sinal de Babinski. Na medula, os sinais são do mesmo lado da lesão; acima da decussação (cápsula interna, tronco), do lado oposto."
+ },
+ {
+  "key": "Anterior corticospinal tract",
+  "pt": "Trato corticospinal anterior",
+  "latim": "Tractus corticospinalis anterior",
+  "resumo": "Parte do trato corticospinal formada pelas fibras que não cruzam na decussação das pirâmides. Desce no funículo anterior, junto à fissura mediana anterior, e a maioria de suas fibras cruza na comissura branca pouco antes de terminar. Controla principalmente a musculatura axial e proximal."
+ },
+ {
+  "key": "Lateral spinothalamic tract",
+  "pt": "Trato espinotalâmico lateral",
+  "latim": "Tractus spinothalamicus lateralis",
+  "resumo": "Via ascendente da dor e da temperatura. Os axônios de neurônios do corno posterior cruzam a linha mediana na comissura branca, perto do nível de entrada, e sobem no funículo lateral do lado oposto até o tálamo (núcleo ventral posterolateral), de onde a informação segue para o córtex somestésico.",
+  "clinica": "Lesão unilateral causa perda da sensibilidade térmica e dolorosa do lado oposto do corpo, a partir de um ou dois segmentos abaixo da lesão. Na síndrome de Brown-Séquard (hemissecção da medula) há paralisia e perda da propriocepção do lado da lesão e perda de dor e temperatura do lado oposto."
+ },
+ {
+  "key": "Anterior spinothalamic tract",
+  "pt": "Trato espinotalâmico anterior",
+  "latim": "Tractus spinothalamicus anterior",
+  "resumo": "Via ascendente do tato protopático (grosseiro) e da pressão. Suas fibras originam-se no corno posterior, cruzam na comissura branca e sobem no funículo anterior do lado oposto até o tálamo.",
+  "clinica": "Como o tato também é conduzido pelo funículo posterior, lesões medulares unilaterais raramente abolem por completo a sensibilidade tátil."
+ },
+ {
+  "key": "Gracile fasciculus",
+  "pt": "Fascículo grácil",
+  "latim": "Fasciculus gracilis",
+  "resumo": "Parte medial do funículo posterior da medula. Formado por ramos ascendentes de fibras das raízes posteriores sacrais, lombares e torácicas baixas, conduz propriocepção consciente, tato epicrítico (discriminativo) e sensibilidade vibratória do membro inferior e da metade inferior do tronco. Sobe do mesmo lado e termina no núcleo grácil do bulbo; a via cruza no bulbo e segue pelo lemnisco medial até o tálamo.",
+  "clinica": "Lesão do funículo posterior causa perda da propriocepção e da sensibilidade vibratória do mesmo lado, com ataxia sensitiva: marcha instável que piora no escuro e sinal de Romberg positivo. Ocorre na tabes dorsalis e na deficiência de vitamina B12."
+ },
+ {
+  "key": "Cuneate fasciculus",
+  "pt": "Fascículo cuneiforme",
+  "latim": "Fasciculus cuneatus",
+  "resumo": "Parte lateral do funículo posterior, presente a partir da medula torácica alta. Conduz propriocepção consciente, tato epicrítico e sensibilidade vibratória do membro superior e da metade superior do tronco. Sobe do mesmo lado e termina no núcleo cuneiforme do bulbo, de onde a via cruza e segue pelo lemnisco medial.",
+  "clinica": "Sua lesão compromete a estereognosia e a destreza manual, pois o controle dos movimentos finos da mão depende da propriocepção."
+ },
+ {
+  "key": "Posterior spinocerebellar tract",
+  "pt": "Trato espinocerebelar posterior",
+  "latim": "Tractus spinocerebellaris posterior",
+  "resumo": "Via da propriocepção inconsciente do membro inferior e do tronco. Origina-se no núcleo torácico (de Clarke), sobe na periferia do funículo lateral do mesmo lado, sem cruzar, e entra no cerebelo pelo pedúnculo cerebelar inferior, informando-o sobre o estado de músculos e articulações durante o movimento.",
+  "clinica": "Nas ataxias espinocerebelares hereditárias, como a ataxia de Friedreich, a degeneração dessas vias e dos funículos posteriores causa ataxia de marcha progressiva."
+ },
+ {
+  "key": "Lateral vestibulospinal tract",
+  "pt": "Trato vestibulospinal lateral",
+  "latim": "Tractus vestibulospinalis lateralis",
+  "resumo": "Via descendente originada no núcleo vestibular lateral, que desce sem cruzar no funículo anterior ao longo de toda a medula. Facilita os neurônios motores dos músculos extensores (antigravitários), ajustando o tônus postural e o equilíbrio em resposta às informações do labirinto.",
+  "clinica": "Sua ação sem a modulação de centros superiores contribui para a hipertonia extensora observada na postura de descerebração."
+ },
+ {
+  "key": "Medial reticulospinal tract",
+  "pt": "Trato reticulospinal medial (pontino)",
+  "latim": "Tractus reticulospinalis medialis",
+  "resumo": "Via descendente originada na formação reticular da ponte, que desce no funículo anterior. Com o trato reticulospinal lateral (bulbar), controla a musculatura axial e proximal, o tônus, a postura e os ajustes posturais antecipatórios que precedem os movimentos voluntários, além de participar da locomoção.",
+  "clinica": "O desequilíbrio entre as influências reticulospinais facilitadoras e inibidoras após lesão do neurônio motor superior é um dos mecanismos da espasticidade."
+ },
+ {
+  "key": "Rubrospinal tract",
+  "pt": "Trato rubrospinal",
+  "latim": "Tractus rubrospinalis",
+  "resumo": "Via descendente originada no núcleo rubro do mesencéfalo, que cruza logo após a origem e desce no funículo lateral, junto ao trato corticospinal lateral. Facilita os neurônios motores dos músculos flexores distais, principalmente do membro superior. É pouco desenvolvido na espécie humana."
+ },
+ {
+  "key": "Spinal ganglion",
+  "pt": "Gânglio sensitivo do nervo espinal",
+  "latim": "Ganglion sensorium nervi spinalis",
+  "resumo": "Dilatação da raiz posterior de cada nervo espinal, situada no forame intervertebral. Contém os corpos dos neurônios sensitivos primários (pseudounipolares), cujo prolongamento periférico vem dos receptores e o central entra na medula pela raiz posterior.",
+  "clinica": "O vírus varicela-zóster permanece latente nesses gânglios; sua reativação causa o herpes-zóster, com dor e vesículas no dermátomo correspondente. A compressão do gânglio ou da raiz em hérnias de disco e estenoses foraminais causa dor radicular."
+ },
+ {
+  "key": "Ganglia of sympathetic trunk",
+  "pt": "Gânglios do tronco simpático",
+  "latim": "Ganglia trunci sympathici",
+  "resumo": "Cadeia de gânglios paravertebrais unidos por ramos interganglionares, de cada lado da coluna, da base do crânio ao cóccix. Recebem as fibras pré-ganglionares vindas dos segmentos medulares T1 a L2 (ramos comunicantes brancos) e contêm os neurônios pós-ganglionares simpáticos, cujas fibras se distribuem a vasos, glândulas sudoríferas, músculos eretores dos pelos e vísceras.",
+  "clinica": "A lesão da via simpática para a cabeça (por exemplo, no gânglio cervicotorácico ou no ápice do pulmão) causa a síndrome de Horner: miose, ptose palpebral discreta e anidrose da face do mesmo lado."
+ },
+ {
+  "key": "Spinal dura",
+  "pt": "Dura-máter espinal",
+  "latim": "Dura mater spinalis",
+  "resumo": "Meninge mais externa e resistente da medula. Forma um saco tubular que vai do forame magno até o nível de S2 e envolve a medula, a cauda equina e as raízes dos nervos espinais. É separada das vértebras pelo espaço extradural (epidural), que contém gordura e o plexo venoso vertebral interno.",
+  "clinica": "A anestesia peridural é feita no espaço extradural. A punção lombar é realizada abaixo do término da medula (entre L3–L4 ou L4–L5), onde o saco dural contém apenas a cauda equina e líquido cerebrospinal. Os testes de tensão neural tensionam as raízes e a dura-máter."
+ },
+ {
+  "key": "Falx cerebri",
+  "pt": "Foice do cérebro",
+  "latim": "Falx cerebri",
+  "resumo": "Prega mediana da dura-máter, em forma de foice, que ocupa a fissura longitudinal do cérebro e separa os dois hemisférios. Prende-se à frente na crista etmoidal e atrás no tentório do cerebelo; contém os seios sagitais superior e inferior.",
+  "clinica": "Lesões expansivas de um hemisfério podem empurrar o giro do cíngulo sob a margem livre da foice (hérnia subfalcina), comprimindo a artéria cerebral anterior."
+ },
+ {
+  "key": "Tentorium cerebelli",
+  "pt": "Tentório do cerebelo",
+  "latim": "Tentorium cerebelli",
+  "resumo": "Prega da dura-máter disposta como uma tenda entre os lobos occipitais do cérebro e o cerebelo, separando os compartimentos supratentorial e infratentorial. Sua margem livre delimita a incisura do tentório, atravessada pelo mesencéfalo.",
+  "clinica": "No aumento da pressão supratentorial, o unco do lobo temporal pode herniar pela incisura e comprimir o nervo oculomotor (pupila dilatada do lado da lesão) e o mesencéfalo, com rebaixamento da consciência e hemiparesia."
+ },
+ {
+  "key": "Vestibular nuclei",
+  "pt": "Núcleos vestibulares",
+  "latim": "Nuclei vestibulares",
+  "resumo": "Quatro núcleos (superior, lateral, medial e inferior) situados no assoalho do quarto ventrículo, na transição entre a ponte e o bulbo. Recebem as fibras do nervo vestibular e do cerebelo e projetam-se para a medula (tratos vestibulospinais), para os núcleos dos nervos que movem os olhos (fascículo longitudinal medial), para o cerebelo e para o tálamo, integrando equilíbrio, postura e estabilização do olhar.",
+  "clinica": "Lesões vestibulares causam vertigem, nistagmo, desequilíbrio e náuseas. A reabilitação vestibular baseia-se na capacidade de compensação central desses circuitos, por adaptação, habituação e substituição sensorial."
+ },
+ {
+  "key": "Eyeball",
+  "pt": "Bulbo do olho",
+  "latim": "Bulbus oculi",
+  "resumo": "Órgão da visão, aproximadamente esférico, alojado na órbita. Sua parede tem três túnicas: fibrosa (esclera e córnea), vascular (corioide, corpo ciliar e íris) e interna (retina). Os meios transparentes — córnea, humor aquoso, lente e corpo vítreo — focalizam a luz sobre a retina."
+ },
+ {
+  "key": "Cornea",
+  "pt": "Córnea",
+  "latim": "Cornea",
+  "resumo": "Parte anterior e transparente da túnica fibrosa do bulbo do olho, contínua com a esclera no limbo. É avascular, ricamente inervada pelo nervo oftálmico (V1) e constitui o principal meio de refração do olho.",
+  "clinica": "O reflexo corneano (piscar ao toque da córnea) testa o nervo trigêmeo (via aferente) e o nervo facial (via eferente). Na paralisia facial periférica, a incapacidade de fechar o olho exige proteção da córnea contra o ressecamento."
+ },
+ {
+  "key": "Iris",
+  "pt": "Íris",
+  "latim": "Iris",
+  "resumo": "Diafragma pigmentado, visível através da córnea, com uma abertura central, a pupila. Contém o músculo esfíncter da pupila (parassimpático, pelo nervo oculomotor), que produz miose, e o músculo dilatador da pupila (simpático), que produz midríase, regulando a entrada de luz.",
+  "clinica": "O exame das pupilas e do reflexo fotomotor avalia o nervo óptico, o nervo oculomotor e o mesencéfalo. Pupila dilatada e fixa de um lado, em paciente com lesão encefálica, sugere compressão do nervo oculomotor por hérnia do unco."
+ },
+ {
+  "key": "Lens",
+  "pt": "Lente (cristalino)",
+  "latim": "Lens",
+  "resumo": "Estrutura biconvexa, transparente e elástica, situada atrás da íris e suspensa do corpo ciliar pelas fibras zonulares. A contração do músculo ciliar relaxa as fibras zonulares e aumenta a curvatura da lente, permitindo a focalização de objetos próximos (acomodação).",
+  "clinica": "A perda de elasticidade com a idade causa a presbiopia; a opacificação da lente é a catarata. A baixa visão é fator de risco para quedas em idosos."
+ },
+ {
+  "key": "Retina",
+  "pt": "Retina",
+  "latim": "Retina",
+  "resumo": "Túnica interna do bulbo do olho. Sua parte óptica contém os fotorreceptores — cones (visão de cores e de detalhes, concentrados na fóvea central da mácula) e bastonetes (visão em baixa luminosidade) — e os neurônios cujos axônios formam o nervo óptico, que deixa o olho no disco do nervo óptico (ponto cego).",
+  "clinica": "É acometida no diabetes (retinopatia diabética) e na hipertensão arterial. O exame de fundo de olho permite ver o disco do nervo óptico, que fica edemaciado na hipertensão intracraniana."
+ },
+ {
+  "key": "Tympanic membrane",
+  "pt": "Membrana timpânica",
+  "latim": "Membrana tympanica",
+  "resumo": "Membrana fina e semitransparente que separa o meato acústico externo da cavidade timpânica (orelha média). Vibra com as ondas sonoras e transmite as vibrações ao martelo, cujo cabo está preso à sua face interna, e daí à bigorna e ao estribo."
+ },
+ {
+  "key": "Auditory tube",
+  "pt": "Tuba auditiva",
+  "latim": "Tuba auditiva",
+  "resumo": "Canal osteocartilagíneo que comunica a cavidade timpânica com a parte nasal da faringe. Abre-se na deglutição e no bocejo, igualando a pressão da orelha média à pressão atmosférica e permitindo a drenagem de secreções.",
+  "clinica": "É mais curta e horizontal na criança, o que facilita a propagação de infecções da faringe para a orelha média (otite média)."
+ },
+ {
+  "key": "Cochlea",
+  "pt": "Cóclea",
+  "latim": "Cochlea",
+  "resumo": "Parte anterior do labirinto ósseo da orelha interna, em forma de caracol, com cerca de duas voltas e meia em torno do modíolo. Contém o ducto coclear, onde está o órgão espiral (de Corti), receptor da audição, cujas células ciliadas transformam as vibrações em impulsos conduzidos pelo nervo coclear. Os sons agudos são captados na base e os graves no ápice.",
+  "clinica": "A lesão das células ciliadas ou do nervo coclear causa surdez neurossensorial, diferente da surdez de condução, que resulta de alterações da orelha externa ou média."
+ },
+ {
+  "key": "Vestibule",
+  "pt": "Vestíbulo",
+  "latim": "Vestibulum",
+  "resumo": "Parte central do labirinto ósseo, entre a cóclea e os canais semicirculares. Contém o utrículo e o sáculo, cujas máculas, cobertas por otólitos, detectam a aceleração linear e a posição da cabeça em relação à gravidade. Nele se abrem os três canais semicirculares (anterior, posterior e lateral), cujos ductos detectam as acelerações angulares (rotação) da cabeça por meio das cristas ampulares.",
+  "clinica": "Na vertigem posicional paroxística benigna (VPPB), otólitos desprendidos do utrículo deslocam-se para um canal semicircular, mais frequentemente o posterior, provocando vertigem breve às mudanças de posição da cabeça. O diagnóstico é feito pela manobra de Dix-Hallpike e o tratamento, por manobras de reposicionamento (como a de Epley)."
+ },
+ {
+  "key": "Lacrimal gland",
+  "pt": "Glândula lacrimal",
+  "latim": "Glandula lacrimalis",
+  "resumo": "Glândula situada na parte superolateral da órbita, na fossa da glândula lacrimal do osso frontal. Secreta a lágrima, que lubrifica e protege a córnea e é drenada pelos canalículos lacrimais, saco lacrimal e ducto lacrimonasal para a cavidade nasal. A inervação secretora parassimpática vem do nervo facial."
+ }
+]

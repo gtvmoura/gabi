@@ -1,0 +1,285 @@
+[
+  {
+    "key": "Calcaneal tendon",
+    "pt": "Tendão do calcâneo",
+    "latim": "Tendo calcaneus",
+    "resumo": "Tendão comum do tríceps sural (gastrocnêmio e sóleo), também chamado tendão de Aquiles; é o mais espesso e resistente do corpo. Começa no meio da perna e insere-se na face posterior da tuberosidade do calcâneo, com as fibras descrevendo uma espiral de cerca de 90° que armazena e devolve energia elástica na marcha, na corrida e no salto. Não tem bainha sinovial, e sim um paratendão; duas bolsas o protegem junto à inserção.",
+    "clinica": "A tendinopatia do calcâneo é típica de corredores: a forma da porção média (2–6 cm acima da inserção, zona de menor vascularização) responde bem a carga progressiva, classicamente exercícios excêntricos com o calcanhar abaixo do degrau; na forma insercional evita-se a dorsiflexão máxima no início. A ruptura ocorre em geral em homens de 30 a 50 anos, em arrancadas ou saltos, com sensação de 'pedrada' ou chute por trás, falha palpável e incapacidade de ficar na ponta do pé; o teste de Thompson (apertar a panturrilha em decúbito ventral sem que o pé faça flexão plantar) é positivo. O reflexo aquileu testa a raiz S1. Fluoroquinolonas e infiltrações de corticoide aumentam o risco de ruptura."
+  },
+  {
+    "key": "Lateral patellar retinaculum",
+    "pt": "Retináculo lateral da patela",
+    "latim": "Retinaculum patellae laterale",
+    "resumo": "Expansão fibrosa que une a margem lateral da patela e do ligamento da patela ao côndilo lateral da tíbia e do fêmur. É formada pela aponeurose do vasto lateral e reforçada por fibras do trato iliotibial; estabiliza a patela lateralmente e reforça a cápsula anterolateral do joelho.",
+    "clinica": "Quando tenso ou encurtado, junto com o trato iliotibial, inclina e traciona a patela lateralmente (síndrome de hiperpressão lateral), contribuindo para dor femoropatelar e desgaste da faceta lateral; avalia-se pelos testes de inclinação e de deslizamento medial da patela. O tratamento conservador inclui mobilização medial da patela, alongamento das estruturas laterais e bandagens; a liberação cirúrgica do retináculo lateral tem indicações restritas."
+  },
+  {
+    "key": "Medial patellar retinaculum",
+    "pt": "Retináculo medial da patela",
+    "latim": "Retinaculum patellae mediale",
+    "resumo": "Expansão fibrosa que une a margem medial da patela e do ligamento da patela ao côndilo medial da tíbia e do fêmur. É formada pela aponeurose do vasto medial e contém, em sua camada profunda, o ligamento patelofemoral medial, principal restritor passivo do deslocamento lateral da patela nos primeiros 30° de flexão.",
+    "clinica": "Na luxação lateral aguda da patela, o retináculo medial e o ligamento patelofemoral medial rompem-se quase sempre, com dor e hematoma na face medial do joelho e teste de apreensão positivo. A reabilitação enfatiza o quadríceps e os músculos do quadril; nas luxações recidivantes reconstrói-se o ligamento patelofemoral medial."
+  },
+  {
+    "key": "(Iliopectineal bursa)",
+    "pt": "Bolsa iliopectínea",
+    "latim": "Bursa iliopectinea",
+    "resumo": "Grande bolsa sinovial situada entre o tendão do iliopsoas e a face anterior da cápsula do quadril e a eminência iliopúbica; reduz o atrito do tendão ao passar sobre a margem da pelve. Comunica-se com a cavidade articular do quadril em cerca de 15% dos adultos. Na prática é a mesma estrutura chamada bolsa do iliopsoas.",
+    "clinica": "A bursite do iliopsoas causa dor inguinal anterior profunda, pior à flexão resistida e à extensão passiva do quadril, em corredores, bailarinos e pacientes com artrite ou artroplastia do quadril; pode acompanhar o ressalto interno do quadril. Quando muito distendida, forma massa inguinal que pode comprimir o nervo e a veia femorais."
+  },
+  {
+    "key": "Subtendinous bursa of iliacus muscle",
+    "pt": "Bolsa subtendínea do músculo ilíaco",
+    "latim": "Bursa subtendinea iliaca",
+    "resumo": "Bolsa situada entre o tendão do iliopsoas e o trocanter menor do fêmur, junto à inserção; facilita o deslizamento do tendão sobre o osso durante a flexão e a rotação do quadril.",
+    "clinica": "Pode inflamar junto com a tendinopatia insercional do iliopsoas, com dor profunda na região inguinal e medial da coxa proximal."
+  },
+  {
+    "key": "Bursa of piriformis muscle",
+    "pt": "Bolsa do músculo piriforme",
+    "latim": "Bursa musculi piriformis",
+    "resumo": "Pequena bolsa entre o tendão do piriforme, o osso (ápice do trocanter maior) e o tendão do gêmeo superior, próxima à inserção."
+  },
+  {
+    "key": "Intermuscular gluteal bursae",
+    "pt": "Bolsas intermusculares dos músculos glúteos",
+    "latim": "Bursae intermusculares musculorum gluteorum",
+    "resumo": "Duas ou três pequenas bolsas situadas entre o tendão do glúteo máximo e a tuberosidade glútea do fêmur (e o tendão do vasto lateral), reduzindo o atrito na inserção femoral do músculo."
+  },
+  {
+    "key": "Sciatic bursa of gluteus maximus muscle",
+    "pt": "Bolsa isquiática do músculo glúteo máximo",
+    "latim": "Bursa ischiadica musculi glutei maximi",
+    "resumo": "Bolsa entre a face profunda do glúteo máximo e o túber isquiático. Na posição sentada, o glúteo máximo desliza para cima e o túber fica coberto apenas por essa bolsa, tecido fibroadiposo e pele.",
+    "clinica": "A bursite isquiática ('nádega do tecelão' ou do alfaiate) decorre de sentar por longos períodos em superfícies duras, de ciclismo, remo ou de pressão em cadeirantes; causa dor localizada no túber ao sentar. Deve ser diferenciada da tendinopatia proximal dos isquiotibiais (dor à flexão resistida do joelho e ao alongamento) e de dor irradiada. Em pessoas com lesão medular, a região é sede frequente de lesão por pressão."
+  },
+  {
+    "key": "Sciatic bursa of obturator internus",
+    "pt": "Bolsa isquiática do músculo obturador interno",
+    "latim": "Bursa ischiadica musculi obturatorii interni",
+    "resumo": "Bolsa situada entre o tendão do obturador interno e a incisura isquiática menor, recoberta por cartilagem, onde o tendão muda de direção em ângulo quase reto ao sair da pelve; funciona como superfície de deslizamento dessa polia.",
+    "clinica": "Sua inflamação é causa rara de dor glútea profunda, dentro do espectro da síndrome glútea profunda."
+  },
+  {
+    "key": "Subtendinous bursa of obturator internus",
+    "pt": "Bolsa subtendínea do músculo obturador interno",
+    "latim": "Bursa subtendinea musculi obturatorii interni",
+    "resumo": "Pequena bolsa entre o tendão do obturador interno e a cápsula da articulação do quadril, próxima à inserção no trocanter maior; pode comunicar-se com a bolsa isquiática do mesmo músculo."
+  },
+  {
+    "key": "Trochanteric bursa of gluteus maximus muscle",
+    "pt": "Bolsa trocantérica do músculo glúteo máximo",
+    "latim": "Bursa trochanterica musculi glutei maximi",
+    "resumo": "A maior das bolsas da região do trocanter: situa-se entre a face lateral e posterior do trocanter maior (e os tendões do glúteo médio e do vasto lateral) e as fibras do glúteo máximo que convergem para o trato iliotibial. Permite o deslizamento do trato iliotibial sobre o trocanter. É a 'bolsa trocantérica' da clínica.",
+    "clinica": "A dor lateral do quadril, antes atribuída à 'bursite trocantérica', é hoje chamada síndrome dolorosa do trocanter maior: na maioria dos casos a causa principal é a tendinopatia do glúteo médio e mínimo, com a bursite como achado associado. Há dor à palpação do trocanter, ao deitar sobre o lado, ao subir escadas e em apoio unipodal (teste de apoio unipodal por 30 segundos). O tratamento baseia-se em educação (evitar cruzar as pernas e ficar 'pendurado' em um quadril, posições que comprimem os tendões em adução) e fortalecimento progressivo dos abdutores."
+  },
+  {
+    "key": "Trochanteric bursa of gluteus medius muscle",
+    "pt": "Bolsa trocantérica do músculo glúteo médio",
+    "latim": "Bursae trochantericae musculi glutei medii",
+    "resumo": "Bolsa (às vezes mais de uma) entre o tendão do glúteo médio e a face lateral do trocanter maior, próxima à inserção, e entre esse tendão e o do piriforme.",
+    "clinica": "Costuma estar distendida nas tendinopatias e rupturas do glúteo médio, compondo a síndrome dolorosa do trocanter maior."
+  },
+  {
+    "key": "Trochanteric bursa of gluteus minimus muscle",
+    "pt": "Bolsa trocantérica do músculo glúteo mínimo",
+    "latim": "Bursa trochanterica musculi glutei minimi",
+    "resumo": "Bolsa entre o tendão do glúteo mínimo e a face anterior do trocanter maior, junto à inserção do músculo.",
+    "clinica": "Pode inflamar em associação com a tendinopatia do glúteo mínimo, com dor na parte anterior do trocanter maior."
+  },
+  {
+    "key": "Subcutaneous trochanteric bursa",
+    "pt": "Bolsa subcutânea trocantérica",
+    "latim": "Bursa subcutanea trochanterica",
+    "resumo": "Bolsa situada entre a pele e a face lateral do trocanter maior (sobre o trato iliotibial), que facilita o deslizamento da pele sobre a saliência óssea.",
+    "clinica": "Pode inflamar por trauma direto (queda de lado) ou por pressão prolongada, como em pessoas acamadas em decúbito lateral; a região é sede de lesões por pressão."
+  },
+  {
+    "key": "Superior bursa of biceps femoris muscle",
+    "pt": "Bolsa superior do músculo bíceps femoral",
+    "latim": "Bursa musculi bicipitis femoris superior",
+    "resumo": "Bolsa entre o tendão de origem comum da cabeça longa do bíceps femoral e do semitendíneo e o tendão do semimembranáceo, junto ao túber isquiático.",
+    "clinica": "Pode estar envolvida na tendinopatia proximal dos isquiotibiais, com dor profunda no túber isquiático ao sentar e ao correr."
+  },
+  {
+    "key": "Inferior subtendinous bursa of biceps femoris muscle",
+    "pt": "Bolsa subtendínea inferior do músculo bíceps femoral",
+    "latim": "Bursa subtendinea musculi bicipitis femoris inferior",
+    "resumo": "Bolsa entre o tendão distal do bíceps femoral e o ligamento colateral fibular, junto à inserção na cabeça da fíbula.",
+    "clinica": "Sua inflamação causa dor posterolateral no joelho, sobre a cabeça da fíbula, a ser diferenciada de lesão do ligamento colateral fibular, do menisco lateral e da síndrome do trato iliotibial."
+  },
+  {
+    "key": "Anserine bursa",
+    "pt": "Bolsa anserina",
+    "latim": "Bursa anserina",
+    "resumo": "Bolsa situada entre os tendões da pata de ganso (sartório, grácil e semitendíneo) e o ligamento colateral tibial, na face medial da parte proximal da tíbia, cerca de 3–5 cm abaixo da interlinha articular do joelho.",
+    "clinica": "A bursite anserina (ou síndrome da pata de ganso) causa dor e, às vezes, edema na face medial proximal da tíbia, pior ao subir escadas, levantar-se da cadeira e à noite. É mais frequente em mulheres de meia-idade com osteoartrite do joelho, obesidade, diabetes e joelho valgo, e em corredores e nadadores de peito. O ponto doloroso fica abaixo da interlinha articular, o que ajuda a diferenciá-la de lesão do menisco medial e do ligamento colateral tibial. O tratamento inclui controle de carga, alongamento dos isquiotibiais e adutores e fortalecimento do quadríceps e do quadril."
+  },
+  {
+    "key": "Subtendinous bursa of sartorius muscle",
+    "pt": "Bolsas subtendíneas do músculo sartório",
+    "latim": "Bursae subtendineae musculi sartorii",
+    "resumo": "Pequenas bolsas entre o tendão do sartório e os tendões do grácil e do semitendíneo, na pata de ganso; frequentemente comunicam-se com a bolsa anserina.",
+    "clinica": "Participam do quadro da bursite anserina."
+  },
+  {
+    "key": "Semimembranosus bursa",
+    "pt": "Bolsa do músculo semimembranáceo",
+    "latim": "Bursa musculi semimembranosi",
+    "resumo": "Bolsa entre o tendão do semimembranáceo e a cabeça medial do gastrocnêmio (e o côndilo medial da tíbia). Costuma comunicar-se com a bolsa subtendínea medial do gastrocnêmio e, por meio dela, com a cavidade articular do joelho.",
+    "clinica": "Sua distensão por líquido sinovial vindo da articulação forma o cisto poplíteo (cisto de Baker), massa na parte medial da fossa poplítea, mais tensa com o joelho estendido. No adulto, quase sempre indica doença intra-articular (lesão meniscal, osteoartrite, artrite reumatoide). A ruptura do cisto causa dor e edema na panturrilha que simulam trombose venosa profunda."
+  },
+  {
+    "key": "Medial subtendinous bursa of gastrocnemius muscle",
+    "pt": "Bolsa subtendínea medial do músculo gastrocnêmio",
+    "latim": "Bursa subtendinea musculi gastrocnemii medialis",
+    "resumo": "Bolsa entre o tendão de origem da cabeça medial do gastrocnêmio e o côndilo medial do fêmur/cápsula do joelho. Comunica-se frequentemente com a cavidade articular e com a bolsa do semimembranáceo.",
+    "clinica": "Junto com a bolsa do semimembranáceo, forma a bolsa gastrocnêmio-semimembranácea, origem do cisto poplíteo (de Baker)."
+  },
+  {
+    "key": "Lateral subtendinous bursa of gastrocnemius muscle",
+    "pt": "Bolsa subtendínea lateral do músculo gastrocnêmio",
+    "latim": "Bursa subtendinea musculi gastrocnemii lateralis",
+    "resumo": "Bolsa entre o tendão de origem da cabeça lateral do gastrocnêmio e o côndilo lateral do fêmur/cápsula do joelho; às vezes comunica-se com a articulação."
+  },
+  {
+    "key": "Suprapatellar bursa",
+    "pt": "Bolsa suprapatelar",
+    "latim": "Bursa suprapatellaris",
+    "resumo": "Extensão superior da cavidade sinovial do joelho, entre a face anterior do fêmur e o tendão do quadríceps, que sobe cerca de um palmo acima da base da patela. Comunica-se amplamente com a articulação (é, na prática, um recesso articular) e é tracionada para cima pelo músculo articular do joelho durante a extensão.",
+    "clinica": "É onde o derrame articular do joelho se acumula: o edema acima da patela apaga os sulcos parapatelares, e os testes de derrame (sinal da tecla ou rechaço patelar, teste da onda) consistem em ordenhar o líquido dessa bolsa. Como se comunica com a articulação, feridas acima da patela podem causar artrite séptica. Aderências na bolsa após cirurgia ou imobilização limitam a flexão do joelho e a mobilidade da patela; a mobilização patelar precoce ajuda a preveni-las."
+  },
+  {
+    "key": "Subcutaneous prepatellar bursa",
+    "pt": "Bolsa subcutânea pré-patelar",
+    "latim": "Bursa subcutanea prepatellaris",
+    "resumo": "Bolsa entre a pele e a face anterior da patela; permite que a pele deslize livremente sobre a patela durante a flexão do joelho e ao ajoelhar.",
+    "clinica": "A bursite pré-patelar ('joelho de empregada doméstica', do carpinteiro ou do assentador de pisos) resulta de ajoelhar com frequência ou de trauma direto: tumefação flutuante e bem delimitada na frente da patela, com a articulação livre de derrame e a flexão dolorosa apenas no final. Pode infectar-se por escoriações (bursite séptica, com calor, rubor e febre), o que exige avaliação médica."
+  },
+  {
+    "key": "Subfacial prepatellar bursa",
+    "pt": "Bolsa subfascial pré-patelar",
+    "latim": "Bursa subfascialis prepatellaris",
+    "resumo": "Bolsa inconstante situada entre a fáscia lata (fáscia profunda) e as fibras superficiais do tendão do quadríceps que passam à frente da patela.",
+    "clinica": "Pode participar da bursite pré-patelar."
+  },
+  {
+    "key": "Subtendinous prepatellar bursa",
+    "pt": "Bolsa subtendínea pré-patelar",
+    "latim": "Bursa subtendinea prepatellaris",
+    "resumo": "Bolsa inconstante entre as fibras do tendão do quadríceps que recobrem a patela e o periósteo da face anterior do osso.",
+    "clinica": "Pode participar da bursite pré-patelar."
+  },
+  {
+    "key": "Subcutaneous infrapatellar bursa",
+    "pt": "Bolsa subcutânea infrapatelar",
+    "latim": "Bursa subcutanea infrapatellaris",
+    "resumo": "Bolsa entre a pele e a parte inferior do ligamento da patela/tuberosidade da tíbia.",
+    "clinica": "Sua inflamação é o 'joelho do clérigo', por ajoelhar com o tronco ereto, apoiando o peso sobre a tuberosidade da tíbia e o ligamento da patela; causa tumefação superficial abaixo da patela."
+  },
+  {
+    "key": "Deep infrapatellar bursa",
+    "pt": "Bolsa infrapatelar profunda",
+    "latim": "Bursa infrapatellaris profunda",
+    "resumo": "Bolsa entre a face profunda do ligamento da patela e a face anterior da tíbia, logo acima da tuberosidade; é separada da articulação pelo corpo adiposo infrapatelar (gordura de Hoffa).",
+    "clinica": "A bursite infrapatelar profunda causa dor anterior abaixo da patela, pior na flexão máxima e na extensão resistida, em saltadores e corredores; deve ser diferenciada da tendinopatia patelar (joelho do saltador), da doença de Osgood-Schlatter no adolescente e do impacto da gordura de Hoffa."
+  },
+  {
+    "key": "Subcutaneous bursa of tuberosity of tibia",
+    "pt": "Bolsa subcutânea da tuberosidade da tíbia",
+    "latim": "Bursa subcutanea tuberositatis tibiae",
+    "resumo": "Bolsa entre a pele e a tuberosidade da tíbia.",
+    "clinica": "Inflama por ajoelhar repetidamente ou por trauma direto; a saliência da tuberosidade na doença de Osgood-Schlatter aumenta o atrito local."
+  },
+  {
+    "key": "Subtendinous bursa of tibialis anterior",
+    "pt": "Bolsa subtendínea do músculo tibial anterior",
+    "latim": "Bursa subtendinea musculi tibialis anterioris",
+    "resumo": "Pequena bolsa entre o tendão do tibial anterior e a face medial do cuneiforme medial, junto à inserção.",
+    "clinica": "Pode inflamar com a tendinopatia insercional do tibial anterior, causando dor na face dorsomedial do mediopé, em geral em pessoas acima de 50 anos ou por atrito do calçado."
+  },
+  {
+    "key": "Subcutaneous bursa of medial malleolus",
+    "pt": "Bolsa subcutânea do maléolo medial",
+    "latim": "Bursa subcutanea malleoli medialis",
+    "resumo": "Bolsa entre a pele e o maléolo medial.",
+    "clinica": "Inflama por atrito ou pressão do calçado, especialmente botas rígidas e patins."
+  },
+  {
+    "key": "Subcutaneous bursa of lateral malleolus",
+    "pt": "Bolsa subcutânea do maléolo lateral",
+    "latim": "Bursa subcutanea malleoli lateralis",
+    "resumo": "Bolsa entre a pele e o maléolo lateral.",
+    "clinica": "Inflama por pressão do calçado (botas, patins) ou pelo hábito de sentar com as pernas cruzadas sobre o chão, apoiando o maléolo ('tornozelo do alfaiate')."
+  },
+  {
+    "key": "Subcutaneous calcaneal bursa",
+    "pt": "Bolsa subcutânea calcânea",
+    "latim": "Bursa subcutanea calcanea",
+    "resumo": "Bolsa entre a pele e a face posterior do calcâneo e a parte distal do tendão do calcâneo; também chamada bolsa retroaquileana ou do tendão do calcâneo superficial.",
+    "clinica": "Sua inflamação resulta do atrito do contraforte de calçados rígidos ou apertados (saltos altos, chuteiras, patins), com dor, vermelhidão e espessamento da pele na face posterior do calcanhar; associa-se à deformidade de Haglund. Trata-se com mudança do calçado, proteção local e calcanheira."
+  },
+  {
+    "key": "Subtendinous calcaneal bursa",
+    "pt": "Bolsa tendínea calcânea (bolsa do tendão do calcâneo)",
+    "latim": "Bursa tendinis calcanei",
+    "resumo": "Bolsa situada entre o tendão do calcâneo e a parte superior da face posterior do calcâneo, à frente da inserção; é conhecida na clínica como bolsa retrocalcânea. Permite que o tendão deslize sobre o osso na dorsiflexão.",
+    "clinica": "A bursite retrocalcânea causa dor profunda à frente do tendão do calcâneo, pior na dorsiflexão (que comprime a bolsa entre o tendão e o osso), ao subir ladeiras e com calçados de contraforte rígido; a compressão do tecido de cada lado do tendão, logo acima do calcâneo, reproduz a dor. Associa-se à deformidade de Haglund (proeminência posterossuperior do calcâneo) e à tendinopatia insercional; nesses casos, evita-se inicialmente o alongamento e os exercícios em dorsiflexão máxima."
+  },
+  {
+    "key": "Tendon sheath of tibialis anterior",
+    "pt": "Bainha tendínea do músculo tibial anterior",
+    "latim": "Vagina tendinis musculi tibialis anterioris",
+    "resumo": "Bainha sinovial que envolve o tendão do tibial anterior ao passar sob os retináculos superior e inferior dos músculos extensores, na frente do tornozelo; é a mais medial e a que se estende mais proximalmente entre as bainhas anteriores.",
+    "clinica": "A tenossinovite ocorre por sobrecarga (corrida em descida, caminhadas longas) ou por compressão de cadarços e botas apertadas, com dor, edema e crepitação na face anteromedial do tornozelo à dorsiflexão resistida."
+  },
+  {
+    "key": "Tendon sheath of extensor hallucis longus",
+    "pt": "Bainha tendínea do músculo extensor longo do hálux",
+    "latim": "Vagina tendinis musculi extensoris hallucis longi",
+    "resumo": "Bainha sinovial que envolve o tendão do extensor longo do hálux sob o retináculo inferior dos músculos extensores e no dorso do pé, até a região do primeiro metatarsal.",
+    "clinica": "Pode inflamar por atrito do calçado no dorso do pé, com dor à extensão resistida e à flexão passiva do hálux."
+  },
+  {
+    "key": "Tendon sheath of extensor digitorum longus",
+    "pt": "Bainha tendínea do músculo extensor longo dos dedos",
+    "latim": "Vagina tendinum musculi extensoris digitorum longi",
+    "resumo": "Bainha sinovial comum aos tendões do extensor longo dos dedos e do fibular terceiro, sob o retináculo inferior dos músculos extensores, na face anterolateral do tornozelo.",
+    "clinica": "A tenossinovite dos extensores provoca dor e edema no dorso do pé, em geral por calçado ou cadarço muito apertado ou por aumento brusco do volume de corrida; deve ser diferenciada de fratura por estresse dos metatarsais."
+  },
+  {
+    "key": "Common tendon sheath of fibularis muscles",
+    "pt": "Bainha tendínea comum dos músculos fibulares",
+    "latim": "Vagina communis tendinum musculorum fibularium",
+    "resumo": "Bainha sinovial que envolve juntos os tendões do fibular longo e do fibular curto atrás do maléolo lateral, sob o retináculo superior dos músculos fibulares; distalmente divide-se em duas, uma para cada tendão, que passam acima (curto) e abaixo (longo) da tróclea fibular do calcâneo.",
+    "clinica": "A tenossinovite dos fibulares causa dor e edema retromaleolar lateral, pior com eversão resistida e inversão passiva; é comum após entorses em inversão e em pés cavo-varos. A lesão do retináculo superior permite a subluxação dos tendões sobre o maléolo, com estalido doloroso. Rupturas longitudinais do fibular curto são achado frequente na instabilidade crônica do tornozelo."
+  },
+  {
+    "key": "Plantar tendon sheath of fibularis longus muscle",
+    "pt": "Bainha tendínea plantar do músculo fibular longo",
+    "latim": "Vagina plantaris tendinis musculi fibularis longi",
+    "resumo": "Segunda bainha sinovial do tendão do fibular longo, que o envolve em seu trajeto oblíquo pela planta do pé, do sulco do cuboide até a inserção no cuneiforme medial e no primeiro metatarsal, profundamente ao ligamento plantar longo.",
+    "clinica": "A região do túnel do cuboide é local de tendinopatia e ruptura do fibular longo, às vezes associada a um osso sesamoide (os peroneum) doloroso, com dor na margem lateral e plantar do mediopé."
+  },
+  {
+    "key": "Tendon sheath of tibialis posterior muscle",
+    "pt": "Bainha tendínea do músculo tibial posterior",
+    "latim": "Vagina tendinis musculi tibialis posterioris",
+    "resumo": "Bainha sinovial que envolve o tendão do tibial posterior atrás e abaixo do maléolo medial, sob o retináculo dos músculos flexores; é a mais anterior das três bainhas do túnel do tarso e termina pouco antes da inserção no navicular.",
+    "clinica": "A tenossinovite do tibial posterior é o primeiro estágio da disfunção desse tendão, que leva ao pé plano adquirido do adulto: dor e edema ao longo do tendão, atrás do maléolo medial, com dor à inversão resistida e à elevação do calcanhar em apoio unipodal, ainda sem deformidade. É também frequente na artrite reumatoide. O reconhecimento precoce permite tratamento conservador com órtese e fortalecimento."
+  },
+  {
+    "key": "Tendon sheath of flexor digitorum longus",
+    "pt": "Bainha tendínea do músculo flexor longo dos dedos",
+    "latim": "Vagina tendinum musculi flexoris digitorum longi",
+    "resumo": "Bainha sinovial que envolve o tendão do flexor longo dos dedos atrás do maléolo medial, sob o retináculo dos músculos flexores, entre a bainha do tibial posterior (à frente) e o feixe vasculonervoso tibial (atrás).",
+    "clinica": "A tenossinovite no túnel do tarso pode comprimir o nervo tibial, contribuindo para a síndrome do túnel do tarso (dor em queimação e parestesia na planta)."
+  },
+  {
+    "key": "Tendon sheath of flexor hallucis longus",
+    "pt": "Bainha tendínea do músculo flexor longo do hálux",
+    "latim": "Vagina tendinis musculi flexoris hallucis longi",
+    "resumo": "Bainha sinovial que envolve o tendão do flexor longo do hálux no sulco do processo posterior do tálus e sob o sustentáculo do tálus; é a mais posterior e lateral das bainhas do túnel do tarso. Comunica-se com a cavidade da articulação do tornozelo em parte das pessoas.",
+    "clinica": "A tenossinovite estenosante nesse túnel fibro-ósseo é a 'tendinite do bailarino': dor posteromedial no tornozelo na ponta dos pés, crepitação e, às vezes, hálux em gatilho. Frequentemente acompanha o impacto posterior do tornozelo (os trigonum)."
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "key": "Sternocleidomastoid muscle",
+    "pt": "Músculo esternocleidomastóideo",
+    "latim": "Musculus sternocleidomastoideus",
+    "sinonimos": ["ECM", "ECOM", "esternocleidomastoideo", "esternocleido-occipitomastóideo"],
+    "resumo": "Músculo superficial, com duas cabeças, que cruza obliquamente a face lateral do pescoço e o divide em trígonos anterior e posterior. É o principal referencial de superfície do pescoço, motor da rotação e da flexão da cabeça e músculo acessório da inspiração.",
+    "origem": "Cabeça esternal: face anterior do manúbrio do esterno (tendão arredondado). Cabeça clavicular: face superior do terço medial da clavícula.",
+    "insercao": "Face lateral do processo mastoide do osso temporal e metade lateral da linha nucal superior do occipital.",
+    "inervacao": { "nervo": "Nervo acessório (NC XI) — motor; ramos do plexo cervical (C2, C3) — propriocepção e dor", "raizes": "NC XI; C2, C3", "nervoKeys": ["Accessory nerve (XI)", "Cervical plexus"] },
+    "vascularizacao": "Ramos esternocleidomastóideos das artérias occipital e tireóidea superior",
+    "acoes": [
+      { "art": "cervical", "mov": "rotacao_contralateral", "papel": "primario", "nota": "contração unilateral: a face gira para o lado oposto" },
+      { "art": "cervical", "mov": "flexao_lateral", "papel": "primario", "nota": "inclina a cabeça para o mesmo lado" },
+      { "art": "cervical", "mov": "flexao", "papel": "primario", "nota": "contração bilateral: flexiona a coluna cervical média e inferior" },
+      { "art": "cervical", "mov": "extensao", "papel": "secundario", "nota": "bilateral: estende a cabeça nas articulações atlantoccipitais (cervical alta), pois a inserção fica posterior ao eixo de flexão-extensão" },
+      { "art": "costelas", "mov": "inspiracao", "papel": "secundario", "nota": "com a cabeça fixa, eleva o esterno e as clavículas na inspiração forçada" }
+    ],
+    "funcao": "Unilateralmente inclina a cabeça para o mesmo lado e gira a face para o lado oposto, olhando para cima. Bilateralmente flexiona o pescoço, mas, por se inserir atrás do eixo das articulações atlantoccipitais, tende a estender a cabeça sobre a cervical alta: se os flexores profundos (longo do pescoço e longo da cabeça) não estabilizarem o segmento, o resultado é a projeção anterior do queixo (protração da cabeça). Em decúbito dorsal é o músculo que tira a cabeça do apoio. Com a cabeça e o pescoço fixos, eleva o esterno e a parte medial das clavículas, atuando como músculo acessório da inspiração; seu recrutamento em repouso é sinal de esforço respiratório (DPOC, crise de asma).",
+    "antagonistas": ["Splenius capitis muscle", "Descending part of trapezius muscle"],
+    "sinergistas": ["Scalenus anterior muscle", "Longus colli muscle", "Longus capitis muscle"],
+    "palpacao": "Paciente sentado ou em decúbito dorsal. Peça que gire a cabeça para o lado oposto e resista a uma leve flexão/inclinação: o ventre salta como uma corda oblíqua do manúbrio e da clavícula até atrás da orelha. É possível pinçá-lo entre o polegar e os dedos e separar a cabeça esternal (medial, tendínea) da clavicular (lateral, mais larga); entre elas fica a fossa supraclavicular menor. Evite compressão profunda na borda anterior (artéria carótida).",
+    "teste": "Flexores anterolaterais do pescoço (Kendall): decúbito dorsal, cotovelos fletidos e mãos ao lado da cabeça. O paciente gira a cabeça para um lado e eleva-a da maca (flexão anterolateral), testando o esternocleidomastóideo do lado oposto ao da rotação. O examinador estabiliza o tórax se os abdominais forem fracos e aplica resistência na região temporal, em direção oblíqua posterior. Para o teste bilateral, flexão do pescoço na linha mediana com resistência na fronte: se o queixo se projeta para a frente, há predomínio do esternocleidomastóideo sobre os flexores profundos.",
+    "alongamento": "Inclinação lateral da cabeça para o lado oposto, rotação para o mesmo lado do músculo alongado e leve extensão do pescoço, com o queixo recolhido e a clavícula/esterno fixados (mão do terapeuta ou expiração mantida). Não forçar a extensão com rotação em pacientes com tontura ou suspeita de insuficiência vertebrobasilar.",
+    "clinica": "Torcicolo muscular congênito: fibrose e encurtamento unilateral, com a cabeça inclinada para o lado afetado e a face girada para o lado oposto; o tratamento fisioterapêutico precoce (alongamento, posicionamento, estímulo da rotação ativa) resolve a maioria dos casos. Torcicolo espasmódico (distonia cervical) e torcicolo agudo também o envolvem. Pontos-gatilho miofasciais referem dor para a fronte, região orbital, orelha e vértice, e podem associar-se a tontura e desequilíbrio. Na postura de anteriorização da cabeça fica encurtado e hiperativo, enquanto os flexores profundos ficam inibidos. Lesão do nervo acessório (cirurgias no trígono posterior do pescoço) causa fraqueza da rotação para o lado oposto e atrofia do músculo. É o referencial para pulso carotídeo, veia jugular externa (cruza-o superficialmente) e ponto nervoso do pescoço (meio da borda posterior).",
+    "dica": "O nome descreve o trajeto: esterno + clavícula (cleido) → mastoide. Lembre: 'inclina para o mesmo lado, gira para o lado oposto'.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Scalenus anterior muscle",
+    "pt": "Músculo escaleno anterior",
+    "latim": "Musculus scalenus anterior",
+    "sinonimos": ["escaleno anterior", "escaleno ventral"],
+    "resumo": "Músculo profundo da região lateral do pescoço, situado atrás do esternocleidomastóideo, que une a coluna cervical à primeira costela. É a referência-chave da raiz do pescoço: o plexo braquial e a artéria subclávia passam atrás dele, e o nervo frênico desce sobre sua face anterior.",
+    "origem": "Tubérculos anteriores dos processos transversos das vértebras C3 a C6.",
+    "insercao": "Tubérculo do músculo escaleno anterior, na borda interna da face superior da primeira costela, à frente do sulco da artéria subclávia.",
+    "inervacao": { "nervo": "Ramos anteriores dos nervos espinais cervicais", "raizes": "C4, C5, C6", "nervoKeys": ["Cervical nerves"] },
+    "vascularizacao": "Artéria cervical ascendente (ramo da artéria tireóidea inferior)",
+    "acoes": [
+      { "art": "costelas", "mov": "inspiracao", "papel": "primario", "nota": "eleva a primeira costela; ativo mesmo na inspiração tranquila" },
+      { "art": "cervical", "mov": "flexao_lateral", "papel": "primario", "nota": "com as costelas fixas" },
+      { "art": "cervical", "mov": "flexao", "papel": "secundario", "nota": "contração bilateral" },
+      { "art": "cervical", "mov": "rotacao_contralateral", "papel": "secundario", "nota": "componente pequeno" }
+    ],
+    "funcao": "Com a coluna cervical fixa, eleva e fixa a primeira costela, expandindo a parte superior do tórax. Embora classicamente descritos como 'acessórios', os escalenos mostram atividade eletromiográfica em toda inspiração, inclusive em repouso, sendo hoje considerados músculos primários da inspiração junto com o diafragma e os intercostais. Com as costelas fixas, a contração unilateral inclina o pescoço para o mesmo lado e a bilateral auxilia a flexão cervical. Atua ainda como estabilizador lateral da coluna cervical, como os estais de um mastro.",
+    "antagonistas": ["Splenius colli muscle", "Levator scapulae"],
+    "sinergistas": ["Scalenus medius muscle", "Scalenus posterior muscle", "Sternocleidomastoid muscle", "Longus colli muscle"],
+    "palpacao": "Paciente em decúbito dorsal ou sentado, cabeça levemente girada para o lado oposto. Localize a borda posterior (lateral) da cabeça clavicular do esternocleidomastóideo logo acima da clavícula e deslize os dedos para trás dela, em direção profunda e medial: o escaleno anterior é sentido como uma faixa firme que se contrai quando o paciente faz inspirações curtas e rápidas pelo nariz ('fungar'). Use pressão leve: o plexo braquial e a artéria subclávia emergem imediatamente atrás; formigamento no membro superior indica compressão dos troncos nervosos.",
+    "teste": "Não há prova isolada; os escalenos são avaliados com os flexores anterolaterais do pescoço (Kendall): decúbito dorsal, flexão anterolateral do pescoço com a cabeça girada para o lado oposto, resistência na região temporal. Como músculos inspiratórios, observe sua contração visível/palpável durante a respiração em repouso (sinal de esforço) e a elevação das duas primeiras costelas.",
+    "alongamento": "Paciente em decúbito dorsal ou sentado, com a primeira costela estabilizada (mão do terapeuta sobre a região supraclavicular ou mão do próprio paciente segurando a borda do assento, na expiração). Inclinação lateral do pescoço para o lado oposto, com leve extensão e rotação da cabeça para o mesmo lado do músculo a alongar, o que enfatiza as fibras anteriores.",
+    "clinica": "Síndrome do desfiladeiro torácico: o hiato interescalênico (triângulo entre escaleno anterior, escaleno médio e primeira costela) é o primeiro dos três estreitamentos por onde passam os troncos do plexo braquial e a artéria subclávia; a veia subclávia passa à frente do escaleno anterior. Hipertrofia, encurtamento, espasmo, bandas fibrosas ou costela cervical podem comprimir principalmente o tronco inferior (C8–T1), gerando parestesia na borda ulnar do antebraço e da mão, fraqueza dos intrínsecos e, mais raramente, sinais arteriais. Os testes de Adson, Roos (estresse com os braços elevados) e de hiperabdução são usados na avaliação. O nervo frênico (C3–C5) desce sobre a face anterior do músculo, e o bloqueio interescalênico do plexo braquial frequentemente o atinge, causando paralisia transitória do hemidiafragma. Em pacientes com DPOC, asma ou padrão respiratório apical, os escalenos ficam hipertônicos e encurtados; pontos-gatilho referem dor para o peito, a borda medial da escápula e a face lateral do braço até o polegar e o indicador.",
+    "dica": "Frênico na Frente, plexo e artéria atrás, veia à frente: 'VAN' de anterior para posterior na primeira costela = Veia, escaleno Anterior, artéria e Nervos.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Scalenus medius muscle",
+    "pt": "Músculo escaleno médio",
+    "latim": "Musculus scalenus medius",
+    "sinonimos": ["escaleno médio"],
+    "resumo": "O maior e mais longo dos escalenos. Forma a parede posterior do hiato interescalênico, por onde passam o plexo braquial e a artéria subclávia, e compõe o assoalho do trígono posterior do pescoço.",
+    "origem": "Tubérculos posteriores dos processos transversos das vértebras C2 a C7 (com frequência também o processo transverso do atlas). Há variação entre autores: Moore descreve C5–C7; Gray e Netter, C2–C7.",
+    "insercao": "Face superior da primeira costela, atrás do sulco da artéria subclávia.",
+    "inervacao": { "nervo": "Ramos anteriores dos nervos espinais cervicais", "raizes": "C3 a C8", "nervoKeys": ["Cervical nerves"] },
+    "vascularizacao": "Artéria cervical ascendente e ramos musculares da artéria cervical transversa",
+    "acoes": [
+      { "art": "costelas", "mov": "inspiracao", "papel": "primario", "nota": "eleva a primeira costela" },
+      { "art": "cervical", "mov": "flexao_lateral", "papel": "primario", "nota": "é o escaleno com melhor braço de alavanca para a inclinação lateral" },
+      { "art": "cervical", "mov": "flexao", "papel": "secundario", "nota": "contração bilateral, componente fraco" }
+    ],
+    "funcao": "Eleva a primeira costela durante a inspiração (com o pescoço fixo) e inclina lateralmente a coluna cervical para o mesmo lado (com as costelas fixas). Bilateralmente, em co-contração com os demais escalenos e com os músculos posteriores, estabiliza a coluna cervical no plano frontal.",
+    "antagonistas": ["Splenius colli muscle"],
+    "sinergistas": ["Scalenus anterior muscle", "Scalenus posterior muscle", "Sternocleidomastoid muscle", "Levator scapulae"],
+    "palpacao": "No trígono posterior do pescoço, entre a borda posterior do esternocleidomastóideo e a borda anterior do trapézio/levantador da escápula, logo acima da clavícula. Fica imediatamente posterior ao sulco onde se palpam os troncos do plexo braquial (cordões firmes e sensíveis); o ventre é sentido contra os processos transversos e contrai na inspiração nasal curta ou na inclinação lateral resistida.",
+    "teste": "Avaliado em conjunto com os demais flexores laterais do pescoço: paciente em decúbito lateral ou sentado, inclinação lateral da cabeça contra resistência aplicada na região temporoparietal, com o ombro estabilizado. Observe também a atividade durante a inspiração.",
+    "alongamento": "Com a primeira costela fixada (ombro deprimido, mão segurando o assento), inclinação lateral pura do pescoço para o lado oposto, mantendo a cabeça em posição neutra de rotação e o queixo recolhido.",
+    "clinica": "Participa da síndrome do desfiladeiro torácico como limite posterior do hiato interescalênico; feixes anômalos (escaleno mínimo) ou inserção muito anterior estreitam o espaço. O nervo dorsal da escápula (C5) e raízes do nervo torácico longo (C5, C6) atravessam o ventre do escaleno médio e podem ser comprimidos nele, com dor na borda medial da escápula ou fraqueza do serrátil anterior. Hipertonia em padrões respiratórios apicais e após lesões em chicote.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Scalenus posterior muscle",
+    "pt": "Músculo escaleno posterior",
+    "latim": "Musculus scalenus posterior",
+    "sinonimos": ["escaleno posterior", "escaleno dorsal"],
+    "resumo": "O menor e mais profundo dos escalenos, muitas vezes fundido ao escaleno médio. É o único que alcança a segunda costela.",
+    "origem": "Tubérculos posteriores dos processos transversos das vértebras C4 a C6 (C5–C7 em algumas descrições).",
+    "insercao": "Face externa (borda lateral) da segunda costela, atrás da tuberosidade do músculo serrátil anterior.",
+    "inervacao": { "nervo": "Ramos anteriores dos nervos espinais cervicais", "raizes": "C6, C7, C8", "nervoKeys": ["Cervical nerves"] },
+    "vascularizacao": "Artéria cervical ascendente e ramo superficial da artéria cervical transversa",
+    "acoes": [
+      { "art": "costelas", "mov": "inspiracao", "papel": "primario", "nota": "eleva a segunda costela" },
+      { "art": "cervical", "mov": "flexao_lateral", "papel": "secundario", "nota": "com as costelas fixas" }
+    ],
+    "funcao": "Eleva a segunda costela na inspiração e auxilia a inclinação lateral da parte inferior da coluna cervical para o mesmo lado. Com os outros escalenos, estabiliza lateralmente o pescoço.",
+    "sinergistas": ["Scalenus medius muscle", "Scalenus anterior muscle", "Levator scapulae"],
+    "palpacao": "Difícil de individualizar. Fica no assoalho do trígono posterior do pescoço, logo à frente do levantador da escápula e atrás do escaleno médio, em direção à segunda costela; em geral é palpado em conjunto com o escaleno médio.",
+    "teste": "Sem prova isolada; avaliado com os flexores laterais do pescoço (inclinação lateral resistida) e pela elevação das costelas superiores na inspiração.",
+    "alongamento": "Inclinação lateral do pescoço para o lado oposto associada a leve flexão e rotação da cabeça para o lado oposto, com as costelas superiores fixadas na expiração.",
+    "clinica": "Não participa do hiato interescalênico, portanto tem menor papel na compressão neurovascular. Pode estar tenso em padrões de respiração apical e em cervicalgias com restrição da inclinação lateral; a disfunção em elevação da segunda costela costuma acompanhar seu encurtamento.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Longus colli muscle",
+    "pt": "Músculo longo do pescoço",
+    "latim": "Musculus longus colli",
+    "sinonimos": ["longo do colo", "flexor profundo do pescoço"],
+    "resumo": "Músculo pré-vertebral aplicado diretamente à face anterior da coluna, do atlas até T3. É o principal flexor profundo do pescoço e o estabilizador segmentar anterior da lordose cervical, alvo central da reabilitação das cervicalgias.",
+    "origem": "Parte vertical: corpos vertebrais de C5 a T3. Parte oblíqua inferior: corpos vertebrais de T1 a T3. Parte oblíqua superior: tubérculos anteriores dos processos transversos de C3 a C5.",
+    "insercao": "Parte vertical: corpos vertebrais de C2 a C4. Parte oblíqua inferior: tubérculos anteriores dos processos transversos de C5 e C6. Parte oblíqua superior: tubérculo anterior do arco anterior do atlas.",
+    "inervacao": { "nervo": "Ramos anteriores dos nervos espinais cervicais", "raizes": "C2 a C6", "nervoKeys": ["Cervical nerves"] },
+    "vascularizacao": "Artérias cervical ascendente, faríngea ascendente e ramos musculares da artéria vertebral",
+    "acoes": [
+      { "art": "cervical", "mov": "flexao", "papel": "primario", "nota": "contração bilateral: flexiona o pescoço e retifica a lordose cervical" },
+      { "art": "cervical", "mov": "estabilizacao", "papel": "primario", "nota": "controle segmentar da lordose cervical" },
+      { "art": "cervical", "mov": "flexao_lateral", "papel": "secundario", "nota": "contração unilateral, sobretudo das partes oblíquas" },
+      { "art": "cervical", "mov": "rotacao_contralateral", "papel": "secundario", "nota": "parte oblíqua inferior; componente pequeno" }
+    ],
+    "funcao": "Flexiona a coluna cervical e reduz a lordose. Seu papel mais importante é postural: por estar colado às vértebras e ter fibras curtas e ricas em fusos musculares, enrijece segmentarmente a coluna cervical e se opõe ao efeito de aumento da lordose provocado pelo peso da cabeça e pela contração dos extensores e do esternocleidomastóideo. Funciona como uma 'manga' estabilizadora anterior, em co-contração com os multífidos e os semiespinais posteriormente, permitindo que os músculos superficiais movam a cabeça sobre uma base estável.",
+    "antagonistas": ["Splenius colli muscle", "Splenius capitis muscle"],
+    "sinergistas": ["Longus capitis muscle", "Rectus anterior capitis muscle", "Scalenus anterior muscle", "Sternocleidomastoid muscle"],
+    "palpacao": "Não é palpável de forma confiável: situa-se atrás da faringe, do esôfago, da traqueia e do feixe vasculonervoso do pescoço. A avaliação é funcional (teste de flexão craniocervical) ou por imagem (ultrassonografia), e não por palpação direta.",
+    "teste": "Teste de flexão craniocervical (Jull): paciente em decúbito dorsal, joelhos fletidos, cabeça em posição neutra e sem travesseiro. Coloca-se uma unidade de biofeedback pressórico sob a lordose cervical, insuflada a 20 mmHg. O paciente faz um movimento lento de 'sim' com a cabeça (flexão craniocervical, sem tirar a cabeça da maca), elevando a pressão em cinco estágios de 2 mmHg (22, 24, 26, 28 e 30 mmHg) e sustentando cada um por 10 segundos. Registra-se o maior nível mantido com boa técnica e a resistência (10 repetições de 10 s). São compensações: contração visível ou palpável do esternocleidomastóideo e dos escalenos, retração do queixo com extensão cervical, movimento rápido ou em solavanco, queda da pressão e apneia. Pessoas sem dor costumam atingir 26–30 mmHg; pacientes com cervicalgia tendem a não passar de 22–24 mmHg. Complemento: teste de resistência dos flexores do pescoço (queixo recolhido, cabeça elevada cerca de 2,5 cm da maca, tempo de sustentação) e a prova dos flexores anteriores de Kendall (flexão do pescoço em decúbito dorsal com o queixo recolhido, resistência na fronte).",
+    "alongamento": "Raramente necessário, pois o problema clínico habitual é inibição e fraqueza, não encurtamento. Seria alongado pela extensão da coluna cervical média e inferior; não se recomenda a extensão forçada como exercício.",
+    "clinica": "Em cervicalgias mecânicas, cefaleia cervicogênica e após lesão em chicote observa-se redução da ativação e da resistência dos flexores profundos, com atraso na ativação antecipatória e compensação pelo esternocleidomastóideo e escalenos; pode haver atrofia e infiltração gordurosa. O treino específico de flexão craniocervical de baixa carga, progredindo em sustentação, tem evidência para reduzir dor e cefaleia. A fraqueza favorece a postura de anteriorização da cabeça. Tendinite calcificante do longo do pescoço (deposição de hidroxiapatita na parte oblíqua superior, junto a C1–C2) causa dor cervical aguda, rigidez e odinofagia, simulando abscesso retrofaríngeo. Lesões por hiperextensão (chicote) podem estirar o músculo e produzir hematoma pré-vertebral. O tronco simpático cervical repousa sobre ele.",
+    "dica": "Movimento de 'sim' pequeno e lento = flexores profundos. Se o queixo vai para a frente, quem está trabalhando é o esternocleidomastóideo.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Longus capitis muscle",
+    "pt": "Músculo longo da cabeça",
+    "latim": "Musculus longus capitis",
+    "sinonimos": ["flexor profundo do pescoço"],
+    "resumo": "Músculo pré-vertebral que liga os processos transversos cervicais à base do crânio, recobrindo a parte superior do longo do pescoço. É o principal flexor da cabeça sobre a coluna cervical alta (flexão craniocervical).",
+    "origem": "Tubérculos anteriores dos processos transversos das vértebras C3 a C6.",
+    "insercao": "Face inferior da parte basilar do osso occipital, anterior ao forame magno e lateral ao tubérculo faríngeo.",
+    "inervacao": { "nervo": "Ramos anteriores dos nervos espinais cervicais", "raizes": "C1, C2, C3", "nervoKeys": ["Cervical nerves"] },
+    "vascularizacao": "Artérias faríngea ascendente, cervical ascendente e ramos da artéria vertebral",
+    "acoes": [
+      { "art": "cervical", "mov": "flexao", "papel": "primario", "nota": "flexão da cabeça sobre o pescoço (craniocervical) e da cervical alta" },
+      { "art": "cervical", "mov": "estabilizacao", "papel": "primario", "nota": "controla a cabeça sobre a coluna cervical" },
+      { "art": "cervical", "mov": "rotacao_ipsilateral", "papel": "secundario", "nota": "contração unilateral; componente pequeno" },
+      { "art": "cervical", "mov": "flexao_lateral", "papel": "secundario" }
+    ],
+    "funcao": "Flexiona a cabeça e a coluna cervical alta: é o motor do movimento de 'sim' e do recolhimento do queixo. Com o longo do pescoço forma o sistema flexor profundo, que mantém a cabeça equilibrada sobre a coluna e impede que o esternocleidomastóideo leve a cabeça à protração durante a flexão do pescoço. Unilateralmente contribui pouco para a inclinação e a rotação para o mesmo lado.",
+    "antagonistas": ["Splenius capitis muscle"],
+    "sinergistas": ["Longus colli muscle", "Rectus anterior capitis muscle", "Rectus lateralis capitis muscle"],
+    "palpacao": "Não é palpável diretamente (situa-se atrás da faringe e do espaço retrofaríngeo, medial ao feixe carotídeo). Avaliação funcional pelo teste de flexão craniocervical.",
+    "teste": "Teste de flexão craniocervical com biofeedback pressórico (descrito no músculo longo do pescoço): 20 mmHg de base, cinco estágios de 2 mmHg até 30 mmHg, 10 s de sustentação, observando a compensação pelos flexores superficiais. Prova manual (Kendall, flexores anteriores do pescoço): decúbito dorsal, o paciente recolhe o queixo e flexiona o pescoço elevando a cabeça; resistência na fronte em direção posterior. A incapacidade de manter o queixo recolhido indica fraqueza dos flexores profundos.",
+    "alongamento": "Raramente indicado. A posição de alongamento é a extensão da cabeça sobre a cervical alta; na prática clínica o objetivo costuma ser a ativação e o ganho de resistência, não o alongamento.",
+    "clinica": "Inibido e fraco em cervicalgia crônica, cefaleia cervicogênica, distúrbios associados ao chicote e na postura de anteriorização da cabeça (na qual a cervical alta fica em extensão e os flexores profundos alongados e ineficientes). A reeducação com flexão craniocervical de baixa carga é a base do tratamento. Em traumas por hiperextensão pode sofrer estiramento.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Rectus anterior capitis muscle",
+    "pt": "Músculo reto anterior da cabeça",
+    "latim": "Musculus rectus capitis anterior",
+    "resumo": "Pequeno músculo pré-vertebral, curto e achatado, que liga o atlas à base do occipital, profundamente ao longo da cabeça.",
+    "origem": "Face anterior da massa lateral do atlas e raiz do seu processo transverso.",
+    "insercao": "Parte basilar do osso occipital, imediatamente à frente do côndilo occipital.",
+    "inervacao": { "nervo": "Ramos da alça entre os ramos anteriores de C1 e C2", "raizes": "C1, C2", "nervoKeys": ["Cervical nerves"] },
+    "acoes": [
+      { "art": "cervical", "mov": "flexao", "papel": "secundario", "nota": "flexão da cabeça na articulação atlantoccipital" },
+      { "art": "cervical", "mov": "estabilizacao", "papel": "primario", "nota": "articulação atlantoccipital" }
+    ],
+    "funcao": "Flexiona a cabeça sobre o atlas e, sobretudo, estabiliza a articulação atlantoccipital, fazendo ajustes finos de posição. Como os suboccipitais posteriores, tem alta densidade de fusos musculares e papel proprioceptivo.",
+    "sinergistas": ["Longus capitis muscle", "Rectus lateralis capitis muscle"],
+    "clinica": "Não palpável. Integra o grupo de flexores profundos treinado no exercício de flexão craniocervical.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Rectus lateralis capitis muscle",
+    "pt": "Músculo reto lateral da cabeça",
+    "latim": "Musculus rectus capitis lateralis",
+    "resumo": "Músculo curto entre o processo transverso do atlas e o occipital; é homólogo dos músculos intertransversários. Relaciona-se com a veia jugular interna e o forame jugular.",
+    "origem": "Face superior do processo transverso do atlas.",
+    "insercao": "Face inferior do processo jugular do osso occipital.",
+    "inervacao": { "nervo": "Ramos da alça entre os ramos anteriores de C1 e C2", "raizes": "C1, C2", "nervoKeys": ["Cervical nerves"] },
+    "acoes": [
+      { "art": "cervical", "mov": "flexao_lateral", "papel": "secundario", "nota": "inclina a cabeça para o mesmo lado na articulação atlantoccipital" },
+      { "art": "cervical", "mov": "estabilizacao", "papel": "primario", "nota": "articulação atlantoccipital" }
+    ],
+    "funcao": "Inclina levemente a cabeça para o mesmo lado e estabiliza a articulação atlantoccipital no plano frontal.",
+    "sinergistas": ["Rectus anterior capitis muscle"],
+    "camada": "profunda"
+  },
+  {
+    "key": "Platysma",
+    "pt": "Platisma",
+    "latim": "Platysma",
+    "sinonimos": ["músculo platisma", "cutâneo do pescoço"],
+    "resumo": "Lâmina muscular larga e muito fina situada na tela subcutânea do pescoço, superficial à lâmina superficial da fáscia cervical. É um músculo da expressão facial, apesar de estar no pescoço.",
+    "origem": "Fáscia que recobre as partes superiores dos músculos peitoral maior e deltoide (região infraclavicular).",
+    "insercao": "Borda inferior da mandíbula, pele e tela subcutânea da parte inferior da face, ângulo da boca (modíolo) e lábio inferior; as fibras anteriores entrecruzam-se com as do lado oposto abaixo do mento.",
+    "inervacao": { "nervo": "Ramo cervical do nervo facial (NC VII)", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "vascularizacao": "Artéria submentual (ramo da facial) e artéria supraescapular",
+    "acoes": [
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "tensiona a pele do pescoço e traciona para baixo o ângulo da boca e o lábio inferior (tensão, susto, esforço)" },
+      { "art": "atm", "mov": "depressao", "papel": "secundario", "nota": "auxilia o abaixamento da mandíbula contra resistência" }
+    ],
+    "funcao": "Tensiona a pele da face inferior e do pescoço, formando cristas verticais, e puxa para baixo e lateralmente o ângulo da boca e o lábio inferior, em expressões de tensão, horror ou esforço intenso. Ao tensionar a pele, alivia a pressão sobre as veias superficiais do pescoço. Auxilia discretamente a abertura da boca.",
+    "sinergistas": ["Depressor anguli oris", "Depressor labii inferioris"],
+    "palpacao": "Peça ao paciente que cerre os dentes e puxe com força os cantos da boca para baixo e para trás (mostrar os dentes inferiores): as fibras saltam como cordas verticais sob a pele do pescoço, da mandíbula à clavícula.",
+    "teste": "O paciente traciona o lábio inferior e os ângulos da boca para baixo, tensionando a pele do pescoço; observa-se a simetria das cristas. É um dos itens da avaliação motora do nervo facial.",
+    "clinica": "Na paralisia facial periférica o platisma do lado afetado não se contrai e a pele do pescoço fica flácida. Lesão do ramo cervical do facial em cirurgias cervicais produz o mesmo sinal. Na sutura de feridas do pescoço o músculo deve ser aproximado em plano próprio, pois a retração das fibras alarga a cicatriz. As 'bandas platismais' do envelhecimento são tratadas com toxina botulínica.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Digastric muscle",
+    "pt": "Músculo digástrico",
+    "latim": "Musculus digastricus",
+    "sinonimos": ["digástrico"],
+    "resumo": "Músculo supra-hióideo com dois ventres unidos por um tendão intermédio preso ao osso hioide. Os ventres têm origens embriológicas diferentes e, por isso, inervações diferentes. Delimita os trígonos submandibular e submentual.",
+    "origem": "Ventre posterior: incisura mastóidea do osso temporal. Ventre anterior: fossa digástrica, na face interna da base da mandíbula, junto à sínfise.",
+    "insercao": "Tendão intermédio, fixado ao corpo e ao corno maior do osso hioide por uma alça fibrosa.",
+    "inervacao": { "nervo": "Ventre anterior: nervo milo-hióideo (ramo do alveolar inferior, NC V3). Ventre posterior: ramo digástrico do nervo facial (NC VII)", "raizes": "NC V3 e NC VII", "nervoKeys": ["Nerve to mylohyoid muscle", "Facial nerve (VII)"] },
+    "vascularizacao": "Ventre anterior: artéria submentual. Ventre posterior: artérias occipital e auricular posterior",
+    "acoes": [
+      { "art": "atm", "mov": "depressao", "papel": "primario", "nota": "com o hioide fixado pelos infra-hióideos, abaixa a mandíbula (abertura da boca), sobretudo contra resistência ou em abertura ampla" },
+      { "art": "hioide_laringe", "mov": "elevacao", "papel": "primario", "nota": "com a mandíbula fixa, eleva o hioide na deglutição e na fala" },
+      { "art": "atm", "mov": "retrusao", "papel": "secundario", "nota": "o ventre anterior traciona a mandíbula para trás" }
+    ],
+    "funcao": "Com a mandíbula estabilizada pelos músculos da mastigação, os dois ventres elevam o hioide e a laringe durante a deglutição. Com o hioide fixado pelos infra-hióideos, abaixam e retraem a mandíbula, participando da abertura da boca junto com o pterigóideo lateral. O ventre posterior também traciona o hioide para trás e para cima.",
+    "antagonistas": ["Deep part of masseter", "Temporalis muscle", "Medial pterygoid muscle"],
+    "sinergistas": ["Mylohyoid muscle", "Geniohyoid muscle", "Stylohyoid muscle", "Inferior head of lateral pterygoid muscle"],
+    "palpacao": "Ventre anterior: sob o mento, de cada lado da linha mediana, entre a mandíbula e o hioide; contrai quando o paciente abre a boca contra resistência aplicada sob o queixo ou pressiona a língua contra o palato. Ventre posterior: entre o ângulo da mandíbula e o processo mastoide, profundo e de palpação delicada.",
+    "clinica": "Os supra-hióideos podem estar dolorosos e hiperativos nas disfunções temporomandibulares e na postura de anteriorização da cabeça, em que a tração dos hióideos tende a abaixar e retrair a mandíbula, alterando a posição de repouso mandibular. São alvo de exercícios na reabilitação da disfagia (por exemplo, o exercício de Shaker e a abertura de boca resistida), pois a elevação e a anteriorização do hioide abrem o esfíncter esofágico superior. O ventre posterior é referência cirúrgica para o nervo hipoglosso e os vasos carotídeos.",
+    "dica": "Dois ventres, dois arcos faríngeos, dois nervos: anterior = V3 (1º arco), posterior = VII (2º arco).",
+    "camada": "intermediaria",
+    "partes": [
+      { "key": "Anterior belly of digastric muscle", "pt": "Ventre anterior", "origem": "Fossa digástrica da mandíbula", "insercao": "Tendão intermédio", "nota": "Inervado pelo nervo milo-hióideo (NC V3). Os dois ventres anteriores delimitam o trígono submentual." },
+      { "key": "Intermediate tendon of digastric muscle", "pt": "Tendão intermédio", "nota": "Une os dois ventres; atravessa a inserção do músculo estilo-hióideo e prende-se ao corpo e ao corno maior do hioide por uma alça fibrosa, que funciona como polia." },
+      { "key": "Posterior belly of digastric muscle", "pt": "Ventre posterior", "origem": "Incisura mastóidea do osso temporal", "insercao": "Tendão intermédio", "nota": "Inervado pelo ramo digástrico do nervo facial (NC VII). Mais longo que o anterior." }
+    ]
+  },
+  {
+    "key": "Mylohyoid muscle",
+    "pt": "Músculo milo-hióideo",
+    "latim": "Musculus mylohyoideus",
+    "sinonimos": ["milohióideo", "diafragma da boca"],
+    "resumo": "Lâmina muscular triangular que, unida à do lado oposto por uma rafe mediana, forma o assoalho muscular da boca.",
+    "origem": "Linha milo-hióidea da face interna do corpo da mandíbula.",
+    "insercao": "Rafe milo-hióidea (mediana, da sínfise da mandíbula ao hioide) e corpo do osso hioide.",
+    "inervacao": { "nervo": "Nervo milo-hióideo, ramo do nervo alveolar inferior (NC V3)", "raizes": "NC V3", "nervoKeys": ["Nerve to mylohyoid muscle"] },
+    "vascularizacao": "Artéria sublingual e ramo milo-hióideo da artéria alveolar inferior; artéria submentual",
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "elevacao", "papel": "primario", "nota": "eleva o hioide, o assoalho da boca e a língua na deglutição e na fala" },
+      { "art": "atm", "mov": "depressao", "papel": "secundario", "nota": "com o hioide fixo" }
+    ],
+    "funcao": "Eleva o assoalho da boca e a língua, pressionando-a contra o palato na fase oral da deglutição, e eleva o hioide. Com o hioide fixado pelos infra-hióideos, auxilia o abaixamento da mandíbula.",
+    "sinergistas": ["Geniohyoid muscle", "Anterior belly of digastric muscle", "Stylohyoid muscle"],
+    "palpacao": "Sob o queixo, entre os dois ramos do corpo da mandíbula, profundamente ao ventre anterior do digástrico. Endurece quando o paciente deglute ou pressiona a ponta da língua contra o palato.",
+    "clinica": "Separa o espaço sublingual (acima) do submandibular (abaixo); infecções dentárias podem se disseminar por esses espaços (angina de Ludwig). A elevação hióidea é alvo da reabilitação da disfagia.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Geniohyoid muscle",
+    "pt": "Músculo gênio-hióideo",
+    "latim": "Musculus geniohyoideus",
+    "sinonimos": ["geniohióideo"],
+    "resumo": "Músculo estreito situado acima do milo-hióideo, de cada lado da linha mediana, do mento ao hioide.",
+    "origem": "Espinha geniana (mentual) inferior da mandíbula.",
+    "insercao": "Face anterior do corpo do osso hioide.",
+    "inervacao": { "nervo": "Fibras de C1 que acompanham o nervo hipoglosso (NC XII)", "raizes": "C1", "nervoKeys": ["Hypoglossal nerve (XII)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "elevacao", "papel": "primario", "nota": "traciona o hioide para cima e para a frente, encurtando o assoalho da boca e alargando a faringe" },
+      { "art": "atm", "mov": "depressao", "papel": "secundario", "nota": "com o hioide fixo; também retrai a mandíbula" }
+    ],
+    "funcao": "Puxa o hioide para a frente e para cima durante a deglutição, o que alarga a faringe e ajuda a abrir o esfíncter esofágico superior. Com o hioide fixo, abaixa e retrai a mandíbula.",
+    "sinergistas": ["Mylohyoid muscle", "Anterior belly of digastric muscle"],
+    "clinica": "A anteriorização do hioide é o principal mecanismo de abertura do esfíncter esofágico superior; por isso o gênio-hióideo é um dos músculos-alvo dos exercícios para disfagia.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Stylohyoid muscle",
+    "pt": "Músculo estilo-hióideo",
+    "latim": "Musculus stylohyoideus",
+    "sinonimos": ["estilohióideo"],
+    "resumo": "Músculo delgado que acompanha o ventre posterior do digástrico, do processo estiloide ao hioide; seu tendão de inserção é perfurado pelo tendão intermédio do digástrico.",
+    "origem": "Processo estiloide do osso temporal (face posterior).",
+    "insercao": "Corpo do osso hioide, na junção com o corno maior.",
+    "inervacao": { "nervo": "Ramo estilo-hióideo do nervo facial (NC VII)", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "hioide_laringe", "mov": "elevacao", "papel": "primario", "nota": "eleva e retrai o hioide, alongando o assoalho da boca" }
+    ],
+    "funcao": "Eleva e traciona o hioide para trás durante a deglutição, alongando o assoalho da boca.",
+    "sinergistas": ["Posterior belly of digastric muscle", "Mylohyoid muscle"],
+    "camada": "intermediaria"
+  }
+]

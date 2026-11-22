@@ -1,0 +1,325 @@
+[
+  {
+    "key": "Extensor digitorum brevis",
+    "pt": "Músculo extensor curto dos dedos",
+    "latim": "Musculus extensor digitorum brevis",
+    "sinonimos": ["pedioso"],
+    "resumo": "Músculo intrínseco do dorso do pé — junto com o extensor curto do hálux, o único ventre muscular dorsal. Forma uma saliência carnosa à frente do maléolo lateral e auxilia a extensão dos dedos 2 a 4.",
+    "origem": "Face superolateral do calcâneo, à frente do sulco do calcâneo (assoalho do seio do tarso), ligamento talocalcâneo interósseo e retináculo inferior dos músculos extensores.",
+    "insercao": "Por três tendões, na margem lateral dos tendões do extensor longo dos dedos para o segundo, terceiro e quarto dedos (expansões extensoras).",
+    "inervacao": { "nervo": "Nervo fibular profundo (ramo lateral terminal)", "raizes": "L5, S1", "nervoKeys": ["Deep fibular nerve"] },
+    "vascularizacao": "Artéria dorsal do pé e artéria tarsal lateral.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "extensao", "papel": "secundario", "nota": "dedos 2 a 4, nas articulações metatarsofalângicas e interfalângicas" }
+    ],
+    "funcao": "Auxilia o extensor longo dos dedos a estender os dedos, com a vantagem de agir independentemente da posição do tornozelo: quando o tornozelo está em dorsiflexão e o extensor longo fica encurtado e ineficiente, o extensor curto mantém a extensão dos dedos. Na marcha, ajuda a elevar os dedos no balanço e a posicioná-los antes do contato.",
+    "antagonistas": ["Flexor digitorum brevis", "Flexor digitorum longus"],
+    "sinergistas": ["Extensor digitorum longus", "Extensor hallucis brevis", "Lumbrical muscles of foot"],
+    "palpacao": "Paciente em decúbito dorsal ou sentado. Palpe o dorso lateral do pé, cerca de dois dedos à frente e abaixo do maléolo lateral, sobre o seio do tarso: o ventre forma uma pequena almofada mole, que endurece ao pedir extensão dos dedos (sem dorsiflexão do tornozelo). Fica lateral e profundo aos tendões do extensor longo dos dedos.",
+    "teste": "Kendall (com o extensor longo dos dedos): paciente em decúbito dorsal, pé estabilizado em leve flexão plantar; extensão das articulações metatarsofalângicas dos dedos 2 a 4 contra resistência no dorso das falanges proximais. A contração do ventre é observada e palpada no dorso lateral do pé.",
+    "alongamento": "Flexão dos dedos 2 a 4 com o tornozelo em posição neutra.",
+    "clinica": "Seu ventre é frequentemente confundido com edema: após uma entorse em inversão, um hematoma no músculo ou o próprio relevo do ventre podem simular derrame articular. Por outro lado, a atrofia do extensor curto dos dedos, comparada com o lado oposto, é um sinal útil de lesão do nervo fibular profundo ou de radiculopatia L5–S1; é o músculo de registro nos estudos de condução do nervo fibular. O ramo do nervo fibular profundo pode ser comprimido sob o retináculo dos extensores (síndrome do túnel do tarso anterior).",
+    "dica": "É o único 'músculo' que se palpa no dorso do pé: a almofadinha à frente do maléolo lateral. Não confundir com inchaço de entorse.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Extensor hallucis brevis",
+    "pt": "Músculo extensor curto do hálux",
+    "latim": "Musculus extensor hallucis brevis",
+    "resumo": "Porção mais medial do ventre muscular do dorso do pé, muitas vezes descrita como parte do extensor curto dos dedos. Estende a articulação metatarsofalângica do hálux.",
+    "origem": "Face superolateral do calcâneo, à frente do sulco do calcâneo, junto com o extensor curto dos dedos, e retináculo inferior dos músculos extensores.",
+    "insercao": "Face dorsal da base da falange proximal do hálux.",
+    "inervacao": { "nervo": "Nervo fibular profundo (ramo lateral terminal)", "raizes": "L5, S1", "nervoKeys": ["Deep fibular nerve"] },
+    "vascularizacao": "Artéria dorsal do pé.",
+    "acoes": [
+      { "art": "halux", "mov": "extensao", "papel": "secundario", "nota": "apenas na articulação metatarsofalângica" }
+    ],
+    "funcao": "Auxilia o extensor longo do hálux a estender a articulação metatarsofalângica, independentemente da posição do tornozelo. Colabora para elevar o hálux durante o balanço da marcha e para posicioná-lo antes do contato com o solo.",
+    "antagonistas": ["Flexor hallucis brevis", "Flexor hallucis longus"],
+    "sinergistas": ["Extensor hallucis longus", "Extensor digitorum brevis"],
+    "palpacao": "Palpe o ventre comum dos extensores curtos à frente do maléolo lateral; o extensor curto do hálux é sua parte mais medial. O tendão cruza obliquamente o dorso do pé em direção ao hálux, passando por baixo dos tendões do extensor longo dos dedos e sobre a artéria dorsal do pé; peça extensão do hálux apenas na metatarsofalângica.",
+    "teste": "Kendall: pé estabilizado em leve flexão plantar; o paciente estende a articulação metatarsofalângica do hálux; resistência no dorso da falange proximal, no sentido da flexão. Se o extensor longo estiver paralisado, o hálux estende apenas na metatarsofalângica, mantendo a interfalângica fletida.",
+    "alongamento": "Flexão da articulação metatarsofalângica do hálux.",
+    "clinica": "Seu tendão cruza a artéria dorsal do pé e o nervo fibular profundo, podendo comprimi-los; é referência para a palpação do pulso pedioso, sentido lateralmente ao tendão do extensor longo do hálux, antes de ser cruzado pelo extensor curto. A atrofia acompanha a do extensor curto dos dedos nas lesões do nervo fibular profundo.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Abductor hallucis",
+    "pt": "Músculo abdutor do hálux",
+    "latim": "Musculus abductor hallucis",
+    "resumo": "Músculo da primeira camada plantar que forma o contorno carnoso da margem medial do pé. Abduz e flete o hálux e é um suporte dinâmico importante do arco longitudinal medial.",
+    "origem": "Processo medial da tuberosidade do calcâneo, retináculo dos músculos flexores e aponeurose plantar.",
+    "insercao": "Face medial da base da falange proximal do hálux, junto com a cabeça medial do flexor curto do hálux, por meio do osso sesamoide medial.",
+    "inervacao": { "nervo": "Nervo plantar medial", "raizes": "S2, S3", "nervoKeys": ["Medial plantar nerve"] },
+    "vascularizacao": "Artéria plantar medial.",
+    "acoes": [
+      { "art": "halux", "mov": "abducao", "papel": "primario", "nota": "afasta o hálux do segundo dedo, na articulação metatarsofalângica" },
+      { "art": "halux", "mov": "flexao", "papel": "secundario", "nota": "articulação metatarsofalângica" },
+      { "art": "subtalar", "mov": "estabilizacao", "papel": "secundario", "nota": "sustenta o arco longitudinal medial" }
+    ],
+    "funcao": "Poucas pessoas conseguem abduzir o hálux de forma isolada; a função real do músculo é de sustentação. Em carga, age como uma corda tensa entre o calcâneo e o hálux, sustentando o arco longitudinal medial e controlando a pronação do pé do apoio médio à impulsão. Estabiliza o hálux contra o solo e mantém seu alinhamento, opondo-se à tração lateral do adutor do hálux.",
+    "antagonistas": ["Adductor hallucis"],
+    "sinergistas": ["Flexor hallucis brevis", "Flexor hallucis longus", "Tibialis posterior muscle"],
+    "palpacao": "Paciente em decúbito dorsal. Palpe a margem medial do pé, entre o calcâneo e a cabeça do primeiro metatarsal, abaixo do navicular: é a massa carnosa mais superficial. Peça que afaste o hálux dos outros dedos ou que o flexione contra resistência para sentir a contração.",
+    "teste": "Kendall: o examinador estabiliza o calcâneo e o antepé. O paciente abduz o hálux a partir da posição de adução (muitos não conseguem voluntariamente; nesse caso observa-se a contração ao pedir flexão da metatarsofalângica com o antepé em leve adução). Resistência na face medial da falange proximal, no sentido da adução.",
+    "alongamento": "Adução e extensão passivas do hálux (pouco relevante na prática; trabalha-se mais a liberação miofascial da margem medial do pé).",
+    "clinica": "No hálux valgo (joanete), o músculo fica deslocado para a face plantar do primeiro metatarsal, perde o braço de alavanca abdutor e passa a agir como flexor, deixando o adutor do hálux sem oposição e agravando a deformidade. O fortalecimento do abdutor do hálux e o exercício do 'pé curto' (short foot) são usados no pé plano flexível, na fascite plantar e nos estágios iniciais do hálux valgo.\n\nO nervo plantar medial e o primeiro ramo do nervo plantar lateral (nervo de Baxter) passam profundamente ao músculo e podem ser comprimidos por sua fáscia, causando dor na margem medial do pé ou no calcanhar (pé do corredor).",
+    "camada": "superficial"
+  },
+  {
+    "key": "Flexor digitorum brevis",
+    "pt": "Músculo flexor curto dos dedos",
+    "latim": "Musculus flexor digitorum brevis",
+    "sinonimos": ["flexor curto plantar"],
+    "resumo": "Músculo central da primeira camada plantar, logo acima da aponeurose plantar. Equivale ao flexor superficial dos dedos da mão: seus tendões se bifurcam para dar passagem aos do flexor longo.",
+    "origem": "Processo medial da tuberosidade do calcâneo, aponeurose plantar e septos intermusculares.",
+    "insercao": "Por quatro tendões, que se bifurcam e se inserem em ambos os lados das falanges médias dos dedos 2 a 5; os tendões do flexor longo dos dedos passam pela bifurcação.",
+    "inervacao": { "nervo": "Nervo plantar medial", "raizes": "S2, S3", "nervoKeys": ["Medial plantar nerve"] },
+    "vascularizacao": "Artérias plantares medial e lateral.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "flexao", "papel": "primario", "nota": "articulações interfalângicas proximais dos dedos 2 a 5; secundariamente as metatarsofalângicas" },
+      { "art": "subtalar", "mov": "estabilizacao", "papel": "secundario", "nota": "sustenta o arco longitudinal" }
+    ],
+    "funcao": "Flete os dedos independentemente da posição do tornozelo. Em carga, soma-se à aponeurose plantar no suporte do arco longitudinal, absorvendo e devolvendo energia. Na fase de impulsão da marcha e da corrida, firma os dedos contra o solo e estabiliza as articulações metatarsofalângicas, dando base para a ação dos flexores plantares.",
+    "antagonistas": ["Extensor digitorum longus", "Extensor digitorum brevis"],
+    "sinergistas": ["Flexor digitorum longus", "Quadratus plantae muscle", "Lumbrical muscles of foot", "Abductor hallucis", "Abductor digiti minimi of foot"],
+    "palpacao": "Paciente em decúbito dorsal ou ventral. Palpe o centro da planta, entre o calcâneo e as cabeças dos metatarsais, através da aponeurose plantar, que é espessa. Peça flexão dos dedos (enrolar os dedos) para sentir a tensão em profundidade; a aponeurose em si se evidencia estendendo passivamente os dedos.",
+    "teste": "Kendall: o examinador estabiliza as falanges proximais dos dedos 2 a 5 e mantém o tornozelo neutro. O paciente flete as articulações interfalângicas proximais; resistência na face plantar das falanges médias, no sentido da extensão.",
+    "alongamento": "Extensão dos dedos 2 a 5 com o tornozelo em dorsiflexão (o mesmo gesto que alonga a aponeurose plantar).",
+    "clinica": "Compartilha a origem com a aponeurose plantar no processo medial da tuberosidade do calcâneo, região da fascite (fasciopatia) plantar; o esporão do calcâneo forma-se na origem do músculo, e não na aponeurose. A fraqueza e a atrofia dos intrínsecos plantares estão associadas à fascite plantar e ao pé plano, e seu fortalecimento integra o tratamento. A contratura contribui para os dedos em martelo (flexão da interfalângica proximal).",
+    "camada": "superficial"
+  },
+  {
+    "key": "Abductor digiti minimi of foot",
+    "pt": "Músculo abdutor do dedo mínimo do pé",
+    "latim": "Musculus abductor digiti minimi pedis",
+    "sinonimos": ["abdutor do quinto dedo", "abdutor do mínimo"],
+    "resumo": "Músculo da primeira camada plantar que forma o contorno da margem lateral do pé. Abduz e flete o quinto dedo e sustenta o arco longitudinal lateral.",
+    "origem": "Processos lateral e medial da tuberosidade do calcâneo, aponeurose plantar e septo intermuscular.",
+    "insercao": "Face lateral da base da falange proximal do quinto dedo; parte das fibras pode fixar-se na tuberosidade do quinto metatarsal.",
+    "inervacao": { "nervo": "Nervo plantar lateral", "raizes": "S2, S3", "nervoKeys": ["Lateral plantar nerve"] },
+    "vascularizacao": "Artéria plantar lateral.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "abducao", "papel": "primario", "nota": "quinto dedo, na articulação metatarsofalângica" },
+      { "art": "dedos_pe", "mov": "flexao", "papel": "secundario", "nota": "articulação metatarsofalângica do quinto dedo" },
+      { "art": "subtalar", "mov": "estabilizacao", "papel": "secundario", "nota": "sustenta o arco longitudinal lateral" }
+    ],
+    "funcao": "Como no abdutor do hálux, o movimento isolado é pouco importante. Em carga, dá suporte dinâmico ao arco longitudinal lateral e estabiliza a margem lateral do pé, que recebe o peso logo após o contato do calcanhar e durante o apoio médio.",
+    "antagonistas": ["Plantar interossei muscles"],
+    "sinergistas": ["Flexor digiti minimi of foot", "Flexor digitorum brevis"],
+    "palpacao": "Palpe a margem lateral da planta, entre o calcâneo e a tuberosidade do quinto metatarsal e daí até o quinto dedo: é a massa carnosa superficial dessa margem. Peça abdução do quinto dedo ou flexão contra resistência.",
+    "teste": "Kendall: o examinador estabiliza o pé; o paciente abduz o quinto dedo (muitos não conseguem voluntariamente). Resistência na face lateral da falange proximal, no sentido da adução. Em geral apenas se observa e palpa a contração.",
+    "alongamento": "Adução e extensão passivas do quinto dedo.",
+    "clinica": "O ramo do nervo plantar lateral para este músculo (nervo calcâneo inferior ou nervo de Baxter) pode ser comprimido entre o abdutor do hálux e o quadrado plantar, causando dor plantar medial no calcanhar que simula fascite plantar; a atrofia do abdutor do dedo mínimo à ressonância é o sinal característico. O músculo está no compartimento lateral do pé, que pode ser acometido na síndrome compartimental após fraturas do calcâneo.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Quadratus plantae muscle",
+    "pt": "Músculo quadrado plantar",
+    "latim": "Musculus quadratus plantae",
+    "sinonimos": ["flexor acessório dos dedos", "carne quadrada de Sylvius"],
+    "resumo": "Músculo da segunda camada plantar, com duas cabeças, que se insere no tendão do flexor longo dos dedos. Corrige a tração oblíqua desse tendão, alinhando a flexão dos dedos com o eixo do pé.",
+    "origem": "Cabeça medial (maior, carnosa): face medial côncava do calcâneo. Cabeça lateral (tendínea): margem lateral da face plantar do calcâneo e ligamento plantar longo.",
+    "insercao": "Margem posterolateral do tendão do flexor longo dos dedos, antes de sua divisão.",
+    "inervacao": { "nervo": "Nervo plantar lateral", "raizes": "S2, S3", "nervoKeys": ["Lateral plantar nerve"] },
+    "vascularizacao": "Artérias plantares lateral e medial.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "flexao", "papel": "secundario", "nota": "auxilia o flexor longo dos dedos a fletir os dedos 2 a 5 e retifica sua linha de tração" }
+    ],
+    "funcao": "O tendão do flexor longo dos dedos entra na planta pelo lado medial e puxaria os dedos obliquamente, em direção medial; o quadrado plantar, tracionando o tendão para trás em direção ao calcâneo, converte essa força em flexão reta. Permite ainda fletir os dedos quando o flexor longo está afrouxado pela flexão plantar do tornozelo, como na fase de impulsão, e contribui para a sustentação do arco longitudinal.",
+    "antagonistas": ["Extensor digitorum longus", "Extensor digitorum brevis"],
+    "sinergistas": ["Flexor digitorum longus", "Flexor digitorum brevis", "Lumbrical muscles of foot"],
+    "palpacao": "Não é palpável isoladamente: fica profundamente ao flexor curto dos dedos e à aponeurose plantar. A pressão profunda na parte posterior da planta, à frente do calcâneo, atinge sua região.",
+    "teste": "Não há prova isolada; é avaliado com os flexores dos dedos (flexão das interfalângicas distais dos dedos 2 a 5 contra resistência).",
+    "alongamento": "Extensão dos dedos 2 a 5 com dorsiflexão do tornozelo.",
+    "clinica": "Sua fraqueza, junto com a dos demais intrínsecos (neuropatia diabética, lesão do nervo tibial ou plantar lateral), favorece a deformidade em garra dos dedos. O nervo de Baxter corre entre o quadrado plantar e o abdutor do hálux, local de possível compressão. Pode ser fonte de dor profunda no calcanhar, a ser diferenciada da fascite plantar.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Lumbrical muscles of foot",
+    "pt": "Músculos lumbricais do pé",
+    "latim": "Musculi lumbricales pedis",
+    "resumo": "Quatro pequenos músculos em forma de verme, na segunda camada plantar, que nascem dos tendões do flexor longo dos dedos. Fletem as articulações metatarsofalângicas e estendem as interfalângicas dos dedos 2 a 5.",
+    "origem": "Tendões do flexor longo dos dedos: o primeiro (unipenado) nasce da margem medial do tendão para o segundo dedo; o segundo, terceiro e quarto (bipenados) nascem dos lados adjacentes dos tendões vizinhos.",
+    "insercao": "Face medial das expansões extensoras (aponeuroses dorsais) dos dedos 2 a 5 e base das falanges proximais correspondentes.",
+    "inervacao": { "nervo": "Primeiro lumbrical: nervo plantar medial. Segundo, terceiro e quarto: nervo plantar lateral (ramo profundo)", "raizes": "S2, S3", "nervoKeys": ["Medial plantar nerve", "Lateral plantar nerve"] },
+    "vascularizacao": "Artérias plantares medial e lateral; artérias metatarsais plantares.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "flexao", "papel": "primario", "nota": "articulações metatarsofalângicas dos dedos 2 a 5" },
+      { "art": "dedos_pe", "mov": "extensao", "papel": "primario", "nota": "articulações interfalângicas dos dedos 2 a 5" }
+    ],
+    "funcao": "Com os interósseos, mantêm os dedos estendidos e apoiados no solo enquanto as articulações metatarsofalângicas são estabilizadas em flexão: na fase de impulsão, quando o calcanhar sobe e essas articulações são forçadas em extensão, impedem que os dedos se dobrem em garra sob a tração dos flexores longos. Ligam os sistemas flexor e extensor e têm papel proprioceptivo.",
+    "antagonistas": ["Extensor digitorum longus", "Extensor digitorum brevis"],
+    "sinergistas": ["Plantar interossei muscles", "Dorsal interossei muscles of foot", "Flexor digitorum brevis"],
+    "palpacao": "Não são palpáveis individualmente; ficam profundamente na planta, entre os tendões do flexor longo dos dedos, na altura dos metatarsais.",
+    "teste": "Kendall: o examinador estabiliza a região metatarsal. O paciente flete as articulações metatarsofalângicas dos dedos 2 a 5 mantendo as interfalângicas estendidas; resistência na face plantar das falanges proximais, no sentido da extensão.",
+    "alongamento": "Extensão das articulações metatarsofalângicas combinada com flexão das interfalângicas dos dedos 2 a 5.",
+    "clinica": "A fraqueza dos lumbricais e interósseos (neuropatia diabética, doença de Charcot-Marie-Tooth, lesão do nervo tibial) deixa os flexores e extensores longos sem oposição: surgem os dedos em garra, com hiperextensão das metatarsofalângicas e flexão das interfalângicas, deslocamento distal do coxim gorduroso plantar e sobrecarga das cabeças dos metatarsais — mecanismo importante das úlceras do pé diabético. Exercícios de 'intrínseco plus' do pé (fletir as metatarsofalângicas com os dedos retos) são usados na reabilitação.",
+    "dica": "Mesma lógica da mão: lumbricais fletem a 'junta de cima' (metatarsofalângica) e esticam as 'de baixo' (interfalângicas). Sem eles, dedo em garra.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Flexor hallucis brevis",
+    "pt": "Músculo flexor curto do hálux",
+    "latim": "Musculus flexor hallucis brevis",
+    "resumo": "Músculo da terceira camada plantar, com duas cabeças que abraçam o tendão do flexor longo do hálux. Cada tendão contém um osso sesamoide sob a cabeça do primeiro metatarsal. Flete a articulação metatarsofalângica do hálux.",
+    "origem": "Face plantar do cuboide e do cuneiforme lateral e expansões do tendão do tibial posterior.",
+    "insercao": "Ambos os lados da base da falange proximal do hálux, por dois tendões, cada um com um osso sesamoide. Ver cada cabeça.",
+    "inervacao": { "nervo": "Nervo plantar medial", "raizes": "S2, S3", "nervoKeys": ["Medial plantar nerve"] },
+    "vascularizacao": "Artéria plantar medial e primeira artéria metatarsal plantar.",
+    "acoes": [
+      { "art": "halux", "mov": "flexao", "papel": "primario", "nota": "articulação metatarsofalângica" },
+      { "art": "halux", "mov": "estabilizacao", "papel": "primario", "nota": "estabiliza a primeira articulação metatarsofalângica na impulsão" }
+    ],
+    "funcao": "Na impulsão, quando o calcanhar se eleva e o hálux é forçado em extensão, estabiliza a primeira articulação metatarsofalângica e mantém o hálux pressionado contra o solo. Os sesamoides, incluídos em seus tendões, elevam a cabeça do primeiro metatarsal, aumentam o braço de alavanca do flexor, absorvem carga e formam um túnel que protege o tendão do flexor longo do hálux. Contribui para o suporte do arco longitudinal medial.",
+    "antagonistas": ["Extensor hallucis longus", "Extensor hallucis brevis"],
+    "sinergistas": ["Flexor hallucis longus", "Abductor hallucis", "Adductor hallucis"],
+    "palpacao": "Palpe a face plantar do primeiro metatarsal, profundamente e lateral ao abdutor do hálux; peça flexão da metatarsofalângica do hálux mantendo a interfalângica estendida. Os dois sesamoides são palpáveis sob a cabeça do primeiro metatarsal e movem-se com a flexão e a extensão do hálux.",
+    "teste": "Kendall: o examinador estabiliza o pé proximalmente à articulação metatarsofalângica, com o tornozelo neutro. O paciente flete a metatarsofalângica do hálux; resistência na face plantar da falange proximal, no sentido da extensão. A interfalângica deve ficar relaxada, para reduzir a participação do flexor longo.",
+    "alongamento": "Extensão da articulação metatarsofalângica do hálux.",
+    "clinica": "A sesamoidite e as fraturas por estresse dos sesamoides causam dor sob a cabeça do primeiro metatarsal em bailarinos, corredores e praticantes de esportes de salto. O 'turf toe' é a entorse em hiperextensão da primeira metatarsofalângica, com lesão da placa plantar e do complexo flexor curto–sesamoides. No hálux valgo, os sesamoides deslocam-se lateralmente e o músculo perde a função estabilizadora. A fraqueza favorece o hálux em martelo (hiperextensão da metatarsofalângica com flexão da interfalângica).",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Medial head of flexor hallucis brevis",
+        "pt": "Cabeça medial",
+        "insercao": "Lado medial da base da falange proximal do hálux, junto com o tendão do abdutor do hálux; contém o osso sesamoide medial (tibial).",
+        "nota": "O sesamoide medial recebe mais carga e é o mais acometido por sesamoidite e fratura; pode ser bipartido, o que não deve ser confundido com fratura."
+      },
+      {
+        "key": "Lateral head of flexor hallucis brevis",
+        "pt": "Cabeça lateral",
+        "insercao": "Lado lateral da base da falange proximal do hálux, junto com o tendão do adutor do hálux; contém o osso sesamoide lateral (fibular).",
+        "nota": "Segundo alguns autores, pode receber inervação do nervo plantar lateral."
+      }
+    ]
+  },
+  {
+    "key": "Adductor hallucis",
+    "pt": "Músculo adutor do hálux",
+    "latim": "Musculus adductor hallucis",
+    "resumo": "Músculo da terceira camada plantar, com cabeças oblíqua e transversa que convergem para o lado lateral do hálux. Aduz o hálux e mantém unidas as cabeças dos metatarsais, sustentando o arco transverso.",
+    "origem": "Cabeça oblíqua: bases do segundo, terceiro e quarto metatarsais e bainha do tendão do fibular longo. Cabeça transversa: ligamentos plantares das articulações metatarsofalângicas do terceiro, quarto e quinto dedos e ligamento metatarsal transverso profundo.",
+    "insercao": "Lado lateral da base da falange proximal do hálux, por tendão comum que se une ao da cabeça lateral do flexor curto do hálux e contém o sesamoide lateral.",
+    "inervacao": { "nervo": "Nervo plantar lateral (ramo profundo)", "raizes": "S2, S3", "nervoKeys": ["Lateral plantar nerve"] },
+    "vascularizacao": "Arco plantar profundo e artérias metatarsais plantares.",
+    "acoes": [
+      { "art": "halux", "mov": "aducao", "papel": "primario", "nota": "aproxima o hálux do segundo dedo" },
+      { "art": "halux", "mov": "flexao", "papel": "secundario", "nota": "articulação metatarsofalângica" },
+      { "art": "dedos_pe", "mov": "estabilizacao", "papel": "primario", "nota": "cabeça transversa: aproxima as cabeças dos metatarsais e sustenta o arco transverso" }
+    ],
+    "funcao": "Sua função principal é estabilizadora: durante o apoio e a impulsão, a cabeça transversa impede que o antepé se alargue sob carga, e a cabeça oblíqua ajuda a fixar o hálux e a sustentar o arco. Trabalha em equilíbrio com o abdutor do hálux para manter o hálux alinhado.",
+    "antagonistas": ["Abductor hallucis"],
+    "sinergistas": ["Flexor hallucis brevis", "Plantar interossei muscles"],
+    "palpacao": "Não é palpável com clareza: fica profundamente na planta, sob os tendões flexores e os lumbricais. A pressão profunda no antepé, entre o primeiro e o terceiro metatarsais, logo atrás das cabeças, atinge sua região.",
+    "teste": "Não há prova isolada confiável. Observa-se a capacidade de aproximar o hálux do segundo dedo contra resistência na face lateral da falange proximal; em geral é avaliado com os demais intrínsecos.",
+    "alongamento": "Abdução passiva do hálux, afastando-o do segundo dedo, com mobilização do primeiro espaço intermetatarsal.",
+    "clinica": "É a principal força deformante no hálux valgo: com o abdutor do hálux deslocado para a planta, o adutor traciona a falange proximal e o sesamoide lateral lateralmente, sem oposição. Por isso, as cirurgias corretivas costumam incluir a liberação do tendão do adutor e da cápsula lateral. Espaçadores de dedos e a mobilização em abdução do hálux buscam reduzir sua tensão nos casos leves. A insuficiência da cabeça transversa associa-se ao alargamento do antepé e à metatarsalgia.",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Oblique head of adductor hallucis",
+        "pt": "Cabeça oblíqua",
+        "origem": "Bases do segundo, terceiro e quarto metatarsais e bainha do tendão do fibular longo.",
+        "nota": "Maior e mais forte; dirige-se obliquamente para a frente e medialmente. Aduz e ajuda a fletir o hálux."
+      },
+      {
+        "key": "Transverse head of adductor hallucis",
+        "pt": "Cabeça transversa",
+        "origem": "Ligamentos plantares das articulações metatarsofalângicas do terceiro, quarto e quinto dedos e ligamento metatarsal transverso profundo; não tem origem óssea.",
+        "nota": "Disposta transversalmente sob as cabeças dos metatarsais; mantém o arco transverso anterior, impedindo o alargamento do antepé."
+      }
+    ]
+  },
+  {
+    "key": "Flexor digiti minimi of foot",
+    "pt": "Músculo flexor curto do dedo mínimo do pé",
+    "latim": "Musculus flexor digiti minimi brevis pedis",
+    "sinonimos": ["flexor curto do quinto dedo"],
+    "resumo": "Pequeno músculo da terceira camada plantar, aplicado sob o quinto metatarsal. Flete a articulação metatarsofalângica do quinto dedo.",
+    "origem": "Face plantar da base do quinto metatarsal e bainha do tendão do fibular longo.",
+    "insercao": "Face lateral da base da falange proximal do quinto dedo, junto com o abdutor do dedo mínimo.",
+    "inervacao": { "nervo": "Nervo plantar lateral (ramo superficial)", "raizes": "S2, S3", "nervoKeys": ["Lateral plantar nerve"] },
+    "vascularizacao": "Artéria plantar lateral.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "flexao", "papel": "primario", "nota": "articulação metatarsofalângica do quinto dedo" }
+    ],
+    "funcao": "Flete e estabiliza a quinta articulação metatarsofalângica, mantendo o quinto dedo apoiado no solo durante o apoio e a impulsão, e colabora na sustentação da margem lateral do pé.",
+    "antagonistas": ["Extensor digitorum longus"],
+    "sinergistas": ["Abductor digiti minimi of foot", "Flexor digitorum brevis", "Lumbrical muscles of foot"],
+    "palpacao": "Palpe a face plantar do quinto metatarsal, medialmente ao abdutor do dedo mínimo; peça flexão da metatarsofalângica do quinto dedo contra resistência. Na prática, é difícil diferenciá-lo do abdutor.",
+    "teste": "O examinador estabiliza o quinto metatarsal; o paciente flete a articulação metatarsofalângica do quinto dedo, e a resistência é aplicada na face plantar da falange proximal. Em geral é avaliado em conjunto com os lumbricais e interósseos.",
+    "alongamento": "Extensão da articulação metatarsofalângica do quinto dedo.",
+    "clinica": "Raramente lesado de forma isolada. Participa do quadro de fraqueza dos intrínsecos nas neuropatias (garra do quinto dedo) e pode ser fonte de dor na margem lateral do antepé em situações de sobrecarga, como no pé cavo-varo, em que a margem lateral recebe carga excessiva.",
+    "camada": "profunda"
+  },
+  {
+    "key": "(Opponens digiti minimi muscle of foot)",
+    "pt": "Músculo oponente do dedo mínimo do pé",
+    "latim": "Musculus opponens digiti minimi pedis",
+    "sinonimos": ["oponente do quinto dedo"],
+    "resumo": "Feixe muscular inconstante, formado pelas fibras mais profundas do flexor curto do dedo mínimo que se inserem no quinto metatarsal em vez da falange. Por isso o nome aparece entre parênteses na terminologia.",
+    "origem": "Ligamento plantar longo e bainha do tendão do fibular longo, junto com o flexor curto do dedo mínimo.",
+    "insercao": "Margem lateral da diáfise do quinto metatarsal (metade distal).",
+    "inervacao": { "nervo": "Nervo plantar lateral (ramo superficial)", "raizes": "S2, S3", "nervoKeys": ["Lateral plantar nerve"] },
+    "vascularizacao": "Artéria plantar lateral.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "outro", "papel": "secundario", "nota": "traciona o quinto metatarsal em direção plantar e medial (esboço de oposição)" }
+    ],
+    "funcao": "Quando presente, puxa o quinto metatarsal para baixo e medialmente, contribuindo para a concavidade da planta e para o suporte do arco lateral. Sua importância funcional é pequena.",
+    "sinergistas": ["Flexor digiti minimi of foot", "Abductor digiti minimi of foot"],
+    "palpacao": "Não é palpável; confunde-se com o flexor curto do dedo mínimo sob o quinto metatarsal.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Não se aplica de forma isolada.",
+    "clinica": "É uma variação anatômica sem significado clínico próprio; importa conhecê-lo para não estranhar sua presença em peças, atlas e exames de imagem.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Plantar interossei muscles",
+    "pt": "Músculos interósseos plantares",
+    "latim": "Musculi interossei plantares",
+    "resumo": "Três músculos unipenados da quarta camada (a mais profunda) da planta, situados sob os metatarsais 3 a 5. Aduzem os dedos 3, 4 e 5 em direção ao segundo dedo, que é o eixo do pé.",
+    "origem": "Bases e faces mediais do terceiro, quarto e quinto metatarsais (cada um nasce de um único metatarsal).",
+    "insercao": "Face medial das bases das falanges proximais do terceiro, quarto e quinto dedos e expansões extensoras correspondentes.",
+    "inervacao": { "nervo": "Nervo plantar lateral (ramo profundo; o do quarto espaço pelo ramo superficial)", "raizes": "S2, S3", "nervoKeys": ["Lateral plantar nerve"] },
+    "vascularizacao": "Arco plantar profundo e artérias metatarsais plantares.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "aducao", "papel": "primario", "nota": "dedos 3, 4 e 5 em direção ao segundo dedo" },
+      { "art": "dedos_pe", "mov": "flexao", "papel": "secundario", "nota": "articulações metatarsofalângicas" },
+      { "art": "dedos_pe", "mov": "extensao", "papel": "secundario", "nota": "articulações interfalângicas, pelas expansões extensoras (ação fraca)" }
+    ],
+    "funcao": "Com os interósseos dorsais e os lumbricais, estabilizam as articulações metatarsofalângicas e mantêm os dedos alinhados e firmes no solo durante a impulsão, evitando que se abram ou se dobrem em garra. Ajudam a manter unidos os metatarsais, contribuindo para o arco transverso do antepé.",
+    "antagonistas": ["Dorsal interossei muscles of foot", "Abductor digiti minimi of foot"],
+    "sinergistas": ["Lumbrical muscles of foot", "Adductor hallucis", "Flexor digitorum brevis"],
+    "palpacao": "Não são palpáveis individualmente; estão profundamente na planta, sob os metatarsais laterais.",
+    "teste": "Kendall: o examinador estabiliza os dedos vizinhos; o paciente aduz os dedos 3, 4 e 5 em direção ao segundo dedo, e a resistência é aplicada na face medial da falange proximal. Como a maioria das pessoas tem pouco controle voluntário, avalia-se sobretudo a flexão das metatarsofalângicas com as interfalângicas estendidas.",
+    "alongamento": "Abdução passiva dos dedos 3 a 5 (afastá-los do segundo dedo) com extensão das metatarsofalângicas.",
+    "clinica": "A atrofia dos interósseos, visível como sulcos entre os metatarsais no dorso do pé, é sinal de neuropatia periférica (diabetes, Charcot-Marie-Tooth) ou de lesão do nervo tibial/plantar lateral, e acompanha os dedos em garra e a metatarsalgia. Os interósseos ocupam compartimentos próprios, que podem ser acometidos na síndrome compartimental do pé após esmagamentos e fraturas, deixando contratura em garra como sequela.",
+    "dica": "PAD e DAB: Plantares ADuzem, Dorsais ABduzem. No pé, o eixo de referência é o 2º dedo (na mão é o 3º).",
+    "camada": "profunda"
+  },
+  {
+    "key": "Dorsal interossei muscles of foot",
+    "pt": "Músculos interósseos dorsais do pé",
+    "latim": "Musculi interossei dorsales pedis",
+    "resumo": "Quatro músculos bipenados que preenchem os espaços entre os metatarsais, na camada mais profunda do pé. Abduzem os dedos 2 a 4 em relação ao eixo do segundo dedo.",
+    "origem": "Faces adjacentes dos metatarsais 1 a 5 (cada um nasce por duas cabeças dos dois metatarsais vizinhos).",
+    "insercao": "Primeiro: face medial da base da falange proximal do segundo dedo. Segundo, terceiro e quarto: faces laterais das bases das falanges proximais do segundo, terceiro e quarto dedos; todos enviam fibras às expansões extensoras.",
+    "inervacao": { "nervo": "Nervo plantar lateral (ramo profundo; o do quarto espaço pelo ramo superficial)", "raizes": "S2, S3", "nervoKeys": ["Lateral plantar nerve"] },
+    "vascularizacao": "Artéria arqueada, artérias metatarsais dorsais e plantares.",
+    "acoes": [
+      { "art": "dedos_pe", "mov": "abducao", "papel": "primario", "nota": "dedos 2 a 4, afastando-os do eixo do segundo dedo (o segundo dedo é movido para ambos os lados)" },
+      { "art": "dedos_pe", "mov": "flexao", "papel": "secundario", "nota": "articulações metatarsofalângicas" },
+      { "art": "dedos_pe", "mov": "extensao", "papel": "secundario", "nota": "articulações interfalângicas, pelas expansões extensoras (ação fraca)" }
+    ],
+    "funcao": "Mais do que afastar os dedos, estabilizam as articulações metatarsofalângicas e fixam os dedos contra o solo na impulsão, quando o peso passa para o antepé. Com os plantares e os lumbricais, contrabalançam os flexores e extensores longos, impedindo a garra dos dedos, e ajudam a manter os metatarsais unidos no arco transverso.",
+    "antagonistas": ["Plantar interossei muscles"],
+    "sinergistas": ["Lumbrical muscles of foot", "Plantar interossei muscles", "Abductor digiti minimi of foot"],
+    "palpacao": "São os únicos intrínsecos plantares acessíveis pelo dorso: palpe os espaços entre os metatarsais, de cada lado dos tendões extensores, e peça ao paciente que afaste os dedos. O primeiro interósseo dorsal, entre o primeiro e o segundo metatarsais, é o mais fácil de sentir; a artéria dorsal do pé mergulha entre suas duas cabeças.",
+    "teste": "Kendall: o examinador estabiliza os dedos vizinhos; o paciente abduz os dedos 2, 3 e 4 (afasta os dedos), e a resistência é aplicada na falange proximal, no sentido da adução. Como o controle voluntário costuma ser pobre, complementa-se com a flexão das metatarsofalângicas mantendo as interfalângicas estendidas.",
+    "alongamento": "Aproximação passiva dos dedos com extensão das articulações metatarsofalângicas; mobilização dos espaços intermetatarsais.",
+    "clinica": "A atrofia, percebida como depressão dos espaços intermetatarsais no dorso do pé, indica neuropatia ou lesão do nervo plantar lateral e associa-se a dedos em garra e risco de úlceras plantares no diabetes. A dor à palpação de um espaço intermetatarsal exige diferenciar miopatia/sobrecarga dos interósseos de neuroma de Morton (terceiro espaço, com parestesia nos dedos) e de fratura por estresse do metatarsal. Estão sujeitos à síndrome compartimental do pé.",
+    "dica": "DAB: Dorsais ABduzem. São 4 dorsais (bipenados, 'duas cabeças') e 3 plantares (unipenados).",
+    "camada": "profunda"
+  }
+]

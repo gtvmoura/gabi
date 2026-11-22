@@ -1,0 +1,180 @@
+[
+  {
+    "id": "compartimentos-da-perna",
+    "titulo": "Compartimentos da perna",
+    "regiao": "tornozelo",
+    "resumo": "A fáscia da perna, a membrana interóssea e os septos intermusculares dividem a perna em três compartimentos — anterior, lateral e posterior —, cada um com uma função, um nervo e uma artéria principais.",
+    "texto": "A perna é envolvida pela fáscia da perna (crural), firme e pouco extensível. Dela partem os septos intermusculares anterior e posterior, que se fixam à fíbula, e a tíbia e a fíbula são unidas pela membrana interóssea. Formam-se assim três compartimentos; o posterior é subdividido pelo septo transverso em partes superficial e profunda, razão pela qual muitos autores falam em quatro compartimentos.\n\nO compartimento anterior contém os dorsiflexores: tibial anterior (dorsiflexão e inversão), extensor longo do hálux, extensor longo dos dedos e fibular terceiro (dorsiflexão e eversão). São inervados pelo nervo fibular profundo e irrigados pela artéria tibial anterior. Na marcha, controlam excentricamente a descida do pé após o contato do calcanhar e mantêm o pé elevado durante o balanço.\n\nO compartimento lateral contém os eversores: fibular longo e fibular curto, inervados pelo nervo fibular superficial e irrigados por ramos da artéria fibular. Os dois tendões passam atrás do maléolo lateral. O fibular curto insere-se na tuberosidade do quinto metatarsal. O fibular longo cruza a planta do pé até o cuneiforme medial e a base do primeiro metatarsal: sustenta o arco transverso e fixa o primeiro raio no chão. Ambos são flexores plantares fracos e protegem o tornozelo contra a inversão.\n\nO compartimento posterior é do nervo tibial e das artérias tibial posterior e fibular. A parte superficial contém o tríceps sural (gastrocnêmio e sóleo) e o plantar, flexores plantares que convergem no tendão do calcâneo. A parte profunda contém o poplíteo, o tibial posterior (inversor e flexor plantar, principal suporte dinâmico do arco medial), o flexor longo dos dedos e o flexor longo do hálux. Atrás do maléolo medial, de anterior para posterior, passam: tendão do tibial posterior, tendão do flexor longo dos dedos, artéria tibial posterior, nervo tibial e tendão do flexor longo do hálux.\n\nComo as paredes são pouco distensíveis, qualquer aumento de volume eleva a pressão no compartimento. Na síndrome compartimental aguda (fraturas da tíbia, esmagamentos), a pressão compromete a perfusão de músculos e nervos: há dor desproporcional à lesão, que piora com o alongamento passivo dos músculos do compartimento, tensão à palpação e parestesias. É uma emergência cirúrgica (fasciotomia), e os pulsos podem estar presentes — não se deve esperar que desapareçam. A forma crônica, por esforço, ocorre em corredores, com dor que surge durante o exercício e cede com o repouso. A dor na borda posteromedial da tíbia (síndrome do estresse tibial medial, «canelite») é outro quadro frequente de sobrecarga.",
+    "pontos": [
+      "Anterior: dorsiflexores; nervo fibular profundo; artéria tibial anterior.",
+      "Lateral: eversores (fibulares longo e curto); nervo fibular superficial.",
+      "Posterior: flexores plantares e inversores; nervo tibial; artérias tibial posterior e fibular.",
+      "Posterior superficial: gastrocnêmio, sóleo e plantar. Profundo: poplíteo, tibial posterior, flexor longo dos dedos e flexor longo do hálux.",
+      "Fibular longo: cruza a planta e sustenta o arco transverso.",
+      "Tibial posterior: principal suporte dinâmico do arco medial.",
+      "Síndrome compartimental aguda: dor desproporcional e dor ao alongamento passivo — emergência."
+    ],
+    "estruturas": ["Anterior compartment of leg", "Lateral compartment of leg", "Posterior compartment of leg", "Tibialis anterior muscle", "Extensor hallucis longus", "Extensor digitorum longus", "Fibularis longus muscle", "Fibularis brevis muscle", "Soleus muscle", "Tibialis posterior muscle", "Flexor hallucis longus", "Deep fibular nerve", "Superficial fibular nerve", "Tibial nerve", "Interosseous membrane of leg"],
+    "perguntas": [
+      { "q": "Qual nervo inerva cada compartimento da perna?", "a": "Anterior: fibular profundo. Lateral: fibular superficial. Posterior: tibial." },
+      { "q": "Quais músculos formam o compartimento anterior?", "a": "Tibial anterior, extensor longo do hálux, extensor longo dos dedos e fibular terceiro." },
+      { "q": "Qual a ordem das estruturas atrás do maléolo medial, de anterior para posterior?", "a": "Tendão do tibial posterior, tendão do flexor longo dos dedos, artéria tibial posterior (com as veias), nervo tibial e tendão do flexor longo do hálux." },
+      { "q": "Quais são os sinais precoces da síndrome compartimental aguda?", "a": "Dor intensa e desproporcional à lesão, que piora com o alongamento passivo dos músculos do compartimento, e tensão à palpação; a ausência de pulso é tardia e não deve ser esperada." },
+      { "q": "Qual a função do fibular longo na planta do pé?", "a": "Sustentar o arco transverso e manter o primeiro metatarsal apoiado no solo, além de everter o pé." }
+    ]
+  },
+  {
+    "id": "triceps-sural-e-tendao-do-calcaneo",
+    "titulo": "Tríceps sural e tendão do calcâneo",
+    "regiao": "tornozelo",
+    "resumo": "Gastrocnêmio e sóleo formam o tríceps sural, o grande flexor plantar, que se insere no calcâneo pelo tendão mais espesso e resistente do corpo.",
+    "texto": "O gastrocnêmio tem duas cabeças, medial e lateral, que nascem acima dos côndilos do fêmur: é biarticular, flete o joelho e faz a flexão plantar do tornozelo. O sóleo, mais profundo e largo, nasce da tíbia (linha do músculo sóleo) e da fíbula e é monoarticular. As três cabeças convergem no tendão do calcâneo (de Aquiles), que se insere na tuberosidade do calcâneo. O plantar, pequeno e inconstante, tem um tendão longo e fino que corre medialmente. Todos são inervados pelo nervo tibial (S1–S2); o reflexo aquileu testa principalmente S1.\n\nA diferença entre os dois músculos orienta a avaliação e o tratamento. O gastrocnêmio tem mais fibras de contração rápida e predomina nos movimentos potentes, como saltar e correr; o sóleo tem predomínio de fibras lentas e é o músculo postural, que mantém o corpo em pé controlando a oscilação anterior da tíbia. Com o joelho fletido, o gastrocnêmio fica encurtado e perde eficiência (insuficiência ativa); por isso, testa-se, fortalece-se e alonga-se o sóleo com o joelho fletido, e o gastrocnêmio com o joelho estendido.\n\nNa marcha, o tríceps sural trabalha principalmente de forma excêntrica durante o apoio médio, freando o avanço da tíbia sobre o pé, e atinge o pico de atividade no apoio terminal, quando o calcanhar se eleva. Ele também funciona como bomba venosa: a contração do sóleo comprime as veias profundas da perna e impulsiona o sangue em direção ao coração.\n\nO tendão do calcâneo suporta cargas de várias vezes o peso corporal na corrida e armazena energia elástica. Suas fibras giram cerca de 90° antes da inserção. A região situada entre 2 e 6 cm acima da inserção é menos vascularizada e é a sede mais comum de tendinopatia da porção média e de ruptura. Entre o tendão e o calcâneo fica a bolsa tendínea do calcâneo (retrocalcânea); entre o tendão e a pele, a bolsa subcutânea calcânea.\n\nA tendinopatia do calcâneo divide-se em insercional e da porção média; o tratamento baseia-se em carga progressiva, e os protocolos de exercícios excêntricos e de resistência pesada e lenta são os mais estudados. A ruptura ocorre tipicamente em adultos de 30 a 50 anos em esportes com arranques: sensação de pedrada na panturrilha, falha palpável e teste de Thompson positivo. O encurtamento do tríceps sural limita a dorsiflexão, o que altera o agachamento e a marcha e se associa à fasciopatia plantar.",
+    "pontos": [
+      "Tríceps sural = gastrocnêmio (duas cabeças, biarticular) + sóleo (monoarticular).",
+      "Inervação: nervo tibial (S1–S2); reflexo aquileu: S1.",
+      "Sóleo: postural, fibras lentas. Gastrocnêmio: potência, fibras rápidas.",
+      "Joelho fletido isola o sóleo; joelho estendido inclui o gastrocnêmio.",
+      "Na marcha: excêntrico no apoio médio, pico no apoio terminal.",
+      "Zona menos vascularizada do tendão: 2–6 cm acima da inserção.",
+      "Ruptura: teste de Thompson positivo.",
+      "Sóleo: bomba venosa da perna."
+    ],
+    "estruturas": ["Medial head of gastrocnemius", "Lateral head of gastrocnemius", "Soleus muscle", "Plantaris muscle", "Calcaneal tendon", "Calcaneus", "Calcaneal tuberosity", "Tibial nerve", "Subtendinous calcaneal bursa", "Subcutaneous calcaneal bursa", "Superficial part of posterior compartment of leg", "Popliteal vein"],
+    "perguntas": [
+      { "q": "Por que se flete o joelho para testar ou alongar o sóleo?", "a": "Porque a flexão do joelho relaxa e encurta o gastrocnêmio, que é biarticular, isolando o sóleo." },
+      { "q": "Qual raiz é avaliada principalmente pelo reflexo aquileu?", "a": "S1." },
+      { "q": "Qual a ação do tríceps sural no apoio médio da marcha?", "a": "Contração excêntrica, controlando o avanço da tíbia sobre o pé fixo." },
+      { "q": "Em que região o tendão do calcâneo é mais vulnerável à ruptura?", "a": "Entre 2 e 6 cm acima da inserção no calcâneo, zona de menor vascularização." },
+      { "q": "Como se realiza e interpreta o teste de Thompson?", "a": "Com o paciente em prono e os pés fora da maca, comprime-se a panturrilha; a ausência de flexão plantar indica ruptura do tendão do calcâneo." }
+    ]
+  },
+  {
+    "id": "ligamentos-do-tornozelo-e-entorse",
+    "titulo": "Ligamentos do tornozelo e entorse em inversão",
+    "regiao": "tornozelo",
+    "resumo": "O tálus encaixa-se na pinça formada pela tíbia e pela fíbula, estabilizada por ligamentos laterais, mediais e pela sindesmose. A entorse em inversão é uma das lesões musculoesqueléticas mais comuns.",
+    "texto": "A articulação talocrural é um gínglimo: o tálus encaixa-se na pinça (mortalha) formada pelos maléolos e pela face inferior da tíbia. A tróclea do tálus é mais larga na frente do que atrás. Em dorsiflexão, a parte larga encaixa-se firmemente entre os maléolos e a articulação fica estável (posição de travamento). Em flexão plantar, a parte estreita deixa o tálus com folga, e a estabilidade passa a depender dos ligamentos — por isso a maioria das entorses ocorre com o pé em flexão plantar.\n\nO complexo ligamentar lateral tem três faixas independentes. O ligamento talofibular anterior é o mais fraco e o primeiro a romper: limita a translação anterior do tálus e a inversão com o pé em flexão plantar. O ligamento calcaneofibular, em forma de cordão, cruza as articulações talocrural e subtalar e limita a inversão com o tornozelo em posição neutra ou em dorsiflexão. O ligamento talofibular posterior é o mais forte e raramente se lesa. A lesão segue essa ordem, de anterior para posterior, conforme a gravidade.\n\nMedialmente, o ligamento colateral medial (deltóideo) é um leque forte, com partes tibionavicular, tibiocalcânea e tibiotalares, que resiste à eversão. Por ser muito resistente e porque o maléolo lateral desce mais do que o medial, bloqueando a eversão, as entorses em eversão são raras e podem vir acompanhadas de fratura. A sindesmose tibiofibular distal — ligamentos tibiofibulares anterior e posterior e membrana interóssea — mantém a pinça fechada; lesa-se por rotação lateral forçada do pé ou por dorsiflexão extrema (entorse «alta»), com recuperação mais demorada.\n\nNa entorse em inversão, o mecanismo é flexão plantar com inversão e adução do pé. Classifica-se em grau I (estiramento, sem frouxidão), grau II (ruptura parcial) e grau III (ruptura completa, com instabilidade). As Regras de Ottawa para o tornozelo indicam radiografia quando há dor na região maleolar associada a dor à palpação da borda posterior ou da ponta de um dos maléolos (nos 6 cm distais), ou incapacidade de dar quatro passos com apoio, logo após o trauma e no atendimento; para o pé, dor à palpação da base do quinto metatarsal ou do navicular. Elas são muito sensíveis para excluir fraturas.\n\nOs testes da gaveta anterior e da inclinação talar avaliam os ligamentos laterais, de preferência alguns dias após a lesão. O tratamento é funcional: proteção inicial breve, carga e movimento precoces, e depois fortalecimento (com ênfase nos fibulares, eversores que protegem contra a inversão), treino de equilíbrio e propriocepção e retorno gradual ao esporte. Uma parcela importante dos pacientes evolui com instabilidade crônica, com sensação de falseio e entorses repetidas; o treino de equilíbrio e os suportes externos (órtese ou bandagem) reduzem as recidivas.",
+    "pontos": [
+      "Tróclea do tálus mais larga na frente: estável em dorsiflexão, vulnerável em flexão plantar.",
+      "Laterais: talofibular anterior, calcaneofibular e talofibular posterior.",
+      "Talofibular anterior: o mais lesado.",
+      "Mecanismo: flexão plantar + inversão.",
+      "Ligamento deltóideo (medial): forte; resiste à eversão.",
+      "Sindesmose: entorse alta, por rotação lateral; recuperação lenta.",
+      "Regras de Ottawa: triagem para radiografia.",
+      "Reabilitação: carga precoce, fibulares, equilíbrio e propriocepção."
+    ],
+    "estruturas": ["Ankle joint", "Talus", "Lateral collateral ligament of ankle", "Anterior talofibular ligament", "Calcaneofibular ligament", "Posterior talofibular ligament", "Medial collateral ligament of ankle", "Tibionavicular ligament", "Tibiocalcaneal ligament", "Posterior tibiotalar ligament", "Anterior tibiofibular ligament", "Posterior tibiofibular ligament", "Lateral malleolus", "Fibularis longus muscle", "Fibularis brevis muscle"],
+    "perguntas": [
+      { "q": "Qual é o ligamento mais lesado na entorse em inversão?", "a": "O talofibular anterior." },
+      { "q": "Por que o tornozelo é mais instável em flexão plantar?", "a": "Porque a parte posterior da tróclea do tálus, mais estreita, fica entre os maléolos, deixando folga na pinça; a estabilidade passa a depender dos ligamentos." },
+      { "q": "Quais são os três ligamentos laterais do tornozelo?", "a": "Talofibular anterior, calcaneofibular e talofibular posterior." },
+      { "q": "Por que as entorses em eversão são menos comuns?", "a": "Porque o ligamento deltóideo é muito forte e o maléolo lateral, mais longo, bloqueia a eversão." },
+      { "q": "Quais músculos devem ser enfatizados na reabilitação da entorse em inversão?", "a": "Os fibulares longo e curto (eversores), além do treino de equilíbrio e propriocepção." },
+      { "q": "Para que servem as Regras de Ottawa?", "a": "Para decidir quando solicitar radiografia após trauma do tornozelo ou do pé, excluindo fraturas com alta sensibilidade." }
+    ]
+  },
+  {
+    "id": "arcos-do-pe",
+    "titulo": "Arcos do pé",
+    "regiao": "subtalar",
+    "resumo": "O pé tem dois arcos longitudinais e um transverso, mantidos por ossos, ligamentos e músculos. Eles permitem que o pé seja flexível para absorver impacto e rígido para impulsionar.",
+    "texto": "O arco longitudinal medial é o mais alto e o mais importante. É formado pelo calcâneo, tálus, navicular, três cuneiformes e três primeiros metatarsais; o tálus (com o navicular) é a pedra angular. O arco longitudinal lateral é baixo e mais rígido: calcâneo, cuboide e quarto e quinto metatarsais; apoia-se no chão durante a marcha. O arco transverso passa pelos cuneiformes, pelo cuboide e pelas bases dos metatarsais.\n\nA sustentação é dividida em passiva e ativa. Os elementos passivos são os mais importantes na posição em pé relaxada: a aponeurose plantar, que une o calcâneo às bases das falanges proximais como a corda de um arco; o ligamento calcaneonavicular plantar (ligamento mola), que sustenta a cabeça do tálus; o ligamento plantar longo e o calcaneocubóideo plantar (plantar curto). Os elementos ativos entram em ação sob carga dinâmica: tibial posterior (o principal suporte dinâmico do arco medial), flexor longo do hálux, flexor longo dos dedos, tibial anterior, fibular longo (que cruza a planta e sustenta o arco transverso) e os músculos intrínsecos da planta, como o abdutor do hálux e o flexor curto dos dedos.\n\nO pé alterna duas funções graças à articulação subtalar e à articulação transversa do tarso (talonavicular e calcaneocubóidea). Na resposta à carga, o calcâneo everte e o pé prona: os eixos das articulações do mediopé ficam paralelos, o pé torna-se flexível, o arco medial abaixa e o impacto é absorvido; a tíbia roda medialmente. No apoio terminal, o calcâneo inverte e o pé supina: os eixos divergem, o mediopé trava e o pé vira uma alavanca rígida para a impulsão.\n\nO mecanismo de molinete (windlass), descrito por Hicks, reforça essa rigidez: quando o calcanhar se eleva e os dedos se estendem, a aponeurose plantar enrola-se em torno das cabeças dos metatarsais, encurta a distância entre o calcâneo e o antepé, eleva o arco medial e inverte o retropé.\n\nNo pé plano, o arco medial é baixo. A forma flexível, em que o arco reaparece ao ficar na ponta dos pés ou ao estender o hálux, é frequente e muitas vezes assintomática. O pé plano adquirido do adulto relaciona-se à disfunção do tendão do tibial posterior: o retropé vai para valgo, o antepé abduz (sinal dos «muitos dedos», visto por trás) e o paciente não consegue elevar o calcanhar em apoio unipodal. No pé cavo, o arco é alto e rígido, absorve mal o impacto e sobrecarrega o calcanhar e as cabeças dos metatarsais; pode estar associado a doenças neurológicas. A fasciopatia plantar causa dor na face plantar medial do calcanhar, pior nos primeiros passos da manhã. O teste da queda do navicular e a impressão plantar ajudam a quantificar a altura do arco.",
+    "pontos": [
+      "Três arcos: longitudinal medial, longitudinal lateral e transverso.",
+      "Pedra angular do arco medial: tálus e navicular.",
+      "Suporte passivo: aponeurose plantar, ligamento mola e ligamentos plantares longo e curto.",
+      "Suporte dinâmico: tibial posterior (principal), fibular longo, flexores longos e intrínsecos.",
+      "Pronação: pé flexível, absorve impacto. Supinação: pé rígido, alavanca.",
+      "Mecanismo de molinete: a extensão dos dedos tensiona a aponeurose e eleva o arco.",
+      "Pé plano adquirido do adulto: disfunção do tibial posterior.",
+      "Fasciopatia plantar: dor nos primeiros passos da manhã."
+    ],
+    "estruturas": ["Calcaneus", "Talus", "Navicular bone", "Medial cuneiform bone", "Cuboid bone", "First metatarsal bone", "Fifth metatarsal bone", "Plantar aponeurosis", "Plantar calcaneonavicular ligament", "Long plantar ligament", "Plantar calcaneocuboid ligament", "Tibialis posterior muscle", "Fibularis longus muscle", "Abductor hallucis", "Flexor hallucis longus"],
+    "perguntas": [
+      { "q": "Quais ossos formam o arco longitudinal medial?", "a": "Calcâneo, tálus, navicular, os três cuneiformes e os três primeiros metatarsais." },
+      { "q": "Qual é o principal suporte dinâmico do arco medial?", "a": "O músculo tibial posterior." },
+      { "q": "Qual ligamento sustenta a cabeça do tálus?", "a": "O ligamento calcaneonavicular plantar (ligamento mola)." },
+      { "q": "O que é o mecanismo de molinete (windlass)?", "a": "Com a extensão dos dedos na impulsão, a aponeurose plantar enrola-se nas cabeças dos metatarsais, aproxima o calcâneo do antepé, eleva o arco e torna o pé rígido." },
+      { "q": "Por que o pé precisa pronar no início do apoio?", "a": "Para destravar o mediopé, tornando o pé flexível, capaz de se adaptar ao solo e de absorver o impacto." },
+      { "q": "Que achados sugerem disfunção do tibial posterior?", "a": "Queda progressiva do arco medial, valgo do retropé, abdução do antepé («muitos dedos») e dificuldade ou incapacidade de elevar o calcanhar em apoio unipodal." }
+    ]
+  },
+  {
+    "id": "nervo-fibular-comum-e-pe-caido",
+    "titulo": "Nervo fibular comum e pé caído",
+    "regiao": "tornozelo",
+    "resumo": "O nervo fibular comum contorna o colo da fíbula logo abaixo da pele, onde é o nervo mais lesado do membro inferior. Sua lesão causa o pé caído e a marcha escarvante.",
+    "texto": "O nervo fibular comum (L4–S2) é o ramo lateral do nervo isquiático. Separa-se do nervo tibial geralmente no ápice da fossa poplítea, desce junto à margem medial do tendão do bíceps femoral e contorna o colo da fíbula, onde fica superficial, coberto apenas por pele e fáscia e apoiado sobre o osso. Ali penetra no fibular longo e se divide em dois ramos terminais.\n\nO nervo fibular profundo inerva o compartimento anterior da perna (tibial anterior, extensor longo do hálux, extensor longo dos dedos e fibular terceiro) e, no pé, o extensor curto dos dedos e o extensor curto do hálux. Sua área de pele é pequena e característica: o primeiro espaço interdigital, entre o hálux e o segundo dedo. O nervo fibular superficial inerva o compartimento lateral (fibulares longo e curto) e dá sensibilidade à face anterolateral da perna distal e à maior parte do dorso do pé.\n\nA posição superficial no colo da fíbula explica a vulnerabilidade: compressão por gesso, órtese ou tala apertados, posicionamento prolongado no leito ou na mesa cirúrgica, hábito de cruzar as pernas, perda de peso acentuada, agachamento prolongado, fraturas do colo da fíbula e luxações do joelho. Todo paciente imobilizado deve ter essa região protegida.\n\nNa lesão do fibular comum perdem-se a dorsiflexão e a extensão dos dedos (fibular profundo) e a eversão (fibular superficial). O pé cai em flexão plantar e inversão. Na marcha, não há controle da descida do pé após o contato do calcanhar (o antepé «bate» no chão) e, no balanço, o pé arrasta. O paciente compensa com flexão exagerada do quadril e do joelho: é a marcha escarvante. Também pode circunduzir o membro ou elevar a pelve.\n\nO diagnóstico diferencial mais importante é a radiculopatia L5, que também enfraquece a dorsiflexão e a extensão do hálux. A chave é a inversão: o tibial posterior é inervado pelo nervo tibial, com fibras de L4–L5. Na lesão do nervo fibular a inversão está preservada; na radiculopatia L5 ela costuma estar fraca, assim como a abdução do quadril (glúteo médio, L5), e geralmente há dor lombar irradiada. Na reabilitação utilizam-se órtese tornozelo-pé para manter o pé em posição neutra e evitar quedas, prevenção do encurtamento do tríceps sural, fortalecimento conforme a reinervação e, em alguns casos, estimulação elétrica funcional.",
+    "pontos": [
+      "Nervo fibular comum: L4–S2; ramo lateral do isquiático.",
+      "Ponto vulnerável: colo da fíbula.",
+      "Fibular profundo: compartimento anterior; pele do primeiro espaço interdigital.",
+      "Fibular superficial: compartimento lateral; pele do dorso do pé.",
+      "Lesão: perda de dorsiflexão e eversão → pé caído.",
+      "Marcha escarvante: flexão exagerada de quadril e joelho.",
+      "Diferencial com radiculopatia L5: testar a inversão (tibial posterior, nervo tibial).",
+      "Proteger a cabeça e o colo da fíbula em imobilizações e no leito."
+    ],
+    "estruturas": ["Common fibular nerve", "Deep fibular nerve", "Superficial fibular nerve", "Sciatic nerve", "Head of fibula", "Fibula", "Tibialis anterior muscle", "Extensor hallucis longus", "Extensor digitorum longus", "Fibularis tertius muscle", "Fibularis longus muscle", "Fibularis brevis muscle", "Extensor digitorum brevis", "Long head of biceps femoris"],
+    "perguntas": [
+      { "q": "Onde o nervo fibular comum é mais vulnerável?", "a": "No colo da fíbula, onde é superficial e fica apoiado diretamente sobre o osso." },
+      { "q": "Quais movimentos se perdem na lesão do nervo fibular comum?", "a": "Dorsiflexão do tornozelo, extensão dos dedos e eversão do pé." },
+      { "q": "Qual a área de sensibilidade do nervo fibular profundo?", "a": "O primeiro espaço interdigital, entre o hálux e o segundo dedo." },
+      { "q": "Como diferenciar a lesão do nervo fibular comum de uma radiculopatia L5?", "a": "Na lesão do nervo fibular, a inversão (tibial posterior, nervo tibial) e a abdução do quadril estão preservadas; na radiculopatia L5 costumam estar fracas, e há dor lombar irradiada." },
+      { "q": "O que é a marcha escarvante?", "a": "A compensação do pé caído: o paciente eleva excessivamente o joelho e o quadril no balanço para que os dedos não arrastem no chão." }
+    ]
+  },
+  {
+    "id": "musculos-da-marcha-por-fase",
+    "titulo": "Músculos da marcha por fase",
+    "regiao": "geral",
+    "resumo": "O ciclo da marcha divide-se em apoio (cerca de 60%) e balanço (cerca de 40%), com oito fases segundo o Rancho Los Amigos. Em cada fase, um grupo muscular tem o papel principal, na maior parte do tempo freando, e não gerando, movimento.",
+    "texto": "Um ciclo de marcha vai do contato inicial de um pé ao contato seguinte do mesmo pé. Na velocidade habitual, o apoio ocupa cerca de 60% do ciclo e o balanço, 40%; há dois períodos de duplo apoio, de aproximadamente 10% cada, que desaparecem na corrida. Jacquelin Perry e o grupo do Rancho Los Amigos dividiram o ciclo em oito fases, agrupadas em três tarefas funcionais: aceitação do peso (contato inicial e resposta à carga), apoio simples (apoio médio e apoio terminal) e avanço do membro (pré-balanço, balanço inicial, balanço médio e balanço terminal).\n\nAceitação do peso. No contato inicial, o calcanhar toca o solo com o tornozelo em posição neutra, o joelho quase estendido e o quadril fletido. Na resposta à carga, o pé desce ao solo, controlado pela contração excêntrica dos dorsiflexores (tibial anterior e extensores longos), no chamado rolamento do calcanhar. O joelho flete cerca de 15° a 20° para absorver o impacto, freado excentricamente pelo quadríceps. O glúteo máximo e os isquiotibiais contêm a flexão do quadril e do tronco, e o glúteo médio impede a queda da pelve do lado oposto. É a fase de maior exigência muscular.\n\nApoio simples. No apoio médio, o corpo avança sobre o pé fixo. O sóleo, auxiliado pelo gastrocnêmio, controla excentricamente o avanço da tíbia (rolamento do tornozelo), o que estabiliza o joelho em extensão sem necessidade do quadríceps. Os abdutores do quadril seguem estabilizando a pelve. No apoio terminal, o calcanhar eleva-se (rolamento do antepé), o tríceps sural atinge seu pico de atividade e o quadril chega à extensão máxima.\n\nAvanço do membro. No pré-balanço, o peso é transferido para o outro membro, o joelho flete passivamente até cerca de 40° e os flexores do quadril (iliopsoas, reto femoral, adutor longo) iniciam o avanço da coxa. No balanço inicial, a flexão do quadril (ilíaco, sartório, grácil) e do joelho (cabeça curta do bíceps femoral), que chega a cerca de 60°, e a dorsiflexão liberam o pé do chão. No balanço médio, o membro avança principalmente por inércia, e os dorsiflexores mantêm o tornozelo neutro. No balanço terminal, os isquiotibiais freiam excentricamente a flexão do quadril e a extensão do joelho, e o quadríceps e os dorsiflexores se preparam para o novo contato.\n\nEsse mapa permite prever os desvios. Fraqueza dos dorsiflexores: batida do antepé na resposta à carga e pé caído, com marcha escarvante, no balanço. Fraqueza do quadríceps: o paciente evita a flexão do joelho no apoio, inclinando o tronco para a frente ou hiperestendendo o joelho. Fraqueza do glúteo médio: sinal de Trendelenburg ou inclinação lateral do tronco. Fraqueza do glúteo máximo: inclinação do tronco para trás no contato inicial. Fraqueza do tríceps sural: avanço excessivo da tíbia, com ausência da elevação do calcanhar e passo curto do lado oposto.",
+    "pontos": [
+      "Apoio ≈ 60% e balanço ≈ 40% do ciclo; dois períodos de duplo apoio.",
+      "Oito fases: contato inicial, resposta à carga, apoio médio, apoio terminal, pré-balanço, balanço inicial, balanço médio e balanço terminal.",
+      "Resposta à carga: dorsiflexores e quadríceps em contração excêntrica; glúteos máximo e médio estabilizam.",
+      "Apoio médio: sóleo controla o avanço da tíbia; glúteo médio estabiliza a pelve.",
+      "Apoio terminal: pico do tríceps sural.",
+      "Balanço inicial: flexores do quadril e dorsiflexores.",
+      "Balanço terminal: isquiotibiais excêntricos.",
+      "Três rolamentos: calcanhar, tornozelo e antepé."
+    ],
+    "estruturas": ["Tibialis anterior muscle", "Rectus femoris muscle", "Vastus lateralis muscle", "Vastus medialis muscle", "Gluteus maximus muscle", "Gluteus medius muscle", "Soleus muscle", "Medial head of gastrocnemius", "Lateral head of gastrocnemius", "Iliopsoas muscle", "Long head of biceps femoris", "Semitendinosus muscle", "Semimembranosus muscle", "Adductor longus", "Extensor digitorum longus"],
+    "perguntas": [
+      { "q": "Quais são as oito fases da marcha segundo o Rancho Los Amigos?", "a": "Contato inicial, resposta à carga, apoio médio, apoio terminal, pré-balanço, balanço inicial, balanço médio e balanço terminal." },
+      { "q": "Que músculos controlam a descida do pé após o contato do calcanhar e com que tipo de contração?", "a": "Os dorsiflexores (tibial anterior, extensor longo do hálux e extensor longo dos dedos), em contração excêntrica." },
+      { "q": "Qual a função do quadríceps na resposta à carga?", "a": "Controlar excentricamente a flexão do joelho (cerca de 15° a 20°), absorvendo o impacto." },
+      { "q": "Em que fase o tríceps sural atinge o pico de atividade?", "a": "No apoio terminal, quando ocorre a elevação do calcanhar." },
+      { "q": "Qual o papel dos isquiotibiais no balanço terminal?", "a": "Desacelerar, por contração excêntrica, a flexão do quadril e a extensão do joelho, preparando o membro para o contato inicial." },
+      { "q": "Como se manifesta na marcha a fraqueza dos dorsiflexores?", "a": "Batida do antepé no solo logo após o contato do calcanhar e pé caído no balanço, compensado por flexão exagerada do quadril e do joelho (marcha escarvante)." }
+    ]
+  },
+  {
+    "id": "pulsos-arteriais-palpaveis",
+    "titulo": "Pulsos arteriais palpáveis",
+    "regiao": "geral",
+    "resumo": "Os pulsos são palpáveis onde uma artéria é superficial e pode ser comprimida contra um plano firme. Saber localizá-los é básico para monitorar o paciente e avaliar a perfusão dos membros.",
+    "texto": "Na cabeça e no pescoço há três pulsos principais. O carotídeo é palpado na margem anterior do esternocleidomastóideo, lateralmente à cartilagem tireóidea, no trígono carótico; deve ser palpado de um lado por vez e com suavidade, para não reduzir o fluxo cerebral nem estimular o seio carótico. O temporal superficial é palpado à frente do trago da orelha, sobre o arco zigomático. O facial é palpado na margem inferior da mandíbula, junto à borda anterior do masseter.\n\nNo membro superior, a artéria subclávia passa a se chamar axilar na margem lateral da primeira costela, e braquial na margem inferior do redondo maior. O pulso axilar é palpado no fundo da axila, contra o úmero. O braquial é palpado na face medial do braço, no sulco entre o bíceps e o tríceps, e na fossa cubital, medialmente ao tendão do bíceps, onde é auscultado na medida da pressão arterial. O radial, o mais usado para contar a frequência cardíaca, fica na face anterior do punho, lateralmente ao tendão do flexor radial do carpo, contra o rádio distal; também pode ser sentido na tabaqueira anatômica. O ulnar fica lateralmente ao tendão do flexor ulnar do carpo, próximo ao pisiforme, e é mais difícil de palpar.\n\nNo membro inferior, o pulso femoral é palpado logo abaixo do ligamento inguinal, no ponto médio entre a espinha ilíaca anterossuperior e a sínfise púbica, no trígono femoral. O poplíteo é profundo: palpa-se no centro da fossa poplítea, com o joelho levemente fletido e relaxado, pressionando com as pontas dos dedos das duas mãos. O tibial posterior fica atrás do maléolo medial, entre ele e o tendão do calcâneo. O dorsal do pé (pedioso) é palpado no dorso do pé, lateralmente ao tendão do extensor longo do hálux, sobre os ossos do tarso; pode estar ausente em uma pequena parcela de pessoas saudáveis.\n\nTécnica: usar as polpas do indicador e do dedo médio, nunca o polegar, que tem pulsação própria. Avaliar frequência, ritmo, amplitude e simetria com o lado oposto. A frequência de repouso do adulto fica habitualmente entre 60 e 100 batimentos por minuto.\n\nAplicações na fisioterapia: monitorar a resposta ao exercício; verificar a perfusão distal após fraturas, luxações, imobilizações gessadas e cirurgias; e rastrear doença arterial periférica — pulsos distais diminuídos ou ausentes, pele fria, palidez à elevação do membro e claudicação intermitente (dor na panturrilha ao caminhar, que alivia com o repouso). O índice tornozelo-braquial complementa essa avaliação. Os pulsos também participam de testes clínicos, como Allen (artérias radial e ulnar) e Adson e Wright (pulso radial no desfiladeiro torácico).",
+    "pontos": [
+      "Carotídeo: margem anterior do esternocleidomastóideo; palpar um lado por vez.",
+      "Braquial: medial ao tendão do bíceps, na fossa cubital.",
+      "Radial: lateral ao tendão do flexor radial do carpo.",
+      "Femoral: abaixo do ponto médio do ligamento inguinal.",
+      "Poplíteo: profundo na fossa poplítea, com o joelho levemente fletido.",
+      "Tibial posterior: atrás do maléolo medial.",
+      "Dorsal do pé: lateral ao tendão do extensor longo do hálux.",
+      "Não usar o polegar; comparar sempre os dois lados."
+    ],
+    "estruturas": ["Right common carotid artery", "Left common carotid artery", "Superficial temporal artery", "Facial artery", "Axillary artery", "Brachial artery", "Radial artery", "Ulnar artery", "Femoral artery", "Popliteal artery", "Posterior tibial artery", "Dorsalis pedis artery", "Sternocleidomastoid muscle", "Medial malleolus", "Extensor hallucis longus"],
+    "perguntas": [
+      { "q": "Onde se palpa o pulso radial?", "a": "Na face anterior do punho, lateralmente ao tendão do flexor radial do carpo, contra o rádio distal." },
+      { "q": "Onde se palpa o pulso tibial posterior?", "a": "Atrás do maléolo medial, entre ele e o tendão do calcâneo." },
+      { "q": "Qual a referência para o pulso dorsal do pé?", "a": "Dorso do pé, lateralmente ao tendão do extensor longo do hálux." },
+      { "q": "Por que não se devem palpar as duas carótidas ao mesmo tempo?", "a": "Porque isso pode reduzir o fluxo sanguíneo cerebral e estimular o seio carótico, causando bradicardia e síncope." },
+      { "q": "Por que não se usa o polegar para palpar pulsos?", "a": "Porque o polegar tem pulsação própria perceptível, que pode ser confundida com a do paciente." },
+      { "q": "O que sugere dor na panturrilha ao caminhar, que alivia com o repouso, associada a pulsos distais diminuídos?", "a": "Claudicação intermitente por doença arterial periférica." }
+    ]
+  }
+]

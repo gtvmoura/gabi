@@ -1,0 +1,153 @@
+[
+  {
+    "key": "Risorius muscle",
+    "pt": "Músculo risório",
+    "latim": "Musculus risorius",
+    "sinonimos": ["risório"],
+    "resumo": "Feixe fino, horizontal e muito variável (às vezes ausente), que vai da fáscia da região parotídea ao ângulo da boca.",
+    "origem": "Fáscia parotídea e fáscia massetérica (sem fixação óssea).",
+    "insercao": "Pele do ângulo da boca (modíolo).",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos bucais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "retracao", "papel": "primario", "nota": "traciona o ângulo da boca lateralmente" },
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "sorriso largo e 'forçado', com os lábios fechados" }
+    ],
+    "funcao": "Alarga a rima da boca puxando o ângulo diretamente para o lado, sem elevá-lo.",
+    "sinergistas": ["Zygomaticus major muscle", "Bucinator", "Platysma"],
+    "clinica": "No tétano, o espasmo dos músculos da mímica produz o riso sardônico. As covinhas das bochechas são atribuídas a feixes do risório ou a um zigomático maior bífido aderidos à pele.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Depressor anguli oris",
+    "pt": "Músculo abaixador do ângulo da boca",
+    "latim": "Musculus depressor anguli oris",
+    "sinonimos": ["depressor do ângulo da boca", "triangular dos lábios"],
+    "resumo": "Músculo triangular de base inferior, que sobe da mandíbula ao ângulo da boca, superficialmente ao abaixador do lábio inferior.",
+    "origem": "Linha oblíqua e base da mandíbula, abaixo dos dentes canino e pré-molares; contínuo com o platisma.",
+    "insercao": "Ângulo da boca (modíolo), entrelaçando-se com o orbicular da boca e o risório.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramo marginal da mandíbula (e ramos bucais)", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "depressao", "papel": "primario", "nota": "abaixa o ângulo da boca" },
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "tristeza, desagrado" }
+    ],
+    "funcao": "Puxa o ângulo da boca para baixo e lateralmente, como na expressão de tristeza.",
+    "antagonistas": ["Levator anguli oris", "Zygomaticus major muscle"],
+    "sinergistas": ["Depressor labii inferioris", "Platysma"],
+    "teste": "Peça que puxe os cantos da boca para baixo; compare os lados.",
+    "clinica": "A lesão do ramo marginal da mandíbula do nervo facial (incisões submandibulares, esvaziamento cervical) paralisa os abaixadores do lábio e do ângulo da boca, com sorriso assimétrico.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Depressor labii inferioris",
+    "pt": "Músculo abaixador do lábio inferior",
+    "latim": "Musculus depressor labii inferioris",
+    "sinonimos": ["depressor do lábio inferior", "quadrado do lábio inferior"],
+    "resumo": "Músculo quadrilátero do mento, parcialmente coberto pelo abaixador do ângulo da boca.",
+    "origem": "Linha oblíqua da mandíbula, entre a sínfise e o forame mentual; contínuo com o platisma.",
+    "insercao": "Pele e túnica mucosa do lábio inferior, entrelaçando-se com o orbicular da boca e com o músculo do lado oposto.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramo marginal da mandíbula", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "depressao", "papel": "primario", "nota": "abaixa e everte o lábio inferior, tracionando-o um pouco lateralmente" },
+      { "art": "face", "mov": "expressao", "papel": "secundario", "nota": "ironia, dúvida, amuo" }
+    ],
+    "funcao": "Abaixa e everte o lábio inferior, expondo os dentes inferiores.",
+    "antagonistas": ["Orbicularis oris muscle", "Mentalis muscle"],
+    "sinergistas": ["Depressor anguli oris", "Platysma"],
+    "teste": "Peça que mostre os dentes inferiores abaixando o lábio; a assimetria aponta para o ramo marginal da mandíbula.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Mentalis muscle",
+    "pt": "Músculo mentual",
+    "latim": "Musculus mentalis",
+    "sinonimos": ["mentoniano", "músculo do mento"],
+    "resumo": "Pequeno músculo cônico e profundo do queixo, de cada lado da linha mediana; único elevador do lábio inferior.",
+    "origem": "Fossa incisiva da mandíbula, abaixo dos dentes incisivos.",
+    "insercao": "Pele do mento.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramo marginal da mandíbula", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "elevacao", "papel": "primario", "nota": "eleva e projeta o lábio inferior e eleva a pele do mento" },
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "enruga o queixo (dúvida, amuo, 'beicinho')" }
+    ],
+    "funcao": "Eleva a pele do mento, enrugando-a, e com isso eleva e protrai o lábio inferior; auxilia o selamento labial.",
+    "antagonistas": ["Depressor labii inferioris"],
+    "sinergistas": ["Orbicularis oris muscle"],
+    "teste": "Peça que empurre o lábio inferior para cima e para a frente, fazendo 'beicinho'; observa-se o enrugamento do queixo.",
+    "clinica": "Hiperatividade do mentual (queixo enrugado) é sinal de esforço para fechar os lábios em respiradores orais e em pessoas com incompetência labial. Também pode aparecer como sincinesia após paralisia facial.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Corrugator supercilii",
+    "pt": "Músculo corrugador do supercílio",
+    "latim": "Musculus corrugator supercilii",
+    "sinonimos": ["corrugador"],
+    "resumo": "Pequeno músculo profundo ao ventre frontal e ao orbicular do olho, na extremidade medial do supercílio; produz a expressão de preocupação.",
+    "origem": "Extremidade medial do arco superciliar do osso frontal.",
+    "insercao": "Pele da metade medial do supercílio, acima do meio da margem supraorbital.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos temporais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "traciona o supercílio medialmente e para baixo, formando rugas verticais na glabela (franzir a testa, preocupação, dor)" },
+      { "art": "face", "mov": "depressao", "papel": "secundario", "nota": "supercílio" }
+    ],
+    "funcao": "Aproxima os supercílios e os abaixa, protegendo os olhos da luz intensa e expressando preocupação, concentração ou dor.",
+    "antagonistas": ["Frontalis muscle"],
+    "sinergistas": ["Procerus muscle", "Orbital part of orbicularis oculi"],
+    "teste": "Peça que franza a testa aproximando as sobrancelhas, como se estivesse bravo; observe as rugas verticais.",
+    "clinica": "Não contrai na paralisia facial periférica. Sua atividade é usada como indicador de dor em pacientes não comunicantes (escalas comportamentais). Os nervos supratroclear e supraorbital passam junto ao músculo.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Procerus muscle",
+    "pt": "Músculo prócero",
+    "latim": "Musculus procerus",
+    "sinonimos": ["piramidal do nariz"],
+    "resumo": "Pequeno músculo piramidal sobre a raiz do nariz, contínuo com o ventre frontal.",
+    "origem": "Fáscia que recobre a parte inferior do osso nasal e a parte superior da cartilagem lateral do nariz.",
+    "insercao": "Pele da glabela, entre os supercílios.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos temporais e zigomáticos (ramos bucais, segundo alguns autores)", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "depressao", "papel": "primario", "nota": "abaixa a extremidade medial dos supercílios" },
+      { "art": "face", "mov": "expressao", "papel": "primario", "nota": "rugas transversais sobre a raiz do nariz (desagrado, concentração)" }
+    ],
+    "funcao": "Puxa a pele da glabela para baixo, formando rugas horizontais na raiz do nariz; atua com o corrugador ao franzir a testa e ao proteger os olhos da luz.",
+    "antagonistas": ["Frontalis muscle"],
+    "sinergistas": ["Corrugator supercilii"],
+    "camada": "superficial"
+  },
+  {
+    "key": "Nasalis muscle",
+    "pt": "Músculo nasal",
+    "latim": "Musculus nasalis",
+    "sinonimos": ["compressor e dilatador da narina"],
+    "resumo": "Principal músculo do nariz, com uma parte transversa, que comprime a narina, e uma parte alar, que a dilata.",
+    "origem": "Parte transversa: maxila, lateralmente à incisura nasal. Parte alar: maxila, acima do dente incisivo lateral.",
+    "insercao": "Parte transversa: aponeurose sobre o dorso do nariz, unindo-se à do lado oposto. Parte alar: cartilagem alar maior e pele da asa do nariz.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos bucais (e zigomáticos)", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "outro", "papel": "primario", "nota": "parte transversa: comprime a narina; parte alar: dilata a narina (traciona a asa para baixo e lateralmente)" },
+      { "art": "face", "mov": "expressao", "papel": "secundario" }
+    ],
+    "funcao": "A parte alar abre as narinas na inspiração profunda; a parte transversa as estreita.",
+    "sinergistas": ["Levator nasolabialis", "Depressor septi nasi"],
+    "teste": "Peça que dilate as narinas (inspiração forçada) e depois que 'franza o nariz'; compare os lados.",
+    "clinica": "O batimento das asas do nariz (dilatação rítmica das narinas na inspiração) é sinal de desconforto respiratório, sobretudo em lactentes e crianças. Na paralisia facial a narina do lado afetado pode colabar na inspiração.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Depressor septi nasi",
+    "pt": "Músculo abaixador do septo nasal",
+    "latim": "Musculus depressor septi nasi",
+    "sinonimos": ["depressor do septo nasal"],
+    "resumo": "Pequeno feixe profundo ao lábio superior, abaixo do nariz; frequentemente descrito junto com a parte alar do músculo nasal.",
+    "origem": "Fossa incisiva da maxila, acima dos dentes incisivos.",
+    "insercao": "Parte móvel do septo nasal e parte posterior da asa do nariz.",
+    "inervacao": { "nervo": "Nervo facial (NC VII), ramos bucais", "raizes": "NC VII", "nervoKeys": ["Facial nerve (VII)"] },
+    "acoes": [
+      { "art": "face", "mov": "depressao", "papel": "primario", "nota": "traciona para baixo o septo e a ponta do nariz" },
+      { "art": "face", "mov": "outro", "papel": "secundario", "nota": "auxilia a dilatação das narinas na inspiração profunda" }
+    ],
+    "funcao": "Abaixa o septo e a ponta do nariz e, com a parte alar do nasal, alarga a abertura das narinas.",
+    "sinergistas": ["Nasalis muscle"],
+    "camada": "profunda"
+  }
+]

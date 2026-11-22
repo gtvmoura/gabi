@@ -1,0 +1,731 @@
+[
+ {
+  "key": "Hip bone",
+  "pt": "Osso do quadril",
+  "latim": "Os coxae",
+  "tipo": "irregular",
+  "sinonimos": [
+   "osso ilíaco",
+   "osso coxal",
+   "osso inominado"
+  ],
+  "resumo": "Osso grande e irregular formado pela fusão de três ossos (ílio, ísquio e púbis) no acetábulo. Os dois ossos do quadril, com o sacro e o cóccix, formam a pelve óssea, que transfere o peso do tronco para os membros inferiores.",
+  "descricao": "Na criança, ílio, ísquio e púbis estão unidos por uma cartilagem em forma de Y no acetábulo (cartilagem trirradiada); a fusão começa na adolescência, por volta dos 15 a 17 anos, e completa-se no início da vida adulta. Os três contribuem para o acetábulo, a cavidade em forma de taça que recebe a cabeça do fêmur e está voltada lateral, inferior e anteriormente.\n\nO ílio é a parte superior, em leque. Sua asa termina em cima na crista ilíaca, que vai da espinha ilíaca anterossuperior (EIAS) à espinha ilíaca posterossuperior (EIPS). A face glútea, externa, é marcada pelas três linhas glúteas, que separam as origens dos músculos glúteos; a face interna tem a fossa ilíaca (músculo ilíaco) e, atrás, a face sacropélvica, com a face auricular para o sacro e a tuberosidade ilíaca para os ligamentos sacroilíacos.\n\nO ísquio é a parte posteroinferior. Tem o corpo, o ramo, a espinha isquiática, que separa as incisuras isquiáticas maior e menor, e o túber isquiático, sobre o qual nos apoiamos quando sentados. O púbis é a parte anteromedial: seu corpo une-se ao do lado oposto na sínfise púbica, e seus ramos superior e inferior delimitam, com o ísquio, o forame obturado.\n\nNa posição anatômica, as duas EIAS e a sínfise púbica ficam no mesmo plano frontal. A inclinação da pelve em relação a essa referência (anteversão e retroversão) altera a lordose lombar e a posição dos quadris, e por isso sua avaliação é parte da análise postural.",
+  "articulacoes": [
+   "Sacroilíaca — face auricular do ílio com a face auricular do sacro (sinovial anteriormente e sindesmose posteriormente; mobilidade muito pequena)",
+   "Sínfise púbica — face sinfisial do púbis com a do lado oposto (cartilagínea, com disco interpúbico)",
+   "Do quadril (coxofemoral) — face semilunar do acetábulo com a cabeça do fêmur (sinovial esferoide)"
+  ],
+  "acidentes": [
+   {
+    "key": "(Posterior obturator tubercle)",
+    "pt": "Tubérculo obturatório posterior (inconstante)",
+    "nota": "Pequena saliência inconstante na margem do forame obturado, do lado do ísquio, que limita posteriormente o sulco obturatório."
+   },
+   {
+    "key": "Acetabular fossa",
+    "pt": "Fossa do acetábulo",
+    "nota": "Parte central, rugosa e não articular do acetábulo; contém tecido adiposo e o ligamento da cabeça do fêmur."
+   },
+   {
+    "key": "Acetabular margin",
+    "pt": "Limbo do acetábulo (margem do acetábulo)",
+    "nota": "Borda óssea do acetábulo, onde se fixam o lábio do acetábulo e a cápsula articular. Sua parte posterior pode fraturar na luxação posterior do quadril."
+   },
+   {
+    "key": "Acetabular notch",
+    "pt": "Incisura do acetábulo",
+    "nota": "Interrupção inferior da margem e da face semilunar; é fechada pelo ligamento transverso do acetábulo, sob o qual passam vasos para a cabeça do fêmur."
+   },
+   {
+    "key": "Acetabulum",
+    "pt": "Acetábulo",
+    "nota": "Cavidade articular para a cabeça do fêmur, formada pelo ílio (parte superior), pelo ísquio (parte posteroinferior) e pelo púbis (parte anterior). É aprofundada pelo lábio do acetábulo."
+   },
+   {
+    "key": "Ala of ilium",
+    "pt": "Asa do ílio",
+    "nota": "Parte superior, expandida, do ílio; dá origem aos músculos glúteos por fora e ao ilíaco por dentro."
+   },
+   {
+    "key": "Anterior gluteal line",
+    "pt": "Linha glútea anterior",
+    "nota": "Linha curva na face glútea. Entre ela e a linha glútea posterior origina-se o glúteo médio; entre ela e a linha glútea inferior, o glúteo mínimo."
+   },
+   {
+    "key": "Anterior inferior iliac spine",
+    "pt": "Espinha ilíaca anteroinferior (EIAI)",
+    "nota": "Origem da cabeça reta do reto femoral e fixação do ligamento iliofemoral. Local de fratura por avulsão em adolescentes durante o chute ou a corrida de velocidade."
+   },
+   {
+    "key": "Anterior obturator tubercle",
+    "pt": "Tubérculo obturatório anterior",
+    "nota": "Pequena saliência na margem do forame obturado, do lado do púbis, que limita anteriormente o sulco obturatório."
+   },
+   {
+    "key": "Anterior superior iliac spine",
+    "pt": "Espinha ilíaca anterossuperior (EIAS)",
+    "nota": "Extremidade anterior da crista ilíaca, facilmente palpável. Origem do sartório e fixação do ligamento inguinal; o tensor da fáscia lata origina-se logo atrás. Referência para medir o comprimento real do membro inferior (EIAS ao maléolo medial), o ângulo Q e o nivelamento da pelve. O nervo cutâneo femoral lateral passa medialmente a ela e pode ser comprimido (meralgia parestésica)."
+   },
+   {
+    "key": "Arcuate line of ilium",
+    "pt": "Linha arqueada do ílio",
+    "nota": "Crista na face interna que separa a fossa ilíaca do corpo do ílio; faz parte da linha terminal, que delimita a abertura superior da pelve."
+   },
+   {
+    "key": "Auricular surface of ilium",
+    "pt": "Face auricular do ílio",
+    "nota": "Superfície em forma de orelha, na face sacropélvica, que se articula com o sacro na articulação sacroilíaca."
+   },
+   {
+    "key": "Body of ilium",
+    "pt": "Corpo do ílio",
+    "nota": "Parte inferior e espessa do ílio, que forma a porção superior do acetábulo."
+   },
+   {
+    "key": "Body of ischium",
+    "pt": "Corpo do ísquio",
+    "nota": "Parte superior do ísquio, que forma a porção posteroinferior do acetábulo."
+   },
+   {
+    "key": "Body of pubis",
+    "pt": "Corpo do púbis",
+    "nota": "Parte medial e achatada do púbis, que se une à do lado oposto na sínfise púbica. Da face anterior originam-se o adutor longo, o adutor curto e o grácil. Região acometida na pubalgia do atleta."
+   },
+   {
+    "key": "Gluteal surface of ilium",
+    "pt": "Face glútea do ílio",
+    "nota": "Face externa da asa, marcada pelas linhas glúteas posterior, anterior e inferior; origem dos músculos glúteos máximo, médio e mínimo."
+   },
+   {
+    "key": "Greater sciatic foramen",
+    "pt": "Forame isquiático maior",
+    "nota": "Abertura formada pela incisura isquiática maior, fechada pelos ligamentos sacroespinal e sacrotuberal. É atravessado pelo músculo piriforme; acima dele saem os vasos e o nervo glúteos superiores e, abaixo, o nervo isquiático, os vasos e o nervo glúteos inferiores, o nervo cutâneo femoral posterior, o nervo pudendo e os vasos pudendos internos."
+   },
+   {
+    "key": "Greater sciatic notch",
+    "pt": "Incisura isquiática maior",
+    "nota": "Grande reentrância na margem posterior, entre a espinha ilíaca posteroinferior e a espinha isquiática. É mais larga na pelve feminina."
+   },
+   {
+    "key": "Hip bone",
+    "pt": "Osso do quadril"
+   },
+   {
+    "key": "Iliac crest",
+    "pt": "Crista ilíaca",
+    "nota": "Margem superior do ílio, palpável em toda a extensão. Seu ponto mais alto fica na altura de L4 (do disco L4–L5), referência para localizar níveis vertebrais. Dá fixação aos músculos da parede abdominal, ao latíssimo do dorso, ao quadrado do lombo e à fáscia lata. A contusão da crista é dolorosa e limita o movimento do tronco e do quadril."
+   },
+   {
+    "key": "Iliac fossa",
+    "pt": "Fossa ilíaca",
+    "nota": "Concavidade da face interna da asa do ílio; origem do músculo ilíaco."
+   },
+   {
+    "key": "Iliac tubercle",
+    "pt": "Tubérculo ilíaco",
+    "nota": "Espessamento do lábio externo da crista ilíaca, cerca de 5 cm atrás da EIAS; é o ponto mais lateral da crista. A fáscia lata e o trato iliotibial fixam-se nessa região."
+   },
+   {
+    "key": "Iliac tuberosity",
+    "pt": "Tuberosidade ilíaca",
+    "nota": "Área rugosa atrás e acima da face auricular; fixação dos ligamentos sacroilíacos interósseos e posteriores, os mais fortes da articulação."
+   },
+   {
+    "key": "Iliopubic eminence",
+    "pt": "Eminência iliopúbica",
+    "nota": "Elevação que marca a união do ílio com o púbis, na margem anterior. O tendão do iliopsoas passa sobre ela, com a bolsa iliopectínea interposta."
+   },
+   {
+    "key": "Ilium",
+    "pt": "Ílio",
+    "nota": "A maior das três partes do osso do quadril; forma a região superior e a porção superior do acetábulo."
+   },
+   {
+    "key": "Inferior gluteal line",
+    "pt": "Linha glútea inferior",
+    "nota": "A mais baixa das linhas glúteas, logo acima do acetábulo; limita inferiormente a origem do glúteo mínimo."
+   },
+   {
+    "key": "Inferior pubic ramus",
+    "pt": "Ramo inferior do púbis",
+    "nota": "Desce do corpo do púbis e une-se ao ramo do ísquio. Dá origem ao grácil, ao adutor curto, a parte do adutor magno e ao obturador externo."
+   },
+   {
+    "key": "Inner lip of iliac crest",
+    "pt": "Lábio interno da crista ilíaca",
+    "nota": "Fixação do músculo transverso do abdome e, mais posteriormente, do quadrado do lombo; o ilíaco origina-se logo abaixo."
+   },
+   {
+    "key": "Intermediate zone",
+    "pt": "Linha intermédia da crista ilíaca",
+    "nota": "Faixa entre os lábios externo e interno da crista; origem do músculo oblíquo interno do abdome."
+   },
+   {
+    "key": "Ischial spine",
+    "pt": "Espinha isquiática",
+    "nota": "Projeção pontiaguda que separa as incisuras isquiáticas maior e menor. Fixação do ligamento sacroespinal, do gêmeo superior e de músculos do assoalho pélvico (isquiococcígeo e parte do levantador do ânus). O nervo pudendo contorna-a ao passar para o períneo."
+   },
+   {
+    "key": "Ischial tuberosity",
+    "pt": "Túber isquiático",
+    "nota": "Grande saliência posteroinferior que sustenta o peso na posição sentada. Origem dos isquiotibiais (semitendíneo e cabeça longa do bíceps femoral na parte medial; semimembranáceo na parte lateral) e da parte isquiocondilar do adutor magno; fixação do ligamento sacrotuberal; origem do quadrado femoral e do gêmeo inferior. Palpável na prega glútea com o quadril fletido. Sede da bursite isquiática, da tendinopatia proximal dos isquiotibiais e, em adolescentes, de avulsões."
+   },
+   {
+    "key": "Ischiopubic ramus",
+    "pt": "Ramo isquiopúbico",
+    "nota": "Barra óssea formada pela união do ramo do ísquio com o ramo inferior do púbis; limita inferiormente o forame obturado e forma o arco púbico com o lado oposto."
+   },
+   {
+    "key": "Ischium",
+    "pt": "Ísquio",
+    "nota": "Parte posteroinferior do osso do quadril; forma a porção posteroinferior do acetábulo."
+   },
+   {
+    "key": "Lesser sciatic foramen",
+    "pt": "Forame isquiático menor",
+    "nota": "Abertura formada pela incisura isquiática menor e pelos ligamentos sacroespinal e sacrotuberal. Dá passagem ao tendão do obturador interno, que sai da pelve, e ao nervo pudendo e aos vasos pudendos internos, que entram no períneo."
+   },
+   {
+    "key": "Lesser sciatic notch",
+    "pt": "Incisura isquiática menor",
+    "nota": "Reentrância entre a espinha isquiática e o túber isquiático; funciona como polia para o tendão do obturador interno."
+   },
+   {
+    "key": "Lunate surface",
+    "pt": "Face semilunar",
+    "nota": "Superfície articular do acetábulo, em forma de ferradura aberta para baixo e recoberta por cartilagem; é mais larga e espessa na parte superior, onde recebe a carga."
+   },
+   {
+    "key": "Obturator crest",
+    "pt": "Crista obturatória",
+    "nota": "Crista no ramo superior do púbis, do tubérculo púbico em direção ao acetábulo; fixação do ligamento pubofemoral."
+   },
+   {
+    "key": "Obturator foramen",
+    "pt": "Forame obturado",
+    "nota": "Grande abertura delimitada pelo púbis e pelo ísquio, quase toda fechada pela membrana obturadora, de cujas faces se originam os músculos obturadores interno e externo. Resta em cima o canal obturatório, por onde passam o nervo e os vasos obturatórios para o compartimento medial da coxa."
+   },
+   {
+    "key": "Obturator groove",
+    "pt": "Sulco obturatório",
+    "nota": "Sulco na face inferior do ramo superior do púbis, convertido em canal obturatório pela membrana obturadora; conduz o nervo e os vasos obturatórios."
+   },
+   {
+    "key": "Outer lip of iliac crest",
+    "pt": "Lábio externo da crista ilíaca",
+    "nota": "Fixação do músculo oblíquo externo do abdome, do latíssimo do dorso, do tensor da fáscia lata e da fáscia lata."
+   },
+   {
+    "key": "Pecten pubis",
+    "pt": "Linha pectínea do púbis",
+    "nota": "Crista cortante no ramo superior do púbis, que continua a linha arqueada até o tubérculo púbico. Origem do músculo pectíneo e fixação do ligamento pectíneo."
+   },
+   {
+    "key": "Posterior gluteal line",
+    "pt": "Linha glútea posterior",
+    "nota": "A mais curta das linhas glúteas; atrás dela origina-se parte do glúteo máximo."
+   },
+   {
+    "key": "Posterior inferior iliac spine",
+    "pt": "Espinha ilíaca posteroinferior (EIPI)",
+    "nota": "Marca o limite superior da incisura isquiática maior e a extremidade posterior da face auricular."
+   },
+   {
+    "key": "Posterior superior iliac spine",
+    "pt": "Espinha ilíaca posterossuperior (EIPS)",
+    "nota": "Extremidade posterior da crista ilíaca. Corresponde às covinhas da pele na região lombar baixa, na altura do processo espinhoso de S2 e do meio da articulação sacroilíaca. Referência para avaliar o nivelamento e a inclinação da pelve e para os testes sacroilíacos."
+   },
+   {
+    "key": "Pubic crest",
+    "pt": "Crista púbica",
+    "nota": "Margem superior do corpo do púbis, entre a sínfise e o tubérculo púbico; fixação do reto do abdome e do piramidal."
+   },
+   {
+    "key": "Pubic tubercle",
+    "pt": "Tubérculo púbico",
+    "nota": "Saliência na extremidade lateral da crista púbica, a cerca de 2,5 cm da linha mediana. Fixação medial do ligamento inguinal; referência palpável na avaliação da região inguinal."
+   },
+   {
+    "key": "Pubis",
+    "pt": "Púbis",
+    "nota": "Parte anteromedial do osso do quadril; forma a porção anterior do acetábulo."
+   },
+   {
+    "key": "Ramus of ischium",
+    "pt": "Ramo do ísquio",
+    "nota": "Prolonga-se do túber isquiático para a frente e une-se ao ramo inferior do púbis. Dá origem a parte do adutor magno e do obturador externo."
+   },
+   {
+    "key": "Sacropelvic surface of ilium",
+    "pt": "Face sacropélvica do ílio",
+    "nota": "Parte posterior da face interna do ílio; contém a face auricular e a tuberosidade ilíaca."
+   },
+   {
+    "key": "Superior pubic ramus",
+    "pt": "Ramo superior do púbis",
+    "nota": "Vai do corpo do púbis ao acetábulo; traz a linha pectínea e a crista obturatória e forma o limite superior do forame obturado. Local comum de fratura por insuficiência no idoso."
+   },
+   {
+    "key": "Supra-acetabular groove",
+    "pt": "Sulco supra-acetabular",
+    "nota": "Depressão logo acima da margem do acetábulo; origem da cabeça reflexa do reto femoral."
+   },
+   {
+    "key": "Symphysial surface of pubis",
+    "pt": "Face sinfisial do púbis",
+    "nota": "Face medial oval do corpo do púbis, unida à do lado oposto pelo disco interpúbico na sínfise púbica."
+   }
+  ],
+  "palpacao": "Com as mãos na cintura, os dedos repousam sobre as cristas ilíacas; o ponto mais alto corresponde a L4. Siga a crista para a frente até a EIAS, saliência evidente mesmo em pessoas com mais tecido adiposo, e cerca de 5 cm para trás dela sinta o tubérculo ilíaco. Para trás, a crista termina na EIPS, sob a covinha lombar, na altura de S2. O tubérculo púbico é palpado na extremidade medial da prega inguinal, lateralmente à sínfise. O túber isquiático é palpado com o paciente em decúbito lateral ou em pé com o quadril fletido, o que afasta o glúteo máximo, na altura da prega glútea. Na avaliação postural, compara-se a altura das cristas, das EIAS e das EIPS dos dois lados e a relação entre EIAS e EIPS do mesmo lado (inclinação pélvica).",
+  "clinica": "Fraturas por avulsão das apófises ocorrem em adolescentes atletas durante contrações explosivas: EIAS (sartório), EIAI (reto femoral), túber isquiático (isquiotibiais) e crista ilíaca (músculos abdominais). No idoso com osteoporose, quedas simples causam fraturas dos ramos do púbis, geralmente estáveis, tratadas com analgesia e marcha precoce. As fraturas do anel pélvico por trauma de alta energia podem causar hemorragia grave e lesões da bexiga e da uretra; as do acetábulo costumam acompanhar a luxação do quadril e evoluem com artrose.\n\nNa marcha, o osso do quadril transmite a carga do sacro ao fêmur; a fraqueza do glúteo médio, que se origina na face glútea, causa queda da pelve para o lado oposto no apoio unipodal (sinal de Trendelenburg). A dor sacroilíaca, a pubalgia e a disfunção da sínfise púbica na gestação são queixas comuns na prática do fisioterapeuta. A crista ilíaca é ainda o local habitual de retirada de enxerto ósseo."
+ },
+ {
+  "key": "Femur",
+  "pt": "Fêmur",
+  "latim": "Femur (Os femoris)",
+  "tipo": "longo",
+  "resumo": "Osso da coxa: o mais longo, mais pesado e mais resistente do corpo. Articula-se com o osso do quadril em cima e com a tíbia e a patela embaixo.",
+  "descricao": "A extremidade proximal tem a cabeça do fêmur, cerca de dois terços de esfera, voltada medial, superior e um pouco anteriormente, com a fóvea para o ligamento da cabeça. O colo une a cabeça ao corpo formando o ângulo de inclinação, de cerca de 125° no adulto (maior ao nascimento; coxa valga quando aumentado e coxa vara quando reduzido). O colo também está rodado para a frente em relação aos côndilos (ângulo de torção ou anteversão, em média de 10° a 15° no adulto); a anteversão aumentada associa-se à marcha com os pés para dentro.\n\nNa junção do colo com o corpo ficam o trocanter maior, lateral e palpável, e o trocanter menor, posteromedial, unidos na frente pela linha intertrocantérica e atrás pela crista intertrocantérica. Neles se inserem os músculos que movem e estabilizam o quadril.\n\nO corpo é levemente arqueado, com convexidade anterior, e inclina-se medialmente de cima para baixo, aproximando os joelhos da linha de gravidade. É liso na frente e tem atrás a linha áspera, uma crista com dois lábios que dá fixação aos adutores, aos vastos e à cabeça curta do bíceps femoral. Em cima, a linha áspera divide-se em tuberosidade glútea e linha pectínea; embaixo, nas linhas supracondilares medial e lateral, que delimitam a face poplítea.\n\nA extremidade distal tem os côndilos medial e lateral, que se articulam com a tíbia e são separados atrás pela fossa intercondilar; na frente unem-se na face patelar, que recebe a patela. O côndilo medial é mais longo no sentido anteroposterior, o que contribui para a rotação automática do joelho no final da extensão. Acima dos côndilos ficam os epicôndilos, onde se fixam os ligamentos colaterais.",
+  "articulacoes": [
+   "Do quadril (coxofemoral) — cabeça do fêmur com a face semilunar do acetábulo (sinovial esferoide)",
+   "Do joelho, femorotibial — côndilos do fêmur com os côndilos da tíbia e os meniscos",
+   "Do joelho, femoropatelar — face patelar com a face articular da patela"
+  ],
+  "acidentes": [
+   {
+    "key": "(Third trochanter)",
+    "pt": "Terceiro trocanter (inconstante)",
+    "nota": "Variação anatômica: saliência na parte superior da tuberosidade glútea, presente em algumas pessoas, onde se insere parte do glúteo máximo."
+   },
+   {
+    "key": "Adductor tubercle",
+    "pt": "Tubérculo do adutor",
+    "nota": "Pequena saliência no topo do côndilo medial, onde termina a linha supracondilar medial; inserção da parte isquiocondilar do adutor magno. Palpável deslizando a mão pela face medial da coxa até encontrar o primeiro ressalto acima do epicôndilo medial."
+   },
+   {
+    "key": "Body of femur",
+    "pt": "Corpo do fêmur",
+    "nota": "Diáfise arqueada, de convexidade anterior, envolvida pelo quadríceps (origem do vasto intermédio nas faces anterior e lateral). Suas fraturas exigem trauma de alta energia no adulto jovem e causam grande perda sanguínea."
+   },
+   {
+    "key": "Femur",
+    "pt": "Fêmur"
+   },
+   {
+    "key": "Fovea for ligament of head of femur",
+    "pt": "Fóvea da cabeça do fêmur",
+    "nota": "Pequena depressão sem cartilagem, um pouco abaixo e atrás do centro da cabeça; fixação do ligamento da cabeça do fêmur, que conduz um ramo da artéria obturatória, importante sobretudo na infância."
+   },
+   {
+    "key": "Gluteal tuberosity",
+    "pt": "Tuberosidade glútea",
+    "nota": "Crista rugosa que prolonga para cima o lábio lateral da linha áspera; inserção das fibras profundas inferiores do glúteo máximo (as demais inserem-se no trato iliotibial)."
+   },
+   {
+    "key": "Greater trochanter",
+    "pt": "Trocanter maior",
+    "nota": "Grande saliência lateral. Inserção do glúteo médio (face lateral), do glúteo mínimo (face anterior), do piriforme (margem superior) e do obturador interno com os gêmeos (face medial); o vasto lateral origina-se em sua base. É palpável na face lateral do quadril, cerca de um palmo abaixo da crista ilíaca, e move-se sob os dedos com a rotação da coxa. Sede da síndrome dolorosa do trocanter maior (tendinopatia glútea e bursite trocantérica)."
+   },
+   {
+    "key": "Groove for popliteus muscle",
+    "pt": "Sulco poplíteo",
+    "nota": "Sulco na face lateral do côndilo lateral, abaixo do epicôndilo lateral; o tendão do músculo poplíteo origina-se em sua parte anterior e aloja-se nele quando o joelho está fletido."
+   },
+   {
+    "key": "Head of femur",
+    "pt": "Cabeça do fêmur",
+    "nota": "Dois terços de esfera recobertos por cartilagem, exceto na fóvea. Sua irrigação no adulto depende principalmente dos ramos da artéria circunflexa femoral medial, que sobem ao longo do colo; por isso as fraturas do colo podem levar à necrose avascular da cabeça."
+   },
+   {
+    "key": "Intercondylar fossa",
+    "pt": "Fossa intercondilar",
+    "nota": "Entalhe profundo entre os côndilos, na face posterior e inferior. O ligamento cruzado anterior fixa-se na parte posterior da face medial do côndilo lateral; o ligamento cruzado posterior, na parte anterior da face lateral do côndilo medial."
+   },
+   {
+    "key": "Intercondylar line",
+    "pt": "Linha intercondilar",
+    "nota": "Linha que separa a fossa intercondilar da face poplítea; fixação da parte posterior da cápsula articular do joelho."
+   },
+   {
+    "key": "Intertrochanteric crest",
+    "pt": "Crista intertrocantérica",
+    "nota": "Crista saliente na face posterior, unindo os dois trocanteres."
+   },
+   {
+    "key": "Intertrochanteric line",
+    "pt": "Linha intertrocantérica",
+    "nota": "Linha rugosa na face anterior, do trocanter maior em direção ao trocanter menor; fixação do ligamento iliofemoral e da cápsula articular. Sua parte inferior dá origem a fibras do vasto medial."
+   },
+   {
+    "key": "Lateral condyle of femur",
+    "pt": "Côndilo lateral do fêmur",
+    "nota": "Mais largo e mais saliente na frente que o medial, o que ajuda a conter a patela contra o deslocamento lateral. Articula-se com o côndilo lateral da tíbia e o menisco lateral. Logo acima dele origina-se a cabeça lateral do gastrocnêmio."
+   },
+   {
+    "key": "Lateral epicondyle of femur",
+    "pt": "Epicôndilo lateral do fêmur",
+    "nota": "Saliência na face lateral do côndilo lateral; fixação do ligamento colateral fibular. O trato iliotibial desliza sobre ele na flexão e extensão do joelho (em torno de 30° de flexão), local da síndrome do trato iliotibial do corredor."
+   },
+   {
+    "key": "Lateral supracondylar line",
+    "pt": "Linha supracondilar lateral",
+    "nota": "Prolongamento inferior do lábio lateral da linha áspera. Dá origem à cabeça curta do bíceps femoral (parte superior) e, junto ao côndilo, ao plantar."
+   },
+   {
+    "key": "Lesser trochanter",
+    "pt": "Trocanter menor",
+    "nota": "Saliência cônica posteromedial, na junção do colo com o corpo; inserção do iliopsoas, principal flexor do quadril. Não é palpável diretamente. Pode sofrer avulsão em adolescentes."
+   },
+   {
+    "key": "Linea aspera",
+    "pt": "Linha áspera",
+    "nota": "Crista longitudinal na face posterior do corpo, com lábios medial e lateral. No lábio medial fixam-se o vasto medial e os adutores (longo, curto e magno); no lábio lateral, o vasto lateral e a cabeça curta do bíceps femoral. Dá fixação também aos septos intermusculares da coxa."
+   },
+   {
+    "key": "Medial condyle of femur",
+    "pt": "Côndilo medial do fêmur",
+    "nota": "Mais longo no sentido anteroposterior e mais estreito que o lateral; essa assimetria contribui para a rotação medial do fêmur sobre a tíbia fixa no final da extensão do joelho (mecanismo de trava). Logo acima dele origina-se a cabeça medial do gastrocnêmio."
+   },
+   {
+    "key": "Medial epicondyle of femur",
+    "pt": "Epicôndilo medial do fêmur",
+    "nota": "Saliência na face medial do côndilo medial; fixação do ligamento colateral tibial. Palpável na face medial do joelho, logo abaixo do tubérculo do adutor."
+   },
+   {
+    "key": "Medial supracondylar line",
+    "pt": "Linha supracondilar medial",
+    "nota": "Prolongamento inferior do lábio medial da linha áspera, que termina no tubérculo do adutor; é interrompida no ponto em que os vasos femorais passam para a fossa poplítea pelo hiato dos adutores. Fixação do adutor magno e do vasto medial."
+   },
+   {
+    "key": "Neck of femur",
+    "pt": "Colo do fêmur",
+    "nota": "Une a cabeça ao corpo com ângulo de inclinação de cerca de 125° e anteversão de 10° a 15°. É quase todo intracapsular (por inteiro na frente e nos dois terços mediais atrás). Região de fratura característica do idoso com osteoporose."
+   },
+   {
+    "key": "Patellar surface of femur",
+    "pt": "Face patelar",
+    "nota": "Superfície articular anterior em forma de tróclea, que une os dois côndilos e recebe a patela. Sua vertente lateral é mais alta e mais larga, opondo-se à tendência da patela de se deslocar lateralmente."
+   },
+   {
+    "key": "Pectineal line of femur",
+    "pt": "Linha pectínea do fêmur",
+    "nota": "Linha que desce do trocanter menor até o lábio medial da linha áspera; inserção do músculo pectíneo."
+   },
+   {
+    "key": "Popliteal surface of femur",
+    "pt": "Face poplítea",
+    "nota": "Área triangular plana entre as linhas supracondilares, na face posterior; forma o assoalho da parte superior da fossa poplítea, em contato com a artéria poplítea."
+   },
+   {
+    "key": "Quadrate tubercle",
+    "pt": "Tubérculo quadrado",
+    "nota": "Elevação arredondada na crista intertrocantérica; inserção do músculo quadrado femoral."
+   },
+   {
+    "key": "Trochanteric fossa",
+    "pt": "Fossa trocantérica",
+    "nota": "Depressão na face medial do trocanter maior; inserção do tendão do obturador externo."
+   }
+  ],
+  "palpacao": "O trocanter maior é palpado na face lateral do quadril, com o paciente em decúbito lateral ou em pé; rodar passivamente a coxa faz a saliência deslizar sob os dedos. É referência para medir o comprimento do membro e para posicionar o eixo do goniômetro nos movimentos do quadril. O corpo é coberto por músculos e não é palpável. No joelho, com 90° de flexão, palpam-se os côndilos de cada lado do ligamento da patela, os epicôndilos medial e lateral e, acima do medial, o tubérculo do adutor. As interlinhas articulares ficam logo abaixo dos côndilos, na altura do ápice da patela.",
+  "clinica": "Fratura do colo do fêmur: típica do idoso com osteoporose, mais frequente em mulheres, depois de queda simples. O membro fica encurtado e em rotação lateral. Como é intracapsular, pode romper os ramos da artéria circunflexa femoral medial que irrigam a cabeça, com risco de necrose avascular e de falha da consolidação, sobretudo quando há desvio; por isso é comum a substituição da cabeça por prótese (artroplastia). As fraturas trocantéricas são extracapsulares, consolidam melhor e são tratadas com fixação. Em ambas, a fisioterapia precoce, com sedestação, treino de marcha conforme a carga liberada e prevenção de quedas, é determinante para o prognóstico; após a artroplastia, devem ser respeitadas as precauções de movimento ligadas à via cirúrgica.\n\nAlterações do ângulo de inclinação modificam a mecânica do quadril: na coxa vara o membro encurta e aumenta a tensão de cisalhamento sobre o colo; na coxa valga diminui o braço de alavanca dos abdutores. No adolescente, a epífise da cabeça pode deslizar sobre o colo (epifisiólise), com dor no quadril ou referida no joelho e perda de rotação medial; na criança, a necrose da cabeça é a doença de Legg-Calvé-Perthes.\n\nNo joelho, a profundidade da face patelar e a altura de sua vertente lateral influenciam a estabilidade da patela. Fraturas supracondilares têm o fragmento distal tracionado para trás pelo gastrocnêmio, com risco para a artéria poplítea. A síndrome dolorosa do trocanter maior e a síndrome do trato iliotibial são causas frequentes de dor lateral no quadril e no joelho."
+ },
+ {
+  "key": "Patella",
+  "pt": "Patela",
+  "latim": "Patella",
+  "tipo": "sesamoide",
+  "sinonimos": [
+   "rótula"
+  ],
+  "resumo": "O maior osso sesamoide do corpo, contido no tendão do músculo quadríceps femoral, à frente do joelho. Aumenta o braço de alavanca do quadríceps e protege a articulação.",
+  "descricao": "A patela é triangular, com a base voltada para cima e o ápice para baixo. Na base e nas margens insere-se o tendão do quadríceps; do ápice parte o ligamento da patela, que vai até a tuberosidade da tíbia. A face anterior é convexa, rugosa e subcutânea, separada da pele pela bolsa subcutânea pré-patelar.\n\nA face articular, posterior, é recoberta pela cartilagem mais espessa do corpo e dividida por uma crista vertical em uma faceta lateral, maior, e uma faceta medial, menor; junto à margem medial há ainda uma pequena faceta que só toca o fêmur na flexão acentuada. O ápice e a parte inferior da face posterior não são articulares e relacionam-se com o corpo adiposo infrapatelar.\n\nAo afastar o tendão do quadríceps do eixo de flexão do joelho, a patela aumenta a eficiência do músculo na extensão, principalmente nos últimos graus. Na extensão completa com o quadríceps relaxado ela fica acima da face patelar do fêmur e é móvel; à medida que o joelho flete, encaixa-se no sulco e a área de contato desloca-se, com aumento da compressão femoropatelar. A estabilidade contra o deslocamento lateral depende da vertente lateral da tróclea do fêmur, do ligamento patelofemoral medial e das fibras oblíquas do vasto medial.",
+  "articulacoes": [
+   "Femoropatelar — face articular da patela com a face patelar do fêmur (parte da articulação do joelho)"
+  ],
+  "palpacao": "Com o paciente em decúbito dorsal, joelho estendido e quadríceps relaxado, a patela é palpada em todo o contorno: base, margens medial e lateral e ápice. Nessa posição, avalia-se a mobilidade passiva em sentido medial, lateral, superior e inferior e a inclinação. O ápice fica aproximadamente na altura da interlinha articular do joelho. Deslocando a patela para um lado, palpa-se parte das facetas articulares por baixo da margem. O ligamento da patela é sentido entre o ápice e a tuberosidade da tíbia. A compressão da patela contra o fêmur com contração do quadríceps reproduz a dor femoropatelar.",
+  "clinica": "A dor femoropatelar (dor anterior no joelho) é uma das queixas musculoesqueléticas mais comuns, sobretudo em mulheres jovens e corredores: piora ao subir e descer escadas, ao agachar e ao ficar muito tempo sentado. Relaciona-se a sobrecarga e a alterações do controle do quadril e do joelho (valgo dinâmico), e o tratamento baseia-se em exercícios para quadríceps e para os músculos do quadril, além do ajuste da carga. Condromalácia é o amolecimento da cartilagem patelar.\n\nA luxação da patela é quase sempre lateral e ocorre com o joelho em leve flexão e valgo, com rotação; é mais comum em adolescentes, em pessoas com tróclea rasa, patela alta ou ângulo Q aumentado, e rompe o ligamento patelofemoral medial. A fratura da patela resulta de queda direta sobre o joelho ou de contração violenta do quadríceps (fratura transversal, com afastamento dos fragmentos e perda da extensão ativa). A patela bipartida é uma variação (núcleo de ossificação acessório, em geral superolateral) que não deve ser confundida com fratura. A bursite pré-patelar acomete quem trabalha ajoelhado, e a tendinopatia patelar (joelho do saltador) causa dor no ápice."
+ },
+ {
+  "key": "Tibia",
+  "pt": "Tíbia",
+  "latim": "Tibia",
+  "tipo": "longo",
+  "resumo": "Osso medial e principal da perna, o segundo maior do corpo. Recebe o peso do fêmur no joelho e o transmite ao tálus no tornozelo.",
+  "descricao": "A extremidade proximal é alargada e forma os côndilos medial e lateral, cujas faces articulares superiores compõem o platô tibial. A face do côndilo medial é maior, oval e côncava; a do lateral é menor, mais circular e ligeiramente convexa no sentido anteroposterior, o que dá mais mobilidade ao compartimento lateral. Entre elas fica a área intercondilar, com a eminência intercondilar e as áreas anterior e posterior, onde se fixam os ligamentos cruzados e os meniscos. Na frente, abaixo dos côndilos, está a tuberosidade da tíbia e, na face anterolateral do côndilo lateral, o tubérculo do trato iliotibial (de Gerdy). O côndilo lateral tem embaixo e atrás uma faceta para a cabeça da fíbula.\n\nO corpo é triangular, com três margens (anterior, medial e interóssea) e três faces (medial, lateral e posterior). A margem anterior (a canela) e a face medial são subcutâneas em toda a extensão. A face posterior é cruzada pela linha do músculo sóleo. O corpo é mais delgado na junção dos terços médio e distal, ponto mais comum de fratura.\n\nA extremidade distal prolonga-se medialmente no maléolo medial e tem, na face lateral, a incisura fibular, onde se encaixa a fíbula (sindesmose tibiofibular). A face articular inferior e a face articular do maléolo medial formam, com o maléolo lateral da fíbula, o encaixe (pinça maleolar) que recebe a tróclea do tálus.\n\nA tíbia do adulto apresenta torção lateral: o eixo do tornozelo está rodado lateralmente em relação ao do joelho, o que explica a posição dos pés ligeiramente voltados para fora.",
+  "articulacoes": [
+   "Do joelho (femorotibial) — faces articulares superiores com os côndilos do fêmur, por meio dos meniscos",
+   "Tibiofibular proximal — face articular fibular do côndilo lateral com a cabeça da fíbula (sinovial plana)",
+   "Sindesmose tibiofibular — incisura fibular com a extremidade distal da fíbula, e membrana interóssea da perna",
+   "Talocrural (do tornozelo) — face articular inferior e maléolo medial com a tróclea do tálus (gínglimo)"
+  ],
+  "acidentes": [
+   {
+    "key": "Anterior border of tibia",
+    "pt": "Margem anterior",
+    "nota": "A canela: crista subcutânea que desce da tuberosidade da tíbia em direção ao maléolo medial. Por ter pouco tecido de proteção, as contusões são muito dolorosas."
+   },
+   {
+    "key": "Anterior intercondylar area",
+    "pt": "Área intercondilar anterior",
+    "nota": "Região à frente da eminência intercondilar. De anterior para posterior fixam-se nela o corno anterior do menisco medial, o ligamento cruzado anterior e o corno anterior do menisco lateral."
+   },
+   {
+    "key": "Articular facet of medial malleolus",
+    "pt": "Face articular do maléolo medial",
+    "nota": "Faceta em forma de vírgula na face lateral do maléolo medial, que se articula com a face maleolar medial do tálus."
+   },
+   {
+    "key": "Articular surface of medial condyle",
+    "pt": "Face articular superior do côndilo medial",
+    "nota": "Oval, côncava e maior que a lateral; articula-se com o côndilo medial do fêmur. O compartimento medial recebe a maior parte da carga na marcha, o que ajuda a explicar a maior frequência de artrose medial."
+   },
+   {
+    "key": "Body of tibia",
+    "pt": "Corpo da tíbia",
+    "nota": "Diáfise triangular. O terço distal tem pouca cobertura muscular e irrigação mais pobre, por isso suas fraturas consolidam lentamente e são frequentemente expostas."
+   },
+   {
+    "key": "Fibular articular facet",
+    "pt": "Face articular fibular",
+    "nota": "Faceta circular na parte posterolateral e inferior do côndilo lateral, para a cabeça da fíbula."
+   },
+   {
+    "key": "Fibular notch",
+    "pt": "Incisura fibular",
+    "nota": "Concavidade na face lateral da extremidade distal, que recebe a fíbula; em suas margens fixam-se os ligamentos tibiofibulares anterior e posterior (sindesmose), lesados na entorse alta do tornozelo."
+   },
+   {
+    "key": "Inferior articular surface of tibia",
+    "pt": "Face articular inferior",
+    "nota": "Superfície quadrilátera, côncava no sentido anteroposterior, que se apoia sobre a tróclea do tálus (teto da pinça maleolar)."
+   },
+   {
+    "key": "Intercondylar area",
+    "pt": "Área intercondilar",
+    "nota": "Faixa não articular entre as duas faces articulares superiores, dividida pela eminência intercondilar em áreas anterior e posterior; local de fixação dos ligamentos cruzados e dos cornos dos meniscos."
+   },
+   {
+    "key": "Intercondylar eminence",
+    "pt": "Eminência intercondilar",
+    "nota": "Saliência central do platô, formada pelos tubérculos intercondilares medial e lateral; encaixa-se na fossa intercondilar do fêmur e limita o deslizamento lateral. Sua avulsão, na criança, equivale à lesão do ligamento cruzado anterior."
+   },
+   {
+    "key": "Interosseous border of tibia",
+    "pt": "Margem interóssea",
+    "nota": "Margem lateral, voltada para a fíbula; fixação da membrana interóssea da perna."
+   },
+   {
+    "key": "Lateral condyle of tibia",
+    "pt": "Côndilo lateral da tíbia",
+    "nota": "Sustenta a face articular superior lateral e traz o tubérculo de Gerdy e a faceta para a fíbula. É o mais acometido nas fraturas do platô tibial por força em valgo."
+   },
+   {
+    "key": "Lateral intercondylar tubercle",
+    "pt": "Tubérculo intercondilar lateral",
+    "nota": "Elevação lateral da eminência intercondilar."
+   },
+   {
+    "key": "Lateral surface of tibia",
+    "pt": "Face lateral",
+    "nota": "Entre as margens anterior e interóssea; seus dois terços superiores dão origem ao tibial anterior."
+   },
+   {
+    "key": "Malleolar groove of tibia",
+    "pt": "Sulco maleolar",
+    "nota": "Sulco na face posterior do maléolo medial, por onde passam os tendões do tibial posterior (o mais anterior) e do flexor longo dos dedos."
+   },
+   {
+    "key": "Medial border of tibia",
+    "pt": "Margem medial",
+    "nota": "Separa as faces medial e posterior. Seu terço distal é o local típico da dor na síndrome do estresse tibial medial (canelite)."
+   },
+   {
+    "key": "Medial condyle of tibia",
+    "pt": "Côndilo medial da tíbia",
+    "nota": "Maior que o lateral. Em sua face posterior há um sulco para a inserção do semimembranáceo; na face medial fixa-se o ligamento colateral tibial."
+   },
+   {
+    "key": "Medial intercondylar tubercle",
+    "pt": "Tubérculo intercondilar medial",
+    "nota": "Elevação medial da eminência intercondilar."
+   },
+   {
+    "key": "Medial malleolus",
+    "pt": "Maléolo medial",
+    "nota": "Projeção medial distal, subcutânea, que forma a saliência interna do tornozelo. Dá fixação ao ligamento colateral medial (deltóideo). É mais curto e mais anterior que o maléolo lateral. Atrás dele passam, de anterior para posterior, o tendão do tibial posterior, o do flexor longo dos dedos, a artéria tibial posterior, o nervo tibial e o tendão do flexor longo do hálux (túnel do tarso)."
+   },
+   {
+    "key": "Medial surface of tibia",
+    "pt": "Face medial",
+    "nota": "Subcutânea e palpável em toda a extensão. Na parte superior, medialmente à tuberosidade, inserem-se o sartório, o grácil e o semitendíneo (pata de ganso), com uma bolsa sob os tendões que pode inflamar (bursite anserina)."
+   },
+   {
+    "key": "Posterior intercondylar area",
+    "pt": "Área intercondilar posterior",
+    "nota": "Região atrás da eminência intercondilar. De anterior para posterior fixam-se nela o corno posterior do menisco lateral, o corno posterior do menisco medial e o ligamento cruzado posterior."
+   },
+   {
+    "key": "Posterior malleolus",
+    "pt": "Maléolo posterior (margem posterior da extremidade distal da tíbia)",
+    "nota": "Termo clínico, não oficial, para o lábio posterior da face articular inferior da tíbia. Pode fraturar junto com os maléolos medial e lateral (fratura trimaleolar); o ligamento tibiofibular posterior fixa-se nessa região."
+   },
+   {
+    "key": "Posterior surface of tibia",
+    "pt": "Face posterior",
+    "nota": "Acima da linha do músculo sóleo insere-se o poplíteo; abaixo dela originam-se o flexor longo dos dedos (medialmente) e o tibial posterior (lateralmente)."
+   },
+   {
+    "key": "Soleal line",
+    "pt": "Linha do músculo sóleo",
+    "nota": "Crista oblíqua na face posterior, que desce de lateral para medial; origem da parte tibial do sóleo."
+   },
+   {
+    "key": "Superior articular surface of lateral condyle",
+    "pt": "Face articular superior do côndilo lateral",
+    "nota": "Menor e mais circular que a medial, ligeiramente convexa no sentido anteroposterior; articula-se com o côndilo lateral do fêmur."
+   },
+   {
+    "key": "Superior articular surfaces of tibia",
+    "pt": "Faces articulares superiores",
+    "nota": "As duas superfícies do platô tibial, cobertas por cartilagem e parcialmente pelos meniscos, que aumentam a congruência com os côndilos do fêmur e distribuem a carga."
+   },
+   {
+    "key": "Tibia",
+    "pt": "Tíbia"
+   },
+   {
+    "key": "Tibial plateau",
+    "pt": "Platô tibial",
+    "nota": "Nome clínico da superfície superior da tíbia, formada pelas duas faces articulares e pela área intercondilar. Tem inclinação posterior de alguns graus. Suas fraturas são intra-articulares e exigem, em geral, um período sem carga."
+   },
+   {
+    "key": "Tibial tuberosity",
+    "pt": "Tuberosidade da tíbia",
+    "nota": "Saliência anterior, palpável cerca de dois dedos abaixo do ápice da patela; inserção do ligamento da patela. No adolescente em fase de crescimento, a tração repetida do quadríceps causa a apofisite de tração conhecida como doença de Osgood-Schlatter, com dor e aumento de volume locais. Referência para medir o ângulo Q."
+   },
+   {
+    "key": "Tubercle of iliotibial tract",
+    "pt": "Tubérculo do trato iliotibial (tubérculo de Gerdy)",
+    "nota": "Saliência na face anterolateral do côndilo lateral, entre a tuberosidade da tíbia e a cabeça da fíbula; inserção do trato iliotibial."
+   }
+  ],
+  "palpacao": "Com o joelho fletido a 90°, localize o ápice da patela e desça pelo ligamento da patela até a tuberosidade da tíbia. De cada lado do ligamento, as depressões correspondem às interlinhas articulares; logo abaixo delas palpam-se as margens dos côndilos medial e lateral (platô tibial). Lateralmente à tuberosidade está o tubérculo de Gerdy e, mais atrás e abaixo, a cabeça da fíbula. Medialmente à tuberosidade, a região da pata de ganso. Siga então a margem anterior e a face medial, subcutâneas, até o maléolo medial; atrás dele palpam-se o tendão do tibial posterior e o pulso da artéria tibial posterior.",
+  "clinica": "A tíbia é o osso longo que mais sofre fratura exposta, por ser subcutânea. As fraturas do corpo, sobretudo do terço distal, consolidam lentamente e podem complicar-se com síndrome compartimental da perna (dor desproporcional que piora ao alongamento passivo dos músculos), uma emergência. As fraturas do platô tibial resultam de força em valgo ou compressão axial, acometem mais o côndilo lateral e podem lesar meniscos e ligamentos; a reabilitação busca recuperar a amplitude do joelho precocemente, com carga restrita.\n\nEm corredores e militares, a dor na margem medial da tíbia pode corresponder à síndrome do estresse tibial medial (dor difusa ao longo de vários centímetros) ou à fratura por estresse (dor localizada em um ponto); a distinção orienta o retorno à carga. Na doença de Osgood-Schlatter, a conduta é ajustar a carga e alongar e fortalecer o quadríceps.\n\nAs fraturas do maléolo medial fazem parte das fraturas do tornozelo (uni, bi ou trimaleolares) por mecanismos de rotação. As deformidades em varo e em valgo do joelho alteram a distribuição de carga no platô: no varo sobrecarrega-se o compartimento medial; no valgo, o lateral."
+ },
+ {
+  "key": "Fibula",
+  "pt": "Fíbula",
+  "latim": "Fibula",
+  "tipo": "longo",
+  "sinonimos": [
+   "perônio"
+  ],
+  "resumo": "Osso lateral da perna, longo e delgado. Sustenta pequena parcela do peso corporal, mas é essencial para a estabilidade do tornozelo e serve de origem a muitos músculos.",
+  "descricao": "A fíbula fica posterolateral à tíbia, unida a ela pela articulação tibiofibular proximal, pela membrana interóssea e pela sindesmose tibiofibular distal. Não participa da articulação do joelho.\n\nA extremidade proximal é a cabeça da fíbula, com um ápice pontiagudo e uma faceta para o côndilo lateral da tíbia; nela se fixam o tendão do bíceps femoral e o ligamento colateral fibular. Abaixo fica o colo, contornado pelo nervo fibular comum.\n\nO corpo é torcido e marcado pelas origens musculares. A descrição oficial reconhece três margens (anterior, interóssea e posterior) e três faces (lateral, medial e posterior), com uma crista medial que subdivide a face posterior. Na face lateral originam-se os fibulares longo e curto; na face medial, estreita, os extensores longos dos dedos e do hálux e o fibular terceiro; na face posterior, o sóleo, o flexor longo do hálux e o tibial posterior.\n\nA extremidade distal é o maléolo lateral, que desce cerca de 1 cm além do maléolo medial e fica mais posterior. Sua face medial articula-se com o tálus e completa a pinça maleolar. Na dorsiflexão, a parte anterior, mais larga, da tróclea do tálus afasta ligeiramente a fíbula da tíbia, movimento permitido pela sindesmose.",
+  "articulacoes": [
+   "Tibiofibular proximal — cabeça da fíbula com o côndilo lateral da tíbia (sinovial plana)",
+   "Sindesmose tibiofibular — extremidade distal com a incisura fibular da tíbia, e membrana interóssea da perna",
+   "Talocrural (do tornozelo) — face articular do maléolo lateral com a face maleolar lateral do tálus"
+  ],
+  "acidentes": [
+   {
+    "key": "Anterior border of fibula",
+    "pt": "Margem anterior",
+    "nota": "Separa as faces lateral e medial; fixação do septo intermuscular anterior da perna. Embaixo divide-se e delimita uma área triangular subcutânea acima do maléolo lateral."
+   },
+   {
+    "key": "Anteromedial surface of fibula",
+    "pt": "Face medial (anteromedial)",
+    "nota": "Nome usado em algumas descrições para a face medial oficial: faixa estreita entre as margens anterior e interóssea, onde se originam o extensor longo dos dedos, o extensor longo do hálux e o fibular terceiro."
+   },
+   {
+    "key": "Apex of head of fibula",
+    "pt": "Ápice da cabeça da fíbula",
+    "nota": "Ponta que se projeta para cima a partir da parte posterolateral da cabeça; fixação do ligamento colateral fibular e de parte do tendão do bíceps femoral."
+   },
+   {
+    "key": "Articular facet of head of fibula",
+    "pt": "Face articular da cabeça da fíbula",
+    "nota": "Faceta circular voltada para cima, para a frente e medialmente, que se articula com o côndilo lateral da tíbia."
+   },
+   {
+    "key": "Articular facet of lateral malleolus",
+    "pt": "Face articular do maléolo lateral",
+    "nota": "Faceta triangular na face medial do maléolo lateral, que se articula com a face maleolar lateral do tálus."
+   },
+   {
+    "key": "Body of fibula",
+    "pt": "Corpo da fíbula",
+    "nota": "Diáfise delgada e torcida, quase toda coberta por músculos. É fonte habitual de enxerto ósseo, pois sua retirada parcial não compromete a sustentação de peso, desde que se preserve a extremidade distal."
+   },
+   {
+    "key": "Fibula",
+    "pt": "Fíbula"
+   },
+   {
+    "key": "Head of fibula",
+    "pt": "Cabeça da fíbula",
+    "nota": "Palpável na face posterolateral do joelho, um pouco abaixo da interlinha articular, seguindo o tendão do bíceps femoral até sua inserção. Inserção do bíceps femoral e do ligamento colateral fibular; origem de fibras do fibular longo e do sóleo."
+   },
+   {
+    "key": "Interosseous crest of fibula",
+    "pt": "Margem interóssea",
+    "nota": "Crista na face medial do osso, voltada para a tíbia; fixação da membrana interóssea da perna."
+   },
+   {
+    "key": "Lateral malleolus",
+    "pt": "Maléolo lateral",
+    "nota": "Saliência externa do tornozelo, subcutânea. Desce mais e fica mais posterior que o maléolo medial, o que limita a eversão mais do que a inversão. Dá fixação aos três ligamentos colaterais laterais: talofibular anterior, calcaneofibular e talofibular posterior. Dor à palpação de sua margem posterior ou da ponta após entorse é um dos critérios de Ottawa para solicitar radiografia."
+   },
+   {
+    "key": "Lateral surface of fibula",
+    "pt": "Face lateral",
+    "nota": "Entre as margens anterior e posterior; origem do fibular longo (dois terços superiores) e do fibular curto (dois terços inferiores)."
+   },
+   {
+    "key": "Malleolar fossa",
+    "pt": "Fossa do maléolo lateral",
+    "nota": "Depressão atrás da face articular do maléolo lateral; fixação do ligamento talofibular posterior."
+   },
+   {
+    "key": "Malleolar groove of fibula",
+    "pt": "Sulco maleolar",
+    "nota": "Sulco na face posterior do maléolo lateral, por onde deslizam os tendões dos fibulares longo e curto, contidos pelo retináculo superior dos músculos fibulares. A ruptura do retináculo permite a luxação desses tendões para a frente do maléolo."
+   },
+   {
+    "key": "Medial border of fibula",
+    "pt": "Crista medial",
+    "nota": "Crista longitudinal na face posterior, que separa a área de origem do tibial posterior da área do flexor longo do hálux; em algumas descrições é chamada de margem medial."
+   },
+   {
+    "key": "Medial surface of fibula",
+    "pt": "Face medial",
+    "nota": "Na descrição oficial, a faixa estreita entre as margens anterior e interóssea, voltada para o compartimento anterior da perna (extensor longo dos dedos, extensor longo do hálux e fibular terceiro)."
+   },
+   {
+    "key": "Neck of fibula",
+    "pt": "Colo da fíbula",
+    "nota": "Estreitamento abaixo da cabeça. O nervo fibular comum contorna-o por fora, superficialmente, antes de se dividir em fibular superficial e profundo. É o ponto em que esse nervo é mais lesado, por fratura, gesso apertado, pernas cruzadas por tempo prolongado ou mau posicionamento no leito, resultando em pé caído e marcha escarvante."
+   },
+   {
+    "key": "Posterior border of fibula",
+    "pt": "Margem posterior",
+    "nota": "Separa as faces lateral e posterior; fixação do septo intermuscular posterior da perna."
+   },
+   {
+    "key": "Posterior surface of fibula",
+    "pt": "Face posterior",
+    "nota": "Entre as margens posterior e interóssea, subdividida pela crista medial. Na parte superior origina-se o sóleo e, nos dois terços inferiores, o flexor longo do hálux."
+   },
+   {
+    "key": "Posteromedial surface of fibula",
+    "pt": "Parte medial da face posterior (face posteromedial)",
+    "nota": "Em algumas descrições, a área entre a margem interóssea e a crista medial, onde se origina o tibial posterior."
+   }
+  ],
+  "palpacao": "A cabeça da fíbula é palpada na face posterolateral do joelho, na mesma altura da tuberosidade da tíbia; com o joelho fletido, o tendão do bíceps femoral conduz o dedo até ela. Logo abaixo e atrás da cabeça, o nervo fibular comum pode ser rolado contra o colo; palpe com delicadeza. O corpo é coberto pelos músculos fibulares nos três quartos superiores e torna-se subcutâneo no quarto distal, continuando-se com o maléolo lateral. Compare a ponta dos dois maléolos: a do lateral é mais distal e mais posterior. À frente e abaixo do maléolo lateral palpa-se a depressão do seio do tarso; atrás dele, os tendões fibulares.",
+  "clinica": "As fraturas do maléolo lateral são as mais comuns do tornozelo e ocorrem por rotação do pé sob a perna. O nível do traço em relação à sindesmose (classificação de Weber: abaixo, no nível ou acima) indica o risco de instabilidade. Uma rotação lateral forçada do pé pode romper a sindesmose e a membrana interóssea e fraturar a fíbula perto do colo (fratura de Maisonneuve); por isso, após um trauma de tornozelo, palpa-se a fíbula em toda a extensão.\n\nNa entorse em inversão, mecanismo mais frequente, lesam-se os ligamentos que partem do maléolo lateral, principalmente o talofibular anterior; pode haver avulsão da ponta do maléolo. A lesão do nervo fibular comum no colo da fíbula causa fraqueza dos dorsiflexores e eversores, com pé caído, e perda de sensibilidade no dorso do pé e na face lateral da perna. A hipomobilidade das articulações tibiofibulares pode limitar a dorsiflexão do tornozelo."
+ }
+]

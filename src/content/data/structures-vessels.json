@@ -1,0 +1,661 @@
+[
+ {
+  "key": "Heart",
+  "pt": "Coração",
+  "latim": "Cor",
+  "resumo": "Órgão muscular oco, do tamanho aproximado de um punho fechado, situado no mediastino médio, dentro do pericárdio, com cerca de dois terços à esquerda do plano mediano. Tem quatro câmaras (dois átrios e dois ventrículos) e funciona como duas bombas em série: o lado direito recebe sangue venoso do corpo e o envia aos pulmões (circulação pulmonar); o lado esquerdo recebe sangue oxigenado dos pulmões e o envia à aorta (circulação sistêmica).\n\nA base é posterior (formada sobretudo pelo átrio esquerdo) e o ápice, formado pelo ventrículo esquerdo, aponta para a frente, para baixo e para a esquerda. É irrigado pelas artérias coronárias direita e esquerda e drenado principalmente pelo seio coronário.",
+  "clinica": "O batimento do ápice (ictus cordis) é palpado no 5º espaço intercostal esquerdo, na linha medioclavicular. Focos de ausculta: aórtico (2º espaço intercostal direito, junto ao esterno), pulmonar (2º espaço intercostal esquerdo, junto ao esterno), tricúspide (extremidade inferior do esterno, 4º–5º espaço intercostal esquerdo) e mitral (ápice, 5º espaço intercostal esquerdo na linha medioclavicular). Na reabilitação cardiovascular, frequência cardíaca, pressão arterial e sintomas (dor torácica, dispneia, tontura) orientam a prescrição e a interrupção do exercício."
+ },
+ {
+  "key": "Right atrium",
+  "pt": "Átrio direito",
+  "latim": "Atrium dextrum",
+  "resumo": "Câmara que forma a margem direita do coração. Recebe o sangue venoso sistêmico pelas veias cavas superior e inferior e o sangue venoso do próprio coração pelo seio coronário, e o envia ao ventrículo direito através da valva atrioventricular direita (tricúspide). Apresenta a aurícula direita, os músculos pectíneos, a crista terminal e, no septo interatrial, a fossa oval (resquício do forame oval fetal). O nó sinoatrial, marca-passo natural do coração, fica na junção da veia cava superior com o átrio direito.",
+  "clinica": "A persistência do forame oval e os defeitos do septo interatrial permitem comunicação entre os átrios. O aumento da pressão no átrio direito (por exemplo, na insuficiência cardíaca direita) transmite-se às veias jugulares, causando turgência jugular, e às veias sistêmicas, causando edema de membros inferiores."
+ },
+ {
+  "key": "Right ventricle",
+  "pt": "Ventrículo direito",
+  "latim": "Ventriculus dexter",
+  "resumo": "Forma a maior parte da face esternocostal (anterior) do coração. Recebe o sangue do átrio direito pela valva atrioventricular direita (tricúspide) e o ejeta no tronco pulmonar através da valva do tronco pulmonar. Sua parede é mais fina que a do ventrículo esquerdo porque trabalha contra a baixa resistência da circulação pulmonar. No interior há as trabéculas cárneas, três músculos papilares (anterior, posterior e septal) ligados às válvulas da tricúspide pelas cordas tendíneas, a trabécula septomarginal (banda moderadora) e o cone arterial (infundíbulo), liso, que conduz ao tronco pulmonar.",
+  "clinica": "Sobrecarga crônica por doença pulmonar (hipertensão pulmonar, como na DPOC avançada) leva a hipertrofia e falência do ventrículo direito (cor pulmonale), com turgência jugular, hepatomegalia e edema de membros inferiores."
+ },
+ {
+  "key": "Left atrium",
+  "pt": "Átrio esquerdo",
+  "latim": "Atrium sinistrum",
+  "resumo": "Câmara que forma a maior parte da base (face posterior) do coração, logo à frente do esôfago. Recebe o sangue oxigenado dos pulmões pelas quatro veias pulmonares (duas direitas e duas esquerdas) e o envia ao ventrículo esquerdo através da valva atrioventricular esquerda (mitral). Sua parede é quase toda lisa; os músculos pectíneos restringem-se à aurícula esquerda.",
+  "clinica": "Na fibrilação atrial, o sangue pode ficar estagnado na aurícula esquerda e formar trombos; se eles se desprendem, seguem pela circulação sistêmica e podem causar AVC isquêmico ou isquemia aguda de um membro."
+ },
+ {
+  "key": "Left ventricle",
+  "pt": "Ventrículo esquerdo",
+  "latim": "Ventriculus sinister",
+  "resumo": "Forma o ápice do coração e quase toda a margem e a face esquerdas, além da maior parte da face diafragmática. Recebe o sangue do átrio esquerdo pela valva atrioventricular esquerda (mitral) e o ejeta na aorta através da valva da aorta. Como trabalha contra a pressão sistêmica, sua parede é duas a três vezes mais espessa que a do ventrículo direito. Possui dois músculos papilares (anterior e posterior), maiores que os do ventrículo direito, ligados às válvulas da mitral por cordas tendíneas.",
+  "clinica": "É a câmara mais acometida no infarto do miocárdio. A fração de ejeção do ventrículo esquerdo é um dos principais parâmetros usados para estratificar o risco e prescrever exercício na reabilitação cardíaca. Sua insuficiência provoca congestão pulmonar, com dispneia aos esforços e ortopneia."
+ },
+ {
+  "key": "Right atrioventricular valve",
+  "pt": "Valva atrioventricular direita (tricúspide)",
+  "latim": "Valva atrioventricularis dextra (valva tricuspidalis)",
+  "resumo": "Valva situada no óstio atrioventricular direito, entre o átrio e o ventrículo direitos. Tem três válvulas (cúspides): anterior, posterior e septal, presas pelas cordas tendíneas aos músculos papilares do ventrículo direito. Abre-se na diástole, permitindo o enchimento ventricular, e fecha-se na sístole, impedindo o refluxo de sangue para o átrio; as cordas tendíneas e os músculos papilares impedem que as válvulas sejam evertidas para o átrio.",
+  "clinica": "O fechamento das valvas atrioventriculares (tricúspide e mitral) produz a primeira bulha cardíaca. O foco tricúspide de ausculta fica junto à extremidade inferior do esterno, no 4º–5º espaço intercostal esquerdo."
+ },
+ {
+  "key": "Aortic valve",
+  "pt": "Valva da aorta",
+  "latim": "Valva aortae",
+  "resumo": "Valva situada na saída do ventrículo esquerdo, na raiz da aorta. É formada por três válvulas semilunares (direita, esquerda e posterior), cada uma delimitando com a parede da aorta um seio da aorta. Dos seios direito e esquerdo saem, respectivamente, as artérias coronárias direita e esquerda; por isso as válvulas também são chamadas coronariana direita, coronariana esquerda e não coronariana. Abre-se na sístole ventricular e fecha-se na diástole, impedindo o retorno do sangue ao ventrículo; é na diástole, com a valva fechada, que as coronárias se enchem.",
+  "clinica": "O fechamento das valvas da aorta e do tronco pulmonar produz a segunda bulha cardíaca. Foco aórtico de ausculta: 2º espaço intercostal direito, junto à margem do esterno. A estenose aórtica pode causar dispneia, angina e síncope aos esforços, o que exige cautela na prescrição de exercício."
+ },
+ {
+  "key": "Pulmonary valve",
+  "pt": "Valva do tronco pulmonar",
+  "latim": "Valva trunci pulmonalis",
+  "resumo": "Valva situada na saída do ventrículo direito, no início do tronco pulmonar. É formada por três válvulas semilunares (anterior, direita e esquerda). Abre-se na sístole, deixando o sangue passar ao tronco pulmonar, e fecha-se na diástole, impedindo o refluxo para o ventrículo direito.",
+  "clinica": "Foco pulmonar de ausculta: 2º espaço intercostal esquerdo, junto à margem do esterno."
+ },
+ {
+  "key": "Left coronary artery",
+  "pt": "Artéria coronária esquerda",
+  "latim": "Arteria coronaria sinistra",
+  "resumo": "Origina-se no seio esquerdo da aorta, logo acima da valva da aorta, e passa entre a aurícula esquerda e o tronco pulmonar até o sulco coronário. É curta e logo se divide em ramo interventricular anterior e ramo circunflexo. Irriga o átrio esquerdo, a maior parte do ventrículo esquerdo, parte do ventrículo direito, a maior parte (dois terços anteriores) do septo interventricular e, em cerca de 40% das pessoas, o nó sinoatrial.",
+  "clinica": "A obstrução do tronco da coronária esquerda compromete grande parte do ventrículo esquerdo e é especialmente grave. A doença arterial coronariana manifesta-se como angina (dor ou aperto retroesternal aos esforços, que pode irradiar para o membro superior esquerdo, pescoço ou mandíbula) e infarto do miocárdio; esses sintomas durante o exercício exigem interrupção imediata da atividade."
+ },
+ {
+  "key": "Right coronary artery",
+  "pt": "Artéria coronária direita",
+  "latim": "Arteria coronaria dextra",
+  "resumo": "Origina-se no seio direito da aorta e segue pelo sulco coronário, entre o átrio e o ventrículo direitos, contornando a margem direita do coração até a face diafragmática. Dá o ramo do nó sinoatrial (em cerca de 60% das pessoas), o ramo marginal direito, o ramo do nó atrioventricular (em cerca de 80%) e, na maioria das pessoas (dominância direita, cerca de 67%), o ramo interventricular posterior. Irriga o átrio direito, a maior parte do ventrículo direito, a face diafragmática do ventrículo esquerdo e o terço posterior do septo interventricular.",
+  "clinica": "Como geralmente irriga os nós sinoatrial e atrioventricular, sua oclusão (infarto de parede inferior) costuma acompanhar-se de bradicardia e bloqueios da condução atrioventricular."
+ },
+ {
+  "key": "Anterior interventricular artery",
+  "pt": "Ramo interventricular anterior da artéria coronária esquerda",
+  "latim": "Ramus interventricularis anterior arteriae coronariae sinistrae",
+  "resumo": "Ramo terminal da artéria coronária esquerda, conhecido na clínica como artéria descendente anterior (DA). Desce pelo sulco interventricular anterior até o ápice do coração, que costuma contornar para anastomosar-se com o ramo interventricular posterior. Dá ramos septais para os dois terços anteriores do septo interventricular (incluindo o fascículo atrioventricular e seus ramos) e ramos para as paredes anteriores dos dois ventrículos, entre eles o ramo lateral (diagonal).",
+  "clinica": "É o local mais frequente de oclusão coronariana; o resultado é o infarto da parede anterior do ventrículo esquerdo e do septo. É a artéria que mais recebe enxertos na cirurgia de revascularização do miocárdio, em geral a partir da artéria torácica interna esquerda."
+ },
+ {
+  "key": "Circumflex artery of heart",
+  "pt": "Ramo circunflexo da artéria coronária esquerda",
+  "latim": "Ramus circumflexus arteriae coronariae sinistrae",
+  "resumo": "Ramo terminal da artéria coronária esquerda. Segue pelo sulco coronário contornando a margem esquerda do coração até a face posterior. Dá o ramo marginal esquerdo e irriga o átrio esquerdo e as paredes lateral e posterior do ventrículo esquerdo. Em uma minoria de pessoas (dominância esquerda) origina também o ramo interventricular posterior.",
+  "clinica": "Sua oclusão causa infarto da parede lateral (e posterior) do ventrículo esquerdo."
+ },
+ {
+  "key": "Coronary sinus",
+  "pt": "Seio coronário",
+  "latim": "Sinus coronarius",
+  "resumo": "Principal veia do coração: canal venoso largo situado na parte posterior do sulco coronário, entre o átrio e o ventrículo esquerdos. Recebe a veia cardíaca magna (que sobe pelo sulco interventricular anterior), a veia cardíaca média (do sulco interventricular posterior), a veia cardíaca parva e a veia posterior do ventrículo esquerdo, e desemboca no átrio direito, entre o óstio da veia cava inferior e o óstio atrioventricular direito."
+ },
+ {
+  "key": "Pulmonary trunk",
+  "pt": "Tronco pulmonar",
+  "latim": "Truncus pulmonalis",
+  "resumo": "Grande artéria, com cerca de 5 cm de comprimento, que sai do ventrículo direito e leva sangue pobre em oxigênio aos pulmões. Sobe para a esquerda da parte ascendente da aorta e, sob o arco da aorta (aproximadamente no nível do ângulo do esterno), divide-se nas artérias pulmonares direita e esquerda. O ligamento arterial, resquício do ducto arterial fetal, une a artéria pulmonar esquerda ao arco da aorta.",
+  "clinica": "Trombos desprendidos de veias profundas dos membros inferiores chegam pelo coração direito ao tronco pulmonar e às artérias pulmonares, causando tromboembolismo pulmonar (TEP): dispneia súbita, dor torácica pleurítica, taquicardia e, às vezes, hemoptise. É a complicação mais temida da trombose venosa profunda."
+ },
+ {
+  "key": "Right pulmonary artery",
+  "pt": "Artéria pulmonar direita",
+  "latim": "Arteria pulmonalis dextra",
+  "resumo": "Ramo do tronco pulmonar, mais longo e calibroso que o esquerdo. Segue horizontalmente para a direita, atrás da parte ascendente da aorta e da veia cava superior, até o hilo do pulmão direito, onde se divide em artérias lobares e, depois, segmentares, que acompanham os brônquios. Transporta sangue pobre em oxigênio para ser oxigenado nos capilares alveolares."
+ },
+ {
+  "key": "Left pulmonary artery",
+  "pt": "Artéria pulmonar esquerda",
+  "latim": "Arteria pulmonalis sinistra",
+  "resumo": "Ramo do tronco pulmonar, mais curto que o direito. Dirige-se para a esquerda, à frente da parte descendente da aorta, até o hilo do pulmão esquerdo, onde se divide em artérias lobares superior e inferior e, depois, segmentares. Está unida à face inferior do arco da aorta pelo ligamento arterial, junto ao qual o nervo laríngeo recorrente esquerdo contorna o arco."
+ },
+ {
+  "key": "Ascending aorta",
+  "pt": "Parte ascendente da aorta (aorta ascendente)",
+  "latim": "Pars ascendens aortae (aorta ascendens)",
+  "resumo": "Primeira parte da aorta, com cerca de 5 cm, situada dentro do pericárdio. Começa no óstio da aorta, na saída do ventrículo esquerdo, e sobe até o nível do ângulo do esterno, onde continua como arco da aorta. Seus únicos ramos são as artérias coronárias direita e esquerda, que nascem dos seios da aorta, logo acima da valva.",
+  "clinica": "É local de aneurismas e dissecções da aorta, cuja manifestação típica é dor torácica súbita e muito intensa, com irradiação para o dorso: uma emergência médica."
+ },
+ {
+  "key": "Aortic arch",
+  "pt": "Arco da aorta",
+  "latim": "Arcus aortae",
+  "resumo": "Continuação da parte ascendente da aorta. Começa e termina no nível do ângulo do esterno (plano transverso do tórax, T4–T5): curva-se para cima, para trás e para a esquerda, passando sobre a raiz do pulmão esquerdo, e continua como parte torácica (descendente) da aorta. Dá, da direita para a esquerda, três ramos: tronco braquiocefálico, artéria carótida comum esquerda e artéria subclávia esquerda, que irrigam cabeça, pescoço e membros superiores.",
+  "clinica": "Contém barorreceptores que participam do controle reflexo da pressão arterial. O nervo laríngeo recorrente esquerdo contorna o arco junto ao ligamento arterial; aneurismas do arco podem comprimi-lo e causar rouquidão."
+ },
+ {
+  "key": "Thoracic aorta",
+  "pt": "Parte torácica da aorta (aorta torácica)",
+  "latim": "Pars thoracica aortae (aorta thoracica)",
+  "resumo": "Parte descendente da aorta no tórax. Começa à esquerda da margem inferior do corpo de T4, como continuação do arco, desce pelo mediastino posterior aproximando-se do plano mediano e atravessa o hiato aórtico do diafragma no nível de T12, onde passa a se chamar parte abdominal da aorta. Dá as artérias intercostais posteriores (do 3º ao 11º espaço), as subcostais, as frênicas superiores e ramos bronquiais, esofágicos, pericárdicos e mediastinais.",
+  "clinica": "As artérias intercostais posteriores correm no sulco da costela, com a veia e o nervo intercostais; por isso punções e drenagens torácicas são feitas junto à margem superior da costela inferior do espaço."
+ },
+ {
+  "key": "Abdominal aorta",
+  "pt": "Parte abdominal da aorta (aorta abdominal)",
+  "latim": "Pars abdominalis aortae (aorta abdominalis)",
+  "resumo": "Continuação da parte torácica da aorta a partir do hiato aórtico do diafragma (T12). Desce à frente dos corpos vertebrais, à esquerda da veia cava inferior, e termina no nível de L4 dividindo-se nas duas artérias ilíacas comuns. Ramos ímpares para o tubo digestório: tronco celíaco (T12), artéria mesentérica superior (L1) e artéria mesentérica inferior (L3). Ramos pares: frênicas inferiores, suprarrenais médias, renais (L1–L2), gonadais e lombares; além da artéria sacral mediana.",
+  "clinica": "O pulso da aorta abdominal pode ser sentido pela palpação profunda do abdome, um pouco acima e à esquerda do umbigo (a bifurcação fica aproximadamente no nível do umbigo, L4), sobretudo em pessoas magras. Uma massa pulsátil e expansiva nessa região sugere aneurisma da aorta abdominal, mais comum abaixo das artérias renais; nesses casos evitam-se pressão abdominal profunda e manobra de Valsalva intensa. A oclusão aortoilíaca causa claudicação de glúteos e coxas."
+ },
+ {
+  "key": "Brachiocephalic trunk",
+  "pt": "Tronco braquiocefálico",
+  "latim": "Truncus brachiocephalicus",
+  "resumo": "Primeiro e maior ramo do arco da aorta. Nasce atrás do manúbrio do esterno, sobe para a direita à frente da traqueia e, atrás da articulação esternoclavicular direita, divide-se em artéria carótida comum direita e artéria subclávia direita. Existe apenas do lado direito: à esquerda, a carótida comum e a subclávia nascem diretamente do arco da aorta."
+ },
+ {
+  "key": "Coeliac trunk",
+  "pt": "Tronco celíaco",
+  "latim": "Truncus coeliacus",
+  "resumo": "Primeiro ramo ímpar da parte abdominal da aorta, logo abaixo do hiato aórtico (T12). É curto (1 a 2 cm) e divide-se em artéria gástrica esquerda, artéria esplênica e artéria hepática comum. Irriga os derivados do intestino anterior: parte abdominal do esôfago, estômago, parte proximal do duodeno, fígado, vias biliares e pâncreas, além do baço."
+ },
+ {
+  "key": "Superior mesenteric artery",
+  "pt": "Artéria mesentérica superior",
+  "latim": "Arteria mesenterica superior",
+  "resumo": "Ramo ímpar da parte abdominal da aorta, que nasce no nível de L1, cerca de 1 cm abaixo do tronco celíaco, atrás do colo do pâncreas. Desce à frente do processo uncinado do pâncreas e da parte horizontal do duodeno e entra no mesentério. Irriga os derivados do intestino médio: parte distal do duodeno, jejuno, íleo, ceco, apêndice, colo ascendente e os dois terços direitos do colo transverso, por meio das artérias pancreaticoduodenal inferior, jejunais, ileais, ileocólica, cólica direita e cólica média."
+ },
+ {
+  "key": "Inferior mesenteric artery",
+  "pt": "Artéria mesentérica inferior",
+  "latim": "Arteria mesenterica inferior",
+  "resumo": "Ramo ímpar da parte abdominal da aorta, que nasce no nível de L3, 3 a 4 cm acima da bifurcação. Desce para a esquerda e irriga os derivados do intestino posterior: terço esquerdo do colo transverso, colo descendente, colo sigmoide e parte superior do reto, por meio das artérias cólica esquerda, sigmóideas e retal superior. Anastomosa-se com a artéria mesentérica superior pela artéria marginal do colo."
+ },
+ {
+  "key": "Left renal artery",
+  "pt": "Artéria renal esquerda",
+  "latim": "Arteria renalis sinistra",
+  "resumo": "Ramo par da parte abdominal da aorta, que nasce no nível do disco entre L1 e L2 e se dirige ao hilo do rim. A esquerda é mais curta. Antes de entrar no rim dá a artéria suprarrenal inferior e ramos para o ureter, e divide-se em ramos anterior e posterior, que originam as artérias segmentares; estas são artérias terminais, sem anastomoses eficazes entre si. Os rins recebem cerca de um quinto do débito cardíaco.",
+  "clinica": "A estenose da artéria renal é uma causa de hipertensão arterial secundária."
+ },
+ {
+  "key": "Right renal artery",
+  "pt": "Artéria renal direita",
+  "latim": "Arteria renalis dextra",
+  "resumo": "Ramo par da parte abdominal da aorta, que nasce no nível do disco entre L1 e L2 e se dirige ao hilo do rim. A direita é mais longa e passa atrás da veia cava inferior. Antes de entrar no rim dá a artéria suprarrenal inferior e ramos para o ureter, e divide-se em ramos anterior e posterior, que originam as artérias segmentares; estas são artérias terminais, sem anastomoses eficazes entre si. Os rins recebem cerca de um quinto do débito cardíaco.",
+  "clinica": "A estenose da artéria renal é uma causa de hipertensão arterial secundária."
+ },
+ {
+  "key": "Common iliac artery",
+  "pt": "Artéria ilíaca comum",
+  "latim": "Arteria iliaca communis",
+  "resumo": "Ramo terminal da parte abdominal da aorta. As artérias direita e esquerda originam-se na bifurcação da aorta, no nível de L4, divergem para baixo e lateralmente ao longo da margem medial do músculo psoas maior e, à frente da articulação sacroilíaca, cada uma se divide em artéria ilíaca interna (para a pelve, o períneo e a região glútea) e artéria ilíaca externa (para o membro inferior).",
+  "clinica": "A doença aterosclerótica aortoilíaca reduz o fluxo para todo o membro inferior e causa claudicação intermitente em glúteos, quadril e coxa, com pulsos femorais diminuídos."
+ },
+ {
+  "key": "Internal iliac artery",
+  "pt": "Artéria ilíaca interna",
+  "latim": "Arteria iliaca interna",
+  "resumo": "Ramo medial da artéria ilíaca comum, originado à frente da articulação sacroilíaca. Desce para a pelve menor e, em geral, divide-se em divisão anterior e divisão posterior. A divisão posterior dá as artérias iliolombar, sacrais laterais e glútea superior. A divisão anterior dá ramos viscerais (umbilical e vesicais, uterina e vaginal na mulher, retal média) e parietais (obturatória, pudenda interna e glútea inferior). É a principal artéria das vísceras pélvicas, do períneo e da região glútea."
+ },
+ {
+  "key": "External iliac artery",
+  "pt": "Artéria ilíaca externa",
+  "latim": "Arteria iliaca externa",
+  "resumo": "Ramo lateral da artéria ilíaca comum. Segue ao longo da margem medial do músculo psoas maior e passa profundamente ao ligamento inguinal, no ponto médio entre a espinha ilíaca anterossuperior e a sínfise púbica, onde muda de nome para artéria femoral. Imediatamente antes do ligamento inguinal dá a artéria epigástrica inferior e a artéria circunflexa ilíaca profunda. É a via principal de sangue para o membro inferior.",
+  "clinica": "A endofibrose da artéria ilíaca externa é uma causa descrita de dor e fraqueza na coxa durante esforço máximo em ciclistas de alto rendimento."
+ },
+ {
+  "key": "Left common carotid artery",
+  "pt": "Artéria carótida comum esquerda",
+  "latim": "Arteria carotis communis sinistra",
+  "resumo": "Nasce diretamente do arco da aorta, tendo portanto um trajeto torácico antes de chegar ao pescoço. Sobe no pescoço dentro da bainha carótica, medialmente à veia jugular interna e à frente do nervo vago, coberta pelo músculo esternocleidomastóideo. Não dá ramos colaterais e termina no nível da margem superior da cartilagem tireóidea (C4), dividindo-se em artéria carótida interna e artéria carótida externa. Na bifurcação estão o seio carótico (barorreceptor) e o glomo carótico (quimiorreceptor).",
+  "clinica": "Pulso carotídeo: palpado no pescoço, junto à margem anterior do músculo esternocleidomastóideo, no nível da cartilagem tireóidea (laringe), comprimindo suavemente a artéria para trás. É o pulso de escolha para verificar a circulação em situações de emergência (parada cardiorrespiratória no adulto). Deve-se palpar um lado de cada vez e sem massagear: a compressão do seio carótico pode causar bradicardia e queda da pressão arterial, e a compressão bilateral reduz o fluxo cerebral."
+ },
+ {
+  "key": "Right common carotid artery",
+  "pt": "Artéria carótida comum direita",
+  "latim": "Arteria carotis communis dextra",
+  "resumo": "Nasce da bifurcação do tronco braquiocefálico, atrás da articulação esternoclavicular direita. Sobe no pescoço dentro da bainha carótica, medialmente à veia jugular interna e à frente do nervo vago, coberta pelo músculo esternocleidomastóideo. Não dá ramos colaterais e termina no nível da margem superior da cartilagem tireóidea (C4), dividindo-se em artéria carótida interna e artéria carótida externa. Na bifurcação estão o seio carótico (barorreceptor) e o glomo carótico (quimiorreceptor).",
+  "clinica": "Pulso carotídeo: palpado no pescoço, junto à margem anterior do músculo esternocleidomastóideo, no nível da cartilagem tireóidea (laringe), comprimindo suavemente a artéria para trás. É o pulso de escolha para verificar a circulação em situações de emergência (parada cardiorrespiratória no adulto). Deve-se palpar um lado de cada vez e sem massagear: a compressão do seio carótico pode causar bradicardia e queda da pressão arterial, e a compressão bilateral reduz o fluxo cerebral."
+ },
+ {
+  "key": "Internal carotid artery",
+  "pt": "Artéria carótida interna",
+  "latim": "Arteria carotis interna",
+  "resumo": "Ramo terminal da artéria carótida comum, originado no nível da margem superior da cartilagem tireóidea. Sobe sem dar ramos no pescoço, entra no crânio pelo canal carótico do osso temporal, atravessa o seio cavernoso e termina dividindo-se em artéria cerebral anterior e artéria cerebral média. Dá também a artéria oftálmica e a artéria comunicante posterior. Irriga a maior parte do cérebro (circulação anterior) e as estruturas da órbita, e participa do círculo arterial do cérebro (de Willis).",
+  "clinica": "A placa de ateroma na origem da carótida interna é uma causa frequente de ataque isquêmico transitório e de AVC isquêmico. A dissecção da artéria pode ocorrer após traumas cervicais e manifesta-se com dor cervical ou cefaleia unilateral, às vezes com síndrome de Horner."
+ },
+ {
+  "key": "External carotid artery",
+  "pt": "Artéria carótida externa",
+  "latim": "Arteria carotis externa",
+  "resumo": "Ramo terminal da artéria carótida comum, originado no nível da margem superior da cartilagem tireóidea. Sobe até o interior da glândula parótida, onde, atrás do colo da mandíbula, divide-se em artéria maxilar e artéria temporal superficial. Seus outros ramos são as artérias tireóidea superior, lingual, facial, faríngea ascendente, occipital e auricular posterior. Irriga a face, o couro cabeludo, a língua, a faringe, a maxila e a mandíbula, a maior parte do pescoço e a dura-máter (artéria meníngea média)."
+ },
+ {
+  "key": "Facial artery",
+  "pt": "Artéria facial",
+  "latim": "Arteria facialis",
+  "resumo": "Ramo da artéria carótida externa. Passa profundamente à glândula submandibular, contorna a margem inferior da mandíbula logo à frente do músculo masseter e sobe de forma tortuosa pela face, passando ao lado do ângulo da boca e do nariz até o ângulo medial do olho, onde termina como artéria angular. Dá as artérias submentual, labial inferior e labial superior. É a principal artéria da face.",
+  "clinica": "Pulso facial: palpado contra a margem inferior da mandíbula, imediatamente à frente da margem anterior do músculo masseter (mais fácil de localizar pedindo que a pessoa cerre os dentes)."
+ },
+ {
+  "key": "Superficial temporal artery",
+  "pt": "Artéria temporal superficial",
+  "latim": "Arteria temporalis superficialis",
+  "resumo": "Ramo terminal menor da artéria carótida externa. Origina-se dentro da glândula parótida, atrás do colo da mandíbula, sobe à frente da orelha cruzando o processo zigomático do osso temporal, acompanhada pelo nervo auriculotemporal, e divide-se em ramos frontal e parietal, que irrigam o couro cabeludo. Dá também a artéria facial transversa.",
+  "clinica": "Pulso temporal: palpado imediatamente à frente do trago da orelha, sobre o arco zigomático. Na arterite temporal (de células gigantes), a artéria fica espessada e dolorosa, com cefaleia temporal e dor ao mastigar."
+ },
+ {
+  "key": "Vertebral artery",
+  "pt": "Artéria vertebral",
+  "latim": "Arteria vertebralis",
+  "resumo": "Primeiro ramo da artéria subclávia. Sobe pelos forames transversários das seis primeiras vértebras cervicais (em geral entra em C6), contorna para trás a massa lateral do atlas, no sulco da artéria vertebral, perfura a membrana atlantoccipital posterior e a dura-máter e entra no crânio pelo forame magno. Na margem inferior da ponte une-se à do lado oposto para formar a artéria basilar. Dá ramos espinais e musculares no pescoço e, dentro do crânio, as artérias espinais e a artéria cerebelar inferior posterior. O sistema vertebrobasilar irriga o tronco encefálico, o cerebelo e a parte posterior do cérebro.",
+  "clinica": "Por seu trajeto junto às vértebras cervicais, sobretudo na região de C1–C2, a artéria é tensionada na rotação e na extensão do pescoço. Antes de mobilizações e manipulações cervicais deve-se rastrear sinais de insuficiência vertebrobasilar ou de dissecção arterial: tontura ou vertigem, visão dupla, disartria, disfagia, quedas súbitas (drop attacks), náusea, nistagmo, dormência perioral e cefaleia ou dor cervical intensa e incomum. Na presença desses sinais, a técnica é contraindicada e a pessoa deve ser encaminhada ao médico."
+ },
+ {
+  "key": "Basilar artery",
+  "pt": "Artéria basilar",
+  "latim": "Arteria basilaris",
+  "resumo": "Artéria ímpar formada pela união das duas artérias vertebrais na margem inferior da ponte. Sobe pelo sulco basilar, na face anterior da ponte, e na margem superior desta divide-se nas duas artérias cerebrais posteriores. Dá as artérias cerebelares inferiores anteriores, as artérias do labirinto (frequentemente), as artérias da ponte e as artérias cerebelares superiores. Irriga a ponte, o cerebelo, a orelha interna e, pelas cerebrais posteriores, o lobo occipital e a parte inferior do lobo temporal.",
+  "clinica": "A isquemia no território vertebrobasilar produz vertigem, ataxia, diplopia, disartria, disfagia e alterações motoras e sensitivas que podem ser bilaterais ou cruzadas (face de um lado, corpo do outro)."
+ },
+ {
+  "key": "Middle cerebral artery (M1-segment)",
+  "pt": "Artéria cerebral média (segmento M1)",
+  "latim": "Arteria cerebri media (pars sphenoidalis, M1)",
+  "resumo": "A artéria cerebral média é o maior ramo terminal da artéria carótida interna. O segmento M1 (parte esfenoidal) vai da bifurcação da carótida interna até o início do sulco lateral e dá as artérias centrais anterolaterais (lenticuloestriadas), que irrigam os núcleos da base e a cápsula interna. Em seguida a artéria percorre a ínsula (M2) e distribui ramos corticais (M3–M4) para quase toda a face superolateral do hemisfério cerebral, incluindo as áreas motora e sensitiva da face e do membro superior e as áreas da linguagem no hemisfério dominante.",
+  "clinica": "É a artéria mais acometida no AVC isquêmico. O quadro típico é hemiparesia e hipoestesia contralaterais, mais intensas na face e no membro superior do que no membro inferior, com afasia quando o hemisfério dominante é atingido e heminegligência quando é o não dominante. As pequenas artérias lenticuloestriadas são local frequente de infartos lacunares e de hemorragia hipertensiva na cápsula interna."
+ },
+ {
+  "key": "Left subclavian artery",
+  "pt": "Artéria subclávia esquerda",
+  "latim": "Arteria subclavia sinistra",
+  "resumo": "Nasce diretamente do arco da aorta, como seu terceiro ramo. Arqueia-se sobre a cúpula da pleura e o ápice do pulmão, passa atrás do músculo escaleno anterior (no hiato dos escalenos, entre o escaleno anterior e o médio, junto com os troncos do plexo braquial) e cruza a face superior da 1ª costela; na margem lateral dessa costela passa a se chamar artéria axilar. Ramos: artéria vertebral, artéria torácica interna, tronco tireocervical, tronco costocervical e, com frequência, artéria dorsal da escápula. É a via arterial do membro superior e contribui para a irrigação do encéfalo, do pescoço e da parede torácica.",
+  "clinica": "Pulso subclávio: palpado na fossa supraclavicular maior, atrás do terço médio da clavícula, comprimindo a artéria para baixo contra a 1ª costela. Na síndrome do desfiladeiro torácico, a artéria e o plexo braquial podem ser comprimidos no hiato dos escalenos (inclusive por costela cervical), no espaço costoclavicular ou sob o tendão do peitoral menor, causando dor, parestesias, palidez, frieza e fadiga do membro superior, sobretudo com os braços elevados; os testes de Adson, Roos e de hiperabdução (Wright) pesquisam a redução do pulso radial ou a reprodução dos sintomas. Na síndrome do roubo da subclávia, uma estenose proximal à origem da artéria vertebral (mais comum à esquerda) inverte o fluxo nessa artéria durante o exercício do braço, provocando tontura."
+ },
+ {
+  "key": "Right subclavian artery",
+  "pt": "Artéria subclávia direita",
+  "latim": "Arteria subclavia dextra",
+  "resumo": "Nasce da bifurcação do tronco braquiocefálico, atrás da articulação esternoclavicular direita. Arqueia-se sobre a cúpula da pleura e o ápice do pulmão, passa atrás do músculo escaleno anterior (no hiato dos escalenos, entre o escaleno anterior e o médio, junto com os troncos do plexo braquial) e cruza a face superior da 1ª costela; na margem lateral dessa costela passa a se chamar artéria axilar. Ramos: artéria vertebral, artéria torácica interna, tronco tireocervical, tronco costocervical e, com frequência, artéria dorsal da escápula. É a via arterial do membro superior e contribui para a irrigação do encéfalo, do pescoço e da parede torácica.",
+  "clinica": "Pulso subclávio: palpado na fossa supraclavicular maior, atrás do terço médio da clavícula, comprimindo a artéria para baixo contra a 1ª costela. Na síndrome do desfiladeiro torácico, a artéria e o plexo braquial podem ser comprimidos no hiato dos escalenos (inclusive por costela cervical), no espaço costoclavicular ou sob o tendão do peitoral menor, causando dor, parestesias, palidez, frieza e fadiga do membro superior, sobretudo com os braços elevados; os testes de Adson, Roos e de hiperabdução (Wright) pesquisam a redução do pulso radial ou a reprodução dos sintomas."
+ },
+ {
+  "key": "Internal thoracic artery",
+  "pt": "Artéria torácica interna",
+  "latim": "Arteria thoracica interna",
+  "resumo": "Ramo da primeira parte da artéria subclávia. Desce por dentro da parede anterior do tórax, atrás das cartilagens costais, a cerca de 1 cm da margem lateral do esterno, e termina no 6º espaço intercostal dividindo-se em artéria epigástrica superior e artéria musculofrênica. Dá a artéria pericardicofrênica, os ramos intercostais anteriores e ramos perfurantes para a mama e a parede anterior do tórax.",
+  "clinica": "Também chamada, na clínica, de artéria mamária interna. É o enxerto arterial mais usado na cirurgia de revascularização do miocárdio (geralmente a esquerda, anastomosada ao ramo interventricular anterior). Isso é relevante na fisioterapia do pós-operatório de cirurgia cardíaca, que envolve esternotomia e cuidados com a parede torácica."
+ },
+ {
+  "key": "Axillary artery",
+  "pt": "Artéria axilar",
+  "latim": "Arteria axillaris",
+  "resumo": "Continuação da artéria subclávia a partir da margem lateral da 1ª costela; atravessa a axila e, na margem inferior do músculo redondo maior, passa a se chamar artéria braquial. É envolvida pelos fascículos do plexo braquial e dividida em três partes pelo músculo peitoral menor. Primeira parte (proximal ao peitoral menor): artéria torácica superior. Segunda parte (atrás do peitoral menor): artérias toracoacromial e torácica lateral. Terceira parte (distal ao peitoral menor): artéria subescapular, a maior, e artérias circunflexas anterior e posterior do úmero. Irriga o ombro, a axila, a parede lateral do tórax e a região escapular.",
+  "clinica": "Pulso axilar: palpado no fundo da axila, comprimindo a artéria lateralmente contra o úmero, com o braço em leve abdução. As anastomoses em torno da escápula (entre ramos da subclávia e a artéria subescapular) mantêm a circulação do membro quando a axilar é obstruída lentamente. A artéria pode ser lesada na luxação anterior do ombro e nas fraturas do colo cirúrgico do úmero, e comprimida pelo uso incorreto de muletas axilares."
+ },
+ {
+  "key": "Anterior circumflex humeral artery",
+  "pt": "Artéria circunflexa anterior do úmero",
+  "latim": "Arteria circumflexa humeri anterior",
+  "resumo": "Ramo da terceira parte da artéria axilar, menor que a circunflexa posterior. Passa lateralmente, profundamente ao músculo coracobraquial e ao bíceps braquial, contornando a face anterior do colo cirúrgico do úmero, e anastomosa-se com a artéria circunflexa posterior do úmero. Dá um ramo ascendente que sobe pelo sulco intertubercular e penetra na cabeça do úmero, além de ramos para a articulação do ombro e os músculos vizinhos.",
+  "clinica": "As duas artérias circunflexas do úmero irrigam a cabeça do úmero. Fraturas do colo anatômico e fraturas-luxações em várias partes do úmero proximal podem interromper esse suprimento e causar necrose avascular (osteonecrose) da cabeça do úmero."
+ },
+ {
+  "key": "Posterior circumflex humeral artery",
+  "pt": "Artéria circunflexa posterior do úmero",
+  "latim": "Arteria circumflexa humeri posterior",
+  "resumo": "Ramo da terceira parte da artéria axilar, maior que a circunflexa anterior. Dirige-se para trás, atravessa o espaço quadrangular junto com o nervo axilar e contorna o colo cirúrgico do úmero, profundamente ao músculo deltoide, anastomosando-se com a artéria circunflexa anterior do úmero. Irriga a articulação do ombro, a cabeça do úmero e os músculos deltoide, redondo menor, redondo maior e cabeça longa do tríceps braquial.",
+  "clinica": "Pode ser lesada junto com o nervo axilar nas fraturas do colo cirúrgico do úmero e nas luxações anteriores do ombro. Na síndrome do espaço quadrangular, descrita em atletas de arremesso e voleibol, a artéria e o nervo são comprimidos com o braço em abdução e rotação lateral."
+ },
+ {
+  "key": "Subscapular artery",
+  "pt": "Artéria subescapular",
+  "latim": "Arteria subscapularis",
+  "resumo": "Maior ramo da artéria axilar (terceira parte). Desce ao longo da margem lateral do músculo subescapular e logo se divide em artéria circunflexa da escápula, que atravessa o espaço triangular e contorna a margem lateral da escápula até a fossa infraespinal, e artéria toracodorsal, que acompanha o nervo toracodorsal até o músculo latíssimo do dorso.",
+  "clinica": "A circunflexa da escápula participa das anastomoses em torno da escápula, com as artérias supraescapular e dorsal da escápula (ramos do sistema da subclávia): uma importante via de circulação colateral para o membro superior."
+ },
+ {
+  "key": "Brachial artery",
+  "pt": "Artéria braquial",
+  "latim": "Arteria brachialis",
+  "resumo": "Continuação da artéria axilar a partir da margem inferior do músculo redondo maior. Desce pela face medial do braço, no sulco bicipital medial, superficial e acompanhada pelo nervo mediano (que a cruza de lateral para medial), e termina na fossa cubital, no nível do colo do rádio, dividindo-se em artéria radial e artéria ulnar. Na fossa cubital fica medial ao tendão do bíceps braquial e lateral ao nervo mediano, sob a aponeurose do bíceps. Ramos: artéria braquial profunda, artérias colaterais ulnares superior e inferior, artéria nutrícia do úmero e ramos musculares. É a principal artéria do braço.",
+  "clinica": "Pulso braquial: palpado na face medial do braço, no sulco entre o bíceps e o tríceps, comprimindo a artéria contra o úmero; e na fossa cubital, imediatamente medial ao tendão do bíceps braquial. É neste segundo ponto que se posiciona o estetoscópio para aferir a pressão arterial, com o manguito no braço. Na fratura supracondilar do úmero (frequente em crianças), a artéria pode ser lesada ou comprimida; a isquemia dos músculos flexores do antebraço leva à síndrome compartimental e à contratura isquêmica de Volkmann."
+ },
+ {
+  "key": "Deep brachial artery",
+  "pt": "Artéria braquial profunda (artéria profunda do braço)",
+  "latim": "Arteria profunda brachii",
+  "resumo": "Maior ramo da artéria braquial, originado logo abaixo do músculo redondo maior. Acompanha o nervo radial no sulco do nervo radial, contornando a face posterior do úmero, e termina dividindo-se em artéria colateral radial e artéria colateral média, que participam da rede articular do cotovelo. Irriga o compartimento posterior do braço (tríceps braquial) e dá um ramo deltóideo.",
+  "clinica": "Pode ser lesada, junto com o nervo radial, nas fraturas do terço médio da diáfise do úmero."
+ },
+ {
+  "key": "Radial artery",
+  "pt": "Artéria radial",
+  "latim": "Arteria radialis",
+  "resumo": "Ramo terminal lateral da artéria braquial, originado na fossa cubital. Desce pelo lado lateral do antebraço sob o músculo braquiorradial e, distalmente, fica superficial, entre o tendão do braquiorradial e o tendão do flexor radial do carpo. No punho contorna lateralmente o carpo, cruza o assoalho da tabaqueira anatômica (sobre o escafoide e o trapézio), passa entre as duas cabeças do 1º músculo interósseo dorsal para a palma e forma o arco palmar profundo. Ramos: artéria recorrente radial, ramos carpais palmar e dorsal, ramo palmar superficial, artéria principal do polegar e artéria radial do indicador.",
+  "clinica": "Pulso radial: o mais usado na prática clínica. É palpado na face anterior da extremidade distal do rádio, imediatamente lateral ao tendão do músculo flexor radial do carpo, usando as polpas dos dedos indicador e médio (não o polegar). Também pode ser sentido na tabaqueira anatômica. O teste de Allen avalia a perviedade das artérias radial e ulnar e a circulação colateral da mão antes de uma punção arterial."
+ },
+ {
+  "key": "Ulnar artery",
+  "pt": "Artéria ulnar",
+  "latim": "Arteria ulnaris",
+  "resumo": "Ramo terminal medial, e geralmente maior, da artéria braquial. Passa profundamente ao músculo pronador redondo e desce pelo lado medial do antebraço sobre o flexor profundo dos dedos, coberta pelo flexor ulnar do carpo e acompanhada, nos dois terços distais, pelo nervo ulnar (que fica medial a ela). No punho passa superficialmente ao retináculo dos músculos flexores, pelo canal ulnar (de Guyon), lateralmente ao osso pisiforme, e continua na palma como arco palmar superficial. Ramos: artérias recorrentes ulnares, artéria interóssea comum, ramos carpais e ramo palmar profundo.",
+  "clinica": "Pulso ulnar: palpado na face anterior do punho, imediatamente lateral ao tendão do músculo flexor ulnar do carpo e proximal ao osso pisiforme; é mais difícil de sentir que o radial. A artéria pode ser lesada por impactos repetidos na eminência hipotenar (síndrome do martelo hipotenar)."
+ },
+ {
+  "key": "Common interosseous artery",
+  "pt": "Artéria interóssea comum",
+  "latim": "Arteria interossea communis",
+  "resumo": "Ramo curto da artéria ulnar, originado na parte distal da fossa cubital. Logo se divide em artéria interóssea anterior, que desce sobre a face anterior da membrana interóssea com o nervo interósseo anterior e irriga os músculos profundos do compartimento anterior, e artéria interóssea posterior, que passa acima da membrana interóssea para o compartimento posterior e irriga os músculos extensores."
+ },
+ {
+  "key": "Superficial palmar arch",
+  "pt": "Arco palmar superficial",
+  "latim": "Arcus palmaris superficialis",
+  "resumo": "Arco arterial da palma formado principalmente pela terminação da artéria ulnar e completado, de forma variável, pelo ramo palmar superficial da artéria radial. Fica logo abaixo da aponeurose palmar, superficial aos tendões dos flexores longos dos dedos, e sua convexidade distal situa-se aproximadamente no nível da margem distal do polegar em extensão. Dá três artérias digitais palmares comuns, cada uma dividindo-se em duas artérias digitais palmares próprias para os lados adjacentes dos quatro dedos mediais.",
+  "clinica": "As anastomoses entre os arcos palmares superficial e profundo garantem a irrigação da mão mesmo com a oclusão de uma das artérias do antebraço; pelo mesmo motivo, ferimentos na palma sangram muito e pelas duas extremidades do vaso."
+ },
+ {
+  "key": "Deep palmar arch",
+  "pt": "Arco palmar profundo",
+  "latim": "Arcus palmaris profundus",
+  "resumo": "Arco arterial da palma formado principalmente pela terminação da artéria radial e completado pelo ramo palmar profundo da artéria ulnar. Apoia-se sobre as bases dos ossos metacarpais e os músculos interósseos, profundamente aos tendões dos flexores longos, cerca de 1 cm proximal ao arco palmar superficial, e é acompanhado pelo ramo profundo do nervo ulnar. Dá três artérias metacarpais palmares, que se unem às artérias digitais palmares comuns, e ramos perfurantes para o dorso da mão."
+ },
+ {
+  "key": "Superior gluteal artery",
+  "pt": "Artéria glútea superior",
+  "latim": "Arteria glutea superior",
+  "resumo": "Maior ramo da artéria ilíaca interna (divisão posterior). Passa entre o tronco lombossacral e o ramo anterior de S1 e sai da pelve pelo forame isquiático maior, acima do músculo piriforme, junto com o nervo glúteo superior. Divide-se em ramo superficial, para o glúteo máximo, e ramo profundo, que corre entre o glúteo médio e o glúteo mínimo e irriga esses músculos e o tensor da fáscia lata.",
+  "clinica": "Para evitar os vasos e nervos glúteos e o nervo isquiático, as injeções intramusculares na região glútea são aplicadas no quadrante superolateral ou, preferencialmente, na região ventroglútea."
+ },
+ {
+  "key": "Inferior gluteal artery",
+  "pt": "Artéria glútea inferior",
+  "latim": "Arteria glutea inferior",
+  "resumo": "Ramo da divisão anterior da artéria ilíaca interna. Sai da pelve pelo forame isquiático maior, abaixo do músculo piriforme, junto com o nervo glúteo inferior, o nervo isquiático e os vasos pudendos internos. Irriga o glúteo máximo, os rotadores laterais curtos do quadril e a parte proximal dos músculos isquiotibiais, dá a artéria satélite do nervo isquiático e participa da anastomose cruzada da coxa com as artérias circunflexas femorais e a primeira perfurante."
+ },
+ {
+  "key": "Obturator artery",
+  "pt": "Artéria obturatória",
+  "latim": "Arteria obturatoria",
+  "resumo": "Ramo da divisão anterior da artéria ilíaca interna. Corre pela parede lateral da pelve, junto com o nervo obturatório, e sai pelo canal obturatório para o compartimento medial da coxa, onde se divide em ramos anterior e posterior, que irrigam os músculos adutores e o obturador externo. O ramo posterior dá o ramo acetabular, que entra na articulação do quadril pela incisura do acetábulo e origina a artéria da cabeça do fêmur, que segue pelo ligamento da cabeça do fêmur.",
+  "clinica": "A artéria da cabeça do fêmur é pequena e, no adulto, insuficiente para manter sozinha a cabeça do fêmur; tem maior importância na criança, antes do fechamento da lâmina epifisial."
+ },
+ {
+  "key": "Femoral artery",
+  "pt": "Artéria femoral",
+  "latim": "Arteria femoralis",
+  "resumo": "Continuação da artéria ilíaca externa a partir do ligamento inguinal; é a principal artéria do membro inferior. Entra no trígono femoral no ponto médio entre a espinha ilíaca anterossuperior e a sínfise púbica, lateral à veia femoral e medial ao nervo femoral (de lateral para medial: nervo, artéria, veia), desce pelo canal dos adutores, sob o músculo sartório, e atravessa o hiato dos adutores, no adutor magno, passando a se chamar artéria poplítea. Ramos: artérias epigástrica superficial, circunflexa ilíaca superficial, pudendas externas superficial e profunda, artéria femoral profunda (o maior ramo) e artéria descendente do joelho.",
+  "clinica": "Pulso femoral: palpado no trígono femoral, logo abaixo do ligamento inguinal, no ponto médio entre a espinha ilíaca anterossuperior e a sínfise púbica, com o quadril em leve flexão, abdução e rotação lateral. A artéria pode ser comprimida para trás, contra a cabeça do fêmur e o ramo superior do púbis, para controlar hemorragias do membro. É a via de acesso mais comum para cateterismos (após os quais o membro fica em repouso, com atenção a hematomas na região inguinal). A obstrução aterosclerótica da artéria femoral, frequente no canal dos adutores, causa claudicação intermitente na panturrilha: dor em cãibra desencadeada pela marcha e aliviada em poucos minutos pelo repouso; o treino de caminhada supervisionado é parte central do tratamento."
+ },
+ {
+  "key": "Deep femoral artery",
+  "pt": "Artéria femoral profunda (artéria profunda da coxa)",
+  "latim": "Arteria profunda femoris",
+  "resumo": "Maior ramo da artéria femoral e principal artéria da coxa. Origina-se da face lateral ou posterior da femoral, no trígono femoral, cerca de 4 cm abaixo do ligamento inguinal, e desce atrás dos vasos femorais, entre o pectíneo e o adutor longo e depois entre o adutor longo e o adutor magno. Dá as artérias circunflexas femorais medial e lateral e três artérias perfurantes (o ramo terminal é considerado a quarta), que perfuram o adutor magno junto ao fêmur. Irriga os três compartimentos da coxa e, pelas circunflexas, a articulação do quadril e a cabeça e o colo do fêmur.",
+  "clinica": "É a principal via de circulação colateral quando a artéria femoral está obstruída abaixo de sua origem: as artérias perfurantes anastomosam-se com ramos da artéria poplítea em torno do joelho."
+ },
+ {
+  "key": "Medial circumflex femoral artery",
+  "pt": "Artéria circunflexa femoral medial",
+  "latim": "Arteria circumflexa femoris medialis",
+  "resumo": "Ramo da artéria femoral profunda (às vezes diretamente da femoral). Passa para trás entre o iliopsoas e o pectíneo, contorna medialmente o colo do fêmur e chega à região glútea sob o quadrado femoral. Dá as artérias retinaculares posteriores, que perfuram a cápsula articular junto à linha intertrocantérica e sobem pelo colo do fêmur, sob a membrana sinovial, até a cabeça. É a principal fonte de irrigação da cabeça e do colo do fêmur no adulto; irriga também os músculos adutores e participa da anastomose cruzada da coxa.",
+  "clinica": "Nas fraturas intracapsulares do colo do fêmur (comuns em idosos após queda) e nas luxações posteriores do quadril, as artérias retinaculares podem ser rompidas, o que leva à necrose avascular (osteonecrose) da cabeça do fêmur e à falha de consolidação; por isso essas fraturas, quando desviadas, costumam ser tratadas com artroplastia. O mesmo suprimento está comprometido na doença de Legg-Calvé-Perthes e pode ser lesado no escorregamento epifisário proximal do fêmur."
+ },
+ {
+  "key": "Lateral circumflex femoral artery",
+  "pt": "Artéria circunflexa femoral lateral",
+  "latim": "Arteria circumflexa femoris lateralis",
+  "resumo": "Ramo da artéria femoral profunda (às vezes da femoral). Passa lateralmente, profundamente ao sartório e ao reto femoral e entre os ramos do nervo femoral, e divide-se em três ramos: ascendente (para a região glútea, o tensor da fáscia lata e a face anterior do colo do fêmur, por artérias retinaculares anteriores), transverso (que contorna o fêmur e participa da anastomose cruzada) e descendente (que desce sob o reto femoral, irriga o vasto lateral e chega à rede articular do joelho).",
+  "clinica": "Contribui menos que a circunflexa medial para a irrigação da cabeça do fêmur. O ramo descendente é uma via colateral para o joelho."
+ },
+ {
+  "key": "Perforating femoral arteries",
+  "pt": "Artérias perfurantes da coxa",
+  "latim": "Arteriae perforantes",
+  "resumo": "Em geral três ramos da artéria femoral profunda, sendo a terminação desta considerada a quarta perfurante. Contornam a face posterior do fêmur perfurando a inserção do adutor magno junto à linha áspera e chegam ao compartimento posterior da coxa. Irrigam os músculos isquiotibiais, parte do adutor magno e do vasto lateral e o fêmur (artérias nutrícias), e formam uma cadeia de anastomoses que liga as artérias glúteas, acima, à artéria poplítea, abaixo."
+ },
+ {
+  "key": "Popliteal artery",
+  "pt": "Artéria poplítea",
+  "latim": "Arteria poplitea",
+  "resumo": "Continuação da artéria femoral a partir do hiato dos adutores. Desce pela fossa poplítea, onde é a estrutura mais profunda, junto à face poplítea do fêmur e à cápsula do joelho, à frente da veia poplítea e do nervo tibial, e termina na margem inferior do músculo poplíteo dividindo-se em artéria tibial anterior e artéria tibial posterior. Dá cinco artérias do joelho (superiores lateral e medial, média, inferiores lateral e medial), que formam a rede articular do joelho, e ramos musculares, incluindo as artérias surais para o gastrocnêmio e o sóleo.",
+  "clinica": "Pulso poplíteo: por ser profunda, é o pulso mais difícil de palpar no membro inferior. Com a pessoa em decúbito (dorsal ou ventral) e o joelho semifletido, para relaxar a fáscia e os músculos, pressiona-se profundamente com os dedos das duas mãos a parte inferior da fossa poplítea, contra a face posterior da tíbia. Por estar junto ao osso e à cápsula, a artéria pode ser lesada nas luxações do joelho e nas fraturas distais do fêmur. É o local mais comum de aneurisma arterial periférico (massa pulsátil na fossa poplítea). Na síndrome do aprisionamento da artéria poplítea, a artéria é comprimida pela cabeça medial do gastrocnêmio e provoca claudicação em pessoas jovens e atletas."
+ },
+ {
+  "key": "Patellar anastomosis",
+  "pt": "Rede patelar",
+  "latim": "Rete patellare",
+  "resumo": "Rede arterial situada em torno e sobre a patela, parte da rede articular do joelho. É formada pelas anastomoses entre as artérias superiores e inferiores (laterais e mediais) do joelho, ramos da poplítea, a artéria descendente do joelho (da femoral), o ramo descendente da artéria circunflexa femoral lateral e a artéria recorrente tibial anterior. Irriga a patela, a cápsula e os ligamentos do joelho.",
+  "clinica": "Essas anastomoses formam uma via de circulação colateral em torno do joelho, capaz de manter parte do fluxo para a perna quando a artéria poplítea é obstruída de forma lenta ou quando o joelho permanece em flexão completa por longo tempo."
+ },
+ {
+  "key": "Anterior tibial artery",
+  "pt": "Artéria tibial anterior",
+  "latim": "Arteria tibialis anterior",
+  "resumo": "Ramo terminal menor da artéria poplítea, originado na margem inferior do músculo poplíteo. Passa para a frente por uma abertura na parte superior da membrana interóssea e desce no compartimento anterior da perna, sobre a membrana, entre o tibial anterior e os extensores longos, acompanhada pelo nervo fibular profundo. No tornozelo, a meio caminho entre os dois maléolos, passa sob os retináculos dos extensores e muda de nome para artéria dorsal do pé. Irriga os músculos do compartimento anterior e dá as artérias recorrentes tibiais e as maleolares anteriores.",
+  "clinica": "Na síndrome compartimental anterior da perna, aguda (após fraturas da tíbia, contusões ou aparelho gessado apertado) ou crônica do esforço (em corredores), o aumento da pressão dentro do compartimento, limitado por fáscia inextensível, comprime os vasos e o nervo fibular profundo. Os sinais são dor intensa e desproporcional, que piora com o alongamento passivo dos músculos (flexão plantar passiva), compartimento tenso, parestesia no primeiro espaço interdigital e fraqueza da dorsiflexão; a ausência do pulso é um sinal tardio. A forma aguda é uma emergência cirúrgica (fasciotomia)."
+ },
+ {
+  "key": "Dorsalis pedis artery",
+  "pt": "Artéria dorsal do pé",
+  "latim": "Arteria dorsalis pedis",
+  "resumo": "Continuação da artéria tibial anterior a partir da articulação do tornozelo, a meio caminho entre os maléolos. Segue pelo dorso do pé sobre o tálus, o navicular e o cuneiforme intermédio, entre o tendão do extensor longo do hálux (medial) e os tendões do extensor longo dos dedos (lateral), acompanhada pelo nervo fibular profundo, até o primeiro espaço intermetatarsal. Ali termina dividindo-se em artéria plantar profunda, que mergulha entre as cabeças do 1º interósseo dorsal para completar o arco plantar profundo, e primeira artéria metatarsal dorsal. Dá ainda as artérias tarsais lateral e mediais e a artéria arqueada.",
+  "clinica": "Pulso pedioso (dorsal do pé): palpado no dorso do pé, imediatamente lateral ao tendão do músculo extensor longo do hálux (que se evidencia com a extensão do hálux), sobre os ossos do tarso, com pressão leve e o pé em posição neutra. O pulso pode estar ausente em algumas pessoas saudáveis por variação anatômica; por isso deve-se sempre comparar os dois lados e palpar também o tibial posterior. Pulsos podais diminuídos ou ausentes sugerem doença arterial obstrutiva periférica; essa avaliação é obrigatória no pé diabético e antes do uso de compressão elástica."
+ },
+ {
+  "key": "Posterior tibial artery",
+  "pt": "Artéria tibial posterior",
+  "latim": "Arteria tibialis posterior",
+  "resumo": "Ramo terminal maior da artéria poplítea, originado na margem inferior do músculo poplíteo. Desce no compartimento posterior da perna, profundamente ao sóleo (passando sob seu arco tendíneo), sobre os músculos profundos e junto com o nervo tibial. No tornozelo passa atrás do maléolo medial, no túnel do tarso, sob o retináculo dos músculos flexores, entre os tendões do flexor longo dos dedos e do flexor longo do hálux, e divide-se em artérias plantares medial e lateral. Seu maior ramo é a artéria fibular; dá também a artéria nutrícia da tíbia e ramos calcâneos e maleolares mediais. Irriga os compartimentos posterior e lateral da perna e a planta do pé.",
+  "clinica": "Pulso tibial posterior: palpado atrás do maléolo medial, a meio caminho entre este e o tendão do calcâneo, com o pé relaxado e em leve inversão para afrouxar o retináculo dos flexores. Sua ausência é um sinal de doença arterial obstrutiva periférica mais confiável que a ausência do pulso pedioso. Junto com a pressão sistólica no braço, é usado no cálculo do índice tornozelo-braquial."
+ },
+ {
+  "key": "Fibular artery",
+  "pt": "Artéria fibular",
+  "latim": "Arteria fibularis",
+  "resumo": "Maior ramo da artéria tibial posterior, originado cerca de 2,5 cm abaixo da margem inferior do músculo poplíteo. Desce no compartimento posterior da perna junto à face medial da fíbula, coberta pelo flexor longo do hálux, e termina em ramos calcâneos laterais. Irriga os músculos profundos do compartimento posterior e, por ramos que perfuram o septo intermuscular posterior, os músculos fibulares do compartimento lateral, que não tem artéria própria. Dá a artéria nutrícia da fíbula, um ramo perfurante que atravessa a membrana interóssea para o dorso do pé e um ramo comunicante com a tibial posterior.",
+  "clinica": "Sinônimo antigo: artéria peroneira. O ramo perfurante pode substituir a artéria dorsal do pé quando esta é pequena ou ausente."
+ },
+ {
+  "key": "Medial plantar artery",
+  "pt": "Artéria plantar medial",
+  "latim": "Arteria plantaris medialis",
+  "resumo": "Ramo terminal menor da artéria tibial posterior, originado sob o retináculo dos músculos flexores. Segue pela margem medial da planta do pé, entre o abdutor do hálux e o flexor curto dos dedos, acompanhada pelo nervo plantar medial. Irriga os músculos do hálux e a pele da parte medial da planta, e seu ramo superficial dá ramos digitais que se unem às artérias metatarsais plantares mediais."
+ },
+ {
+  "key": "Lateral plantar artery",
+  "pt": "Artéria plantar lateral",
+  "latim": "Arteria plantaris lateralis",
+  "resumo": "Ramo terminal maior da artéria tibial posterior. Cruza a planta do pé obliquamente em direção lateral, entre o flexor curto dos dedos e o quadrado plantar, acompanhada pelo nervo plantar lateral, até a base do 5º metatarsal; ali se curva medialmente e, em plano profundo, forma o arco plantar profundo."
+ },
+ {
+  "key": "Plantar arch",
+  "pt": "Arco plantar profundo",
+  "latim": "Arcus plantaris profundus",
+  "resumo": "Arco arterial da planta do pé, formado pela continuação da artéria plantar lateral e completado, no primeiro espaço intermetatarsal, pela artéria plantar profunda, ramo da artéria dorsal do pé. Apoia-se sobre as bases dos metatarsais e os músculos interósseos, acompanhado pelo ramo profundo do nervo plantar lateral. Dá quatro artérias metatarsais plantares, que originam as artérias digitais plantares, e ramos perfurantes que se comunicam com as artérias do dorso do pé.",
+  "clinica": "Une os sistemas das artérias tibial posterior e tibial anterior, garantindo circulação colateral para o antepé e os dedos."
+ },
+ {
+  "key": "Superior vena cava",
+  "pt": "Veia cava superior",
+  "latim": "Vena cava superior",
+  "resumo": "Grande veia, com cerca de 7 cm, que drena para o átrio direito o sangue da cabeça, do pescoço, dos membros superiores e da parede do tórax. Forma-se pela união das veias braquiocefálicas direita e esquerda, atrás da 1ª cartilagem costal direita, desce pelo lado direito do mediastino superior, à direita da parte ascendente da aorta, e desemboca no átrio direito no nível da 3ª cartilagem costal direita. Recebe a veia ázigo imediatamente antes de entrar no pericárdio. Não tem válvulas.",
+  "clinica": "Sua obstrução, geralmente por tumores do mediastino ou do pulmão, causa a síndrome da veia cava superior: edema e pletora da face, do pescoço e dos membros superiores, turgência jugular e circulação colateral visível no tórax."
+ },
+ {
+  "key": "Inferior vena cava (abdominal part)",
+  "pt": "Veia cava inferior (parte abdominal)",
+  "latim": "Vena cava inferior (pars abdominalis)",
+  "resumo": "Maior veia do corpo; drena o sangue dos membros inferiores, da pelve e do abdome. Forma-se pela união das duas veias ilíacas comuns, à frente de L5 e à direita do plano mediano, e sobe à direita da aorta, atrás do duodeno, do pâncreas e do fígado (no sulco da veia cava), até atravessar o diafragma. Recebe as veias lombares, a gonadal direita, as renais, a suprarrenal direita, as frênicas inferiores e as hepáticas. O sangue do tubo digestório só chega a ela depois de passar pelo fígado, pelo sistema porta.",
+  "clinica": "No final da gestação, o útero pode comprimir a veia cava inferior contra a coluna quando a gestante fica em decúbito dorsal, reduzindo o retorno venoso (síndrome da hipotensão supina); por isso prefere-se o decúbito lateral esquerdo. Filtros de veia cava podem ser implantados para impedir que trombos dos membros inferiores cheguem aos pulmões."
+ },
+ {
+  "key": "Inferior vena cava (thoracic part)",
+  "pt": "Veia cava inferior (parte torácica)",
+  "latim": "Vena cava inferior (pars thoracica)",
+  "resumo": "Segmento final e muito curto da veia cava inferior. Depois de atravessar o forame da veia cava, no centro tendíneo do diafragma (nível de T8), a veia perfura o pericárdio e desemboca na parte inferior do átrio direito. Recebe as veias hepáticas imediatamente antes de atravessar o diafragma.",
+  "clinica": "Como o forame da veia cava fica no centro tendíneo, a contração do diafragma na inspiração alarga a abertura e, somada à queda da pressão intratorácica e ao aumento da pressão abdominal, favorece o retorno venoso (bomba respiratória)."
+ },
+ {
+  "key": "Left brachiocephalic vein",
+  "pt": "Veia braquiocefálica esquerda",
+  "latim": "Vena brachiocephalica sinistra",
+  "resumo": "Forma-se atrás da articulação esternoclavicular pela união da veia jugular interna com a veia subclávia (ângulo venoso). A esquerda é a mais longa (cerca de 6 cm): cruza obliquamente para a direita, atrás do manúbrio do esterno e à frente dos ramos do arco da aorta, para unir-se à direita e formar a veia cava superior. No ângulo venoso esquerdo desemboca o ducto torácico, que traz a linfa da maior parte do corpo. Recebe as veias vertebral, torácica interna e tireóidea inferior e a veia intercostal superior esquerda."
+ },
+ {
+  "key": "Right brachiocephalic vein",
+  "pt": "Veia braquiocefálica direita",
+  "latim": "Vena brachiocephalica dextra",
+  "resumo": "Forma-se atrás da articulação esternoclavicular pela união da veia jugular interna com a veia subclávia (ângulo venoso). A direita é curta (cerca de 2,5 cm) e desce quase verticalmente até unir-se à esquerda, atrás da 1ª cartilagem costal direita, para formar a veia cava superior. No ângulo venoso direito desemboca o ducto linfático direito. Recebe as veias vertebral, torácica interna e tireóidea inferior."
+ },
+ {
+  "key": "Internal jugular vein",
+  "pt": "Veia jugular interna",
+  "latim": "Vena jugularis interna",
+  "resumo": "Principal veia de drenagem do encéfalo, da face e do pescoço. Começa no forame jugular, como continuação do seio sigmóideo, e desce no pescoço dentro da bainha carótica, lateralmente às artérias carótidas interna e comum e à frente e lateral ao nervo vago, coberta pelo músculo esternocleidomastóideo. Atrás da extremidade esternal da clavícula une-se à veia subclávia para formar a veia braquiocefálica. Recebe o seio petroso inferior e as veias facial, lingual, faríngeas e tireóideas superior e média.",
+  "clinica": "As pulsações da veia jugular interna direita refletem a pressão no átrio direito e são usadas para estimar a pressão venosa central. É um local comum de inserção de cateter venoso central."
+ },
+ {
+  "key": "External jugular vein",
+  "pt": "Veia jugular externa",
+  "latim": "Vena jugularis externa",
+  "resumo": "Veia superficial do pescoço. Forma-se perto do ângulo da mandíbula pela união da divisão posterior da veia retromandibular com a veia auricular posterior; desce verticalmente cruzando a face superficial do músculo esternocleidomastóideo, coberta pelo platisma, perfura a lâmina superficial da fáscia cervical logo acima da clavícula e desemboca na veia subclávia. Drena o couro cabeludo e parte da face; recebe as veias jugular anterior, cervical transversa e supraescapular.",
+  "clinica": "Normalmente é pouco visível acima da clavícula com a pessoa sentada. A turgência jugular (veia cheia e visível com o tronco elevado a 45°) indica aumento da pressão venosa, como na insuficiência cardíaca direita, e é um sinal a observar durante a avaliação."
+ },
+ {
+  "key": "Left subclavian vein",
+  "pt": "Veia subclávia esquerda",
+  "latim": "Vena subclavia sinistra",
+  "resumo": "Continuação da veia axilar a partir da margem lateral da 1ª costela. Cruza a face superior dessa costela à frente do músculo escaleno anterior (a artéria subclávia e o plexo braquial passam atrás dele), atrás da clavícula e do músculo subclávio, e une-se à veia jugular interna, na margem medial do escaleno anterior, para formar a veia braquiocefálica. Recebe a veia jugular externa. No ângulo de união com a jugular interna esquerda desemboca o ducto torácico.",
+  "clinica": "Na forma venosa da síndrome do desfiladeiro torácico, a veia é comprimida no espaço costoclavicular, entre a clavícula, o músculo subclávio e a 1ª costela. Pode ocorrer trombose da veia subclávia e da axilar após esforço repetitivo ou intenso com o braço elevado (síndrome de Paget-Schroetter, ou trombose de esforço), com edema, dor, sensação de peso, cianose e veias superficiais dilatadas no ombro e no braço. É também um local de inserção de cateter venoso central."
+ },
+ {
+  "key": "Right subclavian vein",
+  "pt": "Veia subclávia direita",
+  "latim": "Vena subclavia dextra",
+  "resumo": "Continuação da veia axilar a partir da margem lateral da 1ª costela. Cruza a face superior dessa costela à frente do músculo escaleno anterior (a artéria subclávia e o plexo braquial passam atrás dele), atrás da clavícula e do músculo subclávio, e une-se à veia jugular interna, na margem medial do escaleno anterior, para formar a veia braquiocefálica. Recebe a veia jugular externa. No ângulo de união com a jugular interna direita desemboca o ducto linfático direito.",
+  "clinica": "Na forma venosa da síndrome do desfiladeiro torácico, a veia é comprimida no espaço costoclavicular, entre a clavícula, o músculo subclávio e a 1ª costela. Pode ocorrer trombose da veia subclávia e da axilar após esforço repetitivo ou intenso com o braço elevado (síndrome de Paget-Schroetter, ou trombose de esforço), com edema, dor, sensação de peso, cianose e veias superficiais dilatadas no ombro e no braço. É também um local de inserção de cateter venoso central."
+ },
+ {
+  "key": "Axillary vein",
+  "pt": "Veia axilar",
+  "latim": "Vena axillaris",
+  "resumo": "Forma-se na margem inferior do músculo redondo maior pela união da veia basílica com as veias braquiais e termina na margem lateral da 1ª costela, onde passa a se chamar veia subclávia. Na axila fica anteromedial à artéria axilar. Recebe a veia cefálica, logo acima do peitoral menor, e tributárias que correspondem aos ramos da artéria axilar (como as veias subescapular, torácica lateral e circunflexas do úmero).",
+  "clinica": "A trombose venosa profunda do membro superior acomete as veias axilar e subclávia e manifesta-se por edema de todo o membro, dor e veias colaterais visíveis no ombro e no tórax. Após esvaziamento axilar no tratamento do câncer de mama, a preocupação principal é o linfedema do membro superior."
+ },
+ {
+  "key": "Brachial veins",
+  "pt": "Veias braquiais",
+  "latim": "Venae brachiales",
+  "resumo": "Veias profundas do braço, geralmente duas, que acompanham a artéria braquial de cada lado e se comunicam por anastomoses transversais em torno dela. Formam-se na fossa cubital pela união das veias radiais e ulnares e, na margem inferior do redondo maior, unem-se à veia basílica para formar a veia axilar. Como as demais veias profundas dos membros, têm válvulas e são auxiliadas pela pulsação da artéria vizinha e pela contração muscular."
+ },
+ {
+  "key": "Cephalic vein",
+  "pt": "Veia cefálica",
+  "latim": "Vena cephalica",
+  "resumo": "Veia superficial do membro superior. Origina-se no lado lateral (radial) da rede venosa dorsal da mão, na região da tabaqueira anatômica, contorna a margem lateral do antebraço para a face anterior, sobe pela face anterolateral do antebraço e do braço e segue pelo sulco deltopeitoral, entre o deltoide e o peitoral maior. No trígono clavipeitoral perfura a fáscia clavipeitoral e desemboca na veia axilar. Na frente do cotovelo comunica-se com a veia basílica pela veia intermédia do cotovelo.",
+  "clinica": "É usada para punção venosa e para a confecção de fístula arteriovenosa para hemodiálise (com a artéria radial, no punho). Em membro com fístula arteriovenosa não se afere a pressão arterial nem se aplica garroteamento."
+ },
+ {
+  "key": "Basilic vein",
+  "pt": "Veia basílica",
+  "latim": "Vena basilica",
+  "resumo": "Veia superficial do membro superior. Origina-se no lado medial (ulnar) da rede venosa dorsal da mão, sobe pela face medial do antebraço e passa para a face anterior pouco abaixo do cotovelo, onde recebe a veia intermédia do cotovelo. No braço sobe pelo sulco bicipital medial e, aproximadamente na metade do braço, perfura a fáscia do braço, tornando-se profunda; acompanha então a artéria braquial e, na margem inferior do redondo maior, une-se às veias braquiais para formar a veia axilar.",
+  "clinica": "É a veia mais usada para a inserção do cateter central de inserção periférica (PICC)."
+ },
+ {
+  "key": "Median cubital vein",
+  "pt": "Veia intermédia do cotovelo",
+  "latim": "Vena mediana cubiti",
+  "resumo": "Veia superficial que cruza obliquamente a frente do cotovelo, de lateral para medial e de baixo para cima, ligando a veia cefálica à veia basílica. Fica sobre a aponeurose do músculo bíceps braquial, que a separa da artéria braquial e do nervo mediano. Seu padrão é variável: pode ter a forma de H ou de M, quando recebe a veia intermédia do antebraço.",
+  "clinica": "É a veia de escolha para a coleta de sangue e as injeções intravenosas, por ser calibrosa, superficial e relativamente fixa. Nomes antigos: veia mediana do cotovelo, veia cubital mediana."
+ },
+ {
+  "key": "Dorsal venous network of hand",
+  "pt": "Rede venosa dorsal da mão",
+  "latim": "Rete venosum dorsale manus",
+  "resumo": "Rede de veias superficiais no dorso da mão, formada pela união das veias digitais dorsais e das veias metacarpais dorsais. Dela se originam a veia cefálica, no lado lateral, e a veia basílica, no lado medial. A maior parte do sangue da mão, inclusive da palma, drena para o dorso, onde as veias não são comprimidas durante a preensão.",
+  "clinica": "É um local frequente de punção venosa periférica. O edema da mão tende a acumular-se no dorso, onde a pele é frouxa."
+ },
+ {
+  "key": "Azygos vein",
+  "pt": "Veia ázigo",
+  "latim": "Vena azygos",
+  "resumo": "Veia ímpar que sobe pelo mediastino posterior, à direita dos corpos das vértebras torácicas. Forma-se geralmente pela união da veia lombar ascendente direita com a veia subcostal direita, sobe até o nível de T4, arqueia-se para a frente sobre a raiz do pulmão direito e desemboca na face posterior da veia cava superior. Recebe as veias intercostais posteriores direitas, a veia intercostal superior direita, as veias hemiázigo e hemiázigo acessória (que drenam o lado esquerdo) e veias esofágicas, bronquiais e mediastinais. Drena a parede posterior do tórax e do abdome.",
+  "clinica": "O sistema ázigo liga as veias cavas superior e inferior e funciona como via colateral de retorno venoso quando uma delas está obstruída."
+ },
+ {
+  "key": "Hepatic portal vein",
+  "pt": "Veia porta do fígado",
+  "latim": "Vena portae hepatis",
+  "resumo": "Veia que leva ao fígado o sangue do tubo digestório (da parte abdominal do esôfago ao reto), do baço, do pâncreas e da vesícula biliar, rico em nutrientes absorvidos. Forma-se atrás do colo do pâncreas pela união da veia mesentérica superior com a veia esplênica (que geralmente recebe a veia mesentérica inferior), sobe no ligamento hepatoduodenal, atrás do ducto colédoco e da artéria hepática própria, e divide-se em ramos direito e esquerdo na porta do fígado. O sangue percorre os sinusoides hepáticos e sai pelas veias hepáticas para a veia cava inferior. Chama-se sistema porta porque fica entre duas redes capilares.",
+  "clinica": "Na hipertensão portal (por exemplo, na cirrose hepática), o sangue desvia-se pelas anastomoses portossistêmicas, produzindo varizes esofágicas, que podem sangrar gravemente, veias dilatadas em torno do umbigo (cabeça de medusa) e varizes retais, além de ascite e esplenomegalia."
+ },
+ {
+  "key": "Common iliac vein",
+  "pt": "Veia ilíaca comum",
+  "latim": "Vena iliaca communis",
+  "resumo": "Forma-se à frente da articulação sacroilíaca pela união das veias ilíaca externa e ilíaca interna. As veias direita e esquerda sobem e unem-se à direita do plano mediano, à frente de L5, para formar a veia cava inferior. A esquerda é mais longa e passa atrás da artéria ilíaca comum direita.",
+  "clinica": "A compressão da veia ilíaca comum esquerda pela artéria ilíaca comum direita contra a coluna (síndrome de May-Thurner) é uma das explicações para a maior frequência de trombose venosa profunda iliofemoral no membro inferior esquerdo."
+ },
+ {
+  "key": "External iliac vein",
+  "pt": "Veia ilíaca externa",
+  "latim": "Vena iliaca externa",
+  "resumo": "Continuação da veia femoral a partir do ligamento inguinal. Sobe pela margem da abertura superior da pelve, medialmente à artéria ilíaca externa, e une-se à veia ilíaca interna, à frente da articulação sacroilíaca, para formar a veia ilíaca comum. Recebe as veias epigástrica inferior e circunflexa ilíaca profunda."
+ },
+ {
+  "key": "Femoral vein",
+  "pt": "Veia femoral",
+  "latim": "Vena femoralis",
+  "resumo": "Principal veia profunda da coxa. É a continuação da veia poplítea a partir do hiato dos adutores; sobe pelo canal dos adutores, primeiro posterolateral e depois posterior à artéria femoral, e no trígono femoral fica medial à artéria, dentro da bainha femoral. Passa sob o ligamento inguinal e continua como veia ilíaca externa. Recebe a veia femoral profunda e, no hiato safeno, a veia safena magna. Possui várias válvulas.",
+  "clinica": "No trígono femoral a veia fica imediatamente medial ao pulso da artéria femoral, referência usada para a punção venosa. A trombose venosa profunda (TVP) proximal, de veias poplítea, femoral e ilíacas, é a que tem maior risco de embolia pulmonar. Fatores de risco (tríade de Virchow: estase, lesão endotelial e hipercoagulabilidade): imobilização e repouso prolongado no leito, pós-operatório (sobretudo de artroplastia de quadril e joelho e de fraturas do membro inferior), câncer, gestação e puerpério, uso de estrogênios e TVP prévia. Sinais: edema unilateral, dor e sensibilidade no trajeto venoso, calor, eritema ou cianose e veias superficiais dilatadas. Diante da suspeita, não se deve massagear nem exercitar vigorosamente o membro: encaminha-se para avaliação médica imediata. Mobilização precoce, exercícios de tornozelo (bomba da panturrilha), meias de compressão e compressão pneumática intermitente fazem parte da prevenção."
+ },
+ {
+  "key": "Deep femoral vein",
+  "pt": "Veia femoral profunda (veia profunda da coxa)",
+  "latim": "Vena profunda femoris",
+  "resumo": "Veia profunda que acompanha a artéria femoral profunda. Forma-se pela união das veias perfurantes da coxa, que acompanham as artérias perfurantes e drenam os músculos do compartimento posterior, e desemboca na veia femoral no trígono femoral, alguns centímetros abaixo do ligamento inguinal. Por meio das veias perfurantes comunica-se, abaixo, com a veia poplítea e, acima, com as veias glúteas inferiores."
+ },
+ {
+  "key": "Great saphenous vein",
+  "pt": "Veia safena magna",
+  "latim": "Vena saphena magna",
+  "resumo": "A veia mais longa do corpo; veia superficial do membro inferior. Origina-se da união da veia digital dorsal do hálux com a extremidade medial do arco venoso dorsal do pé, passa à frente do maléolo medial, sobe pela face medial da perna acompanhada pelo nervo safeno, passa atrás do côndilo medial do fêmur (cerca de um palmo atrás da margem medial da patela) e sobe pela face medial da coxa. Abaixo do ligamento inguinal atravessa o hiato safeno da fáscia lata e desemboca na veia femoral (junção safenofemoral). Tem de 10 a 12 válvulas e comunica-se com as veias profundas por veias perfurantes, cujas válvulas só permitem fluxo da superfície para a profundidade.",
+  "clinica": "A posição constante à frente do maléolo medial permite acesso venoso mesmo quando a veia não é visível. A insuficiência de suas válvulas, e das válvulas das veias perfurantes, faz o sangue refluir para o sistema superficial e causa varizes: veias dilatadas e tortuosas, com sensação de peso, edema vespertino e, na insuficiência venosa crônica, escurecimento da pele e úlcera venosa, tipicamente acima do maléolo medial. A contração dos músculos da panturrilha (bomba musculovenosa), a elevação dos membros e a compressão elástica favorecem o retorno venoso. A tromboflebite superficial manifesta-se como cordão endurecido, vermelho e doloroso no trajeto da veia. Segmentos da safena magna são usados como enxerto na revascularização do miocárdio; a retirada pode lesar o nervo safeno e deixar área de dormência na face medial da perna."
+ },
+ {
+  "key": "Small saphenous vein",
+  "pt": "Veia safena parva",
+  "latim": "Vena saphena parva",
+  "resumo": "Veia superficial da face posterior da perna. Origina-se da união da veia digital dorsal do 5º dedo com a extremidade lateral do arco venoso dorsal do pé, passa atrás do maléolo lateral, sobe ao longo da margem lateral do tendão do calcâneo e depois pela linha mediana da panturrilha, acompanhada pelo nervo sural. Perfura a fáscia da perna, sobe entre as duas cabeças do gastrocnêmio e, na fossa poplítea, desemboca na veia poplítea (o nível da terminação é variável). Comunica-se com a veia safena magna e com as veias profundas.",
+  "clinica": "Pode tornar-se varicosa, com varizes na face posterior da perna. A proximidade com o nervo sural explica as alterações de sensibilidade na margem lateral do pé após cirurgias dessa veia."
+ },
+ {
+  "key": "Popliteal vein",
+  "pt": "Veia poplítea",
+  "latim": "Vena poplitea",
+  "resumo": "Veia profunda formada na margem inferior do músculo poplíteo pela união das veias tibiais anteriores e posteriores (que já receberam as veias fibulares). Sobe pela fossa poplítea superficialmente à artéria poplítea e profundamente ao nervo tibial, dentro de uma bainha comum com a artéria, e no hiato dos adutores continua como veia femoral. Recebe a veia safena parva, as veias do joelho e as veias surais, que drenam o gastrocnêmio e o sóleo.",
+  "clinica": "É sede frequente de trombose venosa profunda proximal, com risco elevado de embolia pulmonar. Dor e edema na panturrilha podem também ser causados por ruptura de um cisto poplíteo (de Baker) ou por lesão muscular do gastrocnêmio, quadros que imitam a TVP; a diferenciação exige ultrassonografia com Doppler."
+ },
+ {
+  "key": "Anterior tibial veins",
+  "pt": "Veias tibiais anteriores",
+  "latim": "Venae tibiales anteriores",
+  "resumo": "Veias profundas, em geral duas, que acompanham a artéria tibial anterior no compartimento anterior da perna. São a continuação das veias que acompanham a artéria dorsal do pé; sobem sobre a membrana interóssea, passam para trás acima dela e unem-se às veias tibiais posteriores, na margem inferior do músculo poplíteo, para formar a veia poplítea. Possuem válvulas e drenam os músculos do compartimento anterior e o dorso do pé.",
+  "clinica": "São acometidas pela trombose venosa profunda com menor frequência que as veias tibiais posteriores e as fibulares."
+ },
+ {
+  "key": "Posterior tibial veins",
+  "pt": "Veias tibiais posteriores",
+  "latim": "Venae tibiales posteriores",
+  "resumo": "Veias profundas, em geral duas, que acompanham a artéria tibial posterior. Formam-se atrás do maléolo medial pela união das veias plantares medial e lateral, sobem no compartimento posterior da perna, profundamente ao sóleo, recebem as veias fibulares e as veias que drenam os seios venosos do sóleo, e unem-se às veias tibiais anteriores para formar a veia poplítea. Têm numerosas válvulas e recebem veias perfurantes vindas do sistema superficial. A contração do tríceps sural comprime essas veias contra a fáscia inextensível da perna e impulsiona o sangue em direção ao coração: é a bomba musculovenosa da panturrilha, o chamado coração periférico.",
+  "clinica": "A maioria das tromboses venosas profundas começa nas veias da panturrilha (tibiais posteriores, fibulares e seios venosos do sóleo), favorecida pela estase quando a bomba da panturrilha não funciona, como no repouso no leito, em imobilizações e em viagens longas. Sinais: dor e sensibilidade à palpação da panturrilha, edema unilateral (diferença de circunferência entre as panturrilhas maior que 3 cm), edema com cacifo, aumento da temperatura e veias superficiais colaterais. O sinal de Homans (dor na panturrilha à dorsiflexão passiva do tornozelo) é pouco sensível e pouco específico e não deve ser usado isoladamente; a probabilidade clínica é estimada pelo escore de Wells e confirmada por ultrassonografia com Doppler. Na suspeita, suspendem-se o exercício e a massagem do membro e encaminha-se ao médico. Exercícios ativos de tornozelo, deambulação precoce e compressão são medidas de prevenção."
+ },
+ {
+  "key": "Fibular veins",
+  "pt": "Veias fibulares",
+  "latim": "Venae fibulares",
+  "resumo": "Veias profundas, em geral duas, que acompanham a artéria fibular no compartimento posterior da perna, junto à fíbula e ao músculo flexor longo do hálux. Drenam os músculos profundos do compartimento posterior e os do compartimento lateral e desembocam nas veias tibiais posteriores.",
+  "clinica": "Junto com as tibiais posteriores, estão entre as veias mais acometidas pela trombose venosa profunda distal (da panturrilha). Sinônimo antigo: veias peroneiras."
+ },
+ {
+  "key": "Dorsal venous arch of foot",
+  "pt": "Arco venoso dorsal do pé",
+  "latim": "Arcus venosus dorsalis pedis",
+  "resumo": "Arco de veias superficiais situado no dorso do pé, sobre a parte distal dos metatarsais, que recebe as veias metatarsais dorsais (formadas pelas veias digitais dorsais) e veias vindas da planta. De sua extremidade medial origina-se a veia safena magna e, da lateral, a veia safena parva.",
+  "clinica": "O edema do pé e do tornozelo acumula-se com facilidade no dorso do pé, onde a tela subcutânea é frouxa; o sinal do cacifo é pesquisado ali e sobre a tíbia."
+ }
+]

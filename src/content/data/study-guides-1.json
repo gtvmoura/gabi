@@ -1,0 +1,314 @@
+[
+  {
+    "id": "manguito-rotador",
+    "titulo": "Manguito rotador",
+    "regiao": "ombro",
+    "resumo": "Quatro músculos que saem da escápula e abraçam a cabeça do úmero: supraespinal, infraespinal, redondo menor e subescapular. Mais do que rodar o braço, eles mantêm a cabeça do úmero centrada na glenoide.",
+    "texto": "O manguito rotador é formado por quatro músculos cujos tendões se fundem à cápsula da articulação do ombro. Três inserem-se no tubérculo maior do úmero, de cima para trás: supraespinal (faceta superior), infraespinal (faceta média) e redondo menor (faceta inferior). O subescapular, o maior e mais forte do grupo, ocupa a fossa subescapular e insere-se no tubérculo menor. O mnemônico clássico é SIRS (em inglês, SITS).\n\nA articulação do ombro tem uma cabeça grande apoiada em uma cavidade glenoidal pequena e rasa: ganha mobilidade e perde estabilidade óssea. O manguito compensa isso funcionando como um ligamento ativo. Durante a elevação do braço, o deltoide puxa o úmero para cima; infraespinal, redondo menor e subescapular geram uma força para baixo e para dentro, que comprime a cabeça contra a glenoide e impede que ela suba e se choque com o arco coracoacromial. Esse par de forças entre deltoide e manguito é a base da cinesiologia do ombro. O supraespinal participa da abdução em toda a amplitude e comprime a cabeça do úmero na glenoide.\n\nQuanto às rotações, infraespinal e redondo menor são os rotadores laterais; o subescapular é rotador medial e protege a face anterior da articulação. O equilíbrio entre o subescapular (na frente) e o infraespinal com o redondo menor (atrás) forma o par de forças no plano transversal.\n\nA inervação ajuda a entender as lesões. O nervo supraescapular (C5–C6) inerva supraespinal e infraespinal e pode ser comprimido na incisura da escápula ou na incisura espinoglenoidal (neste caso, só o infraespinal enfraquece). O nervo axilar (C5–C6) inerva o redondo menor, e os nervos subescapulares superior e inferior inervam o subescapular.\n\nClinicamente, o tendão do supraespinal é o mais lesado: passa por baixo do acrômio e tem uma zona de vascularização mais pobre próxima à inserção. A dor relacionada ao manguito é a causa mais comum de dor no ombro. As rupturas aumentam com a idade e muitas são assintomáticas. No exame, Jobe avalia o supraespinal; rotação lateral resistida e Patte, o infraespinal e o redondo menor; lift-off e belly press, o subescapular.",
+    "pontos": [
+      "SIRS: Supraespinal, Infraespinal, Redondo menor (tubérculo maior) e Subescapular (tubérculo menor).",
+      "Função principal: estabilização dinâmica, centrando e comprimindo a cabeça do úmero na glenoide.",
+      "Par de forças no plano frontal: deltoide (para cima) contra infraespinal, redondo menor e subescapular (para baixo).",
+      "Rotadores laterais: infraespinal e redondo menor. Rotador medial: subescapular.",
+      "Nervo supraescapular: supraespinal e infraespinal. Nervo axilar: redondo menor. Nervos subescapulares: subescapular.",
+      "O supraespinal é o tendão mais frequentemente lesado.",
+      "Testes: Jobe (supraespinal), Patte e sinal do atraso (infraespinal/redondo menor), Gerber e belly press (subescapular)."
+    ],
+    "estruturas": ["Supraspinatus muscle", "Infraspinatus muscle", "Teres minor muscle", "Subscapularis muscle", "Greater tubercle", "Lesser tubercle", "Suprascapular nerve", "Axillary nerve", "Glenoid fossa", "Articular capsule of glenohumeral joint"],
+    "perguntas": [
+      { "q": "Quais músculos do manguito rotador se inserem no tubérculo maior do úmero?", "a": "Supraespinal, infraespinal e redondo menor (de cima para trás). O subescapular insere-se no tubérculo menor." },
+      { "q": "Por que o manguito é essencial durante a abdução do braço?", "a": "Porque o deltoide tende a transladar a cabeça do úmero para cima. O manguito comprime a cabeça na glenoide e a deprime, mantendo-a centrada e evitando o choque contra o arco coracoacromial." },
+      { "q": "Qual nervo inerva o supraespinal e o infraespinal?", "a": "O nervo supraescapular (C5–C6), ramo do tronco superior do plexo braquial." },
+      { "q": "Um paciente não consegue afastar a mão da região lombar (lift-off positivo). Qual músculo está comprometido?", "a": "O subescapular, principal rotador medial do manguito." },
+      { "q": "Quais são os rotadores laterais do manguito?", "a": "Infraespinal e redondo menor." }
+    ]
+  },
+  {
+    "id": "ritmo-escapuloumeral",
+    "titulo": "Ritmo escapuloumeral",
+    "regiao": "escapula",
+    "resumo": "A elevação completa do braço soma o movimento do úmero na glenoide com a rotação superior da escápula sobre o tórax, numa proporção global de cerca de 2:1.",
+    "texto": "Elevar o braço a 180° não é tarefa de uma articulação só. De modo geral, cerca de 120° vêm da articulação do ombro (glenoumeral) e 60° da rotação superior da escápula sobre o tórax: para cada 2° de movimento glenoumeral, a escápula roda 1°. Essa relação de 2:1 é uma média; nos primeiros 30° de abdução (fase de ajuste) a escápula quase não se move, e depois a proporção se aproxima de 1:1 em alguns trechos.\n\nA escápula só roda porque a clavícula se move: os 60° de rotação escapular somam a elevação da clavícula na articulação esternoclavicular com o movimento da articulação acromioclavicular. A clavícula ainda roda posteriormente sobre seu eixo longo, movimento possibilitado pela tensão dos ligamentos coracoclaviculares (conoide e trapezoide). Além de rodar superiormente, a escápula inclina-se posteriormente e roda lateralmente, afastando o acrômio do tubérculo maior.\n\nO motor da rotação superior é um par de forças: a parte descendente do trapézio puxa a clavícula e o acrômio para cima, a parte ascendente do trapézio puxa a raiz da espinha da escápula para baixo, e o serrátil anterior traciona o ângulo inferior para a frente e para fora. O serrátil anterior é o rotador superior mais eficaz e também mantém a margem medial colada ao tórax. A parte transversa do trapézio e os romboides estabilizam a escápula contra a tração do serrátil.\n\nPor que isso importa? A rotação da escápula mantém a glenoide sob a cabeça do úmero (estabilidade), preserva a relação comprimento-tensão do deltoide e do manguito e mantém o espaço subacromial. Para a amplitude final ainda são necessárias a rotação lateral do úmero, que tira o tubérculo maior do caminho do acrômio na abdução, e a extensão da coluna torácica.\n\nQuando o ritmo se altera, fala-se em discinesia escapular: alamento da margem medial, proeminência do ângulo inferior ou elevação precoce do ombro («encolher»). Ela aparece associada a dor subacromial, instabilidade e lesões nervosas: nervo torácico longo (serrátil anterior) e nervo acessório (trapézio).",
+    "pontos": [
+      "Proporção global de 2:1 — cerca de 120° glenoumerais e 60° escapulotorácicos em 180° de elevação.",
+      "Nos primeiros 30° de abdução a escápula se move pouco (fase de ajuste).",
+      "A rotação da escápula depende das articulações esternoclavicular e acromioclavicular.",
+      "Par de forças da rotação superior: trapézio (partes descendente e ascendente) e serrátil anterior.",
+      "A rotação lateral do úmero é necessária para a abdução completa.",
+      "Lesão do nervo torácico longo: paralisia do serrátil anterior e escápula alada.",
+      "Durante a elevação a escápula também se inclina posteriormente e roda lateralmente."
+    ],
+    "estruturas": ["Scapula", "Serratus anterior muscle", "Descending part of trapezius muscle", "Transverse part of trapezius muscle", "Ascending part of trapezius muscle", "Glenohumeral joint", "Acromioclavicular joint", "Sternoclavicular joint", "Clavicle", "Long thoracic nerve", "Rhomboid major muscle", "Conoid ligament", "Trapezoid ligament"],
+    "perguntas": [
+      { "q": "Qual é a proporção clássica do ritmo escapuloumeral?", "a": "2:1 — a cada 2° de movimento glenoumeral há 1° de rotação superior da escápula, somando aproximadamente 120° e 60° em uma elevação de 180°." },
+      { "q": "Quais músculos formam o par de forças da rotação superior da escápula?", "a": "As partes descendente e ascendente do trapézio e o serrátil anterior." },
+      { "q": "Por que o úmero precisa rodar lateralmente na abdução completa?", "a": "Para que o tubérculo maior passe por trás do acrômio, evitando o impacto contra o arco coracoacromial." },
+      { "q": "O que acontece na lesão do nervo torácico longo?", "a": "Paralisia do serrátil anterior: a margem medial da escápula se afasta do tórax (escápula alada) e a elevação do braço acima da cabeça fica limitada." },
+      { "q": "Quais articulações da clavícula permitem a rotação da escápula?", "a": "A esternoclavicular e a acromioclavicular." }
+    ]
+  },
+  {
+    "id": "espaco-subacromial",
+    "titulo": "Espaço subacromial e síndrome do impacto",
+    "regiao": "ombro",
+    "resumo": "O espaço entre a cabeça do úmero e o arco coracoacromial abriga o tendão do supraespinal, a bolsa subacromial e a cabeça longa do bíceps. É onde se origina a maior parte da dor do ombro.",
+    "texto": "O teto do espaço subacromial é o arco coracoacromial: acrômio, ligamento coracoacromial e processo coracoide. O assoalho é a cabeça do úmero com o tubérculo maior. Entre eles ficam, de baixo para cima, a cápsula articular, o tendão do supraespinal (com parte do infraespinal) e a bolsa subacromial, contínua com a subdeltóidea. O tendão da cabeça longa do bíceps passa pela parte anterior, dentro da articulação, antes de entrar no sulco intertubercular.\n\nA bolsa subacromial funciona como uma superfície de deslizamento entre o manguito e o arco. Em pessoas saudáveis, o espaço mede aproximadamente 1 cm na radiografia com o braço ao lado do corpo e diminui durante a elevação, sendo menor na faixa média da abdução, onde costuma aparecer o arco doloroso (cerca de 60° a 120°).\n\nNeer descreveu o impacto como a compressão mecânica dessas estruturas contra a porção anteroinferior do acrômio, em três estágios progressivos: edema e hemorragia, fibrose e tendinite, e ruptura do manguito com alterações ósseas. Fala-se em impacto primário (estrutural: forma do acrômio, osteófitos acromioclaviculares) e secundário (funcional: falha do manguito em centrar a cabeça do úmero, discinesia escapular, retração da cápsula posterior, instabilidade).\n\nHoje se reconhece que a compressão mecânica não explica sozinha o quadro, e muitos autores preferem os termos dor subacromial ou dor relacionada ao manguito rotador. Fatores intrínsecos do tendão (sobrecarga, degeneração, idade) pesam bastante, e o exercício terapêutico é a base do tratamento.\n\nNa avaliação, nenhum teste isolado é conclusivo. Neer e Hawkins-Kennedy são sensíveis e pouco específicos; a combinação de Hawkins-Kennedy, arco doloroso e fraqueza ou dor na rotação lateral resistida aumenta a probabilidade do diagnóstico. A reabilitação visa restaurar a função do manguito e o controle escapular (serrátil anterior e trapézio ascendente), a mobilidade da cápsula posterior e da coluna torácica, com progressão gradual de carga.",
+    "pontos": [
+      "Teto: acrômio, ligamento coracoacromial e processo coracoide (arco coracoacromial).",
+      "Conteúdo: tendão do supraespinal, bolsa subacromial e cabeça longa do bíceps.",
+      "Arco doloroso típico entre cerca de 60° e 120° de abdução.",
+      "Impacto primário (estrutural) e secundário (funcional: manguito, escápula, cápsula posterior).",
+      "Neer e Hawkins-Kennedy: sensíveis e pouco específicos; combinar testes.",
+      "A rotação lateral do úmero e a rotação superior com inclinação posterior da escápula preservam o espaço.",
+      "Tratamento de base: exercício para manguito e estabilizadores da escápula."
+    ],
+    "estruturas": ["Acromion", "Coraco-acromial ligament", "Coracoid process", "Subacromial bursa", "Subdeltoid bursa", "Supraspinatus muscle", "Long head of biceps brachii", "Greater tubercle", "Acromioclavicular joint", "Deltoid muscle"],
+    "perguntas": [
+      { "q": "Quais estruturas formam o arco coracoacromial?", "a": "O acrômio, o ligamento coracoacromial e o processo coracoide." },
+      { "q": "Quais estruturas podem ser comprimidas no espaço subacromial?", "a": "O tendão do supraespinal (e parte do infraespinal), a bolsa subacromial e o tendão da cabeça longa do bíceps." },
+      { "q": "Em que faixa da abdução ocorre o arco doloroso subacromial?", "a": "Aproximadamente entre 60° e 120°. Dor no final da elevação sugere a articulação acromioclavicular." },
+      { "q": "O que é impacto secundário?", "a": "É o estreitamento funcional do espaço, sem alteração óssea, causado por falha do manguito em centrar a cabeça do úmero, discinesia escapular, retração da cápsula posterior ou instabilidade." },
+      { "q": "Qual a função da bolsa subacromial?", "a": "Reduzir o atrito entre o manguito rotador e o arco coracoacromial/deltoide durante os movimentos do ombro." }
+    ]
+  },
+  {
+    "id": "articulacao-do-ombro",
+    "titulo": "Articulação do ombro (glenoumeral)",
+    "regiao": "ombro",
+    "resumo": "Articulação sinovial esferoide com três graus de liberdade: a mais móvel do corpo e a que mais luxa. Sua estabilidade depende do lábio glenoidal, da cápsula, dos ligamentos e, sobretudo, dos músculos.",
+    "texto": "A cabeça do úmero é uma semiesfera voltada para cima, para dentro e para trás; a cavidade glenoidal da escápula é pequena e rasa, cobrindo apenas uma fração da cabeça em cada posição. O lábio glenoidal, um anel fibrocartilaginoso, aprofunda a cavidade e serve de inserção à cápsula e ao tendão da cabeça longa do bíceps (no tubérculo supraglenoidal).\n\nA cápsula é frouxa, especialmente na parte inferior, onde forma o recesso axilar, que se desdobra na elevação do braço. É reforçada anteriormente pelos ligamentos glenoumerais superior, médio e inferior e, superiormente, pelo ligamento coracoumeral. O ligamento glenoumeral inferior, com suas bandas anterior e posterior, é o principal estabilizador estático com o braço em abdução: em abdução com rotação lateral, a banda anterior impede a translação anterior da cabeça.\n\nA estabilidade dinâmica vem do manguito rotador, que comprime a cabeça na glenoide, e da cabeça longa do bíceps. A pressão intra-articular negativa também contribui. Com o braço ao lado do corpo, a cápsula superior e o ligamento coracoumeral sustentam o peso do membro.\n\nMovimentos e amplitudes de referência: flexão 0–180°, extensão 0–45° a 60°, abdução 0–180°, rotação medial 0–70° a 90° e rotação lateral 0–90°, incluindo a contribuição da cintura escapular na elevação. Posição de repouso (cápsula frouxa): cerca de 55° de abdução e 30° de adução horizontal. Posição de travamento: abdução com rotação lateral máximas. Padrão capsular: rotação lateral mais limitada, depois abdução, depois rotação medial, como na capsulite adesiva.\n\nMais de 90% das luxações do ombro são anteriores, em geral por abdução com rotação lateral forçadas. Podem lesar o lábio anteroinferior (lesão de Bankart), produzir uma fratura por impactação posterolateral na cabeça do úmero (Hill-Sachs) e lesar o nervo axilar, o que justifica testar a sensibilidade na face lateral do ombro e a força do deltoide.",
+    "pontos": [
+      "Sinovial esferoide, triaxial; muita mobilidade e pouca estabilidade óssea.",
+      "O lábio glenoidal aprofunda a cavidade; a cabeça longa do bíceps origina-se no tubérculo supraglenoidal.",
+      "Ligamento glenoumeral inferior: principal contenção em abdução com rotação lateral.",
+      "Estabilidade dinâmica: manguito rotador.",
+      "Padrão capsular: rotação lateral > abdução > rotação medial.",
+      "Luxação anterior é a mais comum; nervo em risco: axilar.",
+      "Posição de travamento: abdução e rotação lateral máximas."
+    ],
+    "estruturas": ["Glenohumeral joint", "Humerus", "Scapula", "Glenoid fossa", "Glenoid labrum", "Articular capsule of glenohumeral joint", "Superior glenohumeral ligament", "Middle glenohumeral ligament", "Inferior glenohumeral ligament", "Coracohumeral ligament", "Long head of biceps brachii", "Axillary nerve"],
+    "perguntas": [
+      { "q": "Qual é o padrão capsular da articulação do ombro?", "a": "Rotação lateral mais limitada, seguida de abdução e de rotação medial." },
+      { "q": "Qual ligamento é o principal estabilizador anterior com o braço abduzido e rodado lateralmente?", "a": "O ligamento glenoumeral inferior (banda anterior)." },
+      { "q": "Qual nervo deve ser examinado após uma luxação anterior do ombro, e como?", "a": "O nervo axilar: sensibilidade na face lateral do ombro (região do deltoide) e contração do deltoide." },
+      { "q": "O que são as lesões de Bankart e de Hill-Sachs?", "a": "Bankart: desinserção do lábio glenoidal anteroinferior. Hill-Sachs: fratura por impactação na região posterolateral da cabeça do úmero. Ambas se associam à luxação anterior." },
+      { "q": "Qual a função do lábio glenoidal?", "a": "Aprofundar a cavidade glenoidal, aumentar a área de contato e servir de inserção para a cápsula, os ligamentos glenoumerais e a cabeça longa do bíceps." }
+    ]
+  },
+  {
+    "id": "plexo-braquial",
+    "titulo": "Plexo braquial",
+    "regiao": "ombro",
+    "resumo": "Rede nervosa formada pelos ramos anteriores de C5 a T1 que inerva todo o membro superior. Organiza-se em raízes, troncos, divisões, fascículos e ramos terminais.",
+    "texto": "O plexo braquial nasce dos ramos anteriores dos nervos espinais C5, C6, C7, C8 e T1. As raízes passam entre os músculos escalenos anterior e médio, junto com a artéria subclávia. C5 e C6 unem-se no tronco superior, C7 continua como tronco médio, e C8 e T1 formam o tronco inferior, que repousa sobre a primeira costela.\n\nAtrás da clavícula, cada tronco se divide em uma divisão anterior e uma posterior. Essa separação tem lógica funcional: as divisões anteriores inervam a musculatura flexora (anterior) do membro e as posteriores, a extensora (posterior). Na axila, as divisões se reorganizam em três fascículos, nomeados pela relação com a artéria axilar: lateral (divisões anteriores dos troncos superior e médio), medial (divisão anterior do tronco inferior) e posterior (as três divisões posteriores).\n\nOs cinco ramos terminais são: nervo musculocutâneo (fascículo lateral; flexores do braço), nervo axilar (fascículo posterior; deltoide e redondo menor), nervo radial (fascículo posterior; todos os extensores do braço e do antebraço), nervo mediano (raízes dos fascículos lateral e medial; maior parte dos flexores do antebraço e eminência tenar) e nervo ulnar (fascículo medial; maior parte dos intrínsecos da mão). Ramos colaterais importantes saem antes: nervo dorsal da escápula (C5; romboides e levantador da escápula), nervo torácico longo (C5–C7; serrátil anterior), nervo supraescapular (tronco superior; supraespinal e infraespinal), nervos peitorais lateral e medial, nervos subescapulares e nervo toracodorsal (latíssimo do dorso).\n\nDuas lesões clássicas ajudam a fixar a anatomia. A paralisia de Erb-Duchenne atinge o tronco superior (C5–C6), por afastamento brusco entre a cabeça e o ombro (parto, queda de moto): perdem-se abdução e rotação lateral do ombro, flexão do cotovelo e supinação, e o membro fica aduzido, rodado medialmente, com o cotovelo estendido e o antebraço pronado (posição da «gorjeta do garçom»). A paralisia de Klumpke atinge o tronco inferior (C8–T1), por tração do braço em hiperabdução: compromete os músculos intrínsecos da mão, com mão em garra; se T1 for lesado junto à medula, pode haver síndrome de Horner.\n\nPara a fisioterapia, conhecer o plexo permite raciocinar se um déficit é de raiz, de tronco, de fascículo ou de nervo periférico, comparando os músculos e as áreas de pele acometidos.",
+    "pontos": [
+      "Raízes C5–T1 → 3 troncos → 6 divisões → 3 fascículos → 5 ramos terminais.",
+      "As raízes e a artéria subclávia passam entre os escalenos anterior e médio.",
+      "Divisões anteriores: flexores. Divisões posteriores: extensores.",
+      "Fascículo posterior: nervos axilar e radial. Lateral: musculocutâneo e raiz lateral do mediano. Medial: ulnar e raiz medial do mediano.",
+      "Erb-Duchenne (C5–C6): posição da gorjeta do garçom.",
+      "Klumpke (C8–T1): mão em garra, intrínsecos da mão.",
+      "Nervo torácico longo (C5–C7): serrátil anterior — lesão causa escápula alada."
+    ],
+    "estruturas": ["Brachial plexus", "Roots of brachial plexus", "Superior trunk of brachial plexus", "Middle trunk of brachial plexus", "Inferior trunk of brachial plexus", "Posterior cord of brachial plexus", "Musculocutaneous nerve", "Axillary nerve", "Radial nerve", "Median nerve", "Ulnar nerve", "Long thoracic nerve", "Suprascapular nerve", "Scalenus anterior muscle", "Scalenus medius muscle"],
+    "perguntas": [
+      { "q": "Quais raízes formam o plexo braquial?", "a": "Os ramos anteriores de C5, C6, C7, C8 e T1." },
+      { "q": "Quais são os cinco ramos terminais do plexo braquial?", "a": "Nervos musculocutâneo, axilar, radial, mediano e ulnar." },
+      { "q": "Quais nervos saem do fascículo posterior?", "a": "Axilar e radial (ramos terminais), além dos nervos subescapulares superior e inferior e do toracodorsal." },
+      { "q": "Como fica o membro superior na paralisia de Erb-Duchenne?", "a": "Aduzido e rodado medialmente no ombro, com cotovelo estendido e antebraço pronado («gorjeta do garçom»), por perda de deltoide, supraespinal, infraespinal, bíceps e braquial (C5–C6)." },
+      { "q": "Entre quais músculos passam as raízes do plexo braquial no pescoço?", "a": "Entre os escalenos anterior e médio (hiato interescalênico), junto com a artéria subclávia." }
+    ]
+  },
+  {
+    "id": "desfiladeiro-toracico",
+    "titulo": "Desfiladeiro torácico",
+    "regiao": "cervical",
+    "resumo": "Passagem entre o pescoço e a axila por onde seguem o plexo braquial e os vasos subclávios. Tem três pontos de estreitamento que podem comprimir o feixe neurovascular.",
+    "texto": "O feixe neurovascular do membro superior atravessa três espaços sucessivos. O primeiro é o triângulo interescalênico, limitado pelo escaleno anterior, pelo escaleno médio e pela primeira costela: por ele passam o plexo braquial e a artéria subclávia. A veia subclávia passa à frente do escaleno anterior, fora do triângulo.\n\nO segundo é o espaço costoclavicular, entre a clavícula (com o músculo subclávio) e a primeira costela. Por ele passam o plexo, a artéria e a veia subclávias, que a partir da margem lateral da primeira costela passam a se chamar axilares. O terceiro é o espaço retropeitoral menor (subcoracoide), sob o tendão do peitoral menor, junto ao processo coracoide, que se estreita na hiperabdução do braço.\n\nA síndrome do desfiladeiro torácico é a compressão sintomática dessas estruturas. A forma neurogênica é a mais comum e afeta mais o tronco inferior do plexo (C8–T1): dor e parestesias na face medial do antebraço e nos dedos anular e mínimo, sensação de peso e fadiga com os braços elevados e, em casos avançados, fraqueza e atrofia dos intrínsecos da mão. As formas venosa (edema, cianose, trombose de esforço) e arterial (palidez, frialdade, claudicação do membro) são mais raras e exigem avaliação médica.\n\nFatores predisponentes incluem costela cervical, bandas fibrosas, hipertrofia ou encurtamento dos escalenos e do peitoral menor, calo de fratura da clavícula, postura com ombros protraídos e deprimidos e atividades repetidas acima da cabeça.\n\nOs testes provocativos (Adson, Roos, Wright, manobra costoclavicular) têm muitos falso-positivos: a simples diminuição do pulso radial ocorre em muitas pessoas normais. Valoriza-se a reprodução dos sintomas e a combinação de testes, depois de excluir radiculopatia cervical e neuropatias periféricas (túnel do carpo, túnel cubital). O tratamento conservador trabalha postura, controle escapular, padrão respiratório, flexibilidade de escalenos e peitoral menor e mobilização neural.",
+    "pontos": [
+      "Três espaços: triângulo interescalênico, espaço costoclavicular e espaço retropeitoral menor.",
+      "A veia subclávia passa à frente do escaleno anterior; a artéria e o plexo passam atrás dele.",
+      "Forma neurogênica é a mais comum; o tronco inferior (C8–T1) é o mais acometido.",
+      "Sintomas: parestesia ulnar, peso e fadiga com os braços elevados.",
+      "Costela cervical e encurtamento de escalenos e peitoral menor são fatores predisponentes.",
+      "Adson, Roos e Wright: muitos falso-positivos; valorizar a reprodução dos sintomas."
+    ],
+    "estruturas": ["Scalenus anterior muscle", "Scalenus medius muscle", "First rib", "Clavicle", "Subclavius muscle", "Pectoralis minor muscle", "Coracoid process", "Brachial plexus", "Inferior trunk of brachial plexus", "Right subclavian artery", "Right subclavian vein", "Axillary artery"],
+    "perguntas": [
+      { "q": "Quais são os limites do triângulo interescalênico?", "a": "Escaleno anterior, escaleno médio e primeira costela (base)." },
+      { "q": "Qual estrutura não passa pelo triângulo interescalênico?", "a": "A veia subclávia, que passa à frente do escaleno anterior." },
+      { "q": "Qual parte do plexo braquial é mais afetada na síndrome do desfiladeiro torácico neurogênica?", "a": "O tronco inferior (C8–T1), gerando sintomas na borda ulnar do antebraço e da mão." },
+      { "q": "Qual teste avalia a compressão sob o peitoral menor?", "a": "O teste de Wright (hiperabdução)." },
+      { "q": "Por que a diminuição do pulso radial sozinha não confirma a síndrome?", "a": "Porque ocorre em muitas pessoas assintomáticas durante as manobras; o que tem valor é a reprodução dos sintomas do paciente." }
+    ]
+  },
+  {
+    "id": "fossa-cubital",
+    "titulo": "Fossa cubital",
+    "regiao": "cotovelo",
+    "resumo": "Depressão triangular na face anterior do cotovelo que funciona como zona de passagem do braço para o antebraço. Local de punção venosa, de palpação do pulso braquial e de ausculta da pressão arterial.",
+    "texto": "A fossa cubital é um triângulo de base superior. A base é uma linha imaginária entre os epicôndilos medial e lateral do úmero. O limite lateral é o músculo braquiorradial e o medial é o pronador redondo; o ápice, voltado para baixo, é o encontro desses dois músculos. O assoalho é formado pelo braquial e pelo supinador. O teto é formado por pele, tela subcutânea, fáscia e a aponeurose do bíceps braquial, expansão do tendão que se dirige medialmente e protege as estruturas profundas.\n\nO conteúdo, de lateral para medial, é: tendão do bíceps braquial, artéria braquial e nervo mediano. A artéria braquial divide-se, no ápice da fossa, em artérias radial e ulnar. O nervo radial fica na borda lateral, profundo, entre o braquial e o braquiorradial, onde se divide em ramo superficial (sensitivo) e ramo profundo (motor, que atravessa o supinador e continua como nervo interósseo posterior).\n\nNo teto, na tela subcutânea, correm as veias superficiais: a cefálica lateralmente, a basílica medialmente e, unindo-as, a veia intermédia do cotovelo, local preferido para punção venosa. A aponeurose do bíceps separa essa veia da artéria braquial e do nervo mediano.\n\nNa prática, o pulso braquial é palpado medialmente ao tendão do bíceps, e é ali que se posiciona o estetoscópio para medir a pressão arterial. O tendão do bíceps é facilmente palpado com o cotovelo fletido contra resistência e o antebraço supinado; o reflexo bicipital testa principalmente C5–C6.\n\nRelevância clínica: nas fraturas supracondilianas do úmero, o fragmento pode lesar a artéria braquial e o nervo mediano, com risco de isquemia dos flexores do antebraço (contratura isquêmica de Volkmann). O nervo mediano pode ser comprimido ao passar entre as duas cabeças do pronador redondo (síndrome do pronador). A ruptura do tendão distal do bíceps causa perda de força principalmente na supinação.",
+    "pontos": [
+      "Limites: base na linha entre os epicôndilos, braquiorradial (lateral) e pronador redondo (medial).",
+      "Assoalho: braquial e supinador. Teto: fáscia e aponeurose do bíceps.",
+      "Conteúdo de lateral para medial: tendão do bíceps, artéria braquial, nervo mediano.",
+      "A artéria braquial bifurca-se em radial e ulnar no ápice da fossa.",
+      "Veia intermédia do cotovelo: punção venosa.",
+      "O nervo radial divide-se em ramos superficial e profundo na borda lateral da fossa.",
+      "Fratura supracondiliana: risco para a artéria braquial e o nervo mediano."
+    ],
+    "estruturas": ["Cubital fossa", "Brachioradialis muscle", "Superficial head of pronator teres", "Deep head of pronator teres", "Brachialis muscle", "Supinator", "Biceps brachii muscle", "Brachial artery", "Median nerve", "Radial artery", "Ulnar artery", "Median cubital vein", "Radial nerve"],
+    "perguntas": [
+      { "q": "Quais são os limites lateral e medial da fossa cubital?", "a": "Lateral: braquiorradial. Medial: pronador redondo." },
+      { "q": "Qual é a ordem do conteúdo, de lateral para medial?", "a": "Tendão do bíceps braquial, artéria braquial e nervo mediano." },
+      { "q": "Onde se palpa o pulso braquial?", "a": "Na fossa cubital, medialmente ao tendão do bíceps braquial." },
+      { "q": "Quais músculos formam o assoalho da fossa cubital?", "a": "O braquial e o supinador." },
+      { "q": "Qual estrutura separa a veia intermédia do cotovelo da artéria braquial e do nervo mediano?", "a": "A aponeurose do bíceps braquial." }
+    ]
+  },
+  {
+    "id": "nervo-mediano-tunel-do-carpo",
+    "titulo": "Nervo mediano e túnel do carpo",
+    "regiao": "punho",
+    "resumo": "O nervo mediano inerva a maioria dos flexores do antebraço e os músculos tenares, e atravessa o túnel do carpo junto com nove tendões. É o local da neuropatia compressiva mais comum do corpo.",
+    "texto": "O nervo mediano forma-se na axila pela união de uma raiz lateral e uma raiz medial, vindas dos fascículos lateral e medial do plexo braquial (C6–T1, com contribuição de C5). Desce pelo braço junto à artéria braquial, sem inervar músculos, e entra no antebraço pela fossa cubital, passando entre as duas cabeças do pronador redondo.\n\nNo antebraço inerva o pronador redondo, o flexor radial do carpo, o palmar longo e o flexor superficial dos dedos. Seu ramo interósseo anterior, puramente motor, inerva o flexor longo do polegar, a metade lateral do flexor profundo dos dedos (indicador e médio) e o pronador quadrado. Antes do punho, emite o ramo cutâneo palmar, que passa por cima do retináculo dos flexores e dá sensibilidade à eminência tenar.\n\nO túnel do carpo é um canal osteofibroso: o assoalho e as paredes são os ossos do carpo, dispostos em arco, e o teto é o retináculo dos flexores, estendido do escafoide e do trapézio até o pisiforme e o hâmulo do hamato. Por ele passam dez estruturas: o nervo mediano e nove tendões (quatro do flexor superficial, quatro do flexor profundo e o do flexor longo do polegar). O nervo é a estrutura mais superficial, logo abaixo do retináculo.\n\nNa mão, o ramo recorrente (tenar) inerva o abdutor curto do polegar, o oponente do polegar e a cabeça superficial do flexor curto do polegar; os dois primeiros lumbricais também são do mediano. A sensibilidade abrange a face palmar do polegar, do indicador, do dedo médio e da metade radial do anular, incluindo o dorso das falanges distais.\n\nNa síndrome do túnel do carpo há parestesias nesse território, tipicamente noturnas e aliviadas ao sacudir a mão; em casos avançados, fraqueza e atrofia tenar, com dificuldade de oposição e abdução palmar do polegar. A sensibilidade da eminência tenar fica preservada, pois o ramo cutâneo palmar não passa pelo túnel: um dado útil para diferenciar de lesões mais proximais. Testes: Phalen, Tinel e compressão carpal. Lesões altas do mediano produzem a «mão em bênção» ao tentar fechar a mão, por incapacidade de fletir o polegar, o indicador e o dedo médio.",
+    "pontos": [
+      "Origem: fascículos lateral e medial do plexo braquial (C6–T1).",
+      "Não inerva músculos no braço.",
+      "Antebraço: flexores e pronadores, exceto o flexor ulnar do carpo e a metade medial do flexor profundo dos dedos (nervo ulnar).",
+      "Túnel do carpo: nervo mediano + 9 tendões (4 FSD, 4 FPD, FLP).",
+      "Mão: abdutor curto, oponente e cabeça superficial do flexor curto do polegar, mais 1º e 2º lumbricais.",
+      "Sensibilidade: face palmar dos três primeiros dedos e metade radial do quarto.",
+      "Eminência tenar com sensibilidade preservada na síndrome do túnel do carpo (ramo cutâneo palmar)."
+    ],
+    "estruturas": ["Median nerve", "Anterior interosseous nerve of forearm", "Flexor retinaculum of wrist", "Carpal bones", "Abductor pollicis brevis", "Opponens pollicis muscle", "Superficial head of flexor pollicis brevis", "Flexor pollicis longus", "Flexor digitorum profundus", "Humero-ulnar head of flexor digitorum superficialis", "Radial head of flexor digitorum superficialis", "Lumbrical muscles of hand", "Hook of hamate bone", "Pisiform bone"],
+    "perguntas": [
+      { "q": "Quantas e quais estruturas passam pelo túnel do carpo?", "a": "Dez: o nervo mediano e nove tendões — quatro do flexor superficial dos dedos, quatro do flexor profundo dos dedos e o do flexor longo do polegar." },
+      { "q": "Por que a sensibilidade da eminência tenar é preservada na síndrome do túnel do carpo?", "a": "Porque o ramo cutâneo palmar do mediano se origina antes do punho e passa por cima do retináculo dos flexores, fora do túnel." },
+      { "q": "Quais músculos da mão o nervo mediano inerva?", "a": "Abdutor curto do polegar, oponente do polegar, cabeça superficial do flexor curto do polegar e o primeiro e o segundo lumbricais." },
+      { "q": "Quais músculos são inervados pelo nervo interósseo anterior?", "a": "Flexor longo do polegar, metade lateral do flexor profundo dos dedos (indicador e médio) e pronador quadrado." },
+      { "q": "Onde se fixa o retináculo dos flexores?", "a": "Lateralmente no escafoide e no trapézio; medialmente no pisiforme e no hâmulo do hamato." }
+    ]
+  },
+  {
+    "id": "nervo-ulnar",
+    "titulo": "Nervo ulnar",
+    "regiao": "cotovelo",
+    "resumo": "O nervo dos movimentos finos da mão: inerva a maior parte dos músculos intrínsecos. É vulnerável atrás do epicôndilo medial e no canal de Guyon.",
+    "texto": "O nervo ulnar é o ramo terminal do fascículo medial do plexo braquial (C8–T1). Desce pela face medial do braço, passa para o compartimento posterior e contorna o cotovelo por trás do epicôndilo medial do úmero, no sulco do nervo ulnar, onde é superficial e palpável: é o ponto do «choque» ao bater o cotovelo. Entra no antebraço entre as duas cabeças do flexor ulnar do carpo (túnel cubital).\n\nNo antebraço inerva apenas dois músculos: o flexor ulnar do carpo e a metade medial do flexor profundo dos dedos (anular e mínimo). No punho passa por cima do retináculo dos flexores, lateralmente ao pisiforme, dentro do canal de Guyon, junto com a artéria ulnar; portanto, não atravessa o túnel do carpo.\n\nNa mão divide-se em ramo superficial (sensitivo, além do palmar curto) e ramo profundo (motor). O ramo profundo inerva os músculos hipotenares, todos os interósseos palmares e dorsais, o terceiro e o quarto lumbricais, o adutor do polegar e a cabeça profunda do flexor curto do polegar. A sensibilidade corresponde ao dedo mínimo e à metade ulnar do anular, nas faces palmar e dorsal, com a borda ulnar da mão.\n\nNa lesão do nervo ulnar perdem-se a abdução e a adução dos dedos (interósseos), a adução do polegar (sinal de Froment positivo) e a força de preensão diminui. Surge a garra ulnar: hiperextensão das metacarpofalângicas e flexão das interfalângicas do anular e do mínimo, porque faltam os lumbricais e interósseos desses dedos e os extensores e flexores longos agem sem oposição. Com o tempo há atrofia dos espaços interósseos e da eminência hipotenar.\n\nO «paradoxo ulnar» é clássico: na lesão alta (cotovelo), a garra é menos evidente do que na lesão baixa (punho), pois o flexor profundo do quarto e do quinto dedos também está paralisado e não flete as interfalângicas. Os locais mais comuns de compressão são o túnel cubital (segunda neuropatia compressiva mais frequente do membro superior) e o canal de Guyon (ciclistas, uso de ferramentas vibratórias).",
+    "pontos": [
+      "Origem: fascículo medial (C8–T1).",
+      "Passa atrás do epicôndilo medial e entre as cabeças do flexor ulnar do carpo.",
+      "Antebraço: flexor ulnar do carpo e metade medial do flexor profundo dos dedos.",
+      "Não passa pelo túnel do carpo: usa o canal de Guyon.",
+      "Mão: hipotenares, todos os interósseos, 3º e 4º lumbricais e adutor do polegar.",
+      "Sensibilidade: quinto dedo e metade ulnar do quarto.",
+      "Lesão: garra ulnar, sinal de Froment, atrofia dos interósseos.",
+      "Paradoxo ulnar: garra menos acentuada nas lesões altas."
+    ],
+    "estruturas": ["Ulnar nerve", "Deep branch of ulnar nerve", "Superficial branch of ulnar nerve", "Medial epicondyle of humerus", "Humeral head of flexor carpi ulnaris", "Ulnar head of flexor carpi ulnaris", "Flexor digitorum profundus", "Dorsal interossei muscles of hand", "Palmar interossei muscles", "Oblique head of adductor pollicis", "Transverse head of adductor pollicis", "Abductor digiti minimi of hand", "Pisiform bone", "Hook of hamate bone"],
+    "perguntas": [
+      { "q": "Quais músculos do antebraço são inervados pelo nervo ulnar?", "a": "O flexor ulnar do carpo e a metade medial do flexor profundo dos dedos (quarto e quinto dedos)." },
+      { "q": "O que é o sinal de Froment?", "a": "Flexão da interfalângica do polegar ao segurar um papel em pinça lateral: o flexor longo do polegar (mediano) compensa a paralisia do adutor do polegar (ulnar)." },
+      { "q": "Por que a garra é menos evidente na lesão alta do nervo ulnar?", "a": "Porque a metade medial do flexor profundo dos dedos também fica paralisada, e as interfalângicas do quarto e quinto dedos fletem menos (paradoxo ulnar)." },
+      { "q": "Por onde o nervo ulnar entra na mão?", "a": "Pelo canal de Guyon, superficial ao retináculo dos flexores, entre o pisiforme e o hâmulo do hamato, junto com a artéria ulnar." },
+      { "q": "Quais lumbricais são inervados pelo nervo ulnar?", "a": "O terceiro e o quarto (dedos anular e mínimo). O primeiro e o segundo são do nervo mediano." }
+    ]
+  },
+  {
+    "id": "nervo-radial",
+    "titulo": "Nervo radial",
+    "regiao": "cotovelo",
+    "resumo": "O nervo de todos os extensores do membro superior. Seu trajeto em espiral colado ao úmero explica a «mão caída» nas fraturas da diáfise.",
+    "texto": "O nervo radial é o maior ramo do fascículo posterior do plexo braquial (C5–T1). Sai da axila por trás da artéria axilar, entra no compartimento posterior do braço e percorre o sulco do nervo radial, na face posterior da diáfise do úmero, acompanhado pela artéria braquial profunda, entre as cabeças lateral e medial do tríceps. No terço distal do braço perfura o septo intermuscular lateral e passa para a frente do epicôndilo lateral, entre o braquial e o braquiorradial.\n\nNo braço inerva o tríceps braquial e o ancôneo e, mais abaixo, o braquiorradial e o extensor radial longo do carpo. Na altura do cotovelo divide-se em dois ramos. O ramo profundo, motor, inerva o extensor radial curto do carpo e o supinador, atravessa este último e continua como nervo interósseo posterior, que inerva os demais extensores do punho, dos dedos e do polegar. O ramo superficial, sensitivo, desce sob o braquiorradial e inerva a pele do dorso da mão do lado radial e do dorso dos três primeiros dedos e meio até as falanges proximais; a área mais característica é o dorso do primeiro espaço interósseo.\n\nA lesão mais conhecida ocorre no sulco do nervo radial: fratura da diáfise do úmero ou compressão prolongada do braço («paralisia do sábado à noite»). O resultado é a mão caída: incapacidade de estender o punho, as metacarpofalângicas e o polegar, com perda sensitiva no dorso do primeiro espaço. O tríceps costuma ser poupado, porque seus ramos saem antes do sulco. Já a compressão na axila (uso inadequado de muletas) compromete também o tríceps.\n\nA lesão isolada do nervo interósseo posterior, por exemplo no canal do supinador (arcada de Frohse), causa queda dos dedos e do polegar, mas o punho ainda se estende, com desvio radial, porque o extensor radial longo do carpo é inervado acima; não há perda de sensibilidade.\n\nUm ponto funcional importante: sem extensão do punho, a preensão enfraquece muito, pois os flexores dos dedos ficam em comprimento desfavorável. Por isso a órtese em extensão do punho (cock-up) melhora de imediato a função da mão na paralisia radial.",
+    "pontos": [
+      "Origem: fascículo posterior (C5–T1).",
+      "Corre no sulco do nervo radial do úmero com a artéria braquial profunda.",
+      "Inerva todos os músculos dos compartimentos posteriores do braço e do antebraço, mais o braquiorradial.",
+      "Divide-se em ramo superficial (sensitivo) e ramo profundo (motor → nervo interósseo posterior).",
+      "Lesão no sulco: mão caída, com tríceps geralmente preservado.",
+      "Lesão do interósseo posterior: queda dos dedos, punho estende com desvio radial, sem perda sensitiva.",
+      "Área sensitiva característica: dorso do primeiro espaço interósseo."
+    ],
+    "estruturas": ["Radial nerve", "Deep branch of radial nerve", "Superficial branch of radial nerve", "Posterior interosseous nerve of forearm", "Posterior cord of brachial plexus", "Triceps brachii muscle", "Brachioradialis muscle", "Extensor carpi radialis longus", "Extensor carpi radialis brevis", "Supinator", "Extensor digitorum", "Humerus", "Deep brachial artery"],
+    "perguntas": [
+      { "q": "Qual a consequência típica de uma fratura da diáfise do úmero com lesão do nervo radial?", "a": "Mão caída: perda da extensão do punho, dos dedos (metacarpofalângicas) e do polegar, com alteração de sensibilidade no dorso do primeiro espaço interósseo." },
+      { "q": "Por que o tríceps costuma ser poupado na lesão no sulco do nervo radial?", "a": "Porque os ramos para o tríceps se originam antes de o nervo entrar no sulco." },
+      { "q": "Como diferenciar a lesão do nervo interósseo posterior da lesão do tronco do nervo radial?", "a": "Na lesão do interósseo posterior o punho ainda se estende (com desvio radial, pelo extensor radial longo do carpo) e não há perda sensitiva; os dedos e o polegar não se estendem nas metacarpofalângicas." },
+      { "q": "Qual músculo flexor do cotovelo é inervado pelo nervo radial?", "a": "O braquiorradial." },
+      { "q": "Por que a preensão enfraquece na paralisia radial se os flexores estão íntegros?", "a": "Porque sem os extensores do punho ele cai em flexão, e os flexores dos dedos trabalham encurtados (insuficiência ativa), perdendo força." }
+    ]
+  },
+  {
+    "id": "compartimentos-do-antebraco",
+    "titulo": "Compartimentos do antebraço",
+    "regiao": "punho",
+    "resumo": "Vinte músculos organizados em um compartimento anterior (flexores e pronadores) e um posterior (extensores e supinador). Entender as camadas e as origens comuns facilita muito a memorização.",
+    "texto": "O antebraço é dividido pelo rádio, pela ulna e pela membrana interóssea em dois compartimentos. O anterior contém os flexores do punho e dos dedos e os pronadores; o posterior, os extensores e o supinador. Como regra, os músculos superficiais anteriores nascem do epicôndilo medial do úmero (tendão comum dos flexores), e os superficiais posteriores, do epicôndilo lateral (tendão comum dos extensores).\n\nO compartimento anterior tem três camadas. Superficial, de lateral para medial: pronador redondo, flexor radial do carpo, palmar longo e flexor ulnar do carpo. Intermédia: flexor superficial dos dedos, que flete as interfalângicas proximais. Profunda: flexor profundo dos dedos (único que flete as interfalângicas distais), flexor longo do polegar e pronador quadrado. A inervação é do nervo mediano, com duas exceções do nervo ulnar: o flexor ulnar do carpo e a metade medial do flexor profundo dos dedos.\n\nO compartimento posterior tem duas camadas. Superficial: braquiorradial, extensores radiais longo e curto do carpo, extensor dos dedos, extensor do dedo mínimo e extensor ulnar do carpo (o ancôneo costuma ser descrito junto). Profunda: supinador, abdutor longo do polegar, extensor curto do polegar, extensor longo do polegar e extensor do indicador. Todos são inervados pelo nervo radial ou por seu ramo profundo/interósseo posterior. No punho, os tendões extensores passam sob o retináculo dos extensores em seis compartimentos (túneis) dorsais.\n\nFuncionalmente, punho e dedos trabalham em sinergia. Na preensão forte, os extensores do punho contraem para manter o punho em leve extensão, posição em que os flexores dos dedos geram mais força; com o punho fletido, a preensão enfraquece (insuficiência ativa). Flexores e extensores radiais e ulnares combinam-se para produzir os desvios radial e ulnar. O efeito tenodese (os dedos fletem passivamente quando o punho se estende) é explorado na reabilitação da tetraplegia C6.\n\nClínica: epicondilalgia lateral (origem do extensor radial curto do carpo), epicondilalgia medial (pronador redondo e flexor radial do carpo), tenossinovite de De Quervain (primeiro compartimento dorsal) e síndrome compartimental do antebraço após fraturas, cuja sequela é a contratura isquêmica de Volkmann.",
+    "pontos": [
+      "Anterior: flexores e pronadores; origem comum no epicôndilo medial; nervo mediano (exceções: ulnar).",
+      "Posterior: extensores e supinador; origem comum no epicôndilo lateral; nervo radial.",
+      "Exceções ulnares: flexor ulnar do carpo e metade medial do flexor profundo dos dedos.",
+      "Flexor superficial flete as interfalângicas proximais; flexor profundo, as distais.",
+      "Seis compartimentos dorsais sob o retináculo dos extensores.",
+      "Extensão do punho é sinergista da preensão forte.",
+      "Braquiorradial: está no compartimento posterior, é do nervo radial, mas flete o cotovelo."
+    ],
+    "estruturas": ["Anterior compartment of forearm", "Posterior compartment of forearm", "Flexor carpi radialis", "Palmaris longus muscle", "Flexor digitorum profundus", "Flexor pollicis longus", "Pronator quadratus", "Extensor carpi radialis longus", "Extensor carpi radialis brevis", "Extensor digitorum", "Supinator", "Common flexor tendon", "Common extensor tendon", "Extensor retinaculum of wrist", "Interosseous membrane of forearm"],
+    "perguntas": [
+      { "q": "Quais músculos do compartimento anterior do antebraço não são inervados pelo nervo mediano?", "a": "O flexor ulnar do carpo e a metade medial do flexor profundo dos dedos, inervados pelo nervo ulnar." },
+      { "q": "Qual músculo flete as articulações interfalângicas distais?", "a": "O flexor profundo dos dedos." },
+      { "q": "Por que a preensão é mais fraca com o punho em flexão?", "a": "Porque os flexores dos dedos ficam excessivamente encurtados (insuficiência ativa) e os extensores, tensionados, limitam o fechamento da mão." },
+      { "q": "Quais são os músculos da camada superficial anterior, de lateral para medial?", "a": "Pronador redondo, flexor radial do carpo, palmar longo e flexor ulnar do carpo." },
+      { "q": "Onde se origina a maior parte dos extensores superficiais?", "a": "No epicôndilo lateral do úmero, pelo tendão comum dos extensores." }
+    ]
+  },
+  {
+    "id": "tabaqueira-anatomica",
+    "titulo": "Tabaqueira anatômica",
+    "regiao": "punho",
+    "resumo": "Depressão triangular na face radial do punho, visível ao estender o polegar. Seu assoalho é o escafoide: dor ali após queda sobre a mão espalmada é fratura do escafoide até prova em contrário.",
+    "texto": "A tabaqueira anatômica aparece quando o polegar é estendido e abduzido. O limite lateral (anterior) é formado pelos tendões do abdutor longo do polegar e do extensor curto do polegar, que ocupam o primeiro compartimento dorsal do punho. O limite medial (posterior) é o tendão do extensor longo do polegar, que muda de direção ao contornar o tubérculo dorsal do rádio (tubérculo de Lister).\n\nO assoalho é formado, de proximal para distal, pelo processo estiloide do rádio, pelo escafoide, pelo trapézio e pela base do primeiro metacarpal. A artéria radial cruza o assoalho da tabaqueira em direção ao dorso da mão, antes de mergulhar entre as cabeças do primeiro interósseo dorsal para formar o arco palmar profundo; seu pulso pode ser palpado ali. No teto, na tela subcutânea, passam ramos do ramo superficial do nervo radial e a origem da veia cefálica.\n\nA grande importância clínica é o escafoide, o osso do carpo mais fraturado, tipicamente por queda sobre a mão espalmada com o punho em extensão. A dor à palpação da tabaqueira, a dor à palpação do tubérculo do escafoide e a dor à compressão axial do polegar são os sinais clássicos. A radiografia inicial pode ser normal, por isso o punho costuma ser imobilizado e reavaliado.\n\nA vascularização do escafoide explica a gravidade: os vasos entram principalmente pela parte distal e irrigam o polo proximal de forma retrógrada. Fraturas do colo ou do polo proximal podem interromper esse suprimento, levando a necrose avascular e pseudoartrose.\n\nOs tendões da borda lateral são sede da tenossinovite de De Quervain (teste de Finkelstein). O tendão do extensor longo do polegar pode romper-se por atrito no tubérculo dorsal do rádio após fraturas do rádio distal.",
+    "pontos": [
+      "Limite lateral: abdutor longo e extensor curto do polegar.",
+      "Limite medial: extensor longo do polegar.",
+      "Assoalho: processo estiloide do rádio, escafoide, trapézio e base do 1º metacarpal.",
+      "Conteúdo: artéria radial; no teto, ramo superficial do nervo radial e veia cefálica.",
+      "Dor na tabaqueira após queda sobre a mão espalmada: suspeitar de fratura do escafoide.",
+      "Irrigação retrógrada do escafoide: risco de necrose avascular do polo proximal.",
+      "De Quervain acomete os tendões do limite lateral."
+    ],
+    "estruturas": ["Abductor pollicis longus", "Extensor pollicis brevis", "Extensor pollicis longus", "Scaphoid bone", "Trapezium bone", "Radial styloid process", "First metacarpal bone", "Radial artery", "Superficial branch of radial nerve", "Cephalic vein", "Dorsal radial tubercle"],
+    "perguntas": [
+      { "q": "Quais tendões delimitam a tabaqueira anatômica?", "a": "Lateralmente, abdutor longo e extensor curto do polegar; medialmente, extensor longo do polegar." },
+      { "q": "Quais ossos formam o assoalho?", "a": "Processo estiloide do rádio, escafoide, trapézio e base do primeiro metacarpal." },
+      { "q": "Qual artéria atravessa a tabaqueira anatômica?", "a": "A artéria radial." },
+      { "q": "Por que a fratura do escafoide tem risco de necrose avascular?", "a": "Porque a irrigação entra pela parte distal e segue em sentido retrógrado; a fratura pode isolar o polo proximal do seu suprimento sanguíneo." },
+      { "q": "Qual teste avalia a tenossinovite dos tendões do limite lateral?", "a": "O teste de Finkelstein (tenossinovite de De Quervain)." }
+    ]
+  },
+  {
+    "id": "intrinsecos-da-mao",
+    "titulo": "Músculos intrínsecos da mão",
+    "regiao": "dedos_mao",
+    "resumo": "Músculos pequenos que nascem e terminam na própria mão: tenares, hipotenares, lumbricais e interósseos. São responsáveis pela precisão, pela oposição do polegar e pelo equilíbrio dos dedos.",
+    "texto": "Os músculos intrínsecos dividem-se em quatro grupos. A eminência tenar (base do polegar) tem o abdutor curto do polegar, o flexor curto do polegar e o oponente do polegar, este mais profundo. A eminência hipotenar (base do dedo mínimo) tem o abdutor, o flexor curto e o oponente do dedo mínimo. No compartimento central ficam os quatro lumbricais e, mais profundamente, o adutor do polegar. Entre os metacarpais ficam os interósseos: quatro dorsais e três palmares.\n\nA regra de inervação é simples: o nervo ulnar inerva todos os intrínsecos, exceto cinco músculos, que são do nervo mediano — os três tenares (abdutor curto, oponente e cabeça superficial do flexor curto do polegar) e os dois primeiros lumbricais. Todos recebem fibras principalmente de C8 e T1.\n\nOs interósseos movem os dedos no plano frontal em relação ao dedo médio: os dorsais abduzem e os palmares aduzem. Os mnemônicos em inglês são DAB (dorsal abduct) e PAD (palmar adduct). Os lumbricais são singulares: nascem dos tendões do flexor profundo dos dedos e inserem-se na expansão extensora, do lado radial de cada dedo. Lumbricais e interósseos, juntos, fletem as metacarpofalângicas e estendem as interfalângicas — a posição intrínseca plus, usada para segurar um cartão ou escrever.\n\nSem os intrínsecos, os músculos extrínsecos ficam desequilibrados: o extensor dos dedos hiperestende as metacarpofalângicas e os flexores longos fletem as interfalângicas. É a mão em garra (intrínseca minus), vista nas lesões do nervo ulnar e, de forma completa, nas lesões combinadas de ulnar e mediano.\n\nA oposição do polegar, essencial para a pinça, depende do oponente e do abdutor curto do polegar (nervo mediano), sobre a articulação selar carpometacarpal. O adutor do polegar (nervo ulnar) dá força à pinça lateral, como ao girar uma chave. Na avaliação: a abdução palmar do polegar testa o mediano; a abdução dos dedos e o sinal de Froment testam o ulnar; a atrofia tenar sugere lesão do mediano, e a atrofia do primeiro espaço interósseo e da eminência hipotenar, lesão do ulnar.",
+    "pontos": [
+      "Quatro grupos: tenares, hipotenares, lumbricais e interósseos (mais o adutor do polegar).",
+      "Nervo mediano: três tenares e 1º e 2º lumbricais. Nervo ulnar: todos os demais.",
+      "Interósseos dorsais abduzem (DAB); palmares aduzem (PAD); referência: dedo médio.",
+      "Lumbricais nascem dos tendões do flexor profundo e inserem-se na expansão extensora.",
+      "Lumbricais e interósseos: flexão das metacarpofalângicas com extensão das interfalângicas.",
+      "Perda dos intrínsecos: mão em garra (intrínseca minus).",
+      "Oposição do polegar: oponente e abdutor curto (mediano)."
+    ],
+    "estruturas": ["Abductor pollicis brevis", "Opponens pollicis muscle", "Superficial head of flexor pollicis brevis", "Deep head of flexor pollicis brevis", "Oblique head of adductor pollicis", "Transverse head of adductor pollicis", "Abductor digiti minimi of hand", "Flexor digiti minimi of hand", "Opponens digiti minimi muscle of hand", "Lumbrical muscles of hand", "Dorsal interossei muscles of hand", "Palmar interossei muscles", "Median nerve", "Deep branch of ulnar nerve"],
+    "perguntas": [
+      { "q": "Quais intrínsecos da mão são inervados pelo nervo mediano?", "a": "Abdutor curto do polegar, oponente do polegar, cabeça superficial do flexor curto do polegar e os dois primeiros lumbricais." },
+      { "q": "Qual a ação dos interósseos dorsais e palmares?", "a": "Os dorsais abduzem os dedos e os palmares aduzem, tendo o dedo médio como referência; ambos auxiliam a flexão das metacarpofalângicas e a extensão das interfalângicas." },
+      { "q": "Qual a ação combinada de lumbricais e interósseos?", "a": "Flexão das articulações metacarpofalângicas com extensão das interfalângicas (posição intrínseca plus)." },
+      { "q": "Por que surge a mão em garra quando os intrínsecos falham?", "a": "Sem lumbricais e interósseos, o extensor dos dedos hiperestende as metacarpofalângicas e os flexores longos fletem as interfalângicas, sem oposição." },
+      { "q": "De onde se originam os lumbricais?", "a": "Dos tendões do flexor profundo dos dedos, na palma da mão." }
+    ]
+  }
+]

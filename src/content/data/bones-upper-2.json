@@ -1,0 +1,430 @@
+[
+ {
+  "key": "Scaphoid bone",
+  "pt": "Escafoide",
+  "latim": "Os scaphoideum",
+  "tipo": "curto",
+  "sinonimos": [
+   "navicular da mão"
+  ],
+  "resumo": "O maior osso da fileira proximal do carpo, no lado radial. Forma uma ponte entre as duas fileiras do carpo, por isso é o osso carpal mais fraturado.",
+  "descricao": "O escafoide tem forma de barco e é dividido em polo proximal, colo (cintura) e polo distal, onde fica o tubérculo. Sua face proximal convexa articula-se com o rádio; a face medial articula-se com o semilunar e o capitato; a face distal, com o trapézio e o trapezoide. A maior parte da superfície é coberta por cartilagem, o que deixa pouca área para a entrada de vasos.\n\nPor cruzar as duas fileiras do carpo, o escafoide liga os movimentos da fileira proximal aos da distal e estabiliza a articulação mediocarpal. Na flexão e no desvio radial do punho ele se flete (o tubérculo torna-se saliente na palma); na extensão e no desvio ulnar ele se estende.\n\nA irrigação provém de ramos da artéria radial que penetram principalmente pela parte distal e dorsal do osso e seguem em sentido retrógrado até o polo proximal. Esse padrão explica a vulnerabilidade do polo proximal à necrose avascular depois de uma fratura do colo.",
+  "articulacoes": [
+   "Radiocarpal — com a face articular carpal do rádio",
+   "Com o semilunar (medialmente), unido pelo ligamento escafossemilunar",
+   "Com o capitato (medial e distalmente)",
+   "Com o trapézio e o trapezoide (distalmente)"
+  ],
+  "acidentes": [
+   {
+    "key": "Tubercle of scaphoid bone",
+    "pt": "Tubérculo do escafoide",
+    "nota": "Saliência palmar do polo distal. Palpável na base da eminência tenar, junto à prega distal do punho, logo lateral ao tendão do flexor radial do carpo; fica mais saliente no desvio radial. Dá fixação ao retináculo dos músculos flexores e a fibras do abdutor curto do polegar."
+   }
+  ],
+  "palpacao": "Dorsalmente, o escafoide forma o assoalho da tabaqueira anatômica, entre os tendões do extensor longo do polegar (medial) e do abdutor longo e extensor curto do polegar (lateral), logo distal ao processo estiloide do rádio; o desvio ulnar do punho empurra o osso para fora de baixo do rádio e facilita a palpação. Na palma, palpe o tubérculo na base da eminência tenar. Dor à palpação na tabaqueira anatômica, no tubérculo ou à compressão axial do polegar após uma queda sugere fratura.",
+  "clinica": "A fratura do escafoide é a mais comum do carpo e resulta de queda sobre a mão estendida, em geral em adultos jovens. Atinge sobretudo o colo. A radiografia inicial pode ser normal: diante de dor na tabaqueira anatômica após esse mecanismo, trata-se como fratura (imobilização que inclui o polegar) e repete-se a imagem em cerca de duas semanas ou solicita-se ressonância.\n\nComo o sangue chega ao polo proximal em sentido retrógrado, a fratura pode interromper sua irrigação e causar necrose avascular do fragmento proximal, retardo de consolidação ou pseudoartrose, com artrose do punho no longo prazo. A consolidação é lenta, e a imobilização prolongada deixa rigidez e fraqueza de preensão que exigem reabilitação. A ruptura do ligamento escafossemilunar causa instabilidade do carpo (teste de Watson)."
+ },
+ {
+  "key": "Lunate bone",
+  "pt": "Semilunar",
+  "latim": "Os lunatum",
+  "tipo": "curto",
+  "resumo": "Osso em meia-lua no centro da fileira proximal do carpo, entre o escafoide e o piramidal. É o osso do carpo que mais sofre luxação.",
+  "descricao": "O semilunar tem a face proximal convexa, que se articula com o rádio e com o disco articular do punho, e a face distal côncava, que recebe a cabeça do capitato (e, com frequência, uma pequena parte do hamato). É mais largo na face palmar que na dorsal, o que favorece seu deslocamento em direção palmar.\n\nEle é o elo central da coluna rádio–semilunar–capitato–3º metacarpal, pela qual passa boa parte da carga do punho. Não recebe inserções tendíneas: sua posição depende inteiramente dos ligamentos, em especial do escafossemilunar e do semilunopiramidal. Quando esses ligamentos se rompem, o semilunar inclina-se de forma anormal, caracterizando as instabilidades do carpo.",
+  "articulacoes": [
+   "Radiocarpal — com o rádio e o disco articular",
+   "Com o escafoide (lateralmente)",
+   "Com o piramidal (medialmente)",
+   "Mediocarpal — com o capitato e, muitas vezes, com o hamato (distalmente)"
+  ],
+  "palpacao": "No dorso do punho, localize o tubérculo dorsal do rádio (de Lister) e deslize o dedo distalmente e um pouco para o lado ulnar: há uma depressão em linha com o 3º metacarpal. Ao fletir passivamente o punho, o semilunar torna-se saliente sob o dedo; em extensão, ele desaparece sob o rádio. O capitato fica imediatamente distal.",
+  "clinica": "Na queda com o punho em hiperextensão, o semilunar pode luxar em direção palmar, para dentro do túnel do carpo, comprimindo o nervo mediano (parestesia nos três dedos e meio radiais). Na luxação perissemilunar, o semilunar mantém-se alinhado com o rádio e o restante do carpo desloca-se dorsalmente.\n\nA doença de Kienböck é a necrose avascular do semilunar, associada a microtraumas repetidos e a uma ulna relativamente curta; causa dor dorsal central, rigidez e perda de força de preensão. O semilunar é ainda a peça-chave das instabilidades do carpo que se seguem às lesões ligamentares."
+ },
+ {
+  "key": "Triquetrum bone",
+  "pt": "Piramidal",
+  "latim": "Os triquetrum",
+  "tipo": "curto",
+  "resumo": "Osso em forma de pirâmide no lado ulnar da fileira proximal do carpo. Tem na face palmar uma faceta oval para o pisiforme.",
+  "articulacoes": [
+   "Com o semilunar (lateralmente)",
+   "Com o hamato (distalmente)",
+   "Com o pisiforme (face palmar)",
+   "Com o disco articular do punho (proximalmente), sobretudo no desvio ulnar"
+  ],
+  "palpacao": "Palpável no dorso do lado ulnar do punho, logo distal ao processo estiloide da ulna; o desvio radial do punho afasta-o da ulna e o torna mais evidente.",
+  "clinica": "É o segundo osso do carpo mais fraturado, em geral por avulsão de um pequeno fragmento dorsal em quedas com o punho em extensão e desvio ulnar. A lesão do ligamento semilunopiramidal causa dor no lado ulnar do punho."
+ },
+ {
+  "key": "Pisiform bone",
+  "pt": "Pisiforme",
+  "latim": "Os pisiforme",
+  "tipo": "sesamoide",
+  "resumo": "Pequeno osso em forma de ervilha situado à frente do piramidal. É um osso sesamoide contido no tendão do flexor ulnar do carpo.",
+  "articulacoes": [
+   "Com o piramidal (articulação do pisiforme) — é sua única articulação"
+  ],
+  "palpacao": "Saliência arredondada na base da eminência hipotenar, na altura da prega distal do punho; siga o tendão do flexor ulnar do carpo até ele. Com o punho relaxado em flexão, o pisiforme pode ser movido de um lado para o outro.",
+  "clinica": "Recebe a inserção do flexor ulnar do carpo, cuja força é transmitida ao hamato e ao 5º metacarpal pelos ligamentos piso-hamato e pisometacarpal; dá origem ao abdutor do dedo mínimo e fixação ao retináculo dos músculos flexores. Forma a parede medial do canal ulnar (de Guyon), por onde passam o nervo e a artéria ulnares; a compressão nesse ponto, como na paralisia do ciclista, afeta os músculos intrínsecos da mão."
+ },
+ {
+  "key": "Trapezium bone",
+  "pt": "Trapézio",
+  "latim": "Os trapezium",
+  "tipo": "curto",
+  "resumo": "Osso mais lateral da fileira distal do carpo. Sua face distal em sela articula-se com o 1º metacarpal, formando a articulação responsável pela oposição do polegar.",
+  "articulacoes": [
+   "Carpometacarpal do polegar — com a base do 1º metacarpal (sinovial selar)",
+   "Com o escafoide (proximalmente)",
+   "Com o trapezoide (medialmente)",
+   "Com a base do 2º metacarpal (pequena faceta distal medial)"
+  ],
+  "acidentes": [
+   {
+    "key": "Tubercle of trapezium bone",
+    "pt": "Tubérculo do trapézio",
+    "nota": "Crista palmar que dá fixação ao retináculo dos músculos flexores e a músculos tenares (oponente do polegar, abdutor curto e flexor curto do polegar). Medialmente a ele há um sulco por onde passa o tendão do flexor radial do carpo. Palpável logo distal ao tubérculo do escafoide."
+   }
+  ],
+  "palpacao": "Siga o 1º metacarpal em direção proximal até sua base; a interlinha carpometacarpal é sentida ao mover passivamente o polegar, e o trapézio fica logo proximal a ela, no limite distal da tabaqueira anatômica.",
+  "clinica": "A artrose da articulação carpometacarpal do polegar (rizartrose) é muito frequente, principalmente em mulheres após a menopausa. Causa dor na base do polegar ao fazer pinça e ao girar chaves ou tampas, deformidade com a base do metacarpal saliente e teste de compressão com rotação (grind test) positivo. O tratamento conservador inclui órtese, proteção articular e fortalecimento dos músculos estabilizadores do polegar."
+ },
+ {
+  "key": "Trapezoid bone",
+  "pt": "Trapezoide",
+  "latim": "Os trapezoideum",
+  "tipo": "curto",
+  "resumo": "O menor osso da fileira distal do carpo, em forma de cunha, encaixado entre o trapézio e o capitato. Sustenta o 2º metacarpal.",
+  "articulacoes": [
+   "Com a base do 2º metacarpal (distalmente)",
+   "Com o escafoide (proximalmente)",
+   "Com o trapézio (lateralmente)",
+   "Com o capitato (medialmente)"
+  ],
+  "palpacao": "No dorso da mão, imediatamente proximal à base do 2º metacarpal; é pequeno e difícil de individualizar.",
+  "clinica": "Bem protegido e firmemente unido aos vizinhos, raramente é lesado isoladamente. A articulação com o 2º metacarpal é quase imóvel e, com a do 3º metacarpal, forma o pilar central fixo da mão."
+ },
+ {
+  "key": "Capitate bone",
+  "pt": "Capitato",
+  "latim": "Os capitatum",
+  "tipo": "curto",
+  "sinonimos": [
+   "osso grande"
+  ],
+  "resumo": "O maior osso do carpo, situado no centro da fileira distal. Sua cabeça arredondada encaixa-se na concavidade formada pelo escafoide e pelo semilunar.",
+  "articulacoes": [
+   "Mediocarpal — cabeça com o escafoide e o semilunar (proximalmente)",
+   "Com o trapezoide (lateralmente)",
+   "Com o hamato (medialmente)",
+   "Carpometacarpais — com a base do 3º metacarpal, principalmente, e com as do 2º e do 4º"
+  ],
+  "palpacao": "No dorso da mão, siga o 3º metacarpal até a base; logo proximal a ela está o capitato e, proximal a este, a depressão que corresponde ao semilunar (com o punho em posição neutra).",
+  "clinica": "O eixo dos movimentos do punho passa aproximadamente pela cabeça do capitato, o que faz dele uma referência para a goniometria (o eixo do goniômetro é posicionado sobre ele no dorso do punho para os desvios radial e ulnar). As fraturas são incomuns e podem acompanhar a fratura do escafoide; a cabeça tem irrigação retrógrada e pode sofrer necrose."
+ },
+ {
+  "key": "Hamate bone",
+  "pt": "Hamato",
+  "latim": "Os hamatum",
+  "tipo": "curto",
+  "sinonimos": [
+   "osso ganchoso",
+   "unciforme"
+  ],
+  "resumo": "Osso em forma de cunha no lado ulnar da fileira distal do carpo, reconhecível pelo hâmulo, um gancho que se projeta para a palma.",
+  "articulacoes": [
+   "Carpometacarpais — com as bases do 4º e do 5º metacarpais (distalmente)",
+   "Com o capitato (lateralmente)",
+   "Com o piramidal (proximal e medialmente)",
+   "Com o semilunar, com frequência, por uma pequena faceta proximal"
+  ],
+  "acidentes": [
+   {
+    "key": "Hook of hamate bone",
+    "pt": "Hâmulo do hamato",
+    "nota": "Gancho palmar que dá fixação ao retináculo dos músculos flexores e origem ao flexor curto e ao oponente do dedo mínimo. Forma a parede lateral do canal ulnar (de Guyon) e a parede medial do túnel do carpo. Palpável profundamente na eminência hipotenar, cerca de 2 cm distal e lateral ao pisiforme, em direção à base do indicador; a palpação é normalmente sensível porque o nervo ulnar passa ao lado."
+   }
+  ],
+  "palpacao": "Coloque a articulação interfalângica do seu polegar sobre o pisiforme do paciente, com a ponta apontando para a primeira comissura (entre polegar e indicador): a polpa do polegar cai sobre o hâmulo, que é sentido com pressão firme.",
+  "clinica": "A fratura do hâmulo ocorre em esportes com taco, raquete ou bastão (golfe, tênis, beisebol), pelo impacto do cabo contra a palma. Causa dor hipotenar profunda e pode irritar o nervo ulnar no canal de Guyon ou lesar os tendões flexores do dedo mínimo. Passa facilmente despercebida nas radiografias comuns."
+ },
+ {
+  "key": "First metacarpal bone",
+  "pt": "1º metacarpal",
+  "latim": "Os metacarpi I",
+  "tipo": "longo",
+  "resumo": "Metacarpal do polegar: o mais curto, mais espesso e mais móvel. Está rodado cerca de 90° em relação aos demais, de modo que a flexão e a extensão do polegar ocorrem no plano da palma.",
+  "articulacoes": [
+   "Carpometacarpal do polegar — base com o trapézio (sinovial selar)",
+   "Metacarpofalângica do polegar — cabeça com a falange proximal; na face palmar há dois ossos sesamoides"
+  ],
+  "clinica": "Na base insere-se o abdutor longo do polegar; na margem lateral do corpo, o oponente do polegar; da margem medial origina-se parte do 1º interósseo dorsal. A fratura de Bennett é uma fratura-luxação intra-articular da base: um pequeno fragmento medial permanece preso ao trapézio enquanto o restante do metacarpal é tracionado proximal e lateralmente pelo abdutor longo do polegar. A fratura de Rolando é a forma cominutiva. Ambas comprometem a pinça e a oposição se a superfície articular não for restaurada."
+ },
+ {
+  "key": "Second metacarpal bone",
+  "pt": "2º metacarpal",
+  "latim": "Os metacarpi II",
+  "tipo": "longo",
+  "resumo": "Metacarpal do indicador, em geral o mais longo. Sua base bifurcada encaixa-se no trapezoide, formando com o 3º metacarpal o pilar central fixo da mão.",
+  "articulacoes": [
+   "Carpometacarpal — base com o trapezoide, principalmente, e também com o trapézio e o capitato",
+   "Intermetacarpal — com a base do 3º metacarpal",
+   "Metacarpofalângica — cabeça com a falange proximal do indicador"
+  ],
+  "clinica": "Na base inserem-se o extensor radial longo do carpo (face dorsal) e o flexor radial do carpo (face palmar). A articulação carpometacarpal é praticamente imóvel, o que dá ao indicador uma base estável para a pinça de precisão."
+ },
+ {
+  "key": "Third metacarpal bone",
+  "pt": "3º metacarpal",
+  "latim": "Os metacarpi III",
+  "tipo": "longo",
+  "resumo": "Metacarpal do dedo médio. Define o eixo longitudinal da mão, em relação ao qual se descrevem a abdução e a adução dos dedos.",
+  "articulacoes": [
+   "Carpometacarpal — base com o capitato",
+   "Intermetacarpais — com as bases do 2º e do 4º metacarpais",
+   "Metacarpofalângica — cabeça com a falange proximal do dedo médio"
+  ],
+  "acidentes": [
+   {
+    "key": "Body of metacarpal bone",
+    "pt": "Corpo do metacarpal",
+    "nota": "Diáfise levemente côncava na face palmar. Das faces laterais dos corpos originam-se os músculos interósseos. As fraturas do corpo tendem a angular dorsalmente pela tração dos interósseos e podem deixar desvio rotacional, visível quando os dedos se cruzam ao fechar a mão."
+   },
+   {
+    "key": "Head of metacarpal bone",
+    "pt": "Cabeça do metacarpal",
+    "nota": "Extremidade distal arredondada que forma o nó do dedo com a mão fechada; articula-se com a base da falange proximal. É mais larga na face palmar, o que tensiona os ligamentos colaterais na flexão: por isso a mão é imobilizada com as metacarpofalângicas fletidas, para evitar contratura em extensão."
+   },
+   {
+    "key": "Metacarpal base",
+    "pt": "Base do metacarpal",
+    "nota": "Extremidade proximal, que se articula com a fileira distal do carpo e com as bases dos metacarpais vizinhos."
+   },
+   {
+    "key": "Styloid process of third metacarpal bone",
+    "pt": "Processo estiloide do 3º metacarpal",
+    "nota": "Projeção dorsolateral da base do 3º metacarpal, voltada para o carpo; logo distal a ela insere-se o extensor radial curto do carpo. Palpável no dorso da mão, em linha com o tubérculo dorsal do rádio."
+   }
+  ],
+  "clinica": "Na face dorsal da base, junto ao processo estiloide, insere-se o extensor radial curto do carpo; da face palmar do corpo origina-se a cabeça transversa do adutor do polegar. Uma saliência óssea dorsal na base do 2º ou do 3º metacarpal (bossa carpal) pode ser confundida com cisto sinovial."
+ },
+ {
+  "key": "Fourth metacarpal bone",
+  "pt": "4º metacarpal",
+  "latim": "Os metacarpi IV",
+  "tipo": "longo",
+  "resumo": "Metacarpal do dedo anular, mais delgado que o 2º e o 3º. Sua articulação com o carpo tem pequena mobilidade, que contribui para o arco transverso da mão.",
+  "articulacoes": [
+   "Carpometacarpal — base com o hamato e, por pequena faceta, com o capitato",
+   "Intermetacarpais — com as bases do 3º e do 5º metacarpais",
+   "Metacarpofalângica — cabeça com a falange proximal do dedo anular"
+  ],
+  "clinica": "Com o 5º metacarpal forma a parte móvel do lado ulnar da mão, que avança em direção à palma na preensão de força e ao fazer a mão em concha. Fraturas do colo e do corpo são comuns em traumas com o punho cerrado."
+ },
+ {
+  "key": "Fifth metacarpal bone",
+  "pt": "5º metacarpal",
+  "latim": "Os metacarpi V",
+  "tipo": "longo",
+  "resumo": "Metacarpal do dedo mínimo. É o mais móvel depois do metacarpal do polegar, o que permite ao lado ulnar da mão envolver os objetos na preensão.",
+  "articulacoes": [
+   "Carpometacarpal — base com o hamato",
+   "Intermetacarpal — com a base do 4º metacarpal",
+   "Metacarpofalângica — cabeça com a falange proximal do dedo mínimo"
+  ],
+  "clinica": "Na base insere-se o extensor ulnar do carpo (face dorsomedial) e chega a tração do flexor ulnar do carpo pelo ligamento pisometacarpal; na margem medial do corpo insere-se o oponente do dedo mínimo. A fratura do colo do 5º metacarpal (fratura do boxeador) resulta de soco com o punho cerrado: a cabeça desvia para a palma e o nó do dedo desaparece. Deve-se verificar o desvio rotacional pedindo ao paciente que feche a mão."
+ },
+ {
+  "key": "Proximal phalanx of first finger of hand",
+  "pt": "Falange proximal do polegar",
+  "latim": "Phalanx proximalis pollicis",
+  "tipo": "longo",
+  "resumo": "Primeira das duas falanges do polegar, que não tem falange média.",
+  "articulacoes": [
+   "Metacarpofalângica do polegar — base com a cabeça do 1º metacarpal",
+   "Interfalângica do polegar — cabeça com a base da falange distal"
+  ],
+  "clinica": "Na base inserem-se o abdutor curto e o flexor curto do polegar (lado radial), o adutor do polegar (lado ulnar) e o extensor curto do polegar (dorso). A lesão do ligamento colateral ulnar da articulação metacarpofalângica por abdução forçada (polegar do esquiador ou do goleiro) compromete a pinça; pode haver avulsão óssea na base desta falange."
+ },
+ {
+  "key": "Proximal phalanx of second finger of hand",
+  "pt": "Falange proximal do dedo indicador (2º dedo)",
+  "latim": "Phalanx proximalis digiti II manus",
+  "tipo": "longo",
+  "resumo": "A maior das três falanges do dedo indicador (2º dedo); forma o esqueleto do segmento do dedo junto à palma.",
+  "articulacoes": [
+   "Metacarpofalângica — base com a cabeça do 2º metacarpal (elipsoide)",
+   "Interfalângica proximal — cabeça com a base da falange média (gínglimo)"
+  ],
+  "clinica": "Na base inserem-se o 1º interósseo dorsal (lado radial) e o 1º interósseo palmar (lado ulnar). As fraturas do corpo tendem a angular com vértice palmar, pela ação dos interósseos e do aparelho extensor, e exigem atenção ao desvio rotacional e à aderência dos tendões flexores."
+ },
+ {
+  "key": "Proximal phalanx of third finger of hand",
+  "pt": "Falange proximal do dedo médio (3º dedo)",
+  "latim": "Phalanx proximalis digiti III manus",
+  "tipo": "longo",
+  "resumo": "A maior das três falanges do dedo médio (3º dedo); forma o esqueleto do segmento do dedo junto à palma.",
+  "articulacoes": [
+   "Metacarpofalângica — base com a cabeça do 3º metacarpal (elipsoide)",
+   "Interfalângica proximal — cabeça com a base da falange média (gínglimo)"
+  ],
+  "acidentes": [
+   {
+    "key": "Base of phalanx of hand",
+    "pt": "Base da falange",
+    "nota": "Extremidade proximal. Na falange proximal é uma cavidade oval para a cabeça do metacarpal; nas falanges média e distal tem duas concavidades separadas por uma crista, que se encaixam na tróclea da falange anterior."
+   },
+   {
+    "key": "Body of phalanx of hand",
+    "pt": "Corpo da falange",
+    "nota": "Diáfise convexa no dorso e plana ou côncava na palma. Nas margens da face palmar fixam-se as polias da bainha fibrosa dos tendões flexores."
+   },
+   {
+    "key": "Head of phalanx of hand",
+    "pt": "Cabeça da falange",
+    "nota": "Extremidade distal das falanges proximal e média; nas laterais há depressões para os ligamentos colaterais das articulações interfalângicas."
+   },
+   {
+    "key": "Trochlea of phalanx of hand",
+    "pt": "Tróclea da falange",
+    "nota": "Superfície articular em polia da cabeça, com dois côndilos separados por um sulco. Sua forma restringe as articulações interfalângicas à flexão e à extensão (gínglimo)."
+   }
+  ],
+  "clinica": "Na base inserem-se, de cada lado, o 2º e o 3º interósseos dorsais; o dedo médio não recebe interósseos palmares. As fraturas do corpo tendem a angular com vértice palmar, pela ação dos interósseos e do aparelho extensor, e exigem atenção ao desvio rotacional e à aderência dos tendões flexores."
+ },
+ {
+  "key": "Proximal phalanx of fourth finger of hand",
+  "pt": "Falange proximal do dedo anular (4º dedo)",
+  "latim": "Phalanx proximalis digiti IV manus",
+  "tipo": "longo",
+  "resumo": "A maior das três falanges do dedo anular (4º dedo); forma o esqueleto do segmento do dedo junto à palma.",
+  "articulacoes": [
+   "Metacarpofalângica — base com a cabeça do 4º metacarpal (elipsoide)",
+   "Interfalângica proximal — cabeça com a base da falange média (gínglimo)"
+  ],
+  "clinica": "Na base inserem-se o 4º interósseo dorsal (lado ulnar) e um interósseo palmar (lado radial). As fraturas do corpo tendem a angular com vértice palmar, pela ação dos interósseos e do aparelho extensor, e exigem atenção ao desvio rotacional e à aderência dos tendões flexores."
+ },
+ {
+  "key": "Proximal phalanx of fifth finger of hand",
+  "pt": "Falange proximal do dedo mínimo (5º dedo)",
+  "latim": "Phalanx proximalis digiti V manus",
+  "tipo": "longo",
+  "resumo": "A maior das três falanges do dedo mínimo (5º dedo); forma o esqueleto do segmento do dedo junto à palma.",
+  "articulacoes": [
+   "Metacarpofalângica — base com a cabeça do 5º metacarpal (elipsoide)",
+   "Interfalângica proximal — cabeça com a base da falange média (gínglimo)"
+  ],
+  "clinica": "Na base inserem-se o abdutor e o flexor curto do dedo mínimo (lado ulnar) e um interósseo palmar (lado radial). As fraturas do corpo tendem a angular com vértice palmar, pela ação dos interósseos e do aparelho extensor, e exigem atenção ao desvio rotacional e à aderência dos tendões flexores."
+ },
+ {
+  "key": "Middle phalanx of second finger of hand",
+  "pt": "Falange média do dedo indicador (2º dedo)",
+  "latim": "Phalanx media digiti II manus",
+  "tipo": "longo",
+  "resumo": "Falange intermediária do dedo indicador (2º dedo), entre as articulações interfalângicas proximal e distal.",
+  "articulacoes": [
+   "Interfalângica proximal — base com a cabeça da falange proximal (gínglimo)",
+   "Interfalângica distal — cabeça com a base da falange distal (gínglimo)"
+  ],
+  "clinica": "Nas margens da face palmar do corpo insere-se o flexor superficial dos dedos; na face dorsal da base insere-se a banda central do aparelho extensor. A ruptura da banda central produz a deformidade em botoeira (flexão da interfalângica proximal com hiperextensão da distal). A articulação interfalângica proximal enrijece com facilidade após trauma ou imobilização."
+ },
+ {
+  "key": "Middle phalanx of third finger of hand",
+  "pt": "Falange média do dedo médio (3º dedo)",
+  "latim": "Phalanx media digiti III manus",
+  "tipo": "longo",
+  "resumo": "Falange intermediária do dedo médio (3º dedo), entre as articulações interfalângicas proximal e distal.",
+  "articulacoes": [
+   "Interfalângica proximal — base com a cabeça da falange proximal (gínglimo)",
+   "Interfalângica distal — cabeça com a base da falange distal (gínglimo)"
+  ],
+  "clinica": "Nas margens da face palmar do corpo insere-se o flexor superficial dos dedos; na face dorsal da base insere-se a banda central do aparelho extensor. A ruptura da banda central produz a deformidade em botoeira (flexão da interfalângica proximal com hiperextensão da distal). A articulação interfalângica proximal enrijece com facilidade após trauma ou imobilização."
+ },
+ {
+  "key": "Middle phalanx of fourth finger of hand",
+  "pt": "Falange média do dedo anular (4º dedo)",
+  "latim": "Phalanx media digiti IV manus",
+  "tipo": "longo",
+  "resumo": "Falange intermediária do dedo anular (4º dedo), entre as articulações interfalângicas proximal e distal.",
+  "articulacoes": [
+   "Interfalângica proximal — base com a cabeça da falange proximal (gínglimo)",
+   "Interfalângica distal — cabeça com a base da falange distal (gínglimo)"
+  ],
+  "clinica": "Nas margens da face palmar do corpo insere-se o flexor superficial dos dedos; na face dorsal da base insere-se a banda central do aparelho extensor. A ruptura da banda central produz a deformidade em botoeira (flexão da interfalângica proximal com hiperextensão da distal). A articulação interfalângica proximal enrijece com facilidade após trauma ou imobilização."
+ },
+ {
+  "key": "Middle phalanx of fifth finger of hand",
+  "pt": "Falange média do dedo mínimo (5º dedo)",
+  "latim": "Phalanx media digiti V manus",
+  "tipo": "longo",
+  "resumo": "Falange intermediária do dedo mínimo (5º dedo), entre as articulações interfalângicas proximal e distal.",
+  "articulacoes": [
+   "Interfalângica proximal — base com a cabeça da falange proximal (gínglimo)",
+   "Interfalângica distal — cabeça com a base da falange distal (gínglimo)"
+  ],
+  "clinica": "Nas margens da face palmar do corpo insere-se o flexor superficial dos dedos; na face dorsal da base insere-se a banda central do aparelho extensor. A ruptura da banda central produz a deformidade em botoeira (flexão da interfalângica proximal com hiperextensão da distal). A articulação interfalângica proximal enrijece com facilidade após trauma ou imobilização."
+ },
+ {
+  "key": "Distal phalanx of first finger of hand",
+  "pt": "Falange distal do polegar",
+  "latim": "Phalanx distalis pollicis",
+  "tipo": "longo",
+  "resumo": "Falange terminal do polegar, que sustenta a unha e a polpa usadas na pinça.",
+  "articulacoes": [
+   "Interfalângica do polegar — base com a cabeça da falange proximal (gínglimo)"
+  ],
+  "clinica": "Na face palmar da base insere-se o flexor longo do polegar e, na face dorsal, o extensor longo do polegar. A flexão ativa isolada da articulação interfalângica testa o flexor longo do polegar (nervo interósseo anterior, ramo do mediano)."
+ },
+ {
+  "key": "Distal phalanx of second finger of hand",
+  "pt": "Falange distal do dedo indicador (2º dedo)",
+  "latim": "Phalanx distalis digiti II manus",
+  "tipo": "longo",
+  "resumo": "Falange terminal do dedo indicador (2º dedo), que sustenta a unha e a polpa digital.",
+  "articulacoes": [
+   "Interfalângica distal — base com a cabeça da falange média (gínglimo)"
+  ],
+  "clinica": "Na face palmar da base insere-se o flexor profundo dos dedos e, na face dorsal, o tendão terminal do aparelho extensor. A avulsão do tendão extensor causa o dedo em martelo (a falange distal fica caída em flexão); a avulsão do flexor profundo (jersey finger, mais comum no dedo anular) impede a flexão ativa da interfalângica distal."
+ },
+ {
+  "key": "Distal phalanx of third finger of hand",
+  "pt": "Falange distal do dedo médio (3º dedo)",
+  "latim": "Phalanx distalis digiti III manus",
+  "tipo": "longo",
+  "resumo": "Falange terminal do dedo médio (3º dedo), que sustenta a unha e a polpa digital.",
+  "articulacoes": [
+   "Interfalângica distal — base com a cabeça da falange média (gínglimo)"
+  ],
+  "acidentes": [
+   {
+    "key": "Tuberosity of distal phalanx of hand",
+    "pt": "Tuberosidade da falange distal",
+    "nota": "Expansão rugosa em ferradura na extremidade da falange distal, na face palmar; ancora a polpa digital e sustenta a unha. É o local das fraturas por esmagamento da ponta do dedo."
+   }
+  ],
+  "clinica": "Na face palmar da base insere-se o flexor profundo dos dedos e, na face dorsal, o tendão terminal do aparelho extensor. A avulsão do tendão extensor causa o dedo em martelo (a falange distal fica caída em flexão); a avulsão do flexor profundo (jersey finger, mais comum no dedo anular) impede a flexão ativa da interfalângica distal."
+ },
+ {
+  "key": "Distal phalanx of fourth finger of hand",
+  "pt": "Falange distal do dedo anular (4º dedo)",
+  "latim": "Phalanx distalis digiti IV manus",
+  "tipo": "longo",
+  "resumo": "Falange terminal do dedo anular (4º dedo), que sustenta a unha e a polpa digital.",
+  "articulacoes": [
+   "Interfalângica distal — base com a cabeça da falange média (gínglimo)"
+  ],
+  "clinica": "Na face palmar da base insere-se o flexor profundo dos dedos e, na face dorsal, o tendão terminal do aparelho extensor. A avulsão do tendão extensor causa o dedo em martelo (a falange distal fica caída em flexão); a avulsão do flexor profundo (jersey finger, mais comum no dedo anular) impede a flexão ativa da interfalângica distal."
+ },
+ {
+  "key": "Distal phalanx of fifth finger of hand",
+  "pt": "Falange distal do dedo mínimo (5º dedo)",
+  "latim": "Phalanx distalis digiti V manus",
+  "tipo": "longo",
+  "resumo": "Falange terminal do dedo mínimo (5º dedo), que sustenta a unha e a polpa digital.",
+  "articulacoes": [
+   "Interfalângica distal — base com a cabeça da falange média (gínglimo)"
+  ],
+  "clinica": "Na face palmar da base insere-se o flexor profundo dos dedos e, na face dorsal, o tendão terminal do aparelho extensor. A avulsão do tendão extensor causa o dedo em martelo (a falange distal fica caída em flexão); a avulsão do flexor profundo (jersey finger, mais comum no dedo anular) impede a flexão ativa da interfalângica distal."
+ }
+]

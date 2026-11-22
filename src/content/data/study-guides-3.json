@@ -1,0 +1,250 @@
+[
+  {
+    "id": "articulacao-do-quadril",
+    "titulo": "Articulação do quadril",
+    "regiao": "quadril",
+    "resumo": "Articulação sinovial esferoide entre a cabeça do fêmur e o acetábulo. Ao contrário do ombro, privilegia a estabilidade: encaixe profundo, cápsula espessa e os ligamentos mais fortes do corpo.",
+    "texto": "A cabeça do fêmur, que corresponde a cerca de dois terços de uma esfera, encaixa-se no acetábulo, formado pela fusão do ílio, do ísquio e do púbis. A superfície articular do acetábulo tem a forma de ferradura (face semilunar); o centro, a fossa do acetábulo, não é articular. O lábio do acetábulo, fibrocartilaginoso, aprofunda a cavidade e cria um efeito de vedação; inferiormente é completado pelo ligamento transverso do acetábulo.\n\nA cápsula é espessa e reforçada por três ligamentos espirais. O iliofemoral (ligamento em Y, de Bigelow), anterior, é considerado o ligamento mais forte do corpo: limita a extensão e permite ficar em pé com pouco gasto muscular, «pendurado» nele. O pubofemoral, anteroinferior, limita a abdução e a extensão. O isquiofemoral, posterior, limita a rotação medial e a extensão. Os três se enrolam e ficam tensos na extensão, razão pela qual a posição de travamento é extensão com rotação medial e abdução. A posição de repouso é de cerca de 30° de flexão, 30° de abdução e leve rotação lateral, e o padrão capsular clássico limita principalmente a rotação medial, a flexão e a abdução.\n\nDois ângulos do fêmur proximal são fundamentais. O ângulo de inclinação, entre o colo e a diáfise no plano frontal, mede cerca de 125° no adulto; aumentado é coxa valga, diminuído é coxa vara. O ângulo de torção (anteversão), no plano transversal, mede em torno de 10° a 15°; quando aumentado, associa-se à marcha com os pés voltados para dentro e a maior rotação medial do quadril (teste de Craig).\n\nA irrigação da cabeça do fêmur no adulto vem principalmente da artéria circunflexa femoral medial, por ramos que sobem pelo colo, junto à cápsula. A artéria do ligamento da cabeça do fêmur contribui pouco. Por isso, fraturas do colo dentro da cápsula podem levar a necrose avascular da cabeça.\n\nAmplitudes de referência: flexão 0–120°, extensão 0–20° a 30°, abdução 0–45°, adução 0–30°, rotações medial e lateral 0–45°. No apoio unipodal, a força de reação articular chega a cerca de 2,5 a 3 vezes o peso corporal, em função da força que os abdutores precisam gerar. Clínica: artrose (dor inguinal e perda precoce da rotação medial), impacto femoroacetabular dos tipos came e pincer, lesões do lábio, displasia e fraturas do fêmur proximal no idoso. A dor de origem articular do quadril é tipicamente inguinal e pode irradiar para a face anterior da coxa e o joelho.",
+    "pontos": [
+      "Sinovial esferoide, triaxial, muito estável.",
+      "Ligamentos: iliofemoral (o mais forte; limita extensão), pubofemoral (abdução) e isquiofemoral (rotação medial).",
+      "Posição de travamento: extensão, rotação medial e abdução.",
+      "Padrão capsular: rotação medial, flexão e abdução mais limitadas.",
+      "Ângulo de inclinação ≈ 125°; anteversão ≈ 10–15°.",
+      "Irrigação da cabeça: artéria circunflexa femoral medial — fratura do colo ameaça a cabeça.",
+      "Dor do quadril: região inguinal, podendo irradiar para o joelho.",
+      "Apoio unipodal: carga articular de várias vezes o peso corporal."
+    ],
+    "estruturas": ["Hip joint", "Femur", "Hip bone", "Acetabular labrum", "Articular capsule of hip joint", "Descending part of iliofemoral ligament", "Transverse part of iliofemoral ligament", "Pubofemoral ligament", "Ischiofemoral ligament", "Ligament of head of femur", "Transverse acetabular ligament", "Zona orbicularis", "Greater trochanter"],
+    "perguntas": [
+      { "q": "Qual é o ligamento mais forte do quadril e o que ele limita?", "a": "O iliofemoral (ligamento em Y), que limita a extensão do quadril." },
+      { "q": "Qual a posição de travamento (máxima congruência e tensão) do quadril?", "a": "Extensão com rotação medial e abdução." },
+      { "q": "Por que a fratura do colo do fêmur pode causar necrose da cabeça?", "a": "Porque os principais vasos (ramos da artéria circunflexa femoral medial) sobem pelo colo junto à cápsula e podem ser rompidos pela fratura." },
+      { "q": "O que são coxa vara e coxa valga?", "a": "Coxa vara: ângulo de inclinação menor que o normal (abaixo de cerca de 120°). Coxa valga: ângulo maior que o normal (acima de cerca de 135°)." },
+      { "q": "Qual movimento costuma estar mais limitado na artrose do quadril?", "a": "A rotação medial, seguida de flexão e abdução." }
+    ]
+  },
+  {
+    "id": "gluteos-e-estabilidade-pelvica",
+    "titulo": "Glúteos e estabilidade pélvica (Trendelenburg)",
+    "regiao": "quadril",
+    "resumo": "O glúteo máximo é o grande extensor do quadril; os glúteos médio e mínimo são os abdutores que mantêm a pelve nivelada a cada passo. Sua falha produz a marcha de Trendelenburg.",
+    "texto": "O glúteo máximo é o músculo mais volumoso do corpo. Origina-se do ílio posterior, do sacro, do cóccix e do ligamento sacrotuberal; a maior parte de suas fibras insere-se no trato iliotibial e a porção profunda inferior, na tuberosidade glútea do fêmur. É extensor e rotador lateral do quadril, inervado pelo nervo glúteo inferior (L5–S2). É pouco ativo na marcha em terreno plano e muito solicitado para subir escadas, levantar-se de uma cadeira, correr e saltar.\n\nO glúteo médio, em forma de leque, vai da face glútea do ílio à face lateral do trocanter maior; o glúteo mínimo, mais profundo, insere-se na face anterior do trocanter. Ambos são abdutores do quadril; as fibras anteriores também rodam medialmente e as posteriores do glúteo médio auxiliam a rotação lateral e a extensão. São inervados pelo nervo glúteo superior (L4–S1), que também inerva o tensor da fáscia lata.\n\nA função mais importante desses abdutores ocorre em cadeia fechada. No apoio unipodal, o peso do corpo cai medialmente à articulação do quadril e tende a fazer a pelve despencar para o lado sem apoio. Os abdutores do lado de apoio contraem e seguram a pelve, como numa balança de braços desiguais: o braço de alavanca do peso corporal é cerca de duas vezes maior que o dos abdutores, de modo que eles precisam gerar uma força de aproximadamente duas vezes o peso do corpo.\n\nQuando os abdutores falham, o teste de Trendelenburg é positivo: em apoio unipodal, a pelve cai do lado oposto ao membro de apoio. Na marcha, o paciente pode inclinar o tronco sobre o lado de apoio para aproximar o centro de massa do quadril e reduzir a exigência sobre os abdutores: é a marcha de Duchenne ou Trendelenburg compensado. Quando o problema é bilateral, a marcha fica bamboleante (anserina). As causas incluem fraqueza muscular, lesão do nervo glúteo superior, tendinopatia glútea, dor articular e alterações que encurtam o braço de alavanca, como coxa vara ou luxação do quadril.\n\nUma bengala na mão oposta ao quadril afetado cria um momento que ajuda os abdutores e reduz bastante a carga sobre a articulação. Em cadeia fechada, os glúteos médio e máximo também controlam a adução e a rotação medial do fêmur: sua insuficiência favorece o valgo dinâmico do joelho, associado à dor femoropatelar e a lesões do ligamento cruzado anterior. Injeções intramusculares devem ser aplicadas no quadrante superolateral da nádega para evitar o nervo isquiático.",
+    "pontos": [
+      "Glúteo máximo: extensão e rotação lateral; nervo glúteo inferior.",
+      "Glúteos médio e mínimo: abdução; nervo glúteo superior (também inerva o tensor da fáscia lata).",
+      "No apoio unipodal, os abdutores do lado de apoio mantêm a pelve nivelada.",
+      "Trendelenburg positivo: a pelve cai do lado oposto ao apoio.",
+      "Compensação: inclinação do tronco para o lado de apoio (marcha de Duchenne).",
+      "Bengala: usada na mão oposta ao quadril afetado.",
+      "Fraqueza dos glúteos favorece o valgo dinâmico do joelho.",
+      "Injeção glútea: quadrante superolateral."
+    ],
+    "estruturas": ["Gluteus maximus muscle", "Gluteus medius muscle", "Gluteus minimus muscle", "Tensor fasciae latae", "Iliotibial tract", "Superior gluteal nerve", "Greater trochanter", "Iliac crest", "Gluteal tuberosity", "Hip joint", "Trochanteric bursa of gluteus maximus muscle", "Sciatic nerve"],
+    "perguntas": [
+      { "q": "Em um Trendelenburg positivo com apoio sobre o membro direito, qual lado da pelve cai e qual músculo está fraco?", "a": "A pelve cai do lado esquerdo (sem apoio); estão fracos os abdutores do quadril direito (glúteos médio e mínimo)." },
+      { "q": "Qual nervo inerva os glúteos médio e mínimo?", "a": "O nervo glúteo superior (L4–S1), que também inerva o tensor da fáscia lata." },
+      { "q": "Em que mão deve ser usada a bengala na disfunção do quadril, e por quê?", "a": "Na mão oposta ao quadril afetado: o apoio gera um momento que auxilia os abdutores e reduz a força de compressão na articulação." },
+      { "q": "Em quais atividades o glúteo máximo é mais solicitado?", "a": "Subir escadas, levantar-se da posição sentada, correr, saltar e estender o quadril contra resistência; na marcha em plano ele é pouco exigido." },
+      { "q": "O que é a marcha de Duchenne (Trendelenburg compensado)?", "a": "A inclinação do tronco para o lado de apoio a cada passo, que aproxima o centro de massa do quadril e reduz a demanda sobre abdutores fracos ou dolorosos." }
+    ]
+  },
+  {
+    "id": "rotadores-laterais-e-nervo-isquiatico",
+    "titulo": "Rotadores laterais do quadril e nervo isquiático",
+    "regiao": "quadril",
+    "resumo": "Seis músculos curtos e profundos, atrás do quadril, rodam lateralmente o fêmur e estabilizam a cabeça no acetábulo. O nervo isquiático, o mais calibroso do corpo, passa entre eles.",
+    "texto": "Sob o glúteo máximo, de cima para baixo, estão os seis rotadores laterais profundos: piriforme, gêmeo superior, obturador interno, gêmeo inferior, quadrado femoral e, mais profundo e anterior, o obturador externo. Todos se inserem no trocanter maior ou próximo a ele (fossa trocantérica e crista intertrocantérica). Além de rodar lateralmente o quadril, funcionam como um «manguito rotador do quadril», comprimindo a cabeça do fêmur no acetábulo.\n\nO piriforme é a referência da região. Sai da face anterior do sacro, atravessa o forame isquiático maior e insere-se no ápice do trocanter maior. Acima dele saem o nervo e os vasos glúteos superiores; abaixo dele, o nervo isquiático, o nervo e os vasos glúteos inferiores, o nervo pudendo e o nervo cutâneo femoral posterior. Sua ação depende da posição: com o quadril estendido é rotador lateral; com o quadril fletido acima de cerca de 60° a 90° passa a ser abdutor horizontal e rotador medial. Por isso é alongado em flexão com adução e rotação lateral (posição do «4») ou em flexão, adução e rotação medial com menos flexão (posição FAIR).\n\nO nervo isquiático (L4–S3) é o maior ramo do plexo sacral. Sai da pelve pelo forame isquiático maior, geralmente abaixo do piriforme, passa a meio caminho entre o trocanter maior e o túber isquiático e desce pela face posterior da coxa, sob a cabeça longa do bíceps femoral. É formado por dois componentes: o tibial e o fibular comum, que em geral se separam no ápice da fossa poplítea. Em uma parcela das pessoas, a divisão é alta e o componente fibular atravessa o piriforme ou passa por cima dele.\n\nNa coxa, o componente tibial inerva os isquiotibiais (cabeça longa do bíceps femoral, semitendíneo e semimembranáceo) e a parte isquiotibial do adutor magno; o componente fibular inerva apenas a cabeça curta do bíceps femoral. Abaixo do joelho, o nervo tibial inerva o compartimento posterior da perna e a planta do pé; o fibular comum divide-se em fibular profundo (compartimento anterior) e fibular superficial (compartimento lateral).\n\nClínica: «ciática» é um sintoma — dor irradiada no trajeto do nervo —, e a causa mais comum é a compressão radicular lombar (L5 ou S1) por hérnia de disco, não uma lesão do nervo em si. A síndrome do piriforme (ou, de forma mais ampla, síndrome glútea profunda) é a irritação do nervo na região glútea, com dor na nádega que piora ao sentar; é um diagnóstico de exclusão. O nervo pode ser lesado em luxações posteriores do quadril, na artroplastia e em injeções mal posicionadas; o componente fibular é o mais vulnerável, resultando em pé caído.",
+    "pontos": [
+      "Seis rotadores laterais: piriforme, gêmeo superior, obturador interno, gêmeo inferior, quadrado femoral e obturador externo.",
+      "O piriforme divide o forame isquiático maior: nervo glúteo superior acima; isquiático abaixo.",
+      "Piriforme: rotador lateral em extensão; rotador medial e abdutor horizontal em flexão.",
+      "Nervo isquiático: L4–S3; componentes tibial e fibular comum.",
+      "Na coxa: tibial inerva os isquiotibiais; fibular comum, a cabeça curta do bíceps femoral.",
+      "Ciática é sintoma; a causa mais comum é radicular (L5/S1).",
+      "O componente fibular é o mais vulnerável nas lesões do isquiático."
+    ],
+    "estruturas": ["Piriformis muscle", "Superior gemellus muscle", "Obturator internus", "Inferior gemellus muscle", "Quadratus femoris muscle", "Obturator externus", "Sciatic nerve", "Tibial nerve", "Common fibular nerve", "Greater trochanter", "Ischial tuberosity", "Sacrum", "Sacrospinous ligament", "Sacrotuberous ligament"],
+    "perguntas": [
+      { "q": "Quais são os seis rotadores laterais profundos do quadril?", "a": "Piriforme, gêmeo superior, obturador interno, gêmeo inferior, quadrado femoral e obturador externo." },
+      { "q": "Qual a relação mais comum do nervo isquiático com o piriforme?", "a": "O nervo sai da pelve abaixo do piriforme, pelo forame isquiático maior." },
+      { "q": "Como muda a ação do piriforme com o quadril fletido?", "a": "Deixa de ser rotador lateral e passa a atuar como abdutor horizontal e rotador medial." },
+      { "q": "Qual músculo da coxa é inervado pelo componente fibular comum do isquiático?", "a": "A cabeça curta do bíceps femoral." },
+      { "q": "Qual a causa mais comum de dor ciática?", "a": "A compressão ou irritação de raízes lombossacrais (L5 ou S1) por hérnia de disco lombar." }
+    ]
+  },
+  {
+    "id": "trigono-femoral",
+    "titulo": "Trígono femoral",
+    "regiao": "quadril",
+    "resumo": "Espaço triangular na parte superior e anterior da coxa, por onde o nervo, a artéria e a veia femorais passam do abdome para o membro inferior. Local de palpação do pulso femoral.",
+    "texto": "O trígono femoral é limitado superiormente pelo ligamento inguinal (base), lateralmente pela margem medial do sartório e medialmente pela margem medial do adutor longo. O ápice, voltado para baixo, é o ponto em que o sartório cruza o adutor longo; ali começa o canal dos adutores (de Hunter). O assoalho é formado, de lateral para medial, pelo iliopsoas e pelo pectíneo, com parte do adutor longo. O teto é a fáscia lata, com o hiato safeno, por onde a veia safena magna mergulha para desembocar na veia femoral.\n\nO conteúdo, de lateral para medial, é lembrado pelo mnemônico NAV: Nervo femoral, Artéria femoral e Veia femoral. Medialmente à veia fica o canal femoral, com vasos linfáticos e um linfonodo profundo. A artéria, a veia e o canal femoral são envolvidos pela bainha femoral; o nervo femoral fica fora dela, sobre o iliopsoas.\n\nO pulso femoral é palpado logo abaixo do ponto médio entre a espinha ilíaca anterossuperior e a sínfise púbica (ponto medioinguinal). A artéria femoral dá, ainda no trígono, a artéria femoral profunda, principal responsável pela irrigação da coxa, de onde saem as artérias circunflexas femorais medial e lateral.\n\nO nervo femoral (L2–L4) é o maior ramo do plexo lombar. Logo abaixo do ligamento inguinal divide-se em vários ramos: motores para o quadríceps, o sartório e o pectíneo, e sensitivos para a face anterior da coxa. Seu ramo terminal, o nervo safeno, acompanha os vasos femorais pelo canal dos adutores e dá sensibilidade à face medial da perna e do pé. A lesão do nervo femoral enfraquece a extensão do joelho e abole o reflexo patelar.\n\nRelevância clínica: os linfonodos inguinais superficiais, na parte superior do trígono, drenam o membro inferior, o períneo e a parede abdominal abaixo do umbigo; as hérnias femorais passam pelo canal femoral e surgem abaixo do ligamento inguinal, sendo mais frequentes em mulheres; a artéria e a veia femorais são vias de acesso para cateterismos. Na avaliação do quadril, dor à palpação profunda no trígono pode vir da própria articulação (que fica atrás do iliopsoas), do tendão do iliopsoas ou da origem do adutor longo.",
+    "pontos": [
+      "Limites: ligamento inguinal (base), sartório (lateral) e adutor longo (medial).",
+      "Assoalho: iliopsoas e pectíneo. Teto: fáscia lata.",
+      "Conteúdo de lateral para medial: NAV — nervo, artéria e veia femorais.",
+      "O nervo femoral fica fora da bainha femoral.",
+      "Pulso femoral: abaixo do ponto médio entre a EIAS e a sínfise púbica.",
+      "O ápice continua-se com o canal dos adutores.",
+      "A veia safena magna desemboca na veia femoral pelo hiato safeno."
+    ],
+    "estruturas": ["Femoral triangle", "Inguinal ligament", "Sartorius muscle", "Adductor longus", "Iliopsoas muscle", "Pectineus muscle", "Femoral nerve", "Femoral artery", "Femoral vein", "Deep femoral artery", "Great saphenous vein", "Saphenous nerve", "Superficial inguinal nodes", "Fascia lata"],
+    "perguntas": [
+      { "q": "Quais são os limites do trígono femoral?", "a": "Superior: ligamento inguinal. Lateral: sartório. Medial: adutor longo." },
+      { "q": "Qual a ordem do conteúdo, de lateral para medial?", "a": "Nervo femoral, artéria femoral e veia femoral (NAV); medialmente à veia fica o canal femoral, com linfáticos." },
+      { "q": "Onde se palpa o pulso femoral?", "a": "Logo abaixo do ligamento inguinal, no ponto médio entre a espinha ilíaca anterossuperior e a sínfise púbica." },
+      { "q": "Quais músculos formam o assoalho do trígono?", "a": "O iliopsoas (lateral) e o pectíneo (medial)." },
+      { "q": "Qual é o ramo terminal sensitivo do nervo femoral e que área ele inerva?", "a": "O nervo safeno, que inerva a pele da face medial da perna e do pé." }
+    ]
+  },
+  {
+    "id": "adutores-do-quadril",
+    "titulo": "Adutores do quadril",
+    "regiao": "quadril",
+    "resumo": "Os músculos do compartimento medial da coxa aduzem o quadril e estabilizam a pelve. São sede frequente de lesões na região inguinal em esportes com chutes e mudanças de direção.",
+    "texto": "O compartimento medial da coxa contém, em três planos, o pectíneo e o adutor longo (anteriores), o adutor curto (intermédio) e o adutor magno (posterior), além do grácil, superficial e medial, e do obturador externo, profundo. Originam-se do púbis e do ramo isquiopúbico e inserem-se ao longo da linha áspera do fêmur, com exceção do grácil, que cruza o joelho e termina na pata de ganso, na tíbia.\n\nO adutor magno é o maior e funciona como dois músculos. A parte adutora, anterior, nasce do ramo isquiopúbico, insere-se na linha áspera e é inervada pelo nervo obturatório. A parte isquiotibial (extensora), posterior, nasce do túber isquiático, insere-se no tubérculo do adutor do fêmur e é inervada pelo componente tibial do nervo isquiático; é um potente extensor do quadril. Entre as duas inserções fica o hiato dos adutores, por onde os vasos femorais passam para a fossa poplítea e mudam de nome para poplíteos.\n\nA inervação do compartimento é do nervo obturatório (L2–L4), que sai da pelve pelo canal obturatório e se divide em ramos anterior e posterior, separados pelo adutor curto. O pectíneo é inervado pelo nervo femoral e, às vezes, também pelo obturatório. O nervo obturatório envia ramos sensitivos para o quadril e o joelho, o que ajuda a explicar a dor referida do quadril no joelho.\n\nAlém da adução, a ação dos adutores no plano sagital depende da posição do quadril: com o quadril estendido eles auxiliam a flexão; com o quadril fletido auxiliam a extensão. Esse comportamento os torna importantes na corrida e no ciclismo. Na marcha, atuam no início e no fim da fase de apoio, estabilizando a pelve e controlando a transferência de peso. O grácil, biarticular, também flete e roda medialmente o joelho.\n\nA lesão muscular mais comum é a do adutor longo, na junção miotendínea ou próximo à origem no púbis, típica do futebol e do hóquei. A dor inguinal relacionada aos adutores é identificada por dor à palpação da origem e à adução resistida (teste de compressão entre os joelhos). A menor força dos adutores em relação aos abdutores é um fator de risco conhecido, e programas de fortalecimento excêntrico, como o exercício de Copenhague, reduzem a ocorrência de problemas na região inguinal em atletas.",
+    "pontos": [
+      "Adutores: pectíneo, adutor longo, adutor curto, adutor magno e grácil.",
+      "Inervação: nervo obturatório (L2–L4); exceções: pectíneo (femoral) e parte isquiotibial do adutor magno (tibial).",
+      "Adutor magno: parte adutora e parte isquiotibial (extensora do quadril).",
+      "Hiato dos adutores: passagem dos vasos femorais para a fossa poplítea.",
+      "Grácil: único biarticular; termina na pata de ganso.",
+      "Flexores com o quadril estendido; extensores com o quadril fletido.",
+      "Adutor longo: o mais lesado nas dores inguinais do atleta."
+    ],
+    "estruturas": ["Medial compartment of thigh", "Adductor longus", "Adductor brevis", "Adductor magnus", "Gracilis muscle", "Pectineus muscle", "Obturator externus", "Obturator nerve", "Anterior branch of obturator nerve", "Posterior branch of obturator nerve", "Adductor tubercle", "Pubic symphysis", "Femoral artery"],
+    "perguntas": [
+      { "q": "Qual nervo inerva a maior parte dos adutores?", "a": "O nervo obturatório (L2–L4)." },
+      { "q": "Por que se diz que o adutor magno são dois músculos?", "a": "Porque tem uma parte adutora, inervada pelo obturatório, e uma parte isquiotibial, que nasce do túber isquiático, estende o quadril e é inervada pelo componente tibial do isquiático." },
+      { "q": "O que passa pelo hiato dos adutores?", "a": "A artéria e a veia femorais, que passam a se chamar poplíteas ao entrar na fossa poplítea." },
+      { "q": "Qual adutor cruza a articulação do joelho?", "a": "O grácil, que se insere na face medial da tíbia proximal (pata de ganso)." },
+      { "q": "Qual adutor é mais frequentemente lesado em atletas?", "a": "O adutor longo." }
+    ]
+  },
+  {
+    "id": "quadriceps-e-aparelho-extensor",
+    "titulo": "Quadríceps e aparelho extensor do joelho",
+    "regiao": "joelho",
+    "resumo": "Quadríceps, tendão do quadríceps, patela, ligamento da patela e tuberosidade da tíbia formam o aparelho extensor. A patela aumenta a alavanca do quadríceps e é o centro das queixas femoropatelares.",
+    "texto": "O quadríceps femoral tem quatro cabeças. O reto femoral é a única biarticular: origina-se na espinha ilíaca anteroinferior e acima do acetábulo, e por isso também flete o quadril. Os três vastos nascem do fêmur: vasto lateral (o mais volumoso), vasto intermédio (profundo ao reto femoral) e vasto medial, cujas fibras distais, mais oblíquas, são descritas como vasto medial oblíquo. As quatro cabeças convergem no tendão do quadríceps, que engloba a patela e continua como ligamento da patela até a tuberosidade da tíbia. Todas são inervadas pelo nervo femoral (L2–L4); o reflexo patelar testa principalmente L3–L4.\n\nA patela é o maior osso sesamoide do corpo. Sua função principal é afastar o tendão do eixo de rotação do joelho, aumentando o braço de alavanca do quadríceps; sem a patela, a força de extensão cai de forma importante. Ela também protege o tendão do atrito e distribui as pressões sobre a tróclea do fêmur.\n\nDurante a flexão do joelho, a patela desliza distalmente na tróclea. Em extensão completa ela fica acima da tróclea, com pouca contenção óssea; entra no sulco por volta de 20° a 30° de flexão, e a área de contato aumenta até cerca de 90°. A força de compressão femoropatelar aumenta com a flexão sob carga: é pequena na marcha em plano e chega a várias vezes o peso corporal no agachamento profundo e ao descer escadas.\n\nO quadríceps traciona a patela para cima e levemente para fora. O ângulo Q, formado entre a linha da espinha ilíaca anterossuperior ao centro da patela e a linha do centro da patela à tuberosidade da tíbia, representa essa tendência; os valores habituais ficam em torno de 10° a 15°, maiores nas mulheres. A lateralização é contida pela faceta lateral da tróclea, mais alta, pelo retináculo medial com o ligamento femoropatelar medial e pelas fibras oblíquas do vasto medial.\n\nFuncionalmente, o quadríceps trabalha muito em contração excêntrica: controla a flexão do joelho na resposta à carga da marcha, ao descer escadas e ao sentar. Clínica: a dor femoropatelar (dor anterior, ao redor ou atrás da patela, que piora ao agachar, subir e descer escadas e ficar muito tempo sentado) é tratada com fortalecimento do quadríceps e da musculatura do quadril; a tendinopatia patelar («joelho do saltador») afeta o polo inferior da patela; a doença de Osgood-Schlatter afeta a tuberosidade da tíbia do adolescente. Após lesões, cirurgias ou derrame articular, a inibição artrogênica dificulta a ativação do quadríceps e produz um déficit de extensão ativa (extensor lag).",
+    "pontos": [
+      "Quatro cabeças: reto femoral (biarticular) e vastos lateral, medial e intermédio.",
+      "Inervação: nervo femoral (L2–L4); reflexo patelar L3–L4.",
+      "A patela aumenta o braço de alavanca do quadríceps.",
+      "A patela encaixa na tróclea por volta de 20–30° de flexão.",
+      "A compressão femoropatelar cresce com a flexão do joelho sob carga.",
+      "Ângulo Q: tendência de lateralização da patela.",
+      "Contenção medial: retináculo medial (ligamento femoropatelar medial) e vasto medial.",
+      "Derrame e dor inibem o quadríceps (inibição artrogênica)."
+    ],
+    "estruturas": ["Rectus femoris muscle", "Vastus lateralis muscle", "Vastus medialis muscle", "Vastus intermedius muscle", "Patella", "Tibial tuberosity", "Femoral nerve", "Medial patellar retinaculum", "Lateral patellar retinaculum", "Suprapatellar bursa", "Infrapatellar fat pad", "Anterior inferior iliac spine", "Femur"],
+    "perguntas": [
+      { "q": "Qual cabeça do quadríceps é biarticular e que ação extra ela realiza?", "a": "O reto femoral, que também flete o quadril." },
+      { "q": "Qual a principal função biomecânica da patela?", "a": "Aumentar o braço de alavanca do quadríceps, afastando o tendão do eixo de rotação do joelho." },
+      { "q": "Por que a patela é mais instável nos primeiros graus de flexão?", "a": "Porque em extensão ela está acima da tróclea, sem contenção óssea; só encaixa no sulco por volta de 20° a 30° de flexão." },
+      { "q": "Em quais atividades a compressão femoropatelar é maior?", "a": "Nas que exigem flexão do joelho sob carga: agachamento profundo, subir e descer escadas, saltar." },
+      { "q": "Qual raiz é testada principalmente pelo reflexo patelar?", "a": "L3–L4 (nervo femoral)." }
+    ]
+  },
+  {
+    "id": "isquiotibiais",
+    "titulo": "Isquiotibiais",
+    "regiao": "joelho",
+    "resumo": "Bíceps femoral, semitendíneo e semimembranáceo: músculos biarticulares do compartimento posterior da coxa, que estendem o quadril e fletem o joelho. São os músculos mais lesados na corrida de velocidade.",
+    "texto": "O compartimento posterior da coxa tem três músculos. Medialmente, o semitendíneo (superficial, com tendão longo e fino) e o semimembranáceo (mais profundo e largo); lateralmente, o bíceps femoral, com cabeça longa e cabeça curta. A cabeça longa do bíceps, o semitendíneo e o semimembranáceo originam-se no túber isquiático e cruzam o quadril e o joelho: são os isquiotibiais verdadeiros. A cabeça curta do bíceps nasce da linha áspera do fêmur e atua apenas no joelho.\n\nInserções: o bíceps femoral termina na cabeça da fíbula; o semitendíneo, na face medial da tíbia proximal, como parte da pata de ganso; o semimembranáceo, na face posterior do côndilo medial da tíbia, com expansões para a cápsula posteromedial (ligamento poplíteo oblíquo). A inervação vem do nervo isquiático: componente tibial para os três isquiotibiais verdadeiros e componente fibular comum para a cabeça curta do bíceps (L5–S2).\n\nAções: extensão do quadril e flexão do joelho. Com o joelho fletido, o bíceps femoral roda lateralmente a tíbia, e o semitendíneo e o semimembranáceo rodam medialmente. Por serem biarticulares, sofrem insuficiência ativa quando o quadril está estendido e o joelho muito fletido, e insuficiência passiva na flexão do quadril com o joelho estendido — o que limita a elevação da perna estendida e influencia o ritmo lombopélvico na flexão do tronco. Ao tracionar o túber isquiático para baixo, tendem a levar a pelve em retroversão.\n\nNa marcha, a maior atividade ocorre no balanço terminal, de forma excêntrica: desaceleram a flexão do quadril e a extensão do joelho, preparando o contato inicial; continuam ativos no início do apoio, ajudando a estender o quadril. Na corrida de velocidade essa exigência excêntrica no final do balanço é máxima, e é aí que ocorre a maioria das lesões, sobretudo da cabeça longa do bíceps femoral. O principal fator de risco é a lesão prévia; o fortalecimento excêntrico (como o exercício nórdico) reduz a incidência.\n\nOs isquiotibiais são sinergistas do ligamento cruzado anterior, pois tracionam a tíbia para trás e resistem à sua translação anterior. Os tendões do semitendíneo e do grácil são muito usados como enxerto na reconstrução desse ligamento. Em adolescentes, a tração brusca pode avulsionar a apófise do túber isquiático.",
+    "pontos": [
+      "Três músculos: bíceps femoral (cabeças longa e curta), semitendíneo e semimembranáceo.",
+      "Origem comum no túber isquiático (exceto a cabeça curta do bíceps).",
+      "Ações: extensão do quadril e flexão do joelho.",
+      "Bíceps roda lateralmente a tíbia; semitendíneo e semimembranáceo rodam medialmente.",
+      "Inervação: componente tibial do isquiático; cabeça curta do bíceps: fibular comum.",
+      "Pico de atividade na marcha: balanço terminal, em contração excêntrica.",
+      "Cabeça longa do bíceps femoral: a mais lesada na corrida de velocidade.",
+      "Sinergistas do ligamento cruzado anterior."
+    ],
+    "estruturas": ["Posterior compartment of thigh", "Long head of biceps femoris", "Short head of biceps femoris", "Semitendinosus muscle", "Semimembranosus muscle", "Ischial tuberosity", "Head of fibula", "Sciatic nerve", "Tibial nerve", "Common fibular nerve", "Oblique popliteal ligament", "Semimembranosus bursa"],
+    "perguntas": [
+      { "q": "Qual porção dos músculos posteriores da coxa não cruza o quadril?", "a": "A cabeça curta do bíceps femoral, que nasce da linha áspera do fêmur." },
+      { "q": "Qual a inervação da cabeça curta do bíceps femoral?", "a": "Componente fibular comum do nervo isquiático; os demais são inervados pelo componente tibial." },
+      { "q": "Em que fase da marcha os isquiotibiais são mais ativos e com que tipo de contração?", "a": "No balanço terminal, em contração excêntrica, desacelerando a flexão do quadril e a extensão do joelho." },
+      { "q": "Por que os isquiotibiais protegem o ligamento cruzado anterior?", "a": "Porque tracionam a tíbia posteriormente, opondo-se à translação anterior que tensiona o ligamento." },
+      { "q": "Qual isquiotibial faz parte da pata de ganso?", "a": "O semitendíneo." }
+    ]
+  },
+  {
+    "id": "pata-de-ganso",
+    "titulo": "Pata de ganso",
+    "regiao": "joelho",
+    "resumo": "Inserção conjunta de três tendões — sartório, grácil e semitendíneo — na face medial da tíbia proximal. Cada um vem de um compartimento da coxa e tem um nervo diferente.",
+    "texto": "A pata de ganso (pes anserinus) é a inserção tendínea em forma de leque na face anteromedial da tíbia, cerca de 5 cm abaixo da interlinha articular do joelho, medialmente à tuberosidade da tíbia. De anterior para posterior, os tendões são: sartório, grácil e semitendíneo. Um mnemônico útil é SGT («sargento»).\n\nA curiosidade anatômica é que cada tendão representa um compartimento da coxa e um nervo. O sartório vem do compartimento anterior, origina-se na espinha ilíaca anterossuperior e é inervado pelo nervo femoral. O grácil vem do compartimento medial, origina-se no púbis e é inervado pelo nervo obturatório. O semitendíneo vem do compartimento posterior, origina-se no túber isquiático e é inervado pelo componente tibial do nervo isquiático.\n\nOs três são biarticulares, e no joelho têm a mesma ação: flexão e rotação medial da tíbia. Em conjunto formam uma contenção dinâmica da face medial do joelho, que auxilia o ligamento colateral tibial contra as forças em valgo e em rotação lateral. Cada um atua no quadril conforme sua origem: o sartório flete, abduz e roda lateralmente (posição de cruzar as pernas); o grácil aduz; o semitendíneo estende.\n\nEntre os tendões da pata de ganso e o ligamento colateral tibial, que passa profundamente a eles, fica a bolsa anserina. Sua inflamação (bursite ou tendinobursite anserina) causa dor e sensibilidade na face medial da tíbia proximal, abaixo da interlinha, que piora ao subir escadas e ao levantar-se da cadeira. É mais frequente em pessoas com artrose do joelho, obesidade ou diabetes e em corredores.\n\nO ponto essencial do diagnóstico diferencial é a localização: a dor do menisco medial fica na interlinha articular; a do ligamento colateral tibial, ao longo do ligamento, do epicôndilo medial do fêmur à tíbia; a da pata de ganso, mais distal e anterior. Os tendões do semitendíneo e do grácil são os mais usados como enxerto na reconstrução do ligamento cruzado anterior, e o ramo infrapatelar do nervo safeno, que cruza a região, pode ser lesado nesse acesso cirúrgico, deixando uma área de dormência anterolateral ao joelho.",
+    "pontos": [
+      "Três tendões: sartório, grácil e semitendíneo (SGT), de anterior para posterior.",
+      "Três compartimentos e três nervos: femoral, obturatório e tibial (isquiático).",
+      "Ação comum no joelho: flexão e rotação medial da tíbia.",
+      "Reforço dinâmico medial contra o valgo e a rotação lateral.",
+      "Bolsa anserina: entre os tendões e o ligamento colateral tibial.",
+      "Dor anserina: abaixo da interlinha articular, na face medial da tíbia.",
+      "Semitendíneo e grácil: enxertos para o ligamento cruzado anterior."
+    ],
+    "estruturas": ["Sartorius muscle", "Gracilis muscle", "Semitendinosus muscle", "Anserine bursa", "Tibia", "Superficial part of tibial collateral ligament", "Femoral nerve", "Obturator nerve", "Sciatic nerve", "Infrapatellar branch of saphenous nerve", "Anterior superior iliac spine", "Ischial tuberosity"],
+    "perguntas": [
+      { "q": "Quais tendões formam a pata de ganso?", "a": "Sartório, grácil e semitendíneo." },
+      { "q": "Qual o nervo de cada músculo da pata de ganso?", "a": "Sartório: nervo femoral. Grácil: nervo obturatório. Semitendíneo: componente tibial do nervo isquiático." },
+      { "q": "Qual a ação comum dos três músculos no joelho?", "a": "Flexão do joelho e rotação medial da tíbia, além de estabilizar a face medial contra o valgo." },
+      { "q": "Onde fica a bolsa anserina?", "a": "Entre os tendões da pata de ganso e o ligamento colateral tibial, na face medial da tíbia proximal." },
+      { "q": "Como diferenciar pela palpação a dor anserina da dor do menisco medial?", "a": "A dor anserina fica alguns centímetros abaixo da interlinha articular, na face anteromedial da tíbia; a dor meniscal fica na própria interlinha." }
+    ]
+  },
+  {
+    "id": "ligamentos-do-joelho",
+    "titulo": "Ligamentos do joelho",
+    "regiao": "joelho",
+    "resumo": "Como as superfícies ósseas do joelho são pouco congruentes, a estabilidade depende de quatro ligamentos principais: dois cruzados, no centro, e dois colaterais, nos lados.",
+    "texto": "Os ligamentos cruzados ficam dentro da cápsula articular, mas fora da cavidade sinovial, e são nomeados pela inserção na tíbia. O ligamento cruzado anterior (LCA) vai da área intercondilar anterior da tíbia à face medial do côndilo lateral do fêmur, subindo para trás e para fora. Impede a translação anterior da tíbia em relação ao fêmur e limita a rotação medial da tíbia e a hiperextensão. O ligamento cruzado posterior (LCP), mais espesso e mais forte, vai da área intercondilar posterior da tíbia à face lateral do côndilo medial do fêmur, e impede a translação posterior da tíbia.\n\nO ligamento colateral tibial (medial) é uma faixa larga e plana, do epicôndilo medial do fêmur à face medial da tíbia; sua parte profunda adere à cápsula e ao menisco medial. Resiste ao valgo e à rotação lateral da tíbia. O ligamento colateral fibular (lateral) é um cordão arredondado, do epicôndilo lateral do fêmur à cabeça da fíbula, separado da cápsula e do menisco lateral pelo tendão do poplíteo; resiste ao varo. Os dois colaterais ficam tensos em extensão e relaxam em flexão, e por isso são testados a 20°–30° de flexão.\n\nA cápsula posterior é reforçada pelos ligamentos poplíteo oblíquo (expansão do semimembranáceo) e poplíteo arqueado. O canto posterolateral — ligamento colateral fibular, tendão do poplíteo e ligamento popliteofibular — controla o varo e a rotação lateral da tíbia.\n\nO LCA é o mais lesado em esportes com giros, saltos e desacelerações. O mecanismo típico é sem contato: joelho próximo da extensão, em valgo, com rotação da tíbia sobre o pé fixo. O paciente relata estalo, derrame rápido (hemartrose em poucas horas) e falseios. A incidência é maior em mulheres atletas. A tríade clássica de O'Donoghue associa lesão do LCA, do colateral tibial e do menisco medial, embora na lesão aguda do LCA a lesão do menisco lateral seja mais frequente. O LCP lesa-se por trauma direto na face anterior da tíbia com o joelho fletido (painel do carro) ou por queda sobre o joelho fletido com o pé em flexão plantar.\n\nTestes: Lachman (o mais sensível para o LCA), gaveta anterior e pivot shift (o mais específico); gaveta posterior e sinal do sag para o LCP; estresse em valgo e em varo para os colaterais. Na reabilitação, lembrar que o quadríceps traciona a tíbia para a frente nos últimos graus de extensão em cadeia aberta, enquanto os isquiotibiais a tracionam para trás, protegendo o LCA e sobrecarregando o LCP. O colateral tibial, extra-articular e bem vascularizado, cicatriza bem com tratamento conservador; o LCA, não.",
+    "pontos": [
+      "LCA: impede a translação anterior da tíbia; insere-se no côndilo lateral do fêmur.",
+      "LCP: impede a translação posterior da tíbia; é o mais forte; insere-se no côndilo medial do fêmur.",
+      "Colateral tibial: resiste ao valgo; aderido ao menisco medial.",
+      "Colateral fibular: resiste ao varo; cordão independente da cápsula.",
+      "Colaterais tensos em extensão; testar a 20–30° de flexão.",
+      "Lesão do LCA: mecanismo sem contato, estalo, hemartrose rápida, falseio.",
+      "Lachman: mais sensível. Pivot shift: mais específico.",
+      "Isquiotibiais protegem o LCA; quadríceps protege o LCP."
+    ],
+    "estruturas": ["Anterior cruciate ligament", "Posterior cruciate ligament", "Superficial part of tibial collateral ligament", "Deep part of tibial collateral ligament", "Fibular collateral ligament", "Oblique popliteal ligament", "Arcuate popliteal ligament", "Popliteofibular ligament", "Popliteus muscle", "Knee joint", "Femur", "Tibia", "Head of fibula", "Intercondylar fossa"],
+    "perguntas": [
+      { "q": "Qual a função principal do ligamento cruzado anterior?", "a": "Impedir a translação anterior da tíbia em relação ao fêmur, além de limitar a rotação medial da tíbia e a hiperextensão." },
+      { "q": "Por que os ligamentos colaterais são testados com o joelho a 20°–30° de flexão?", "a": "Porque em extensão completa a cápsula posterior e os cruzados também estabilizam o joelho; em leve flexão o colateral é isolado." },
+      { "q": "Qual colateral está aderido ao menisco?", "a": "O colateral tibial (medial), cuja parte profunda se prende ao menisco medial." },
+      { "q": "Qual o mecanismo típico de lesão do ligamento cruzado posterior?", "a": "Força dirigida para trás sobre a tíbia proximal com o joelho fletido (trauma no painel do carro ou queda sobre o joelho fletido)." },
+      { "q": "O que sugere um derrame que surge poucas horas após uma entorse do joelho?", "a": "Hemartrose, mais frequentemente por ruptura do ligamento cruzado anterior." },
+      { "q": "Qual grupo muscular atua como sinergista do ligamento cruzado anterior?", "a": "Os isquiotibiais." }
+    ]
+  },
+  {
+    "id": "meniscos",
+    "titulo": "Meniscos",
+    "regiao": "joelho",
+    "resumo": "Duas fibrocartilagens em forma de meia-lua, apoiadas sobre a tíbia, que aumentam a congruência do joelho, distribuem a carga e absorvem impacto.",
+    "texto": "Os côndilos do fêmur são convexos e os planaltos da tíbia, quase planos; os meniscos corrigem essa incongruência. Vistos em corte são cunhas: espessos na periferia, onde se prendem à cápsula, e finos na borda interna, livre. Cada um tem um corno anterior e um posterior, fixados à área intercondilar da tíbia.\n\nO menisco medial é maior, mais aberto, em forma de «C», e mais largo atrás do que na frente. Está firmemente preso à cápsula e à parte profunda do ligamento colateral tibial, o que o torna pouco móvel. O menisco lateral é menor, quase circular, em forma de «O», e de largura uniforme. Não se prende ao ligamento colateral fibular e é separado da cápsula pelo tendão do poplíteo, sendo bem mais móvel. O ligamento transverso do joelho une os cornos anteriores dos dois meniscos.\n\nDurante o movimento, os meniscos acompanham os côndilos do fêmur: deslizam para trás na flexão e para a frente na extensão, e o lateral percorre aproximadamente o dobro da distância do medial. O poplíteo traciona o menisco lateral para trás na flexão, e o semimembranáceo faz o mesmo com o medial. Por ser menos móvel, o menisco medial é lesado com mais frequência, sobretudo no corno posterior.\n\nFunções: os meniscos aumentam a área de contato e transmitem uma grande parte da carga que atravessa o joelho — mais no compartimento lateral do que no medial. As fibras colágenas circunferenciais transformam a compressão em tensão circunferencial (tensão em aro). Também absorvem impacto, auxiliam a lubrificação e a nutrição da cartilagem e contribuem para a estabilidade: o corno posterior do menisco medial é um freio secundário à translação anterior da tíbia. A retirada do menisco diminui a área de contato, aumenta a pressão sobre a cartilagem e acelera a artrose.\n\nA vascularização determina o potencial de cicatrização. Só a periferia recebe vasos (zona vermelha, aproximadamente o terço externo no adulto); a parte interna é avascular (zona branca) e nutre-se pelo líquido sinovial. Lesões periféricas podem cicatrizar e ser suturadas; lesões internas não. As lesões traumáticas ocorrem por rotação com o joelho fletido e o pé apoiado; as degenerativas, comuns após a meia-idade, surgem sem trauma importante e são frequentes mesmo em joelhos sem dor. Sinais: dor na interlinha, derrame de instalação lenta (de um dia para o outro), estalidos e bloqueio verdadeiro da extensão nas lesões em alça de balde. Testes: palpação da interlinha, McMurray, Apley e Thessaly. Nas lesões degenerativas, o exercício terapêutico é o tratamento de primeira escolha.",
+    "pontos": [
+      "Menisco medial: em «C», maior, preso ao colateral tibial, menos móvel, mais lesado.",
+      "Menisco lateral: em «O», mais móvel, separado da cápsula pelo tendão do poplíteo.",
+      "Movem-se para trás na flexão e para a frente na extensão.",
+      "Funções: congruência, transmissão de carga, absorção de impacto, estabilidade, lubrificação.",
+      "Zona vermelha (periférica, vascular) cicatriza; zona branca (interna, avascular) não.",
+      "Meniscectomia aumenta a pressão na cartilagem e o risco de artrose.",
+      "Mecanismo traumático: rotação com o joelho fletido e o pé fixo.",
+      "Bloqueio da extensão: lesão em alça de balde."
+    ],
+    "estruturas": ["Medial meniscus", "Lateral meniscus", "Transverse ligament of knee", "Deep part of tibial collateral ligament", "Popliteus muscle", "Semimembranosus muscle", "Tibia", "Medial condyle of tibia", "Lateral condyle of tibia", "Medial condyle of femur", "Lateral condyle of femur", "Anterior cruciate ligament", "Posterior meniscotibial ligament (Medial meniscus)"],
+    "perguntas": [
+      { "q": "Por que o menisco medial é lesado com mais frequência?", "a": "Porque é menos móvel: está firmemente preso à cápsula e ao ligamento colateral tibial, e escapa menos das forças de compressão e cisalhamento." },
+      { "q": "Qual a forma de cada menisco?", "a": "O medial tem forma de «C» (mais aberto); o lateral, de «O» (quase circular)." },
+      { "q": "Qual parte do menisco tem potencial de cicatrização?", "a": "A periferia vascularizada (zona vermelha, cerca do terço externo)." },
+      { "q": "Para onde os meniscos se movem na flexão do joelho?", "a": "Para trás, acompanhando os côndilos femorais; o lateral desloca-se mais que o medial." },
+      { "q": "Qual a consequência a longo prazo da retirada do menisco?", "a": "Redução da área de contato, aumento da pressão sobre a cartilagem articular e maior risco de artrose." },
+      { "q": "Quais músculos tracionam os meniscos para trás na flexão?", "a": "O poplíteo (menisco lateral) e o semimembranáceo (menisco medial)." }
+    ]
+  }
+]

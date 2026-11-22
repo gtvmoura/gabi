@@ -1,0 +1,303 @@
+[
+  {
+    "key": "First rib",
+    "pt": "Primeira costela",
+    "latim": "Costa prima (costa I)",
+    "tipo": "plano (costela verdadeira, atípica)",
+    "resumo": "A costela mais curta, mais larga e mais curva. Limita a abertura superior do tórax e é cruzada pelos vasos subclávios e pelo tronco inferior do plexo braquial, o que a torna central na síndrome do desfiladeiro torácico.",
+    "descricao": "A primeira costela é atípica. É achatada no plano horizontal, de modo que tem faces superior e inferior e margens interna e externa (as demais têm faces externa e interna). A cabeça tem uma única face articular, para a fóvea costal completa de T1; o colo é arredondado e o tubérculo, proeminente, articula-se com o processo transverso de T1. Não tem ângulo nítido nem sulco da costela.\n\nNa face superior há dois sulcos rasos separados pelo tubérculo do músculo escaleno anterior, onde esse músculo se insere: à frente do tubérculo passa a veia subclávia; atrás dele, a artéria subclávia e o tronco inferior do plexo braquial (C8-T1), em contato direto com o osso. Atrás desse segundo sulco insere-se o escaleno médio. Na margem externa origina-se a primeira digitação do serrátil anterior, e na junção com a cartilagem costal, o músculo subclávio e o ligamento costoclavicular. A face inferior relaciona-se com a pleura; sobre o colo passam o tronco simpático, a artéria intercostal suprema e a raiz T1.\n\nSua cartilagem costal é curta e une-se ao manúbrio por uma sincondrose rígida, sem cavidade sinovial. A primeira costela move-se pouco na respiração tranquila; na inspiração profunda é elevada pelos escalenos, levando consigo o manúbrio (movimento em braço de bomba).",
+    "articulacoes": [
+      "Articulação da cabeça da costela — face articular única com a fóvea costal de T1",
+      "Costotransversária — tubérculo com o processo transverso de T1",
+      "Costocondral — com a primeira cartilagem costal, que se une ao manúbrio por sincondrose (primeira articulação esternocostal)",
+      "Relação com a clavícula pelo ligamento costoclavicular (sem articulação direta)"
+    ],
+    "palpacao": "A maior parte fica escondida atrás da clavícula. O corpo pode ser palpado no fundo da fossa supraclavicular maior, à frente da margem superior do trapézio e atrás da clavícula, pressionando-se para baixo e para dentro: sente-se uma resistência óssea firme, muitas vezes dolorosa. Sua mobilidade é avaliada pedindo-se inspiração profunda ou pelo teste de rotação e inclinação cervical (cervical rotation lateral flexion test).",
+    "clinica": "Síndrome do desfiladeiro torácico: compressão do plexo braquial (principalmente tronco inferior) e/ou dos vasos subclávios no triângulo interescalênico, no espaço costoclavicular (entre a primeira costela e a clavícula) ou sob o peitoral menor. A primeira costela elevada (por hipertonia dos escalenos, padrão respiratório apical) ou uma costela cervical estreitam esses espaços; o tratamento conservador inclui reeducação postural e respiratória, alongamento dos escalenos e do peitoral menor e mobilização da primeira costela. Fratura da primeira costela é rara e indica trauma de alta energia (ou estresse em atletas de arremesso e remo). O tumor de Pancoast (ápice pulmonar) pode invadir a região, com dor no ombro, lesão de C8-T1 e síndrome de Horner."
+  },
+  {
+    "key": "Second rib",
+    "pt": "Segunda costela",
+    "latim": "Costa secunda (costa II)",
+    "tipo": "plano (costela verdadeira, atípica)",
+    "resumo": "Costela atípica, mais fina e quase duas vezes mais longa que a primeira. Sua cartilagem articula-se no ângulo do esterno, o que a torna o ponto de partida para contar as costelas.",
+    "descricao": "A segunda costela tem curvatura semelhante à da primeira, mas é mais longa e menos achatada. A cabeça tem duas faces articulares, para T1 e T2. Sua marca é a tuberosidade do músculo serrátil anterior, uma área rugosa na face externa, onde se origina parte desse músculo; atrás dela insere-se o escaleno posterior.\n\nA segunda cartilagem costal articula-se com o esterno exatamente no nível do ângulo do esterno, em uma articulação com duas cavidades sinoviais separadas por um ligamento intra-articular (com o manúbrio e com o corpo). Como a primeira costela fica escondida pela clavícula, conta-se a partir da segunda: abaixo dela está o segundo espaço intercostal, foco de ausculta aórtico (à direita) e pulmonar (à esquerda).",
+    "articulacoes": [
+      "Articulação da cabeça da costela — com os corpos de T1 e T2 e o disco entre eles",
+      "Costotransversária — tubérculo com o processo transverso de T2",
+      "Costocondral e esternocostal — segunda cartilagem costal com o manúbrio e o corpo do esterno, no ângulo do esterno (sinovial)"
+    ],
+    "palpacao": "Localize o ângulo do esterno (crista transversal cerca de 5 cm abaixo da incisura jugular) e deslize o dedo lateralmente: a cartilagem e a costela contínuas com ele são as segundas. Conte as demais para baixo e para fora, pela linha medioclavicular ou axilar.",
+    "clinica": "A segunda e a terceira articulações esternocostais e costocondrais são as mais acometidas na síndrome de Tietze (costocondrite com tumefação local), causa benigna de dor torácica anterior que deve ser diferenciada de dor cardíaca."
+  },
+  {
+    "key": "Third rib",
+    "pt": "Terceira costela",
+    "latim": "Costa tertia (costa III)",
+    "tipo": "plano (costela verdadeira, típica)",
+    "resumo": "Primeira das costelas típicas (3ª a 9ª) e costela verdadeira: sua cartilagem articula-se diretamente com o corpo do esterno.",
+    "descricao": "Costela típica (veja a sexta costela para a descrição dos acidentes). Nas costelas 3 a 5 origina-se o músculo peitoral menor. Como costela superior, seu movimento predominante na inspiração é o de braço de bomba, que aumenta o diâmetro anteroposterior do tórax.",
+    "articulacoes": [
+      "Cabeça com os corpos de T2 e T3; tubérculo com o processo transverso de T3",
+      "Terceira cartilagem costal com o corpo do esterno (esternocostal, sinovial)"
+    ]
+  },
+  {
+    "key": "Fourth rib",
+    "pt": "Quarta costela",
+    "latim": "Costa quarta (costa IV)",
+    "tipo": "plano (costela verdadeira, típica)",
+    "resumo": "Costela verdadeira e típica. No homem, o mamilo situa-se em geral sobre o quarto espaço intercostal, logo abaixo dela.",
+    "descricao": "Costela típica (veja a sexta costela). Dá origem a fibras do peitoral menor e do serrátil anterior. A fissura horizontal do pulmão direito acompanha aproximadamente a quarta costela e sua cartilagem.",
+    "articulacoes": [
+      "Cabeça com os corpos de T3 e T4; tubérculo com o processo transverso de T4",
+      "Quarta cartilagem costal com o corpo do esterno (esternocostal, sinovial)"
+    ]
+  },
+  {
+    "key": "Fifth rib",
+    "pt": "Quinta costela",
+    "latim": "Costa quinta (costa V)",
+    "tipo": "plano (costela verdadeira, típica)",
+    "resumo": "Costela verdadeira e típica. Abaixo dela, no quinto espaço intercostal esquerdo, na linha medioclavicular, palpa-se o batimento do ápice do coração.",
+    "descricao": "Costela típica (veja a sexta costela). É a mais inferior das origens do peitoral menor e a mais superior das origens do oblíquo externo do abdome (costelas 5 a 12). Na expiração tranquila, a cúpula direita do diafragma sobe até o nível da quinta costela.",
+    "articulacoes": [
+      "Cabeça com os corpos de T4 e T5; tubérculo com o processo transverso de T5",
+      "Quinta cartilagem costal com o corpo do esterno (esternocostal, sinovial)"
+    ]
+  },
+  {
+    "key": "Sixth rib",
+    "pt": "Sexta costela",
+    "latim": "Costa sexta (costa VI)",
+    "tipo": "plano (costela verdadeira, típica)",
+    "resumo": "Costela verdadeira, modelo de costela típica: cabeça com duas faces articulares, colo, tubérculo, ângulo e corpo com sulco da costela. Serve de referência para entender a mecânica respiratória.",
+    "descricao": "Uma costela típica (3ª a 9ª) é um osso plano, longo, curvo e torcido. A extremidade posterior tem a cabeça, em cunha, com duas faces articulares separadas pela crista da cabeça: a inferior, maior, articula-se com a fóvea costal superior da vértebra de mesmo número, e a superior, com a fóvea costal inferior da vértebra de cima; a crista prende-se ao disco pelo ligamento intra-articular. Segue-se o colo e, na junção do colo com o corpo, o tubérculo, que tem uma parte articular, para o processo transverso da vértebra de mesmo número, e uma parte não articular, para o ligamento costotransversário lateral.\n\nO corpo é fino e achatado, com face externa convexa e face interna côncava. Pouco além do tubérculo ele muda bruscamente de direção, no ângulo da costela, que marca o limite lateral dos músculos eretores da espinha (inserção do iliocostal). Na face interna, junto à margem inferior, corre o sulco da costela, que protege o feixe vasculonervoso intercostal, disposto de cima para baixo na ordem veia, artéria, nervo. A extremidade anterior tem uma pequena depressão onde se encaixa a cartilagem costal.\n\nMecânica respiratória: cada costela gira em torno de um eixo que passa pela articulação da cabeça e pela costotransversária, ao longo do colo. Nas costelas superiores (aproximadamente 1ª a 6ª) esse eixo fica mais próximo do plano frontal; a elevação da costela leva sua extremidade anterior e o esterno para cima e para a frente, aumentando o diâmetro anteroposterior do tórax: é o movimento em braço de bomba. Nas costelas inferiores (aproximadamente 7ª a 10ª) o eixo é mais próximo do plano sagital; a elevação desloca a parte média do arco costal para cima e para fora, aumentando o diâmetro transverso: é o movimento em alça de balde. Na verdade as duas componentes existem em todas as costelas, mudando apenas a proporção; a sexta fica na zona de transição. As costelas flutuantes abrem-se para trás e para fora, como as hastes de um compasso (movimento em pinça). A elasticidade das cartilagens costais, torcidas na inspiração, ajuda no retorno expiratório.\n\nNa sexta costela fixam-se, entre outros, o serrátil anterior, o oblíquo externo do abdome e os intercostais; em sua cartilagem, o peitoral maior, o reto do abdome e o diafragma.",
+    "articulacoes": [
+      "Articulação da cabeça da costela — com as fóveas costais dos corpos de T5 e T6 e o disco entre eles; sinovial plana com duas cavidades",
+      "Costotransversária — tubérculo com a fóvea costal do processo transverso de T6; sinovial plana",
+      "Costocondral — com a sexta cartilagem costal (articulação cartilagínea primária)",
+      "Esternocostal — sexta cartilagem costal com o corpo do esterno (sinovial)"
+    ],
+    "acidentes": [
+      { "key": "Angle of rib", "pt": "Ângulo da costela", "nota": "Ponto de maior mudança de curvatura, lateral ao tubérculo; inserção do músculo iliocostal e limite lateral dos eretores da espinha. Palpável no dorso, formando uma linha oblíqua que se afasta da coluna de cima para baixo. As fraturas ocorrem com frequência logo à frente dele, o ponto mais fraco." },
+      { "key": "Articular facet of tubercle of rib", "pt": "Face articular do tubérculo da costela", "nota": "Articula-se com a fóvea costal do processo transverso da vértebra de mesmo número (articulação costotransversária). Convexa nas costelas superiores, que rodam (braço de bomba), e plana nas inferiores, que deslizam (alça de balde)." },
+      { "key": "Articular facets of head of rib", "pt": "Faces articulares da cabeça da costela", "nota": "Duas hemifacetas nas costelas típicas: a inferior para a vértebra de mesmo número e a superior para a vértebra de cima. As costelas 1, 10 (em geral), 11 e 12 têm face única, para uma só vértebra." },
+      { "key": "Body of rib", "pt": "Corpo da costela", "nota": "Parte longa, achatada e curva. Dá origem ou inserção a intercostais, serrátil anterior, oblíquo externo, latíssimo do dorso, serráteis posteriores e diafragma, conforme o nível. Palpável em toda a parede lateral do tórax." },
+      { "key": "Costal groove", "pt": "Sulco da costela", "nota": "Na face interna, junto à margem inferior; aloja veia, artéria e nervo intercostais (de cima para baixo: V-A-N). Por isso a toracocentese e a drenagem torácica são feitas rente à margem superior da costela de baixo." },
+      { "key": "Crest of head of rib", "pt": "Crista da cabeça da costela", "nota": "Separa as duas faces articulares da cabeça e dá fixação ao ligamento intra-articular da cabeça da costela, que a prende ao disco intervertebral." },
+      { "key": "Crest of neck of rib", "pt": "Crista do colo da costela", "nota": "Margem superior afilada do colo; fixação do ligamento costotransversário superior, que vem do processo transverso da vértebra de cima." },
+      { "key": "Head of rib", "pt": "Cabeça da costela", "nota": "Extremidade posterior em cunha; articula-se com os corpos vertebrais e é mantida pelo ligamento radiado da cabeça da costela." },
+      { "key": "Neck of rib", "pt": "Colo da costela", "nota": "Segmento entre a cabeça e o tubérculo, situado à frente do processo transverso. O eixo de rotação da costela na respiração passa ao longo dele; o ligamento costotransversário une-o ao processo transverso." },
+      { "key": "Rib", "pt": "Costela", "nota": "Doze pares: sete verdadeiras (1ª a 7ª), três falsas propriamente ditas (8ª a 10ª) e duas flutuantes (11ª e 12ª). Típicas: 3ª a 9ª; atípicas: 1ª, 2ª, 10ª, 11ª e 12ª." },
+      { "key": "Tubercle of rib", "pt": "Tubérculo da costela", "nota": "Na junção do colo com o corpo. A parte articular une-se ao processo transverso; a parte não articular recebe o ligamento costotransversário lateral. Ausente nas costelas 11 e 12." }
+    ],
+    "palpacao": "Conte a partir da segunda costela (no ângulo do esterno), descendo pela face anterior ou pela linha axilar média, onde as costelas são mais superficiais. Para avaliar a mobilidade, coloque as mãos sobre a parede anterior superior (braço de bomba) e sobre a parede lateral inferior (alça de balde) e acompanhe inspiração e expiração profundas, comparando os lados. Atrás, os ângulos das costelas são palpados lateralmente à massa do eretor da espinha.",
+    "clinica": "Fraturas de costelas atingem mais as costelas médias (5ª a 9ª), por trauma direto ou compressão; causam dor à inspiração, à tosse e à compressão do tórax, levando a respiração superficial, tosse ineficaz e risco de atelectasia e pneumonia: analgesia, exercícios respiratórios e higiene brônquica são centrais na fisioterapia. Tórax instável: fratura de várias costelas contíguas em dois pontos cria um segmento que se move paradoxalmente (para dentro na inspiração). Fraturas das costelas inferiores podem lesar fígado, baço e rim. Fraturas por estresse ocorrem em remadores e por tosse crônica. Em doenças restritivas (espondilite anquilosante, cifoescoliose) e obstrutivas (hiperinsuflação na DPOC, com costelas horizontalizadas), a mobilidade costal diminui, e a cirtometria torácica nos níveis axilar, xifoide e basal ajuda a quantificá-la."
+  },
+  {
+    "key": "Seventh rib",
+    "pt": "Sétima costela",
+    "latim": "Costa septima (costa VII)",
+    "tipo": "plano (costela verdadeira, típica)",
+    "resumo": "Última costela verdadeira e, em geral, a mais longa. Sua cartilagem é a última a alcançar diretamente o esterno, junto à sínfise xifosternal.",
+    "descricao": "Costela típica (veja a sexta costela). As costelas aumentam de comprimento da primeira à sétima e depois diminuem. A sétima cartilagem costal articula-se com o corpo do esterno e o processo xifoide e forma o início do arco costal, recebendo embaixo a oitava cartilagem. A partir desse nível predomina o movimento em alça de balde.",
+    "articulacoes": [
+      "Cabeça com os corpos de T6 e T7; tubérculo com o processo transverso de T7",
+      "Sétima cartilagem costal com o esterno, na junção do corpo com o processo xifoide",
+      "Intercondrais — com as cartilagens 6 e 8"
+    ]
+  },
+  {
+    "key": "Eighth rib",
+    "pt": "Oitava costela",
+    "latim": "Costa octava (costa VIII)",
+    "tipo": "plano (costela falsa, típica)",
+    "resumo": "Primeira costela falsa: sua cartilagem não alcança o esterno, unindo-se à cartilagem da sétima costela para formar o arco costal.",
+    "descricao": "Costela típica na forma (veja a sexta costela), mas falsa na ligação anterior (vertebrocondral). As costelas inferiores movem-se sobretudo em alça de balde, aumentando o diâmetro transverso da base do tórax, onde o diafragma se insere. É a última origem habitual do serrátil anterior.",
+    "articulacoes": [
+      "Cabeça com os corpos de T7 e T8; tubérculo com o processo transverso de T8",
+      "Oitava cartilagem costal com a sétima (articulação intercondral)"
+    ]
+  },
+  {
+    "key": "Ninth rib",
+    "pt": "Nona costela",
+    "latim": "Costa nona (costa IX)",
+    "tipo": "plano (costela falsa, típica)",
+    "resumo": "Costela falsa e a última das típicas. A extremidade de sua cartilagem, no arco costal, marca o plano transpilórico e, à direita, o fundo da vesícula biliar.",
+    "descricao": "Costela típica na forma (veja a sexta costela), com ligação vertebrocondral: sua cartilagem une-se à da oitava. As costelas 9 a 11 protegem o baço, à esquerda, cujo eixo longo acompanha a décima costela. Nas costelas 9 a 12 inserem-se o serrátil posterior inferior e fibras do latíssimo do dorso.",
+    "articulacoes": [
+      "Cabeça com os corpos de T8 e T9; tubérculo com o processo transverso de T9",
+      "Nona cartilagem costal com a oitava (articulação intercondral)"
+    ]
+  },
+  {
+    "key": "Tenth rib",
+    "pt": "Décima costela",
+    "latim": "Costa decima (costa X)",
+    "tipo": "plano (costela falsa, atípica)",
+    "resumo": "Última costela a participar do arco costal. É atípica porque sua cabeça tem, em geral, uma única face articular, só para T10.",
+    "descricao": "A décima costela articula-se, na maioria das vezes, apenas com a vértebra T10 (face articular única na cabeça), e sua articulação costotransversária é pequena ou ausente. A cartilagem une-se à da nona por tecido fibroso, formando o ponto mais baixo do arco costal na frente (o ponto mais baixo da caixa torácica, na linha axilar média, corresponde ao nível de L3).",
+    "articulacoes": [
+      "Cabeça com o corpo de T10 (face única); tubérculo com o processo transverso de T10, de forma inconstante",
+      "Décima cartilagem costal com a nona (união fibrosa ou intercondral)"
+    ],
+    "clinica": "Síndrome da costela deslizante: hipermobilidade da extremidade anterior das cartilagens das costelas 8 a 10, que escorregam sob a costela de cima e irritam o nervo intercostal, causando dor em pontada no rebordo costal; reproduzida pela manobra do gancho."
+  },
+  {
+    "key": "Eleventh rib",
+    "pt": "Décima primeira costela",
+    "latim": "Costa undecima (costa XI)",
+    "tipo": "plano (costela flutuante, atípica)",
+    "resumo": "Costela flutuante: curta, com extremidade anterior livre na musculatura da parede abdominal, sem ligação com o esterno nem com o arco costal.",
+    "descricao": "A décima primeira costela é atípica: a cabeça tem uma só face articular, para T11; não tem colo nem tubérculo definidos (não há articulação costotransversária), e o ângulo e o sulco são pouco marcados. Termina em uma pequena ponta de cartilagem entre os músculos da parede abdominal. Por só se articular com o corpo vertebral, move-se como a haste de um compasso (movimento em pinça), para trás e para fora na inspiração. Nela se fixam o diafragma, os oblíquos externo e interno, o latíssimo do dorso e o serrátil posterior inferior.",
+    "articulacoes": [
+      "Articulação da cabeça da costela — face única com o corpo e o pedículo de T11",
+      "Sem articulação costotransversária e sem ligação anterior ao esterno"
+    ],
+    "palpacao": "Palpe a parede lateral do tronco entre o rebordo costal e a crista ilíaca: a ponta livre da 11ª costela é sentida na linha axilar média, acima da crista."
+  },
+  {
+    "key": "Twelfth rib",
+    "pt": "Décima segunda costela",
+    "latim": "Costa duodecima (costa XII)",
+    "tipo": "plano (costela flutuante, atípica)",
+    "resumo": "Última costela, flutuante, curta e de comprimento muito variável. Dá fixação ao quadrado do lombo e ao diafragma e é referência posterior para o rim e a pleura.",
+    "descricao": "A décima segunda costela tem uma só face articular na cabeça, para T12, e não tem colo, tubérculo, ângulo nem sulco. Pode ser muito curta, a ponto de não ultrapassar a margem lateral do eretor da espinha. Em sua margem inferior insere-se o quadrado do lombo, que a fixa durante a inspiração para dar ao diafragma um ponto de apoio estável; também recebe o ligamento lombocostal, o diafragma, o serrátil posterior inferior, o latíssimo do dorso e os oblíquos.\n\nRelações: a pleura parietal desce abaixo da metade medial da 12ª costela (recesso costodiafragmático), e a face posterior do rim é cruzada por ela (a 12ª costela cruza o rim direito no polo superior e o esquerdo mais abaixo, pois o rim esquerdo é mais alto). O nervo subcostal (T12) corre abaixo dela.",
+    "articulacoes": [
+      "Articulação da cabeça da costela — face única com o corpo e o pedículo de T12",
+      "Sem articulação costotransversária e sem ligação anterior"
+    ],
+    "palpacao": "Em decúbito ventral, palpe lateralmente ao eretor da espinha, entre a crista ilíaca e as costelas inferiores, pressionando para cima e para dentro: a 12ª costela é sentida como uma haste curta e oblíqua. Seguindo-a em direção medial chega-se ao nível de T12.",
+    "clinica": "O ângulo costovertebral, entre a 12ª costela e a coluna, é o local da punho-percussão renal (sinal de Giordano). Em acessos cirúrgicos ao rim, a pleura pode ser lesada se uma 12ª costela curta for confundida com a 11ª. Na respiração, a perda da fixação da 12ª costela pelo quadrado do lombo reduz a eficiência do diafragma; o quadrado do lombo encurtado ou com pontos-gatilho refere dor para a região lombar e a crista ilíaca."
+  },
+  {
+    "key": "Manubrium of sternum",
+    "pt": "Manúbrio do esterno",
+    "latim": "Manubrium sterni",
+    "tipo": "plano",
+    "resumo": "Parte superior do esterno, larga e espessa. Articula-se com as clavículas, sendo o único ponto de união óssea do membro superior ao esqueleto axial, e com as duas primeiras costelas.",
+    "descricao": "O manúbrio tem forma aproximadamente trapezoidal e fica no nível de T3 e T4. Sua margem superior apresenta, no centro, a incisura jugular (supraesternal), palpável entre as extremidades mediais das clavículas e projetada no nível de T2-T3, e de cada lado a incisura clavicular, que recebe a extremidade esternal da clavícula. Logo abaixo, na margem lateral, a primeira cartilagem costal une-se ao manúbrio por sincondrose; mais abaixo, uma hemifaceta recebe a parte superior da segunda cartilagem costal.\n\nO manúbrio une-se ao corpo do esterno na sínfise manubriosternal, que forma um ângulo saliente para a frente, o ângulo do esterno. Essa articulação conserva pequena mobilidade (alguns graus) durante a respiração, permitindo que o corpo do esterno se projete para a frente na inspiração.\n\nNa face anterior originam-se a cabeça esternal do esternocleidomastóideo e parte do peitoral maior; na face posterior, os músculos esterno-hióideo e esternotireóideo. Atrás do manúbrio estão o arco da aorta e seus ramos, as veias braquiocefálicas e, na criança, o timo.",
+    "articulacoes": [
+      "Esternoclavicular (par) — incisura clavicular e primeira cartilagem costal com a extremidade esternal da clavícula; sinovial selar com disco articular",
+      "Primeira esternocostal (par) — sincondrose com a primeira cartilagem costal",
+      "Segunda esternocostal (par) — hemifaceta para a segunda cartilagem costal, no ângulo do esterno; sinovial",
+      "Sínfise manubriosternal — com o corpo do esterno"
+    ],
+    "acidentes": [
+      { "key": "Clavicular notch", "pt": "Incisura clavicular", "nota": "Faceta oval, côncava, de cada lado da incisura jugular; articula-se com a extremidade esternal da clavícula (articulação esternoclavicular), palpável e visível como saliência na base do pescoço." },
+      { "key": "Manubrium of sternum", "pt": "Manúbrio do esterno", "nota": "Sua margem superior tem a incisura jugular (nível de T2-T3), referência para localizar a traqueia e as articulações esternoclaviculares." }
+    ],
+    "palpacao": "Palpe a incisura jugular, a depressão entre as duas clavículas; de cada lado sente-se a articulação esternoclavicular, cujo movimento é percebido ao elevar, deprimir, protrair e retrair o ombro. Descendo cerca de 5 cm pela linha mediana encontra-se a crista do ângulo do esterno.",
+    "clinica": "A articulação esternoclavicular pode sofrer entorse e luxação; a luxação posterior é rara, mas grave, pela proximidade da traqueia e dos grandes vasos. Na inspiração, o manúbrio é elevado pelos escalenos (via primeira e segunda costelas) e pelo esternocleidomastóideo; o uso visível dessa musculatura em repouso indica aumento do trabalho respiratório."
+  },
+  {
+    "key": "Body of sternum",
+    "pt": "Corpo do esterno",
+    "latim": "Corpus sterni",
+    "tipo": "plano",
+    "resumo": "Parte média e mais longa do esterno. Recebe as cartilagens das costelas 2 a 7 e, com o manúbrio, forma o ângulo do esterno, a principal referência de superfície do tórax.",
+    "descricao": "O esterno é um osso plano, mediano, formado por manúbrio, corpo e processo xifoide; fecha a caixa torácica na frente e protege o coração e os grandes vasos. O corpo é mais longo, mais fino e mais estreito que o manúbrio e fica no nível de T5 a T9. Resulta da fusão de quatro segmentos (estérnebras), cujos limites podem aparecer como três cristas transversas na face anterior. Nas margens laterais estão as incisuras costais para as cartilagens da 2ª (metade inferior) à 7ª costela.\n\nEm cima, une-se ao manúbrio na sínfise manubriosternal, formando o ângulo do esterno (de Louis); embaixo, ao processo xifoide na sínfise xifosternal, no nível de T9. Na face anterior origina-se a parte esternocostal do peitoral maior; na face posterior, o músculo transverso do tórax. Sua medula óssea vermelha persiste por toda a vida.\n\nNa inspiração, a elevação das costelas superiores leva o esterno para cima e para a frente (movimento em braço de bomba), aumentando o diâmetro anteroposterior do tórax; como a extremidade inferior do corpo se desloca mais que o manúbrio, o ângulo do esterno se modifica levemente a cada respiração.",
+    "articulacoes": [
+      "Sínfise manubriosternal — com o manúbrio (ângulo do esterno)",
+      "Sínfise xifosternal — com o processo xifoide",
+      "Esternocostais 2 a 7 (pares) — com as cartilagens costais; sinoviais planas"
+    ],
+    "acidentes": [
+      { "key": "Costal notches", "pt": "Incisuras costais", "nota": "Depressões nas margens laterais do esterno que recebem as cartilagens costais: a 1ª no manúbrio, a 2ª no ângulo do esterno (metade no manúbrio, metade no corpo), a 3ª à 6ª no corpo e a 7ª na junção do corpo com o processo xifoide. As articulações esternocostais 2 a 7 são sinoviais e podem ser fonte de dor (costocondrite)." },
+      { "key": "Sternal angle", "pt": "Ângulo do esterno", "nota": "Ângulo de Louis: crista transversal palpável na sínfise manubriosternal. Marca a segunda cartilagem costal (ponto de partida para contar costelas e espaços intercostais) e o plano que passa pelo disco T4-T5, onde estão a bifurcação da traqueia, o início e o fim do arco da aorta e o limite entre mediastino superior e inferior." },
+      { "key": "Sternum", "pt": "Esterno", "nota": "Osso plano mediano da parede anterior do tórax, formado por manúbrio, corpo e processo xifoide. Subcutâneo e palpável em toda a extensão." }
+    ],
+    "palpacao": "Totalmente subcutâneo na linha mediana, entre as origens dos dois peitorais maiores. Identifique o ângulo do esterno como uma crista transversal e, lateralmente a ele, a segunda cartilagem costal; desça pelo corpo até a depressão epigástrica, onde começa o processo xifoide. As articulações esternocostais são palpadas na margem lateral do corpo, e a dor à pressão nelas sugere costocondrite.",
+    "clinica": "Na reanimação cardiopulmonar, as compressões são aplicadas sobre a metade inferior do esterno, evitando o processo xifoide. A esternotomia mediana é o acesso habitual da cirurgia cardíaca: no pós-operatório, a fisioterapia respeita as precauções esternais (evitar esforços assimétricos e cargas elevadas com os membros superiores, apoiar o tórax ao tossir) até a consolidação, em geral de 6 a 8 semanas. Fraturas do esterno ocorrem por impacto contra o volante ou o cinto de segurança. Deformidades: peito escavado (pectus excavatum, esterno deprimido) e peito carinado (pectus carinatum, esterno projetado). O esterno é local de punção para coleta de medula óssea."
+  },
+  {
+    "key": "Xiphoid process",
+    "pt": "Processo xifoide",
+    "latim": "Processus xiphoideus",
+    "tipo": "plano",
+    "sinonimos": ["apêndice xifoide"],
+    "resumo": "Parte inferior, menor e mais variável do esterno. Cartilagíneo no jovem, ossifica-se na vida adulta; serve de fixação ao diafragma, ao reto do abdome e à linha alba.",
+    "descricao": "O processo xifoide é uma lâmina fina e alongada, de forma variável (pontiaguda, romba, bífida, perfurada ou curva), situada no nível de T10. É cartilagem hialina na infância e na juventude, começa a ossificar-se na vida adulta e funde-se ao corpo do esterno em idade avançada. Fica na fossa epigástrica, no vértice do ângulo infraesternal, formado pelos dois arcos costais.\n\nNele se fixam a linha alba e a aponeurose dos músculos abdominais, fibras do reto do abdome (face anterior) e a parte esternal do diafragma e do transverso do tórax (face posterior). A sínfise xifosternal marca o limite inferior da cavidade torácica na frente, o nível da face superior do fígado, do centro tendíneo do diafragma e da margem inferior do coração.",
+    "articulacoes": [
+      "Sínfise xifosternal — com o corpo do esterno, no nível de T9; ossifica-se com a idade",
+      "Sétima cartilagem costal — articula-se em parte com o processo xifoide"
+    ],
+    "acidentes": [
+      { "key": "Xiphoid process", "pt": "Processo xifoide", "nota": "Palpável na depressão epigástrica, abaixo do corpo do esterno. Referência para a cirtometria torácica (nível xifoide) e para o posicionamento das mãos na reanimação cardiopulmonar (acima dele)." }
+    ],
+    "palpacao": "Deslize o dedo pelo corpo do esterno até a sínfise xifosternal, onde os dois arcos costais se encontram; logo abaixo, na fossa epigástrica, sente-se a ponta do processo xifoide, que cede levemente à pressão. A palpação deve ser suave, pois é desconfortável.",
+    "clinica": "Pressão forte ou compressões torácicas mal posicionadas podem fraturar o processo xifoide e lesar o fígado. Em adultos, a ossificação pode gerar um nódulo epigástrico endurecido, às vezes confundido com tumor. Xifoidalgia é dor localizada reproduzida pela palpação. O ângulo infraesternal aumenta na inspiração e é observado na avaliação do padrão respiratório."
+  },
+  {
+    "key": "Costal cartilage of first rib",
+    "pt": "Cartilagem costal da primeira costela",
+    "latim": "Cartilago costalis I",
+    "tipo": "cartilagem hialina",
+    "resumo": "Curta e espessa, une a primeira costela ao manúbrio por sincondrose, sem cavidade sinovial, o que torna essa união rígida. Dá fixação ao ligamento costoclavicular e ao músculo subclávio e costuma calcificar-se cedo."
+  },
+  {
+    "key": "Costal cartilage of second rib",
+    "pt": "Cartilagem costal da segunda costela",
+    "latim": "Cartilago costalis II",
+    "tipo": "cartilagem hialina",
+    "resumo": "Articula-se com o esterno no ângulo do esterno, em uma articulação sinovial com duas cavidades (com o manúbrio e com o corpo). É a referência palpável para iniciar a contagem das costelas e local frequente da síndrome de Tietze."
+  },
+  {
+    "key": "Costal cartilage of third rib",
+    "pt": "Cartilagem costal da terceira costela",
+    "latim": "Cartilago costalis III",
+    "tipo": "cartilagem hialina",
+    "resumo": "Une a terceira costela ao corpo do esterno por articulação esternocostal sinovial. Como as demais cartilagens costais, dá elasticidade à parede torácica e origem a fibras do peitoral maior."
+  },
+  {
+    "key": "Costal cartilage of fourth rib",
+    "pt": "Cartilagem costal da quarta costela",
+    "latim": "Cartilago costalis IV",
+    "tipo": "cartilagem hialina",
+    "resumo": "Une a quarta costela ao corpo do esterno por articulação esternocostal sinovial; as cartilagens 2 a 5 são as mais acometidas pela costocondrite."
+  },
+  {
+    "key": "Costal cartilage of fifth rib",
+    "pt": "Cartilagem costal da quinta costela",
+    "latim": "Cartilago costalis V",
+    "tipo": "cartilagem hialina",
+    "resumo": "Une a quinta costela ao corpo do esterno; a partir dela as cartilagens tornam-se mais longas e oblíquas para cima. Com as cartilagens 6 e 7, dá inserção ao músculo reto do abdome."
+  },
+  {
+    "key": "Costal cartilage of sixth rib",
+    "pt": "Cartilagem costal da sexta costela",
+    "latim": "Cartilago costalis VI",
+    "tipo": "cartilagem hialina",
+    "resumo": "Une a sexta costela à parte inferior do corpo do esterno e articula-se com a sétima cartilagem por articulação intercondral. Dá inserção ao reto do abdome e origem a fibras do peitoral maior e do diafragma."
+  },
+  {
+    "key": "Costal cartilage of seventh rib",
+    "pt": "Cartilagem costal da sétima costela",
+    "latim": "Cartilago costalis VII",
+    "tipo": "cartilagem hialina",
+    "resumo": "A mais longa das cartilagens que alcançam o esterno e a última a fazê-lo, na junção do corpo com o processo xifoide. Inicia o arco costal e articula-se com as cartilagens 6 e 8 (articulações intercondrais)."
+  },
+  {
+    "key": "Costal cartilage of eighth rib",
+    "pt": "Cartilagem costal da oitava costela",
+    "latim": "Cartilago costalis VIII",
+    "tipo": "cartilagem hialina",
+    "resumo": "Não alcança o esterno: une-se à margem inferior da sétima cartilagem, participando do arco costal (costela falsa, vertebrocondral)."
+  },
+  {
+    "key": "Costal cartilage of ninth rib",
+    "pt": "Cartilagem costal da nona costela",
+    "latim": "Cartilago costalis IX",
+    "tipo": "cartilagem hialina",
+    "resumo": "Une-se à oitava cartilagem no arco costal. Sua extremidade, na linha medioclavicular, marca o plano transpilórico (L1) e, à direita, a projeção do fundo da vesícula biliar."
+  },
+  {
+    "key": "Costal cartilage of tenth rib",
+    "pt": "Cartilagem costal da décima costela",
+    "latim": "Cartilago costalis X",
+    "tipo": "cartilagem hialina",
+    "resumo": "Une-se à nona cartilagem por tecido fibroso e completa o arco costal. Essa união frouxa explica a síndrome da costela deslizante, em que a extremidade da cartilagem se subluxa e irrita o nervo intercostal."
+  }
+]

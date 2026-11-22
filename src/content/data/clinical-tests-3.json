@@ -1,0 +1,156 @@
+[
+  {
+    "id": "spurling",
+    "nome": "Teste de Spurling",
+    "art": "cervical",
+    "objetivo": "Investigar radiculopatia cervical por compressão de raiz nervosa no forame intervertebral.",
+    "estruturas": ["Cervical nerves", "Roots of brachial plexus", "Intervertebral disc C5-C6", "Intervertebral disc C6-C7", "Zygapophysial joints", "Uncovertebral joints"],
+    "posicao": "Sentado, coluna ereta.",
+    "execucao": "O examinador inclina a cabeça do paciente para o lado sintomático (podendo associar leve extensão e rotação para o mesmo lado) e aplica compressão axial sobre o topo da cabeça. Recomenda-se progredir por etapas: primeiro compressão em posição neutra, depois com inclinação.",
+    "positivo": "Reprodução da dor irradiada ou das parestesias no membro superior, no dermátomo da raiz acometida. Dor apenas no pescoço não caracteriza teste positivo.",
+    "observacao": "Alta especificidade e sensibilidade baixa a moderada: um teste positivo fortalece a hipótese, um negativo não a exclui. Faz parte do conjunto de Wainner para radiculopatia cervical (Spurling, distração, ULTT 1 e rotação cervical menor que 60° para o lado afetado). Não realizar se houver suspeita de instabilidade, fratura ou mielopatia."
+  },
+  {
+    "id": "distracao-cervical",
+    "nome": "Teste de distração cervical",
+    "art": "cervical",
+    "objetivo": "Verificar se a tração da coluna cervical alivia sintomas radiculares, sugerindo compressão foraminal.",
+    "estruturas": ["Cervical nerves", "Roots of brachial plexus", "Zygapophysial joints", "Cervical vertebrae", "Intervertebral disc C5-C6"],
+    "posicao": "Decúbito dorsal (ou sentado), pescoço em posição confortável, com leve flexão.",
+    "execucao": "O examinador segura o occipital com uma mão e o mento (ou a fronte) com a outra e aplica tração axial suave e progressiva.",
+    "positivo": "Redução ou abolição dos sintomas do membro superior durante a tração.",
+    "observacao": "Alta especificidade para radiculopatia cervical; integra o conjunto de Wainner. Um resultado positivo também sugere boa resposta à tração como recurso terapêutico. Aumento da dor cervical com a tração pode indicar lesão ligamentar ou muscular."
+  },
+  {
+    "id": "compressao-cervical",
+    "nome": "Teste de compressão cervical (compressão foraminal em posição neutra)",
+    "art": "cervical",
+    "objetivo": "Verificar se a carga axial reproduz sintomas radiculares ou dor articular cervical.",
+    "estruturas": ["Cervical vertebrae", "Cervical nerves", "Zygapophysial joints", "Intervertebral disc C4-C5", "Intervertebral disc C5-C6", "Intervertebral disc C6-C7"],
+    "posicao": "Sentado, cabeça em posição neutra.",
+    "execucao": "O examinador, atrás do paciente, entrelaça as mãos sobre o topo da cabeça e aplica compressão axial progressiva. Na variante de Jackson, a compressão é feita com a cabeça rodada para cada lado.",
+    "positivo": "Reprodução de dor irradiada ou parestesia no membro superior (radicular). Dor cervical localizada sugere origem articular (facetária) ou discal, sem compromisso de raiz.",
+    "observacao": "É a primeira etapa da progressão do teste de Spurling. Contraindicado na suspeita de fratura, instabilidade ou mielopatia."
+  },
+  {
+    "id": "ultt1-mediano",
+    "nome": "Teste de tensão neural do membro superior 1 (ULTT 1 – nervo mediano)",
+    "art": "cervical",
+    "objetivo": "Avaliar a mecanossensibilidade do nervo mediano, do plexo braquial e das raízes cervicais (principalmente C5–C7).",
+    "estruturas": ["Median nerve", "Brachial plexus", "Roots of brachial plexus", "Cervical nerves", "Anterior interosseous nerve of forearm"],
+    "posicao": "Decúbito dorsal, sem travesseiro, próximo à borda da maca.",
+    "execucao": "Em sequência: estabilização (depressão) da cintura escapular; abdução do ombro até cerca de 110°; supinação do antebraço com extensão de punho e dedos; rotação lateral do ombro; extensão do cotovelo. Manobras de sensibilização: inclinação cervical contralateral (aumenta a tensão) e ipsilateral (alivia).",
+    "positivo": "Reprodução dos sintomas do paciente, diferença de amplitude de extensão do cotovelo entre os lados (classicamente maior que 10°) e modificação dos sintomas com a diferenciação estrutural (inclinação cervical ou liberação da depressão escapular).",
+    "observacao": "Estiramento na fossa cubital e formigamento nos três primeiros dedos são respostas normais; o teste só é positivo se reproduzir a queixa e mudar com a diferenciação. Muito sensível para radiculopatia cervical: um ULTT 1 negativo ajuda a excluí-la (conjunto de Wainner)."
+  },
+  {
+    "id": "ultt-radial",
+    "nome": "Teste de tensão neural do membro superior – nervo radial (ULTT 2b)",
+    "art": "cervical",
+    "objetivo": "Avaliar a mecanossensibilidade do nervo radial e de suas raízes.",
+    "estruturas": ["Radial nerve", "Posterior interosseous nerve of forearm", "Superficial branch of radial nerve", "Posterior cord of brachial plexus", "Brachial plexus"],
+    "posicao": "Decúbito dorsal, em diagonal na maca, com o ombro para fora da borda.",
+    "execucao": "Em sequência: depressão da cintura escapular (com a coxa do examinador); extensão do cotovelo; rotação medial do ombro com pronação do antebraço; flexão do punho, dos dedos e do polegar, com desvio ulnar; por fim, abdução do ombro. Sensibilização com inclinação cervical contralateral.",
+    "positivo": "Reprodução dos sintomas (face lateral do cotovelo, dorso do antebraço e da mão) que se modifica com a inclinação cervical ou com a liberação da depressão escapular.",
+    "observacao": "Útil na diferenciação entre epicondilalgia lateral de origem tendínea e dor de origem neural (síndrome do túnel radial, radiculopatia C6–C7). Comparar sempre com o lado assintomático."
+  },
+  {
+    "id": "ultt-ulnar",
+    "nome": "Teste de tensão neural do membro superior – nervo ulnar (ULTT 3)",
+    "art": "cervical",
+    "objetivo": "Avaliar a mecanossensibilidade do nervo ulnar e das raízes C8–T1.",
+    "estruturas": ["Ulnar nerve", "Inferior trunk of brachial plexus", "Brachial plexus", "Deep branch of ulnar nerve", "Superficial branch of ulnar nerve"],
+    "posicao": "Decúbito dorsal, próximo à borda da maca.",
+    "execucao": "Em sequência: extensão do punho e dos dedos com pronação do antebraço; flexão completa do cotovelo; depressão da cintura escapular; rotação lateral e abdução do ombro, levando a palma da mão em direção à orelha. Sensibilização com inclinação cervical contralateral.",
+    "positivo": "Reprodução dos sintomas na borda ulnar do antebraço e da mão (quarto e quinto dedos), modificada pela diferenciação estrutural.",
+    "observacao": "Pode ser positivo na síndrome do túnel cubital, na síndrome do desfiladeiro torácico (tronco inferior) e na radiculopatia C8."
+  },
+  {
+    "id": "adson",
+    "nome": "Teste de Adson",
+    "art": "cervical",
+    "objetivo": "Investigar compressão da artéria subclávia e do plexo braquial no triângulo interescalênico (síndrome do desfiladeiro torácico).",
+    "estruturas": ["Scalenus anterior muscle", "Scalenus medius muscle", "First rib", "Right subclavian artery", "Left subclavian artery", "Brachial plexus", "Radial artery"],
+    "posicao": "Sentado, braço ao lado do corpo, com o examinador palpando o pulso radial.",
+    "execucao": "O paciente estende o pescoço, roda a cabeça para o lado testado, faz uma inspiração profunda e a sustenta. O examinador mantém a palpação do pulso radial, com o ombro em leve extensão e rotação lateral.",
+    "positivo": "Diminuição acentuada ou desaparecimento do pulso radial com reprodução dos sintomas (dor, parestesia, sensação de peso no membro).",
+    "observacao": "A redução isolada do pulso é frequente em pessoas assintomáticas, o que gera muitos falso-positivos; valorizar apenas a reprodução dos sintomas. Nenhum teste isolado confirma síndrome do desfiladeiro torácico."
+  },
+  {
+    "id": "roos",
+    "nome": "Teste de Roos (teste de estresse com os braços elevados – EAST)",
+    "art": "cervical",
+    "objetivo": "Investigar síndrome do desfiladeiro torácico (neurogênica ou vascular).",
+    "estruturas": ["Brachial plexus", "Inferior trunk of brachial plexus", "Axillary artery", "Clavicle", "First rib", "Pectoralis minor muscle", "Scalenus anterior muscle"],
+    "posicao": "Sentado ou em pé, ombros a 90° de abdução e rotação lateral, cotovelos fletidos a 90°, levemente atrás do plano frontal.",
+    "execucao": "O paciente abre e fecha as mãos lentamente, mantendo a posição por até 3 minutos.",
+    "positivo": "Reprodução dos sintomas habituais (dor, peso, parestesia progressiva, palidez) ou incapacidade de manter os braços na posição até o fim do teste.",
+    "observacao": "Fadiga leve dos ombros é normal e não caracteriza positividade. Como os demais testes para desfiladeiro torácico, apresenta muitos falso-positivos, inclusive em pessoas com síndrome do túnel do carpo."
+  },
+  {
+    "id": "wright",
+    "nome": "Teste de Wright (hiperabdução)",
+    "art": "cervical",
+    "objetivo": "Investigar compressão do feixe neurovascular sob o músculo peitoral menor e o processo coracoide (espaço retropeitoral menor).",
+    "estruturas": ["Pectoralis minor muscle", "Coracoid process", "Axillary artery", "Brachial plexus", "Radial artery"],
+    "posicao": "Sentado, com o examinador palpando o pulso radial.",
+    "execucao": "O examinador conduz passivamente o braço em hiperabdução com rotação lateral, cotovelo fletido, mantendo a posição por 1 a 2 minutos enquanto palpa o pulso radial. Pode-se pedir inspiração profunda.",
+    "positivo": "Diminuição do pulso radial acompanhada de reprodução dos sintomas neurológicos ou vasculares.",
+    "observacao": "A obliteração do pulso sem sintomas é comum em indivíduos normais. Complementar com avaliação do comprimento do peitoral menor e da postura da cintura escapular."
+  },
+  {
+    "id": "flexao-craniocervical",
+    "nome": "Teste de flexão craniocervical",
+    "art": "cervical",
+    "objetivo": "Avaliar a ativação e a resistência dos flexores cervicais profundos.",
+    "estruturas": ["Longus colli muscle", "Longus capitis muscle", "Rectus anterior capitis muscle", "Sternocleidomastoid muscle", "Scalenus anterior muscle"],
+    "posicao": "Decúbito dorsal, joelhos fletidos, cabeça em posição neutra, com uma unidade de biofeedback pressórico insuflada a 20 mmHg sob a região suboccipital.",
+    "execucao": "O paciente realiza um aceno lento de «sim» com a cabeça (flexão craniocervical), sem levantá-la da maca, aumentando a pressão em cinco estágios de 2 mmHg (22 a 30 mmHg) e sustentando cada um por 10 segundos. O examinador observa e palpa o esternocleidomastóideo e os escalenos.",
+    "positivo": "Incapacidade de atingir ou sustentar os níveis de pressão, movimento em retração em vez de aceno, ou uso excessivo dos flexores superficiais (esternocleidomastóideo, escalenos).",
+    "observacao": "Desenvolvido por Jull e colaboradores. Desempenho reduzido é descrito em cervicalgia e cefaleia cervicogênica. É um teste de controle motor, não de força máxima."
+  },
+  {
+    "id": "arteria-vertebral",
+    "nome": "Teste da artéria vertebral (insuficiência vertebrobasilar)",
+    "art": "cervical",
+    "objetivo": "Pesquisar sinais de insuficiência do fluxo vertebrobasilar antes de técnicas em fim de amplitude da coluna cervical.",
+    "estruturas": ["Vertebral artery", "Basilar artery", "Atlas (C1)", "Axis (C2)", "Lateral atlanto-axial joint"],
+    "posicao": "Sentado ou em decúbito dorsal, olhos abertos.",
+    "execucao": "O examinador conduz a cabeça em rotação máxima sustentada para um lado e depois para o outro (alguns protocolos associam extensão), mantendo cada posição por pelo menos 10 segundos, com intervalo entre elas. O paciente é mantido falando ou contando, e observam-se os olhos.",
+    "positivo": "Tontura, náusea, nistagmo, alterações visuais ou diplopia, disartria, disfagia, dormência perioral ou sensação de desmaio.",
+    "observacao": "Tem baixa sensibilidade: um teste negativo não garante segurança. As diretrizes atuais priorizam a história clínica e a triagem de fatores de risco vascular. Interromper imediatamente ao primeiro sintoma."
+  },
+  {
+    "id": "sharp-purser",
+    "nome": "Teste de Sharp-Purser",
+    "art": "cervical",
+    "objetivo": "Investigar instabilidade atlantoaxial por insuficiência do ligamento transverso do atlas.",
+    "estruturas": ["Atlas (C1)", "Axis (C2)", "Dens axis", "Median atlanto-axial joint", "Spinal cord"],
+    "posicao": "Sentado, cabeça em leve flexão.",
+    "execucao": "O examinador estabiliza o processo espinhoso do áxis com uma pinça de polegar e indicador e apoia a outra mão na fronte do paciente, aplicando uma força suave em direção posterior sobre a cabeça.",
+    "positivo": "Deslizamento posterior da cabeça com sensação de ressalto e/ou alívio dos sintomas que surgiram na flexão (o atlas, subluxado anteriormente, reduz-se).",
+    "observacao": "É um teste de redução, e não de provocação. Realizar com extremo cuidado em quem tem fatores de risco para instabilidade cervical alta (artrite reumatoide, síndrome de Down, trauma). Na presença de sinais medulares, não testar e encaminhar."
+  },
+  {
+    "id": "flexao-rotacao-cervical",
+    "nome": "Teste de flexão-rotação cervical",
+    "art": "cervical",
+    "objetivo": "Avaliar a mobilidade rotacional de C1–C2, na suspeita de cefaleia cervicogênica.",
+    "estruturas": ["Atlas (C1)", "Axis (C2)", "Lateral atlanto-axial joint", "Median atlanto-axial joint", "Obliquus inferior capitis muscle"],
+    "posicao": "Decúbito dorsal.",
+    "execucao": "O examinador conduz passivamente a coluna cervical à flexão máxima (o que limita o movimento dos segmentos abaixo de C2) e, mantendo a flexão, roda a cabeça para a direita e para a esquerda.",
+    "positivo": "Rotação limitada para um dos lados (a amplitude normal nessa posição é de aproximadamente 40°–45° para cada lado; considera-se positiva uma redução de cerca de 10° ou mais), com sensação final firme e, muitas vezes, reprodução da cefaleia.",
+    "observacao": "Descrito por Hall e Robinson, com boa acurácia para disfunção de C1–C2 na cefaleia cervicogênica. Não realizar na suspeita de instabilidade cervical alta."
+  },
+  {
+    "id": "abertura-funcional-atm",
+    "nome": "Teste de abertura funcional da boca (teste das articulações dos dedos)",
+    "art": "atm",
+    "objetivo": "Triar rapidamente a amplitude funcional de abertura da boca e observar desvios da mandíbula.",
+    "estruturas": ["Temporomandibular joint", "Articular disc of temporomandibular joint", "Mandible", "Superficial part of masseter", "Temporalis muscle", "Inferior head of lateral pterygoid muscle"],
+    "posicao": "Sentado, cabeça em posição neutra.",
+    "execucao": "O paciente abre a boca ao máximo e tenta colocar, entre os incisivos superiores e inferiores, as articulações interfalângicas proximais fletidas de dois ou três dedos da mão não dominante. O examinador observa de frente a trajetória da mandíbula e palpa as articulações temporomandibulares.",
+    "positivo": "Abertura que não acomoda ao menos duas articulações dos dedos indica hipomobilidade (a abertura funcional acomoda duas a três; em medida direta, cerca de 35 a 50 mm é considerado funcional). Um desvio em «C» para um lado sugere hipomobilidade daquele lado; um desvio em «S» sugere desequilíbrio muscular ou deslocamento do disco com redução.",
+    "observacao": "Registrar também estalidos, crepitação e dor. Na abertura, os primeiros graus ocorrem por rotação do côndilo (compartimento inferior) e o restante por translação anterior do côndilo e do disco (compartimento superior)."
+  }
+]

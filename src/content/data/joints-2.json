@@ -1,0 +1,839 @@
+{
+ "articulacoes": [
+  {
+   "key": "Hip joint",
+   "pt": "Articulação do quadril (coxofemoral)",
+   "art": "quadril",
+   "tipo": "Sinovial esferoide (triaxial)",
+   "graus": 3,
+   "resumo": "Articulação entre a cabeça do fêmur e o acetábulo do osso do quadril. Combina grande mobilidade com muita estabilidade, pois precisa sustentar o peso do corpo: no apoio unipodal da marcha, a força sobre ela chega a cerca de 2,5 a 3 vezes o peso corporal.",
+   "superficies": "Cabeça do fêmur (cerca de dois terços de esfera, com a fóvea para o ligamento da cabeça) e face semilunar do acetábulo, em ferradura, ampliada pelo lábio do acetábulo; a fossa do acetábulo, central, não é articular. O colo do fêmur forma com a diáfise o ângulo de inclinação (cerca de 125° no adulto; maior = coxa valga, menor = coxa vara) e o ângulo de anteversão (cerca de 12–15°).",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–125°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Com o joelho fletido (Marques: 0–125°; AAOS: 0–120°). Com o joelho estendido, os isquiotibiais limitam a cerca de 90°. Sensação final macia (coxa contra o abdome)."
+    },
+    {
+     "mov": "extensao",
+     "adm": "0–10°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–10°; AAOS: 0–30° (o valor maior inclui movimento da pelve e da coluna lombar). Limitada pelo ligamento iliofemoral e pelos flexores do quadril."
+    },
+    {
+     "mov": "abducao",
+     "adm": "0–45°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Limitada pelo ligamento pubofemoral e pelos adutores."
+    },
+    {
+     "mov": "aducao",
+     "adm": "0–15°",
+     "plano": "frontal",
+     "eixo": "anteroposterior",
+     "nota": "Marques: 0–15°; AAOS: 0–30°. Limitada pela parte transversa do ligamento iliofemoral e pelo trato iliotibial."
+    },
+    {
+     "mov": "rot_medial",
+     "adm": "0–45°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Medida sentado ou em decúbito, com quadril e joelho a 90°. Limitada pelo ligamento isquiofemoral e pelos rotadores laterais. É, com frequência, o primeiro movimento perdido na artrose."
+    },
+    {
+     "mov": "rot_lateral",
+     "adm": "0–45°",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Limitada pelos ligamentos iliofemoral e pubofemoral."
+    },
+    {
+     "mov": "circunducao",
+     "adm": "combinação dos anteriores",
+     "plano": "vários planos",
+     "eixo": "vários eixos"
+    }
+   ],
+   "estabilidade": "Estática: encaixe ósseo profundo, lábio do acetábulo (que sela a articulação e mantém pressão negativa), cápsula espessa e os três ligamentos capsulares – iliofemoral, pubofemoral e isquiofemoral –, que se enrolam e ficam tensos na extensão. Em pé, com o quadril em extensão, o ligamento iliofemoral sustenta o tronco com pouco gasto muscular.\n\nDinâmica: glúteo médio e mínimo (estabilizam a pelve no plano frontal durante o apoio unipodal), rotadores laterais profundos, iliopsoas, glúteo máximo e adutores.",
+   "posicaoRepouso": "30° de flexão, 30° de abdução e leve rotação lateral.",
+   "posicaoFechada": "Extensão completa com rotação medial e leve abdução.",
+   "padraoCapsular": "Flexão, abdução e rotação medial (a ordem varia entre autores; a rotação medial costuma ser a mais limitada).",
+   "sensacaoFinal": "Flexão: macia. Demais movimentos: firme.",
+   "clinica": "Artrose do quadril (coxartrose): dor inguinal, rigidez matinal curta, perda de rotação medial e flexão; exercício e educação são a primeira linha de tratamento. Fratura do colo do fêmur no idoso: membro encurtado e em rotação lateral, com risco de necrose avascular da cabeça. Artroplastia total: respeitar as precauções conforme a via de acesso (na via posterior, evitar flexão acima de 90°, adução além da linha média e rotação medial). Impacto femoroacetabular (tipos came e pincer) e lesões do lábio em jovens. Luxação posterior traumática (trauma do painel do carro), com risco para o nervo isquiático. Displasia do desenvolvimento do quadril, doença de Legg-Calvé-Perthes e epifisiólise na infância e adolescência. Sinal de Trendelenburg: queda da pelve do lado oposto ao apoio, por fraqueza dos abdutores."
+  },
+  {
+   "key": "Knee joint",
+   "pt": "Articulação do joelho",
+   "art": "joelho",
+   "tipo": "Sinovial bicondilar (gínglimo modificado), com meniscos; inclui a articulação femoropatelar (plana/selar)",
+   "graus": 2,
+   "resumo": "Maior articulação do corpo, formada pelas articulações femorotibial medial e lateral e pela femoropatelar, numa só cápsula. Faz flexão e extensão e, quando fletida, rotação. Como as superfícies ósseas são pouco congruentes, a estabilidade depende de ligamentos, meniscos e músculos.",
+   "superficies": "Côndilos do fêmur (convexos) com os côndilos da tíbia (o medial é côncavo e maior; o lateral é plano ou levemente convexo), com os meniscos interpostos; face patelar do fêmur (tróclea) com a face articular da patela, que tem a cartilagem mais espessa do corpo. A fíbula não participa.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "0–140°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–140°; AAOS: 0–135°. Com o quadril estendido, o reto femoral limita a cerca de 120°. Sensação final macia (panturrilha contra a coxa). Os côndilos do fêmur rolam para trás e deslizam para a frente sobre a tíbia."
+    },
+    {
+     "mov": "extensao",
+     "adm": "140–0°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Hiperextensão de 5–10° pode ser normal. Nos últimos 20–30° de extensão em cadeia aberta, a tíbia roda lateralmente (rotação automática, \"mecanismo de trava\" ou screw-home); o músculo poplíteo destrava o joelho no início da flexão."
+    },
+    {
+     "mov": "rot_medial",
+     "adm": "cerca de 30° com o joelho a 90° de flexão",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Valor de Kapandji. Impossível com o joelho estendido. Limitada pelos ligamentos cruzados, que se enrolam um no outro."
+    },
+    {
+     "mov": "rot_lateral",
+     "adm": "cerca de 40° com o joelho a 90° de flexão",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Valor de Kapandji. Limitada pelos ligamentos colaterais."
+    }
+   ],
+   "estabilidade": "Estática: ligamento cruzado anterior (freia a translação anterior da tíbia e a rotação medial), ligamento cruzado posterior (freia a translação posterior), colateral tibial (valgo), colateral fibular e canto posterolateral (varo e rotação lateral), cápsula posterior (hiperextensão) e meniscos (congruência e absorção de carga).\n\nDinâmica: quadríceps (o vasto medial oblíquo ajuda a centralizar a patela), isquiotibiais (agonistas do cruzado anterior, pois tracionam a tíbia para trás), pata de ganso (reforço medial), trato iliotibial, bíceps femoral e poplíteo (reforço lateral e posterolateral) e gastrocnêmio.",
+   "posicaoRepouso": "Cerca de 25° de flexão.",
+   "posicaoFechada": "Extensão completa com rotação lateral da tíbia.",
+   "padraoCapsular": "Flexão mais limitada que a extensão.",
+   "sensacaoFinal": "Flexão: macia. Extensão: firme.",
+   "clinica": "Lesão do ligamento cruzado anterior: em geral sem contato, em desaceleração, mudança de direção ou aterrissagem com o joelho em valgo; estalido, derrame rápido (hemartrose) e falseios. Lesões meniscais: dor na interlinha, bloqueio e derrame tardio. Entorse do colateral tibial por estresse em valgo. Dor femoropatelar: dor anterior ao agachar, subir e descer escadas e após ficar sentado muito tempo; fortalecimento de quadríceps e de abdutores/rotadores laterais do quadril é a base do tratamento. Artrose do joelho (gonartrose), mais comum no compartimento medial, associada ao varo. Após cirurgias e traumas, recuperar a extensão completa e a ativação do quadríceps são prioridades precoces. Ângulo Q normal: cerca de 13° em homens e 18° em mulheres (Magee)."
+  },
+  {
+   "key": "Superior tibiofibular joint",
+   "pt": "Articulação tibiofibular proximal (superior)",
+   "tipo": "Sinovial plana",
+   "graus": 1,
+   "resumo": "Pequena articulação entre a cabeça da fíbula e o côndilo lateral da tíbia, separada do joelho. Permite pequenos deslizamentos da fíbula que acompanham os movimentos do tornozelo.",
+   "superficies": "Face articular da cabeça da fíbula e face articular fibular, na parte posterolateral do côndilo lateral da tíbia.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "deslizamento de poucos milímetros",
+     "plano": "—",
+     "eixo": "—",
+     "nota": "Na dorsiflexão do tornozelo, a fíbula sobe e roda levemente para acomodar a parte anterior, mais larga, da tróclea do tálus; na flexão plantar, desce."
+    }
+   ],
+   "estabilidade": "Cápsula e ligamentos anterior e posterior da cabeça da fíbula; tendão do bíceps femoral e ligamento colateral fibular, que se inserem na cabeça da fíbula.",
+   "posicaoRepouso": "Tornozelo em leve flexão plantar.",
+   "posicaoFechada": "Dorsiflexão máxima do tornozelo.",
+   "padraoCapsular": "Dor ao estresse da articulação.",
+   "clinica": "Hipomobilidade pode causar dor lateral no joelho e limitar a dorsiflexão do tornozelo; é avaliada e tratada com deslizamentos anteroposteriores da cabeça da fíbula. O nervo fibular comum contorna o colo da fíbula logo abaixo e pode ser lesado em traumas, por gesso apertado ou por compressão; cuidado ao mobilizar."
+  },
+  {
+   "key": "Tibiofibular syndesmosis",
+   "pt": "Sindesmose tibiofibular (articulação tibiofibular distal)",
+   "tipo": "Fibrosa (sindesmose)",
+   "graus": 0,
+   "resumo": "União fibrosa entre a extremidade distal da fíbula e a incisura fibular da tíbia. Mantém os dois maléolos firmemente unidos, formando a pinça (encaixe) do tornozelo, mas permite um pequeno afastamento na dorsiflexão.",
+   "superficies": "Face medial da extremidade distal da fíbula (convexa, rugosa) e incisura fibular da tíbia (côncava), unidas por tecido fibroso, sem cartilagem na maior parte.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "afastamento de 1–2 mm",
+     "plano": "—",
+     "eixo": "—",
+     "nota": "Na dorsiflexão, a pinça maleolar se alarga levemente para receber a parte anterior, mais larga, do tálus."
+    }
+   ],
+   "estabilidade": "Ligamentos tibiofibular anterior, tibiofibular posterior (com sua parte profunda, o tibiofibular transverso), ligamento interósseo e membrana interóssea da perna.",
+   "clinica": "Entorse \"alta\" do tornozelo (lesão da sindesmose): mecanismo de rotação lateral do pé com dorsiflexão forçada, comum em esportes de contato e esqui. Dor acima da linha articular, anterolateral; testes de compressão da perna (squeeze test) e de rotação lateral (Kleiger). A recuperação é bem mais lenta que a da entorse lateral comum, e lesões instáveis (com diástase) exigem fixação cirúrgica."
+  },
+  {
+   "key": "Ankle joint",
+   "pt": "Articulação do tornozelo (talocrural)",
+   "art": "tornozelo",
+   "tipo": "Sinovial gínglimo (uniaxial)",
+   "graus": 1,
+   "resumo": "Articulação entre a pinça formada por tíbia e fíbula e a tróclea do tálus. Faz dorsiflexão e flexão plantar. A inversão e a eversão do pé acontecem principalmente nas articulações subtalar e transversa do tarso, não aqui.",
+   "superficies": "Face articular inferior da tíbia e faces articulares dos maléolos medial e lateral (encaixe côncavo) com a tróclea do tálus (convexa), que é mais larga na frente que atrás. O maléolo lateral desce mais e fica mais posterior que o medial; por isso o eixo é oblíquo e os movimentos têm pequenos componentes em outros planos.",
+   "movimentos": [
+    {
+     "mov": "dorsiflexao",
+     "adm": "0–20°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Com o joelho estendido, o gastrocnêmio pode limitar; com o joelho fletido, avalia-se o sóleo e a articulação. A marcha exige cerca de 10° e descer escadas ou agachar, mais. Sensação final firme (tríceps sural/tendão do calcâneo e cápsula posterior)."
+    },
+    {
+     "mov": "flexao_plantar",
+     "adm": "0–45°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Marques: 0–45°; AAOS: 0–50°. Limitada pela cápsula anterior, pelo ligamento talofibular anterior e pelos dorsiflexores; pode haver sensação dura por contato do processo posterior do tálus com a tíbia."
+    }
+   ],
+   "estabilidade": "Em dorsiflexão a parte larga da tróclea encaixa-se justa na pinça maleolar, e a articulação fica estável; em flexão plantar o encaixe é frouxo e a estabilidade depende dos ligamentos – por isso as entorses ocorrem em flexão plantar.\n\nEstática: ligamento colateral lateral (talofibular anterior, calcaneofibular e talofibular posterior), ligamento colateral medial (deltóideo), sindesmose tibiofibular. Dinâmica: fibulares longo e curto (protegem contra a inversão), tibial posterior, tibial anterior e tríceps sural.",
+   "posicaoRepouso": "10° de flexão plantar, a meio caminho entre inversão e eversão.",
+   "posicaoFechada": "Dorsiflexão máxima.",
+   "padraoCapsular": "Flexão plantar mais limitada que a dorsiflexão.",
+   "sensacaoFinal": "Firme nos dois movimentos.",
+   "clinica": "Entorse em inversão: a lesão musculoesquelética mais comum; mecanismo de flexão plantar com inversão, lesando primeiro o talofibular anterior e depois o calcaneofibular. Regras de Ottawa para indicar radiografia (dor nos maléolos com dor à palpação óssea na borda posterior/ponta dos maléolos, na base do 5º metatarsal ou no navicular, ou incapacidade de dar quatro passos). Reabilitação: carga e movimento precoces, recuperação da dorsiflexão, fortalecimento dos fibulares e treino de equilíbrio/propriocepção para prevenir a instabilidade crônica, que ocorre em parcela importante dos casos. Fraturas maleolares. Perda de dorsiflexão após imobilização altera marcha, agachamento e descida de escadas."
+  },
+  {
+   "key": "Intertarsal joints",
+   "pt": "Articulações intertarsais (subtalar e transversa do tarso)",
+   "art": "subtalar",
+   "tipo": "Subtalar (talocalcânea): sinovial plana, funcionalmente uniaxial em eixo oblíquo. Talocalcaneonavicular: esferoide. Calcaneocubóidea: plana (selar para alguns autores). Demais: planas",
+   "graus": 1,
+   "resumo": "Conjunto das articulações entre os ossos do tarso. As duas funcionalmente mais importantes são a subtalar (tálus com calcâneo) e a transversa do tarso ou de Chopart (talonavicular + calcaneocubóidea). É nelas que acontecem a inversão e a eversão e os movimentos combinados de supinação e pronação do pé, que adaptam o pé ao solo e o transformam, ao longo do apoio, de estrutura flexível (pronado, absorve impacto) em alavanca rígida (supinado, impulsão).\n\nAs articulações cuneonavicular, intercuneiformes e cuneocubóidea são planas e têm apenas pequenos deslizamentos.",
+   "superficies": "Subtalar: face articular calcânea posterior do tálus (côncava) com a face articular talar posterior do calcâneo (convexa); anteriormente, cabeça do tálus com as faces anterior e média do calcâneo, o navicular e o ligamento calcaneonavicular plantar (articulação talocalcaneonavicular). As duas partes são separadas pelo seio e canal do tarso, onde fica o ligamento talocalcâneo interósseo. Calcaneocubóidea: calcâneo com o cuboide.",
+   "movimentos": [
+    {
+     "mov": "inversao",
+     "adm": "0–40°",
+     "plano": "frontal (predominante)",
+     "eixo": "oblíquo (eixo de Henke)",
+     "nota": "Marques: 0–40°; AAOS: 0–35°; valores para o pé como um todo. O eixo da subtalar sobe de posterior-lateral-plantar para anterior-medial-dorsal (cerca de 42° acima da horizontal e 16° medial ao eixo do pé). Em cadeia aberta, a inversão acompanha-se de adução e flexão plantar (supinação). Sensação final firme."
+    },
+    {
+     "mov": "eversao",
+     "adm": "0–20°",
+     "plano": "frontal (predominante)",
+     "eixo": "oblíquo (eixo de Henke)",
+     "nota": "Marques: 0–20°; AAOS: 0–15°. Acompanha-se de abdução e dorsiflexão (pronação). Sensação final firme ou dura (calcâneo contra o seio do tarso/fíbula)."
+    }
+   ],
+   "estabilidade": "Estática: ligamento talocalcâneo interósseo e demais talocalcâneos, ligamento calcaneofibular e parte tibiocalcânea do deltóideo (cruzam a subtalar), ligamento calcaneonavicular plantar (\"mola\"), ligamento bifurcado, ligamentos plantares longo e curto. Dinâmica: tibial posterior (principal sustentação do arco medial), fibulares longo e curto, tibial anterior, flexores longos dos dedos e músculos intrínsecos do pé.",
+   "posicaoRepouso": "A meio caminho entre os extremos de movimento.",
+   "posicaoFechada": "Supinação.",
+   "padraoCapsular": "Subtalar: limitação da inversão (varo) maior que a da eversão. Transversa do tarso: dorsiflexão, flexão plantar, adução e rotação medial limitadas.",
+   "sensacaoFinal": "Firme.",
+   "clinica": "Posição neutra da subtalar é a referência para avaliar o alinhamento do retropé (varo ou valgo do calcâneo). Pé plano adquirido do adulto: insuficiência do tendão do tibial posterior e do ligamento mola, com valgo do retropé, queda do arco medial e abdução do antepé (\"sinal dos muitos dedos\"). Pé cavo: retropé varo, pé rígido, maior risco de entorses em inversão. Instabilidade ou rigidez subtalar após entorses e fraturas do calcâneo. Síndrome do seio do tarso. A articulação transversa do tarso é o nível da amputação de Chopart."
+  },
+  {
+   "key": "Tarsometatarsal joints",
+   "pt": "Articulações tarsometatarsais (de Lisfranc)",
+   "tipo": "Sinoviais planas",
+   "graus": 1,
+   "resumo": "Articulações entre os três cuneiformes e o cuboide e as bases dos cinco metatarsais. Formam a linha de Lisfranc, limite entre mediopé e antepé. Têm pouco movimento, mas permitem que os metatarsais se ajustem ao solo.",
+   "superficies": "1º metatarsal com o cuneiforme medial; 2º com o intermédio (sua base fica encaixada entre os cuneiformes medial e lateral, como a pedra angular de um arco); 3º com o lateral; 4º e 5º com o cuboide.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "pequena amplitude",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Flexão plantar e dorsiflexão dos raios; o 2º raio é o mais rígido e o 1º, o 4º e o 5º são os mais móveis."
+    },
+    {
+     "mov": "extensao",
+     "adm": "pequena amplitude",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    }
+   ],
+   "estabilidade": "Encaixe ósseo da base do 2º metatarsal, ligamentos tarsometatarsais dorsais, plantares e interósseos (em especial o ligamento de Lisfranc, do cuneiforme medial à base do 2º metatarsal), tendões do fibular longo, tibial anterior e tibial posterior.",
+   "posicaoFechada": "Supinação.",
+   "clinica": "Lesão de Lisfranc: entorse ou fratura-luxação tarsometatarsal por carga axial sobre o pé em flexão plantar ou por torção do antepé. Dor e edema no dorso do mediopé, equimose plantar e incapacidade de apoiar na ponta do pé; passa despercebida com frequência e, não tratada, leva a colapso do arco e artrose. Hipermobilidade do 1º raio associa-se ao hálux valgo."
+  },
+  {
+   "key": "Intermetatarsal joints",
+   "pt": "Articulações intermetatarsais",
+   "tipo": "Sinoviais planas (entre as bases do 2º ao 5º metatarsais)",
+   "graus": 1,
+   "resumo": "Pequenas articulações entre as bases dos metatarsais vizinhos, com leve deslizamento que acompanha a acomodação do antepé ao solo. Entre o 1º e o 2º metatarsais geralmente não há articulação sinovial nem ligamento interósseo direto, o que dá mais liberdade ao 1º raio.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "deslizamento mínimo",
+     "plano": "—",
+     "eixo": "—"
+    }
+   ]
+  },
+  {
+   "key": "Metatarsophalangeal joints",
+   "pt": "Articulações metatarsofalângicas",
+   "art": "dedos_pe",
+   "tipo": "Sinoviais elipsoides (condilares), biaxiais",
+   "graus": 2,
+   "resumo": "Articulações entre as cabeças dos metatarsais e as bases das falanges proximais. A extensão (dorsiflexão) destas articulações, sobretudo a do hálux, é essencial na fase de impulsão da marcha: ela tensiona a aponeurose plantar e eleva o arco (mecanismo do molinete).",
+   "superficies": "Cabeça convexa do metatarsal e base côncava da falange proximal, com a placa plantar. Sob a cabeça do 1º metatarsal há dois ossos sesamoides, nos tendões do flexor curto do hálux, que protegem o tendão do flexor longo e aumentam o braço de alavanca.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "hálux: 0–45°; 2º–5º dedos: 0–40°",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    },
+    {
+     "mov": "extensao",
+     "adm": "hálux: 0–90°; 2º–5º dedos: 0–45°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Para o hálux, Marques: 0–90°; AAOS: 0–70°. A marcha normal exige cerca de 65° de extensão do hálux no fim do apoio (Neumann)."
+    },
+    {
+     "mov": "abducao",
+     "adm": "pequena, variável",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)",
+     "nota": "Referência: 2º dedo (eixo do pé)."
+    },
+    {
+     "mov": "aducao",
+     "adm": "pequena, variável",
+     "plano": "transversal",
+     "eixo": "longitudinal (vertical)"
+    }
+   ],
+   "estabilidade": "Ligamentos colaterais, placas plantares, ligamento metatarsal transverso profundo, aponeurose plantar e músculos intrínsecos (interósseos, lumbricais, abdutor e adutor do hálux).",
+   "posicaoRepouso": "Cerca de 10° de extensão.",
+   "posicaoFechada": "Extensão completa.",
+   "padraoCapsular": "Hálux: extensão mais limitada que a flexão. 2º–5º: variável.",
+   "sensacaoFinal": "Firme.",
+   "clinica": "Hálux valgo (\"joanete\"): desvio lateral do hálux com desvio medial do 1º metatarsal e proeminência medial dolorosa. Hálux rígido: artrose da 1ª metatarsofalângica com perda da extensão, que compromete a impulsão. \"Turf toe\": entorse da placa plantar do hálux por hiperextensão. Gota (podagra) acomete tipicamente a 1ª metatarsofalângica. Metatarsalgia, sesamoidite e lesão da placa plantar do 2º dedo. Deformidades em garra e em martelo por desequilíbrio entre músculos intrínsecos e extrínsecos."
+  },
+  {
+   "key": "Interphalangeal joints of foot",
+   "pt": "Articulações interfalângicas do pé",
+   "art": "dedos_pe",
+   "tipo": "Sinoviais gínglimos (uniaxiais)",
+   "graus": 1,
+   "resumo": "Articulações em dobradiça entre as falanges dos dedos do pé: interfalângica única do hálux e interfalângicas proximais e distais do 2º ao 5º dedo.",
+   "superficies": "Cabeça em polia da falange proximal ou média e base da falange seguinte, com placa plantar.",
+   "movimentos": [
+    {
+     "mov": "flexao",
+     "adm": "hálux: 0–90°; IFP: 0–35°; IFD: 0–60°",
+     "plano": "sagital",
+     "eixo": "laterolateral",
+     "nota": "Valores de Marques."
+    },
+    {
+     "mov": "extensao",
+     "adm": "retorno a 0°; pequena hiperextensão na IFD",
+     "plano": "sagital",
+     "eixo": "laterolateral"
+    }
+   ],
+   "estabilidade": "Ligamentos colaterais, placas plantares, tendões flexores e extensores.",
+   "posicaoRepouso": "Leve flexão.",
+   "posicaoFechada": "Extensão completa.",
+   "padraoCapsular": "Flexão e extensão limitadas, com tendência à rigidez em flexão.",
+   "clinica": "Dedo em martelo (flexão da interfalângica proximal), dedo em garra (hiperextensão da metatarsofalângica com flexão das interfalângicas) e dedo em malho (flexão da distal), com calosidades dorsais por atrito no calçado. São comuns no pé cavo, no pé neuropático (diabetes) e com calçados apertados."
+  },
+  {
+   "key": "Sacro-iliac joint",
+   "pt": "Articulação sacroilíaca",
+   "art": "pelve",
+   "tipo": "Mista: sinovial plana irregular na parte anterior e sindesmose na parte posterior",
+   "graus": 1,
+   "resumo": "Articulação entre o sacro e o ílio, de cada lado. Transmite o peso do tronco para os membros inferiores e absorve as forças vindas do solo. Tem movimento muito pequeno e é uma das articulações mais estáveis do corpo.",
+   "superficies": "Faces auriculares do sacro e do ílio, em forma de orelha ou de L, com saliências e depressões que se encaixam; a do sacro é revestida por cartilagem hialina e a do ílio, por cartilagem mais fina, de aspecto fibrocartilagíneo. Atrás e acima delas, as tuberosidades do sacro e do ílio são unidas pelo ligamento sacroilíaco interósseo.",
+   "movimentos": [
+    {
+     "mov": "outro",
+     "adm": "cerca de 2° de rotação e 1–2 mm de translação",
+     "plano": "sagital (predominante)",
+     "eixo": "laterolateral",
+     "nota": "Nutação: a base do sacro (promontório) vai para a frente e para baixo e o cóccix para trás; os ílios se aproximam em cima e os ísquios se afastam. Contranutação: o inverso. A nutação é a posição mais estável e é limitada pelos ligamentos sacrotuberal e sacroespinal."
+    }
+   ],
+   "estabilidade": "Por forma: encaixe das superfícies irregulares e sacro em cunha entre os ílios. Por força: ligamentos sacroilíacos interósseo (o mais forte), posterior e anterior, sacrotuberal, sacroespinal e iliolombar, somados à compressão gerada por músculos (transverso do abdome, multífidos, glúteo máximo, latíssimo do dorso por meio da fáscia toracolombar, bíceps femoral pelo ligamento sacrotuberal e músculos do assoalho pélvico).",
+   "posicaoFechada": "Nutação.",
+   "padraoCapsular": "Dor quando a articulação é estressada.",
+   "clinica": "Dor sacroilíaca: dor sobre a região da espinha ilíaca posterossuperior, que pode irradiar para a nádega e a face posterior da coxa. O diagnóstico clínico é mais confiável com um conjunto de testes de provocação (distração, compressão, thrust da coxa, Gaenslen, thrust sacral): três ou mais positivos aumentam a probabilidade. Dor da cintura pélvica na gestação e no pós-parto, por frouxidão ligamentar hormonal. Sacroiliíte inflamatória na espondilite anquilosante (dor lombar inflamatória, rigidez matinal prolongada, em jovens)."
+  }
+ ],
+ "ligamentos": [
+  {
+   "key": "Interosseous membrane of leg",
+   "pt": "Membrana interóssea da perna",
+   "funcao": "Lâmina fibrosa entre as margens interósseas da tíbia e da fíbula. Mantém os dois ossos unidos, separa os compartimentos anterior e posterior da perna e dá origem a músculos (tibial anterior, extensores longos, tibial posterior, flexor longo do hálux). Tem uma abertura superior para os vasos tibiais anteriores.",
+   "clinica": "Rompe-se de baixo para cima nas lesões graves da sindesmose, como na fratura de Maisonneuve (fratura proximal da fíbula com lesão medial do tornozelo)."
+  },
+  {
+   "key": "Anterior tibiofibular ligament",
+   "pt": "Ligamento tibiofibular anterior",
+   "funcao": "Feixe oblíquo da margem anterior da incisura fibular da tíbia à face anterior do maléolo lateral. Mantém a fíbula junto à tíbia e limita a rotação lateral e o afastamento da fíbula.",
+   "clinica": "É o primeiro ligamento lesado na entorse da sindesmose (\"entorse alta\"), por rotação lateral e dorsiflexão forçadas; dor anterolateral logo acima da linha articular."
+  },
+  {
+   "key": "Posterior tibiofibular ligament",
+   "pt": "Ligamento tibiofibular posterior",
+   "funcao": "Da margem posterior da incisura fibular da tíbia à face posterior do maléolo lateral. É mais forte que o anterior e mantém a pinça maleolar fechada por trás.",
+   "clinica": "Em vez de romper, muitas vezes arranca um fragmento posterior da tíbia (fratura do maléolo posterior)."
+  },
+  {
+   "key": "Transverse tibiofibular ligament",
+   "pt": "Ligamento tibiofibular transverso",
+   "funcao": "Parte profunda e inferior do ligamento tibiofibular posterior, da fossa do maléolo lateral à margem posterior da tíbia. Projeta-se abaixo da tíbia e aprofunda o encaixe do tálus, como um lábio posterior."
+  },
+  {
+   "key": "Anterior talofibular ligament",
+   "pt": "Ligamento talofibular anterior",
+   "funcao": "Faixa plana e fraca da margem anterior do maléolo lateral ao colo do tálus. Limita a translação anterior e a rotação medial do tálus e fica tenso em flexão plantar com inversão.",
+   "clinica": "É o ligamento mais lesado do corpo: primeiro a romper na entorse em inversão. Dor e edema à frente e abaixo do maléolo lateral; teste da gaveta anterior do tornozelo, com o pé em leve flexão plantar, avalia sua integridade."
+  },
+  {
+   "key": "Calcaneofibular ligament",
+   "pt": "Ligamento calcaneofibular",
+   "funcao": "Cordão do ápice do maléolo lateral à face lateral do calcâneo, dirigido para baixo e para trás, sob os tendões fibulares. Cruza as articulações talocrural e subtalar e limita a inversão, principalmente com o tornozelo em posição neutra ou dorsiflexão.",
+   "clinica": "Segundo ligamento a ser lesado na entorse em inversão, em geral junto com o talofibular anterior. Avaliado pelo teste de inclinação talar (estresse em inversão)."
+  },
+  {
+   "key": "Posterior talofibular ligament",
+   "pt": "Ligamento talofibular posterior",
+   "funcao": "Feixe espesso e forte, quase horizontal, da fossa do maléolo lateral ao tubérculo lateral do processo posterior do tálus. Limita a translação posterior e a rotação lateral do tálus; fica tenso em dorsiflexão.",
+   "clinica": "Raramente lesado; rompe-se só em entorses graves ou luxações do tornozelo."
+  },
+  {
+   "key": "Posterior tibiotalar ligament",
+   "pt": "Parte tibiotalar posterior do ligamento colateral medial (deltóideo)",
+   "funcao": "Feixe profundo e espesso do maléolo medial à face medial e ao tubérculo medial do tálus. É a parte mais forte do ligamento deltóideo; limita a eversão, a rotação lateral e a translação lateral do tálus, sobretudo em dorsiflexão.",
+   "clinica": "O ligamento deltóideo é muito resistente: em eversão forçada é comum haver fratura do maléolo medial por avulsão, ou fratura da fíbula, em vez de ruptura isolada do ligamento."
+  },
+  {
+   "key": "Tibiocalcaneal ligament",
+   "pt": "Parte tibiocalcânea do ligamento colateral medial (deltóideo)",
+   "funcao": "Feixe superficial do maléolo medial ao sustentáculo do tálus, no calcâneo. Cruza a talocrural e a subtalar e limita a eversão (valgo) do calcâneo."
+  },
+  {
+   "key": "Tibionavicular ligament",
+   "pt": "Parte tibionavicular do ligamento colateral medial (deltóideo)",
+   "funcao": "Feixe superficial e anterior do maléolo medial à tuberosidade do navicular e à margem do ligamento calcaneonavicular plantar. Limita a eversão e a abdução do pé e ajuda a sustentar a cabeça do tálus.",
+   "clinica": "Sua insuficiência, com a do ligamento mola, participa do pé plano adquirido do adulto."
+  },
+  {
+   "key": "Acetabular labrum",
+   "pt": "Lábio do acetábulo",
+   "funcao": "Anel fibrocartilagíneo preso à margem do acetábulo, completado embaixo pelo ligamento transverso. Aprofunda a cavidade (cobre mais da metade da cabeça do fêmur) e funciona como vedação, mantendo o líquido sinovial e a pressão negativa que estabilizam a articulação.",
+   "clinica": "Lesões do lábio causam dor inguinal profunda, estalido e sensação de travamento; associam-se ao impacto femoroacetabular e à displasia. O teste de flexão, adução e rotação medial (FADIR) é sensível, mas pouco específico."
+  },
+  {
+   "key": "Articular capsule of hip joint",
+   "pt": "Cápsula articular da articulação do quadril",
+   "funcao": "Cápsula forte e espessa, da margem do acetábulo à linha intertrocantérica, na frente, e ao colo do fêmur, atrás (a parte lateral e posterior do colo fica fora da cápsula). É reforçada pelos ligamentos iliofemoral, pubofemoral e isquiofemoral, cujas fibras em espiral se apertam na extensão e relaxam na flexão.",
+   "clinica": "Na artrose a cápsula se retrai, limitando rotação medial, flexão e abdução. A posição de menor pressão intracapsular (flexão, abdução e rotação lateral leves) é a adotada espontaneamente quando há derrame ou sinovite."
+  },
+  {
+   "key": "Descending part of iliofemoral ligament",
+   "pt": "Parte descendente do ligamento iliofemoral",
+   "funcao": "Feixe medial (inferior) do ligamento iliofemoral, em Y invertido, o mais forte do corpo: da espinha ilíaca anteroinferior e margem do acetábulo à parte inferior da linha intertrocantérica. Limita a extensão do quadril e permite ficar em pé, com a pelve \"pendurada\" no ligamento, com pouco esforço muscular.",
+   "clinica": "Seu encurtamento, com o dos flexores, causa contratura em flexão do quadril, compensada por anteversão da pelve e hiperlordose lombar. Alongado nos posicionamentos em extensão do quadril."
+  },
+  {
+   "key": "Transverse part of iliofemoral ligament",
+   "pt": "Parte transversa do ligamento iliofemoral",
+   "funcao": "Feixe lateral (superior) do ligamento iliofemoral, da espinha ilíaca anteroinferior à parte superior da linha intertrocantérica, junto ao trocanter maior. Limita a adução, a rotação lateral e a extensão do quadril."
+  },
+  {
+   "key": "Frenula capsulae",
+   "pt": "Retináculos da cápsula (frênulos capsulares)",
+   "funcao": "Pregas longitudinais de fibras profundas da cápsula e de membrana sinovial que se refletem sobre o colo do fêmur em direção à cabeça. Conduzem as artérias retinaculares (ramos principalmente da artéria circunflexa femoral medial), que são a principal fonte de sangue da cabeça do fêmur no adulto.",
+   "clinica": "Nas fraturas intracapsulares do colo do fêmur com desvio, esses vasos são rompidos, o que explica o risco de necrose avascular da cabeça e a indicação frequente de artroplastia no idoso."
+  },
+  {
+   "key": "Ischiofemoral ligament",
+   "pt": "Ligamento isquiofemoral",
+   "funcao": "Reforço posterior da cápsula: da parte isquiática da margem do acetábulo, em espiral para cima e para o lado, ao colo do fêmur, junto à base do trocanter maior. Limita a rotação medial e a extensão e, com o quadril fletido, a adução."
+  },
+  {
+   "key": "Ligament of head of femur",
+   "pt": "Ligamento da cabeça do fêmur",
+   "funcao": "Faixa intracapsular, revestida por sinovial, da incisura do acetábulo e do ligamento transverso à fóvea da cabeça do fêmur. Tem pouca função mecânica; conduz a artéria da cabeça do fêmur (ramo da artéria obturatória).",
+   "clinica": "Essa artéria é importante na criança, enquanto a placa epifisial separa a cabeça do colo; no adulto, sua contribuição é pequena e variável. Rupturas do ligamento podem causar dor e estalido no quadril."
+  },
+  {
+   "key": "Pubofemoral ligament",
+   "pt": "Ligamento pubofemoral",
+   "funcao": "Reforço anteroinferior da cápsula: da crista obturatória e ramo superior do púbis à cápsula e ao colo do fêmur, onde se funde com o iliofemoral. Limita a abdução, a extensão e a rotação lateral."
+  },
+  {
+   "key": "Transverse acetabular ligament",
+   "pt": "Ligamento transverso do acetábulo",
+   "funcao": "Ponte fibrosa sobre a incisura do acetábulo, que completa o anel do lábio. Sob ela passam vasos para a fossa do acetábulo e para o ligamento da cabeça do fêmur."
+  },
+  {
+   "key": "Zona orbicularis",
+   "pt": "Zona orbicular",
+   "funcao": "Fibras circulares profundas da cápsula que formam um colar em torno do colo do fêmur. Aperta a cápsula ao redor do colo e ajuda a resistir à distração da cabeça do fêmur."
+  },
+  {
+   "key": "Dorsal metatarsal ligaments",
+   "pt": "Ligamentos metatarsais dorsais",
+   "funcao": "Unem dorsalmente as bases dos metatarsais vizinhos (2º ao 5º)."
+  },
+  {
+   "key": "Plantar metatarsal ligaments",
+   "pt": "Ligamentos metatarsais plantares",
+   "funcao": "Unem as bases dos metatarsais vizinhos pela face plantar; mais fortes que os dorsais, ajudam a manter o arco transverso do pé."
+  },
+  {
+   "key": "Metatarsal interosseous ligaments",
+   "pt": "Ligamentos metatarsais interósseos",
+   "funcao": "Feixes curtos e fortes entre as faces adjacentes das bases do 2º ao 5º metatarsais. Não há ligamento desse tipo entre o 1º e o 2º metatarsais."
+  },
+  {
+   "key": "Intersesamoid ligament",
+   "pt": "Ligamento intersesamóideo",
+   "funcao": "Une os sesamoides medial e lateral sob a cabeça do 1º metatarsal, integrando a placa plantar do hálux. Forma o assoalho do canal por onde passa o tendão do flexor longo do hálux.",
+   "clinica": "Faz parte do complexo lesado no \"turf toe\" (entorse por hiperextensão do hálux)."
+  },
+  {
+   "key": "Articular capsule of interphalangeal joint of great toe",
+   "pt": "Cápsula articular da articulação interfalângica do hálux",
+   "funcao": "Envolve a única interfalângica do hálux, reforçada pelos ligamentos colaterais e pela placa plantar."
+  },
+  {
+   "key": "Articular capsules of proximal interphalangeal joints of foot",
+   "pt": "Cápsulas articulares das articulações interfalângicas proximais do pé",
+   "funcao": "Envolvem as interfalângicas proximais do 2º ao 5º dedo, reforçadas pelos colaterais e pela placa plantar.",
+   "clinica": "Ficam retraídas em flexão nos dedos em martelo e em garra rígidos."
+  },
+  {
+   "key": "Articular capsules of distal interphalangeal joints of foot",
+   "pt": "Cápsulas articulares das articulações interfalângicas distais do pé",
+   "funcao": "Envolvem as interfalângicas distais do 2º ao 5º dedo, reforçadas pelos colaterais e pela placa plantar."
+  },
+  {
+   "key": "Collateral interphalangeal ligaments of foot",
+   "pt": "Ligamentos colaterais das articulações interfalângicas do pé",
+   "funcao": "De cada lado de cada interfalângica, da cabeça de uma falange à base da seguinte. Impedem desvios laterais."
+  },
+  {
+   "key": "Plantar interphalangeal ligaments",
+   "pt": "Ligamentos plantares das articulações interfalângicas do pé (placas plantares)",
+   "funcao": "Placas fibrocartilagíneas na face plantar de cada interfalângica. Limitam a hiperextensão e servem de leito de deslizamento para os tendões flexores."
+  },
+  {
+   "key": "Anterior talocalcaneal ligament",
+   "pt": "Ligamento talocalcâneo anterior",
+   "funcao": "Feixe curto entre o colo do tálus e a face superior do calcâneo, na região anterior do seio do tarso. Ajuda a limitar a inversão da subtalar."
+  },
+  {
+   "key": "Lateral talocalcaneal ligament",
+   "pt": "Ligamento talocalcâneo lateral",
+   "funcao": "Feixe curto do processo lateral do tálus à face lateral do calcâneo, paralelo e profundo ao ligamento calcaneofibular. Reforça lateralmente a subtalar e limita a inversão."
+  },
+  {
+   "key": "Medial talocalcaneal ligament",
+   "pt": "Ligamento talocalcâneo medial",
+   "funcao": "Do tubérculo medial do processo posterior do tálus ao sustentáculo do tálus, no calcâneo. Reforça medialmente a subtalar."
+  },
+  {
+   "key": "Posterior talocalcaneal ligament",
+   "pt": "Ligamento talocalcâneo posterior",
+   "funcao": "Do tubérculo lateral do processo posterior do tálus à face superior do calcâneo. Reforça posteriormente a cápsula da subtalar."
+  },
+  {
+   "key": "Talocalcaneal interosseous ligament",
+   "pt": "Ligamento talocalcâneo interósseo",
+   "funcao": "Ligamento forte, em duas lâminas, no canal e seio do tarso, do sulco do tálus ao sulco do calcâneo. É o principal elo entre tálus e calcâneo: fica próximo ao eixo da subtalar, separa suas partes anterior e posterior e limita principalmente a eversão.",
+   "clinica": "Pode ser lesado em entorses em inversão mais graves, deixando instabilidade subtalar e dor persistente na abertura lateral do seio do tarso (síndrome do seio do tarso)."
+  },
+  {
+   "key": "Talonavicular ligament",
+   "pt": "Ligamento talonavicular",
+   "funcao": "Faixa larga e fina do dorso do colo do tálus à face dorsal do navicular. Reforça dorsalmente a articulação talonavicular.",
+   "clinica": "Pode sofrer avulsão óssea dorsal em entorses por flexão plantar forçada."
+  },
+  {
+   "key": "Calcaneonavicular ligament",
+   "pt": "Ligamento calcaneonavicular (parte do ligamento bifurcado)",
+   "funcao": "Parte medial do ligamento bifurcado: do processo anterior do calcâneo à face lateral do navicular. Com a parte calcaneocubóidea forma um Y que é o principal elo dorsal da articulação transversa do tarso.",
+   "clinica": "O ligamento bifurcado pode ser lesado na entorse em inversão com flexão plantar, às vezes com fratura por avulsão do processo anterior do calcâneo – dor um pouco à frente e abaixo do ponto do talofibular anterior."
+  },
+  {
+   "key": "Calcaneocuboid ligament",
+   "pt": "Ligamento calcaneocubóideo (parte do ligamento bifurcado)",
+   "funcao": "Parte lateral do ligamento bifurcado: do processo anterior do calcâneo à face dorsal do cuboide. Estabiliza dorsalmente a articulação calcaneocubóidea."
+  },
+  {
+   "key": "Dorsal calcaneocuboid ligament",
+   "pt": "Ligamento calcaneocubóideo dorsal",
+   "funcao": "Faixa fina do dorso do calcâneo ao dorso do cuboide, reforçando a cápsula da calcaneocubóidea.",
+   "clinica": "Pode ser lesado em entorses laterais do mediopé."
+  },
+  {
+   "key": "Plantar calcaneocuboid ligament",
+   "pt": "Ligamento calcaneocubóideo plantar (plantar curto)",
+   "funcao": "Feixe curto, largo e muito forte, do tubérculo anterior do calcâneo à face plantar do cuboide, profundo ao ligamento plantar longo. Sustenta o arco longitudinal lateral do pé."
+  },
+  {
+   "key": "Long plantar ligament",
+   "pt": "Ligamento plantar longo",
+   "funcao": "O mais longo ligamento do tarso: da face plantar do calcâneo, à frente da tuberosidade, à tuberosidade do cuboide e às bases dos metatarsais (2º ao 4º, às vezes 5º). Transforma o sulco do cuboide em túnel para o tendão do fibular longo e é um dos principais sustentadores dos arcos longitudinais, sobretudo o lateral."
+  },
+  {
+   "key": "Plantar calcaneonavicular ligament",
+   "pt": "Ligamento calcaneonavicular plantar (ligamento mola)",
+   "funcao": "Do sustentáculo do tálus à face plantar e medial do navicular. Preenche o espaço entre os dois ossos e forma, com uma face fibrocartilagínea, o \"berço\" que sustenta a cabeça do tálus. É peça-chave do arco longitudinal medial, apoiado por baixo pelo tendão do tibial posterior.",
+   "clinica": "Sua falência, em geral junto com a do tendão do tibial posterior, deixa a cabeça do tálus cair em direção plantar e medial: pé plano adquirido do adulto."
+  },
+  {
+   "key": "Dorsal cuboideonavicular ligament",
+   "pt": "Ligamento cuboideonavicular dorsal",
+   "funcao": "Une dorsalmente o cuboide ao navicular (união geralmente fibrosa)."
+  },
+  {
+   "key": "Plantar cuboideonavicular ligament",
+   "pt": "Ligamento cuboideonavicular plantar",
+   "funcao": "Une o cuboide ao navicular pela face plantar; ajuda a manter o arco transverso."
+  },
+  {
+   "key": "Dorsal cuneonavicular ligaments",
+   "pt": "Ligamentos cuneonaviculares dorsais",
+   "funcao": "Três feixes do dorso do navicular a cada um dos cuneiformes."
+  },
+  {
+   "key": "Plantar cuneonavicular ligaments",
+   "pt": "Ligamentos cuneonaviculares plantares",
+   "funcao": "Do navicular à face plantar dos três cuneiformes, reforçados por expansões do tendão do tibial posterior; sustentam o arco medial."
+  },
+  {
+   "key": "Dorsal intercuneiform ligaments",
+   "pt": "Ligamentos intercuneiformes dorsais",
+   "funcao": "Unem dorsalmente os cuneiformes entre si."
+  },
+  {
+   "key": "Plantar intercuneiform ligaments",
+   "pt": "Ligamentos intercuneiformes plantares",
+   "funcao": "Unem os cuneiformes pela face plantar."
+  },
+  {
+   "key": "Intercuneiform interosseous ligaments",
+   "pt": "Ligamentos intercuneiformes interósseos",
+   "funcao": "Feixes curtos e fortes entre as faces adjacentes dos cuneiformes; mantêm o arco transverso do pé."
+  },
+  {
+   "key": "Dorsal cuneocuboid ligament",
+   "pt": "Ligamento cuneocubóideo dorsal",
+   "funcao": "Une dorsalmente o cuneiforme lateral ao cuboide."
+  },
+  {
+   "key": "Plantar cuneocuboid ligament",
+   "pt": "Ligamento cuneocubóideo plantar",
+   "funcao": "Une o cuneiforme lateral ao cuboide pela face plantar."
+  },
+  {
+   "key": "Cuneocuboid interosseous ligament",
+   "pt": "Ligamento cuneocubóideo interósseo",
+   "funcao": "Feixe forte entre as faces adjacentes do cuneiforme lateral e do cuboide; importante para o arco transverso."
+  },
+  {
+   "key": "Articular capsules of metatarsophalangeal joints",
+   "pt": "Cápsulas articulares das articulações metatarsofalângicas",
+   "funcao": "Envolvem cada metatarsofalângica; reforçadas dos lados pelos colaterais, na face plantar pela placa plantar e no dorso pela expansão extensora.",
+   "clinica": "Na 1ª metatarsofalângica, a cápsula medial fica distendida e a lateral retraída no hálux valgo. Sinovite e ruptura da placa plantar do 2º dedo causam dor sob a cabeça do metatarsal e desvio do dedo."
+  },
+  {
+   "key": "Collateral metatarsophalangeal ligaments",
+   "pt": "Ligamentos colaterais das articulações metatarsofalângicas",
+   "funcao": "De cada lado da cabeça do metatarsal à base da falange proximal e à placa plantar. Impedem desvios laterais dos dedos."
+  },
+  {
+   "key": "Plantar metatarsophalangeal ligaments",
+   "pt": "Ligamentos plantares das articulações metatarsofalângicas (placas plantares)",
+   "funcao": "Placas fibrocartilagíneas espessas sob as cabeças dos metatarsais, presas firmemente à base da falange proximal. Limitam a hiperextensão, suportam carga na fase de impulsão e recebem inserções da aponeurose plantar e do ligamento metatarsal transverso profundo.",
+   "clinica": "Lesão aguda por hiperextensão no hálux (\"turf toe\") e degenerativa no 2º dedo, com dor plantar e dedo que \"sobe\" ou cruza sobre o hálux."
+  },
+  {
+   "key": "Deep transverse metatarsal ligament",
+   "pt": "Ligamento metatarsal transverso profundo",
+   "funcao": "Une as placas plantares das cinco metatarsofalângicas (ao contrário da mão, inclui o hálux), mantendo as cabeças dos metatarsais unidas. Os tendões dos interósseos passam dorsalmente e os dos lumbricais e os nervos e vasos digitais plantares comuns, plantarmente.",
+   "clinica": "No neuroma de Morton, o nervo digital plantar comum (mais no 3º espaço) é comprimido contra a borda do ligamento: dor em queimação e dormência entre os dedos, pior com calçado apertado."
+  },
+  {
+   "key": "Cuneometatarsal interosseous ligaments",
+   "pt": "Ligamentos cuneometatarsais interósseos",
+   "funcao": "Feixes entre os cuneiformes e as bases dos metatarsais. O mais importante é o ligamento de Lisfranc, do cuneiforme medial à base do 2º metatarsal, que compensa a ausência de ligamento entre as bases do 1º e do 2º metatarsais.",
+   "clinica": "Sua ruptura, ou avulsão de um fragmento ósseo (sinal da mancha), caracteriza a lesão de Lisfranc, com alargamento entre o 1º e o 2º raios na radiografia com carga."
+  },
+  {
+   "key": "Dorsal tarsometatarsal ligaments",
+   "pt": "Ligamentos tarsometatarsais dorsais",
+   "funcao": "Feixes dorsais dos cuneiformes e do cuboide às bases dos metatarsais. Mais fracos que os plantares, o que explica o desvio dorsal dos metatarsais nas luxações de Lisfranc."
+  },
+  {
+   "key": "Plantar tarsometatarsal ligaments",
+   "pt": "Ligamentos tarsometatarsais plantares",
+   "funcao": "Feixes plantares dos cuneiformes e do cuboide às bases dos metatarsais; fortes, sustentam o arco."
+  },
+  {
+   "key": "Anterior cruciate ligament",
+   "pt": "Ligamento cruzado anterior (LCA)",
+   "funcao": "Intracapsular e extrassinovial: da área intercondilar anterior da tíbia sobe para trás e para o lado, até a parte posterior da face medial do côndilo lateral do fêmur. Tem um feixe anteromedial (mais tenso em flexão) e um posterolateral (mais tenso em extensão). É o principal freio à translação anterior da tíbia e limita a rotação medial e a hiperextensão.",
+   "clinica": "Lesão em geral sem contato: desaceleração, mudança de direção ou aterrissagem com o joelho próximo da extensão e em valgo; mais frequente em mulheres atletas. Estalido, hemartrose em poucas horas e falseios. Testes: Lachman (o mais sensível), gaveta anterior e pivot shift. Pode vir com lesão do colateral tibial e de meniscos. Reabilitação (com ou sem reconstrução): controle do derrame, extensão completa precoce, reativação do quadríceps, fortalecimento com ênfase também em isquiotibiais e quadril, treino neuromuscular e critérios funcionais para retorno ao esporte. Tem mecanorreceptores, e sua lesão prejudica a propriocepção."
+  },
+  {
+   "key": "Posterior cruciate ligament",
+   "pt": "Ligamento cruzado posterior (LCP)",
+   "funcao": "Da área intercondilar posterior da tíbia sobe para a frente e medialmente até a face lateral do côndilo medial do fêmur. É mais espesso e forte que o anterior. É o principal freio à translação posterior da tíbia, sobretudo com o joelho fletido, e estabiliza o fêmur sobre a tíbia ao descer ladeiras e escadas.",
+   "clinica": "Lesão por impacto anterior na tíbia com o joelho fletido (trauma do painel do carro, queda sobre o joelho com o pé em flexão plantar) ou por hiperflexão/hiperextensão. Testes: gaveta posterior e sinal da queda posterior da tíbia (sag). Lesões isoladas costumam ser tratadas conservadoramente, com ênfase no quadríceps e evitando, no início, isquiotibiais resistidos em cadeia aberta."
+  },
+  {
+   "key": "Superficial part of tibial collateral ligament",
+   "pt": "Parte superficial do ligamento colateral tibial (medial)",
+   "funcao": "Faixa larga e plana do epicôndilo medial do fêmur à face medial da tíbia, alguns centímetros abaixo da interlinha, sob os tendões da pata de ganso. É o principal freio ao estresse em valgo e também limita a rotação lateral da tíbia.",
+   "clinica": "Lesão por força em valgo (golpe na face lateral do joelho). Teste de estresse em valgo a 30° de flexão (isola o ligamento) e a 0° (se positivo, sugere lesão associada de cápsula posteromedial ou cruzados). Bem vascularizado e extra-articular: cicatriza bem com tratamento conservador e mobilização precoce protegida do valgo."
+  },
+  {
+   "key": "Deep part of tibial collateral ligament",
+   "pt": "Parte profunda do ligamento colateral tibial (medial)",
+   "funcao": "Espessamento da cápsula medial, profundo à parte superficial, com feixes meniscofemoral e meniscotibial presos firmemente ao menisco medial. Fixa o menisco medial e auxilia contra o valgo.",
+   "clinica": "Por essa aderência, o menisco medial é menos móvel e mais sujeito a lesão; a combinação de lesão do colateral tibial, do menisco medial e do cruzado anterior é a clássica \"tríade infeliz\"."
+  },
+  {
+   "key": "Fibular collateral ligament",
+   "pt": "Ligamento colateral fibular (lateral)",
+   "funcao": "Cordão arredondado do epicôndilo lateral do fêmur à cabeça da fíbula, extracapsular, separado do menisco lateral pelo tendão do poplíteo. É o principal freio ao estresse em varo e ajuda a limitar a rotação lateral da tíbia.",
+   "clinica": "Lesado com menos frequência que o medial, em geral junto com outras estruturas do canto posterolateral e, às vezes, com o nervo fibular comum. Teste de estresse em varo a 30° e a 0°. Palpável como um cordão com a perna cruzada em \"posição de 4\"."
+  },
+  {
+   "key": "Articular capsule of knee joint",
+   "pt": "Cápsula articular da articulação do joelho",
+   "funcao": "Cápsula fina, reforçada pelos retináculos da patela, pelos ligamentos colaterais e pelos ligamentos poplíteos; na frente é substituída pelo tendão do quadríceps, pela patela e pelo ligamento da patela. A membrana sinovial é a mais extensa do corpo e forma a bolsa suprapatelar, que comunica com a articulação.",
+   "clinica": "Derrame articular distende a bolsa suprapatelar (sinal da tecla/rechaço patelar e sinal da onda) e inibe reflexamente o quadríceps. Aderências na bolsa suprapatelar limitam a flexão após imobilização ou cirurgia. A parte posterior da cápsula fica tensa em extensão; sua retração causa déficit de extensão."
+  },
+  {
+   "key": "Oblique popliteal ligament",
+   "pt": "Ligamento poplíteo oblíquo",
+   "funcao": "Expansão do tendão do semimembranáceo que sobe lateralmente, da parte posterior do côndilo medial da tíbia ao côndilo lateral do fêmur. Reforça a cápsula posterior e limita a hiperextensão e a rotação lateral."
+  },
+  {
+   "key": "Arcuate popliteal ligament",
+   "pt": "Ligamento poplíteo arqueado",
+   "funcao": "Feixes em Y que partem da cabeça da fíbula, arqueiam-se sobre o tendão do poplíteo e se abrem na cápsula posterior. Reforça a parte posterolateral da cápsula.",
+   "clinica": "Faz parte do canto posterolateral do joelho."
+  },
+  {
+   "key": "Popliteofibular ligament",
+   "pt": "Ligamento popliteofibular",
+   "funcao": "Do tendão do poplíteo, na junção musculotendínea, ao ápice (processo estiloide) da cabeça da fíbula. É um dos principais estabilizadores estáticos do canto posterolateral: limita a rotação lateral e a translação posterior da tíbia e o varo.",
+   "clinica": "Lesões do canto posterolateral (colateral fibular, tendão do poplíteo e ligamento popliteofibular) causam instabilidade rotatória posterolateral; o teste de rotação lateral da tíbia (dial test) a 30° e 90° ajuda no diagnóstico. Não reconhecidas, levam à falha de reconstruções dos cruzados."
+  },
+  {
+   "key": "Medial meniscus",
+   "pt": "Menisco medial",
+   "funcao": "Fibrocartilagem em forma de C aberto, mais larga atrás, sobre o côndilo medial da tíbia; seus cornos se fixam nas áreas intercondilares e a periferia adere à cápsula e à parte profunda do colateral tibial. Aumenta a congruência, distribui carga (os meniscos transmitem metade ou mais da carga do joelho), absorve impacto, auxilia a lubrificação e a estabilidade.",
+   "clinica": "Menos móvel que o lateral e, por isso, mais lesado, sobretudo o corno posterior, em torção com o pé apoiado e o joelho fletido, ou por degeneração. Dor na interlinha medial, derrame, bloqueio (lesão em alça de balde). Testes de McMurray, Apley e Thessaly. Só o terço periférico é vascularizado (zona vermelha) e tem potencial de cicatrização; a meniscectomia aumenta a pressão de contato e o risco de artrose."
+  },
+  {
+   "key": "Lateral meniscus",
+   "pt": "Menisco lateral",
+   "funcao": "Fibrocartilagem quase circular (em O), de largura uniforme, sobre o côndilo lateral da tíbia. Cobre proporção maior do platô e é mais móvel que o medial, pois não se prende ao ligamento colateral fibular; o tendão do poplíteo o separa do ligamento e o traciona para trás na flexão.",
+   "clinica": "Lesado com frequência junto com rupturas agudas do cruzado anterior. O menisco discoide (variação anatômica) é quase sempre lateral e pode causar ressalto na criança."
+  },
+  {
+   "key": "Anterior meniscotibial ligament (Medial meniscus)",
+   "pt": "Ligamento meniscotibial anterior do menisco medial (raiz anterior)",
+   "funcao": "Fixação do corno anterior do menisco medial à área intercondilar anterior da tíbia, à frente da inserção do cruzado anterior. Ancora o menisco e permite que ele converta a carga axial em tensão circunferencial."
+  },
+  {
+   "key": "Posterior meniscotibial ligament (Medial meniscus)",
+   "pt": "Ligamento meniscotibial posterior do menisco medial (raiz posterior)",
+   "funcao": "Fixação do corno posterior do menisco medial à área intercondilar posterior da tíbia, à frente da inserção do cruzado posterior.",
+   "clinica": "A lesão da raiz posterior do menisco medial, comum em pessoas de meia-idade (dor posterior súbita ao agachar), faz o menisco extruir e perder a função, equivalendo biomecanicamente a uma meniscectomia total."
+  },
+  {
+   "key": "Anterior meniscotibial ligament (Lateral meniscus)",
+   "pt": "Ligamento meniscotibial anterior do menisco lateral (raiz anterior)",
+   "funcao": "Fixação do corno anterior do menisco lateral à área intercondilar anterior, logo lateral e posterior à inserção do cruzado anterior, com a qual se mistura parcialmente."
+  },
+  {
+   "key": "Posterior meniscotibial ligament (Lateral meniscus)",
+   "pt": "Ligamento meniscotibial posterior do menisco lateral (raiz posterior)",
+   "funcao": "Fixação do corno posterior do menisco lateral à área intercondilar posterior, atrás da eminência intercondilar. Daí partem também os ligamentos meniscofemorais, para o côndilo medial do fêmur.",
+   "clinica": "Lesões da raiz posterior do menisco lateral associam-se a rupturas do cruzado anterior."
+  },
+  {
+   "key": "Transverse ligament of knee",
+   "pt": "Ligamento transverso do joelho",
+   "funcao": "Faixa fina que une os cornos anteriores dos meniscos medial e lateral, à frente. Faz os meniscos moverem-se em conjunto; é inconstante."
+  },
+  {
+   "key": "Meniscopatellar ligament",
+   "pt": "Ligamento meniscopatelar",
+   "funcao": "Feixes capsulares das margens inferiores da patela às bordas anteriores dos meniscos. Tracionam os meniscos para a frente durante a extensão do joelho, acompanhando os côndilos do fêmur."
+  },
+  {
+   "key": "Infrapatellar fat pad",
+   "pt": "Corpo adiposo infrapatelar (gordura de Hoffa)",
+   "funcao": "Coxim de gordura intracapsular e extrassinovial, atrás do ligamento da patela e abaixo da patela. Preenche o espaço anterior do joelho e se molda aos movimentos; é ricamente vascularizado e inervado.",
+   "clinica": "Muito sensível à dor. Pode ser pinçado entre fêmur e tíbia na hiperextensão (síndrome de Hoffa): dor anterior ao lado do ligamento da patela, pior no fim da extensão. Fibrose após artroscopia pode limitar a mobilidade da patela e a extensão."
+  },
+  {
+   "key": "Anterior ligament of fibular head",
+   "pt": "Ligamento anterior da cabeça da fíbula",
+   "funcao": "Feixes da face anterior da cabeça da fíbula ao côndilo lateral da tíbia, dirigidos para cima e medialmente. Reforça a cápsula da tibiofibular proximal."
+  },
+  {
+   "key": "Posterior ligament of fibular head",
+   "pt": "Ligamento posterior da cabeça da fíbula",
+   "funcao": "Feixe da face posterior da cabeça da fíbula ao côndilo lateral da tíbia, coberto pelo tendão do poplíteo. Reforça a cápsula por trás; mais fraco que o anterior."
+  },
+  {
+   "key": "Articular capsule of superior tibiofibular joint",
+   "pt": "Cápsula articular da articulação tibiofibular proximal",
+   "funcao": "Envolve a articulação entre a cabeça da fíbula e a tíbia. Em parte das pessoas comunica-se com a cavidade do joelho por meio do recesso subpoplíteo.",
+   "clinica": "Cistos sinoviais desta cápsula podem comprimir o nervo fibular comum."
+  },
+  {
+   "key": "Pubic symphysis",
+   "pt": "Sínfise púbica",
+   "funcao": "Articulação cartilagínea secundária (sínfise) entre os corpos dos dois púbis: faces revestidas por cartilagem hialina, unidas pelo disco interpúbico fibrocartilagíneo e reforçadas pelos ligamentos púbico superior e púbico inferior (arqueado). Fecha o anel pélvico na frente e permite apenas movimentos mínimos (cerca de 2 mm de translação e 1–3° de rotação), absorvendo as forças de cisalhamento da marcha.",
+   "clinica": "Pubalgia do atleta/osteíte púbica (futebol, corrida): dor na sínfise e na origem dos adutores, pior em chutes e mudanças de direção, por sobrecarga e desequilíbrio entre adutores e abdominais. Na gestação, a relaxina aumenta a mobilidade; pode haver dor da cintura pélvica e, raramente, diástase no parto. Fraturas do anel pélvico \"em livro aberto\"."
+  },
+  {
+   "key": "Triradiate cartilage",
+   "pt": "Cartilagem trirradiada",
+   "funcao": "Cartilagem de crescimento em forma de Y no fundo do acetábulo, onde se encontram ílio, ísquio e púbis (uma sincondrose). Responde pelo crescimento do acetábulo e ossifica-se na adolescência, fundindo os três ossos no osso do quadril.",
+   "clinica": "Seu fechamento é usado como marcador de maturidade esquelética. Lesões dessa cartilagem na infância podem resultar em acetábulo raso (displasia)."
+  },
+  {
+   "key": "Iliolumbar ligament",
+   "pt": "Ligamento iliolombar",
+   "funcao": "Do processo transverso de L5 (e, em parte, de L4) à crista ilíaca e à região anterior da articulação sacroilíaca. Prende L5 à pelve: limita o deslizamento anterior de L5 sobre o sacro e a flexão lateral e a rotação lombossacrais.",
+   "clinica": "Fonte possível de dor lombar baixa unilateral, com dor à palpação junto à parte posterior da crista ilíaca."
+  },
+  {
+   "key": "Obturator membrane",
+   "pt": "Membrana obturadora",
+   "funcao": "Lâmina fibrosa que fecha quase todo o forame obturado, deixando em cima o canal obturatório, por onde passam o nervo e os vasos obturatórios para a coxa. Dá origem aos músculos obturadores interno e externo."
+  },
+  {
+   "key": "Sacrospinous ligament",
+   "pt": "Ligamento sacroespinal",
+   "funcao": "Triangular, da margem lateral do sacro e do cóccix à espinha isquiática. Transforma a incisura isquiática maior em forame isquiático maior e separa-o do forame isquiático menor. Com o sacrotuberal, impede que a parte inferior do sacro bascule para trás, limitando a nutação.",
+   "clinica": "A espinha isquiática e este ligamento são a referência para o bloqueio do nervo pudendo, que os contorna."
+  },
+  {
+   "key": "Sacrotuberous ligament",
+   "pt": "Ligamento sacrotuberal",
+   "funcao": "Faixa larga e forte da espinha ilíaca posteroinferior, do sacro e do cóccix ao túber isquiático. Fecha por baixo o forame isquiático menor e limita a nutação do sacro. Recebe fibras do glúteo máximo e é contínuo, em parte, com o tendão da cabeça longa do bíceps femoral.",
+   "clinica": "Elo entre os isquiotibiais e a pelve/sacro: a tensão do bíceps femoral aumenta a tensão do ligamento e a estabilidade sacroilíaca. O nervo pudendo pode ser comprimido entre este ligamento e o sacroespinal."
+  },
+  {
+   "key": "Anterior sacro-iliac ligament",
+   "pt": "Ligamento sacroilíaco anterior",
+   "funcao": "Espessamento fino da parte anterior da cápsula, da asa e face pélvica do sacro ao ílio. É o mais fraco dos sacroilíacos.",
+   "clinica": "Estressado nos testes de distração (afastamento das espinhas ilíacas anterossuperiores)."
+  },
+  {
+   "key": "Interosseous sacro-iliac ligament",
+   "pt": "Ligamento sacroilíaco interósseo",
+   "funcao": "Feixes curtos, numerosos e muito fortes entre as tuberosidades do sacro e do ílio, atrás e acima das faces auriculares. É o principal elo entre o esqueleto axial e o membro inferior: suspende o sacro entre os ílios e, quando o peso do tronco empurra o sacro para baixo, puxa os ílios contra ele, travando a articulação."
+  },
+  {
+   "key": "Posterior sacro-iliac ligament",
+   "pt": "Ligamento sacroilíaco posterior",
+   "funcao": "Recobre o interósseo: feixes curtos, horizontais, e feixes longos, quase verticais, da espinha ilíaca posterossuperior às cristas sacrais laterais (S3–S4), que se continuam com o ligamento sacrotuberal. O feixe longo fica tenso na contranutação.",
+   "clinica": "O ligamento sacroilíaco posterior longo é palpável logo abaixo da espinha ilíaca posterossuperior e costuma ser doloroso na dor da cintura pélvica, inclusive na gestação."
+  }
+ ]
+}

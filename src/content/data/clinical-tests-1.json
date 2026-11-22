@@ -1,0 +1,233 @@
+[
+  {
+    "id": "neer",
+    "nome": "Teste de Neer (sinal do impacto de Neer)",
+    "art": "ombro",
+    "objetivo": "Investigar dor por impacto subacromial: compressão do tendão do supraespinal, da cabeça longa do bíceps e da bolsa subacromial contra a porção anteroinferior do acrômio.",
+    "estruturas": ["Supraspinatus muscle", "Subacromial bursa", "Long head of biceps brachii", "Acromion", "Greater tubercle"],
+    "posicao": "Sentado ou em pé, membro superior relaxado ao lado do corpo.",
+    "execucao": "O examinador estabiliza a escápula com uma das mãos (impedindo sua rotação superior) e, com a outra, eleva passivamente o braço do paciente no plano da escápula/flexão até o final da amplitude, mantendo o ombro em rotação medial (polegar para baixo).",
+    "positivo": "Reprodução da dor na região anterolateral do ombro, em geral no final da elevação, muitas vezes com expressão facial de dor.",
+    "observacao": "Teste sensível, mas pouco específico: dor também aparece em capsulite adesiva, instabilidade, artrose acromioclavicular e lesões do bíceps. Tem mais valor quando combinado a outros achados (Hawkins-Kennedy, arco doloroso, fraqueza em rotação lateral). No teste original de Neer, a dor desaparecia após infiltração anestésica subacromial."
+  },
+  {
+    "id": "hawkins-kennedy",
+    "nome": "Teste de Hawkins-Kennedy",
+    "art": "ombro",
+    "objetivo": "Investigar impacto subacromial, comprimindo o tubérculo maior e o tendão do supraespinal sob o ligamento coracoacromial.",
+    "estruturas": ["Supraspinatus muscle", "Subacromial bursa", "Coraco-acromial ligament", "Greater tubercle", "Acromion"],
+    "posicao": "Sentado ou em pé.",
+    "execucao": "O examinador posiciona o ombro a 90° de flexão e o cotovelo a 90° de flexão e, em seguida, realiza rotação medial passiva do ombro (levando o antebraço para baixo), estabilizando o cotovelo. Pode ser repetido em diferentes graus de adução horizontal.",
+    "positivo": "Dor na região anterolateral/superior do ombro durante a rotação medial.",
+    "observacao": "Como o Neer, é mais sensível do que específico; um teste negativo ajuda a afastar impacto subacromial. Dor posterior ou profunda pode sugerir impacto interno. A combinação Hawkins-Kennedy + arco doloroso + fraqueza do infraespinal aumenta a probabilidade de síndrome do impacto."
+  },
+  {
+    "id": "jobe-lata-vazia",
+    "nome": "Teste de Jobe (lata vazia / empty can)",
+    "art": "ombro",
+    "objetivo": "Avaliar o músculo e o tendão do supraespinal (tendinopatia ou ruptura) e, indiretamente, o nervo supraescapular.",
+    "estruturas": ["Supraspinatus muscle", "Suprascapular nerve", "Greater tubercle", "Subacromial bursa"],
+    "posicao": "Sentado ou em pé, braços elevados a 90° no plano da escápula (cerca de 30° à frente do plano frontal), cotovelos estendidos e ombros em rotação medial completa, com os polegares apontando para baixo.",
+    "execucao": "O examinador aplica resistência para baixo sobre os antebraços distais, bilateralmente, pedindo ao paciente que mantenha a posição. Compara-se um lado com o outro.",
+    "positivo": "Dor e/ou fraqueza do lado testado. Fraqueza verdadeira (o braço cede) sugere ruptura do supraespinal; dor sem perda de força sugere tendinopatia.",
+    "observacao": "A variante «lata cheia» (full can, polegar para cima, rotação lateral) ativa o supraespinal de forma semelhante e costuma provocar menos dor, sendo útil em ombros muito irritáveis. A fraqueza é o achado mais valioso; a dor isolada é pouco específica."
+  },
+  {
+    "id": "arco-doloroso",
+    "nome": "Teste do arco doloroso",
+    "art": "ombro",
+    "objetivo": "Identificar em que faixa da abdução ativa a dor aparece, diferenciando dor subacromial de dor acromioclavicular.",
+    "estruturas": ["Supraspinatus muscle", "Subacromial bursa", "Acromion", "Acromioclavicular joint"],
+    "posicao": "Em pé, braços ao lado do corpo.",
+    "execucao": "O paciente abduz ativamente o braço em toda a amplitude, no plano frontal ou escapular, e retorna lentamente. O examinador observa a faixa de aparecimento e desaparecimento da dor e o ritmo escapuloumeral.",
+    "positivo": "Dor que surge aproximadamente entre 60° e 120° de abdução e alivia acima disso sugere origem subacromial (manguito/bolsa). Dor no final da elevação (cerca de 170°–180°) sugere a articulação acromioclavicular.",
+    "observacao": "A dor costuma ser mais intensa na descida (fase excêntrica). É um dos componentes de combinações de testes usadas para síndrome do impacto e ruptura do manguito."
+  },
+  {
+    "id": "queda-do-braco",
+    "nome": "Teste da queda do braço (drop arm / Codman)",
+    "art": "ombro",
+    "objetivo": "Detectar ruptura extensa (espessura total) do manguito rotador, especialmente do supraespinal.",
+    "estruturas": ["Supraspinatus muscle", "Infraspinatus muscle", "Rotator cuff muscles"],
+    "posicao": "Sentado ou em pé.",
+    "execucao": "O examinador abduz passivamente o braço do paciente até 90° (ou mais) e solicita que ele o abaixe lentamente, de forma controlada, até a lateral do corpo.",
+    "positivo": "Incapacidade de baixar o braço de modo suave e controlado: o braço cai bruscamente ou há dor intensa por volta de 90°.",
+    "observacao": "Bastante específico, porém pouco sensível: quando positivo, reforça muito a hipótese de ruptura extensa; quando negativo, não a exclui."
+  },
+  {
+    "id": "patte",
+    "nome": "Teste de Patte",
+    "art": "ombro",
+    "objetivo": "Avaliar a força dos rotadores laterais, principalmente infraespinal e redondo menor.",
+    "estruturas": ["Infraspinatus muscle", "Teres minor muscle", "Suprascapular nerve", "Axillary nerve"],
+    "posicao": "Sentado ou em pé, ombro a 90° de abdução no plano da escápula e cotovelo fletido a 90°, sustentados pelo examinador.",
+    "execucao": "O examinador apoia o cotovelo do paciente e solicita rotação lateral do ombro contra resistência aplicada no dorso do antebraço distal.",
+    "positivo": "Dor com força preservada sugere tendinopatia; fraqueza indica lesão do infraespinal/redondo menor; incapacidade de resistir sugere ruptura.",
+    "observacao": "Comparar sempre com o lado oposto. Pode ser complementado pelo teste de rotação lateral resistida com o braço ao lado do corpo, que isola melhor o infraespinal."
+  },
+  {
+    "id": "sinal-do-atraso-rotacao-lateral",
+    "nome": "Sinal do atraso em rotação lateral (external rotation lag sign)",
+    "art": "ombro",
+    "objetivo": "Detectar ruptura de espessura total do supraespinal e do infraespinal.",
+    "estruturas": ["Infraspinatus muscle", "Supraspinatus muscle", "Teres minor muscle"],
+    "posicao": "Sentado, de costas para o examinador, cotovelo fletido a 90° e ombro elevado cerca de 20° no plano da escápula.",
+    "execucao": "O examinador leva passivamente o ombro até quase o máximo de rotação lateral, pede ao paciente que mantenha ativamente essa posição e então solta o punho, mantendo o apoio no cotovelo.",
+    "positivo": "O paciente não consegue manter a posição e o antebraço «volta» em direção à rotação medial (atraso ou lag). A magnitude do atraso relaciona-se ao tamanho da ruptura.",
+    "observacao": "Teste de alta especificidade para rupturas completas. Exige amplitude passiva de rotação lateral preservada para ser interpretado."
+  },
+  {
+    "id": "hornblower",
+    "nome": "Sinal do corneteiro (Hornblower)",
+    "art": "ombro",
+    "objetivo": "Avaliar a integridade do redondo menor (e da porção posterior do manguito).",
+    "estruturas": ["Teres minor muscle", "Infraspinatus muscle", "Axillary nerve"],
+    "posicao": "Sentado ou em pé, ombro a 90° de abdução no plano da escápula e cotovelo fletido a 90°.",
+    "execucao": "O examinador sustenta o braço nessa posição e solicita rotação lateral contra resistência. Outra forma: pede-se ao paciente que leve a mão à boca.",
+    "positivo": "Incapacidade de rodar lateralmente o ombro nessa posição; ao levar a mão à boca, o paciente precisa elevar o cotovelo acima da mão (postura de quem toca corneta).",
+    "observacao": "Sugere ruptura ou degeneração importante do redondo menor, geralmente associada a rupturas posterossuperiores extensas do manguito."
+  },
+  {
+    "id": "gerber-lift-off",
+    "nome": "Teste de Gerber (lift-off)",
+    "art": "ombro",
+    "objetivo": "Avaliar a integridade do músculo subescapular.",
+    "estruturas": ["Subscapularis muscle", "Lesser tubercle", "Superior subscapular nerve", "Inferior subscapular nerve"],
+    "posicao": "Em pé, com o dorso da mão apoiado na região lombar média (ombro em rotação medial e extensão).",
+    "execucao": "Solicita-se ao paciente que afaste a mão das costas, sem estender o cotovelo. Se conseguir, o examinador pode aplicar resistência na palma. Na variante de atraso (lag), o examinador afasta passivamente a mão das costas e pede que o paciente mantenha a posição.",
+    "positivo": "Incapacidade de afastar a mão das costas ou de manter a mão afastada (a mão retorna à coluna lombar).",
+    "observacao": "Exige rotação medial passiva suficiente e indolor para alcançar a região lombar; quando o paciente não consegue assumir a posição, usa-se o belly press. Atenção à compensação com extensão do cotovelo ou do ombro."
+  },
+  {
+    "id": "belly-press",
+    "nome": "Teste de compressão abdominal (belly press / Napoleão)",
+    "art": "ombro",
+    "objetivo": "Avaliar o subescapular quando o paciente não tolera ou não alcança a posição do lift-off.",
+    "estruturas": ["Subscapularis muscle", "Lesser tubercle"],
+    "posicao": "Sentado ou em pé, palma da mão apoiada sobre o abdome, logo abaixo do processo xifoide, cotovelo fletido.",
+    "execucao": "O paciente pressiona a mão contra o abdome (rotação medial) tentando manter o cotovelo à frente do tronco, com o punho reto.",
+    "positivo": "O cotovelo recua para trás do plano do tronco e o punho flete: o paciente pressiona o abdome por extensão do ombro e flexão do punho, em vez de rotação medial.",
+    "observacao": "Avalia sobretudo as fibras superiores do subescapular. Comparar com o lado oposto. O bear hug (mão no ombro oposto, resistindo à elevação da mão pelo examinador) é uma alternativa com o mesmo objetivo."
+  },
+  {
+    "id": "speed",
+    "nome": "Teste de Speed (palm-up)",
+    "art": "ombro",
+    "objetivo": "Investigar tendinopatia da cabeça longa do bíceps braquial e lesões do lábio glenoidal superior (SLAP).",
+    "estruturas": ["Long head of biceps brachii", "Intertubercular tendon sheath", "Glenoid labrum", "Supraglenoid tubercle"],
+    "posicao": "Sentado ou em pé, cotovelo estendido e antebraço supinado.",
+    "execucao": "O paciente flexiona o ombro contra a resistência do examinador (aplicada no antebraço distal), partindo de cerca de 60°–90° de flexão; o examinador palpa o sulco intertubercular com a outra mão.",
+    "positivo": "Dor localizada no sulco intertubercular (região anterior do ombro).",
+    "observacao": "Acurácia apenas moderada e pouco específico: dor anterior também ocorre no impacto subacromial e em lesões do subescapular. Interpretar em conjunto com a palpação do sulco e o teste de Yergason."
+  },
+  {
+    "id": "yergason",
+    "nome": "Teste de Yergason",
+    "art": "ombro",
+    "objetivo": "Avaliar o tendão da cabeça longa do bíceps no sulco intertubercular e a integridade do ligamento transverso do úmero.",
+    "estruturas": ["Long head of biceps brachii", "Transverse humeral ligament", "Intertubercular tendon sheath", "Lesser tubercle"],
+    "posicao": "Sentado ou em pé, braço junto ao tronco, cotovelo fletido a 90° e antebraço pronado.",
+    "execucao": "O examinador segura o punho e resiste à supinação do antebraço (podendo associar resistência à rotação lateral do ombro), enquanto palpa o sulco intertubercular.",
+    "positivo": "Dor no sulco intertubercular (tendinopatia) ou sensação de ressalto/subluxação do tendão para fora do sulco (insuficiência do ligamento transverso ou lesão do subescapular).",
+    "observacao": "Específico, porém pouco sensível. O tendão da cabeça longa do bíceps raramente está acometido de forma isolada; pesquisar lesões associadas do manguito."
+  },
+  {
+    "id": "obrien",
+    "nome": "Teste de O'Brien (compressão ativa)",
+    "art": "ombro",
+    "objetivo": "Investigar lesão do lábio glenoidal superior (SLAP) e patologia da articulação acromioclavicular.",
+    "estruturas": ["Glenoid labrum", "Long head of biceps brachii", "Acromioclavicular joint", "Acromioclavicular ligament"],
+    "posicao": "Em pé, ombro a 90° de flexão, 10°–15° de adução horizontal, cotovelo estendido.",
+    "execucao": "Primeiro tempo: ombro em rotação medial máxima e antebraço pronado (polegar para baixo); o examinador aplica força para baixo e o paciente resiste. Segundo tempo: repete-se com o antebraço supinado (palma para cima).",
+    "positivo": "Dor ou estalido doloroso no primeiro tempo que diminui ou desaparece no segundo. Dor «profunda», dentro do ombro, sugere lesão labial; dor localizada no topo do ombro sugere a articulação acromioclavicular.",
+    "observacao": "Estudos posteriores ao original mostraram acurácia bem menor para SLAP; nenhum teste isolado confirma lesão labial. Sempre perguntar onde a dor é sentida."
+  },
+  {
+    "id": "crank",
+    "nome": "Teste da manivela (crank test)",
+    "art": "ombro",
+    "objetivo": "Investigar lesão do lábio glenoidal.",
+    "estruturas": ["Glenoid labrum", "Glenohumeral joint", "Humerus"],
+    "posicao": "Sentado ou em decúbito dorsal, ombro elevado a cerca de 160° no plano da escápula, cotovelo fletido.",
+    "execucao": "O examinador aplica compressão axial ao longo do úmero em direção à glenoide com uma das mãos e, com a outra, roda o úmero medial e lateralmente.",
+    "positivo": "Dor (geralmente na rotação lateral), com ou sem estalido, ou reprodução do sintoma de travamento/ressalto do paciente.",
+    "observacao": "Resultados de acurácia variáveis entre os estudos; usar em conjunto com a história (trauma, arremesso, sensação de ressalto) e com outros testes labiais."
+  },
+  {
+    "id": "apreensao-anterior-ombro",
+    "nome": "Teste de apreensão anterior do ombro",
+    "art": "ombro",
+    "objetivo": "Investigar instabilidade glenoumeral anterior.",
+    "estruturas": ["Inferior glenohumeral ligament", "Middle glenohumeral ligament", "Glenoid labrum", "Articular capsule of glenohumeral joint", "Subscapularis muscle"],
+    "posicao": "Decúbito dorsal, com a escápula apoiada na maca; ombro a 90° de abdução e cotovelo a 90° de flexão.",
+    "execucao": "O examinador roda lateralmente o ombro, de forma lenta e progressiva, observando a face e a reação do paciente. Não se deve forçar além do ponto de apreensão.",
+    "positivo": "Apreensão: o paciente demonstra medo de que o ombro «saia do lugar», resiste ao movimento ou relata a mesma sensação dos episódios de luxação. Dor isolada é menos específica para instabilidade.",
+    "observacao": "A apreensão (e não a dor) é o critério de maior valor diagnóstico. Deve ser seguido pelo teste de relocação. Executar com cuidado em ombros com luxação recente."
+  },
+  {
+    "id": "relocacao-jobe",
+    "nome": "Teste de relocação (Jobe / Fowler)",
+    "art": "ombro",
+    "objetivo": "Confirmar instabilidade glenoumeral anterior após o teste de apreensão.",
+    "estruturas": ["Inferior glenohumeral ligament", "Glenoid labrum", "Articular capsule of glenohumeral joint", "Glenohumeral joint"],
+    "posicao": "Decúbito dorsal, ombro a 90° de abdução e rotação lateral, no ponto em que surgiu a apreensão.",
+    "execucao": "O examinador aplica força em direção posterior sobre a face anterior da cabeça do úmero, mantendo a rotação lateral. Pode-se então retirar subitamente essa força (teste da surpresa ou liberação anterior), com cautela.",
+    "positivo": "A apreensão diminui ou desaparece com a força posterior, permitindo mais rotação lateral; reaparece ao se retirar a força.",
+    "observacao": "A combinação apreensão + relocação + surpresa tem alta especificidade para instabilidade anterior. Alívio apenas de dor (sem apreensão) pode indicar impacto interno posterossuperior, comum em arremessadores."
+  },
+  {
+    "id": "sinal-do-sulco",
+    "nome": "Sinal do sulco",
+    "art": "ombro",
+    "objetivo": "Investigar frouxidão/instabilidade glenoumeral inferior e instabilidade multidirecional.",
+    "estruturas": ["Superior glenohumeral ligament", "Coracohumeral ligament", "Articular capsule of glenohumeral joint", "Acromion"],
+    "posicao": "Sentado ou em pé, braço relaxado ao lado do corpo, em rotação neutra.",
+    "execucao": "O examinador segura o antebraço ou o cotovelo e aplica tração no sentido caudal, observando a região logo abaixo do acrômio. Repete-se com o ombro em rotação lateral.",
+    "positivo": "Aparecimento de uma depressão (sulco) entre o acrômio e a cabeça do úmero, graduada pela distância acrômio–úmero, com reprodução dos sintomas.",
+    "observacao": "Sulco bilateral e assintomático indica frouxidão constitucional, não necessariamente instabilidade. A persistência do sulco em rotação lateral sugere insuficiência do intervalo dos rotadores (ligamento glenoumeral superior e coracoumeral)."
+  },
+  {
+    "id": "gaveta-ombro",
+    "nome": "Gaveta anterior e posterior do ombro (load and shift)",
+    "art": "ombro",
+    "objetivo": "Avaliar a translação anterior e posterior da cabeça do úmero em relação à glenoide (frouxidão capsuloligamentar).",
+    "estruturas": ["Articular capsule of glenohumeral joint", "Glenoid labrum", "Inferior glenohumeral ligament", "Glenoid fossa", "Humerus"],
+    "posicao": "Sentado, com o antebraço apoiado na coxa, ou em decúbito dorsal com o ombro em leve abdução no plano da escápula.",
+    "execucao": "O examinador estabiliza a escápula (acrômio e processo coracoide) com uma das mãos; com a outra, segura a cabeça do úmero, centra-a na glenoide com leve compressão (load) e desliza-a em sentido anterior e depois posterior (shift).",
+    "positivo": "Translação aumentada em comparação ao lado oposto, com ou sem reprodução dos sintomas; gradua-se conforme a cabeça chega à borda da glenoide, ultrapassa-a com redução espontânea ou permanece luxada.",
+    "observacao": "Avalia frouxidão, que só é patológica se assimétrica e sintomática. A translação posterior normal é maior que a anterior. A contração muscular de defesa falseia o teste; o paciente precisa estar relaxado."
+  },
+  {
+    "id": "aducao-horizontal-ac",
+    "nome": "Teste de adução horizontal (cross-body / cachecol)",
+    "art": "ombro",
+    "objetivo": "Investigar patologia da articulação acromioclavicular (artrose, entorse).",
+    "estruturas": ["Acromioclavicular joint", "Acromioclavicular ligament", "Articular disc of acromioclavicular joint", "Clavicle", "Acromion"],
+    "posicao": "Sentado ou em pé, ombro a 90° de flexão.",
+    "execucao": "O examinador conduz passivamente o braço em adução horizontal máxima, levando a mão do paciente em direção ao ombro oposto.",
+    "positivo": "Dor localizada no topo do ombro, sobre a articulação acromioclavicular.",
+    "observacao": "Dor posterior pode refletir retração da cápsula posterior; dor anterior, impacto subcoracoide. A palpação direta dolorosa da interlinha acromioclavicular e o O'Brien com dor superior reforçam o achado."
+  },
+  {
+    "id": "escapula-alada-parede",
+    "nome": "Teste de empurrar a parede (escápula alada)",
+    "art": "escapula",
+    "objetivo": "Detectar fraqueza do serrátil anterior (lesão do nervo torácico longo) ou de outros estabilizadores da escápula.",
+    "estruturas": ["Serratus anterior muscle", "Long thoracic nerve", "Scapula", "Trapezius muscle", "Rhomboid major muscle"],
+    "posicao": "Em pé, de frente para a parede, com as mãos apoiadas à altura dos ombros e os cotovelos estendidos; tronco despido para observação posterior.",
+    "execucao": "O paciente realiza flexões de braço contra a parede (ou resiste à flexão do ombro a 90°), repetindo várias vezes para evidenciar fadiga. O examinador observa as escápulas por trás.",
+    "positivo": "A margem medial e o ângulo inferior da escápula afastam-se do gradil costal (escápula alada medial), indicando insuficiência do serrátil anterior.",
+    "observacao": "Na fraqueza do trapézio (nervo acessório), o alamento é mais discreto, com a escápula deprimida e deslocada lateralmente, e acentua-se na abdução; na lesão do serrátil, acentua-se na flexão e no empurrar."
+  },
+  {
+    "id": "assistencia-escapular",
+    "nome": "Teste de assistência escapular",
+    "art": "escapula",
+    "objetivo": "Verificar se a discinesia escapular contribui para a dor do ombro durante a elevação do braço.",
+    "estruturas": ["Scapula", "Serratus anterior muscle", "Ascending part of trapezius muscle", "Descending part of trapezius muscle", "Acromion"],
+    "posicao": "Em pé, de costas para o examinador.",
+    "execucao": "O paciente eleva o braço e identifica o arco de dor. O examinador então repete o movimento auxiliando manualmente a rotação superior e a inclinação posterior da escápula: uma mão estabiliza a parte superior da escápula e a outra empurra o ângulo inferior em sentido lateral e superior.",
+    "positivo": "Redução ou abolição da dor (ou aumento da amplitude) durante a elevação assistida.",
+    "observacao": "Não é um teste diagnóstico de lesão estrutural: indica que a reeducação do controle escapular (serrátil anterior e trapézio inferior) é um alvo de tratamento relevante."
+  }
+]

@@ -1,0 +1,657 @@
+[
+  {
+    "key": "Rectus abdominis muscle",
+    "pt": "Músculo reto do abdome",
+    "latim": "Musculus rectus abdominis",
+    "sinonimos": [
+      "reto abdominal",
+      "tanquinho"
+    ],
+    "resumo": "Músculo longo e em fita, vertical, de cada lado da linha alba, contido na bainha do músculo reto do abdome. É o principal flexor do tronco e é segmentado por três ou mais intersecções tendíneas.",
+    "origem": "Sínfise púbica e crista púbica.",
+    "insercao": "Processo xifoide e cartilagens costais da 5ª à 7ª costelas.",
+    "inervacao": {
+      "nervo": "Nervos toracoabdominais (ramos anteriores dos seis nervos torácicos inferiores) e nervo subcostal",
+      "raizes": "T7–T12",
+      "nervoKeys": [
+        "Intercostal nerves"
+      ]
+    },
+    "vascularizacao": "Artérias epigástrica superior (ramo da torácica interna) e epigástrica inferior (ramo da ilíaca externa), que se anastomosam dentro da bainha do reto.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "aproxima o tórax da pelve; atua sobretudo na coluna lombar"
+      },
+      {
+        "art": "pelve",
+        "mov": "retroversao",
+        "papel": "primario",
+        "nota": "com o tórax fixo, traciona o púbis para cima"
+      },
+      {
+        "art": "tronco",
+        "mov": "compressao_abdominal",
+        "papel": "secundario"
+      },
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "secundario",
+        "nota": "abaixa as costelas e o esterno"
+      }
+    ],
+    "funcao": "Concentricamente flete o tronco (enrolar o tronco a partir do decúbito dorsal) e, com o tórax fixo, faz a retroversão da pelve. Excentricamente controla a extensão do tronco, como ao inclinar-se para trás ou ao deitar a partir da posição sentada. Junto com os glúteos máximos e os isquiotibiais forma o par de forças que retroverte a pelve e reduz a lordose lombar; em oposição ao eretor da espinha e aos flexores do quadril, impede a anteversão excessiva. Participa da tosse, do vômito, da defecação e do parto por aumentar a pressão intra-abdominal, embora contribua pouco para a estabilização segmentar da coluna quando comparado ao transverso do abdome.",
+    "antagonistas": [
+      "Erector spinae",
+      "Quadratus lumborum muscle"
+    ],
+    "sinergistas": [
+      "External abdominal oblique muscle",
+      "Internal abdominal oblique muscle",
+      "Psoas major"
+    ],
+    "palpacao": "Paciente em decúbito dorsal com joelhos fletidos. Palpe de cada lado da linha mediana, entre o processo xifoide e o púbis, e peça para elevar a cabeça e os ombros da maca: o músculo endurece e as intersecções tendíneas (geralmente na altura do processo xifoide, do umbigo e a meio caminho entre eles) tornam-se palpáveis. A margem lateral corresponde à linha semilunar.",
+    "teste": "Kendall, flexores superiores do tronco: decúbito dorsal, membros inferiores estendidos. O paciente enrola o tronco (flexão da coluna) e depois senta-se, sem apoio das mãos. A fase de enrolamento testa os abdominais; a fase de flexão do quadril só se completa se os abdominais mantiverem a coluna fletida. Graduação pela posição dos braços (ao longo do corpo, cruzados no tórax, mãos atrás da cabeça). Flexores inferiores: abaixamento dos dois membros inferiores estendidos mantendo a lombar apoiada na maca (retroversão); registra-se o ângulo em que a pelve começa a anteverter.",
+    "alongamento": "Extensão do tronco: decúbito ventral com apoio nos antebraços ou nas mãos (postura da esfinge ou da cobra), ou extensão sobre uma bola suíça, com os braços elevados para aumentar a distância entre o púbis e o tórax.",
+    "clinica": "Diástase dos músculos retos do abdome: afastamento dos dois ventres por alargamento da linha alba, comum na gestação e no puerpério; avalia-se pela distância inter-retos durante a elevação da cabeça e trata-se com treino de ativação do transverso do abdome e do assoalho pélvico. A fraqueza favorece anteversão pélvica e hiperlordose lombar. Estiramentos ocorrem em esportes com extensão e rotação vigorosas do tronco (tênis, ginástica). O hematoma da bainha do reto decorre de ruptura dos vasos epigástricos. Abaixo da linha arqueada a bainha não tem lâmina posterior, e o músculo fica em contato com a fáscia transversal.",
+    "dica": "As intersecções tendíneas prendem o músculo à lâmina anterior da bainha, não à posterior: por isso os gomos aparecem na frente.",
+    "camada": "superficial"
+  },
+  {
+    "key": "External abdominal oblique muscle",
+    "pt": "Músculo oblíquo externo do abdome",
+    "latim": "Musculus obliquus externus abdominis",
+    "sinonimos": [
+      "oblíquo externo"
+    ],
+    "resumo": "O maior e mais superficial dos três músculos planos da parede anterolateral do abdome. Suas fibras descem em direção medial e anterior (como as mãos nos bolsos) e sua aponeurose forma a lâmina anterior da bainha do reto e o ligamento inguinal.",
+    "origem": "Faces externas da 5ª à 12ª costelas, por digitações que se entrelaçam com as do serrátil anterior e do latíssimo do dorso.",
+    "insercao": "Linha alba (pela aponeurose), tubérculo púbico e metade anterior do lábio externo da crista ilíaca. A margem inferior da aponeurose, espessada entre a espinha ilíaca anterossuperior e o tubérculo púbico, constitui o ligamento inguinal.",
+    "inervacao": {
+      "nervo": "Nervos toracoabdominais (ramos anteriores de T7–T11) e nervo subcostal",
+      "raizes": "T7–T12",
+      "nervoKeys": [
+        "Intercostal nerves"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores inferiores e subcostal, artéria circunflexa ilíaca profunda e ramos das epigástricas.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "rotacao_contralateral",
+        "papel": "primario",
+        "nota": "o oblíquo externo direito gira o tronco para a esquerda"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "primario",
+        "nota": "para o mesmo lado, principalmente as fibras laterais"
+      },
+      {
+        "art": "tronco",
+        "mov": "compressao_abdominal",
+        "papel": "primario"
+      },
+      {
+        "art": "pelve",
+        "mov": "retroversao",
+        "papel": "secundario"
+      },
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Bilateralmente flete o tronco, retroverte a pelve e comprime as vísceras. Unilateralmente inclina o tronco para o mesmo lado e o gira para o lado oposto, trabalhando em cadeia cruzada com o oblíquo interno contralateral: na rotação para a esquerda atuam o oblíquo externo direito e o oblíquo interno esquerdo. Excentricamente freia a extensão e a rotação do tronco, como no arremesso e no saque. Na expiração forçada, na tosse e no espirro abaixa as costelas e empurra o diafragma para cima. Na marcha e na corrida ajuda a controlar a rotação entre a cintura pélvica e a escapular.",
+    "antagonistas": [
+      "Erector spinae",
+      "Multifidus muscles"
+    ],
+    "sinergistas": [
+      "Internal abdominal oblique muscle",
+      "Rectus abdominis muscle",
+      "Transversus abdominis muscle"
+    ],
+    "palpacao": "Na parede lateral do abdome, entre as costelas inferiores e a crista ilíaca. Peça flexão do tronco com rotação para o lado oposto (ombro em direção ao joelho contralateral): as fibras ficam tensas e as digitações costais são visíveis em indivíduos magros, intercaladas com as do serrátil anterior.",
+    "teste": "Kendall: decúbito dorsal; o paciente flete o tronco e o roda, levando o ombro do lado testado em direção ao quadril oposto (testa o oblíquo externo desse lado junto com o oblíquo interno do lado oposto). Sustentar a posição com as mãos atrás da cabeça corresponde ao grau normal. O teste de abaixamento dos membros inferiores avalia a ação de retroversão das fibras laterais.",
+    "alongamento": "Extensão do tronco combinada com inclinação para o lado oposto e rotação para o mesmo lado do músculo, por exemplo em decúbito lateral sobre um rolo ou bola, com o braço de cima elevado.",
+    "clinica": "A fraqueza bilateral reduz a capacidade de fletir o tronco e de retroverter a pelve; a fraqueza unilateral ou em cadeia cruzada associa-se a desvios rotacionais do tronco e escoliose. Estiramentos próximos às inserções costais são frequentes em arremessadores e remadores. O anel inguinal superficial é uma abertura na aponeurose do oblíquo externo, relevante nas hérnias inguinais e na pubalgia do atleta. Os nervos cutâneos que atravessam o músculo podem ser fonte de dor na parede abdominal.",
+    "dica": "Fibras no sentido das mãos nos bolsos, igual aos intercostais externos. Externo gira para o lado oposto; interno gira para o mesmo lado.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Internal abdominal oblique muscle",
+    "pt": "Músculo oblíquo interno do abdome",
+    "latim": "Musculus obliquus internus abdominis",
+    "sinonimos": [
+      "oblíquo interno"
+    ],
+    "resumo": "Músculo plano intermediário da parede anterolateral do abdome. Suas fibras abrem-se em leque a partir da crista ilíaca, em direção superior e medial, perpendiculares às do oblíquo externo.",
+    "origem": "Fáscia toracolombar, dois terços anteriores da linha intermédia da crista ilíaca e tecido conjuntivo profundo ao terço (ou à metade) lateral do ligamento inguinal.",
+    "insercao": "Margens inferiores da 10ª à 12ª costelas, linha alba (pela aponeurose, que se divide para envolver o reto do abdome acima da linha arqueada) e linha pectínea do púbis por meio da foice inguinal (tendão conjunto), junto com o transverso do abdome.",
+    "inervacao": {
+      "nervo": "Nervos toracoabdominais, nervo subcostal e ramos do primeiro nervo lombar (ílio-hipogástrico e ilioinguinal)",
+      "raizes": "T7–T12, L1",
+      "nervoKeys": [
+        "Intercostal nerves",
+        "Iliohypogastric nerve"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores inferiores e subcostal, epigástricas superior e inferior e circunflexa ilíaca profunda.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "tronco",
+        "mov": "rotacao_ipsilateral",
+        "papel": "primario",
+        "nota": "o oblíquo interno direito gira o tronco para a direita"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "primario",
+        "nota": "para o mesmo lado"
+      },
+      {
+        "art": "tronco",
+        "mov": "compressao_abdominal",
+        "papel": "primario"
+      },
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "secundario"
+      },
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "tensiona a fáscia toracolombar junto com o transverso do abdome"
+      }
+    ],
+    "funcao": "Atua em cadeia cruzada com o oblíquo externo do lado oposto para rodar o tronco: gira-o para o seu próprio lado. Bilateralmente flete o tronco e aumenta a pressão intra-abdominal. Suas fibras inferiores, quase horizontais, comportam-se como o transverso do abdome: comprimem a parte inferior do abdome, sustentam as vísceras e, pela inserção na fáscia toracolombar, contribuem para a estabilização lombopélvica e para a compressão das articulações sacroilíacas. Com o transverso, forma o teto arqueado do canal inguinal, que se fecha como um obturador quando a pressão abdominal aumenta. No homem dá origem ao músculo cremaster.",
+    "antagonistas": [
+      "Erector spinae",
+      "Multifidus muscles"
+    ],
+    "sinergistas": [
+      "External abdominal oblique muscle",
+      "Transversus abdominis muscle",
+      "Rectus abdominis muscle"
+    ],
+    "palpacao": "Profundo ao oblíquo externo, não se individualiza com segurança. Sente-se sua contração logo medial e acima da espinha ilíaca anterossuperior durante a rotação do tronco para o mesmo lado. Medial e inferiormente à espinha ilíaca anterossuperior (cerca de 2 cm), palpa-se a contração conjunta das fibras inferiores do oblíquo interno e do transverso do abdome.",
+    "teste": "Kendall: decúbito dorsal, flexão do tronco com rotação; ao levar o ombro direito em direção ao quadril esquerdo, testa-se o oblíquo interno esquerdo junto com o oblíquo externo direito. Para as fibras laterais: decúbito lateral, elevação lateral do tronco com os membros inferiores estabilizados.",
+    "alongamento": "Extensão do tronco com inclinação e rotação para o lado oposto ao músculo.",
+    "clinica": "A foice inguinal reforça a parede posterior do canal inguinal na altura do anel superficial; sua fraqueza predispõe à hérnia inguinal direta. Lesões da inserção púbica e da foice inguinal participam da pubalgia do atleta (hérnia do esportista). Estiramentos do oblíquo interno do lado não dominante são típicos em arremessadores e jogadores de críquete e tênis (dor na parede lateral junto às últimas costelas). Incisões que lesam os nervos ílio-hipogástrico e ilioinguinal enfraquecem a região inguinal.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Transversus abdominis muscle",
+    "pt": "Músculo transverso do abdome",
+    "latim": "Musculus transversus abdominis",
+    "sinonimos": [
+      "transverso abdominal",
+      "TrA"
+    ],
+    "resumo": "O mais profundo dos três músculos planos do abdome, com fibras horizontais que envolvem o abdome como uma cinta. É o principal músculo da compressão abdominal e peça central da estabilização lombopélvica.",
+    "origem": "Faces internas das cartilagens costais da 7ª à 12ª costelas (interdigitando com o diafragma), fáscia toracolombar, lábio interno da crista ilíaca e tecido conjuntivo profundo ao terço lateral do ligamento inguinal.",
+    "insercao": "Linha alba, pela aponeurose que participa da bainha do reto (lâmina posterior acima da linha arqueada; lâmina anterior abaixo dela); crista púbica e linha pectínea do púbis pela foice inguinal (tendão conjunto).",
+    "inervacao": {
+      "nervo": "Nervos toracoabdominais, nervo subcostal e ramos do primeiro nervo lombar (ílio-hipogástrico e ilioinguinal)",
+      "raizes": "T7–T12, L1",
+      "nervoKeys": [
+        "Intercostal nerves",
+        "Iliohypogastric nerve"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores inferiores e subcostal, epigástricas superior e inferior, circunflexa ilíaca profunda e artérias lombares.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "compressao_abdominal",
+        "papel": "primario",
+        "nota": "estreita a cintura e aumenta a pressão intra-abdominal"
+      },
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "tensiona a fáscia toracolombar e a linha alba"
+      },
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "primario"
+      },
+      {
+        "art": "tronco",
+        "mov": "rotacao_ipsilateral",
+        "papel": "secundario",
+        "nota": "contribuição pequena"
+      }
+    ],
+    "funcao": "Não produz movimento apreciável da coluna: sua contração puxa a parede abdominal para dentro, eleva a pressão intra-abdominal e tensiona a fáscia toracolombar, aumentando a rigidez segmentar da coluna lombar e a compressão das articulações sacroilíacas. Em pessoas sem dor lombar, ativa-se de forma antecipatória (antes do motor primário) nos movimentos rápidos dos membros, independentemente da direção. Funciona em conjunto com o diafragma (teto), o assoalho pélvico (base) e os multífidos (parede posterior), formando o cilindro de estabilização do tronco. É o principal músculo da expiração forçada, da tosse, do espirro, do vômito, da defecação e do período expulsivo do parto.",
+    "antagonistas": [
+      "Diaphragm"
+    ],
+    "sinergistas": [
+      "Internal abdominal oblique muscle",
+      "Multifidus muscles",
+      "Levator ani",
+      "External abdominal oblique muscle"
+    ],
+    "palpacao": "Cerca de 2 cm medial e inferiormente à espinha ilíaca anterossuperior, lateral ao reto do abdome. Com o paciente em decúbito dorsal, joelhos fletidos, peça para puxar suavemente a parte baixa do abdome para dentro sem mover a coluna, a pelve ou as costelas e sem prender a respiração: sente-se um aumento lento e profundo de tensão. Um abaulamento rápido e superficial indica predomínio do oblíquo interno.",
+    "teste": "Não há prova manual de força isolada. Avalia-se a ativação seletiva pela manobra de depressão da parede abdominal (drawing-in): em decúbito ventral com unidade de biofeedback pressórico sob o abdome inflada a 70 mmHg, a contração correta reduz a pressão em 6 a 10 mmHg, mantida por 10 segundos com respiração normal. A ultrassonografia permite observar o espessamento e o deslizamento lateral do músculo.",
+    "alongamento": "Não se alonga de forma específica; a respiração diafragmática profunda, com expansão do abdome e das costelas inferiores, distende suas fibras.",
+    "clinica": "Em pessoas com dor lombar crônica ou recorrente, a ativação antecipatória do transverso do abdome costuma estar atrasada; exercícios de controle motor (ativação isolada em baixa intensidade, depois integração em tarefas funcionais) fazem parte da reabilitação, embora as evidências não mostrem superioridade clara sobre outros exercícios. É alvo do treino no pós-parto, na diástase dos retos e nas disfunções do assoalho pélvico, com o qual se coativa. Cuidado para o paciente não substituir a ativação por apneia, retroversão da pelve ou contração dos retos e oblíquos externos.",
+    "dica": "Pense em uma cinta ou espartilho natural: fibras horizontais, função de apertar, não de mover.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Pyramidalis muscle",
+    "pt": "Músculo piramidal",
+    "latim": "Musculus pyramidalis",
+    "resumo": "Pequeno músculo triangular, inconstante (ausente em cerca de 20% das pessoas), situado anteriormente à parte inferior do reto do abdome, dentro da bainha do reto.",
+    "origem": "Face anterior do corpo do púbis e ligamento púbico anterior.",
+    "insercao": "Linha alba, entre a sínfise púbica e o umbigo (geralmente no terço inferior).",
+    "inervacao": {
+      "nervo": "Nervo subcostal (pode receber fibras do ílio-hipogástrico)",
+      "raizes": "T12"
+    },
+    "vascularizacao": "Artéria epigástrica inferior.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "outro",
+        "papel": "primario",
+        "nota": "tensiona a linha alba"
+      }
+    ],
+    "funcao": "Tensiona a linha alba. Não tem função motora relevante sobre a coluna ou a pelve.",
+    "sinergistas": [
+      "Rectus abdominis muscle"
+    ],
+    "palpacao": "Não é palpável de forma distinta; situa-se logo acima do púbis, de cada lado da linha mediana.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Não se aplica.",
+    "clinica": "Serve de referência para o cirurgião localizar a linha mediana nas incisões infraumbilicais. Sua ausência não causa prejuízo funcional. Pode estar envolvido, junto com o reto do abdome e o adutor longo, nas lesões da aponeurose pré-púbica na pubalgia do atleta.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Quadratus lumborum muscle",
+    "pt": "Músculo quadrado do lombo",
+    "latim": "Musculus quadratus lumborum",
+    "sinonimos": [
+      "quadrado lombar"
+    ],
+    "resumo": "Músculo quadrilátero e espesso da parede posterior do abdome, entre a crista ilíaca e a 12ª costela, lateral à coluna lombar. Inclina o tronco, eleva a pelve e é importante estabilizador lateral da coluna lombar.",
+    "origem": "Ligamento iliolombar e parte posterior do lábio interno da crista ilíaca.",
+    "insercao": "Metade medial da margem inferior da 12ª costela e extremidades dos processos costais (transversos) de L1 a L4.",
+    "inervacao": {
+      "nervo": "Nervo subcostal e ramos anteriores dos nervos lombares superiores",
+      "raizes": "T12, L1–L4",
+      "nervoKeys": [
+        "Anterior rami of lumbar nerves"
+      ]
+    },
+    "vascularizacao": "Artérias lombares, artéria subcostal e ramo lombar da artéria iliolombar.",
+    "acoes": [
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "primario",
+        "nota": "para o mesmo lado, com a pelve fixa"
+      },
+      {
+        "art": "pelve",
+        "mov": "elevacao_pelve",
+        "papel": "primario",
+        "nota": "com o tronco fixo, eleva a hemipelve do mesmo lado"
+      },
+      {
+        "art": "tronco",
+        "mov": "extensao",
+        "papel": "secundario",
+        "nota": "contração bilateral"
+      },
+      {
+        "art": "costelas",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "fixa a 12ª costela, dando ponto de apoio ao diafragma na inspiração"
+      },
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "estabilização da coluna lombar no plano frontal"
+      }
+    ],
+    "funcao": "Com a pelve fixa, inclina o tronco para o mesmo lado; excentricamente controla a inclinação para o lado oposto. Com o tronco fixo, eleva a pelve do mesmo lado, o que permite tirar o pé do chão na fase de balanço quando o membro inferior não encurta (marcha com órtese longa, joelho rígido). Bilateralmente auxilia a extensão lombar. É considerado um dos principais estabilizadores da coluna lombar no plano frontal, muito ativo ao carregar peso em uma das mãos e na prancha lateral. Na respiração fixa a 12ª costela para que o diafragma tenha uma base estável; na expiração forçada ajuda a abaixá-la.",
+    "sinergistas": [
+      "Erector spinae",
+      "Internal abdominal oblique muscle",
+      "External abdominal oblique muscle",
+      "Latissimus dorsi muscle"
+    ],
+    "palpacao": "Paciente em decúbito lateral ou ventral. Coloque os dedos lateralmente à massa do eretor da espinha, entre a 12ª costela e a crista ilíaca, e pressione em direção medial e anterior, rumo aos processos costais lombares. Peça para elevar a pelve em direção às costelas: sente-se a contração profunda. A palpação é feita através do latíssimo do dorso e das aponeuroses dos músculos abdominais.",
+    "teste": "Kendall: decúbito ventral, membro inferior em leve extensão e abdução; o paciente eleva a pelve em direção às costelas e o examinador aplica tração no membro inferior, no sentido de afastá-lo. Alternativa (elevação pélvica): em pé ou em decúbito dorsal, elevar a hemipelve contra resistência aplicada acima do tornozelo. A resistência da musculatura lateral do tronco pode ser avaliada pelo tempo de sustentação da prancha lateral.",
+    "alongamento": "Inclinação lateral do tronco para o lado oposto, com o braço do lado alongado elevado acima da cabeça; em decúbito lateral sobre um rolo sob a cintura, com o membro inferior de cima pendente em adução atrás do de baixo; ou sentado, inclinando o tronco lateralmente com leve flexão.",
+    "clinica": "Fonte frequente de dor lombar de origem miofascial: os pontos-gatilho referem dor para a crista ilíaca, a articulação sacroilíaca, a região glútea e o trocanter maior, podendo simular bursite trocantérica ou dor sacroilíaca. O encurtamento ou espasmo unilateral eleva a hemipelve e produz diferença aparente (funcional) de comprimento dos membros inferiores e escoliose lombar com concavidade para o lado encurtado. Fica hiperativo como compensador quando o glúteo médio é fraco. A fraqueza bilateral é rara; a unilateral dificulta a elevação da pelve na marcha.",
+    "dica": "É o músculo do quadril que sobe (hip hiker).",
+    "camada": "profunda"
+  },
+  {
+    "key": "Diaphragm",
+    "pt": "Diafragma",
+    "latim": "Diaphragma",
+    "sinonimos": [
+      "músculo diafragma"
+    ],
+    "resumo": "Lâmina musculotendínea em forma de cúpula dupla que separa as cavidades torácica e abdominal. É o principal músculo da inspiração, responsável pela maior parte da ventilação em repouso, e forma o teto do cilindro de estabilização do tronco.",
+    "origem": "Parte esternal: face posterior do processo xifoide. Parte costal: faces internas das seis cartilagens costais inferiores e das costelas adjacentes, interdigitando com o transverso do abdome. Parte lombar: pilar direito (corpos de L1–L3), pilar esquerdo (corpos de L1–L2) e ligamentos arqueados medial (sobre o psoas maior) e lateral (sobre o quadrado do lombo); os pilares unem-se no ligamento arqueado mediano, anterior à aorta.",
+    "insercao": "Centro tendíneo, aponeurose em forma de trevo, sem inserção óssea, fundida superiormente ao pericárdio fibroso.",
+    "inervacao": {
+      "nervo": "Nervo frênico (motor e sensitivo da parte central); os nervos intercostais inferiores e o subcostal dão apenas sensibilidade à periferia",
+      "raizes": "C3, C4, C5"
+    },
+    "vascularizacao": "Face superior: artérias pericardicofrênica e musculofrênica (ramos da torácica interna) e frênicas superiores (da aorta torácica). Face inferior: artérias frênicas inferiores (da aorta abdominal), que são o principal suprimento.",
+    "acoes": [
+      {
+        "art": "costelas",
+        "mov": "inspiracao",
+        "papel": "primario",
+        "nota": "abaixa o centro tendíneo e eleva e alarga as costelas inferiores"
+      },
+      {
+        "art": "tronco",
+        "mov": "compressao_abdominal",
+        "papel": "secundario",
+        "nota": "aumenta a pressão intra-abdominal quando contrai junto com os abdominais"
+      },
+      {
+        "art": "tronco",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "teto do cilindro de estabilização lombopélvica"
+      }
+    ],
+    "funcao": "Ao contrair, as cúpulas descem cerca de 1,5 cm na respiração tranquila e até 6 a 10 cm na inspiração profunda, aumentando o diâmetro vertical do tórax; a pressão intratorácica cai e o ar entra. Como as vísceras abdominais resistem à descida, o centro tendíneo passa a servir de ponto fixo e as fibras costais elevam as costelas inferiores, alargando o tórax no sentido laterolateral (movimento em alça de balde); isso depende da zona de aposição, área em que o diafragma fica encostado à face interna das costelas inferiores. A expiração tranquila é passiva: o diafragma relaxa e sobe pela retração elástica dos pulmões. Controla excentricamente a expiração na fala e no canto. A descida do diafragma comprime as vísceras e favorece o retorno venoso pela veia cava inferior. Contrai antes dos movimentos dos membros e mantém atividade tônica durante tarefas de sustentação postural, modulando a pressão intra-abdominal junto com o transverso do abdome e o assoalho pélvico. As fibras do pilar direito que circundam o hiato esofágico atuam como esfíncter contra o refluxo. Aberturas: forame da veia cava (T8), hiato esofágico (T10) e hiato aórtico (T12).",
+    "antagonistas": [
+      "Transversus abdominis muscle",
+      "Internal abdominal oblique muscle",
+      "External abdominal oblique muscle",
+      "Rectus abdominis muscle"
+    ],
+    "sinergistas": [
+      "External intercostal muscles",
+      "Scalenus anterior muscle",
+      "Scalenus medius muscle",
+      "Sternocleidomastoid muscle"
+    ],
+    "palpacao": "Não é palpável diretamente. Avalia-se pela mobilidade: mãos sobre as costelas inferiores e polegares junto ao ângulo infraesternal, observando a expansão lateral simétrica na inspiração; ou mão sobre o epigástrio, sentindo a protrusão do abdome. A parte costal anterior pode ser abordada enganchando os dedos sob o rebordo costal durante a expiração, com o paciente relaxado.",
+    "teste": "Observação do padrão respiratório em decúbito dorsal: na inspiração o abdome e as costelas inferiores devem expandir-se; a retração inspiratória do abdome (respiração paradoxal) sugere fraqueza ou paralisia. Medidas objetivas: pressão inspiratória máxima (manovacuometria), cirtometria toracoabdominal, capacidade vital em pé e deitado (queda maior que 20–25% em decúbito sugere fraqueza diafragmática) e ultrassonografia da excursão e do espessamento.",
+    "alongamento": "Expiração máxima e prolongada, seguida de apneia expiratória com elevação das costelas; manobras manuais de liberação sob o rebordo costal durante a expiração.",
+    "clinica": "Lesão medular acima de C3 abole a respiração espontânea; lesões em C3–C5 comprometem-na parcialmente. A lesão de um nervo frênico (cirurgia cardíaca ou cervical, tumor do mediastino, bloqueio interescalênico) causa paralisia da hemicúpula, que fica elevada e sobe na inspiração (movimento paradoxal). A dor do diafragma central é referida ao ombro e ao trapézio (dermátomo C4), como na irritação por sangue, bile ou ar. Na doença pulmonar obstrutiva crônica a hiperinsuflação retifica as cúpulas, reduz a zona de aposição e coloca o músculo em desvantagem mecânica; as costelas inferiores podem ser puxadas para dentro na inspiração (sinal de Hoover). Hérnia de hiato e hérnias congênitas (Bochdalek, posterolateral; Morgagni, retroesternal) atravessam seus pontos fracos. O treinamento muscular inspiratório e a reeducação diafragmática são recursos da fisioterapia respiratória; o padrão respiratório também influencia o controle postural e a função do assoalho pélvico. O soluço é a contração espasmódica involuntária do diafragma.",
+    "dica": "C3, C4 e C5 mantêm o diafragma vivo. Aberturas: veia cava em T8, esôfago em T10, aorta em T12.",
+    "camada": "profunda"
+  },
+  {
+    "key": "External intercostal muscles",
+    "pt": "Músculos intercostais externos",
+    "latim": "Musculi intercostales externi",
+    "resumo": "Onze pares de músculos que ocupam a camada superficial dos espaços intercostais, dos tubérculos das costelas até as junções costocondrais. Elevam as costelas na inspiração.",
+    "origem": "Margem inferior da costela acima (1ª à 11ª).",
+    "insercao": "Margem superior da costela imediatamente abaixo. As fibras descem em direção anterior e medial (mãos nos bolsos). Anteriormente, entre as cartilagens costais, o músculo é substituído pela membrana intercostal externa.",
+    "inervacao": {
+      "nervo": "Nervos intercostais",
+      "raizes": "T1–T11",
+      "nervoKeys": [
+        "Intercostal nerves"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores e ramos intercostais anteriores da artéria torácica interna e da musculofrênica.",
+    "acoes": [
+      {
+        "art": "costelas",
+        "mov": "inspiracao",
+        "papel": "primario",
+        "nota": "elevam as costelas"
+      },
+      {
+        "art": "costelas",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "mantêm a rigidez dos espaços intercostais"
+      }
+    ],
+    "funcao": "Elevam as costelas, aumentando os diâmetros anteroposterior (movimento em braço de bomba, costelas superiores) e laterolateral (alça de balde, costelas inferiores) do tórax. São mais ativos na inspiração, sobretudo nos espaços superiores e posteriores. Tão importante quanto mover as costelas é enrijecer os espaços intercostais, impedindo que sejam sugados para dentro quando a pressão intratorácica cai na inspiração e que abaulem na expiração forçada. Participam também da rotação do tórax: os externos de um lado agem com os internos do lado oposto.",
+    "antagonistas": [
+      "Internal intercostal muscles",
+      "Transversus thoracis muscle"
+    ],
+    "sinergistas": [
+      "Diaphragm",
+      "Levatores costarum",
+      "Scalenus anterior muscle",
+      "Scalenus medius muscle"
+    ],
+    "palpacao": "Com a polpa de um dedo no espaço intercostal, entre duas costelas, na parede lateral ou posterior do tórax. Sente-se a tensão aumentar na inspiração profunda. Não é possível distingui-los dos intercostais internos pela palpação.",
+    "teste": "Não há prova manual isolada. Avaliam-se a expansibilidade torácica (cirtometria nas alturas axilar, xifoide e basal), a simetria do movimento costal e as pressões respiratórias máximas.",
+    "alongamento": "Inclinação lateral do tronco para o lado oposto com o braço elevado, associada à inspiração profunda dirigida ao hemitórax alongado; rotação do tronco.",
+    "clinica": "A tiragem intercostal (retração dos espaços na inspiração) indica esforço respiratório aumentado ou paralisia dos intercostais. Em lesões medulares cervicais baixas e torácicas altas, os intercostais ficam paralisados com o diafragma preservado: o tórax superior retrai na inspiração (respiração paradoxal) e a tosse fica ineficaz. Estiramentos ocorrem em rotações bruscas e tosse intensa. O feixe vasculonervoso intercostal corre no sulco da costela, entre os intercostais internos e os íntimos; por isso as punções torácicas são feitas rente à margem superior da costela de baixo. A neuralgia intercostal e o herpes-zóster causam dor em faixa ao longo do espaço.",
+    "dica": "Externos: fibras como mãos nos bolsos da frente, inspiram. Internos: fibras como mãos nos bolsos de trás, expiram.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Internal intercostal muscles",
+    "pt": "Músculos intercostais internos",
+    "latim": "Musculi intercostales interni",
+    "resumo": "Onze pares de músculos da camada média dos espaços intercostais, com fibras perpendiculares às dos externos. Estendem-se do esterno até os ângulos das costelas.",
+    "origem": "Margem inferior da costela e da cartilagem costal acima, junto ao sulco da costela.",
+    "insercao": "Margem superior da costela e da cartilagem costal imediatamente abaixo. As fibras descem em direção posterior e lateral. Posteriormente, dos ângulos das costelas até a coluna, o músculo é substituído pela membrana intercostal interna.",
+    "inervacao": {
+      "nervo": "Nervos intercostais",
+      "raizes": "T1–T11",
+      "nervoKeys": [
+        "Intercostal nerves"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores e ramos intercostais anteriores da artéria torácica interna e da musculofrênica.",
+    "acoes": [
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "primario",
+        "nota": "parte interóssea: abaixa as costelas"
+      },
+      {
+        "art": "costelas",
+        "mov": "inspiracao",
+        "papel": "secundario",
+        "nota": "parte intercondral (paraesternal): eleva as costelas"
+      },
+      {
+        "art": "costelas",
+        "mov": "estabilizacao",
+        "papel": "primario",
+        "nota": "mantêm a rigidez dos espaços intercostais"
+      }
+    ],
+    "funcao": "A parte interóssea, entre as costelas, abaixa-as na expiração forçada, na tosse e na fala em alto volume, sendo mais ativa nos espaços inferiores e laterais. A parte intercondral, entre as cartilagens costais (músculos paraesternais), tem ação inspiratória e está ativa já na respiração tranquila. Como os externos, enrijecem os espaços intercostais e participam da rotação do tronco, trabalhando com os intercostais externos do lado oposto.",
+    "antagonistas": [
+      "External intercostal muscles",
+      "Diaphragm"
+    ],
+    "sinergistas": [
+      "Innermost intercostal muscles",
+      "Transversus thoracis muscle",
+      "Internal abdominal oblique muscle",
+      "Transversus abdominis muscle"
+    ],
+    "palpacao": "Não são distinguíveis dos intercostais externos. Na região paraesternal, entre as cartilagens costais, são cobertos apenas pela membrana intercostal externa e pelo peitoral maior.",
+    "teste": "Não há prova manual isolada. A função expiratória é estimada pela pressão expiratória máxima e pelo pico de fluxo da tosse.",
+    "alongamento": "Inclinação lateral e rotação do tronco com inspiração profunda, como para os intercostais externos.",
+    "clinica": "A fraqueza dos músculos expiratórios, por exemplo após lesão medular torácica, reduz a eficácia da tosse e favorece o acúmulo de secreções, o que justifica técnicas de tosse assistida e treino muscular expiratório. A dor intercostal por estiramento piora na inspiração profunda, na tosse e na rotação do tronco e deve ser diferenciada de fratura de costela, costocondrite e dor de origem visceral.",
+    "camada": "intermediaria"
+  },
+  {
+    "key": "Innermost intercostal muscles",
+    "pt": "Músculos intercostais íntimos",
+    "latim": "Musculi intercostales intimi",
+    "resumo": "Camada mais profunda e incompleta dos músculos intercostais, mais evidente na parte lateral do tórax. São separados dos intercostais internos pelo feixe vasculonervoso intercostal.",
+    "origem": "Face interna e margem inferior da costela acima.",
+    "insercao": "Face interna e margem superior da costela abaixo, com fibras na mesma direção dos intercostais internos.",
+    "inervacao": {
+      "nervo": "Nervos intercostais",
+      "raizes": "T1–T11",
+      "nervoKeys": [
+        "Intercostal nerves"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores e ramos intercostais anteriores.",
+    "acoes": [
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "secundario",
+        "nota": "ação provavelmente igual à da parte interóssea dos intercostais internos"
+      },
+      {
+        "art": "costelas",
+        "mov": "estabilizacao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Sua ação isolada não está bem definida; admite-se que atuem com os intercostais internos, abaixando as costelas na expiração forçada e enrijecendo os espaços intercostais. Pertencem à mesma camada profunda que os músculos subcostais (posteriores) e o transverso do tórax (anterior).",
+    "antagonistas": [
+      "External intercostal muscles"
+    ],
+    "sinergistas": [
+      "Internal intercostal muscles",
+      "Transversus thoracis muscle"
+    ],
+    "palpacao": "Não são palpáveis.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Como para os demais intercostais.",
+    "clinica": "Importância sobretudo topográfica: veia, artéria e nervo intercostais (de cima para baixo, nessa ordem) correm entre os intercostais internos e os íntimos, protegidos pelo sulco da costela. É nesse plano que se faz o bloqueio do nervo intercostal.",
+    "dica": "Ordem do feixe no sulco da costela, de cima para baixo: VAN (veia, artéria, nervo).",
+    "camada": "profunda"
+  },
+  {
+    "key": "Transversus thoracis muscle",
+    "pt": "Músculo transverso do tórax",
+    "latim": "Musculus transversus thoracis",
+    "sinonimos": [
+      "triangular do esterno",
+      "esternocostal"
+    ],
+    "resumo": "Músculo fino, em leque, na face interna da parede anterior do tórax. É a continuação torácica do transverso do abdome.",
+    "origem": "Face posterior da parte inferior do corpo do esterno e do processo xifoide.",
+    "insercao": "Faces internas das cartilagens costais da 2ª à 6ª costelas.",
+    "inervacao": {
+      "nervo": "Nervos intercostais",
+      "raizes": "T2–T6",
+      "nervoKeys": [
+        "Intercostal nerves"
+      ]
+    },
+    "vascularizacao": "Artéria torácica interna, que desce sobre a face anterior do músculo.",
+    "acoes": [
+      {
+        "art": "costelas",
+        "mov": "expiracao_forcada",
+        "papel": "secundario",
+        "nota": "abaixa fracamente as cartilagens costais"
+      }
+    ],
+    "funcao": "Abaixa as cartilagens costais na expiração forçada. Tem ação fraca e pode ter também função proprioceptiva.",
+    "antagonistas": [
+      "External intercostal muscles"
+    ],
+    "sinergistas": [
+      "Internal intercostal muscles",
+      "Innermost intercostal muscles"
+    ],
+    "palpacao": "Não é palpável, pois fica atrás do esterno e das cartilagens costais.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Não se aplica.",
+    "clinica": "É referência cirúrgica: os vasos torácicos internos, usados na revascularização do miocárdio, correm entre o músculo e as cartilagens costais.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Levatores costarum",
+    "pt": "Músculos levantadores das costelas",
+    "latim": "Musculi levatores costarum",
+    "sinonimos": [
+      "elevadores das costelas"
+    ],
+    "resumo": "Doze pares de pequenos músculos triangulares que descem dos processos transversos para as costelas, junto à coluna torácica, profundamente ao eretor da espinha.",
+    "origem": "Extremidades dos processos transversos de C7 a T11.",
+    "insercao": "Face externa da costela abaixo, entre o tubérculo e o ângulo. Os curtos inserem-se na costela imediatamente inferior; os longos, presentes nos quatro pares inferiores, saltam uma costela.",
+    "inervacao": {
+      "nervo": "Ramos posteriores dos nervos espinais C8–T11 (algumas fontes descrevem ramos dos nervos intercostais)",
+      "raizes": "C8, T1–T11",
+      "nervoKeys": [
+        "Spinal nerves"
+      ]
+    },
+    "vascularizacao": "Artérias intercostais posteriores.",
+    "acoes": [
+      {
+        "art": "costelas",
+        "mov": "inspiracao",
+        "papel": "secundario",
+        "nota": "elevam as costelas"
+      },
+      {
+        "art": "tronco",
+        "mov": "flexao_lateral",
+        "papel": "secundario",
+        "nota": "contribuição mínima"
+      }
+    ],
+    "funcao": "Elevam as costelas, auxiliando a inspiração; sua contribuição para a ventilação normal é discutida. Podem auxiliar discretamente a inclinação lateral e a rotação da coluna torácica e atuar como estabilizadores das articulações costovertebrais e costotransversárias.",
+    "sinergistas": [
+      "External intercostal muscles",
+      "Diaphragm"
+    ],
+    "palpacao": "Não são palpáveis individualmente; situam-se profundamente ao eretor da espinha, lateralmente aos processos transversos torácicos.",
+    "teste": "Não há prova específica.",
+    "alongamento": "Flexão com inclinação lateral e rotação da coluna torácica, associadas à expiração.",
+    "clinica": "Pouca relevância isolada. Podem participar de quadros de dor paravertebral torácica associados a disfunções costotransversárias.",
+    "camada": "profunda",
+    "partes": [
+      {
+        "key": "Levatores breves costarum",
+        "pt": "Músculos levantadores curtos das costelas",
+        "origem": "Processos transversos de C7 a T11",
+        "insercao": "Costela imediatamente abaixo da vértebra de origem, entre o tubérculo e o ângulo",
+        "nota": "Presentes nos doze níveis."
+      },
+      {
+        "key": "Levatores longi costarum",
+        "pt": "Músculos levantadores longos das costelas",
+        "origem": "Processos transversos das vértebras torácicas inferiores (T7–T10)",
+        "insercao": "Segunda costela abaixo da vértebra de origem",
+        "nota": "Fascículos mais longos, encontrados apenas nos níveis inferiores."
+      }
+    ]
+  }
+]

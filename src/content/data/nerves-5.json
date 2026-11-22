@@ -1,0 +1,73 @@
+[
+  {
+    "key": "Anterior root of spinal nerve",
+    "pt": "Raiz anterior do nervo espinal",
+    "sinonimos": ["raiz ventral", "raiz motora"],
+    "origem": "Axônios dos neurônios motores da coluna anterior da medula espinal; em T1–L2 e S2–S4 contém também fibras autonômicas pré-ganglionares, originadas na coluna lateral.",
+    "trajeto": "As radículas emergem pelo sulco anterolateral da medula, reúnem-se na raiz anterior, atravessam o espaço subaracnóideo e unem-se à raiz posterior no forame intervertebral, logo após o gânglio espinal, formando o nervo espinal.",
+    "motor": "Fibras eferentes somáticas para os músculos esqueléticos do miótomo correspondente e fibras eferentes viscerais pré-ganglionares.",
+    "sensitivo": "Nenhum (lei de Bell-Magendie: raiz anterior motora, raiz posterior sensitiva).",
+    "lesao": "Compressão por hérnia de disco ou estenose do forame (radiculopatia) e doenças do neurônio motor inferior. Fraqueza flácida, atrofia e hiporreflexia restritas ao miótomo da raiz; como a maioria dos músculos recebe mais de uma raiz, a lesão de uma única raiz causa paresia, não paralisia completa.",
+    "resumo": "Raiz motora (eferente) do nervo espinal, formada pelos axônios dos neurônios motores da coluna anterior da medula."
+  },
+  {
+    "key": "Posterior root of spinal nerve",
+    "pt": "Raiz posterior do nervo espinal",
+    "sinonimos": ["raiz dorsal", "raiz sensitiva"],
+    "origem": "Prolongamentos centrais dos neurônios pseudounipolares do gânglio sensitivo do nervo espinal (gânglio da raiz dorsal), situado no forame intervertebral.",
+    "trajeto": "Do gânglio espinal, a raiz dirige-se à medula e divide-se em radículas que penetram pelo sulco posterolateral. As fibras grossas (tato fino, vibração e propriocepção) sobem pelo funículo posterior; as finas (dor e temperatura) fazem sinapse na coluna posterior.",
+    "motor": "Nenhum.",
+    "sensitivo": "Fibras aferentes da pele do dermátomo correspondente, dos músculos, articulações e vísceras. É também o braço aferente dos reflexos miotáticos.",
+    "lesao": "Radiculopatia por hérnia de disco, osteófitos ou estenose foraminal: dor irradiada e parestesia no dermátomo, hipoestesia e diminuição do reflexo correspondente. Pela sobreposição dos dermátomos, a lesão de uma única raiz produz hipoestesia e não anestesia completa. O herpes-zóster é a reativação do vírus no gânglio espinal, com vesículas em faixa no dermátomo.",
+    "resumo": "Raiz sensitiva (aferente) do nervo espinal, que contém o gânglio espinal. Sua compressão causa dor e alteração de sensibilidade no dermátomo."
+  },
+  {
+    "key": "Cauda equina",
+    "pt": "Cauda equina",
+    "raizes": "Raízes L2–S5 e coccígea",
+    "origem": "Conjunto das raízes anteriores e posteriores dos nervos lombares, sacrais e coccígeo abaixo do cone medular.",
+    "trajeto": "Como a medula espinal do adulto termina ao nível de L1–L2, as raízes lombossacrais descem dentro do saco dural, na cisterna lombar, banhadas pelo liquor, até alcançarem seus forames intervertebrais e sacrais. A punção lombar é feita entre L3–L4 ou L4–L5, abaixo do cone medular, pois as raízes se afastam da agulha.",
+    "motor": "Fibras motoras para os músculos dos membros inferiores e do assoalho pélvico e fibras parassimpáticas sacrais (S2–S4) para bexiga, reto e órgãos genitais.",
+    "sensitivo": "Sensibilidade dos membros inferiores, do períneo e da região perianal.",
+    "lesao": "Síndrome da cauda equina: compressão de várias raízes por hérnia de disco central volumosa, estenose grave do canal, tumor, fratura ou hematoma. Dor lombar com ciatalgia bilateral ou alternante, anestesia em sela (períneo, região perianal e face medial das coxas), retenção urinária com incontinência por transbordamento, incontinência fecal, disfunção sexual, fraqueza flácida e assimétrica dos membros inferiores e arreflexia.\n\nÉ uma bandeira vermelha: exige encaminhamento médico imediato, pois a descompressão precoce define o prognóstico esfincteriano. Por ser lesão de raízes, o quadro é de neurônio motor inferior.",
+    "resumo": "Feixe de raízes lombossacrais que desce no canal vertebral abaixo do cone medular (L1–L2). Sua compressão é uma emergência: anestesia em sela e disfunção esfincteriana."
+  },
+  {
+    "key": "Intercostal nerves",
+    "pt": "Nervos intercostais",
+    "raizes": "T1–T11 (o ramo anterior de T12 é o nervo subcostal)",
+    "origem": "Ramos anteriores dos nervos espinais torácicos; não formam plexo, mantendo a distribuição segmentar.",
+    "trajeto": "Cada nervo percorre o espaço intercostal correspondente, primeiro sobre a pleura parietal e depois entre os músculos intercostal interno e intercostal íntimo, no sulco da costela, abaixo da veia e da artéria intercostais (de cima para baixo: veia, artéria, nervo). Emitem um ramo cutâneo lateral na linha axilar média e terminam como ramo cutâneo anterior. Os nervos T7–T11 (toracoabdominais) deixam os espaços intercostais e continuam na parede abdominal, entre o oblíquo interno e o transverso do abdome, até o reto do abdome.",
+    "motor": "Intercostais externos, internos e íntimos, subcostais, transverso do tórax, levantadores das costelas e serráteis posteriores; os nervos T7–T12 inervam os músculos da parede anterolateral do abdome (oblíquos externo e interno, transverso e reto do abdome).",
+    "sensitivo": "Pele do tórax e do abdome em faixas segmentares (dermátomos; T4 ao nível dos mamilos, T10 ao nível do umbigo), pleura parietal costal e peritônio parietal da parede anterolateral. O ramo cutâneo lateral de T2 forma o nervo intercostobraquial, para a axila e a face medial do braço. T1 destina-se em grande parte ao plexo braquial.",
+    "lesao": "Herpes-zóster: dor e vesículas em faixa no dermátomo, podendo evoluir com neuralgia pós-herpética. Neuralgia intercostal após fraturas de costelas, toracotomia ou drenagem torácica (por isso drenos e agulhas são introduzidos rente à borda superior da costela inferior, longe do feixe neurovascular). A dor de origem pleural ou costal limita a expansão torácica e a tosse. Lesões medulares torácicas altas paralisam os intercostais e os abdominais, comprometendo a tosse e a mecânica respiratória.",
+    "resumo": "Ramos anteriores de T1–T11 que percorrem os espaços intercostais no sulco da costela. Inervam os músculos intercostais e abdominais e a pele do tronco em faixas segmentares."
+  },
+  {
+    "key": "Sympathetic trunk",
+    "pt": "Tronco simpático",
+    "sinonimos": ["cadeia simpática paravertebral"],
+    "raizes": "Fibras pré-ganglionares de T1–L2 (L3)",
+    "origem": "Os neurônios pré-ganglionares estão na coluna lateral (intermédio-lateral) da medula, de T1 a L2. Suas fibras saem pela raiz anterior e chegam ao tronco pelos ramos comunicantes brancos.",
+    "trajeto": "Cadeia de gânglios paravertebrais interligados, de cada lado da coluna vertebral, da base do crânio ao cóccix, onde os dois troncos se unem no gânglio ímpar. Tem 3 gânglios cervicais (superior, médio e inferior — este em geral fundido ao primeiro torácico no gânglio cervicotorácico ou estrelado), 11–12 torácicos, 4 lombares e 4–5 sacrais. As fibras pós-ganglionares voltam a todos os nervos espinais pelos ramos comunicantes cinzentos ou seguem para as vísceras pelos nervos esplâncnicos e plexos periarteriais.",
+    "motor": "Eferências viscerais: vasoconstrição cutânea e visceral, sudorese e piloereção em todo o corpo; dilatação da pupila; aumento da frequência e da força de contração do coração; broncodilatação; inibição do peristaltismo.",
+    "sensitivo": "Conduz fibras aferentes viscerais de dor, que acompanham as fibras simpáticas — base da dor referida (por exemplo, dor cardíaca referida em T1–T4, no lado medial do braço esquerdo).",
+    "lesao": "Síndrome de Horner por lesão da via simpática cervical (tumor do ápice pulmonar, lesão do plexo braquial inferior com avulsão de T1, dissecção de carótida): ptose leve, miose e anidrose da hemiface. Lesões medulares acima de T6 interrompem o controle central do simpático e podem causar hipotensão ortostática e disreflexia autonômica — crise hipertensiva desencadeada por estímulos abaixo da lesão, como bexiga cheia, que exige atenção imediata durante o atendimento.",
+    "resumo": "Cadeia de gânglios simpáticos ao lado da coluna vertebral, da base do crânio ao cóccix. Recebe fibras pré-ganglionares de T1–L2 e distribui fibras pós-ganglionares para todo o corpo."
+  },
+  {
+    "key": "Sympathetic nerves",
+    "pt": "Nervos simpáticos",
+    "resumo": "Ramos que partem do tronco simpático: ramos comunicantes para os nervos espinais, nervos cardíacos e pulmonares, e nervos esplâncnicos (maior, T5–T9; menor, T10–T11; imo, T12; lombares e sacrais), que levam fibras pré-ganglionares aos gânglios pré-vertebrais (celíaco, mesentéricos) para a inervação das vísceras abdominais e pélvicas e da medula da glândula suprarrenal."
+  },
+  {
+    "key": "Central canal'",
+    "pt": "Canal central da medula espinal",
+    "resumo": "Canal estreito no centro da substância cinzenta da medula espinal, revestido por epêndima e contendo liquor. Continua superiormente com o quarto ventrículo e dilata-se no cone medular (ventrículo terminal). No adulto costuma estar parcialmente obliterado. Sua dilatação patológica (siringomielia) lesa as fibras que cruzam na comissura branca anterior, causando perda de dor e temperatura “em xale” nos ombros e membros superiores, com tato preservado."
+  },
+  {
+    "key": "Ciliary body-curve",
+    "pt": "Corpo ciliar",
+    "resumo": "Parte da túnica vascular do bulbo do olho, entre a íris e a coroide. Contém o músculo ciliar, que muda a curvatura da lente para a acomodação visual (fibras parassimpáticas do nervo oculomotor, via gânglio ciliar), e os processos ciliares, que produzem o humor aquoso."
+  }
+]

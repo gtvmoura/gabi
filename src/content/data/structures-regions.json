@@ -1,0 +1,315 @@
+[
+ {
+  "key": "Cubital fossa",
+  "pt": "Fossa cubital",
+  "latim": "Fossa cubitalis",
+  "resumo": "Depressão triangular na face anterior do cotovelo. Limites: lateralmente o músculo braquiorradial, medialmente o pronador redondo e, como base, a linha entre os epicôndilos do úmero. O assoalho é formado pelos músculos braquial e supinador; o teto, pela fáscia reforçada pela aponeurose do músculo bíceps braquial. Conteúdo, de lateral para medial: tendão do bíceps braquial, artéria braquial (que aí se divide em radial e ulnar) e nervo mediano; o nervo radial passa mais lateralmente, entre o braquiorradial e o braquial. Na tela subcutânea do teto corre a veia intermédia do cotovelo.",
+  "clinica": "Local de punção venosa (veia intermédia do cotovelo), de palpação do pulso braquial — medial ao tendão do bíceps — e de colocação do estetoscópio na medida da pressão arterial. O tendão do bíceps é a referência para o reflexo bicipital (C5–C6)."
+ },
+ {
+  "key": "Medial bicipital groove",
+  "pt": "Sulco bicipital medial",
+  "latim": "Sulcus bicipitalis medialis",
+  "resumo": "Sulco longitudinal na face medial do braço, entre o músculo bíceps braquial, à frente, e o tríceps braquial, atrás. Nele correm a artéria braquial, as veias braquiais, o nervo mediano e, na parte distal, a veia basílica; o nervo ulnar acompanha-o na metade proximal.",
+  "clinica": "A artéria braquial pode ser palpada e comprimida contra o úmero nesse sulco. É a via de drenagem dos vasos linfáticos profundos do membro superior em direção à axila."
+ },
+ {
+  "key": "Anterior region of wrist",
+  "pt": "Região anterior do punho",
+  "latim": "Regio carpalis anterior",
+  "resumo": "Face palmar do punho. Sob a pele identificam-se, de lateral para medial, os tendões do flexor radial do carpo, do palmar longo (quando presente) e do flexor ulnar do carpo. Profundamente, o retináculo dos músculos flexores fecha o sulco do carpo e forma o túnel do carpo, por onde passam o nervo mediano e nove tendões (quatro do flexor superficial dos dedos, quatro do flexor profundo e o do flexor longo do polegar). O nervo e a artéria ulnares passam por fora do túnel, no canal ulnar (de Guyon).",
+  "clinica": "O pulso radial é palpado lateralmente ao tendão do flexor radial do carpo. A compressão do nervo mediano no túnel do carpo causa parestesia nos três primeiros dedos e na metade lateral do quarto, com piora noturna, e fraqueza e atrofia da eminência tenar nos casos avançados."
+ },
+ {
+  "key": "Radial foveola",
+  "pt": "Fovéola radial (tabaqueira anatômica)",
+  "latim": "Foveola radialis",
+  "resumo": "Depressão triangular na face lateral do punho, visível com o polegar em extensão. É limitada anteriormente (lateralmente) pelos tendões do abdutor longo e do extensor curto do polegar e posteriormente (medialmente) pelo tendão do extensor longo do polegar. O assoalho é formado pelo escafoide e pelo trapézio, entre o processo estiloide do rádio e a base do primeiro metacarpal. A artéria radial cruza o assoalho; ramos superficiais do nervo radial e a origem da veia cefálica passam no teto.",
+  "clinica": "Dor à palpação da tabaqueira após queda sobre a mão espalmada sugere fratura do escafoide. Os tendões do limite anterior (primeiro compartimento extensor) são os acometidos na tenossinovite de De Quervain, pesquisada pelo teste de Finkelstein."
+ },
+ {
+  "key": "Palm",
+  "pt": "Palma da mão",
+  "latim": "Palma; Regio palmaris",
+  "resumo": "Face anterior da mão. Apresenta as eminências tenar (base do polegar) e hipotenar (base do dedo mínimo) e, entre elas, a região central, onde a pele espessa está firmemente aderida à aponeurose palmar, que protege tendões flexores, arcos arteriais palmares e ramos dos nervos mediano e ulnar.",
+  "clinica": "A fibrose e o encurtamento progressivos da aponeurose palmar constituem a contratura de Dupuytren, que leva à flexão fixa sobretudo dos dedos anular e mínimo. A atrofia da eminência tenar sugere lesão do nervo mediano; a da hipotenar e dos interósseos, do nervo ulnar."
+ },
+ {
+  "key": "Deltoid region",
+  "pt": "Região deltóidea",
+  "latim": "Regio deltoidea",
+  "resumo": "Região do ombro correspondente ao músculo deltoide, que cobre a articulação do ombro e dá a ele seu contorno arredondado. Profundamente ao músculo, o nervo axilar e a artéria circunflexa posterior do úmero contornam o colo cirúrgico do úmero, alguns centímetros abaixo do acrômio.",
+  "clinica": "Local de injeção intramuscular de pequenos volumes, aplicada no ventre do músculo, alguns centímetros abaixo do acrômio, evitando a região mais distal por onde passa o nervo axilar. A perda do contorno arredondado do ombro ocorre na luxação anterior do ombro e na atrofia do deltoide por lesão do nervo axilar, que também causa hipoestesia na face lateral do braço."
+ },
+ {
+  "key": "Deltopectoral triangle",
+  "pt": "Trígono clavipeitoral (deltopeitoral)",
+  "latim": "Trigonum clavipectorale",
+  "resumo": "Pequena depressão triangular abaixo da clavícula, entre as margens dos músculos deltoide e peitoral maior, que se continua para baixo como sulco deltopeitoral. Por ele passa a veia cefálica, que perfura a fáscia clavipeitoral para desembocar na veia axilar. Corresponde, na superfície, à fossa infraclavicular.",
+  "clinica": "O processo coracoide é palpado na profundidade desse trígono, cerca de 2,5 cm abaixo da clavícula, sob a margem anterior do deltoide. A veia cefálica é a referência para o acesso cirúrgico deltopeitoral ao ombro."
+ },
+ {
+  "key": "Triangle of auscultation",
+  "pt": "Trígono da ausculta",
+  "latim": "Trigonum auscultationis",
+  "resumo": "Pequena área triangular do dorso, medial ao ângulo inferior da escápula, limitada pela margem lateral do músculo trapézio, pela margem superior do latíssimo do dorso e pela margem medial da escápula. Nela a parede torácica é mais fina, pois o assoalho é formado apenas pelo romboide maior e pelas costelas e espaço intercostal subjacentes (6º espaço).",
+  "clinica": "Quando o paciente cruza os braços à frente do tórax e inclina o tronco, as escápulas se afastam e o trígono se amplia, permitindo auscultar com mais nitidez os sons dos lobos inferiores dos pulmões."
+ },
+ {
+  "key": "Lateral region of neck",
+  "pt": "Região cervical lateral",
+  "latim": "Regio cervicalis lateralis",
+  "resumo": "Também chamada de trígono posterior do pescoço. É limitada à frente pela margem posterior do músculo esternocleidomastóideo, atrás pela margem anterior do trapézio e abaixo pelo terço médio da clavícula. O assoalho é formado pelos músculos esplênio da cabeça, levantador da escápula e escalenos. Contém o nervo acessório (XI), que a cruza superficialmente em direção ao trapézio, os ramos cutâneos do plexo cervical (que emergem no ponto nervoso, no meio da margem posterior do esternocleidomastóideo), os troncos do plexo braquial e a terceira parte da artéria subclávia entre os escalenos, a veia jugular externa e linfonodos.",
+  "clinica": "O nervo acessório é vulnerável nessa região em biópsias de linfonodos e esvaziamentos cervicais; sua lesão paralisa o trapézio, causando queda do ombro, escápula alada e limitação da elevação do braço acima de 90°. A compressão do plexo braquial e da artéria subclávia entre os escalenos é uma das formas da síndrome do desfiladeiro torácico."
+ },
+ {
+  "key": "Greater supraclavicular fossa",
+  "pt": "Fossa supraclavicular maior",
+  "latim": "Fossa supraclavicularis major",
+  "resumo": "Depressão acima do terço médio da clavícula, que corresponde à parte inferior da região cervical lateral (trígono omoclavicular). Em sua profundidade estão a artéria subclávia, os troncos do plexo braquial, o ápice do pulmão com a cúpula da pleura e os linfonodos supraclaviculares.",
+  "clinica": "O pulso da artéria subclávia pode ser palpado comprimindo-a contra a primeira costela. No esforço respiratório, observa-se nessa fossa a retração inspiratória (tiragem) e a contração visível dos músculos acessórios da inspiração. Linfonodo supraclavicular esquerdo aumentado pode indicar neoplasia abdominal ou torácica."
+ },
+ {
+  "key": "Sternocleidomastoid region",
+  "pt": "Região esternocleidomastóidea",
+  "latim": "Regio sternocleidomastoidea",
+  "resumo": "Faixa do pescoço correspondente ao músculo esternocleidomastóideo, que separa a região cervical anterior da lateral. Profundamente ao músculo passa o feixe vasculonervoso do pescoço: artéria carótida comum, veia jugular interna e nervo vago, envoltos pela bainha carótica, além da cadeia de linfonodos cervicais profundos. Entre as cabeças esternal e clavicular fica a fossa supraclavicular menor.",
+  "clinica": "O encurtamento unilateral do músculo causa o torcicolo, com inclinação da cabeça para o lado afetado e rotação para o lado oposto. O músculo torna-se saliente quando atua como acessório da inspiração na dificuldade respiratória."
+ },
+ {
+  "key": "Carotid triangle",
+  "pt": "Trígono carótico",
+  "latim": "Trigonum caroticum",
+  "resumo": "Subdivisão da região cervical anterior, limitada pela margem anterior do músculo esternocleidomastóideo, pelo ventre superior do omo-hióideo e pelo ventre posterior do digástrico. Contém a parte superior da artéria carótida comum e sua bifurcação em carótidas interna e externa (em geral ao nível da margem superior da cartilagem tireóidea, C4), o seio carótico, a veia jugular interna, o nervo vago, o nervo hipoglosso e linfonodos cervicais profundos.",
+  "clinica": "É o local de palpação do pulso carotídeo. A palpação deve ser suave e de um lado por vez, pois a compressão do seio carótico pode causar bradicardia e queda da pressão arterial, e a compressão bilateral reduz o fluxo sanguíneo cerebral."
+ },
+ {
+  "key": "Submandibular triangle",
+  "pt": "Trígono submandibular",
+  "latim": "Trigonum submandibulare",
+  "resumo": "Subdivisão da região cervical anterior, limitada pela margem inferior da mandíbula e pelos ventres anterior e posterior do músculo digástrico. O assoalho é formado pelos músculos milo-hióideo e hioglosso. Contém a glândula submandibular, os linfonodos submandibulares, a artéria e a veia faciais e o nervo hipoglosso.",
+  "clinica": "Os linfonodos submandibulares aumentam em infecções da face, dos dentes e da cavidade oral e são palpados com a cabeça levemente fletida, para relaxar a fáscia."
+ },
+ {
+  "key": "Submental triangle",
+  "pt": "Trígono submentual",
+  "latim": "Trigonum submentale",
+  "resumo": "Área ímpar e mediana abaixo do mento, limitada pelos ventres anteriores dos dois músculos digástricos e, abaixo, pelo corpo do osso hioide. O assoalho é formado pelos músculos milo-hióideos. Contém os linfonodos submentuais, que drenam o lábio inferior central, o assoalho da boca e o ápice da língua."
+ },
+ {
+  "key": "Muscular triangle",
+  "pt": "Trígono muscular (omotraqueal)",
+  "latim": "Trigonum musculare",
+  "resumo": "Subdivisão da região cervical anterior, limitada pela linha mediana do pescoço, pelo ventre superior do músculo omo-hióideo e pela margem anterior do esternocleidomastóideo. Contém os músculos infra-hióideos e, profundamente, a laringe, a traqueia, a glândula tireoide e as paratireoides.",
+  "clinica": "É a região de acesso à via aérea (cricotireoidostomia, traqueostomia) e à tireoide. Nela se palpam a cartilagem tireóidea, a cartilagem cricóidea e os anéis traqueais."
+ },
+ {
+  "key": "Inguinal region",
+  "pt": "Região inguinal",
+  "latim": "Regio inguinalis",
+  "resumo": "Região de transição entre o abdome e a coxa, de cada lado do hipogástrio. Sua referência é o ligamento inguinal, que se estende da espinha ilíaca anterossuperior ao tubérculo púbico. Logo acima da metade medial do ligamento fica o canal inguinal, que dá passagem ao funículo espermático no homem e ao ligamento redondo do útero na mulher; abaixo do ligamento passam para a coxa o músculo iliopsoas, o nervo femoral e os vasos femorais.",
+  "clinica": "É área de fraqueza da parede abdominal, sede das hérnias inguinais (acima do ligamento) e femorais (abaixo dele). A dor inguinal em atletas pode originar-se nos adutores, no iliopsoas, na parede abdominal, na sínfise púbica ou na articulação do quadril, exigindo avaliação diferencial."
+ },
+ {
+  "key": "Femoral triangle",
+  "pt": "Trígono femoral",
+  "latim": "Trigonum femorale",
+  "resumo": "Espaço triangular na parte superior da face anterior da coxa. Limites: acima, o ligamento inguinal (base); lateralmente, a margem medial do músculo sartório; medialmente, a margem medial do adutor longo. O assoalho é formado, de lateral para medial, pelo iliopsoas e pelo pectíneo; o teto, pela fáscia lata. Conteúdo, de lateral para medial: nervo femoral, artéria femoral, veia femoral e canal femoral com vasos linfáticos e linfonodos inguinais profundos. Artéria, veia e canal femoral estão envoltos pela bainha femoral; o nervo fica fora dela. No ápice, os vasos femorais entram no canal dos adutores.",
+  "clinica": "O pulso femoral é palpado logo abaixo do ponto médio entre a espinha ilíaca anterossuperior e a sínfise púbica. Nele se palpam os linfonodos inguinais e a veia safena magna desemboca na veia femoral. É a via de acesso para cateterismo arterial e a sede das hérnias femorais (pelo canal femoral, medial à veia)."
+ },
+ {
+  "key": "Gluteal region",
+  "pt": "Região glútea",
+  "latim": "Regio glutealis",
+  "resumo": "Região posterior do quadril, entre a crista ilíaca e o sulco glúteo, formada pelos músculos glúteos máximo, médio e mínimo e pelos rotadores laterais profundos. O músculo piriforme é a referência da região profunda: acima dele emergem o nervo e os vasos glúteos superiores; abaixo, o nervo isquiático, o nervo e os vasos glúteos inferiores, o nervo pudendo e o nervo cutâneo femoral posterior. O nervo isquiático desce aproximadamente no meio da distância entre o túber isquiático e o trocanter maior.",
+  "clinica": "Para a injeção intramuscular, divide-se a nádega em quatro quadrantes; a aplicação é feita apenas no quadrante superolateral, evitando o nervo isquiático e os vasos e nervos glúteos. O local ventroglúteo (sobre o glúteo médio, entre a espinha ilíaca anterossuperior e o tubérculo da crista ilíaca) é considerado ainda mais seguro. Fraqueza dos glúteos médio e mínimo (nervo glúteo superior) causa o sinal de Trendelenburg. A região do túber isquiático e a região sacral são pontos de risco para lesão por pressão."
+ },
+ {
+  "key": "Gluteal fold",
+  "pt": "Sulco glúteo",
+  "latim": "Sulcus glutealis",
+  "resumo": "Prega cutânea transversal que marca o limite inferior da nádega e a separa da face posterior da coxa. É formada por aderências da pele à fáscia profunda e não corresponde à margem inferior do músculo glúteo máximo, que a cruza obliquamente.",
+  "clinica": "A assimetria dos sulcos glúteos é observada na avaliação postural e pode indicar desnível pélvico, diferença de comprimento dos membros ou atrofia glútea. O túber isquiático é palpado logo acima do sulco, com o quadril fletido."
+ },
+ {
+  "key": "Popliteal fossa",
+  "pt": "Fossa poplítea",
+  "latim": "Fossa poplitea",
+  "resumo": "Espaço em forma de losango atrás do joelho. Limites: superolateral, o músculo bíceps femoral; superomedial, os músculos semimembranáceo e semitendíneo; inferiores, as cabeças lateral e medial do gastrocnêmio (com o plantar, lateralmente). O assoalho é formado pela face poplítea do fêmur, pela cápsula articular do joelho e pelo músculo poplíteo. Conteúdo, do plano superficial para o profundo: nervo tibial, veia poplítea e artéria poplítea; o nervo fibular comum segue a margem medial do bíceps femoral em direção ao colo da fíbula. Contém ainda a terminação da veia safena parva, linfonodos poplíteos e gordura.",
+  "clinica": "O pulso poplíteo é o mais difícil de palpar, por ser a artéria a estrutura mais profunda; palpa-se com o joelho semifletido. O cisto de Baker (distensão da bolsa do semimembranáceo e gastrocnêmio medial) aparece como massa na parte medial da fossa. O nervo fibular comum é vulnerável à compressão junto ao colo da fíbula, causando pé caído."
+ },
+ {
+  "key": "Medial retromalleolar region",
+  "pt": "Região retromaleolar medial",
+  "latim": "Regio retromalleolaris medialis",
+  "resumo": "Região situada atrás do maléolo medial, onde o retináculo dos músculos flexores, estendido do maléolo ao calcâneo, forma o túnel do tarso. Por ele passam, de anterior para posterior: o tendão do tibial posterior, o tendão do flexor longo dos dedos, a artéria e as veias tibiais posteriores, o nervo tibial e o tendão do flexor longo do hálux.",
+  "clinica": "O pulso tibial posterior é palpado entre o maléolo medial e o tendão do calcâneo. A compressão do nervo tibial nesse local causa a síndrome do túnel do tarso, com dor e parestesia na planta do pé. A disfunção do tendão do tibial posterior, palpável nessa região, leva ao pé plano adquirido do adulto."
+ },
+ {
+  "key": "Lateral retromalleolar region",
+  "pt": "Região retromaleolar lateral",
+  "latim": "Regio retromalleolaris lateralis",
+  "resumo": "Região situada atrás do maléolo lateral. Nela passam os tendões dos músculos fibulares longo e curto, em uma bainha sinovial comum, mantidos pelo retináculo superior dos músculos fibulares; superficialmente correm o nervo sural e a veia safena parva.",
+  "clinica": "Sede de tendinopatias e de subluxação dos tendões fibulares, que podem acompanhar as entorses em inversão do tornozelo. O edema perimaleolar acumula-se nas regiões retromaleolares."
+ },
+ {
+  "key": "Medial part of longitudinal arch of foot",
+  "pt": "Parte medial do arco longitudinal do pé",
+  "latim": "Pars medialis arcus longitudinalis pedis",
+  "resumo": "Arco mais alto do pé, formado pelo calcâneo, tálus, navicular, três cuneiformes e três metatarsais mediais; a cabeça do tálus ocupa seu ápice. É sustentado passivamente pelo ligamento calcaneonavicular plantar, pelos ligamentos plantares e pela aponeurose plantar, e dinamicamente pelos músculos tibial posterior, tibial anterior, fibular longo, flexor longo do hálux e pelos músculos intrínsecos do pé. Absorve impacto e torna o pé uma alavanca rígida na fase de impulsão da marcha.",
+  "clinica": "O desabamento do arco caracteriza o pé plano, associado à pronação excessiva; o arco excessivamente alto, o pé cavo, mais rígido e com menor absorção de impacto. A extensão dos dedos tensiona a aponeurose plantar e eleva o arco (mecanismo de molinete)."
+ },
+ {
+  "key": "Lateral part of longitudinal arch of foot",
+  "pt": "Parte lateral do arco longitudinal do pé",
+  "latim": "Pars lateralis arcus longitudinalis pedis",
+  "resumo": "Arco mais baixo e mais rígido que o medial, formado pelo calcâneo, cuboide e quarto e quinto metatarsais. Apoia-se no solo durante a posição ortostática e transmite carga na fase de apoio da marcha. É sustentado pelos ligamentos plantar longo e calcaneocubóideo plantar e pelos tendões dos músculos fibulares."
+ },
+ {
+  "key": "Umbilicus",
+  "pt": "Umbigo",
+  "latim": "Umbilicus",
+  "resumo": "Cicatriz deixada pela inserção do cordão umbilical, situada na linha mediana anterior do abdome, em geral ao nível do disco entre L3 e L4, embora sua posição varie com a quantidade de gordura abdominal.",
+  "clinica": "Marca aproximadamente o dermátomo T10, referência útil no exame de nível sensitivo em lesões medulares. A drenagem linfática superficial da parede abdominal divide-se nesse nível: acima do umbigo segue para os linfonodos axilares; abaixo, para os inguinais superficiais."
+ },
+ {
+  "key": "Sacral region",
+  "pt": "Região sacral",
+  "latim": "Regio sacralis",
+  "resumo": "Região mediana do dorso sobre o sacro, entre as duas regiões glúteas. As covinhas cutâneas laterais marcam as espinhas ilíacas posterossuperiores, situadas ao nível de S2, sobre as articulações sacroilíacas.",
+  "clinica": "Por haver pouco tecido entre a pele e o osso, é o local mais frequente de lesão por pressão em pacientes acamados em decúbito dorsal, o que justifica as mudanças de decúbito e o posicionamento adequado no leito."
+ },
+ {
+  "key": "Axillary nodes",
+  "pt": "Linfonodos axilares",
+  "latim": "Nodi lymphoidei axillares",
+  "resumo": "Conjunto de 20 a 30 linfonodos situados na gordura da axila, organizados em cinco grupos: anteriores (peitorais), posteriores (subescapulares), laterais (umerais), centrais e apicais. Recebem a linfa de todo o membro superior, da maior parte da mama (cerca de 75%) e da parede do tronco acima do umbigo. A linfa dos três primeiros grupos converge para os centrais, daí para os apicais e, pelo tronco subclávio, chega ao ângulo venoso — diretamente ou pelo ducto linfático direito, à direita, e pelo ducto torácico, à esquerda.",
+  "clinica": "A retirada (esvaziamento axilar) ou a irradiação desses linfonodos no tratamento do câncer de mama pode causar linfedema do membro superior. Na drenagem linfática manual, as estações linfonodais proximais são estimuladas antes dos segmentos distais e, quando a axila está comprometida, a linfa é direcionada para a axila oposta e para os linfonodos inguinais do mesmo lado. O esvaziamento axilar também pode lesar os nervos torácico longo, toracodorsal e intercostobraquial."
+ },
+ {
+  "key": "Anterior axillary nodes",
+  "pt": "Linfonodos axilares anteriores (peitorais)",
+  "latim": "Nodi lymphoidei axillares anteriores; Nodi pectorales",
+  "resumo": "Grupo situado na parede medial da axila, ao longo da margem inferior do músculo peitoral menor, junto aos vasos torácicos laterais. Recebem a linfa da parede anterior e lateral do tórax e da maior parte da mama, drenando para os linfonodos centrais e apicais.",
+  "clinica": "São geralmente os primeiros a receber a drenagem do câncer de mama; o linfonodo sentinela costuma pertencer a esse grupo."
+ },
+ {
+  "key": "Posterior axillary nodes",
+  "pt": "Linfonodos axilares posteriores (subescapulares)",
+  "latim": "Nodi lymphoidei axillares posteriores; Nodi subscapulares",
+  "resumo": "Grupo situado na parede posterior da axila, ao longo dos vasos subescapulares, junto à margem lateral da escápula. Recebem a linfa da parede posterior do tórax e da região escapular e drenam para os linfonodos centrais e apicais."
+ },
+ {
+  "key": "Lateral axillary nodes",
+  "pt": "Linfonodos axilares laterais (umerais)",
+  "latim": "Nodi lymphoidei axillares laterales; Nodi humerales",
+  "resumo": "Grupo situado na parede lateral da axila, medial e posteriormente à veia axilar. Recebem quase toda a linfa do membro superior, com exceção da que acompanha a veia cefálica, que vai diretamente aos linfonodos apicais e infraclaviculares. Drenam para os linfonodos centrais e apicais.",
+  "clinica": "Aumentam e ficam dolorosos em infecções da mão e do antebraço (linfadenite), às vezes com linfangite visível como estrias avermelhadas na pele."
+ },
+ {
+  "key": "Central axillary nodes",
+  "pt": "Linfonodos axilares centrais",
+  "latim": "Nodi lymphoidei axillares centrales",
+  "resumo": "Grupo situado profundamente na gordura do centro da axila, sob o músculo peitoral menor. Recebem a linfa dos grupos anterior, posterior e lateral e drenam para os linfonodos apicais.",
+  "clinica": "São os linfonodos mais facilmente palpáveis no exame da axila."
+ },
+ {
+  "key": "Apical axillary nodes",
+  "pt": "Linfonodos axilares apicais",
+  "latim": "Nodi lymphoidei axillares apicales",
+  "resumo": "Grupo situado no ápice da axila, ao longo da veia axilar, acima da margem superior do músculo peitoral menor. Recebem a linfa de todos os outros grupos axilares e dos vasos que acompanham a veia cefálica; seus vasos eferentes formam o tronco subclávio."
+ },
+ {
+  "key": "Cubital nodes",
+  "pt": "Linfonodos cubitais",
+  "latim": "Nodi lymphoidei cubitales",
+  "resumo": "Pequeno grupo de linfonodos da região do cotovelo. Os superficiais (supratrocleares) situam-se acima do epicôndilo medial, junto à veia basílica. Recebem a linfa da metade ulnar da mão e do antebraço e drenam para os linfonodos axilares laterais.",
+  "clinica": "Podem ser palpados logo acima do epicôndilo medial, no sulco entre o bíceps e o tríceps, com o cotovelo fletido."
+ },
+ {
+  "key": "Parasternal nodes",
+  "pt": "Linfonodos paraesternais",
+  "latim": "Nodi lymphoidei parasternales",
+  "resumo": "Linfonodos situados ao longo dos vasos torácicos internos, de cada lado do esterno, nos espaços intercostais. Recebem a linfa da parte medial da mama, da parede anterior do tórax e da parte superior da parede abdominal anterior e drenam para os troncos broncomediastinais.",
+  "clinica": "Constituem a segunda via de drenagem da mama, especialmente dos quadrantes mediais."
+ },
+ {
+  "key": "Supraclavicular nodes",
+  "pt": "Linfonodos supraclaviculares",
+  "latim": "Nodi lymphoidei supraclaviculares",
+  "resumo": "Linfonodos da parte inferior da cadeia cervical lateral profunda, situados na fossa supraclavicular maior, próximos ao ângulo venoso, onde os grandes ductos linfáticos desembocam.",
+  "clinica": "O aumento de um linfonodo supraclavicular esquerdo (linfonodo de Virchow) pode ser sinal de neoplasia abdominal, como o câncer de estômago, disseminada pelo ducto torácico. Na drenagem linfática manual, a região supraclavicular é a primeira a ser estimulada, por corresponder ao término das vias linfáticas."
+ },
+ {
+  "key": "Submandibular nodes",
+  "pt": "Linfonodos submandibulares",
+  "latim": "Nodi lymphoidei submandibulares",
+  "resumo": "Linfonodos situados no trígono submandibular, junto à glândula submandibular e sob a margem inferior da mandíbula. Recebem a linfa da face, do nariz, dos lábios, das gengivas, dos dentes e da parte anterior da língua e drenam para os linfonodos cervicais profundos."
+ },
+ {
+  "key": "Occipital nodes",
+  "pt": "Linfonodos occipitais",
+  "latim": "Nodi lymphoidei occipitales",
+  "resumo": "Pequenos linfonodos situados junto à inserção do músculo trapézio no occipital, próximos à artéria occipital. Recebem a linfa da parte posterior do couro cabeludo e drenam para os linfonodos cervicais profundos."
+ },
+ {
+  "key": "Superficial lateral cervical nodes",
+  "pt": "Linfonodos cervicais laterais superficiais",
+  "latim": "Nodi lymphoidei cervicales laterales superficiales",
+  "resumo": "Linfonodos dispostos ao longo da veia jugular externa, sobre o músculo esternocleidomastóideo. Recebem a linfa da orelha, da região parotídea e da pele do pescoço e drenam para os linfonodos cervicais profundos."
+ },
+ {
+  "key": "Jugulodigastric node",
+  "pt": "Linfonodo jugulodigástrico",
+  "latim": "Nodus lymphoideus jugulodigastricus",
+  "resumo": "Grande linfonodo cervical profundo superior, situado onde o ventre posterior do músculo digástrico cruza a veia jugular interna, logo abaixo e atrás do ângulo da mandíbula. Recebe a linfa da tonsila palatina e da parte posterior da língua.",
+  "clinica": "É o linfonodo que aumenta e fica doloroso nas amigdalites, sendo palpado abaixo do ângulo da mandíbula."
+ },
+ {
+  "key": "Inferior deep lateral cervical nodes",
+  "pt": "Linfonodos cervicais laterais profundos inferiores",
+  "latim": "Nodi lymphoidei cervicales laterales profundi inferiores",
+  "resumo": "Linfonodos da parte inferior da cadeia que acompanha a veia jugular interna, profundamente ao músculo esternocleidomastóideo. Recebem, direta ou indiretamente, toda a linfa da cabeça e do pescoço; seus vasos eferentes formam o tronco jugular, que desemboca no ducto torácico, à esquerda, e no ducto linfático direito ou diretamente no ângulo venoso, à direita.",
+  "clinica": "O esvaziamento cervical no tratamento de tumores de cabeça e pescoço pode causar linfedema de face e pescoço e lesão do nervo acessório, com disfunção do ombro."
+ },
+ {
+  "key": "Superficial inguinal nodes",
+  "pt": "Linfonodos inguinais superficiais",
+  "latim": "Nodi lymphoidei inguinales superficiales",
+  "resumo": "Linfonodos situados na tela subcutânea do trígono femoral. Os grupos superomedial e superolateral dispõem-se paralelamente ao ligamento inguinal; o grupo inferior, ao longo da parte terminal da veia safena magna. Recebem a linfa superficial do membro inferior (exceto a da parte lateral do pé e posterolateral da perna, que vai aos linfonodos poplíteos), da parede abdominal abaixo do umbigo, da região glútea, do períneo e dos órgãos genitais externos. Drenam para os linfonodos inguinais profundos e ilíacos externos.",
+  "clinica": "São palpáveis logo abaixo do ligamento inguinal e aumentam em infecções e lesões do pé e da perna. Sua retirada ou irradiação (tumores ginecológicos, urológicos, melanoma) pode causar linfedema do membro inferior. Na drenagem linfática manual do membro inferior, são estimulados antes dos segmentos distais."
+ },
+ {
+  "key": "Deep inguinal nodes",
+  "pt": "Linfonodos inguinais profundos",
+  "latim": "Nodi lymphoidei inguinales profundi",
+  "resumo": "De um a três linfonodos situados profundamente à fáscia lata, medialmente à veia femoral; o mais proximal pode ocupar o canal femoral. Recebem a linfa dos linfonodos inguinais superficiais, dos poplíteos e dos vasos linfáticos profundos que acompanham os vasos femorais, e drenam para os linfonodos ilíacos externos."
+ },
+ {
+  "key": "Popliteal nodes",
+  "pt": "Linfonodos poplíteos",
+  "latim": "Nodi lymphoidei popliteales",
+  "resumo": "Pequeno grupo de linfonodos na gordura da fossa poplítea. Os superficiais ficam junto à terminação da veia safena parva e recebem a linfa superficial da margem lateral do pé e da face posterolateral da perna; os profundos, junto aos vasos poplíteos, recebem a linfa profunda da perna e do pé e da articulação do joelho. Drenam para os linfonodos inguinais profundos."
+ },
+ {
+  "key": "Spleen",
+  "pt": "Baço",
+  "latim": "Splen; Lien",
+  "resumo": "Maior órgão linfoide, situado no hipocôndrio esquerdo, entre o estômago e o diafragma, protegido pelas costelas 9 a 11, com o eixo maior paralelo à 10ª costela. A polpa branca participa da resposta imune; a polpa vermelha filtra o sangue, remove hemácias envelhecidas e armazena plaquetas.",
+  "clinica": "O baço normal não é palpável; quando aumentado, ultrapassa a margem costal esquerda. Pode romper-se em traumas do tórax inferior esquerdo e fraturas de costelas, com hemorragia grave; a irritação do diafragma pelo sangue causa dor referida no ombro esquerdo (sinal de Kehr)."
+ },
+ {
+  "key": "Thymus",
+  "pt": "Timo",
+  "latim": "Thymus",
+  "resumo": "Órgão linfoide primário, com dois lobos, situado no mediastino superior e na parte anterior do mediastino inferior, atrás do manúbrio do esterno e à frente dos grandes vasos e do pericárdio. Nele ocorre a maturação dos linfócitos T. É grande na infância e, após a puberdade, involui progressivamente, sendo substituído em grande parte por tecido adiposo.",
+  "clinica": "Tumores e hiperplasia do timo estão associados à miastenia grave, doença autoimune da junção neuromuscular que causa fraqueza flutuante e fadiga muscular."
+ },
+ {
+  "key": "Palatine tonsil",
+  "pt": "Tonsila palatina",
+  "latim": "Tonsilla palatina",
+  "resumo": "Massa de tecido linfoide situada de cada lado da orofaringe, na fossa tonsilar, entre os arcos palatoglosso e palatofaríngeo. Com as tonsilas faríngea, tubárias e lingual forma o anel linfático da faringe (de Waldeyer), primeira barreira imunológica na entrada das vias aérea e digestória.",
+  "clinica": "Conhecida popularmente como amígdala; sua inflamação é a tonsilite (amigdalite). A hipertrofia das tonsilas na criança pode obstruir a via aérea superior, causando respiração oral e apneia do sono."
+ }
+]

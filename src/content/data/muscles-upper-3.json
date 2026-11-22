@@ -1,0 +1,625 @@
+[
+  {
+    "key": "Anconeus muscle",
+    "pt": "Músculo ancôneo",
+    "latim": "Musculus anconeus",
+    "resumo": "Pequeno músculo triangular na face posterolateral do cotovelo, funcionalmente uma continuação da cabeça medial do tríceps braquial.",
+    "origem": "Face posterior do epicôndilo lateral do úmero.",
+    "insercao": "Face lateral do olécrano e parte proximal da face posterior da ulna.",
+    "inervacao": {
+      "nervo": "Nervo radial",
+      "raizes": "C7, C8, T1",
+      "nervoKeys": [
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria braquial profunda (ramo colateral médio) e artéria interóssea recorrente.",
+    "acoes": [
+      {
+        "art": "cotovelo",
+        "mov": "extensao",
+        "papel": "secundario"
+      },
+      {
+        "art": "cotovelo",
+        "mov": "estabilizacao",
+        "papel": "secundario",
+        "nota": "estabiliza a articulação e tensiona a cápsula posterior"
+      }
+    ],
+    "funcao": "Auxilia o tríceps na extensão, sendo um dos primeiros a ser ativado em extensões de pouca carga. Tensiona a cápsula articular, evitando seu pinçamento na fossa do olécrano, e estabiliza a ulna durante a pronação e a supinação, resistindo ao varo e à instabilidade posterolateral.",
+    "antagonistas": [
+      "Biceps brachii muscle",
+      "Brachialis muscle",
+      "Brachioradialis muscle"
+    ],
+    "sinergistas": [
+      "Triceps brachii muscle"
+    ],
+    "palpacao": "Palpe no triângulo formado pelo epicôndilo lateral, pelo olécrano e pela margem posterior da ulna proximal; o ventre contrai-se na extensão resistida do cotovelo. O ponto mole no centro desse triângulo é o local de punção articular do cotovelo.",
+    "teste": "É avaliado em conjunto com o tríceps braquial na extensão resistida do cotovelo; não há prova isolada.",
+    "alongamento": "Flexão completa do cotovelo.",
+    "clinica": "Raramente é sede de lesão isolada. Serve de marco para o acesso posterolateral ao cotovelo (intervalo entre o ancôneo e o extensor ulnar do carpo) e pode ser usado como retalho muscular local. Dor nessa região deve ser diferenciada da epicondilite lateral, da plica sinovial posterolateral e da instabilidade rotatória posterolateral.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Brachioradialis muscle",
+    "pt": "Músculo braquiorradial",
+    "latim": "Musculus brachioradialis",
+    "sinonimos": [
+      "supinador longo"
+    ],
+    "resumo": "Músculo superficial da margem lateral do antebraço, que forma o limite lateral da fossa cubital. Embora pertença ao compartimento posterior e seja inervado pelo nervo radial, é flexor do cotovelo.",
+    "origem": "Dois terços proximais da crista supraepicondilar lateral do úmero e septo intermuscular lateral.",
+    "insercao": "Face lateral da extremidade distal do rádio, imediatamente proximal ao processo estiloide.",
+    "inervacao": {
+      "nervo": "Nervo radial",
+      "raizes": "C5, C6 (C7)",
+      "nervoKeys": [
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria recorrente radial.",
+    "acoes": [
+      {
+        "art": "cotovelo",
+        "mov": "flexao",
+        "papel": "primario",
+        "nota": "mais eficiente com o antebraço em posição neutra (semipronado)"
+      },
+      {
+        "art": "radioulnar",
+        "mov": "pronacao",
+        "papel": "secundario",
+        "nota": "da supinação completa até a posição neutra"
+      },
+      {
+        "art": "radioulnar",
+        "mov": "supinacao",
+        "papel": "secundario",
+        "nota": "da pronação completa até a posição neutra"
+      }
+    ],
+    "funcao": "Flete o cotovelo principalmente em movimentos rápidos ou com carga e com o antebraço em posição neutra, como ao levantar uma caneca, martelar ou fazer a rosca martelo. Sua linha de tração ao longo do antebraço gera compressão articular, o que estabiliza o cotovelo em movimentos velozes. Traz o antebraço para a posição neutra a partir dos extremos de pronação ou supinação.",
+    "antagonistas": [
+      "Triceps brachii muscle",
+      "Anconeus muscle"
+    ],
+    "sinergistas": [
+      "Biceps brachii muscle",
+      "Brachialis muscle",
+      "Deep head of pronator teres"
+    ],
+    "palpacao": "Com o antebraço em posição neutra (polegar para cima) e o cotovelo a 90°, resista à flexão: o ventre salta na face anterolateral do antebraço proximal e pode ser seguido até o tendão, junto ao processo estiloide do rádio.",
+    "teste": "Kendall: paciente sentado ou em decúbito dorsal, cotovelo fletido com o antebraço em posição neutra; o examinador resiste na parte distal do antebraço em direção à extensão, observando e palpando o ventre.",
+    "alongamento": "Extensão completa do cotovelo com o antebraço em pronação completa e leve desvio ulnar do punho.",
+    "clinica": "O reflexo braquiorradial (estilorradial) avalia C5 e C6, sobretudo C6. Na lesão do nervo radial no sulco do úmero, o braquiorradial fica paralisado junto com os extensores do punho e dos dedos, enquanto o tríceps é poupado. Em fraturas do rádio distal, sua tração desvia o fragmento distal. O ramo superficial do nervo radial corre sob o músculo e emerge entre seu tendão e o do extensor radial longo do carpo, onde pode ser comprimido (síndrome de Wartenberg, queiralgia parestésica).",
+    "dica": "É o músculo 'da caneca de chope': flete o cotovelo com o polegar para cima.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Extensor carpi radialis longus",
+    "pt": "Músculo extensor radial longo do carpo",
+    "latim": "Musculus extensor carpi radialis longus",
+    "sinonimos": [
+      "ERLC",
+      "primeiro radial externo"
+    ],
+    "resumo": "Músculo da margem lateral do antebraço, parcialmente coberto pelo braquiorradial. Estende e desvia radialmente o punho.",
+    "origem": "Terço distal da crista supraepicondilar lateral do úmero e septo intermuscular lateral.",
+    "insercao": "Face dorsal da base do segundo metacarpal.",
+    "inervacao": {
+      "nervo": "Nervo radial",
+      "raizes": "C6, C7",
+      "nervoKeys": [
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria radial e artéria recorrente radial.",
+    "acoes": [
+      {
+        "art": "punho",
+        "mov": "extensao",
+        "papel": "primario"
+      },
+      {
+        "art": "punho",
+        "mov": "desvio_radial",
+        "papel": "primario"
+      },
+      {
+        "art": "cotovelo",
+        "mov": "flexao",
+        "papel": "secundario",
+        "nota": "ação fraca"
+      }
+    ],
+    "funcao": "Com o extensor radial curto e o extensor ulnar do carpo, mantém o punho em extensão de cerca de 20° a 30° durante a preensão, impedindo que os flexores dos dedos flitam também o punho e percam força. É por isso que a força de preensão cai muito na paralisia do nervo radial. Atua com o flexor radial do carpo no desvio radial. É mais ativo que o extensor radial curto quando há desvio radial ou preensão forte.",
+    "antagonistas": [
+      "Flexor carpi radialis",
+      "Humeral head of flexor carpi ulnaris",
+      "Palmaris longus muscle"
+    ],
+    "sinergistas": [
+      "Extensor carpi radialis brevis",
+      "Humeral head of extensor carpi ulnaris",
+      "Flexor carpi radialis"
+    ],
+    "palpacao": "Com o punho fechado e estendido contra resistência em desvio radial, o ventre é sentido logo abaixo do braquiorradial, na face lateral do antebraço proximal. O tendão é palpado na base do segundo metacarpal, no lado ulnar da tabaqueira anatômica, depois de ser cruzado pelo tendão do extensor longo do polegar.",
+    "teste": "Kendall: antebraço pronado apoiado na mesa, cotovelo levemente fletido, dedos relaxados (para excluir os extensores dos dedos); o paciente estende o punho em direção ao lado radial e o examinador resiste no dorso da mão, sobre o segundo e o terceiro metacarpais, em direção à flexão e ao desvio ulnar.",
+    "alongamento": "Flexão do punho com desvio ulnar, cotovelo estendido e antebraço pronado.",
+    "clinica": "Na lesão do nervo radial ocorre punho caído. Como seu ramo nasce do nervo radial antes da divisão, o extensor radial longo é preservado na lesão isolada do nervo interósseo posterior: o punho estende, porém com desvio radial, e os dedos não estendem nas metacarpofalângicas. Participa, em menor grau que o extensor radial curto, da epicondilite lateral. Na síndrome de intersecção, os tendões dos extensores radiais do carpo são atritados pelos ventres do abdutor longo e do extensor curto do polegar, cerca de 4 a 6 cm proximal ao tubérculo dorsal do rádio, com dor e crepitação. Em tetraplegia de nível C6, a extensão ativa do punho permite a preensão por tenodese.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Extensor carpi radialis brevis",
+    "pt": "Músculo extensor radial curto do carpo",
+    "latim": "Musculus extensor carpi radialis brevis",
+    "sinonimos": [
+      "ERCC",
+      "segundo radial externo"
+    ],
+    "resumo": "Músculo extensor do punho situado sob o extensor radial longo do carpo. Sua origem no epicôndilo lateral é o local principal da epicondilite lateral (cotovelo de tenista).",
+    "origem": "Epicôndilo lateral do úmero (tendão comum dos extensores) e ligamento colateral radial.",
+    "insercao": "Face dorsal da base do terceiro metacarpal.",
+    "inervacao": {
+      "nervo": "Ramo profundo do nervo radial",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria radial e artéria recorrente radial.",
+    "acoes": [
+      {
+        "art": "punho",
+        "mov": "extensao",
+        "papel": "primario"
+      },
+      {
+        "art": "punho",
+        "mov": "desvio_radial",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Por inserir-se no terceiro metacarpal, no eixo da mão, é o extensor mais puro do punho. É o principal estabilizador do punho em extensão durante a preensão e o movimento dos dedos, trabalhando de forma isométrica e excêntrica quase contínua em atividades manuais, o que explica sua sobrecarga.",
+    "antagonistas": [
+      "Flexor carpi radialis",
+      "Humeral head of flexor carpi ulnaris",
+      "Palmaris longus muscle"
+    ],
+    "sinergistas": [
+      "Extensor carpi radialis longus",
+      "Humeral head of extensor carpi ulnaris"
+    ],
+    "palpacao": "O ventre é palpado na face posterolateral do antebraço proximal, logo distal e posterior ao extensor radial longo, durante a extensão do punho. A origem é palpada imediatamente anterior e distal ao ápice do epicôndilo lateral, ponto de dor máxima na epicondilite lateral. O tendão é sentido na base do terceiro metacarpal, medial ao tubérculo dorsal do rádio.",
+    "teste": "Kendall: antebraço pronado, cotovelo totalmente fletido (o que deixa o extensor radial longo em desvantagem), dedos relaxados; o paciente estende o punho e o examinador resiste no dorso da mão, sobre o terceiro metacarpal, em direção à flexão. Testes provocativos para epicondilite lateral: Cozen (extensão resistida do punho com o cotovelo estendido, antebraço pronado e punho fechado), Mill (alongamento passivo em flexão do punho, pronação e extensão do cotovelo) e Maudsley (extensão resistida do dedo médio).",
+    "alongamento": "Flexão do punho com o cotovelo estendido e o antebraço pronado, com leve desvio ulnar.",
+    "clinica": "A epicondilite lateral é uma tendinopatia degenerativa (angiofibroblástica) da origem do extensor radial curto do carpo, relacionada a movimentos repetitivos de preensão com extensão do punho, uso de ferramentas e digitação, e não apenas ao tênis. Há dor no epicôndilo lateral que irradia para o antebraço e piora ao apertar a mão ou levantar objetos com o antebraço pronado, além de redução da força de preensão. O tratamento conservador baseia-se em educação e controle de carga, exercícios progressivos (isométricos e excêntricos) dos extensores do punho, alongamento e, quando útil, cinta de contraforça. O diagnóstico diferencial inclui a síndrome do túnel radial (compressão do nervo interósseo posterior, com dor mais distal, sobre o supinador) e a radiculopatia de C6–C7.",
+    "dica": "ERCC: Epicondilite, Raquete, Cozen, Curto. Longos vão para o 2º metacarpal, curto para o 3º.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Extensor digitorum",
+    "pt": "Músculo extensor dos dedos",
+    "latim": "Musculus extensor digitorum",
+    "sinonimos": [
+      "extensor comum dos dedos",
+      "ECD"
+    ],
+    "resumo": "Principal extensor dos quatro dedos mediais, ocupa o centro da face posterior do antebraço. Seus quatro tendões passam pelo quarto compartimento dorsal do punho e formam as expansões extensoras dos dedos.",
+    "origem": "Epicôndilo lateral do úmero (tendão comum dos extensores).",
+    "insercao": "Expansões extensoras (aponeuroses dorsais) do segundo ao quinto dedos: a faixa central insere-se na base da falange média e as faixas laterais unem-se na base da falange distal.",
+    "inervacao": {
+      "nervo": "Nervo interósseo posterior (continuação do ramo profundo do nervo radial)",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Posterior interosseous nerve of forearm",
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea posterior e artéria interóssea recorrente.",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "principalmente nas articulações metacarpofalângicas"
+      },
+      {
+        "art": "punho",
+        "mov": "extensao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Estende as metacarpofalângicas; a extensão completa das interfalângicas depende da ação conjunta dos lumbricais e interósseos sobre a expansão extensora. Abre a mão para soltar ou preparar a preensão de objetos. Os tendões são interligados no dorso da mão por conexões intertendíneas, o que limita a extensão independente, sobretudo do dedo anular. Se o punho não for estabilizado pelos flexores, o extensor dos dedos também o estende.",
+    "antagonistas": [
+      "Humero-ulnar head of flexor digitorum superficialis",
+      "Flexor digitorum profundus",
+      "Lumbrical muscles of hand"
+    ],
+    "sinergistas": [
+      "Extensor indicis",
+      "Extensor digiti minimi",
+      "Extensor carpi radialis brevis"
+    ],
+    "palpacao": "Com o antebraço pronado, peça extensão dos dedos mantendo as interfalângicas levemente fletidas: os quatro tendões ficam visíveis no dorso da mão e o ventre é palpado na face posterior do antebraço, entre o extensor radial curto do carpo e o extensor ulnar do carpo.",
+    "teste": "Kendall: antebraço pronado, punho estabilizado em posição neutra; o paciente estende as articulações metacarpofalângicas com as interfalângicas relaxadas em leve flexão. Resistência no dorso das falanges proximais em direção à flexão.",
+    "alongamento": "Flexão simultânea do punho, das metacarpofalângicas e das interfalângicas (punho cerrado e fletido), com o cotovelo estendido e o antebraço pronado.",
+    "clinica": "Na lesão do nervo interósseo posterior, o paciente não estende as metacarpofalângicas (dedos caídos), mas ainda estende as interfalângicas pelos músculos intrínsecos e mantém a extensão do punho com desvio radial. A ruptura da inserção terminal na falange distal causa o dedo em martelo; a lesão da faixa central sobre a interfalângica proximal leva à deformidade em botoeira. A ruptura da banda sagital permite a luxação ulnar do tendão sobre a cabeça do metacarpal. Na artrite reumatoide, os tendões podem romper por atrito na cabeça da ulna (síndrome de Vaughan-Jackson), começando pelos dedos ulnares. Participa do tendão comum dos extensores na epicondilite lateral, o que explica a dor à extensão resistida do dedo médio.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Extensor digiti minimi",
+    "pt": "Músculo extensor do dedo mínimo",
+    "latim": "Musculus extensor digiti minimi",
+    "sinonimos": [
+      "extensor próprio do dedo mínimo"
+    ],
+    "resumo": "Músculo delgado, medial ao extensor dos dedos, que confere extensão independente ao dedo mínimo. Seu tendão ocupa sozinho o quinto compartimento dorsal do punho.",
+    "origem": "Epicôndilo lateral do úmero (tendão comum dos extensores).",
+    "insercao": "Expansão extensora do quinto dedo, unindo-se ao tendão do extensor dos dedos para esse dedo.",
+    "inervacao": {
+      "nervo": "Nervo interósseo posterior (continuação do ramo profundo do nervo radial)",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Posterior interosseous nerve of forearm",
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea posterior.",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "quinto dedo, sobretudo na articulação metacarpofalângica"
+      },
+      {
+        "art": "punho",
+        "mov": "extensao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Permite estender o dedo mínimo de forma independente, com os demais dedos fletidos. Como o tendão do extensor dos dedos para o quinto dedo é frequentemente delgado ou ausente, costuma ser o principal extensor desse dedo.",
+    "antagonistas": [
+      "Humero-ulnar head of flexor digitorum superficialis",
+      "Flexor digitorum profundus",
+      "Flexor digiti minimi of hand"
+    ],
+    "sinergistas": [
+      "Extensor digitorum",
+      "Humeral head of extensor carpi ulnaris"
+    ],
+    "palpacao": "Com a mão fechada, peça ao paciente que estenda apenas o dedo mínimo: o tendão é palpado no dorso do punho, sobre a articulação radioulnar distal, lateral à cabeça da ulna, e no dorso do quinto metacarpal.",
+    "teste": "Com os outros dedos fletidos e o punho estabilizado, o paciente estende a metacarpofalângica do dedo mínimo; resistência no dorso da falange proximal.",
+    "alongamento": "Flexão completa do dedo mínimo associada à flexão do punho.",
+    "clinica": "Na artrite reumatoide, é geralmente o primeiro tendão extensor a romper por atrito na cabeça da ulna luxada dorsalmente (início da síndrome de Vaughan-Jackson); a perda da extensão isolada do dedo mínimo é um sinal de alerta. O tendão pode ser usado em transferências tendíneas. A postura do dedo mínimo em abdução (sinal de Wartenberg) na lesão do nervo ulnar deve-se à ação sem oposição deste músculo, cuja inserção é ulnar ao eixo da articulação metacarpofalângica.",
+    "camada": "superficial"
+  },
+  {
+    "key": "Humeral head of extensor carpi ulnaris",
+    "pt": "Músculo extensor ulnar do carpo",
+    "latim": "Musculus extensor carpi ulnaris",
+    "sinonimos": [
+      "EUC",
+      "cubital posterior"
+    ],
+    "resumo": "Músculo mais medial do grupo extensor superficial, com cabeças umeral e ulnar. Seu tendão passa por um sulco na cabeça da ulna (sexto compartimento dorsal).",
+    "origem": "Cabeça umeral: epicôndilo lateral do úmero (tendão comum dos extensores). Cabeça ulnar: margem posterior da ulna, por aponeurose comum com o flexor ulnar do carpo e o flexor profundo dos dedos.",
+    "insercao": "Face dorsal da base do quinto metacarpal.",
+    "inervacao": {
+      "nervo": "Nervo interósseo posterior (continuação do ramo profundo do nervo radial)",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Posterior interosseous nerve of forearm",
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria ulnar e artéria interóssea posterior.",
+    "acoes": [
+      {
+        "art": "punho",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "mais eficiente com o antebraço supinado"
+      },
+      {
+        "art": "punho",
+        "mov": "desvio_ulnar",
+        "papel": "primario",
+        "nota": "com o flexor ulnar do carpo"
+      }
+    ],
+    "funcao": "Estende o punho com os extensores radiais e realiza o desvio ulnar com o flexor ulnar do carpo. Sua bainha fibrosa própria faz parte do complexo da fibrocartilagem triangular, tornando-o um estabilizador dinâmico da articulação radioulnar distal e do lado ulnar do punho. Em pronação, o tendão desloca-se e o músculo age mais como desviador ulnar do que como extensor. Contrai-se ao cerrar o punho com força e ao abduzir o polegar (estabilizando o carpo).",
+    "antagonistas": [
+      "Flexor carpi radialis",
+      "Extensor carpi radialis longus",
+      "Humeral head of flexor carpi ulnaris"
+    ],
+    "sinergistas": [
+      "Extensor carpi radialis longus",
+      "Extensor carpi radialis brevis",
+      "Humeral head of flexor carpi ulnaris"
+    ],
+    "palpacao": "O ventre é palpado ao longo da margem posterior da ulna, lateralmente a ela, na extensão com desvio ulnar. O tendão é sentido no sulco entre a cabeça e o processo estiloide da ulna e até a base do quinto metacarpal, ficando mais saliente com o antebraço supinado.",
+    "teste": "Kendall: antebraço em pronação completa apoiado na mesa, dedos relaxados; o paciente estende o punho em direção ao lado ulnar e o examinador resiste no dorso da mão, sobre o quinto metacarpal, em direção à flexão e ao desvio radial.",
+    "alongamento": "Flexão do punho com desvio radial.",
+    "clinica": "A tendinopatia e a tenossinovite do extensor ulnar do carpo são causas comuns de dor no lado ulnar do punho, em especial em tenistas, golfistas e remadores; o teste de sinergia (abdução resistida do polegar e do dedo médio com o antebraço supinado) reproduz a dor. A ruptura da sub-bainha fibrosa permite a subluxação dolorosa do tendão, com estalido na supinação com flexão e desvio ulnar. O diagnóstico diferencial inclui lesões do complexo da fibrocartilagem triangular e a síndrome do impacto ulnocarpal. Na lesão do nervo interósseo posterior, sua paralisia explica o desvio radial do punho durante a extensão.",
+    "camada": "superficial",
+    "partes": [
+      {
+        "key": "Humeral head of extensor carpi ulnaris",
+        "pt": "Cabeça umeral",
+        "origem": "Epicôndilo lateral do úmero, pelo tendão comum dos extensores"
+      },
+      {
+        "key": "Ulnar head of extensor carpi ulnaris",
+        "pt": "Cabeça ulnar",
+        "origem": "Margem posterior da ulna",
+        "nota": "Origem aponeurótica compartilhada com o flexor ulnar do carpo."
+      }
+    ]
+  },
+  {
+    "key": "Supinator",
+    "pt": "Músculo supinador",
+    "latim": "Musculus supinator",
+    "sinonimos": [
+      "supinador curto"
+    ],
+    "resumo": "Músculo largo e profundo que envolve o terço proximal do rádio. É atravessado pelo ramo profundo do nervo radial e é o supinador de base do antebraço.",
+    "origem": "Epicôndilo lateral do úmero, ligamento colateral radial, ligamento anular do rádio, fossa do músculo supinador e crista do músculo supinador da ulna.",
+    "insercao": "Faces lateral, posterior e anterior do terço proximal do rádio, acima e abaixo da tuberosidade do rádio.",
+    "inervacao": {
+      "nervo": "Ramo profundo do nervo radial",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria recorrente radial e artéria interóssea recorrente.",
+    "acoes": [
+      {
+        "art": "radioulnar",
+        "mov": "supinacao",
+        "papel": "primario",
+        "nota": "ativo em qualquer supinação, independentemente da posição do cotovelo"
+      }
+    ],
+    "funcao": "Realiza sozinho a supinação lenta e sem carga, em qualquer posição do cotovelo; o bíceps braquial é recrutado quando há resistência ou velocidade, e somente se o cotovelo estiver fletido. Com o cotovelo estendido, portanto, o supinador é o principal responsável pelo movimento. Suas fibras também reforçam a estabilidade lateral do cotovelo e da articulação radioulnar proximal.",
+    "antagonistas": [
+      "Deep head of pronator teres",
+      "Pronator quadratus"
+    ],
+    "sinergistas": [
+      "Biceps brachii muscle",
+      "Brachioradialis muscle"
+    ],
+    "palpacao": "É profundo aos extensores; pode ser sentido de forma indireta na face posterolateral do antebraço, logo distal à cabeça do rádio, entre os extensores radiais do carpo e o extensor dos dedos, durante a supinação suave sem resistência.",
+    "teste": "Kendall: supinação resistida com o ombro e o cotovelo em flexão completa (ou com o cotovelo totalmente estendido), posições que reduzem a contribuição do bíceps braquial; o examinador segura o antebraço distal e resiste em direção à pronação.",
+    "alongamento": "Pronação completa do antebraço com o cotovelo estendido.",
+    "clinica": "O ramo profundo do nervo radial passa entre as camadas superficial e profunda do músculo, sob a margem fibrosa proximal (arcada de Frohse), e sai como nervo interósseo posterior. A compressão nesse local causa a síndrome do nervo interósseo posterior (fraqueza da extensão dos dedos e do polegar, sem perda sensitiva) ou a síndrome do túnel radial (dor na face lateral do antebraço proximal, sem déficit motor evidente), que simula epicondilite lateral resistente; a dor localiza-se cerca de 3 a 4 cm distal ao epicôndilo e piora com supinação resistida. Como o ramo para o supinador nasce antes do túnel, o próprio músculo costuma ser poupado.",
+    "dica": "Supinar é segurar um prato de sopa na palma da mão.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Abductor pollicis longus",
+    "pt": "Músculo abdutor longo do polegar",
+    "latim": "Musculus abductor pollicis longus",
+    "sinonimos": [
+      "ALP"
+    ],
+    "resumo": "Músculo profundo do antebraço que emerge entre os extensores para contornar o rádio. Seu tendão, com o do extensor curto do polegar, ocupa o primeiro compartimento dorsal e forma o limite anterior (radial) da tabaqueira anatômica.",
+    "origem": "Faces posteriores da ulna e do rádio (terço médio) e membrana interóssea do antebraço.",
+    "insercao": "Face lateral da base do primeiro metacarpal; frequentemente envia fascículos ao trapézio e ao abdutor curto do polegar.",
+    "inervacao": {
+      "nervo": "Nervo interósseo posterior (continuação do ramo profundo do nervo radial)",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Posterior interosseous nerve of forearm",
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea posterior.",
+    "acoes": [
+      {
+        "art": "polegar",
+        "mov": "abducao",
+        "papel": "primario",
+        "nota": "articulação carpometacarpal, junto com o abdutor curto"
+      },
+      {
+        "art": "polegar",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "extensão (abdução radial) do primeiro metacarpal"
+      },
+      {
+        "art": "punho",
+        "mov": "desvio_radial",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Posiciona e estabiliza a base do primeiro metacarpal, abrindo a primeira comissura para abarcar objetos grandes. Estabiliza a articulação carpometacarpal do polegar durante a pinça e a preensão, contrabalançando o adutor e os flexores. Auxilia o desvio radial do punho.",
+    "antagonistas": [
+      "Oblique head of adductor pollicis",
+      "Opponens pollicis muscle",
+      "Deep head of flexor pollicis brevis"
+    ],
+    "sinergistas": [
+      "Abductor pollicis brevis",
+      "Extensor pollicis brevis",
+      "Extensor pollicis longus"
+    ],
+    "palpacao": "Com o polegar estendido e abduzido, os tendões do abdutor longo e do extensor curto do polegar formam a margem radial (anterior) da tabaqueira anatômica; o do abdutor longo é o mais anterior e pode ser seguido até a base do primeiro metacarpal. Os ventres são palpáveis como uma saliência oblíqua no terço distal da face posterolateral do antebraço.",
+    "teste": "Kendall: punho estabilizado em posição neutra; o paciente abduz e estende levemente o primeiro metacarpal (afastando-o no sentido radial e palmar) e o examinador resiste na extremidade distal do primeiro metacarpal em direção à adução e à flexão.",
+    "alongamento": "Flexão e adução do polegar sobre a palma, associadas ao desvio ulnar do punho (posição do teste de Finkelstein, feita de modo suave).",
+    "clinica": "A tenossinovite estenosante de De Quervain acomete os tendões do abdutor longo e do extensor curto do polegar no primeiro compartimento dorsal: dor sobre o processo estiloide do rádio, pior ao segurar objetos e ao levantar o bebê, com teste de Finkelstein positivo (desvio ulnar do punho com o polegar fletido na palma). É comum em puérperas e em quem realiza desvios repetidos do punho com o polegar em preensão. O diagnóstico diferencial inclui a rizartrose (teste de compressão axial com rotação positivo), a síndrome de intersecção (dor mais proximal e dorsal) e a neurite do ramo superficial do nervo radial. O tratamento conservador inclui órtese para polegar e punho, orientação ergonômica e progressão gradual de carga.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Extensor pollicis brevis",
+    "pt": "Músculo extensor curto do polegar",
+    "latim": "Musculus extensor pollicis brevis",
+    "sinonimos": [
+      "ECP"
+    ],
+    "resumo": "Músculo delgado, situado distalmente ao abdutor longo do polegar, a cujo tendão acompanha no primeiro compartimento dorsal do punho.",
+    "origem": "Face posterior do terço distal do rádio e membrana interóssea do antebraço.",
+    "insercao": "Face dorsal da base da falange proximal do polegar.",
+    "inervacao": {
+      "nervo": "Nervo interósseo posterior (continuação do ramo profundo do nervo radial)",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Posterior interosseous nerve of forearm",
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea posterior.",
+    "acoes": [
+      {
+        "art": "polegar",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "articulação metacarpofalângica; continua estendendo a carpometacarpal"
+      },
+      {
+        "art": "punho",
+        "mov": "desvio_radial",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Estende a falange proximal do polegar e, com o abdutor longo, abre a primeira comissura. Ajuda a estabilizar a articulação metacarpofalângica durante a pinça.",
+    "antagonistas": [
+      "Deep head of flexor pollicis brevis",
+      "Flexor pollicis longus",
+      "Oblique head of adductor pollicis"
+    ],
+    "sinergistas": [
+      "Extensor pollicis longus",
+      "Abductor pollicis longus"
+    ],
+    "palpacao": "Na margem radial da tabaqueira anatômica, é o tendão situado imediatamente dorsal (ulnar) ao do abdutor longo do polegar; diferencie-os pedindo extensão da metacarpofalângica, que tensiona o extensor curto até a base da falange proximal.",
+    "teste": "Kendall: o examinador estabiliza o primeiro metacarpal; o paciente estende a articulação metacarpofalângica do polegar com a interfalângica relaxada. Resistência no dorso da falange proximal em direção à flexão.",
+    "alongamento": "Flexão das articulações metacarpofalângica e carpometacarpal do polegar com desvio ulnar do punho.",
+    "clinica": "Participa, com o abdutor longo do polegar, da tenossinovite de De Quervain; em parte das pessoas seu tendão corre em um subcompartimento separado por um septo, o que se associa a pior resposta ao tratamento conservador e à infiltração. Os ventres do extensor curto e do abdutor longo cruzam os tendões dos extensores radiais do carpo, local da síndrome de intersecção. O tendão é fino e pode estar ausente ou fundido ao do extensor longo.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Extensor pollicis longus",
+    "pt": "Músculo extensor longo do polegar",
+    "latim": "Musculus extensor pollicis longus",
+    "sinonimos": [
+      "ELP"
+    ],
+    "resumo": "Músculo profundo do antebraço cujo tendão muda de direção ao redor do tubérculo dorsal do rádio (tubérculo de Lister) e forma o limite posterior (ulnar) da tabaqueira anatômica. É o único extensor da articulação interfalângica do polegar.",
+    "origem": "Face posterior do terço médio da ulna e membrana interóssea do antebraço.",
+    "insercao": "Face dorsal da base da falange distal do polegar.",
+    "inervacao": {
+      "nervo": "Nervo interósseo posterior (continuação do ramo profundo do nervo radial)",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Posterior interosseous nerve of forearm",
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea posterior.",
+    "acoes": [
+      {
+        "art": "polegar",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "articulações interfalângica, metacarpofalângica e carpometacarpal"
+      },
+      {
+        "art": "polegar",
+        "mov": "aducao",
+        "papel": "secundario",
+        "nota": "com o polegar estendido, leva-o para trás do plano da palma (retroposição)"
+      },
+      {
+        "art": "punho",
+        "mov": "extensao",
+        "papel": "secundario"
+      },
+      {
+        "art": "punho",
+        "mov": "desvio_radial",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Estende a falange distal e traz o polegar para o plano da palma ou para trás dele (reposição e retroposição), como no gesto de pedir carona. Usa o tubérculo dorsal do rádio como polia, o que altera a direção de sua força. Afasta o polegar da palma para soltar objetos após a preensão.",
+    "antagonistas": [
+      "Flexor pollicis longus",
+      "Deep head of flexor pollicis brevis",
+      "Opponens pollicis muscle"
+    ],
+    "sinergistas": [
+      "Extensor pollicis brevis",
+      "Abductor pollicis longus"
+    ],
+    "palpacao": "Peça extensão completa do polegar: o tendão forma a margem ulnar (posterior) da tabaqueira anatômica e pode ser seguido proximalmente até o lado ulnar do tubérculo dorsal do rádio e distalmente até a falange distal.",
+    "teste": "Kendall: o examinador estabiliza a falange proximal do polegar; o paciente estende a articulação interfalângica contra resistência no dorso da falange distal. Teste funcional: com a palma apoiada na mesa, o paciente levanta o polegar da superfície (retroposição), o que só o extensor longo realiza.",
+    "alongamento": "Flexão de todas as articulações do polegar (polegar na palma) combinada com flexão e desvio ulnar do punho.",
+    "clinica": "O tendão pode romper de forma tardia (semanas) após fratura do rádio distal pouco desviada, por isquemia e atrito no tubérculo dorsal do rádio, e também na artrite reumatoide; o paciente perde a extensão da interfalângica e a capacidade de levantar o polegar da mesa, sendo comum o reparo por transferência do extensor do indicador. Como alguns intrínsecos (abdutor curto e adutor do polegar) enviam expansões ao aparelho extensor, pode restar discreta extensão da interfalângica mesmo com o tendão rompido. No assoalho da tabaqueira anatômica estão o escafoide e o trapézio e passa a artéria radial; dor à palpação nessa área após queda sobre a mão espalmada sugere fratura do escafoide.",
+    "dica": "Tabaqueira anatômica: limite ulnar = extensor Longo; limite radial = abdutor longo + extensor curto. No fundo: escafoide, trapézio e artéria radial.",
+    "camada": "profunda"
+  },
+  {
+    "key": "Extensor indicis",
+    "pt": "Músculo extensor do indicador",
+    "latim": "Musculus extensor indicis",
+    "sinonimos": [
+      "extensor próprio do indicador"
+    ],
+    "resumo": "Músculo estreito e profundo, medial ao extensor longo do polegar, que dá ao indicador a capacidade de extensão independente.",
+    "origem": "Face posterior do terço distal da ulna e membrana interóssea do antebraço.",
+    "insercao": "Expansão extensora do segundo dedo, unindo-se pelo lado ulnar ao tendão do extensor dos dedos para o indicador.",
+    "inervacao": {
+      "nervo": "Nervo interósseo posterior (continuação do ramo profundo do nervo radial)",
+      "raizes": "C7, C8",
+      "nervoKeys": [
+        "Posterior interosseous nerve of forearm",
+        "Deep branch of radial nerve",
+        "Radial nerve"
+      ]
+    },
+    "vascularizacao": "Artéria interóssea posterior.",
+    "acoes": [
+      {
+        "art": "dedos_mao",
+        "mov": "extensao",
+        "papel": "primario",
+        "nota": "segundo dedo, de forma independente"
+      },
+      {
+        "art": "punho",
+        "mov": "extensao",
+        "papel": "secundario"
+      }
+    ],
+    "funcao": "Permite apontar com o indicador mantendo os demais dedos fletidos. Passa pelo quarto compartimento dorsal junto com os tendões do extensor dos dedos.",
+    "antagonistas": [
+      "Humero-ulnar head of flexor digitorum superficialis",
+      "Flexor digitorum profundus",
+      "Lumbrical muscles of hand"
+    ],
+    "sinergistas": [
+      "Extensor digitorum"
+    ],
+    "palpacao": "Com a mão fechada, peça a extensão isolada do indicador: sobre a cabeça do segundo metacarpal, o tendão do extensor do indicador é o que fica do lado ulnar do tendão do extensor dos dedos.",
+    "teste": "Com os outros dedos fletidos em punho cerrado (o que neutraliza o extensor dos dedos pelas conexões intertendíneas) e o punho estabilizado, o paciente estende a metacarpofalângica do indicador; resistência no dorso da falange proximal.",
+    "alongamento": "Flexão completa do indicador associada à flexão do punho.",
+    "clinica": "É o último músculo inervado pelo nervo interósseo posterior, servindo para acompanhar a reinervação após lesões do nervo radial e como referência na eletroneuromiografia. Por ser dispensável e ter tendão próprio, é o doador preferido para transferências tendíneas, como na ruptura do extensor longo do polegar e na oponentoplastia.",
+    "camada": "profunda"
+  }
+]
