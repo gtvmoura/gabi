@@ -233,6 +233,7 @@ export function Ficha() {
           <button className="btn" onClick={() => { const sp = rt.engine?.sphereOf([sel.si], sel.side); if (sp) rt.engine!.frame(sp, { pad: 1.5 }); }}><Icon n="busca" size={16} />Focar</button>
           <button className="btn" onClick={() => { const ids = info?.tipo === 'musculo' ? structsDoMusculo(info.d, m) : [sel.si]; st.setFocus({ ids: (ids.length ? ids : [sel.si]).map((x) => [x, null]), others: 'hide', label: titulo }, false); useStore.setState({ sel }); }}><Icon n="isolar" size={16} />Isolar</button>
           <button className="btn" onClick={() => { st.hide(sel.si); st.say('Oculto. Use ↶ para desfazer.'); }}><Icon n="olhoOff" size={16} />Ocultar</button>
+          {s.g && (m.structsOf.get(s.g)?.length ?? 0) > 1 && <button className="btn" onClick={() => { const g = s.g!; const ir = (m.structsOf.get(g) ?? []).filter((x) => m.structs[x].s === s.s); st.hideMany(ir); st.say(`Oculto: ${nomePt(g, m)} (${ir.length})`); }}><Icon n="olhoOff" size={16} />Ocultar grupo</button>}
           <Ouvir texto={falar(titulo, info)} />
         </div>
         {bilateral && (

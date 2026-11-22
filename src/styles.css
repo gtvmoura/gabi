@@ -262,3 +262,12 @@ input.field { width: 100%; height: 42px; border-radius: 12px; border: 1px solid 
 .faixa button.on .dot, .faixa button.meio .dot { opacity: 1; }
 .faixa button.meio { color: var(--muted); border: 1px dashed var(--line); }
 @media (max-aspect-ratio: 1/1), (max-width: 760px) { .rapido { left: 64px; right: 10px; top: calc(70px + var(--safe-t)); } .legenda { top: calc(112px + var(--safe-t)); } }
+
+/* modo ocultar */
+.barra-ocultar { position: absolute; z-index: 26; left: calc(var(--nav) + var(--safe-l) + 66px); right: calc(var(--panel-w) + 30px + var(--safe-r)); bottom: calc(14px + var(--safe-b)); display: flex; align-items: center; gap: 8px 10px; padding: 8px 10px 8px 14px; border-radius: 16px; flex-wrap: wrap; font-size: 13.5px; }
+.barra-ocultar b { flex: 1 1 auto; }
+.barra-ocultar ~ .toast { bottom: calc(130px + var(--safe-b)); }
+.barra-ocultar .btn { height: 34px; padding: 0 12px; font-size: 13px; }
+.barra-ocultar .seg button { height: 30px; font-size: 12.5px; }
+.tbtn.modo { color: #fff; background: linear-gradient(140deg, #ff8fb5, #ff5d8f); }
+@media (max-aspect-ratio: 1/1), (max-width: 760px) { .barra-ocultar { left: 10px; right: 10px; bottom: calc(72px + var(--safe-b)); } }

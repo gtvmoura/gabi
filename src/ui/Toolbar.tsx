@@ -13,6 +13,7 @@ export function Toolbar() {
   const layers = useStore((s) => s.layers);
   const side = useStore((s) => s.side);
   const hidden = useStore((s) => s.hidden);
+  const modo = useStore((s) => s.modoOcultar);
   const pinLabels = useStore((s) => s.pinLabels);
   const colorMode = useStore((s) => s.colorMode);
   const clip = useStore((s) => s.clip);
@@ -37,11 +38,11 @@ export function Toolbar() {
           <button className="tbtn" onClick={() => rt.engine?.zoomBy(1.4)} aria-label="Afastar"><Icon n="menos" /></button>
           <button className="tbtn" onClick={() => rt.engine?.home()} aria-label="Corpo inteiro"><Icon n="casa" /></button>
         </div>
-        {hidden.length > 0 && (
-          <div className="grp glass">
-            <button className="tbtn on" onClick={() => st.undoHide()} aria-label="Desfazer ocultar"><Icon n="desfazer" /></button>
-          </div>
-        )}
+        <div className="grp glass">
+          <button className={'tbtn' + (modo ? ' modo' : '')} onClick={() => { const v = !modo; useStore.setState({ modoOcultar: v, sel: v ? null : useStore.getState().sel }); st.say(v ? 'Modo ocultar: toque para esconder · toque duplo esconde o grupo' : 'Modo ocultar desligado'); }} aria-label="Modo ocultar"><Icon n="borracha" /></button>
+          {hidden.length > 0 && <button className="tbtn on" onClick={() => st.undoHide()} aria-label="Desfazer ocultar"><Icon n="desfazer" /></button>}
+          {hidden.length > 0 && <button className="tbtn" onClick={() => { st.showAll(); st.say('Tudo visível de novo'); }} aria-label="Mostrar tudo"><Icon n="olho" /></button>}
+        </div>
       </div>
 
       {open === 'camadas' && (

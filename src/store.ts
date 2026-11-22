@@ -35,6 +35,9 @@ interface State {
   layers: Record<LayerId, LayerState>;
   side: 'both' | 'l' | 'r';
   hidden: number[];
+  lotes: number[];            // tamanho de cada ocultação, para desfazer em lote
+  modoOcultar: boolean;
+  ocultarGrupo: boolean;
   focus: FocusState | null;
   showIns: boolean;
   boneMap: boolean;
@@ -53,7 +56,9 @@ interface State {
   setLayer(id: LayerId, st: LayerState): void;
   setSide(s: 'both' | 'l' | 'r'): void;
   hide(si: number): void;
+  hideMany(sis: number[]): void;
   undoHide(): void;
+  showAll(): void;
   resetView(): void;
   setFocus(f: FocusState | null, fly?: boolean): void;
   toggleIns(v?: boolean): void;
@@ -74,7 +79,7 @@ export const useStore = create<State>()(
   persist(
     (set, get) => ({
       tab: 'atlas', panelOpen: true, sel: null, pin: null, pinLabels: false, pinMudo: false,
-      layers: { ...DEFAULT_LAYERS }, side: 'both', hidden: [], focus: null, showIns: false, boneMap: false, colorMode: 'normal', clip: null,
+      layers: { ...DEFAULT_LAYERS }, side: 'both', hidden: [], lotes: [], modoOcultar: false, ocultarGrupo: false, focus: null, showIns: false, boneMap: false, colorMode: 'normal', clip: null,
       loading: {}, toast: null, recado: null, quizPick: null, prog: progInicial,
 
       setTab: (tab) => set({ tab, panelOpen: true }),
@@ -86,7 +91,7 @@ export const useStore = create<State>()(
         if (sel) {
           patch.panelOpen = true;
           if (!opts?.keepTab) patch.tab = 'atlas';
-          patch.hidden = st.hidden.filter((h) => h !== sel.si);
+          if (st.hidden.includes(sel.si)) { patch.hidden = st.hidden.filter((h) => h !== sel.si); patch.lotes = []; }
           // garante que a camada da estrutura esteja visível
           const s = rt.m!.structs[sel.si];
           const layer = CAT_LAYER[s.c];
@@ -106,9 +111,18 @@ export const useStore = create<State>()(
       setPin: (pin) => set({ pin }),
       setLayer: (id, stt) => set((s) => ({ layers: { ...s.layers, [id]: stt } })),
       setSide: (side) => set({ side }),
-      hide: (si) => set((s) => ({ hidden: [...s.hidden.filter((h) => h !== si), si], sel: s.sel?.si === si ? null : s.sel })),
-      undoHide: () => set((s) => ({ hidden: s.hidden.slice(0, -1) })),
-      resetView: () => { set({ hidden: [], focus: null, sel: null, pin: null, showIns: false, boneMap: false, side: 'both', colorMode: 'normal', clip: null, layers: { ...DEFAULT_LAYERS } }); rt.engine?.home(); },
+      hide: (si) => get().hideMany([si]),
+      hideMany: (sis) => set((s) => {
+        const novos = [...new Set(sis)].filter((x) => !s.hidden.includes(x));
+        if (!novos.length) return {};
+        return { hidden: [...s.hidden, ...novos], lotes: [...s.lotes, novos.length], sel: s.sel && novos.includes(s.sel.si) ? null : s.sel, pin: null };
+      }),
+      undoHide: () => set((s) => {
+        const n = s.lotes[s.lotes.length - 1] ?? 1;
+        return { hidden: s.hidden.slice(0, Math.max(0, s.hidden.length - n)), lotes: s.lotes.slice(0, -1) };
+      }),
+      showAll: () => set({ hidden: [], lotes: [] }),
+      resetView: () => { set({ hidden: [], lotes: [], modoOcultar: false, focus: null, sel: null, pin: null, showIns: false, boneMap: false, side: 'both', colorMode: 'normal', clip: null, layers: { ...DEFAULT_LAYERS } }); rt.engine?.home(); },
       setFocus: (focus, fly = true) => {
         set({ focus, sel: null, pin: null, showIns: false, boneMap: false, ...(focus ? { clip: null } : {}) });
         const e = rt.engine;

@@ -111,3 +111,23 @@ export function VerRapido() {
     </div>
   );
 }
+
+/** Barra do modo ocultar: escolhe o que cada toque esconde e mostra quantos estão ocultos. */
+export function BarraOcultar() {
+  const on = useStore((s) => s.modoOcultar);
+  const grupo = useStore((s) => s.ocultarGrupo);
+  const n = useStore((s) => s.hidden.length);
+  if (!on) return null;
+  const st = useStore.getState();
+  return (
+    <div className="barra-ocultar glass">
+      <Icon n="borracha" size={18} />
+      <b>Toque para ocultar</b>
+      <div className="seg"><button className={!grupo ? 'on' : ''} onClick={() => useStore.setState({ ocultarGrupo: false })}>Uma estrutura</button><button className={grupo ? 'on' : ''} onClick={() => useStore.setState({ ocultarGrupo: true })}>Grupo inteiro</button></div>
+      <span className="muted">{n} oculta{n === 1 ? '' : 's'}</span>
+      {n > 0 && <button className="btn" onClick={() => st.undoHide()}>Desfazer</button>}
+      {n > 0 && <button className="btn" onClick={() => st.showAll()}>Mostrar tudo</button>}
+      <button className="btn primary" onClick={() => useStore.setState({ modoOcultar: false })}>Concluir</button>
+    </div>
+  );
+}

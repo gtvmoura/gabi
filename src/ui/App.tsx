@@ -14,7 +14,8 @@ import { Movimentos } from './Movimentos';
 import { Clinica } from './Clinica';
 import { Treinar } from './Treinar';
 import { Progresso } from './Progresso';
-import { Confete, LegendaInervacao, VerRapido } from './Extras';
+import { BarraOcultar, Confete, LegendaInervacao, VerRapido } from './Extras';
+import { nomePt } from '../content';
 
 const TABS: { id: Tab; nome: string; ico: string }[] = [
   { id: 'atlas', nome: 'Atlas', ico: 'atlas' },
@@ -69,6 +70,17 @@ export function App() {
       engine.onPick = (p, kind) => {
         const st = useStore.getState();
         if (st.quizPick) { if (p && p.si >= 0 && !p.pin) st.quizPick(p.si); return; }
+        if (st.modoOcultar) {
+          // cada toque esconde o que foi tocado (ou o grupo inteiro dele, ex.: todo o compartimento)
+          if (!p || p.si < 0 || p.pin || p.ins) return;
+          const s = m.structs[p.si];
+          if (st.ocultarGrupo && s.g) {
+            const irmaos = (m.structsOf.get(s.g) ?? []).filter((x) => m.structs[x].s === s.s);
+            st.hideMany(irmaos);
+            st.say(`Oculto: ${nomePt(s.g, m)} (${irmaos.length})`);
+          } else { st.hide(p.si); st.say(`Oculto: ${nomePt(s.k, m)}`); }
+          return;
+        }
         if (!p) { if (st.sel && !st.focus) st.select(null); else if (st.sel) useStore.setState({ sel: null, pin: null, showIns: false, boneMap: false }); return; }
         if (p.pin) { st.setPin(p.pin === st.pin ? null : p.pin); return; }
         if (p.si < 0) return;
@@ -81,7 +93,7 @@ export function App() {
       };
       syncEngine();
       off = useStore.subscribe((s, prev) => {
-        if (s.layers !== prev.layers || s.side !== prev.side || s.hidden !== prev.hidden || s.focus !== prev.focus || s.sel !== prev.sel || s.showIns !== prev.showIns || s.boneMap !== prev.boneMap || s.pin !== prev.pin || s.pinLabels !== prev.pinLabels || s.colorMode !== prev.colorMode || s.clip !== prev.clip || s.pinMudo !== prev.pinMudo) syncEngine();
+        if (s.layers !== prev.layers || s.side !== prev.side || s.hidden !== prev.hidden || s.modoOcultar !== prev.modoOcultar || s.focus !== prev.focus || s.sel !== prev.sel || s.showIns !== prev.showIns || s.boneMap !== prev.boneMap || s.pin !== prev.pin || s.pinLabels !== prev.pinLabels || s.colorMode !== prev.colorMode || s.clip !== prev.clip || s.pinMudo !== prev.pinMudo) syncEngine();
       });
       engine.home(true);
       engine.ensureLayers().then(() => { setReady(true); setFirstLoad(1); });
@@ -143,6 +155,7 @@ export function App() {
       </div>
 
       {ready && <VerRapido />}
+      {ready && <BarraOcultar />}
       {ready && <Toolbar />}
 
       {!panelOpen && <button className="panel-toggle glass" onClick={() => useStore.getState().setPanel(true)} aria-label="Abrir painel"><Icon n="painel" /></button>}
