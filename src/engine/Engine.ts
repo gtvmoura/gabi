@@ -6,6 +6,7 @@ import {
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { gunzipSync } from 'fflate';
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import type { Cat, Indexed, Side } from '../data/manifest';
@@ -169,12 +170,25 @@ export class Engine {
     let p = this.files.get(file);
     if (!p) {
       if (!quiet) this.onFile(file, 'loading', 0);
+      const ok = (gltf: { scene: Object3D }, resolve: () => void) => { this.ingest(file, gltf.scene); if (!quiet) this.onFile(file, 'ready', 1); this.apply(); resolve(); };
+      const fail = (err: unknown, resolve: () => void) => { console.error('Falha ao carregar', file, err); this.files.delete(file); this.onFile(file, 'error', 0); resolve(); };
       p = new Promise<void>((resolve) => {
+        if (import.meta.env.VITE_MODELOS_EMPACOTADOS) {
+          // hospedagem que não serve .glb: o modelo vem como texto (gzip + base64)
+          baixarTexto(`${import.meta.env.BASE_URL}models/${file}.glb.txt`, (f) => { if (!quiet) this.onFile(file, 'loading', f); })
+            .then((txt) => {
+              const bin = Uint8Array.from(atob(txt), (c) => c.charCodeAt(0));
+              const glb = gunzipSync(bin);
+              this.loader.parse(glb.buffer.slice(glb.byteOffset, glb.byteOffset + glb.byteLength) as ArrayBuffer, '', (g) => ok(g, resolve), (e) => fail(e, resolve));
+            })
+            .catch((e) => fail(e, resolve));
+          return;
+        }
         this.loader.load(
           `${import.meta.env.BASE_URL}models/${file}.glb`,
-          (gltf) => { this.ingest(file, gltf.scene); if (!quiet) this.onFile(file, 'ready', 1); this.apply(); resolve(); },
+          (gltf) => ok(gltf, resolve),
           (ev) => { if (ev.total && !quiet) this.onFile(file, 'loading', ev.loaded / ev.total); },
-          (err) => { console.error('Falha ao carregar', file, err); this.files.delete(file); this.onFile(file, 'error', 0); resolve(); },
+          (err) => fail(err, resolve),
         );
       });
       this.files.set(file, p);
@@ -618,4 +632,16 @@ export class Engine {
   stats() {
     return { items: this.items.size, visible: [...this.items.values()].filter((i) => i.mesh.visible).length, calls: this.renderer.info.render.calls, tris: this.renderer.info.render.triangles };
   }
+}
+
+/** Baixa um arquivo de texto informando o progresso (0–1). */
+async function baixarTexto(url: string, prog: (f: number) => void): Promise<string> {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  const total = Number(r.headers.get('content-length')) || 0;
+  if (!r.body || !total) return r.text();
+  const reader = r.body.getReader(); const parts: Uint8Array[] = []; let n = 0;
+  for (;;) { const { done, value } = await reader.read(); if (done) break; parts.push(value); n += value.length; prog(Math.min(0.99, n / total)); }
+  const all = new Uint8Array(n); let o = 0; for (const x of parts) { all.set(x, o); o += x.length; }
+  return new TextDecoder().decode(all);
 }
