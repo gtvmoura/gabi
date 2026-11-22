@@ -47,6 +47,7 @@ export function syncEngine() {
     }
   } else if (lastPinsKey) e.setPins([]);
   lastPinsKey = pinsKey;
+  e.muteLabels = s.pinMudo;
   e.setActivePin(s.pin, s.pinLabels);
 
   void e.ensureLayers();

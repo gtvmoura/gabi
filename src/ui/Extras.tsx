@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { rt, useStore } from '../store';
 import { mapaInervacao } from '../lib/inervacao';
 import { Icon } from './icons';
+import { DEFAULT_LAYERS, LAYERS, type LayerId, type LayerState } from '../engine/palette';
 
 /** Legenda do modo "colorir por inervação". */
 export function LegendaInervacao() {
@@ -76,4 +77,37 @@ export async function salvarImagem(titulo: string) {
   const file = new File([blob], 'atlas-da-gabi.png', { type: 'image/png' });
   try { if (navigator.canShare?.({ files: [file] })) { await navigator.share({ files: [file], title: titulo }); return; } } catch (err) { if ((err as Error)?.name === 'AbortError') return; /* outra falha: cai no download */ }
   const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'atlas-da-gabi.png'; a.click(); URL.revokeObjectURL(a.href);
+}
+
+const RAPIDO: LayerId[] = ['ossos', 'musculos', 'ligamentos', 'nervos', 'arterias', 'veias', 'orgaos', 'snc'];
+const CURTO: Partial<Record<LayerId, string>> = { ligamentos: 'Ligamentos', arterias: 'Artérias', snc: 'Encéfalo' };
+const SO: { nome: string; on: LayerId[]; ghost?: LayerId[] }[] = [
+  { nome: 'Só ossos', on: ['ossos'] },
+  { nome: 'Ossos + ligamentos', on: ['ossos', 'ligamentos'] },
+  { nome: 'Ossos + nervos', on: ['ossos', 'nervos'], ghost: ['musculos'] },
+  { nome: 'Ossos + vasos', on: ['ossos', 'arterias', 'veias'], ghost: ['musculos'] },
+  { nome: 'Órgãos', on: ['orgaos'], ghost: ['ossos'] },
+  { nome: 'Padrão', on: ['ossos', 'musculos'] },
+];
+
+/** Faixa "o que ver": liga e desliga as camadas principais com um toque. */
+export function VerRapido() {
+  const layers = useStore((s) => s.layers);
+  const [mais, setMais] = useState(false);
+  const aplicar = (p: (typeof SO)[number]) => {
+    const l = { ...DEFAULT_LAYERS } as Record<LayerId, LayerState>;
+    (Object.keys(l) as LayerId[]).forEach((k) => { l[k] = p.on.includes(k) ? 1 : p.ghost?.includes(k) ? 2 : 0; });
+    useStore.setState({ layers: l, hidden: [] }); setMais(false);
+  };
+  return (
+    <div className="rapido">
+      <div className="faixa glass">
+        {RAPIDO.map((id) => { const L = LAYERS.find((x) => x.id === id)!; const v = layers[id]; return (
+          <button key={id} className={v === 1 ? 'on' : v === 2 ? 'meio' : ''} onClick={() => useStore.getState().setLayer(id, v === 0 ? 1 : 0)}><i className="dot" style={{ background: L.cor }} />{CURTO[id] ?? L.nome}</button>
+        ); })}
+        <button className={mais ? 'on' : ''} onClick={() => setMais(!mais)}>Combinações ▾</button>
+      </div>
+      {mais && <div className="faixa glass">{SO.map((p) => <button key={p.nome} onClick={() => aplicar(p)}>{p.nome}</button>)}</div>}
+    </div>
+  );
 }

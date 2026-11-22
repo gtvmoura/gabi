@@ -16,11 +16,13 @@ Funciona no navegador (iPad, Android, computador), pode ser instalado na tela de
 - **Clínica** — 100 testes ortopédicos/neurológicos com execução e interpretação, e as 8 fases da marcha com os músculos ativos.
 - **Roteiros de estudo** — 38 temas (manguito rotador, plexo braquial, ligamentos do joelho, core…) com texto, pontos-chave e perguntas.
 - **Quiz** — identificar estruturas, encontrar no 3D, inervação, origem/inserção e ações.
+- **Acerte a estrutura** — o 3D destaca e ela diz o nome (ou toca na estrutura pedida): ossos, acidentes ósseos, músculos, ligamentos, nervos, artérias ou órgãos; 10 perguntas ou contra o relógio, com recordes.
+- **Faixa “o que ver”** no topo: liga/desliga ossos, músculos, ligamentos, nervos, vasos, órgãos e encéfalo com um toque, e combinações prontas (só ossos, ossos + nervos…).
 - **Casos clínicos** — 16 histórias de paciente para ligar a queixa à anatomia, com a resposta destacada no 3D.
 - **Quem sou eu?** — jogo de adivinhar o músculo pelas pistas; e o **desafio do dia** com 5 perguntas.
 - **Colorir músculos por inervação**, **plano de corte** (sagital, frontal, transversal), **ouvir a ficha** em voz alta, ver **sinergistas e antagonistas** no 3D e **salvar imagem** da vista.
 - **Músculo do dia** e **contagem regressiva para a prova** na tela inicial.
-- **Flashcards com repetição espaçada**, anotações pessoais, favoritos, progresso e sequência de dias.
+- **Flashcards com repetição espaçada** (músculos por região, ligamentos, nervos, articulações, acidentes ósseos, testes e roteiros), anotações pessoais, favoritos, progresso e sequência de dias.
 
 ## Personalizar os recados
 

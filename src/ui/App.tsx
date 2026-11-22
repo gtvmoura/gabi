@@ -14,7 +14,7 @@ import { Movimentos } from './Movimentos';
 import { Clinica } from './Clinica';
 import { Treinar } from './Treinar';
 import { Progresso } from './Progresso';
-import { Confete, LegendaInervacao } from './Extras';
+import { Confete, LegendaInervacao, VerRapido } from './Extras';
 
 const TABS: { id: Tab; nome: string; ico: string }[] = [
   { id: 'atlas', nome: 'Atlas', ico: 'atlas' },
@@ -81,7 +81,7 @@ export function App() {
       };
       syncEngine();
       off = useStore.subscribe((s, prev) => {
-        if (s.layers !== prev.layers || s.side !== prev.side || s.hidden !== prev.hidden || s.focus !== prev.focus || s.sel !== prev.sel || s.showIns !== prev.showIns || s.boneMap !== prev.boneMap || s.pin !== prev.pin || s.pinLabels !== prev.pinLabels || s.colorMode !== prev.colorMode || s.clip !== prev.clip) syncEngine();
+        if (s.layers !== prev.layers || s.side !== prev.side || s.hidden !== prev.hidden || s.focus !== prev.focus || s.sel !== prev.sel || s.showIns !== prev.showIns || s.boneMap !== prev.boneMap || s.pin !== prev.pin || s.pinLabels !== prev.pinLabels || s.colorMode !== prev.colorMode || s.clip !== prev.clip || s.pinMudo !== prev.pinMudo) syncEngine();
       });
       engine.home(true);
       engine.ensureLayers().then(() => { setReady(true); setFirstLoad(1); });
@@ -93,8 +93,8 @@ export function App() {
   useEffect(() => {
     const e = rt.engine; if (!e) return;
     const w = window.innerWidth, h = window.innerHeight;
-    if (portrait) e.setInsets({ left: 0, right: 0, top: 60, bottom: panelOpen ? h * 0.52 + 62 : 62 });
-    else e.setInsets({ left: 76, right: panelOpen ? Math.min(420, w * 0.42) + 12 : 0, top: 0, bottom: 0 });
+    if (portrait) e.setInsets({ left: 0, right: 0, top: 150, bottom: panelOpen ? h * 0.52 + 62 : 62 });
+    else e.setInsets({ left: 76, right: panelOpen ? Math.min(420, w * 0.42) + 12 : 0, top: 112, bottom: 0 });
   }, [panelOpen, portrait, ready]);
 
   // progresso do primeiro carregamento
@@ -142,6 +142,7 @@ export function App() {
         )}
       </div>
 
+      {ready && <VerRapido />}
       {ready && <Toolbar />}
 
       {!panelOpen && <button className="panel-toggle glass" onClick={() => useStore.getState().setPanel(true)} aria-label="Abrir painel"><Icon n="painel" /></button>}

@@ -1,14 +1,15 @@
 import {
   AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, HemisphereLight, Material, Mesh,
-  MeshBasicMaterial, MeshStandardMaterial, Object3D, PerspectiveCamera, Plane, Raycaster, Scene, SphereGeometry, SRGBColorSpace,
-  Vector2, Vector3, WebGLRenderer, DoubleSide,
+  MeshBasicMaterial, MeshStandardMaterial, Object3D, PerspectiveCamera, Plane, PlaneGeometry, Raycaster, Scene, SphereGeometry, SRGBColorSpace,
+  Vector2, Vector3, WebGLRenderer, DoubleSide, ACESFilmicToneMapping, PMREMGenerator, CanvasTexture,
 } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import type { Cat, Indexed, Side } from '../data/manifest';
-import { CAT_LAYER, CAT_OPACITY, CAT_ROUGHNESS, COLORS, DEFAULT_LAYERS, LAYER_FILE, colorFor, type LayerId, type LayerState } from './palette';
+import { CAT_LAYER, layerOf, CAT_OPACITY, CAT_ROUGHNESS, COLORS, DEFAULT_LAYERS, LAYER_FILE, colorFor, type LayerId, type LayerState } from './palette';
 
 export type ViewName = 'anterior' | 'posterior' | 'direita' | 'esquerda' | 'superior' | 'inferior';
 export interface Pick { si: number; side: Side; meshId: string; point: Vector3; ins?: string; pin?: string }
@@ -62,6 +63,8 @@ export class Engine {
   tint = new Map<number, string>();
   activePin: string | null = null;
   showPinLabels = false;
+  /** Esconde os nomes dos pinos (jogo de acidentes ósseos, antes da resposta). */
+  muteLabels = false;
 
   onPick: (p: Pick | null, kind: 'tap' | 'double') => void = () => {};
   onFile: (file: string, state: 'loading' | 'ready' | 'error', progress: number) => void = () => {};
@@ -78,18 +81,36 @@ export class Engine {
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     this.renderer.outputColorSpace = SRGBColorSpace;
     this.renderer.setClearColor(0x000000, 0);
+    // Acabamento de "estúdio": reflexos suaves de um ambiente iluminado e tone mapping fílmico,
+    // para o modelo parecer uma ilustração de atlas e não carne crua.
+    this.renderer.toneMapping = ACESFilmicToneMapping;
+    this.renderer.toneMappingExposure = 1.0;
+    const pmrem = new PMREMGenerator(this.renderer);
+    this.scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+    this.scene.environmentIntensity = 0.38;
+    pmrem.dispose();
 
     this.mirrorRoot.scale.x = -1;
     this.scene.add(this.root, this.mirrorRoot, this.pinRoot);
-    this.scene.add(new HemisphereLight(0xffffff, 0x5d6170, 0.75));
-    this.scene.add(new AmbientLight(0xffffff, 0.18));
-    const head = new DirectionalLight(0xfff6ea, 1.55);  // luz "de cabeça": acompanha a câmera, como num atlas
+    this.scene.add(new HemisphereLight(0xfff4ec, 0x6a6f86, 0.55));
+    this.scene.add(new AmbientLight(0xffffff, 0.08));
+    const head = new DirectionalLight(0xfff3e6, 1.35);  // luz "de cabeça": acompanha a câmera, como num atlas
     head.position.set(0.4, 0.6, 1);
-    const rim = new DirectionalLight(0xbfd4ff, 0.55);
-    rim.position.set(-1, 0.4, -1);
+    const rim = new DirectionalLight(0xc7dcff, 0.9);   // contraluz azulada: recorta a silhueta
+    rim.position.set(-0.9, 0.5, -1);
+    const fill = new DirectionalLight(0xffe2d6, 0.35);
+    fill.position.set(-1, -0.2, 0.6);
+    this.camera.add(fill);
     this.camera.add(head, rim);
     this.scene.add(this.camera);
 
+    // sombra de contato suave sob os pés
+    const sh = document.createElement('canvas'); sh.width = sh.height = 128;
+    const g = sh.getContext('2d')!; const gr = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+    gr.addColorStop(0, 'rgba(0,0,0,0.55)'); gr.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = gr; g.fillRect(0, 0, 128, 128);
+    const floor = new Mesh(new PlaneGeometry(0.9, 0.55), new MeshBasicMaterial({ map: new CanvasTexture(sh), transparent: true, depthWrite: false }));
+    floor.rotation.x = -Math.PI / 2; floor.position.set(0, -0.004, 0.02); floor.renderOrder = -1;
+    this.scene.add(floor);
     this.camera.position.set(0, 1.0, 4.4);
     this.controls = new OrbitControls(this.camera, this.canvas);
     this.controls.target.set(0, 0.92, 0);
@@ -132,6 +153,8 @@ export class Engine {
   ensureLayers(): Promise<void[]> {
     const need = new Set<string>();
     for (const [id, st] of Object.entries(this.layers) as [LayerId, LayerState][]) if (st) need.add(LAYER_FILE[id]);
+    // os olhos moram no arquivo do sistema nervoso: carrega em segundo plano, sem atrasar a abertura
+    if (this.layers.musculos && !this.files.has('nervous')) setTimeout(() => void this.loadFile('nervous', true), 1500);
     return Promise.all([...need].map((f) => this.loadFile(f)));
   }
 
@@ -142,15 +165,15 @@ export class Engine {
     return Promise.all([...need].map((f) => this.loadFile(f)));
   }
 
-  loadFile(file: string): Promise<void> {
+  loadFile(file: string, quiet = false): Promise<void> {
     let p = this.files.get(file);
     if (!p) {
-      this.onFile(file, 'loading', 0);
+      if (!quiet) this.onFile(file, 'loading', 0);
       p = new Promise<void>((resolve) => {
         this.loader.load(
           `${import.meta.env.BASE_URL}models/${file}.glb`,
-          (gltf) => { this.ingest(file, gltf.scene); this.onFile(file, 'ready', 1); this.apply(); resolve(); },
-          (ev) => { if (ev.total) this.onFile(file, 'loading', ev.loaded / ev.total); },
+          (gltf) => { this.ingest(file, gltf.scene); if (!quiet) this.onFile(file, 'ready', 1); this.apply(); resolve(); },
+          (ev) => { if (ev.total && !quiet) this.onFile(file, 'loading', ev.loaded / ev.total); },
           (err) => { console.error('Falha ao carregar', file, err); this.files.delete(file); this.onFile(file, 'error', 0); resolve(); },
         );
       });
@@ -253,7 +276,7 @@ export class Engine {
     return this.mat('base:' + cat, () => {
       const op = CAT_OPACITY[cat] ?? 1;
       return new MeshStandardMaterial({
-        vertexColors: true, roughness: CAT_ROUGHNESS[cat] ?? 0.55, metalness: 0,
+        vertexColors: true, roughness: CAT_ROUGHNESS[cat] ?? 0.55, metalness: 0, envMapIntensity: cat === 'muscle' || cat === 'tendon' ? 0.9 : 0.6,
         transparent: op < 1, opacity: op, depthWrite: op >= 1, side: DoubleSide,
       });
     });
@@ -285,7 +308,7 @@ export class Engine {
     const ghost = this.ghostMat(), fade = this.fadeMat(), sel = this.selMat();
     for (const it of this.items.values()) {
       const mesh = it.mesh;
-      const layer = this.layers[CAT_LAYER[it.cat]];
+      const layer = this.layers[layerOf(this.m.structs[it.si])];
       const inFocus = (this.focus?.set.has(it.si) ?? false) && !(this.focus!.respectLayers && layer === 0);
       const isSel = !!this.selected && this.selected.si === it.si && (this.selected.side === 'both' || this.selected.side === it.side || it.side === '');
       const selStruct = !!this.selected && this.selected.si === it.si;
@@ -568,7 +591,7 @@ export class Engine {
       const px = active ? 7 : 4.2;                       // raio em pixels na tela
       p.mesh.scale.setScalar(Math.max(0.0006, (px / h) * 2 * tanV * d));
       p.mesh.material = this.pinMat(active);
-      const show = active || this.showPinLabels;
+      const show = !this.muteLabels && (active || this.showPinLabels);
       if (!show) { p.el.style.display = 'none'; continue; }
       this.v.copy(p.mesh.position).project(this.camera);
       if (this.v.z > 1 || this.v.z < -1) { p.el.style.display = 'none'; continue; }

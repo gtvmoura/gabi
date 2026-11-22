@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { hoje, rt, useStore, type SrsCard } from '../store';
 import { Casos, QuemSouEu } from './Jogos';
+import { Acerte } from './Acerte';
+import { articulacoes, ligamentos, nervos } from '../content';
 import { Confete } from './Extras';
 import { CASOS } from '../content/casos';
 import { ART_NOME, MOV_NOME, infoDe, motores, musculos, nomePt, ossos, resolver, roteiros, structsDoMusculo, testes, type Musculo } from '../content';
@@ -198,6 +200,9 @@ function baralhos(): Baralho[] {
   const out: Baralho[] = MACRO.map((r) => ({ id: 'mus-' + r.id, nome: `Músculos — ${r.nome}`, cartoes: () => [...musculos.values()].filter((mu) => macroDe(mu.key, m) === r.id && mu.origem).map(mc) }));
   out.push({ id: 'roteiros', nome: 'Perguntas dos roteiros', cartoes: () => roteiros.flatMap((r) => (r.perguntas ?? []).map((p, i) => ({ id: `r:${r.id}:${i}`, frente: p.q, sub: r.titulo, verso: [{ k: 'Resposta', v: p.a }] }))) });
   out.push({ id: 'testes', nome: 'Testes clínicos', cartoes: () => testes.map((t) => ({ id: 't:' + t.id, frente: t.nome, sub: 'O que avalia e quando é positivo?', verso: [{ k: 'Avalia', v: t.objetivo ?? '—' }, { k: 'Positivo', v: t.positivo ?? '—' }] })) });
+  out.push({ id: 'ligs', nome: 'Ligamentos', cartoes: () => [...ligamentos.values()].filter((l) => l.funcao && l.clinica && m.byKey.has(l.key)).map((l) => ({ id: 'l:' + l.key, frente: l.pt, sub: 'De onde a onde vai e o que limita?', chave: l.key, verso: [{ k: 'Função', v: l.funcao! }, { k: 'Clínica', v: l.clinica! }] })) });
+  out.push({ id: 'nervos', nome: 'Nervos', cartoes: () => [...nervos.values()].filter((n) => n.motor && n.lesao).map((n) => ({ id: 'n:' + n.key, frente: n.pt, sub: 'Raízes · motor · lesão', chave: n.key, verso: [{ k: 'Raízes', v: n.raizes ?? '—' }, { k: 'Motor', v: n.motor! }, { k: 'Lesão', v: n.lesao! }] })) });
+  out.push({ id: 'arts', nome: 'Articulações', cartoes: () => [...articulacoes.values()].filter((a) => a.tipo && a.movimentos?.length).map((a) => ({ id: 'j:' + a.key, frente: a.pt, sub: 'Tipo · amplitudes · posição fechada · padrão capsular', verso: [{ k: 'Tipo', v: a.tipo! }, { k: 'Amplitudes', v: a.movimentos!.filter((x) => x.adm).map((x) => `${MOV_NOME[x.mov] ?? x.mov} ${x.adm}`).join('; ') || '—' }, ...(a.posicaoFechada ? [{ k: 'Posição fechada', v: a.posicaoFechada }] : []), ...(a.padraoCapsular ? [{ k: 'Padrão capsular', v: a.padraoCapsular }] : [])] })) });
   out.push({ id: 'ossos', nome: 'Acidentes ósseos', cartoes: () => [...ossos.values()].flatMap((o) => (o.acidentes ?? []).filter((a) => a.nota && a.nota.length > 40 && a.key !== o.key).map((a) => ({ id: `a:${o.key}:${a.key}`, frente: `${a.pt}`, sub: o.pt, chave: o.key, verso: [{ k: 'O que é / o que se fixa', v: a.nota! }] }))) });
   return out;
 }
@@ -264,7 +269,7 @@ function Flash({ onExit }: { onExit: () => void }) {
 }
 
 export function Treinar() {
-  const [tela, setTela] = useState<'menu' | 'quiz' | 'flash' | 'desafio' | 'quem' | 'casos'>('menu');
+  const [tela, setTela] = useState<'menu' | 'quiz' | 'flash' | 'desafio' | 'quem' | 'casos' | 'acerte'>('menu');
   useEffect(() => { const f = () => setTela('desafio'); window.addEventListener('desafio-do-dia', f); return () => window.removeEventListener('desafio-do-dia', f); }, []);
   const prog = useStore((s) => s.prog);
   const devidos = Object.values(prog.srs).filter((c) => c.due <= Date.now()).length;
@@ -272,6 +277,7 @@ export function Treinar() {
   if (tela === 'quiz') return <Quiz onExit={() => setTela('menu')} />;
   if (tela === 'flash') return <Flash onExit={() => setTela('menu')} />;
   if (tela === 'desafio') return <Quiz key="desafio" auto={5} onExit={() => setTela('menu')} />;
+  if (tela === 'acerte') return <Acerte onExit={() => setTela('menu')} />;
   if (tela === 'quem') return <QuemSouEu onExit={() => setTela('menu')} />;
   if (tela === 'casos') return <Casos onExit={() => setTela('menu')} />;
   return (
@@ -279,6 +285,7 @@ export function Treinar() {
       <div className="phead"><div className="ttl"><h2>Treinar</h2><div className="sub">Teste o que você já sabe</div></div><button className="iconbtn" onClick={() => useStore.getState().setPanel(false)} aria-label="Fechar"><Icon n="fechar" /></button></div>
       <div className="pbody">
         <button className="tile" style={{ width: '100%' }} onClick={() => setTela('quiz')}><div className="t" style={{ fontSize: 17 }}>Quiz</div><div className="d">Identifique estruturas no 3D, encontre músculos no modelo, inervação, origem, inserção e ações.</div>{ult && <div className="d" style={{ marginTop: 6 }}>Última rodada: {ult.certos}/{ult.total}</div>}</button>
+        <button className="tile" style={{ width: '100%' }} onClick={() => setTela('acerte')}><div className="t" style={{ fontSize: 17 }}>Acerte a estrutura</div><div className="d">O 3D destaca e você diz o nome — ou toca na estrutura pedida. Escolha ossos, acidentes ósseos, músculos, ligamentos, nervos, artérias ou órgãos; 10 perguntas ou contra o relógio.</div></button>
         <button className="tile" style={{ width: '100%' }} onClick={() => setTela('desafio')}><div className="t" style={{ fontSize: 17 }}>Desafio do dia {prog.desafio === hoje() ? '✓' : ''}</div><div className="d">5 perguntas rápidas para manter a sequência.</div></button>
         <button className="tile" style={{ width: '100%' }} onClick={() => setTela('quem')}><div className="t" style={{ fontSize: 17 }}>Quem sou eu?</div><div className="d">Adivinhe o músculo pelas pistas. Quanto menos pistas, mais pontos.</div></button>
         <button className="tile" style={{ width: '100%' }} onClick={() => setTela('casos')}><div className="t" style={{ fontSize: 17 }}>Casos clínicos</div><div className="d">{CASOS.length} histórias de paciente para ligar a queixa à anatomia, com o 3D mostrando a resposta.</div><div className="d" style={{ marginTop: 6 }}>{CASOS.filter((c) => prog.estudados['caso:' + c.id]).length} de {CASOS.length} resolvidos</div></button>

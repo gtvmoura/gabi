@@ -35,7 +35,7 @@ input, textarea { font: inherit; color: inherit; user-select: text; -webkit-user
 h1, h2, h3, h4, p { margin: 0; }
 .ico { flex: none; }
 
-.app { position: fixed; inset: 0; background: radial-gradient(120% 90% at 50% 35%, #2b3147 0%, #171a26 55%, #0d0f16 100%); }
+.app { position: fixed; inset: 0; background: radial-gradient(85% 75% at 50% 42%, #3a3f55 0%, #252a3a 38%, #161925 72%, #0e1018 100%); }
 .stage { position: absolute; inset: 0; }
 .gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; outline: none; }
 .gl-labels { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
@@ -247,3 +247,14 @@ input.field { width: 100%; height: 42px; border-radius: 12px; border: 1px solid 
 .clue { border-radius: 12px; padding: 10px 12px; background: var(--card); border: 1px solid var(--line); animation: pop 0.25s ease; }
 .clue .k { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--accent-2); }
 @media (max-aspect-ratio: 1/1), (max-width: 760px) { .legenda { left: 10px; right: 10px; bottom: auto; top: calc(66px + var(--safe-t)); margin-left: 54px; } }
+
+/* faixa "o que ver" */
+.rapido { position: absolute; z-index: 24; top: calc(66px + var(--safe-t)); left: calc(var(--nav) + var(--safe-l) + 8px); right: calc(var(--panel-w) + 30px); display: flex; flex-direction: column; gap: 6px; align-items: flex-start; pointer-events: none; }
+.faixa { pointer-events: auto; display: flex; flex-wrap: wrap; gap: 4px; padding: 4px; border-radius: 13px; max-width: 100%; }
+.faixa::-webkit-scrollbar { display: none; }
+.faixa button { flex: none; height: 32px; padding: 0 10px; border-radius: 9px; font-size: 12.5px; font-weight: 600; color: var(--dim); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.faixa button .dot { opacity: 0.35; }
+.faixa button.on { background: rgba(255, 255, 255, 0.12); color: #fff; }
+.faixa button.on .dot, .faixa button.meio .dot { opacity: 1; }
+.faixa button.meio { color: var(--muted); border: 1px dashed var(--line); }
+@media (max-aspect-ratio: 1/1), (max-width: 760px) { .rapido { left: 64px; right: 10px; top: calc(70px + var(--safe-t)); } .legenda { top: calc(112px + var(--safe-t)); } }

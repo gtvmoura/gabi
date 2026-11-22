@@ -19,6 +19,13 @@ export const CAT_LAYER: Record<Cat, LayerId> = {
   organ: 'orgaos', lymph: 'linfatico', skin: 'pele',
 };
 
+/** Olhos acompanham os músculos (um rosto sem olhos assusta!). */
+const OLHO = /^(Sclera|Iris)$/;
+export function layerOf(s: { k: string; c: Cat }): LayerId {
+  if (s.c === 'sense' && OLHO.test(s.k)) return 'musculos';
+  return CAT_LAYER[s.c];
+}
+
 export const LAYER_FILE: Record<LayerId, string> = {
   ossos: 'skeleton', musculos: 'muscles', fascias: 'muscles', bolsas: 'muscles',
   ligamentos: 'joints', capsulas: 'joints', nervos: 'nervous', snc: 'nervous',
@@ -50,19 +57,19 @@ export const DEFAULT_LAYERS: Record<LayerId, LayerState> = {
 export const CAT_OPACITY: Partial<Record<Cat, number>> = { capsule: 0.55, bursa: 0.7, sheath: 0.6, fascia: 0.5, skin: 1 };
 
 export const CAT_ROUGHNESS: Partial<Record<Cat, number>> = {
-  bone: 0.62, cartilage: 0.4, tooth: 0.3, muscle: 0.5, tendon: 0.45, ligament: 0.5, nerve: 0.5,
+  bone: 0.55, cartilage: 0.35, tooth: 0.25, muscle: 0.42, tendon: 0.32, ligament: 0.4, nerve: 0.4, sense: 0.2,
   artery: 0.4, vein: 0.4, heart: 0.45, organ: 0.45, cns: 0.55, skin: 0.7,
 };
 
 const FIXED: Record<string, string> = {
   Bone: '#e3d6ba', Cartilage: '#9cc3da', Teeth: '#f6f2e8', 'Teeth-roots': '#e3d4b4', Dentine: '#eadbb8',
-  Tendon: '#efe7d6', Ligament: '#d3d9d8', 'Articular capsule': '#b9cad6', Bursa: '#7fc8e8', Fascia: '#ece6d9', Fat: '#f0d98a',
+  Tendon: '#f3eee4', Ligament: '#d3d9d8', 'Articular capsule': '#b9cad6', Bursa: '#7fc8e8', Fascia: '#ece6d9', Fat: '#f0d98a',
   Nerve: '#f0c93c', Artery: '#cf3030', Vein: '#3558b8', 'Pulmonary artery': '#3f6fd0', 'Pulmonary vein': '#d24a4a', Heart: '#a83232',
   'Frontal lobe': '#e8a39b', 'Parietal lobe': '#9cc3e6', 'Temporal lobe': '#aed3a1', 'Occipital lobe': '#f3c693',
   'Limbic lobe': '#d3a5c0', Insula: '#c9a0d6', Cerebellum: '#c8a281', Brain: '#e2c5b6', 'Brain-Inner': '#e2c5b6',
   'White matter': '#f2ece3', Nucleus: '#b391b5', 'Nucleus (afferent fibers)': '#8fb3d9', 'Nucleus (efferent fibers)': '#d98f8f',
   'Nucleus (mixte)': '#b391b5', 'Interlobar sulci': '#9c7f72', LCR: '#8ecae6',
-  Eye: '#f4f1ea', Iris: '#5b7fa6', Cornea: '#cfe6f2', Mucosa: '#e39a9a', 'Mucosa of stomach': '#e3a08f', Gland: '#e0b070',
+  Eye: '#f4f1ea', Iris: '#6b4f3a', Cornea: '#cfe6f2', Mucosa: '#e39a9a', 'Mucosa of stomach': '#e3a08f', Gland: '#e0b070',
   Intestine: '#e2a98c', Bronchi: '#dcc9a6', Ductus: '#7fb069', Gallbladder: '#6a994e', Peritoneum: '#e9d8c7', Organ: '#b5604a',
   Diaphragm: '#b5473c', Nail: '#f1d9cf', Black: '#2a2523', 'Skin-in': '#d9a688', None: '#cfcfcf',
 };
@@ -90,7 +97,8 @@ export function colorFor(mat: string, s: Struct): Color {
   if (mat.startsWith('Lymph')) return tmp.set('#8fbf6b').offsetHSL((j - 0.5) * 0.04, 0, (j2 - 0.5) * 0.08).clone();
   if (mat.startsWith('Skin')) return tmp.set('#e6b596').offsetHSL((j - 0.5) * 0.015, 0, (j2 - 0.5) * 0.05).clone();
   // ventres musculares: vermelho com leve variação de matiz e brilho
-  if (s.c === 'muscle' || s.c === 'tendon') return tmp.setHSL(0.008 + (j - 0.5) * 0.03, 0.58 + j2 * 0.1, 0.34 + (j - 0.5) * 0.1).clone();
+  // ventres musculares: vermelho-coral de atlas, com leve variação para separar músculos vizinhos
+  if (s.c === 'muscle' || s.c === 'tendon') return tmp.setHSL(0.004 + (j - 0.5) * 0.024, 0.6 + j2 * 0.08, 0.385 + (j - 0.5) * 0.07).clone();
   return tmp.set('#cfcfcf').clone();
 }
 
