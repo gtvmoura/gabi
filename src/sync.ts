@@ -1,6 +1,7 @@
 // Mantém o motor 3D em dia com o estado da interface.
 import { rt, useStore } from './store';
 import { acidente, nomePt } from './content';
+import { mapaInervacao } from './lib/inervacao';
 
 let lastPinsKey = '';
 
@@ -14,6 +15,8 @@ export function syncEngine() {
   e.focus = s.focus ? { set: new Map(s.focus.ids), others: s.focus.others, respectLayers: s.focus.respectLayers } : null;
   e.faded = new Set();
   e.revealBones = false;
+  e.tint = s.colorMode === 'inervacao' ? mapaInervacao(m).porStruct : new Map();
+  e.setClip(s.clip?.axis ?? null, s.clip?.t);
   e.selected = s.sel ? { ...s.sel } : null;
 
   // origens/inserções

@@ -1,7 +1,7 @@
 import {
   AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, HemisphereLight, Material, Mesh,
-  MeshBasicMaterial, MeshStandardMaterial, Object3D, PerspectiveCamera, Raycaster, Scene, SphereGeometry, SRGBColorSpace,
-  Vector2, Vector3, WebGLRenderer, DoubleSide, FrontSide,
+  MeshBasicMaterial, MeshStandardMaterial, Object3D, PerspectiveCamera, Plane, Raycaster, Scene, SphereGeometry, SRGBColorSpace,
+  Vector2, Vector3, WebGLRenderer, DoubleSide,
 } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
@@ -254,7 +254,7 @@ export class Engine {
       const op = CAT_OPACITY[cat] ?? 1;
       return new MeshStandardMaterial({
         vertexColors: true, roughness: CAT_ROUGHNESS[cat] ?? 0.55, metalness: 0,
-        transparent: op < 1, opacity: op, depthWrite: op >= 1, side: op < 1 || cat === 'skin' || cat === 'fascia' ? DoubleSide : FrontSide,
+        transparent: op < 1, opacity: op, depthWrite: op >= 1, side: DoubleSide,
       });
     });
   }
@@ -265,10 +265,10 @@ export class Engine {
     return this.mat('fade', () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.6, transparent: true, opacity: 0.22, depthWrite: false }));
   }
   private selMat(): Material {
-    return this.mat('sel', () => new MeshStandardMaterial({ color: new Color(COLORS.select), roughness: 0.42, emissive: new Color(COLORS.select), emissiveIntensity: 0.22 }));
+    return this.mat('sel', () => new MeshStandardMaterial({ color: new Color(COLORS.select), roughness: 0.42, emissive: new Color(COLORS.select), emissiveIntensity: 0.22, side: DoubleSide }));
   }
   private tintMat(color: string): Material {
-    return this.mat('tint:' + color, () => new MeshStandardMaterial({ color: new Color(color), roughness: 0.5, emissive: new Color(color), emissiveIntensity: 0.12 }));
+    return this.mat('tint:' + color, () => new MeshStandardMaterial({ color: new Color(color), roughness: 0.5, emissive: new Color(color), emissiveIntensity: 0.12, side: DoubleSide }));
   }
   private insMat(t: 'o' | 'e'): Material {
     return this.mat('ins:' + t, () => new MeshStandardMaterial({
@@ -304,8 +304,8 @@ export class Engine {
           if (this.focus.others === 'hide') visible = false; else { mat = ghost; pickable = false; }
         } else if (this.faded.has(it.si)) { mat = fade; pickable = false; }
         else if (inFocus && this.focus!.set.get(it.si)) mat = this.tintMat(this.focus!.set.get(it.si)!);
-        else if (this.tint.has(it.si)) mat = this.tintMat(this.tint.get(it.si)!);
         else if (layer === 2 && !inFocus) { mat = ghost; pickable = false; }
+        else if (this.tint.has(it.si)) mat = this.tintMat(this.tint.get(it.si)!);
       }
       mesh.visible = visible;
       if (visible) {
@@ -492,7 +492,7 @@ export class Engine {
     const rect = this.canvas.getBoundingClientRect();
     const ndc = new Vector2(((clientX - rect.left) / rect.width) * 2 - 1, -((clientY - rect.top) / rect.height) * 2 + 1);
     this.raycaster.setFromCamera(ndc, this.camera);
-    const hits = this.raycaster.intersectObjects(this.pickables, false);
+    const hits = this.raycaster.intersectObjects(this.pickables, false).filter((h) => !this.clip || this.clip.distanceToPoint(h.point) >= 0);
     if (!hits.length) return null;
     // pinos têm prioridade quando estão praticamente na mesma profundidade da superfície
     const first = hits[0];
@@ -511,6 +511,19 @@ export class Engine {
     }
     const it = o.userData.item as Item;
     return { si: it.si, side: it.side, meshId: it.id, point: h.point };
+  }
+
+  // ------------------------------------------------------------------ plano de corte
+  private clip: Plane | null = null;
+  /** Corta o modelo por um plano. `t` vai de 0 a 1 ao longo do eixo; null desliga. */
+  setClip(axis: 'x' | 'y' | 'z' | null, t = 0.5) {
+    if (!axis) { this.clip = null; this.renderer.clippingPlanes = []; this.dirty = true; return; }
+    const range = { x: [-0.36, 0.36], y: [0, 1.76], z: [-0.2, 0.3] }[axis];
+    const v = range[0] + (range[1] - range[0]) * t;
+    const n = new Vector3(axis === 'x' ? -1 : 0, axis === 'y' ? -1 : 0, axis === 'z' ? -1 : 0);
+    this.clip = new Plane(n, v);
+    this.renderer.clippingPlanes = [this.clip];
+    this.dirty = true;
   }
 
   /** Enquadra um ponto (ex.: acidente ósseo). */
@@ -568,9 +581,15 @@ export class Engine {
   requestRender() { this.dirty = true; }
 
   /** Miniatura da cena atual (para compartilhar ou salvar). */
-  snapshot(): string {
+  snapshot(): HTMLCanvasElement {
+    for (const p of this.pins) p.mesh.visible = false;
     this.renderer.render(this.scene, this.camera);
-    return this.canvas.toDataURL('image/png');
+    const out = document.createElement('canvas');
+    out.width = this.canvas.width; out.height = this.canvas.height;
+    out.getContext('2d')!.drawImage(this.canvas, 0, 0);
+    for (const p of this.pins) p.mesh.visible = true;
+    this.dirty = true;
+    return out;
   }
 
   stats() {

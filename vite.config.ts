@@ -37,6 +37,6 @@ export default defineConfig({
       },
     }),
   ],
-  build: { target: 'es2022', chunkSizeWarningLimit: 4000 },
+  build: { target: ['es2020', 'safari14'], chunkSizeWarningLimit: 4000 },
   server: { host: true, port: 5173 },
 });

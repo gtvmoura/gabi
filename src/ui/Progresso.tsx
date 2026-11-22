@@ -66,6 +66,13 @@ export function Progresso() {
         </Sec>
         {dificeis.length > 0 && <Sec t="Mais erradas no quiz"><div className="tags">{dificeis.map(([k, n]) => <button key={k} className="tag" onClick={() => abrirChave(k)}>{nomePt(k, m)} · {n}×</button>)}</div></Sec>}
         {notas.length > 0 && <Sec t="Minhas anotações" ico="nota"><div className="list">{notas.map(([k, v]) => <button key={k} className="row" onClick={() => abrirChave(k)}><div className="main"><div className="t">{nomePt(k, m)}</div><div className="d clamp2">{v}</div></div></button>)}</div></Sec>}
+        <Sec t="Minha próxima prova">
+          <div className="list">
+            <input className="field" placeholder="Nome (ex.: Anatomia II — membro inferior)" value={prog.prova?.nome ?? ''} onChange={(e) => st.patchProg((p) => ({ prova: { nome: e.target.value, data: p.prova?.data ?? '' } }))} />
+            <input className="field" type="date" value={prog.prova?.data ?? ''} onChange={(e) => st.patchProg((p) => ({ prova: { nome: p.prova?.nome ?? '', data: e.target.value } }))} />
+          </div>
+          <p className="small muted" style={{ marginTop: 6 }}>A contagem regressiva aparece na tela inicial do Atlas.</p>
+        </Sec>
         <Sec t="Usar sem internet">
           <p className="small muted" style={{ marginBottom: 8 }}>Para instalar no tablet: abra o menu do navegador e escolha “Adicionar à tela de início”. Depois baixe todos os modelos para estudar offline.</p>
           <button className="btn block" onClick={baixarTudo} disabled={!!off && off.startsWith('Baixando')}>{off ?? 'Baixar tudo para uso offline (≈ 25 MB)'}</button>

@@ -6,6 +6,9 @@ import { catNome } from '../lib/search';
 import { paragraphs } from '../lib/text';
 import { Icon } from './icons';
 import { abrirChave } from './Search';
+import { Ouvir } from './Extras';
+import { PERFIL } from '../content/recados';
+import { hoje } from '../store';
 
 let wikiCache: Promise<Record<string, string>> | null = null;
 const wiki = () => wikiCache ?? (wikiCache = fetch(`${import.meta.env.BASE_URL}data/wiki-en.json`).then((r) => r.json()).catch(() => ({})));
@@ -81,6 +84,17 @@ function FichaMusculo({ d, parteKey }: { d: Musculo; parteKey?: string }) {
       {d.alongamento && <Sec t="Alongamento"><Prose t={d.alongamento} /></Sec>}
       {d.clinica && <Sec t="Clínica" ico="clinica"><Prose t={d.clinica} /></Sec>}
       {tests.length > 0 && <Sec t="Testes clínicos relacionados"><div className="tags">{tests.map((t) => <button key={t.id} className="tag" onClick={() => { useStore.setState({ sel: null }); useStore.getState().setTab('clinica'); setTimeout(() => window.dispatchEvent(new CustomEvent('abrir-teste', { detail: t.id })), 30); }}>{t.nome}</button>)}</div></Sec>}
+      {((d.sinergistas?.length ?? 0) > 0 || (d.antagonistas?.length ?? 0) > 0) && (
+        <button className="btn" onClick={() => {
+          const atual = useStore.getState().sel;
+          const ids = new Map<number, string | null>();
+          for (const k of d.antagonistas ?? []) for (const si of resolver(k, m)) ids.set(si, '#fb7185');
+          for (const k of d.sinergistas ?? []) for (const si of resolver(k, m)) ids.set(si, '#4ade80');
+          for (const si of structsDoMusculo(d, m)) ids.set(si, '#39c2f0');
+          useStore.getState().setFocus({ ids: [...ids], others: 'ghost', label: `${d.pt}: azul · sinergistas verdes · antagonistas vermelhos` });
+          useStore.setState({ sel: atual });   // mantém a ficha aberta
+        }}><Icon n="isolar" size={16} />Ver sinergistas e antagonistas no 3D</button>
+      )}
       {d.sinergistas && d.sinergistas.length > 0 && <Sec t="Sinergistas"><ChaveTags keys={d.sinergistas} /></Sec>}
       {d.antagonistas && d.antagonistas.length > 0 && <Sec t="Antagonistas"><ChaveTags keys={d.antagonistas} /></Sec>}
       {d.sinonimos && d.sinonimos.length > 0 && <div className="small muted">Também chamado de: {d.sinonimos.join(', ')}</div>}
@@ -219,6 +233,7 @@ export function Ficha() {
           <button className="btn" onClick={() => { const sp = rt.engine?.sphereOf([sel.si], sel.side); if (sp) rt.engine!.frame(sp, { pad: 1.5 }); }}><Icon n="busca" size={16} />Focar</button>
           <button className="btn" onClick={() => { const ids = info?.tipo === 'musculo' ? structsDoMusculo(info.d, m) : [sel.si]; st.setFocus({ ids: (ids.length ? ids : [sel.si]).map((x) => [x, null]), others: 'hide', label: titulo }, false); useStore.setState({ sel }); }}><Icon n="isolar" size={16} />Isolar</button>
           <button className="btn" onClick={() => { st.hide(sel.si); st.say('Oculto. Use ↶ para desfazer.'); }}><Icon n="olhoOff" size={16} />Ocultar</button>
+          <Ouvir texto={falar(titulo, info)} />
         </div>
         {bilateral && (
           <div className="seg wide">
@@ -256,6 +271,22 @@ export function Ficha() {
   );
 }
 
+function falar(titulo: string, info: Info): string {
+  if (!info) return titulo + '.';
+  const d = info.d as unknown as Record<string, unknown>;
+  const t = (k: string, r: string) => (typeof d[k] === 'string' && d[k] ? `${r}: ${d[k]}` : '');
+  const iv = info.tipo === 'musculo' && info.d.inervacao ? `Inervação: ${info.d.inervacao.nervo}${info.d.inervacao.raizes ? ', raízes ' + info.d.inervacao.raizes : ''}.` : '';
+  return [titulo + '.', d.resumo, t('origem', 'Origem'), t('insercao', 'Inserção'), iv, t('funcao', 'Função'), d.descricao, t('trajeto', 'Trajeto'), t('motor', 'Motor'), t('sensitivo', 'Sensitivo'), t('palpacao', 'Palpação'), t('clinica', 'Clínica'), t('lesao', 'Lesão')].filter(Boolean).join(' ').replace(/\n+/g, ' ');
+}
+
+/** Músculo do dia: muda à meia-noite, igual para o dia inteiro. */
+function doDia(): Musculo | null {
+  const lista = [...musculos.values()].filter((x) => x.clinica && x.palpacao && resolver(x.key, rt.m!).length);
+  if (!lista.length) return null;
+  const d = new Date(); const n = d.getFullYear() * 372 + d.getMonth() * 31 + d.getDate();
+  return lista[(n * 7919) % lista.length];
+}
+
 function Inicio() {
   const prog = useStore((s) => s.prog);
   const st = useStore.getState();
@@ -265,13 +296,13 @@ function Inicio() {
     <>
       <div className="phead"><div className="ttl"><h2>Atlas 3D</h2><div className="sub">Toque em qualquer estrutura do modelo para abrir a ficha</div></div><button className="iconbtn" onClick={() => st.setPanel(false)} aria-label="Fechar"><Icon n="fechar" /></button></div>
       <div className="pbody">
-        <div className="list">
-          <div className="row"><div className="main"><div className="t">Um dedo</div><div className="d">gira o modelo</div></div></div>
-          <div className="row"><div className="main"><div className="t">Dois dedos</div><div className="d">aproximam (pinça) e movem</div></div></div>
-          <div className="row"><div className="main"><div className="t">Toque</div><div className="d">seleciona e abre a ficha · toque duplo aproxima</div></div></div>
-          <div className="row"><div className="main"><div className="t">Camadas</div><div className="d">no botão à esquerda: ligue nervos, ligamentos, vasos… ou deixe os músculos translúcidos</div></div></div>
-          <div className="row"><div className="main"><div className="t">Ocultar</div><div className="d">esconde a estrutura selecionada para ver o que está por baixo, camada por camada</div></div></div>
-        </div>
+        {(() => { const md = doDia(); const feito = prog.desafio === hoje(); const pv = prog.prova; const dias = pv && pv.data ? Math.round((new Date(pv.data + 'T00:00:00').getTime() - new Date(hoje() + 'T00:00:00').getTime()) / 86400000) : null; return (
+          <>
+            {pv && dias !== null && dias >= 0 && <div className="hero"><div className="k">Contagem para a prova</div><div className="t">{dias === 0 ? 'É hoje! Você consegue 💛' : dias === 1 ? 'Falta 1 dia' : `Faltam ${dias} dias`}</div><div className="d">{pv.nome || 'Prova'} · {new Date(pv.data + 'T00:00:00').toLocaleDateString('pt-BR')}</div></div>}
+            {md && <button className="hero" onClick={() => abrirChave(md.key)}><div className="k">Músculo do dia</div><div className="t">{md.pt}</div><div className="d clamp2">{md.resumo}</div></button>}
+            <button className="hero" onClick={() => { st.setTab('treinar'); setTimeout(() => window.dispatchEvent(new CustomEvent('desafio-do-dia')), 40); }}><div className="k">Desafio do dia</div><div className="t">{feito ? 'Feito hoje ✓' : `5 perguntas rápidas, ${PERFIL.nome}`}</div><div className="d">{feito ? 'Volte amanhã para um novo — ou jogue de novo agora.' : 'Leva dois minutos e mantém a sequência de dias.'}</div></button>
+          </>
+        ); })()}
         <Sec t="Comece por aqui">
           <div className="grid2">
             <button className="tile" onClick={() => st.setTab('explorar')}><div className="t">Regiões</div><div className="d">Ombro, joelho, coluna…</div></button>
@@ -279,6 +310,15 @@ function Inicio() {
             <button className="tile" onClick={() => st.setTab('movimentos')}><div className="t">Movimentos</div><div className="d">Quem faz cada movimento</div></button>
             <button className="tile" onClick={() => st.setTab('treinar')}><div className="t">Treinar</div><div className="d">Quiz e flashcards</div></button>
           </div>
+        </Sec>
+        <Sec t="Como usar">
+          <div className="list">
+          <div className="row"><div className="main"><div className="t">Um dedo</div><div className="d">gira o modelo</div></div></div>
+          <div className="row"><div className="main"><div className="t">Dois dedos</div><div className="d">aproximam (pinça) e movem</div></div></div>
+          <div className="row"><div className="main"><div className="t">Toque</div><div className="d">seleciona e abre a ficha · toque duplo aproxima</div></div></div>
+          <div className="row"><div className="main"><div className="t">Camadas</div><div className="d">no botão à esquerda: ligue nervos, ligamentos, vasos… ou deixe os músculos translúcidos</div></div></div>
+          <div className="row"><div className="main"><div className="t">Ocultar</div><div className="d">esconde a estrutura selecionada para ver o que está por baixo, camada por camada</div></div></div>
+        </div>
         </Sec>
         {favs.length > 0 && <Sec t="Favoritos" ico="coracao"><ChaveTags keys={favs} /></Sec>}
       </div>

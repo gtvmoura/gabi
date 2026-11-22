@@ -14,6 +14,7 @@ import { Movimentos } from './Movimentos';
 import { Clinica } from './Clinica';
 import { Treinar } from './Treinar';
 import { Progresso } from './Progresso';
+import { Confete, LegendaInervacao } from './Extras';
 
 const TABS: { id: Tab; nome: string; ico: string }[] = [
   { id: 'atlas', nome: 'Atlas', ico: 'atlas' },
@@ -80,7 +81,7 @@ export function App() {
       };
       syncEngine();
       off = useStore.subscribe((s, prev) => {
-        if (s.layers !== prev.layers || s.side !== prev.side || s.hidden !== prev.hidden || s.focus !== prev.focus || s.sel !== prev.sel || s.showIns !== prev.showIns || s.boneMap !== prev.boneMap || s.pin !== prev.pin || s.pinLabels !== prev.pinLabels) syncEngine();
+        if (s.layers !== prev.layers || s.side !== prev.side || s.hidden !== prev.hidden || s.focus !== prev.focus || s.sel !== prev.sel || s.showIns !== prev.showIns || s.boneMap !== prev.boneMap || s.pin !== prev.pin || s.pinLabels !== prev.pinLabels || s.colorMode !== prev.colorMode || s.clip !== prev.clip) syncEngine();
       });
       engine.home(true);
       engine.ensureLayers().then(() => { setReady(true); setFirstLoad(1); });
@@ -151,6 +152,7 @@ export function App() {
       {ready && loadVals.length > 0 && (
         <div className="loading glass">Carregando {Object.keys(loading).map((f) => FILE_NOME[f] ?? f).join(', ')}<div className="bar"><i style={{ width: `${Math.round(loadP * 100)}%` }} /></div></div>
       )}
+      {ready && <LegendaInervacao />}
       {quizPick && <div className="hint glass">Toque na estrutura no modelo 3D</div>}
       {toast && <div className="toast glass" key={toast.id}>{toast.msg}</div>}
 
@@ -176,6 +178,7 @@ export function App() {
       )}
       {recado && (
         <div className="modal-bg" onClick={() => useStore.setState({ recado: null })}>
+          <Confete />
           <div className="modal">
             <div style={{ fontSize: 44, marginBottom: 6 }}>💛</div>
             <h1>{recado.titulo}</h1>

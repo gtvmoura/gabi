@@ -1,5 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { rt, useStore, type SrsCard } from '../store';
+import { hoje, rt, useStore, type SrsCard } from '../store';
+import { Casos, QuemSouEu } from './Jogos';
+import { Confete } from './Extras';
+import { CASOS } from '../content/casos';
 import { ART_NOME, MOV_NOME, infoDe, motores, musculos, nomePt, ossos, resolver, roteiros, structsDoMusculo, testes, type Musculo } from '../content';
 import { MACRO, macroDe, type MacroRegiao } from '../lib/regioes';
 import { sample, shuffle } from '../lib/text';
@@ -80,11 +83,11 @@ function gerar(modo: Modo, reg: MacroRegiao | 'todas', n: number): Questao[] {
   return out;
 }
 
-function Quiz({ onExit }: { onExit: () => void }) {
+function Quiz({ onExit, auto }: { onExit: () => void; auto?: number }) {
   const m = rt.m!;
   const [modo, setModo] = useState<Modo>('misto');
   const [reg, setReg] = useState<MacroRegiao | 'todas'>('todas');
-  const [qs, setQs] = useState<Questao[] | null>(null);
+  const [qs, setQs] = useState<Questao[] | null>(() => (auto ? gerar('misto', 'todas', auto * 2).filter((q) => q.tipo !== 'localizar').slice(0, auto) : null));
   const [i, setI] = useState(0);
   const [resp, setResp] = useState<number | null>(null);   // índice escolhido, ou -1/-2 para localizar (errou/acertou)
   const [certos, setCertos] = useState(0);
@@ -108,7 +111,7 @@ function Quiz({ onExit }: { onExit: () => void }) {
       const e = rt.engine!;
       e.ensureStructs(q.alvos).then(() => { const sp = e.sphereOf(q.alvos!); if (sp) e.frame(sp, { pad: 2.6, view: sp.c.z < -0.02 ? 'posterior' : 'anterior' }); });
     } else if (q.tipo === 'localizar') {
-      useStore.setState({ focus: null, sel: null });
+      useStore.setState({ focus: null, sel: null, clip: null });
       rt.engine?.home();
       useStore.setState({ quizPick: (si) => {
         const info = infoDe(m.structs[si].k, m);
@@ -128,7 +131,7 @@ function Quiz({ onExit }: { onExit: () => void }) {
   };
 
   useEffect(() => {
-    if (fim && qs && !salvo.current) { salvo.current = true; limpar(); st.patchProg((p) => ({ quiz: [...p.quiz, { t: Date.now(), modo, regiao: reg, total: qs.length, certos }].slice(-200) })); }
+    if (fim && qs && !salvo.current) { salvo.current = true; limpar(); st.patchProg((p) => ({ quiz: [...p.quiz, { t: Date.now(), modo, regiao: reg, total: qs.length, certos }].slice(-200), ...(auto ? { desafio: hoje() } : {}) })); }
   }, [fim]);
 
   if (!qs) return (
@@ -146,11 +149,12 @@ function Quiz({ onExit }: { onExit: () => void }) {
     const pct = Math.round((certos / qs.length) * 100);
     return (
       <>
-        <div className="phead"><div className="ttl"><h2>Resultado</h2><div className="sub">{MODOS.find((x) => x.id === modo)?.nome}</div></div></div>
+        {pct >= 90 && <Confete />}
+        <div className="phead"><div className="ttl"><h2>{auto ? 'Desafio do dia' : 'Resultado'}</h2><div className="sub">{MODOS.find((x) => x.id === modo)?.nome}</div></div></div>
         <div className="pbody">
           <div className="stat center"><div className="n">{certos} / {qs.length}</div><div className="l">{pct >= 90 ? 'Perfeito! Você arrasou. 💛' : pct >= 70 ? 'Muito bem! Está quase lá.' : pct >= 50 ? 'Bom começo — revise os erros abaixo.' : 'Faz parte. Revise com calma e tente de novo.'}</div><div className="bar" style={{ marginTop: 10 }}><i style={{ width: pct + '%' }} /></div></div>
           {erradas.length > 0 && <div className="sec"><h3>Para revisar</h3><div className="list">{erradas.map((e, k) => <button key={k} className="row" onClick={() => abrirChave(e.alvo)}><div className="main"><div className="t">{nomePt(e.alvo, m)}</div><div className="d clamp2">{e.prompt} {e.sub ?? ''}</div></div><Icon n="seta" size={16} /></button>)}</div></div>}
-          <button className="btn primary block" onClick={() => setQs(null)}>Nova rodada</button>
+          {!auto && <button className="btn primary block" onClick={() => setQs(null)}>Nova rodada</button>}
           <button className="btn block" onClick={onExit}>Voltar</button>
         </div>
       </>
@@ -160,7 +164,7 @@ function Quiz({ onExit }: { onExit: () => void }) {
   const respondida = resp !== null;
   return (
     <>
-      <div className="phead"><button className="iconbtn" onClick={() => { limpar(); setQs(null); }} aria-label="Sair"><Icon n="fechar" /></button><div className="ttl"><div className="sub">Pergunta {i + 1} de {qs.length} · {certos} certa{certos === 1 ? '' : 's'}</div><div className="bar" style={{ marginTop: 8 }}><i style={{ width: `${(i / qs.length) * 100}%` }} /></div></div></div>
+      <div className="phead"><button className="iconbtn" onClick={() => { limpar(); if (auto) onExit(); else setQs(null); }} aria-label="Sair"><Icon n="fechar" /></button><div className="ttl"><div className="sub">Pergunta {i + 1} de {qs.length} · {certos} certa{certos === 1 ? '' : 's'}</div><div className="bar" style={{ marginTop: 8 }}><i style={{ width: `${(i / qs.length) * 100}%` }} /></div></div></div>
       <div className="pbody">
         <div className="q-prompt">{q.prompt}</div>
         {q.sub && <p className="lead">{q.sub}</p>}
@@ -260,17 +264,24 @@ function Flash({ onExit }: { onExit: () => void }) {
 }
 
 export function Treinar() {
-  const [tela, setTela] = useState<'menu' | 'quiz' | 'flash'>('menu');
+  const [tela, setTela] = useState<'menu' | 'quiz' | 'flash' | 'desafio' | 'quem' | 'casos'>('menu');
+  useEffect(() => { const f = () => setTela('desafio'); window.addEventListener('desafio-do-dia', f); return () => window.removeEventListener('desafio-do-dia', f); }, []);
   const prog = useStore((s) => s.prog);
   const devidos = Object.values(prog.srs).filter((c) => c.due <= Date.now()).length;
   const ult = prog.quiz[prog.quiz.length - 1];
   if (tela === 'quiz') return <Quiz onExit={() => setTela('menu')} />;
   if (tela === 'flash') return <Flash onExit={() => setTela('menu')} />;
+  if (tela === 'desafio') return <Quiz key="desafio" auto={5} onExit={() => setTela('menu')} />;
+  if (tela === 'quem') return <QuemSouEu onExit={() => setTela('menu')} />;
+  if (tela === 'casos') return <Casos onExit={() => setTela('menu')} />;
   return (
     <>
       <div className="phead"><div className="ttl"><h2>Treinar</h2><div className="sub">Teste o que você já sabe</div></div><button className="iconbtn" onClick={() => useStore.getState().setPanel(false)} aria-label="Fechar"><Icon n="fechar" /></button></div>
       <div className="pbody">
         <button className="tile" style={{ width: '100%' }} onClick={() => setTela('quiz')}><div className="t" style={{ fontSize: 17 }}>Quiz</div><div className="d">Identifique estruturas no 3D, encontre músculos no modelo, inervação, origem, inserção e ações.</div>{ult && <div className="d" style={{ marginTop: 6 }}>Última rodada: {ult.certos}/{ult.total}</div>}</button>
+        <button className="tile" style={{ width: '100%' }} onClick={() => setTela('desafio')}><div className="t" style={{ fontSize: 17 }}>Desafio do dia {prog.desafio === hoje() ? '✓' : ''}</div><div className="d">5 perguntas rápidas para manter a sequência.</div></button>
+        <button className="tile" style={{ width: '100%' }} onClick={() => setTela('quem')}><div className="t" style={{ fontSize: 17 }}>Quem sou eu?</div><div className="d">Adivinhe o músculo pelas pistas. Quanto menos pistas, mais pontos.</div></button>
+        <button className="tile" style={{ width: '100%' }} onClick={() => setTela('casos')}><div className="t" style={{ fontSize: 17 }}>Casos clínicos</div><div className="d">{CASOS.length} histórias de paciente para ligar a queixa à anatomia, com o 3D mostrando a resposta.</div><div className="d" style={{ marginTop: 6 }}>{CASOS.filter((c) => prog.estudados['caso:' + c.id]).length} de {CASOS.length} resolvidos</div></button>
         <button className="tile" style={{ width: '100%' }} onClick={() => setTela('flash')}><div className="t" style={{ fontSize: 17 }}>Flashcards</div><div className="d">Cartões de músculos, acidentes ósseos, testes clínicos e perguntas dos roteiros, com repetição espaçada.</div><div className="d" style={{ marginTop: 6, color: devidos ? 'var(--accent)' : undefined }}>{devidos ? `${devidos} cartões para revisar hoje` : 'Nenhuma revisão pendente'}</div></button>
       </div>
     </>

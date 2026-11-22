@@ -29,6 +29,9 @@ const P: Record<string, ReactNode> = {
   cartas: <><rect x="4" y="6" width="13" height="15" rx="2" /><path d="M8 3h10a2 2 0 0 1 2 2v13" /></>,
   fogo: <><path d="M12 3c1 4 5 5.500 5 10a5 5 0 0 1-10 0c0-2 1-3 1.500-4.500C10 9.500 11.500 6 12 3z" /></>,
   info: <><circle cx="12" cy="12" r="9" /><path d="M12 11v6M12 7.500v.5" /></>,
+  som: <><path d="M4 10v4h4l5 4V6L8 10z" /><path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a8 8 0 0 1 0 11" /></>,
+  tesoura: <><path d="M4 12h16" strokeDasharray="3 3" /><path d="M7 5l10 14M17 5L7 19" opacity=".0" /><rect x="6" y="4" width="12" height="16" rx="3" /></>,
+  camera: <><path d="M4 8h3l2-3h6l2 3h3v11H4z" /><circle cx="12" cy="13" r="3.5" /></>,
   painel: <><rect x="3" y="4" width="18" height="16" rx="2" /><path d="M14 4v16" /></>,
 };
 

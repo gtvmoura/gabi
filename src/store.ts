@@ -20,6 +20,8 @@ export interface Progresso {
   bemVinda: boolean;
   marcos: string[];
   erros: Record<string, number>;
+  desafio?: string;                       // data do último desafio do dia concluído
+  prova?: { nome: string; data: string };  // próxima prova
 }
 
 interface State {
@@ -34,6 +36,8 @@ interface State {
   focus: FocusState | null;
   showIns: boolean;
   boneMap: boolean;
+  colorMode: 'normal' | 'inervacao';
+  clip: { axis: 'x' | 'y' | 'z'; t: number } | null;
   loading: Record<string, number>;
   toast: { msg: string; id: number } | null;
   recado: { titulo: string; texto: string } | null;
@@ -68,7 +72,7 @@ export const useStore = create<State>()(
   persist(
     (set, get) => ({
       tab: 'atlas', panelOpen: true, sel: null, pin: null, pinLabels: false,
-      layers: { ...DEFAULT_LAYERS }, side: 'both', hidden: [], focus: null, showIns: false, boneMap: false,
+      layers: { ...DEFAULT_LAYERS }, side: 'both', hidden: [], focus: null, showIns: false, boneMap: false, colorMode: 'normal', clip: null,
       loading: {}, toast: null, recado: null, quizPick: null, prog: progInicial,
 
       setTab: (tab) => set({ tab, panelOpen: true }),
@@ -76,6 +80,7 @@ export const useStore = create<State>()(
       select: (sel, opts) => {
         const st = get();
         const patch: Partial<State> = { sel, pin: null, showIns: false, boneMap: false };
+        if (sel) patch.clip = null;   // o corte poderia esconder justamente o que foi selecionado
         if (sel) {
           patch.panelOpen = true;
           if (!opts?.keepTab) patch.tab = 'atlas';
@@ -101,9 +106,9 @@ export const useStore = create<State>()(
       setSide: (side) => set({ side }),
       hide: (si) => set((s) => ({ hidden: [...s.hidden.filter((h) => h !== si), si], sel: s.sel?.si === si ? null : s.sel })),
       undoHide: () => set((s) => ({ hidden: s.hidden.slice(0, -1) })),
-      resetView: () => { set({ hidden: [], focus: null, sel: null, pin: null, showIns: false, boneMap: false, side: 'both', layers: { ...DEFAULT_LAYERS } }); rt.engine?.home(); },
+      resetView: () => { set({ hidden: [], focus: null, sel: null, pin: null, showIns: false, boneMap: false, side: 'both', colorMode: 'normal', clip: null, layers: { ...DEFAULT_LAYERS } }); rt.engine?.home(); },
       setFocus: (focus, fly = true) => {
-        set({ focus, sel: null, pin: null, showIns: false, boneMap: false });
+        set({ focus, sel: null, pin: null, showIns: false, boneMap: false, ...(focus ? { clip: null } : {}) });
         const e = rt.engine;
         if (focus && e && fly) e.ensureStructs(focus.ids.map(([si]) => si)).then(() => { const sp = e.sphereOf(focus.ids.map(([si]) => si)); if (sp) e.frame(sp, { pad: 1.25 }); });
       },

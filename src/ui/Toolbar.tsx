@@ -3,6 +3,8 @@ import { rt, useStore } from '../store';
 import { LAYERS, type LayerState } from '../engine/palette';
 import type { ViewName } from '../engine/Engine';
 import { Icon } from './icons';
+import { salvarImagem } from './Extras';
+import { nomePt } from '../content';
 
 const VIEWS: [ViewName, string][] = [['anterior', 'Anterior'], ['posterior', 'Posterior'], ['superior', 'Superior'], ['direita', 'Lateral D'], ['esquerda', 'Lateral E'], ['inferior', 'Inferior']];
 
@@ -12,6 +14,8 @@ export function Toolbar() {
   const side = useStore((s) => s.side);
   const hidden = useStore((s) => s.hidden);
   const pinLabels = useStore((s) => s.pinLabels);
+  const colorMode = useStore((s) => s.colorMode);
+  const clip = useStore((s) => s.clip);
   const st = useStore.getState();
   const toggle = (p: 'camadas' | 'vistas') => setOpen(open === p ? null : p);
   useEffect(() => {
@@ -55,6 +59,7 @@ export function Toolbar() {
             </div>
           ))}
           <p className="small muted" style={{ margin: '6px 4px 10px' }}>Oculto · translúcido · visível. No modo translúcido o toque atravessa a camada.</p>
+          <button className={'btn block' + (colorMode === 'inervacao' ? ' on' : '')} style={{ marginBottom: 12 }} onClick={() => { useStore.setState({ colorMode: colorMode === 'inervacao' ? 'normal' : 'inervacao' }); if (colorMode !== 'inervacao') { setOpen(null); st.say('Cada cor é um nervo. Toque na legenda para isolar.'); } }}>Colorir músculos por inervação</button>
           <h4>Lado do corpo</h4>
           <div className="seg wide">
             {([['r', 'Direito'], ['both', 'Ambos'], ['l', 'Esquerdo']] as const).map(([v, n]) => <button key={v} className={side === v ? 'on' : ''} onClick={() => st.setSide(v)}>{n}</button>)}
@@ -67,6 +72,15 @@ export function Toolbar() {
         <div className="pop glass">
           <h4>Vistas</h4>
           <div className="views">{VIEWS.map(([v, n]) => <button key={v} onClick={() => rt.engine?.view(v)}>{n}</button>)}</div>
+          <div style={{ height: 12 }} />
+          <h4>Plano de corte</h4>
+          <div className="seg wide">
+            {([[null, 'Sem corte'], ['x', 'Sagital'], ['z', 'Frontal'], ['y', 'Transversal']] as const).map(([a, n]) => <button key={n} className={(clip?.axis ?? null) === a ? 'on' : ''} onClick={() => { useStore.setState({ clip: a ? { axis: a, t: a === 'x' ? 0.5 : a === 'y' ? 0.7 : 0.45 } : null }); if (a) rt.engine?.view(a === 'x' ? 'esquerda' : a === 'y' ? 'superior' : 'anterior'); }}>{n}</button>)}
+          </div>
+          {clip && <input type="range" min={0} max={1} step={0.005} value={clip.t} onChange={(e) => useStore.setState({ clip: { axis: clip.axis, t: +e.target.value } })} aria-label="Posição do corte" />}
+          <div style={{ height: 12 }} />
+          <h4>Imagem</h4>
+          <button className="btn block" onClick={() => { const s = useStore.getState(); void salvarImagem(s.sel ? nomePt(rt.m!.structs[s.sel.si].k, rt.m!) : s.focus?.label ?? 'Anatomia'); setOpen(null); }}><Icon n="camera" size={17} />Salvar imagem desta vista</button>
           <div style={{ height: 12 }} />
           <h4>Acidentes ósseos</h4>
           <button className={'btn block' + (pinLabels ? ' on' : '')} onClick={() => useStore.setState({ pinLabels: !pinLabels })}><Icon n="pino" size={17} />{pinLabels ? 'Ocultar nomes dos pontos' : 'Mostrar nomes de todos os pontos'}</button>
