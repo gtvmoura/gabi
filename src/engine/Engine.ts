@@ -425,8 +425,8 @@ export class Engine {
       const mesh = new Mesh(geo, hitMat);
       mesh.position.set(def.p[0], def.p[1], def.p[2]);
       mesh.userData.pin = def.id;
-      const dot = new Mesh(geo, this.pinMat(false)); dot.scale.setScalar(1 / 2.4); dot.renderOrder = 4;
-      const ring = new Mesh(geo, ringMat); ring.scale.setScalar(1.4 / 2.4); ring.renderOrder = 3;
+      const dot = new Mesh(geo, this.pinMat(false)); dot.scale.setScalar(1 / 3.2); dot.renderOrder = 4;
+      const ring = new Mesh(geo, ringMat); ring.scale.setScalar(1.35 / 3.2); ring.renderOrder = 3;
       mesh.add(ring, dot);
       this.pinRoot.add(mesh);
       const el = document.createElement('div');
@@ -651,8 +651,8 @@ export class Engine {
     for (const p of ordem) {
       const active = p.def.id === this.activePin;
       const d = cam.distanceTo(p.mesh.position);
-      const px = active ? 9 : 6.5;                         // raio do ponto em pixels na tela
-      p.mesh.scale.setScalar(Math.max(0.0008, (px / h) * 2 * tanV * d) * 2.4);
+      const px = active ? 6 : 4.2;                         // raio do ponto em pixels na tela
+      p.mesh.scale.setScalar(Math.max(0.0006, (px / h) * 2 * tanV * d) * 3.2);
       p.dot.material = this.pinMat(active);
       // escondido atrás do próprio osso?
       // a checagem é cara (raio contra a malha do osso): só roda com a câmera parada
@@ -677,7 +677,7 @@ export class Engine {
       p.el.classList.toggle('active', active);
       // evita nomes sobrepostos (o ativo sempre aparece)
       const lw = p.el.offsetWidth || 80, lh = p.el.offsetHeight || 22;
-      const r: [number, number, number, number] = [x + 10, y - 30, x + 10 + lw, y - 30 + lh];
+      const r: [number, number, number, number] = [x + 8, y - 24, x + 8 + lw, y - 24 + lh];
       if (!active && ocupados.some((o) => r[0] < o[2] && r[2] > o[0] && r[1] < o[3] && r[3] > o[1])) { p.el.style.display = 'none'; continue; }
       ocupados.push(r);
       p.el.style.transform = `translate(${x}px, ${y}px)`;
