@@ -1,12 +1,14 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Indexed, Side } from './data/manifest';
-import type { Engine, Focus } from './engine/Engine';
+import type { Engine, Focus, ViewName } from './engine/Engine';
 import { CAT_LAYER, DEFAULT_LAYERS, type LayerId, type LayerState } from './engine/palette';
 
 export type Tab = 'atlas' | 'explorar' | 'roteiros' | 'movimentos' | 'clinica' | 'treinar' | 'progresso';
 export interface Sel { si: number; side: Side | 'both' }
 export interface FocusState { ids: [number, string | null][]; others: Focus['others']; label: string; respectLayers?: boolean }
+/** Peça fixa no centro da tela. umLado: a peça trocou o lado visível do corpo, e ele volta a 'ambos' ao soltar. */
+export interface Fixo { label: string; sis: number[]; lado?: Side | 'both'; umLado?: boolean }
 export interface SrsCard { due: number; ivl: number; ease: number; reps: number; lapses: number }
 export interface QuizResult { t: number; modo: string; regiao: string; total: number; certos: number }
 
@@ -40,6 +42,7 @@ interface State {
   ocultarGrupo: boolean;
   focus: FocusState | null;
   showIns: boolean;
+  fixo: Fixo | null;
   boneMap: boolean;
   colorMode: 'normal' | 'inervacao';
   clip: { axis: 'x' | 'y' | 'z'; t: number } | null;
@@ -62,6 +65,7 @@ interface State {
   resetView(): void;
   setFocus(f: FocusState | null, fly?: boolean): void;
   toggleIns(v?: boolean): void;
+  fixar(f: Fixo | null, view?: ViewName): void;
   toggleBoneMap(v?: boolean): void;
   say(msg: string): void;
   patchProg(fn: (p: Progresso) => Partial<Progresso>): void;
@@ -79,10 +83,14 @@ export const useStore = create<State>()(
   persist(
     (set, get) => ({
       tab: 'atlas', panelOpen: true, sel: null, pin: null, pinLabels: false, pinMudo: false,
-      layers: { ...DEFAULT_LAYERS }, side: 'both', hidden: [], lotes: [], modoOcultar: false, ocultarGrupo: false, focus: null, showIns: false, boneMap: false, colorMode: 'normal', clip: null,
+      layers: { ...DEFAULT_LAYERS }, side: 'both', hidden: [], lotes: [], modoOcultar: false, ocultarGrupo: false, focus: null, fixo: null, showIns: false, boneMap: false, colorMode: 'normal', clip: null,
       loading: {}, toast: null, recado: null, quizPick: null, prog: progInicial,
 
-      setTab: (tab) => set({ tab, panelOpen: true }),
+      setTab: (tab) => {
+        // abas que controlam a câmera (movimentos, jogos, roteiros, clínica) soltam a peça fixa
+        if (get().fixo && !['atlas', 'explorar', 'progresso'].includes(tab)) get().fixar(null);
+        set({ tab, panelOpen: true });
+      },
       setPanel: (panelOpen) => set({ panelOpen }),
       select: (sel, opts) => {
         const st = get();
@@ -103,7 +111,9 @@ export const useStore = create<State>()(
           if (layers !== st.layers) patch.layers = layers;
         }
         set(patch);
-        if (sel && opts?.fly !== false) {
+        // com uma peça fixa: se a estrutura faz parte dela, a câmera fica onde está; senão, solta a peça e vai até ela
+        if (sel && opts?.fly !== false && st.fixo && !st.fixo.sis.includes(sel.si)) { get().fixar(null); if (st.focus && st.focus.label === st.fixo.label) set({ focus: null }); }
+        if (sel && opts?.fly !== false && !get().fixo) {
           const e = rt.engine;
           if (e) e.ensureStructs([sel.si]).then(() => { const sp = e.sphereOf([sel.si], sel.side); if (sp) e.frame(sp, { pad: 1.9 }); });
         }
@@ -122,11 +132,24 @@ export const useStore = create<State>()(
         return { hidden: s.hidden.slice(0, Math.max(0, s.hidden.length - n)), lotes: s.lotes.slice(0, -1) };
       }),
       showAll: () => set({ hidden: [], lotes: [] }),
-      resetView: () => { set({ hidden: [], lotes: [], modoOcultar: false, focus: null, sel: null, pin: null, showIns: false, boneMap: false, side: 'both', colorMode: 'normal', clip: null, layers: { ...DEFAULT_LAYERS } }); rt.engine?.home(); },
+      resetView: () => { rt.engine?.fixar(null); set({ fixo: null, hidden: [], lotes: [], modoOcultar: false, focus: null, sel: null, pin: null, showIns: false, boneMap: false, side: 'both', colorMode: 'normal', clip: null, layers: { ...DEFAULT_LAYERS } }); rt.engine?.home(); },
       setFocus: (focus, fly = true) => {
+        if (focus && fly && get().fixo) get().fixar(null);   // outro destaque com câmera própria: solta a peça
         set({ focus, sel: null, pin: null, showIns: false, boneMap: false, ...(focus ? { clip: null } : {}) });
         const e = rt.engine;
-        if (focus && e && fly) e.ensureStructs(focus.ids.map(([si]) => si)).then(() => { const sp = e.sphereOf(focus.ids.map(([si]) => si)); if (sp) e.frame(sp, { pad: 1.25 }); });
+        if (focus && e && fly && !get().fixo) e.ensureStructs(focus.ids.map(([si]) => si)).then(() => { const sp = e.sphereOf(focus.ids.map(([si]) => si)); if (sp) e.frame(sp, { pad: 1.25 }); });
+      },
+      fixar: (f, view) => {
+        const antes = get().fixo;
+        set({ fixo: f, ...(antes?.umLado && !f?.umLado ? { side: 'both' as const } : {}) });
+        const e = rt.engine; if (!e) return;
+        if (!f) { e.fixar(null); return; }
+        e.ensureStructs(f.sis).then(() => {
+          if (get().fixo !== f) return;
+          const sp = e.sphereOf(f.sis, f.lado ?? 'both');
+          if (sp) e.fixar(sp, view);
+          else { set({ fixo: null }); get().say('Não há modelo 3D para centralizar aqui.'); }
+        });
       },
       toggleIns: (v) => set((s) => ({ showIns: v ?? !s.showIns })),
       toggleBoneMap: (v) => set((s) => ({ boneMap: v ?? !s.boneMap })),

@@ -39,6 +39,7 @@ export function Animacao({ art, mov, onExit }: { art: string; mov: string; onExi
 
   useEffect(() => {
     const e = rt.engine!;
+    useStore.getState().fixar(null);
     useStore.setState({ focus: null, sel: null, pin: null, clip: null, colorMode: 'normal', showIns: false, boneMap: false });
     const specs: BandaSpec[] = [];
     const ag = motores(art, mov).slice(0, 9);

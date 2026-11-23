@@ -7,6 +7,8 @@ Funciona no navegador (iPad, Android, computador), pode ser instalado na tela de
 ## O que tem
 
 - **Atlas 3D do corpo inteiro** — 1.814 estruturas: ossos, músculos, ligamentos, cápsulas, nervos, artérias, veias, órgãos, encéfalo, linfonodos e pele. Gire, aproxime, toque para selecionar, oculte camada por camada.
+- **Sistemas do corpo** — esquelético, articular, muscular, nervoso, cardiovascular, linfático, respiratório, digestório, urinário, genital (só masculino no modelo de base), endócrino e tegumentar: cada um isolado, centralizado e combinável com outros, com funções, relevância para a fisioterapia e lista navegável das partes.
+- **Peças no centro da tela** — coração, encéfalo, pulmões, fígado, rins, olho, laringe, medula, crânio, coluna, tórax, pelve, ombro, cotovelo, mão, quadril, joelho, pé e ATM ficam sozinhos e fixos no centro; a rotação gira em volta deles. Qualquer estrutura selecionada também pode ser centralizada (botão de alvo ou “Isolar no centro”).
 - **Ficha de cada músculo** (188 fichas): origem, inserção, inervação com raízes, vascularização, ações, função, palpação, prova de função, alongamento, clínica e macetes.
 - **Origem e inserção no osso** — as áreas aparecem pintadas (vermelho/azul) direto no esqueleto; e o "mapa de inserções" de cada osso mostra todos os músculos que se fixam nele.
 - **Ossos com acidentes ósseos** — mais de 550 acidentes marcados com pontos no 3D, com nome e para que servem.

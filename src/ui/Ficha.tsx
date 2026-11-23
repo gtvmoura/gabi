@@ -190,6 +190,7 @@ function Generico({ info, k }: { info: Info; k: string }) {
 export function Ficha() {
   const m = rt.m!;
   const sel = useStore((s) => s.sel);
+  const tab = useStore((s) => s.tab);
   const showIns = useStore((s) => s.showIns);
   const boneMap = useStore((s) => s.boneMap);
   const prog = useStore((s) => s.prog);
@@ -217,6 +218,7 @@ export function Ficha() {
   return (
     <>
       <div className="phead">
+        {tab !== 'atlas' && <button className="iconbtn" onClick={() => useStore.setState({ sel: null, pin: null, showIns: false, boneMap: false })} aria-label="Voltar"><Icon n="voltar" /></button>}
         <div className="ttl">
           <h2>{titulo}</h2>
           <div className="sub">{info?.tipo === 'musculo' && titulo !== nome ? <>{nome} · </> : null}{catNome(s.c)}{latim ? <> · <span className="lat">{latim}</span></> : null}</div>
@@ -230,8 +232,8 @@ export function Ficha() {
         <div className="actions">
           {temIns && <button className={'btn' + (showIns ? ' on' : '')} onClick={() => st.toggleIns()}><Icon n="alvo" size={16} />Origem e inserção</button>}
           {temMapa && <button className={'btn' + (boneMap ? ' on' : '')} onClick={() => st.toggleBoneMap()}><Icon n="alvo" size={16} />Mapa de inserções</button>}
-          <button className="btn" onClick={() => { const sp = rt.engine?.sphereOf([sel.si], sel.side); if (sp) rt.engine!.frame(sp, { pad: 1.5 }); }}><Icon n="busca" size={16} />Focar</button>
-          <button className="btn" onClick={() => { const ids = info?.tipo === 'musculo' ? structsDoMusculo(info.d, m) : [sel.si]; st.setFocus({ ids: (ids.length ? ids : [sel.si]).map((x) => [x, null]), others: 'hide', label: titulo }, false); useStore.setState({ sel }); }}><Icon n="isolar" size={16} />Isolar</button>
+          <button className="btn" onClick={() => { if (useStore.getState().fixo) st.fixar(null); const sp = rt.engine?.sphereOf([sel.si], sel.side); if (sp) rt.engine!.frame(sp, { pad: 1.5 }); }}><Icon n="busca" size={16} />Focar</button>
+          <button className="btn" onClick={() => { const ids = info?.tipo === 'musculo' ? structsDoMusculo(info.d, m) : [sel.si]; const lista = ids.length ? ids : [sel.si]; const lado = sel.side === 'both' && s.m.l && s.m.r ? 'l' : sel.side; st.setFocus({ ids: lista.map((x) => [x, null]), others: 'hide', label: titulo }, false); st.fixar({ label: titulo, sis: lista, lado }); useStore.setState({ sel: { si: sel.si, side: lado } }); }}><Icon n="isolar" size={16} />Isolar no centro</button>
           <button className="btn" onClick={() => { st.hide(sel.si); st.say('Oculto. Use ↶ para desfazer.'); }}><Icon n="olhoOff" size={16} />Ocultar</button>
           {s.g && (m.structsOf.get(s.g)?.length ?? 0) > 1 && <button className="btn" onClick={() => { const g = s.g!; const ir = (m.structsOf.get(g) ?? []).filter((x) => m.structs[x].s === s.s); st.hideMany(ir); st.say(`Oculto: ${nomePt(g, m)} (${ir.length})`); }}><Icon n="olhoOff" size={16} />Ocultar grupo</button>}
           <Ouvir texto={falar(titulo, info)} />

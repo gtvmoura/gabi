@@ -15,7 +15,8 @@ import { CAT_LAYER, layerOf, CAT_OPACITY, CAT_ROUGHNESS, COLORS, DEFAULT_LAYERS,
 
 export type ViewName = 'anterior' | 'posterior' | 'direita' | 'esquerda' | 'superior' | 'inferior';
 export interface Pick { si: number; side: Side; meshId: string; point: Vector3; ins?: string; pin?: string }
-export interface Focus { set: Map<number, string | null>; others: 'ghost' | 'hide' | 'keep'; respectLayers?: boolean }
+/** others: o que acontece com o resto do corpo — fantasma, oculto, normal, ou só o esqueleto em fantasma. */
+export interface Focus { set: Map<number, string | null>; others: 'ghost' | 'hide' | 'keep' | 'ossos'; respectLayers?: boolean }
 export interface PinDef { id: string; p: [number, number, number]; label: string }
 export interface Sphere { c: Vector3; r: number }
 
@@ -73,6 +74,8 @@ export class Engine {
   muteLabels = false;
 
   onPick: (p: Pick | null, kind: 'tap' | 'double') => void = () => {};
+  /** A peça fixa foi solta pelo próprio motor (outro enquadramento). */
+  onSoltar: () => void = () => {};
   onFile: (file: string, state: 'loading' | 'ready' | 'error', progress: number) => void = () => {};
 
   constructor(private host: HTMLElement, readonly m: Indexed) {
@@ -360,7 +363,7 @@ export class Engine {
         else if (this.faded.has(it.si)) { mat = fade; pickable = false; }
         else if (this.revealBones && soft) { mat = ghost; pickable = false; }
         else if (this.focus && !(this.focus.set.has(it.si)) && this.focus.others !== 'keep') {
-          if (this.focus.others === 'hide') visible = false; else { mat = ghost; pickable = false; }
+          if (this.focus.others === 'hide' || (this.focus.others === 'ossos' && it.cat !== 'bone' && it.cat !== 'cartilage' && it.cat !== 'tooth')) visible = false; else { mat = ghost; pickable = false; }
         } else if (this.faded.has(it.si)) { mat = fade; pickable = false; }
         else if (inFocus && this.focus!.set.get(it.si)) mat = this.tintMat(this.focus!.set.get(it.si)!);
         else if (layer === 2 && !inFocus) { mat = ghost; pickable = false; }
@@ -483,6 +486,7 @@ export class Engine {
 
   /** Enquadra uma esfera. Mantém a direção atual, a menos que `view` seja dado. */
   frame(s: Sphere, opts: { view?: ViewName; dir?: Vector3; pad?: number; instant?: boolean } = {}) {
+    if (this.fixo && s.c.distanceTo(this.fixo.c) > 1e-4) { this.fixar(null); this.onSoltar(); }
     const dir = opts.dir ? opts.dir.clone().normalize()
       : opts.view ? new Vector3(...VIEW_DIR[opts.view]).normalize()
       : this.camera.position.clone().sub(this.controls.target).normalize();
@@ -509,6 +513,7 @@ export class Engine {
   }
 
   home(instant = false) {
+    if (this.fixo) { this.frame(this.fixo, { pad: 1.15, instant }); return; }
     const all = this.side === 'both' ? { c: new Vector3(0, 0.89, 0), r: 0.95 } : { c: new Vector3(this.side === 'l' ? 0.12 : -0.12, 0.89, 0), r: 0.95 };
     this.frame(all, { view: 'anterior', instant, pad: 1.02 });
   }
@@ -592,6 +597,7 @@ export class Engine {
 
   /** Aproxima a câmera de um ponto (duplo toque). */
   focusPoint(p: Vector3) {
+    if (this.fixo) { this.zoomBy(0.65); return; }   // fixo: aproxima sem tirar a peça do centro
     const off = this.camera.position.clone().sub(this.controls.target);
     const d = Math.max(off.length() * 0.55, 0.12);
     this.anim = { t0: performance.now(), dur: 420, p0: this.camera.position.clone(), p1: p.clone().add(off.normalize().multiplyScalar(d)), q0: this.controls.target.clone(), q1: p.clone() };
@@ -609,6 +615,7 @@ export class Engine {
       if (t >= 1) this.anim = null;
       this.dirty = true;
     }
+    if (this.fixo && !this.anim && !this.controls.target.equals(this.fixo.c)) { this.controls.target.copy(this.fixo.c); this.dirty = true; }
     this.controls.update();
     if (this.mov && this.mov.step()) this.dirty = true;
     if (!this.dirty) return;
@@ -639,6 +646,19 @@ export class Engine {
   }
 
   requestRender() { this.dirty = true; }
+
+  // ------------------------------------------------------------------ peça fixa no centro
+  private fixo: Sphere | null = null;
+  /** Fixa a câmera numa peça: ela fica no centro, a rotação gira em volta dela e o arrasto lateral é desligado. */
+  fixar(s: Sphere | null, view?: ViewName) {
+    this.fixo = s;
+    this.controls.enablePan = !s;
+    this.controls.zoomToCursor = !s;
+    this.controls.maxDistance = s ? Math.max(0.6, s.r * 9) : 8;
+    if (s) this.frame(s, { pad: 1.15, view });
+    this.dirty = true;
+  }
+  get estaFixo() { return !!this.fixo; }
 
   /** Posição na tela (px) de um ponto 3D, ou null se estiver atrás da câmera. */
   projetar(p: Vector3): [number, number] | null {

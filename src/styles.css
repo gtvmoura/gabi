@@ -228,7 +228,7 @@ table.t td:first-child { font-weight: 700; white-space: nowrap; }
   .searchbox { width: min(300px, 100%); flex: 1; }
   .tools { left: calc(10px + var(--safe-l)); bottom: auto; top: calc(70px + var(--safe-t)); }
   .pop { left: calc(64px + var(--safe-l)); bottom: auto; top: calc(70px + var(--safe-t)); max-height: 60vh; }
-  .panel { top: auto; left: 0; right: 0; bottom: calc(62px + var(--safe-b)); width: auto; height: 52vh; border-radius: 22px 22px 0 0; border-bottom: 0; }
+  .panel { top: auto; left: 0; right: 0; bottom: calc(62px + var(--safe-b)); width: auto; height: 46vh; border-radius: 22px 22px 0 0; border-bottom: 0; }
   .panel.closed { transform: translateY(calc(100% + 80px)); }
   .hint, .toast { bottom: calc(76px + var(--safe-b)); }
 }
@@ -271,3 +271,17 @@ input.field { width: 100%; height: 42px; border-radius: 12px; border: 1px solid 
 .barra-ocultar .seg button { height: 30px; font-size: 12.5px; }
 .tbtn.modo { color: #fff; background: linear-gradient(140deg, #ff8fb5, #ff5d8f); }
 @media (max-aspect-ratio: 1/1), (max-width: 760px) { .barra-ocultar { left: 10px; right: 10px; bottom: calc(72px + var(--safe-b)); } }
+
+/* painel: aba mantida montada atrás da ficha */
+.pane { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+.pane[hidden] { display: none !important; }
+/* sistemas e peças */
+.dot.big { width: 12px; height: 12px; display: inline-block; margin-right: 8px; vertical-align: 2px; }
+.tile.sistema { border-left: 3px solid var(--cor); }
+.tile.sistema .t { display: flex; align-items: center; gap: 8px; }
+.tile.on { border-color: rgba(57, 194, 240, 0.6); background: rgba(57, 194, 240, 0.1); }
+ul.lista { margin: 0; padding-left: 18px; color: #d9dce6; }
+ul.lista li + li { margin-top: 4px; }
+.peca-ativa { position: sticky; top: -14px; z-index: 2; margin: -14px -18px 0; padding: 12px 18px; display: grid; gap: 10px; background: var(--panel-solid); border-bottom: 1px solid var(--line); }
+.chip.fixo { border-color: rgba(57, 194, 240, 0.55); color: #c8efff; max-width: 46vw; }
+.chip.fixo span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

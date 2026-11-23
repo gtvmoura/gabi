@@ -50,6 +50,7 @@ export function App() {
   const recado = useStore((s) => s.recado);
   const bemVinda = useStore((s) => s.prog.bemVinda);
   const focus = useStore((s) => s.focus);
+  const fixo = useStore((s) => s.fixo);
   const quizPick = useStore((s) => s.quizPick);
   const sel = useStore((s) => s.sel);
   const portrait = usePortrait();
@@ -67,6 +68,7 @@ export function App() {
         useStore.setState((s) => { const l = { ...s.loading }; if (state === 'loading') l[file] = p; else delete l[file]; return { loading: l }; });
         if (state === 'error') useStore.getState().say(`Não consegui carregar ${FILE_NOME[file] ?? file}. Confira a internet.`);
       };
+      engine.onSoltar = () => { const st = useStore.getState(); if (st.fixo) st.fixar(null); };
       engine.onPick = (p, kind) => {
         const st = useStore.getState();
         if (st.quizPick) { if (p && p.si >= 0 && !p.pin) st.quizPick(p.si); return; }
@@ -105,7 +107,7 @@ export function App() {
   useEffect(() => {
     const e = rt.engine; if (!e) return;
     const w = window.innerWidth, h = window.innerHeight;
-    if (portrait) e.setInsets({ left: 0, right: 0, top: 150, bottom: panelOpen ? h * 0.52 + 62 : 62 });
+    if (portrait) e.setInsets({ left: 0, right: 0, top: 150, bottom: panelOpen ? h * 0.46 + 62 : 62 });
     else e.setInsets({ left: 76, right: panelOpen ? Math.min(420, w * 0.42) + 12 : 0, top: 112, bottom: 0 });
   }, [panelOpen, portrait, ready]);
 
@@ -147,7 +149,12 @@ export function App() {
 
       <div className="top">
         <Search />
-        {focus && (
+        {fixo && (
+          <button className="chip glass fixo" onClick={() => { const st = useStore.getState(); st.fixar(null); if (st.focus?.label === fixo.label) { st.setFocus(null, false); useStore.setState({ side: 'both' }); } setTimeout(() => rt.engine?.home(), 0); }} aria-label="Soltar">
+            <Icon n="alvo" size={16} /><span>No centro: {fixo.label}</span><Icon n="fechar" size={15} />
+          </button>
+        )}
+        {focus && focus.label !== fixo?.label && (
           <button className="chip glass focus" onClick={() => useStore.getState().setFocus(null, false)}>
             <Icon n="isolar" size={16} /><span>{focus.label}</span><Icon n="fechar" size={15} />
           </button>
@@ -160,7 +167,9 @@ export function App() {
 
       {!panelOpen && <button className="panel-toggle glass" onClick={() => useStore.getState().setPanel(true)} aria-label="Abrir painel"><Icon n="painel" /></button>}
       <aside className={'panel glass' + (panelOpen ? '' : ' closed')}>
-        {ready && (showFicha ? <Ficha /> : tab === 'explorar' ? <Explorar /> : tab === 'roteiros' ? <Roteiros /> : tab === 'movimentos' ? <Movimentos /> : tab === 'clinica' ? <Clinica /> : tab === 'treinar' ? <Treinar /> : <Progresso />)}
+        {ready && showFicha && <Ficha />}
+        {/* a aba continua montada por trás da ficha: ao fechar a ficha, ela volta exatamente onde estava */}
+        {ready && tab !== 'atlas' && !(showFicha && tab === 'movimentos') && <div className="pane" hidden={showFicha}>{tab === 'explorar' ? <Explorar /> : tab === 'roteiros' ? <Roteiros /> : tab === 'movimentos' ? <Movimentos /> : tab === 'clinica' ? <Clinica /> : tab === 'treinar' ? <Treinar /> : <Progresso />}</div>}
       </aside>
 
       {ready && loadVals.length > 0 && (

@@ -4,7 +4,7 @@ import { LAYERS, type LayerState } from '../engine/palette';
 import type { ViewName } from '../engine/Engine';
 import { Icon } from './icons';
 import { salvarImagem } from './Extras';
-import { nomePt } from '../content';
+import { infoDe, nomePt, structsDoMusculo } from '../content';
 
 const VIEWS: [ViewName, string][] = [['anterior', 'Anterior'], ['posterior', 'Posterior'], ['superior', 'Superior'], ['direita', 'Lateral D'], ['esquerda', 'Lateral E'], ['inferior', 'Inferior']];
 
@@ -14,6 +14,7 @@ export function Toolbar() {
   const side = useStore((s) => s.side);
   const hidden = useStore((s) => s.hidden);
   const modo = useStore((s) => s.modoOcultar);
+  const fixo = useStore((s) => s.fixo);
   const pinLabels = useStore((s) => s.pinLabels);
   const colorMode = useStore((s) => s.colorMode);
   const clip = useStore((s) => s.clip);
@@ -37,6 +38,21 @@ export function Toolbar() {
           <button className="tbtn" onClick={() => rt.engine?.zoomBy(0.7)} aria-label="Aproximar"><Icon n="mais" /></button>
           <button className="tbtn" onClick={() => rt.engine?.zoomBy(1.4)} aria-label="Afastar"><Icon n="menos" /></button>
           <button className="tbtn" onClick={() => rt.engine?.home()} aria-label="Corpo inteiro"><Icon n="casa" /></button>
+          <button className={'tbtn' + (fixo ? ' on' : '')} aria-label="Centralizar" onClick={() => {
+            const s = useStore.getState(); const m = rt.m!;
+            if (s.fixo) { s.fixar(null); s.say('A câmera voltou a ficar livre'); return; }
+            if (s.sel) {
+              const st = m.structs[s.sel.si];
+              // estrutura dos dois lados: centraliza num lado só (o esquerdo), senão o centro cai no meio do corpo
+              const lado = s.sel.side === 'both' && st.m.l && st.m.r ? 'l' : s.sel.side;
+              if (lado !== s.sel.side) useStore.setState({ sel: { si: s.sel.si, side: lado } });
+              const info = infoDe(st.k, m); const sis = info?.tipo === 'musculo' ? structsDoMusculo(info.d, m) : [s.sel.si];
+              s.fixar({ label: info?.tipo === 'musculo' ? info.d.pt : nomePt(st.k, m), sis: sis.length ? sis : [s.sel.si], lado });
+            }
+            else if (s.focus) s.fixar({ label: s.focus.label, sis: s.focus.ids.filter(([, c]) => c !== null || !s.focus!.ids.some(([, x]) => x !== null)).map(([si]) => si) });
+            else { s.say('Escolha uma estrutura, um sistema ou uma peça para centralizar'); return; }
+            s.say('Centralizado: a rotação gira em volta dele');
+          }}><Icon n="alvo" /></button>
         </div>
         <div className="grp glass">
           <button className={'tbtn' + (modo ? ' modo' : '')} onClick={() => { const v = !modo; useStore.setState({ modoOcultar: v, sel: v ? null : useStore.getState().sel }); st.say(v ? 'Modo ocultar: toque para esconder · toque duplo esconde o grupo' : 'Modo ocultar desligado'); }} aria-label="Modo ocultar"><Icon n="borracha" /></button>
