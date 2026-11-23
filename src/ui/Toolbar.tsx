@@ -101,7 +101,7 @@ export function Toolbar() {
           <div style={{ height: 12 }} />
           <h4>Acidentes ósseos</h4>
           <button className={'btn block' + (pinLabels ? ' on' : '')} onClick={() => useStore.setState({ pinLabels: !pinLabels })}><Icon n="pino" size={17} />{pinLabels ? 'Ocultar nomes dos pontos' : 'Mostrar nomes de todos os pontos'}</button>
-          <p className="small muted" style={{ margin: '10px 4px 0' }}>Selecione um osso para ver os acidentes ósseos. Toque no ponto ou no nome para ver a explicação.</p>
+          <p className="small muted" style={{ margin: '10px 4px 0' }}>Selecione um osso para ver os acidentes ósseos. Toque numa bolinha para ver o nome e a explicação.</p>
         </div>
       )}
     </>
