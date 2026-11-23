@@ -1,7 +1,7 @@
 import {
   AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, HemisphereLight, Material, Mesh,
   MeshBasicMaterial, MeshStandardMaterial, Object3D, PerspectiveCamera, Plane, PlaneGeometry, Raycaster, Scene, SphereGeometry, SRGBColorSpace,
-  Vector2, Vector3, WebGLRenderer, DoubleSide, ACESFilmicToneMapping, PMREMGenerator, CanvasTexture,
+  Vector2, Vector3, WebGLRenderer, DoubleSide, BackSide, ACESFilmicToneMapping, PMREMGenerator, CanvasTexture,
 } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
@@ -17,7 +17,7 @@ export type ViewName = 'anterior' | 'posterior' | 'direita' | 'esquerda' | 'supe
 export interface Pick { si: number; side: Side; meshId: string; point: Vector3; ins?: string; pin?: string }
 /** others: o que acontece com o resto do corpo — fantasma, oculto, normal, ou só o esqueleto em fantasma. */
 export interface Focus { set: Map<number, string | null>; others: 'ghost' | 'hide' | 'keep' | 'ossos'; respectLayers?: boolean }
-export interface PinDef { id: string; p: [number, number, number]; label: string }
+export interface PinDef { id: string; p: [number, number, number]; label: string; nota?: string }
 export interface Sphere { c: Vector3; r: number }
 
 export interface Item { mesh: Mesh; si: number; side: Side; id: string; cat: Cat; base: Material }
@@ -48,7 +48,7 @@ export class Engine {
   private pickables: Object3D[] = [];
   private xray: Mesh[] = [];
   private mats = new Map<string, Material>();
-  private pins: { def: PinDef; mesh: Mesh; el: HTMLDivElement }[] = [];
+  private pins: { def: PinDef; mesh: Mesh; el: HTMLDivElement; dot: Mesh; osso: Mesh | null }[] = [];
   private labelLayer: HTMLDivElement;
   private dirty = true;
   private raf = 0;
@@ -76,6 +76,8 @@ export class Engine {
   onPick: (p: Pick | null, kind: 'tap' | 'double') => void = () => {};
   /** A peça fixa foi solta pelo próprio motor (outro enquadramento). */
   onSoltar: () => void = () => {};
+  /** Toque no nome de um acidente ósseo. */
+  onPin: (id: string) => void = () => {};
   onFile: (file: string, state: 'loading' | 'ready' | 'error', progress: number) => void = () => {};
 
   constructor(private host: HTMLElement, readonly m: Indexed) {
@@ -311,8 +313,10 @@ export class Engine {
     return this.mat('fade', () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.6, transparent: true, opacity: 0.22, depthWrite: false }));
   }
   private selMat(): Material {
-    return this.mat('sel', () => new MeshStandardMaterial({ color: new Color(COLORS.select), roughness: 0.42, emissive: new Color(COLORS.select), emissiveIntensity: 0.22, side: DoubleSide }));
+    // seleção discreta: mantém a cor natural da estrutura e acrescenta um brilho rosado suave
+    return this.mat('sel', () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.45, emissive: new Color('#ff6f9f'), emissiveIntensity: 0.22, side: DoubleSide }));
   }
+
   private tintMat(color: string): Material {
     return this.mat('tint:' + color, () => new MeshStandardMaterial({ color: new Color(color), roughness: 0.5, emissive: new Color(color), emissiveIntensity: 0.12, side: DoubleSide }));
   }
@@ -381,7 +385,7 @@ export class Engine {
     for (const x of this.xray) x.parent?.remove(x);
     this.xray = [];
     if (this.selected) {
-      const xm = this.mat('xray', () => new MeshBasicMaterial({ color: new Color(COLORS.select), transparent: true, opacity: 0.2, depthTest: false, depthWrite: false }));
+      const xm = this.mat('xray', () => new MeshBasicMaterial({ color: new Color('#ff9cc0'), transparent: true, opacity: 0.13, depthTest: false, depthWrite: false }));
       for (const it of this.byStruct.get(this.selected.si) ?? []) {
         if (!it.mesh.visible || it.mesh.material !== sel) continue;
         const x = new Mesh(it.mesh.geometry, xm);
@@ -413,18 +417,26 @@ export class Engine {
 
   setPins(defs: PinDef[]) {
     for (const p of this.pins) { this.pinRoot.remove(p.mesh); p.el.remove(); }
-    const geo = this.pinGeo ?? (this.pinGeo = new SphereGeometry(1, 14, 10));
+    const geo = this.pinGeo ?? (this.pinGeo = new SphereGeometry(1, 16, 12));
+    const hitMat = this.mat('pin:hit', () => new MeshBasicMaterial({ visible: false }));
+    const ringMat = this.mat('pin:ring', () => new MeshBasicMaterial({ color: new Color('#ffffff'), side: BackSide }));
     this.pins = defs.map((def) => {
-      const mesh = new Mesh(geo, this.pinMat(false));
+      // "mesh" é a área de toque (invisível e maior); o ponto e o contorno branco são filhos dela
+      const mesh = new Mesh(geo, hitMat);
       mesh.position.set(def.p[0], def.p[1], def.p[2]);
       mesh.userData.pin = def.id;
-      mesh.renderOrder = 3;
+      const dot = new Mesh(geo, this.pinMat(false)); dot.scale.setScalar(1 / 2.4); dot.renderOrder = 4;
+      const ring = new Mesh(geo, ringMat); ring.scale.setScalar(1.4 / 2.4); ring.renderOrder = 3;
+      mesh.add(ring, dot);
       this.pinRoot.add(mesh);
       const el = document.createElement('div');
       el.className = 'pin-label';
-      el.textContent = def.label;
+      const nome = document.createElement('b'); nome.textContent = def.label; el.appendChild(nome);
+      if (def.nota) { const n = document.createElement('small'); n.textContent = def.nota; el.appendChild(n); }
+      el.addEventListener('pointerdown', (ev) => { ev.stopPropagation(); ev.preventDefault(); this.onPin(def.id); });
       this.labelLayer.appendChild(el);
-      return { def, mesh, el };
+      const osso = this.items.get(def.id.split('|')[0])?.mesh ?? null;
+      return { def, mesh, el, dot, osso };
     });
     this.apply();
   }
@@ -625,23 +637,50 @@ export class Engine {
   }
 
   private v = new Vector3();
-  private updatePins() {
+  private ray = new Raycaster();
+  private pinTimer = 0;
+  private updatePins(completo = false) {
     if (!this.pins.length) return;
+    if (!completo) { clearTimeout(this.pinTimer); this.pinTimer = window.setTimeout(() => this.updatePins(true), 140); }
     const { w, h } = this.size;
     const tanV = Math.tan((this.camera.fov * Math.PI) / 360);
-    for (const p of this.pins) {
+    const cam = this.camera.position;
+    // ordem: o ativo primeiro, depois do mais perto para o mais longe
+    const ordem = [...this.pins].sort((a, b) => (a.def.id === this.activePin ? -1 : b.def.id === this.activePin ? 1 : cam.distanceTo(a.mesh.position) - cam.distanceTo(b.mesh.position)));
+    const ocupados: [number, number, number, number][] = [];
+    for (const p of ordem) {
       const active = p.def.id === this.activePin;
-      const d = this.camera.position.distanceTo(p.mesh.position);
-      const px = active ? 7 : 4.2;                       // raio em pixels na tela
-      p.mesh.scale.setScalar(Math.max(0.0006, (px / h) * 2 * tanV * d));
-      p.mesh.material = this.pinMat(active);
-      const show = !this.muteLabels && (active || this.showPinLabels);
+      const d = cam.distanceTo(p.mesh.position);
+      const px = active ? 9 : 6.5;                         // raio do ponto em pixels na tela
+      p.mesh.scale.setScalar(Math.max(0.0008, (px / h) * 2 * tanV * d) * 2.4);
+      p.dot.material = this.pinMat(active);
+      // escondido atrás do próprio osso?
+      // a checagem é cara (raio contra a malha do osso): só roda com a câmera parada
+      let oculto = (p as { oculto?: boolean }).oculto ?? false;
+      if (completo) {
+        oculto = false;
+        if (p.osso && p.osso.visible) {
+          const dir = p.mesh.position.clone().sub(cam).normalize();
+          this.ray.set(cam, dir); this.ray.far = d;
+          const hit = this.ray.intersectObject(p.osso, false)[0];
+          oculto = !!hit && hit.distance < d - 0.012;   // os pontos ficam na superfície do osso: tolerância de ~1 cm
+        }
+        (p as { oculto?: boolean }).oculto = oculto;
+      }
+      p.mesh.visible = !oculto || active;
+      const show = !this.muteLabels && !oculto && (active || this.showPinLabels);
       if (!show) { p.el.style.display = 'none'; continue; }
       this.v.copy(p.mesh.position).project(this.camera);
       if (this.v.z > 1 || this.v.z < -1) { p.el.style.display = 'none'; continue; }
+      const x = ((this.v.x + 1) / 2) * w, y = ((1 - this.v.y) / 2) * h;
       p.el.style.display = '';
       p.el.classList.toggle('active', active);
-      p.el.style.transform = `translate(${((this.v.x + 1) / 2) * w}px, ${((1 - this.v.y) / 2) * h}px)`;
+      // evita nomes sobrepostos (o ativo sempre aparece)
+      const lw = p.el.offsetWidth || 80, lh = p.el.offsetHeight || 22;
+      const r: [number, number, number, number] = [x + 10, y - 30, x + 10 + lw, y - 30 + lh];
+      if (!active && ocupados.some((o) => r[0] < o[2] && r[2] > o[0] && r[1] < o[3] && r[3] > o[1])) { p.el.style.display = 'none'; continue; }
+      ocupados.push(r);
+      p.el.style.transform = `translate(${x}px, ${y}px)`;
     }
   }
 

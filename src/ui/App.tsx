@@ -69,6 +69,7 @@ export function App() {
         if (state === 'error') useStore.getState().say(`Não consegui carregar ${FILE_NOME[file] ?? file}. Confira a internet.`);
       };
       engine.onSoltar = () => { const st = useStore.getState(); if (st.fixo) st.fixar(null); };
+      engine.onPin = (id) => { const st = useStore.getState(); st.setPin(st.pin === id ? null : id); };
       engine.onPick = (p, kind) => {
         const st = useStore.getState();
         if (st.quizPick) { if (p && p.si >= 0 && !p.pin) st.quizPick(p.si); return; }

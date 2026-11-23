@@ -43,7 +43,7 @@ export function syncEngine() {
     pinsKey = ids.join(',');
     if (pinsKey !== lastPinsKey) {
       const lms = (m.lmByStruct.get(s.sel.si) ?? []).filter((l) => ids.includes(l.on));
-      e.setPins(lms.map((l) => ({ id: l.on + '|' + l.k, p: l.p, label: acidente(st.k, l.k)?.pt ?? nomePt(l.k, m) })));
+      e.setPins(lms.map((l) => { const a = acidente(st.k, l.k); return { id: l.on + '|' + l.k, p: l.p, label: a?.pt ?? nomePt(l.k, m), nota: a?.nota }; }));
     }
   } else if (lastPinsKey) e.setPins([]);
   lastPinsKey = pinsKey;
