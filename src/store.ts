@@ -34,6 +34,7 @@ interface State {
   pin: string | null;
   pinLabels: boolean;
   pinMudo: boolean;
+  contorno: boolean;
   layers: Record<LayerId, LayerState>;
   side: 'both' | 'l' | 'r';
   hidden: number[];
@@ -82,7 +83,7 @@ export const rt: { engine: Engine | null; m: Indexed | null } = { engine: null, 
 export const useStore = create<State>()(
   persist(
     (set, get) => ({
-      tab: 'atlas', panelOpen: true, sel: null, pin: null, pinLabels: false, pinMudo: false,
+      tab: 'atlas', panelOpen: true, sel: null, pin: null, pinLabels: false, pinMudo: false, contorno: true,
       layers: { ...DEFAULT_LAYERS }, side: 'both', hidden: [], lotes: [], modoOcultar: false, ocultarGrupo: false, focus: null, fixo: null, showIns: false, boneMap: false, colorMode: 'normal', clip: null,
       loading: {}, toast: null, recado: null, quizPick: null, prog: progInicial,
 
@@ -160,7 +161,7 @@ export const useStore = create<State>()(
     {
       name: 'atlas-da-gabi',
       version: 1,
-      partialize: (s) => ({ prog: s.prog, layers: s.layers }) as unknown as State,
+      partialize: (s) => ({ prog: s.prog, layers: s.layers, contorno: s.contorno }) as unknown as State,
     },
   ),
 );

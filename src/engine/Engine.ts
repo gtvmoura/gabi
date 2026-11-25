@@ -1,7 +1,7 @@
 import {
   AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, HemisphereLight, Material, Mesh,
   MeshBasicMaterial, MeshStandardMaterial, Object3D, PerspectiveCamera, Plane, PlaneGeometry, Raycaster, Scene, SphereGeometry, SRGBColorSpace,
-  Vector2, Vector3, WebGLRenderer, DoubleSide, BackSide, ACESFilmicToneMapping, PMREMGenerator, CanvasTexture,
+  Vector2, Vector3, WebGLRenderer, DoubleSide, BackSide, AlwaysStencilFunc, NotEqualStencilFunc, ReplaceStencilOp, KeepStencilOp, ACESFilmicToneMapping, PMREMGenerator, CanvasTexture,
 } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
@@ -72,6 +72,8 @@ export class Engine {
   showPinLabels = false;
   /** Esconde os nomes dos pinos (jogo de acidentes ósseos, antes da resposta). */
   muteLabels = false;
+  /** Contorno em volta da estrutura selecionada (mostra onde ela começa e termina). */
+  contorno = true;
 
   onPick: (p: Pick | null, kind: 'tap' | 'double') => void = () => {};
   /** A peça fixa foi solta pelo próprio motor (outro enquadramento). */
@@ -88,7 +90,7 @@ export class Engine {
     this.labelLayer.className = 'gl-labels';
     host.appendChild(this.labelLayer);
 
-    this.renderer = new WebGLRenderer({ canvas: this.canvas, antialias: true, alpha: true, powerPreference: 'high-performance', preserveDrawingBuffer: false });
+    this.renderer = new WebGLRenderer({ canvas: this.canvas, antialias: true, alpha: true, stencil: true, powerPreference: 'high-performance', preserveDrawingBuffer: false });
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     this.renderer.outputColorSpace = SRGBColorSpace;
     this.renderer.setClearColor(0x000000, 0);
@@ -312,6 +314,30 @@ export class Engine {
   private fadeMat(): Material {
     return this.mat('fade', () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.6, transparent: true, opacity: 0.22, depthWrite: false }));
   }
+  /** Máscara: marca no estêncil os pixels ocupados pela estrutura (não desenha cor). */
+  private mascaraMat(): Material {
+    return this.mat('mascara', () => new MeshBasicMaterial({
+      colorWrite: false, depthTest: false, depthWrite: false, side: DoubleSide,
+      stencilWrite: true, stencilRef: 1, stencilFunc: AlwaysStencilFunc, stencilZPass: ReplaceStencilOp,
+    }));
+  }
+  /** Contorno: a estrutura "engordada" ao longo das normais, desenhada só fora da máscara e por cima de tudo. */
+  private contornoMat(): Material {
+    return this.mat('contorno', () => {
+      const m = new MeshBasicMaterial({
+        color: new Color('#ffd84d'), depthTest: false, depthWrite: false, side: DoubleSide,
+        stencilWrite: true, stencilRef: 1, stencilFunc: NotEqualStencilFunc, stencilZPass: KeepStencilOp,
+      });
+      // espessura constante na tela (~3 px), seja qual for a distância da câmera
+      m.onBeforeCompile = (sh) => {
+        sh.vertexShader = sh.vertexShader.replace('#include <project_vertex>', `#include <project_vertex>
+          vec3 nV = normalize(normalMatrix * normal);
+          mvPosition.xyz += nV * 0.0024 * -mvPosition.z;
+          gl_Position = projectionMatrix * mvPosition;`);
+      };
+      return m;
+    });
+  }
   private selMat(): Material {
     // seleção discreta: mantém a cor natural da estrutura e acrescenta um brilho rosado suave
     return this.mat('sel', () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.45, emissive: new Color('#ff6f9f'), emissiveIntensity: 0.22, side: DoubleSide }));
@@ -392,6 +418,15 @@ export class Engine {
         x.matrixAutoUpdate = false; x.matrix.copy(it.mesh.matrix); x.renderOrder = 4;
         it.mesh.parent!.add(x); x.updateMatrixWorld(true);
         this.xray.push(x);
+        if (this.contorno) {
+          // contorno: casca de faces traseiras empurrada para fora ao longo das normais
+          for (const [mat, ordem] of [[this.mascaraMat(), 8], [this.contornoMat(), 9]] as const) {
+            const o = new Mesh(it.mesh.geometry, mat);
+            o.matrixAutoUpdate = false; o.matrix.copy(it.mesh.matrix); o.renderOrder = ordem;
+            it.mesh.parent!.add(o); o.updateMatrixWorld(true);
+            this.xray.push(o);
+          }
+        }
       }
     }
     for (const [id, mesh] of this.insMeshes) {

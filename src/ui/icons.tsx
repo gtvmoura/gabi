@@ -30,6 +30,7 @@ const P: Record<string, ReactNode> = {
   fogo: <><path d="M12 3c1 4 5 5.500 5 10a5 5 0 0 1-10 0c0-2 1-3 1.500-4.500C10 9.500 11.500 6 12 3z" /></>,
   info: <><circle cx="12" cy="12" r="9" /><path d="M12 11v6M12 7.500v.5" /></>,
   borracha: <><path d="M15.5 4.5l4 4L10 18H6l-2-2 11.5-11.5z" /><path d="M9 18h11" /><path d="M12.5 7.5l4 4" /></>,
+  contorno: <><path d="M12 3c4.5 0 7 3.5 7 8s-3 10-7 10-7-5.5-7-10 2.5-8 7-8z" strokeDasharray="3 2.4" /></>,
   play: <><path d="M8 5.5v13l10.5-6.5z" /></>,
   pausa: <><path d="M8 5v14M16 5v14" /></>,
   som: <><path d="M4 10v4h4l5 4V6L8 10z" /><path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a8 8 0 0 1 0 11" /></>,

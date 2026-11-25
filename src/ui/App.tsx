@@ -96,7 +96,7 @@ export function App() {
       };
       syncEngine();
       off = useStore.subscribe((s, prev) => {
-        if (s.layers !== prev.layers || s.side !== prev.side || s.hidden !== prev.hidden || s.modoOcultar !== prev.modoOcultar || s.focus !== prev.focus || s.sel !== prev.sel || s.showIns !== prev.showIns || s.boneMap !== prev.boneMap || s.pin !== prev.pin || s.pinLabels !== prev.pinLabels || s.colorMode !== prev.colorMode || s.clip !== prev.clip || s.pinMudo !== prev.pinMudo) syncEngine();
+        if (s.layers !== prev.layers || s.side !== prev.side || s.hidden !== prev.hidden || s.modoOcultar !== prev.modoOcultar || s.focus !== prev.focus || s.sel !== prev.sel || s.showIns !== prev.showIns || s.boneMap !== prev.boneMap || s.pin !== prev.pin || s.pinLabels !== prev.pinLabels || s.colorMode !== prev.colorMode || s.clip !== prev.clip || s.pinMudo !== prev.pinMudo || s.contorno !== prev.contorno) syncEngine();
       });
       engine.home(true);
       engine.ensureLayers().then(() => { setReady(true); setFirstLoad(1); });
