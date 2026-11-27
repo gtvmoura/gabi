@@ -15,7 +15,7 @@ import { Clinica } from './Clinica';
 import { Treinar } from './Treinar';
 import { Progresso } from './Progresso';
 import { Portao } from './Portao';
-import { BarraOcultar, Confete, LegendaInervacao, VerRapido } from './Extras';
+import { BarraOcultar, Confete, Gestos, LegendaInervacao, VerRapido } from './Extras';
 import { nomePt } from '../content';
 
 const TABS: { id: Tab; nome: string; ico: string }[] = [
@@ -111,9 +111,24 @@ export function App() {
   useEffect(() => {
     const e = rt.engine; if (!e) return;
     const w = window.innerWidth, h = window.innerHeight;
-    if (portrait) e.setInsets({ left: 0, right: 0, top: 150, bottom: panelOpen ? h * 0.46 + 62 : 62 });
+    if (perfil.tema === 'atlas') {
+      // tema neutro: painel encostado na borda, faixa de camadas numa linha só, folha mais baixa no retrato
+      if (portrait) e.setInsets({ left: 0, right: 0, top: 116, bottom: panelOpen ? h * 0.42 + 62 : 62 });
+      else e.setInsets({ left: 76, right: panelOpen ? Math.min(420, w * 0.42) : 0, top: 112, bottom: 0 });
+    }
+    else if (portrait) e.setInsets({ left: 0, right: 0, top: 150, bottom: panelOpen ? h * 0.46 + 62 : 62 });
     else e.setInsets({ left: 76, right: panelOpen ? Math.min(420, w * 0.42) + 12 : 0, top: 112, bottom: 0 });
-  }, [panelOpen, portrait, ready]);
+  }, [panelOpen, portrait, ready, perfil.tema]);
+
+  // cores de marca dentro do 3D (seleção, pinos) acompanham o tema
+  useEffect(() => { rt.engine?.setTema(perfil.tema); }, [perfil.tema, ready]);
+
+  // enquanto o portão do nome está aberto, o app por trás não recebe foco nem toque
+  const raiz = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const els = [...(raiz.current?.children ?? [])].filter((x): x is HTMLElement => x instanceof HTMLElement && !x.classList.contains('portao'));
+    for (const x of els) x.inert = semNome;
+  });
 
   // progresso do primeiro carregamento
   const loadVals = Object.values(loading);
@@ -137,11 +152,11 @@ export function App() {
   const showFicha = tab === 'atlas' || (!!sel && !quizPick && tab !== 'treinar');
 
   return (
-    <div className="app">
+    <div className="app" ref={raiz}>
       <div className="stage" ref={host} />
 
       <nav className="nav">
-        <div className="brand">{perfil.inicial}</div>
+        <div className="brand">{perfil.gabi ? perfil.inicial : 'A'}</div>
         {TABS.map((t) => (
           <button key={t.id} className={'tab' + (tab === t.id ? ' on' : '')} onClick={() => { const st = useStore.getState(); if (st.tab === t.id) st.setPanel(!st.panelOpen); else { if (st.sel && t.id !== 'atlas') useStore.setState({ sel: null, pin: null, showIns: false, boneMap: false }); st.setTab(t.id); } }}>
             <Icon n={t.ico} size={22} />
@@ -185,14 +200,24 @@ export function App() {
 
       <div className={'splash' + (ready ? ' out' : '')}>
         <div className="box">
-          <div className="brand">{perfil.inicial}</div>
+          <div className="brand">{perfil.gabi ? perfil.inicial : 'A'}</div>
           <h1>{perfil.appNome}</h1>
           <div className="muted">Preparando o atlas 3D…</div>
           <div className="bar"><i style={{ width: `${Math.round(firstLoad * 100)}%` }} /></div>
         </div>
       </div>
 
-      {ready && !bemVinda && !semNome && (
+      {ready && !bemVinda && !semNome && !perfil.gabi && (
+        <div className="modal-bg">
+          <div className="modal boas" role="dialog" aria-modal="true" aria-labelledby="boas-titulo">
+            <h1 id="boas-titulo">{perfil.boasVindas.titulo}</h1>
+            {perfil.boasVindas.texto.map((t, i) => <p key={i}>{t}</p>)}
+            <Gestos />
+            <button className="btn primary block" autoFocus onClick={() => useStore.getState().patchProg(() => ({ bemVinda: true }))}>Começar a explorar</button>
+          </div>
+        </div>
+      )}
+      {ready && !bemVinda && !semNome && perfil.gabi && (
         <div className="modal-bg">
           <div className="modal">
             <h1>{perfil.boasVindas.titulo}</h1>
@@ -203,7 +228,13 @@ export function App() {
           </div>
         </div>
       )}
-      {recado && (
+      {recado && !perfil.gabi && (
+        <div className="marco" role="status">
+          <div className="marco-txt"><b>{recado.titulo}</b><p>{recado.texto}</p></div>
+          <button className="iconbtn" aria-label="Fechar aviso" onClick={() => useStore.setState({ recado: null })}><Icon n="fechar" size={18} /></button>
+        </div>
+      )}
+      {recado && perfil.gabi && (
         <div className="modal-bg" onClick={() => useStore.setState({ recado: null })}>
           <Confete />
           <div className="modal">
@@ -215,7 +246,7 @@ export function App() {
           </div>
         </div>
       )}
-      {semNome && <Portao />}
+      {semNome && <Portao carregado={firstLoad} pronto={ready} />}
     </div>
   );
 }

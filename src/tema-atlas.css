@@ -1,11 +1,430 @@
 /* ─────────────────────────────────────────────────────────────────────────────
    Tema "atlas": o visual do perfil adaptado (<html data-tema="atlas">).
 
-   REGRA: tudo neste arquivo precisa estar sob :root[data-tema="atlas"], por exemplo
-
-     :root[data-tema="atlas"] { --accent: …; }
-     :root[data-tema="atlas"] .modal { … }
-
+   REGRA: tudo neste arquivo precisa estar sob :root[data-tema="atlas"].
    Nada aqui pode valer para o outro tema: o visual original mora em styles.css
-   e tem que continuar exatamente como está.
+   e tem que continuar exatamente como está. (As @font-face são globais por
+   natureza, mas só são baixadas quando este tema usa as famílias.)
+
+   Direção: instrumento de estudo. Palco grafite neutro para o modelo 3D; painel
+   de referência opaco e encostado na borda; controles flutuantes sólidos; uma
+   única cor de ação (verde cirúrgico), que nunca disputa com o código de cores
+   anatômico (vermelho, azul, amarelo, laranja).
+
+   1. Fontes            5. Painel e ficha        9. Avisos e diálogos
+   2. Tokens            6. Componentes          10. Portão do nome
+   3. Base              7. Treinar              11. Retrato / telas estreitas
+   4. Palco e moldura   8. Progresso
    ───────────────────────────────────────────────────────────────────────────── */
+
+/* ───────── 1. fontes (locais, via @fontsource: funcionam offline) */
+@font-face { font-family: 'IBM Plex Sans Variable'; font-style: normal; font-display: swap; font-weight: 100 700; src: url('../node_modules/@fontsource-variable/ibm-plex-sans/files/ibm-plex-sans-latin-wght-normal.woff2') format('woff2-variations'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'IBM Plex Sans Variable'; font-style: normal; font-display: swap; font-weight: 100 700; src: url('../node_modules/@fontsource-variable/ibm-plex-sans/files/ibm-plex-sans-latin-ext-wght-normal.woff2') format('woff2-variations'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'IBM Plex Serif'; font-style: normal; font-display: swap; font-weight: 500; src: url('../node_modules/@fontsource/ibm-plex-serif/files/ibm-plex-serif-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'IBM Plex Serif'; font-style: italic; font-display: swap; font-weight: 400; src: url('../node_modules/@fontsource/ibm-plex-serif/files/ibm-plex-serif-latin-400-italic.woff2') format('woff2'); }
+
+/* ───────── 2. tokens */
+:root[data-tema="atlas"] {
+  /* famílias */
+  --at-sans: 'IBM Plex Sans Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --at-serif: 'IBM Plex Serif', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  /* escala tipográfica fixa (px): rótulo, apoio, corpo denso, corpo, destaque, título, título grande */
+  --at-t-1: 11px; --at-t-2: 12.5px; --at-t-3: 14px; --at-t-4: 15px; --at-t-5: 16.5px; --at-t-6: 22px; --at-t-7: 30px;
+  /* espaçamento (base 4) */
+  --at-s-1: 4px; --at-s-2: 8px; --at-s-3: 12px; --at-s-4: 16px; --at-s-5: 20px; --at-s-6: 24px; --at-s-7: 32px; --at-s-8: 48px;
+  /* raios: controle pequeno, controle, superfície */
+  --at-r-1: 6px; --at-r-2: 10px; --at-r-3: 14px;
+  /* superfícies, da mais funda à mais alta */
+  --at-surface-0: #101314;
+  --at-surface-1: #171b1c;
+  --at-surface-2: #1f2425;
+  --at-surface-3: #2a3132;
+  --at-line-forte: rgba(226, 238, 235, 0.2);
+  --at-texto-2: #cdd5d2;
+  /* ação */
+  --at-accent-ink: #06241f;
+  --at-accent-line: rgba(79, 209, 188, 0.5);
+  --at-accent-text: #a8ecdf;
+  --at-sombra-1: 0 1px 2px rgba(0, 0, 0, 0.35), 0 8px 24px -10px rgba(0, 0, 0, 0.55);
+  --at-sombra-2: 0 2px 4px rgba(0, 0, 0, 0.35), 0 24px 56px -16px rgba(0, 0, 0, 0.7);
+  /* movimento (para quem cuidar das animações) */
+  --at-dur-1: 120ms; --at-dur-2: 200ms; --at-dur-3: 320ms;
+  --at-ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --at-ease-in-out: cubic-bezier(0.6, 0, 0.3, 1);
+
+  /* os nomes que styles.css já usa, com os valores deste tema */
+  --bg: var(--at-surface-0);
+  --bg2: var(--at-surface-1);
+  --panel: var(--at-surface-2);
+  --panel-solid: var(--at-surface-1);
+  --card: rgba(226, 238, 235, 0.05);
+  --card-hi: rgba(226, 238, 235, 0.1);
+  --line: rgba(226, 238, 235, 0.11);
+  --text: #e8eeec;
+  --muted: #a9b3b0;
+  --dim: #8d9794;
+  --accent: #4fd1bc;
+  --accent-2: #7cc4e8;
+  --accent-soft: rgba(79, 209, 188, 0.13);
+  --ok: #8fd67a;
+  --bad: #f47f84;
+  --warn: #e9bb52;
+  --r: var(--at-r-2);
+  --panel-w: min(420px, 42vw);
+
+  font-family: var(--at-sans);
+  color-scheme: dark;
+}
+
+/* ───────── 3. base */
+:root[data-tema="atlas"] body { background: var(--bg); color: var(--text); font-size: var(--at-t-4); line-height: 1.5; font-variant-numeric: tabular-nums lining-nums; font-optical-sizing: auto; text-rendering: optimizeLegibility; }
+:root[data-tema="atlas"] ::selection { background: rgba(79, 209, 188, 0.32); color: #fff; }
+:root[data-tema="atlas"] input, :root[data-tema="atlas"] textarea { caret-color: var(--accent); }
+:root[data-tema="atlas"] :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+:root[data-tema="atlas"] .gl:focus-visible { outline: none; }
+:root[data-tema="atlas"] .pbody, :root[data-tema="atlas"] .pop, :root[data-tema="atlas"] .results { scrollbar-width: thin; scrollbar-color: rgba(226, 238, 235, 0.18) transparent; }
+:root[data-tema="atlas"] .muted { color: var(--muted); }
+:root[data-tema="atlas"] .small { font-size: var(--at-t-2); line-height: 1.45; }
+:root[data-tema="atlas"] .dot { width: 8px; height: 8px; }
+
+/* ───────── 4. palco e moldura */
+:root[data-tema="atlas"] .app { background: radial-gradient(90% 80% at 50% 42%, #3b4346 0%, #2b3134 38%, #1a1f20 74%, #101314 100%); }
+@media (min-aspect-ratio: 1/1) and (min-width: 761px) {
+  :root[data-tema="atlas"] .app:has(.panel:not(.closed)) { background: radial-gradient(90% 80% at calc(50% - var(--panel-w) / 2 + 38px) 42%, #3b4346 0%, #2b3134 38%, #1a1f20 74%, #101314 100%); }
+}
+
+/* superfícies flutuantes: sólidas, com fio e sombra curta (sem vidro) */
+:root[data-tema="atlas"] .glass { background: var(--at-surface-2); -webkit-backdrop-filter: none; backdrop-filter: none; border: 1px solid var(--line); box-shadow: var(--at-sombra-1); }
+
+/* navegação */
+:root[data-tema="atlas"] .nav { gap: 2px; padding-top: calc(12px + var(--safe-t)); background: var(--at-surface-1); border-right: 1px solid var(--line); }
+:root[data-tema="atlas"] .brand { width: 40px; height: 40px; border-radius: var(--at-r-2); margin-bottom: 12px; background: none; border: 1px solid var(--at-line-forte); box-shadow: none; font-family: var(--at-serif); font-weight: 500; font-size: 22px; letter-spacing: 0; color: var(--text); line-height: 1; }
+:root[data-tema="atlas"] .nav button.tab { width: 66px; min-height: 56px; padding: 8px 0 7px; border-radius: var(--at-r-2); gap: 4px; color: var(--dim); font-size: var(--at-t-1); font-weight: 500; letter-spacing: 0.005em; transition: background var(--at-dur-1), color var(--at-dur-1); }
+:root[data-tema="atlas"] .nav button.tab.on { color: var(--text); background: rgba(226, 238, 235, 0.08); }
+:root[data-tema="atlas"] .nav button.tab.on .ico { color: var(--accent); }
+
+/* topo: busca e filtros ativos */
+:root[data-tema="atlas"] .top { left: calc(var(--nav) + var(--safe-l) + 12px); }
+:root[data-tema="atlas"] .searchbox { width: min(320px, 44vw); }
+:root[data-tema="atlas"] .searchbox .field { height: 44px; padding: 0 12px; border-radius: var(--at-r-2); gap: 10px; color: var(--muted); }
+:root[data-tema="atlas"] .searchbox .field:focus-within { border-color: var(--accent); }
+:root[data-tema="atlas"] .searchbox input { font-size: var(--at-t-4); }
+:root[data-tema="atlas"] .searchbox input:focus-visible { outline: none; }
+:root[data-tema="atlas"] .searchbox input::placeholder { color: var(--dim); }
+:root[data-tema="atlas"] .searchbox .field button { width: 32px; height: 32px; margin-right: -6px; border-radius: var(--at-r-1); display: grid; place-items: center; position: relative; }
+:root[data-tema="atlas"] .searchbox .field button::after { content: ''; position: absolute; inset: -6px; }
+:root[data-tema="atlas"] .results { top: 50px; border-radius: var(--at-r-2); padding: 4px; box-shadow: var(--at-sombra-2); }
+:root[data-tema="atlas"] .results button { min-height: 48px; padding: 8px 10px; border-radius: var(--at-r-1); gap: 12px; }
+:root[data-tema="atlas"] .results .nm { font-weight: 500; font-size: var(--at-t-3); line-height: 1.3; }
+:root[data-tema="atlas"] .results .sb { font-size: var(--at-t-2); color: var(--muted); }
+:root[data-tema="atlas"] .chip { height: 44px; padding: 0 12px; border-radius: var(--at-r-2); font-weight: 500; font-size: var(--at-t-3); }
+:root[data-tema="atlas"] .chip.focus, :root[data-tema="atlas"] .chip.fixo { border-color: var(--at-accent-line); color: var(--at-accent-text); }
+
+/* faixa de camadas: uma linha só; o que não couber rola de lado e "Combinações" fica presa à direita */
+:root[data-tema="atlas"] .rapido { top: calc(64px + var(--safe-t)); left: calc(var(--nav) + var(--safe-l) + 12px); right: calc(var(--panel-w) + 16px); gap: 8px; }
+:root[data-tema="atlas"] .app:has(.panel.closed) .rapido { right: calc(70px + var(--safe-r)); }
+:root[data-tema="atlas"] .faixa { flex-wrap: nowrap; overflow-x: auto; gap: 0; padding: 0; border-radius: var(--at-r-2); scrollbar-width: none; overscroll-behavior-x: contain; background: none; }
+/* o fundo fica nos botões, não na faixa que rola (um fundo no contêiner de rolagem sobre o canvas 3D gera falha de composição) */
+:root[data-tema="atlas"] .faixa button { height: 44px; padding: 0 12px; border-radius: 0; background: var(--at-surface-2); font-size: var(--at-t-2); font-weight: 500; color: var(--dim); gap: 7px; position: relative; isolation: isolate; }
+:root[data-tema="atlas"] .faixa button::before { content: ''; position: absolute; z-index: -1; inset: 3px 2px; border-radius: 7px; border: 1px solid transparent; }
+:root[data-tema="atlas"] .faixa button:first-child::before { left: 3px; }
+:root[data-tema="atlas"] .faixa button .dot { opacity: 0.4; }
+:root[data-tema="atlas"] .faixa button.on { background: var(--at-surface-2); color: var(--text); }
+:root[data-tema="atlas"] .faixa button.on::before { background: var(--at-surface-3); }
+:root[data-tema="atlas"] .faixa button.meio { color: var(--muted); border: 0; }
+:root[data-tema="atlas"] .faixa button.meio::before { border: 1px dashed var(--at-line-forte); }
+:root[data-tema="atlas"] .rapido .faixa:first-child button:last-child { position: sticky; right: 0; z-index: 1; color: var(--muted); box-shadow: -10px 0 10px -4px var(--at-surface-2), inset 1px 0 0 var(--line); }
+:root[data-tema="atlas"] .rapido .faixa:first-child button:last-child::before { inset: 3px 3px 3px 4px; }
+
+/* ferramentas do 3D */
+:root[data-tema="atlas"] .tools { left: calc(var(--nav) + var(--safe-l) + 12px); bottom: calc(12px + var(--safe-b)); }
+:root[data-tema="atlas"] .tools .grp { border-radius: var(--at-r-2); }
+:root[data-tema="atlas"] .tbtn { width: 44px; height: 44px; color: var(--muted); font-weight: 600; }
+:root[data-tema="atlas"] .tbtn.on { color: var(--accent); background: var(--accent-soft); }
+:root[data-tema="atlas"] .tbtn.modo { color: var(--at-accent-ink); background: var(--accent); }
+:root[data-tema="atlas"] .pop { left: calc(var(--nav) + var(--safe-l) + 64px); bottom: calc(12px + var(--safe-b)); width: 328px; border-radius: var(--at-r-3); padding: 16px; box-shadow: var(--at-sombra-2); }
+:root[data-tema="atlas"] .pop h4 { font-size: var(--at-t-2); font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--muted); margin: 0 0 8px; }
+:root[data-tema="atlas"] .layer { padding: 4px 0; gap: 10px; min-height: 44px; }
+:root[data-tema="atlas"] .layer .nm { font-weight: 500; font-size: var(--at-t-3); }
+:root[data-tema="atlas"] .seg { background: rgba(0, 0, 0, 0.28); border-radius: 8px; padding: 2px; box-shadow: inset 0 0 0 1px var(--line); }
+:root[data-tema="atlas"] .seg button { min-width: 40px; height: 36px; padding: 0 10px; border-radius: var(--at-r-1); font-size: var(--at-t-2); font-weight: 500; color: var(--muted); position: relative; }
+:root[data-tema="atlas"] .seg button::after { content: ''; position: absolute; inset: -4px 0; }
+:root[data-tema="atlas"] .seg button.on { background: var(--at-surface-3); color: var(--text); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 0 0 1px var(--line); }
+:root[data-tema="atlas"] .seg.wide button { height: 40px; font-size: var(--at-t-3); }
+:root[data-tema="atlas"] .views { gap: 6px; }
+:root[data-tema="atlas"] .views button { height: 44px; border-radius: 8px; background: var(--card); font-size: var(--at-t-2); font-weight: 500; }
+:root[data-tema="atlas"] .legenda { left: calc(var(--nav) + var(--safe-l) + 68px); right: calc(var(--panel-w) + 16px); bottom: calc(12px + var(--safe-b)); border-radius: var(--at-r-2); padding: 4px 6px 4px 12px; font-size: var(--at-t-2); scrollbar-width: none; }
+:root[data-tema="atlas"] .legenda button { min-height: 36px; padding: 0 10px; border-radius: 7px; font-weight: 500; position: relative; }
+:root[data-tema="atlas"] .legenda button::after { content: ''; position: absolute; inset: -4px 0; }
+:root[data-tema="atlas"] .barra-ocultar { left: calc(var(--nav) + var(--safe-l) + 68px); right: calc(var(--panel-w) + 16px + var(--safe-r)); bottom: calc(12px + var(--safe-b)); border-radius: var(--at-r-2); font-size: var(--at-t-3); }
+:root[data-tema="atlas"] .barra-ocultar b { font-weight: 600; }
+:root[data-tema="atlas"] .app:has(.panel.closed) .legenda, :root[data-tema="atlas"] .app:has(.panel.closed) .barra-ocultar { right: calc(16px + var(--safe-r)); }
+:root[data-tema="atlas"] .barra-ocultar .btn { height: 36px; }
+:root[data-tema="atlas"] .barra-ocultar .seg button { height: 36px; }
+
+/* rótulos dos pinos no 3D */
+:root[data-tema="atlas"] .pin-label { padding: 2px 7px; border-radius: var(--at-r-1); font-size: var(--at-t-1); font-weight: 500; background: rgba(16, 19, 20, 0.9); border: 1px solid var(--at-accent-line); }
+:root[data-tema="atlas"] .pin-label b { font-weight: 600; }
+:root[data-tema="atlas"] .pin-label.active { background: #fff6cf; color: #1b1400; border-color: transparent; border-radius: 8px; font-size: var(--at-t-2); padding: 7px 10px; box-shadow: var(--at-sombra-2); }
+:root[data-tema="atlas"] .pin-label.gonio { border-radius: var(--at-r-1); background: #ffe066; box-shadow: none; padding: 3px 8px; font-weight: 600; }
+
+/* ───────── 5. painel e ficha */
+:root[data-tema="atlas"] .panel { top: 0; right: 0; bottom: 0; width: calc(var(--panel-w) + var(--safe-r)); padding: var(--safe-t) var(--safe-r) 0 0; border-radius: 0; border: 0; border-left: 1px solid var(--line); background: var(--at-surface-1); box-shadow: none; transition: transform var(--at-dur-3) var(--at-ease-out); }
+:root[data-tema="atlas"] .panel.closed { transform: translateX(100%); visibility: hidden; transition: transform var(--at-dur-3) var(--at-ease-out), visibility 0s var(--at-dur-3); }
+:root[data-tema="atlas"] .panel-toggle { width: 44px; height: 44px; border-radius: var(--at-r-2); }
+:root[data-tema="atlas"] .phead { padding: 18px 16px 14px 20px; gap: 8px; align-items: flex-start; border-bottom: 1px solid var(--line); }
+:root[data-tema="atlas"] .phead h2 { font-family: var(--at-serif); font-weight: 500; font-size: var(--at-t-6); line-height: 1.2; letter-spacing: -0.005em; text-wrap: balance; }
+:root[data-tema="atlas"] .phead .sub { color: var(--muted); font-size: 13px; line-height: 1.4; margin-top: 4px; }
+:root[data-tema="atlas"] .phead .sub + .sub { color: var(--dim); margin-top: 2px; }
+:root[data-tema="atlas"] .phead .lat { font-family: var(--at-serif); font-style: italic; font-size: 13.5px; }
+:root[data-tema="atlas"] .phead .ttl > .sub:only-child { font-size: var(--at-t-3); color: var(--text); margin-top: 9px; }
+:root[data-tema="atlas"] .iconbtn { width: 40px; height: 40px; border-radius: var(--at-r-2); color: var(--muted); background: none; position: relative; }
+:root[data-tema="atlas"] .iconbtn::after { content: ''; position: absolute; inset: -2px; }
+:root[data-tema="atlas"] .iconbtn.on { color: var(--accent); background: var(--accent-soft); }
+:root[data-tema="atlas"] .iconbtn.ok.on { color: var(--ok); background: rgba(143, 214, 122, 0.14); }
+:root[data-tema="atlas"] .phead > .iconbtn:first-child { margin-left: -8px; }
+:root[data-tema="atlas"] .pbody { padding: 18px 20px 48px; }
+:root[data-tema="atlas"] .pbody > * + * { margin-top: 16px; }
+:root[data-tema="atlas"] .pbody > .sec, :root[data-tema="atlas"] .pbody > .ajuda { margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--line); }
+:root[data-tema="atlas"] .pbody > .sec:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+:root[data-tema="atlas"] .sec .sec { margin-top: 18px; }
+:root[data-tema="atlas"] .sec h3 { font-size: var(--at-t-4); font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--text); margin-bottom: 8px; gap: 8px; line-height: 1.3; }
+:root[data-tema="atlas"] .sec h3 .ico { color: var(--muted); }
+:root[data-tema="atlas"] .sec p, :root[data-tema="atlas"] .prose p { color: var(--at-texto-2); line-height: 1.58; max-width: 68ch; }
+:root[data-tema="atlas"] .sec p + p, :root[data-tema="atlas"] .prose p + p { margin-top: 10px; }
+:root[data-tema="atlas"] .lead { font-size: var(--at-t-5); line-height: 1.5; color: var(--text); max-width: 62ch; }
+:root[data-tema="atlas"] ul.lista { color: var(--at-texto-2); padding-left: 18px; }
+:root[data-tema="atlas"] ul.lista li + li { margin-top: 6px; }
+:root[data-tema="atlas"] ul.lista li::marker { color: var(--dim); }
+
+/* ações da ficha: botões baixos e discretos, com área de toque de 44px */
+:root[data-tema="atlas"] .actions { gap: 8px 6px; }
+:root[data-tema="atlas"] .btn { height: 36px; padding: 0 12px; border-radius: 8px; background: var(--card); border: 1px solid var(--line); gap: 7px; font-weight: 500; font-size: 13.5px; position: relative; transition: background var(--at-dur-1), border-color var(--at-dur-1), color var(--at-dur-1); }
+:root[data-tema="atlas"] .btn::after { content: ''; position: absolute; inset: -4px 0; }
+:root[data-tema="atlas"] .btn .ico { color: var(--muted); }
+:root[data-tema="atlas"] .btn.on { background: var(--accent-soft); border-color: var(--at-accent-line); color: var(--at-accent-text); }
+:root[data-tema="atlas"] .btn.on .ico { color: var(--accent); }
+:root[data-tema="atlas"] .btn.primary { background: var(--accent); border: 0; color: var(--at-accent-ink); font-weight: 600; box-shadow: none; }
+:root[data-tema="atlas"] .btn.primary .ico { color: inherit; }
+:root[data-tema="atlas"] .btn.primary:active { filter: none; background: #3fbba7; }
+:root[data-tema="atlas"] .btn.block { height: 48px; font-size: var(--at-t-4); border-radius: var(--at-r-2); }
+:root[data-tema="atlas"] .btn.block::after { content: none; }
+:root[data-tema="atlas"] .btn.ghost { background: none; }
+:root[data-tema="atlas"] .btn:disabled { opacity: 0.45; }
+
+/* ficha técnica: origem, inserção, inervação, vascularização como tabela de definição */
+:root[data-tema="atlas"] .oiia { display: block; border-top: 1px solid var(--line); }
+:root[data-tema="atlas"] .kv { background: var(--card); border: 1px solid var(--line); border-radius: var(--at-r-2); padding: 12px 14px; }
+:root[data-tema="atlas"] .kv.o, :root[data-tema="atlas"] .kv.i, :root[data-tema="atlas"] .kv.n, :root[data-tema="atlas"] .kv.a { border-left: 1px solid var(--line); }
+:root[data-tema="atlas"] .kv .k { font-size: 13px; font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--muted); margin-bottom: 4px; gap: 8px; line-height: 1.5; }
+:root[data-tema="atlas"] .kv .v { font-size: var(--at-t-3); line-height: 1.5; color: var(--text); }
+:root[data-tema="atlas"] .kv .v small { color: var(--muted); font-size: var(--at-t-2); margin-top: 2px; }
+:root[data-tema="atlas"] .oiia > .kv { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 12px; align-items: baseline; background: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; padding: 11px 0; }
+:root[data-tema="atlas"] .oiia > .kv .k { margin: 0; }
+:root[data-tema="atlas"] .oiia > .kv:not(.o):not(.i) .k::before { content: ''; flex: none; width: 8px; height: 8px; border-radius: 50%; background: transparent; }
+:root[data-tema="atlas"] .oiia > .kv.n .k::before { background: #f0c93c; }
+
+:root[data-tema="atlas"] .tip { background: rgba(233, 187, 82, 0.08); border: 1px solid rgba(233, 187, 82, 0.26); border-radius: var(--at-r-2); padding: 12px 14px; font-size: var(--at-t-3); line-height: 1.55; color: var(--text); }
+:root[data-tema="atlas"] .tip b { color: var(--warn); font-weight: 600; }
+:root[data-tema="atlas"] .tags { gap: 8px 6px; }
+:root[data-tema="atlas"] .tag { padding: 4px 10px; min-height: 28px; border-radius: var(--at-r-1); background: var(--card); border: 1px solid var(--line); font-size: var(--at-t-2); font-weight: 500; }
+:root[data-tema="atlas"] button.tag { min-height: 36px; padding: 0 11px; position: relative; text-align: left; }
+:root[data-tema="atlas"] button.tag::after { content: ''; position: absolute; inset: -4px 0; }
+:root[data-tema="atlas"] .tag.p { border-color: rgba(255, 138, 31, 0.55); color: #ffc999; }
+:root[data-tema="atlas"] .tag.s { border-color: rgba(255, 209, 102, 0.4); color: #ffe7ad; }
+:root[data-tema="atlas"] .tag.o { border-color: rgba(240, 67, 74, 0.55); }
+:root[data-tema="atlas"] .tag.i { border-color: rgba(63, 131, 248, 0.6); }
+:root[data-tema="atlas"] .legend { gap: 6px 14px; font-size: var(--at-t-2); color: var(--muted); }
+
+/* listas: linhas com fio, não cartões */
+:root[data-tema="atlas"] .list { gap: 6px; }
+:root[data-tema="atlas"] .row { padding: 11px 12px; min-height: 48px; border-radius: var(--at-r-2); background: var(--card); gap: 12px; }
+:root[data-tema="atlas"] .row > .ico { color: var(--muted); }
+:root[data-tema="atlas"] .row .t { font-weight: 500; font-size: 14.5px; line-height: 1.35; }
+:root[data-tema="atlas"] .row .d { font-size: 13px; line-height: 1.45; color: var(--muted); margin-top: 2px; }
+:root[data-tema="atlas"] .row .d b { color: var(--text); font-weight: 600; }
+:root[data-tema="atlas"] .row .end { color: var(--dim); font-size: var(--at-t-2); }
+:root[data-tema="atlas"] .row .end.feito { color: var(--ok); }
+:root[data-tema="atlas"] .row.compact { padding: 8px 12px; min-height: 44px; }
+:root[data-tema="atlas"] .row.on { border-color: var(--at-accent-line); background: var(--accent-soft); }
+:root[data-tema="atlas"] .list > .row { align-self: stretch; width: auto; margin: 0 -10px; padding-left: 10px; padding-right: 10px; background: none; border-radius: 8px; }
+:root[data-tema="atlas"] .list > .row + .row { box-shadow: 0 -4px 0 -3px var(--line); }
+:root[data-tema="atlas"] .list:has(> .row) { gap: 7px; }
+:root[data-tema="atlas"] .list:not(:has(> .row, > .opt, > .clue, > .kv)) { gap: 14px; }
+:root[data-tema="atlas"] .list > .row.on { background: var(--accent-soft); box-shadow: none; }
+:root[data-tema="atlas"] .list > .row.on + .row { box-shadow: none; }
+
+:root[data-tema="atlas"] .subtabs { gap: 6px; padding-bottom: 0; scrollbar-width: none; }
+:root[data-tema="atlas"] .subtabs button { height: 36px; padding: 0 13px; border-radius: 8px; background: none; border: 1px solid var(--line); font-size: 13.5px; font-weight: 500; color: var(--muted); position: relative; }
+:root[data-tema="atlas"] .subtabs button::after { content: ''; position: absolute; inset: -4px 0; }
+:root[data-tema="atlas"] .subtabs button.on { background: var(--text); color: var(--at-surface-0); border-color: transparent; }
+
+:root[data-tema="atlas"] .grid2 { gap: 8px; }
+:root[data-tema="atlas"] .tile { border-radius: var(--at-r-2); background: var(--card); border: 1px solid var(--line); padding: 13px 14px; gap: 4px; min-height: 72px; }
+:root[data-tema="atlas"] .tile .t { font-weight: 600; font-size: 14.5px; line-height: 1.3; }
+:root[data-tema="atlas"] .tile .d { font-size: 13px; line-height: 1.45; color: var(--muted); }
+:root[data-tema="atlas"] .tile.sistema { border-left: 1px solid var(--line); }
+:root[data-tema="atlas"] .tile.on { border-color: var(--at-accent-line); background: var(--accent-soft); }
+:root[data-tema="atlas"] .peca-ativa { top: -18px; margin: -18px -20px 0; padding: 12px 20px; }
+:root[data-tema="atlas"] .dot.big { width: 11px; height: 11px; }
+
+:root[data-tema="atlas"] .stat { border-radius: var(--at-r-2); background: var(--card); border: 0; padding: 12px 14px; }
+:root[data-tema="atlas"] .stat .n { font-size: 28px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.15; }
+:root[data-tema="atlas"] .stat .l { font-size: var(--at-t-2); color: var(--muted); margin-top: 2px; }
+:root[data-tema="atlas"] .chama { display: inline-flex; vertical-align: -2px; color: #f0a24b; }
+:root[data-tema="atlas"] .bar { height: 6px; background: rgba(226, 238, 235, 0.1); }
+:root[data-tema="atlas"] .bar > i { background: var(--accent); }
+:root[data-tema="atlas"] .empty { padding: 28px 12px; color: var(--muted); font-size: var(--at-t-3); }
+:root[data-tema="atlas"] textarea.note { min-height: 96px; border-radius: 8px; border: 1px solid var(--at-line-forte); background: rgba(0, 0, 0, 0.25); padding: 10px 12px; line-height: 1.5; }
+:root[data-tema="atlas"] textarea.note:focus { border-color: var(--accent); }
+:root[data-tema="atlas"] textarea.note:focus-visible, :root[data-tema="atlas"] input.field:focus-visible { outline: none; }
+:root[data-tema="atlas"] textarea.note::placeholder, :root[data-tema="atlas"] input.field::placeholder { color: var(--dim); }
+:root[data-tema="atlas"] input.field { height: 44px; border-radius: 8px; border: 1px solid var(--at-line-forte); background: rgba(0, 0, 0, 0.25); }
+:root[data-tema="atlas"] input.field:focus { border-color: var(--accent); }
+:root[data-tema="atlas"] input[type='range'] { height: 44px; }
+:root[data-tema="atlas"] table.t { font-size: 13.5px; line-height: 1.45; }
+:root[data-tema="atlas"] table.t th { font-size: var(--at-t-2); font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--muted); padding: 6px 8px; }
+:root[data-tema="atlas"] table.t td { padding: 9px 8px; color: var(--at-texto-2); }
+:root[data-tema="atlas"] table.t td:first-child { font-weight: 600; color: var(--text); padding-left: 0; }
+:root[data-tema="atlas"] table.t th:first-child { padding-left: 0; }
+:root[data-tema="atlas"] .mov-angulo b { font-weight: 600; letter-spacing: -0.02em; }
+:root[data-tema="atlas"] .mov-angulo span { font-size: 13px; }
+:root[data-tema="atlas"] .clue { border-radius: var(--at-r-2); padding: 11px 13px; }
+:root[data-tema="atlas"] .clue .k { font-size: var(--at-t-2); font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--muted); margin-bottom: 2px; }
+
+/* início: ajuda recolhida */
+:root[data-tema="atlas"] .ajuda summary { display: flex; align-items: center; justify-content: space-between; min-height: 44px; margin: -10px 0; cursor: pointer; list-style: none; font-size: var(--at-t-4); font-weight: 600; }
+:root[data-tema="atlas"] .ajuda summary::-webkit-details-marker { display: none; }
+:root[data-tema="atlas"] .ajuda summary::after { content: ''; width: 8px; height: 8px; margin-right: 6px; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: rotate(45deg) translate(-2px, -2px); }
+:root[data-tema="atlas"] .ajuda[open] summary::after { transform: rotate(-135deg) translate(-2px, -2px); }
+:root[data-tema="atlas"] .ajuda[open] summary { margin-bottom: 4px; }
+:root[data-tema="atlas"] .gestos { margin: 0; }
+:root[data-tema="atlas"] .gestos > div { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: var(--at-t-3); line-height: 1.45; }
+:root[data-tema="atlas"] .gestos + .gestos > div:last-child, :root[data-tema="atlas"] .modal .gestos > div:last-child { border-bottom: 0; }
+:root[data-tema="atlas"] .gestos dt { font-weight: 600; color: var(--text); }
+:root[data-tema="atlas"] .gestos dd { margin: 0; color: var(--muted); }
+
+/* ───────── 7. treinar: quiz, jogos, flashcards */
+:root[data-tema="atlas"] .q-prompt { font-size: 17px; font-weight: 600; line-height: 1.35; text-wrap: balance; }
+:root[data-tema="atlas"] .opt { min-height: 52px; padding: 10px 14px; border-radius: var(--at-r-2); background: var(--card); border: 1px solid var(--line); font-weight: 500; font-size: var(--at-t-4); line-height: 1.35; gap: 12px; }
+:root[data-tema="atlas"] .opt .ltr { width: 26px; height: 26px; border-radius: var(--at-r-1); background: rgba(226, 238, 235, 0.09); font-size: var(--at-t-2); font-weight: 600; color: var(--muted); }
+:root[data-tema="atlas"] .opt.right { background: rgba(143, 214, 122, 0.13); border-color: rgba(143, 214, 122, 0.65); }
+:root[data-tema="atlas"] .opt.wrong { background: rgba(244, 127, 132, 0.13); border-color: rgba(244, 127, 132, 0.65); }
+:root[data-tema="atlas"] .opt.right::after, :root[data-tema="atlas"] .opt.wrong::after { content: ''; flex: none; width: 18px; height: 18px; margin-left: auto; background: var(--ok); -webkit-mask: var(--at-ico) center / contain no-repeat; mask: var(--at-ico) center / contain no-repeat; }
+:root[data-tema="atlas"] .opt.right { --at-ico: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E"); }
+:root[data-tema="atlas"] .opt.wrong { --at-ico: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M6 6l12 12M18 6L6 18'/%3E%3C/svg%3E"); }
+:root[data-tema="atlas"] .opt.wrong::after { background: var(--bad); }
+:root[data-tema="atlas"] .opt:disabled { cursor: default; }
+:root[data-tema="atlas"] .card3d { border-radius: var(--at-r-3); background: var(--at-surface-2); border: 1px solid var(--line); padding: 22px 20px; min-height: 200px; }
+:root[data-tema="atlas"] .card3d .front { font-family: var(--at-serif); font-size: 20px; font-weight: 500; line-height: 1.3; text-wrap: balance; }
+:root[data-tema="atlas"] .grade { gap: 6px; }
+:root[data-tema="atlas"] .grade button { min-height: 54px; padding: 8px 0; border-radius: 8px; background: var(--card); border: 1px solid var(--line); font-weight: 600; font-size: 13.5px; }
+:root[data-tema="atlas"] .grade button small { font-weight: 400; color: var(--muted); font-size: var(--at-t-1); margin-top: 1px; }
+:root[data-tema="atlas"] .grade .g0 { border-color: rgba(244, 127, 132, 0.55); }
+:root[data-tema="atlas"] .grade .g1 { border-color: rgba(233, 187, 82, 0.55); }
+:root[data-tema="atlas"] .grade .g2 { border-color: rgba(143, 214, 122, 0.55); }
+:root[data-tema="atlas"] .grade .g3 { border-color: rgba(124, 196, 232, 0.55); }
+
+/* ───────── 8. progresso */
+:root[data-tema="atlas"] .dia { height: 36px; border-radius: var(--at-r-1); display: grid; place-items: center; font-size: var(--at-t-1); font-weight: 600; color: var(--dim); background: rgba(226, 238, 235, 0.05); }
+:root[data-tema="atlas"] .dia.on { color: #fff; background: rgba(79, 209, 188, calc(var(--v, 0.3) * 0.5)); box-shadow: inset 0 0 0 1px rgba(79, 209, 188, 0.35); }
+:root[data-tema="atlas"] .portao-trocar { min-height: 44px; margin-top: 16px; font-size: 13px; color: var(--muted); }
+
+/* ───────── 9. avisos, carregamento, diálogos */
+:root[data-tema="atlas"] .toast { padding: 10px 16px; border-radius: 8px; font-weight: 500; font-size: 13.5px; background: #e8eeec; color: #101314; border: 0; box-shadow: var(--at-sombra-2); max-width: min(92vw, 520px); }
+:root[data-tema="atlas"] .loading { top: calc(120px + var(--safe-t)); border-radius: 8px; font-size: var(--at-t-2); font-weight: 500; }
+:root[data-tema="atlas"] .loading .bar { height: 4px; }
+:root[data-tema="atlas"] .hint { border-radius: 8px; font-size: 13px; color: var(--text); padding: 10px 14px; }
+:root[data-tema="atlas"] .modal-bg { background: rgba(8, 10, 10, 0.72); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); padding: max(20px, var(--safe-t)) 20px max(20px, var(--safe-b)); }
+:root[data-tema="atlas"] .modal { width: min(520px, 100%); border-radius: var(--at-r-3); padding: 32px 32px 28px; background: var(--at-surface-1); border: 1px solid var(--at-line-forte); box-shadow: var(--at-sombra-2); text-align: left; }
+:root[data-tema="atlas"] .modal h1 { font-family: var(--at-serif); font-weight: 500; font-size: var(--at-t-7); line-height: 1.15; letter-spacing: -0.01em; margin-bottom: 16px; }
+:root[data-tema="atlas"] .modal p { color: var(--at-texto-2); font-size: 15.5px; line-height: 1.58; margin-bottom: 10px; max-width: 60ch; }
+:root[data-tema="atlas"] .modal .gestos { margin: 20px 0 24px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+:root[data-tema="atlas"] .marco { position: absolute; z-index: 70; left: calc(var(--nav) + var(--safe-l) + 68px); bottom: calc(12px + var(--safe-b)); width: min(440px, calc(100vw - var(--nav) - var(--panel-w) - 96px)); display: flex; align-items: flex-start; gap: 8px; padding: 14px 8px 14px 16px; border-radius: var(--at-r-2); background: var(--at-surface-2); border: 1px solid var(--at-accent-line); box-shadow: var(--at-sombra-2); }
+:root[data-tema="atlas"] .marco-txt { flex: 1; min-width: 0; }
+:root[data-tema="atlas"] .marco-txt b { display: block; font-weight: 600; font-size: var(--at-t-4); line-height: 1.3; }
+:root[data-tema="atlas"] .marco-txt p { margin-top: 4px; font-size: 13.5px; line-height: 1.5; color: var(--at-texto-2); }
+:root[data-tema="atlas"] .marco .iconbtn { margin-top: -6px; }
+:root[data-tema="atlas"] .splash { background: radial-gradient(90% 80% at 50% 42%, #23292b 0%, #171b1c 55%, #101314 100%); }
+:root[data-tema="atlas"] .splash .brand { width: 56px; height: 56px; border-radius: var(--at-r-3); font-size: 30px; margin: 0 auto 20px; }
+:root[data-tema="atlas"] .splash h1 { font-family: var(--at-serif); font-weight: 500; font-size: 26px; letter-spacing: -0.005em; margin-bottom: 6px; }
+:root[data-tema="atlas"] .splash .muted { font-size: var(--at-t-3); }
+:root[data-tema="atlas"] .splash .bar { width: 200px; height: 3px; margin: 22px auto 0; }
+
+/* ───────── 10. portão do nome */
+:root[data-tema="atlas"] .portao { place-items: center; padding: max(28px, var(--safe-t)) max(28px, var(--safe-r)) max(28px, var(--safe-b)) max(28px, var(--safe-l)); overflow-y: auto; background: radial-gradient(110% 90% at 30% 30%, #1d2223 0%, #131718 55%, #101314 100%); }
+:root[data-tema="atlas"] .portao-quadro { width: min(900px, 100%); display: grid; grid-template-columns: minmax(0, 400px) minmax(0, 1fr); grid-template-areas: 'marca marca' 'form acervo' 'estado estado'; column-gap: 80px; row-gap: 48px; align-items: start; }
+:root[data-tema="atlas"] .portao-marca { grid-area: marca; display: flex; align-items: center; gap: 12px; font-size: var(--at-t-4); font-weight: 500; color: var(--muted); }
+:root[data-tema="atlas"] .portao-marca .brand { width: 32px; height: 32px; margin: 0; border-radius: 8px; font-size: 18px; }
+:root[data-tema="atlas"] .portao-form { grid-area: form; width: auto; gap: 0; text-align: left; }
+:root[data-tema="atlas"] .portao-rotulo { font-family: var(--at-serif); font-weight: 500; font-size: 34px; line-height: 1.12; letter-spacing: -0.012em; }
+:root[data-tema="atlas"] .portao-ajuda { margin-top: 12px; font-size: var(--at-t-3); line-height: 1.5; color: var(--muted); max-width: 40ch; }
+:root[data-tema="atlas"] .portao-campo { height: 52px; margin-top: 28px; border-radius: var(--at-r-2); border: 1px solid var(--at-line-forte); background: rgba(0, 0, 0, 0.28); padding: 0 16px; font-size: 17px; text-align: left; }
+:root[data-tema="atlas"] .portao-campo::placeholder { color: var(--dim); }
+:root[data-tema="atlas"] .portao-campo:focus-visible { border-color: var(--accent); outline: 2px solid rgba(79, 209, 188, 0.35); outline-offset: 0; }
+:root[data-tema="atlas"] .portao-botao { height: 52px; margin-top: 12px; border-radius: var(--at-r-2); background: var(--accent); color: var(--at-accent-ink); font-weight: 600; font-size: 16px; transition: background var(--at-dur-1), color var(--at-dur-1); }
+:root[data-tema="atlas"] .portao-botao:disabled { opacity: 1; background: var(--at-surface-3); color: var(--dim); cursor: default; }
+:root[data-tema="atlas"] .portao-acervo { grid-area: acervo; padding-left: 40px; border-left: 1px solid var(--line); align-self: stretch; }
+:root[data-tema="atlas"] .portao-acervo p { font-size: var(--at-t-4); line-height: 1.5; color: var(--at-texto-2); max-width: 34ch; }
+:root[data-tema="atlas"] .portao-acervo dl { margin: 20px 0 0; }
+:root[data-tema="atlas"] .portao-acervo dl > div { display: grid; grid-template-columns: 72px minmax(0, 1fr); column-gap: 16px; align-items: baseline; padding: 10px 0; border-top: 1px solid var(--line); }
+:root[data-tema="atlas"] .portao-acervo dt { font-size: 20px; font-weight: 500; text-align: right; color: var(--text); }
+:root[data-tema="atlas"] .portao-acervo dd { margin: 0; font-size: var(--at-t-3); color: var(--muted); }
+:root[data-tema="atlas"] .portao-estado { grid-area: estado; display: flex; align-items: center; gap: 12px; font-size: var(--at-t-2); color: var(--dim); }
+:root[data-tema="atlas"] .portao-estado .bar { width: 120px; height: 3px; flex: none; }
+:root[data-tema="atlas"] .portao-estado .bar > i { transition: width var(--at-dur-3) linear; }
+
+/* ───────── resposta ao ponteiro (mouse) */
+@media (hover: hover) {
+  :root[data-tema="atlas"] .nav button.tab:hover { color: var(--text); }
+  :root[data-tema="atlas"] .btn:hover, :root[data-tema="atlas"] .views button:hover, :root[data-tema="atlas"] button.tag:hover, :root[data-tema="atlas"] .tile:hover, :root[data-tema="atlas"] .opt:not(:disabled):hover, :root[data-tema="atlas"] .grade button:hover, :root[data-tema="atlas"] .legenda button:hover { background: var(--card-hi); }
+  :root[data-tema="atlas"] .btn.on:hover { background: rgba(79, 209, 188, 0.2); }
+  :root[data-tema="atlas"] .btn.primary:hover, :root[data-tema="atlas"] .portao-botao:not(:disabled):hover { background: #6adccb; }
+  :root[data-tema="atlas"] .tbtn:hover, :root[data-tema="atlas"] .iconbtn:hover, :root[data-tema="atlas"] .results button:hover, :root[data-tema="atlas"] .panel-toggle:hover { background: var(--card-hi); color: var(--text); }
+  :root[data-tema="atlas"] .tbtn.on:hover, :root[data-tema="atlas"] .iconbtn.on:hover { color: var(--accent); }
+  :root[data-tema="atlas"] .tbtn.modo:hover { background: #6adccb; color: var(--at-accent-ink); }
+  :root[data-tema="atlas"] button.row:hover, :root[data-tema="atlas"] .list > button.row:hover { background: var(--card-hi); }
+  :root[data-tema="atlas"] .faixa button:not(.on):hover, :root[data-tema="atlas"] .seg button:not(.on):hover, :root[data-tema="atlas"] .subtabs button:not(.on):hover { color: var(--text); }
+  :root[data-tema="atlas"] .portao-trocar:hover { color: var(--text); }
+  :root[data-tema="atlas"] .pbody::-webkit-scrollbar, :root[data-tema="atlas"] .pop::-webkit-scrollbar, :root[data-tema="atlas"] .results::-webkit-scrollbar { width: 10px; }
+  :root[data-tema="atlas"] .pbody::-webkit-scrollbar-thumb, :root[data-tema="atlas"] .pop::-webkit-scrollbar-thumb, :root[data-tema="atlas"] .results::-webkit-scrollbar-thumb { background: rgba(226, 238, 235, 0.16); border-radius: 99px; border: 3px solid transparent; background-clip: padding-box; }
+}
+
+/* ───────── 11. retrato / telas estreitas: navegação embaixo, painel como folha */
+@media (max-aspect-ratio: 1/1), (max-width: 760px) {
+  :root[data-tema="atlas"] { --panel-w: 0px; }
+  :root[data-tema="atlas"] .nav { padding: 3px 4px var(--safe-b); gap: 0; background: var(--at-surface-1); border-right: 0; border-top: 1px solid var(--line); }
+  :root[data-tema="atlas"] .nav button.tab { width: auto; min-height: 54px; padding: 7px 0 5px; font-size: 10px; letter-spacing: -0.01em; border-radius: 8px; }
+  :root[data-tema="atlas"] .top { left: calc(10px + var(--safe-l)); right: calc(64px + var(--safe-r)); top: calc(10px + var(--safe-t)); }
+  :root[data-tema="atlas"] .app:has(.panel:not(.closed)) .top { right: calc(10px + var(--safe-r)); }
+  :root[data-tema="atlas"] .searchbox { width: min(340px, 100%); }
+  :root[data-tema="atlas"] .panel-toggle { top: calc(10px + var(--safe-t)); right: calc(10px + var(--safe-r)); }
+  :root[data-tema="atlas"] .rapido, :root[data-tema="atlas"] .app:has(.panel.closed) .rapido { left: calc(10px + var(--safe-l)); right: calc(10px + var(--safe-r)); top: calc(62px + var(--safe-t)); }
+  :root[data-tema="atlas"] .tools { left: calc(10px + var(--safe-l)); bottom: auto; top: calc(116px + var(--safe-t)); gap: 6px; }
+  :root[data-tema="atlas"] .tools .grp:nth-child(2) .tbtn:nth-child(-n+2) { display: none; }
+  :root[data-tema="atlas"] .tools .grp:nth-child(2) .tbtn:nth-child(3) { border-top: 0; }
+  :root[data-tema="atlas"] .pop { left: calc(62px + var(--safe-l)); right: auto; bottom: auto; top: calc(116px + var(--safe-t)); width: min(328px, calc(100vw - 72px)); max-height: calc(100dvh - 200px); }
+  :root[data-tema="atlas"] .legenda, :root[data-tema="atlas"] .app:has(.panel.closed) .legenda { left: calc(10px + var(--safe-l)); right: calc(10px + var(--safe-r)); bottom: auto; top: calc(116px + var(--safe-t)); margin-left: 52px; }
+  :root[data-tema="atlas"] .barra-ocultar, :root[data-tema="atlas"] .app:has(.panel.closed) .barra-ocultar { left: 10px; right: 10px; bottom: calc(72px + var(--safe-b)); }
+  :root[data-tema="atlas"] .panel { top: auto; left: 0; right: 0; bottom: calc(62px + var(--safe-b)); width: auto; height: 42vh; padding: 0; border: 0; border-top: 1px solid var(--at-line-forte); border-radius: var(--at-r-3) var(--at-r-3) 0 0; box-shadow: 0 -12px 32px -12px rgba(0, 0, 0, 0.6); }
+  :root[data-tema="atlas"] .panel.closed { transform: translateY(calc(100% + 80px)); }
+  :root[data-tema="atlas"] .phead { padding: 14px 12px 12px 16px; }
+  :root[data-tema="atlas"] .phead h2 { font-size: 20px; }
+  :root[data-tema="atlas"] .phead .sub + .sub { display: none; }
+  :root[data-tema="atlas"] .pbody { padding: 16px 16px 40px; }
+  :root[data-tema="atlas"] .peca-ativa { top: -16px; margin: -16px -16px 0; padding: 12px 16px; }
+  :root[data-tema="atlas"] .marco { left: calc(10px + var(--safe-l)); right: calc(10px + var(--safe-r)); bottom: calc(72px + var(--safe-b)); width: auto; }
+  :root[data-tema="atlas"] .modal { padding: 24px 20px 20px; }
+  :root[data-tema="atlas"] .modal h1 { font-size: 26px; }
+  :root[data-tema="atlas"] .loading { top: calc(116px + var(--safe-t)); }
+}
+@media (max-width: 760px) {
+  :root[data-tema="atlas"] .portao { place-items: start center; padding-top: max(24px, var(--safe-t)); }
+  :root[data-tema="atlas"] .portao-quadro { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'marca' 'form' 'acervo' 'estado'; row-gap: 32px; max-width: 440px; }
+  :root[data-tema="atlas"] .portao-rotulo { font-size: 28px; }
+  :root[data-tema="atlas"] .portao-campo { margin-top: 20px; }
+  :root[data-tema="atlas"] .portao-acervo { padding-left: 0; border-left: 0; }
+  :root[data-tema="atlas"] .portao-acervo dl { display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; margin-top: 16px; }
+  :root[data-tema="atlas"] .portao-acervo dl > div { grid-template-columns: minmax(0, 1fr); }
+  :root[data-tema="atlas"] .portao-acervo dt { text-align: left; }
+}

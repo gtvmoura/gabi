@@ -4,6 +4,7 @@ import { musculos, nomePt, ossos, resolver, roteiros } from '../content';
 import { MACRO, macroDe } from '../lib/regioes';
 import { usePerfil } from '../content/recados';
 import { Icon } from './icons';
+import { Chama } from './Extras';
 import { Sec } from './Ficha';
 import { abrirChave } from './Search';
 
@@ -46,17 +47,17 @@ export function Progresso() {
 
   return (
     <>
-      <div className="phead"><div className="ttl"><h2>{perfil.gabi ? `Progresso da ${perfil.nome}` : 'Seu progresso'}</h2><div className="sub">Um pouquinho por dia vai longe</div></div><button className="iconbtn" onClick={() => st.setPanel(false)} aria-label="Fechar"><Icon n="fechar" /></button></div>
+      <div className="phead"><div className="ttl"><h2>{perfil.gabi ? `Progresso da ${perfil.nome}` : 'Seu progresso'}</h2><div className="sub">{perfil.gabi ? 'Um pouquinho por dia vai longe' : 'Estudo registrado neste aparelho'}</div></div><button className="iconbtn" onClick={() => st.setPanel(false)} aria-label="Fechar"><Icon n="fechar" /></button></div>
       <div className="pbody">
         <div className="grid2">
-          <div className="stat"><div className="n">{seq} <span style={{ fontSize: 18 }}>🔥</span></div><div className="l">dia{seq === 1 ? '' : 's'} seguido{seq === 1 ? '' : 's'}</div></div>
+          <div className="stat"><div className="n">{seq} <Chama /></div><div className="l">dia{seq === 1 ? '' : 's'} seguido{seq === 1 ? '' : 's'}</div></div>
           <div className="stat"><div className="n">{totalEst}</div><div className="l">itens estudados</div></div>
           <div className="stat"><div className="n">{quizTot ? Math.round((quizOk / quizTot) * 100) + '%' : '—'}</div><div className="l">acertos no quiz ({quizOk}/{quizTot})</div></div>
           <div className="stat"><div className="n">{cartoes}</div><div className="l">flashcards em estudo</div></div>
         </div>
         <Sec t="Últimas 3 semanas">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: 6 }}>
-            {dias.map((d) => { const v = prog.dias[d.k] ?? 0; return <div key={d.k} style={{ aspectRatio: '1', borderRadius: 9, display: 'grid', placeItems: 'center', fontSize: 11, fontWeight: 700, color: v ? '#fff' : 'var(--dim)', background: v ? `rgba(255, 93, 143, ${Math.min(0.9, 0.3 + v * 0.04)})` : 'rgba(255,255,255,0.05)' }}>{d.d}</div>; })}
+            {dias.map((d) => { const v = prog.dias[d.k] ?? 0; if (!perfil.gabi) return <div key={d.k} className={'dia' + (v ? ' on' : '')} style={{ ['--v' as string]: Math.min(1, 0.25 + v * 0.05) }}>{d.d}</div>; return <div key={d.k} style={{ aspectRatio: '1', borderRadius: 9, display: 'grid', placeItems: 'center', fontSize: 11, fontWeight: 700, color: v ? '#fff' : 'var(--dim)', background: v ? `rgba(255, 93, 143, ${Math.min(0.9, 0.3 + v * 0.04)})` : 'rgba(255,255,255,0.05)' }}>{d.d}</div>; })}
           </div>
         </Sec>
         <Sec t="Por região (músculos e ossos)">

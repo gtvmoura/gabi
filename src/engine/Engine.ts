@@ -11,7 +11,7 @@ import type { MovPlayer } from './Movimento';
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import type { Cat, Indexed, Side } from '../data/manifest';
-import { CAT_LAYER, layerOf, CAT_OPACITY, CAT_ROUGHNESS, COLORS, DEFAULT_LAYERS, LAYER_FILE, colorFor, type LayerId, type LayerState } from './palette';
+import { CAT_LAYER, layerOf, CAT_OPACITY, CAT_ROUGHNESS, COLORS, CORES_TEMA, DEFAULT_LAYERS, LAYER_FILE, colorFor, type LayerId, type LayerState } from './palette';
 
 export type ViewName = 'anterior' | 'posterior' | 'direita' | 'esquerda' | 'superior' | 'inferior';
 export interface Pick { si: number; side: Side; meshId: string; point: Vector3; ins?: string; pin?: string }
@@ -294,6 +294,16 @@ export class Engine {
 
   // ------------------------------------------------------------------ materiais
 
+  private cores = CORES_TEMA.gabi;
+  /** Troca as cores de marca do 3D conforme o tema; os materiais já criados são atualizados no lugar. */
+  setTema(tema: 'gabi' | 'atlas') {
+    this.cores = CORES_TEMA[tema] ?? CORES_TEMA.gabi;
+    (this.mats.get('sel') as MeshStandardMaterial | undefined)?.emissive.set(this.cores.selecao);
+    (this.mats.get('xray') as MeshBasicMaterial | undefined)?.color.set(this.cores.raioX);
+    (this.mats.get('pin:false') as MeshBasicMaterial | undefined)?.color.set(this.cores.pino);
+    this.dirty = true;
+  }
+
   private mat<T extends Material>(key: string, make: () => T): T {
     let m = this.mats.get(key);
     if (!m) { m = make(); this.mats.set(key, m); }
@@ -340,7 +350,7 @@ export class Engine {
   }
   private selMat(): Material {
     // seleção discreta: mantém a cor natural da estrutura e acrescenta um brilho rosado suave
-    return this.mat('sel', () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.45, emissive: new Color('#ff6f9f'), emissiveIntensity: 0.22, side: DoubleSide }));
+    return this.mat('sel', () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.45, emissive: new Color(this.cores.selecao), emissiveIntensity: 0.22, side: DoubleSide }));
   }
 
   private tintMat(color: string): Material {
@@ -411,7 +421,7 @@ export class Engine {
     for (const x of this.xray) x.parent?.remove(x);
     this.xray = [];
     if (this.selected) {
-      const xm = this.mat('xray', () => new MeshBasicMaterial({ color: new Color('#ff9cc0'), transparent: true, opacity: 0.13, depthTest: false, depthWrite: false }));
+      const xm = this.mat('xray', () => new MeshBasicMaterial({ color: new Color(this.cores.raioX), transparent: true, opacity: 0.13, depthTest: false, depthWrite: false }));
       for (const it of this.byStruct.get(this.selected.si) ?? []) {
         if (!it.mesh.visible || it.mesh.material !== sel) continue;
         const x = new Mesh(it.mesh.geometry, xm);
@@ -477,7 +487,7 @@ export class Engine {
   }
   private pinGeo: SphereGeometry | null = null;
   private pinMat(active: boolean): Material {
-    return this.mat('pin:' + active, () => new MeshBasicMaterial({ color: new Color(active ? COLORS.pinActive : COLORS.pin), depthTest: true }));
+    return this.mat('pin:' + active, () => new MeshBasicMaterial({ color: new Color(active ? COLORS.pinActive : this.cores.pino), depthTest: true }));
   }
   setActivePin(id: string | null, showAll = this.showPinLabels) {
     this.activePin = id;

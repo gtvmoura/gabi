@@ -6,7 +6,7 @@ import { MACRO, macroDe, type MacroRegiao } from '../lib/regioes';
 import { sample, shuffle } from '../lib/text';
 import type { LayerId, LayerState } from '../engine/palette';
 import { Icon } from './icons';
-import { Confete } from './Extras';
+import { Chama, Confete } from './Extras';
 import { abrirChave } from './Search';
 
 type Cat = 'ossos' | 'musculos' | 'ligamentos' | 'nervos' | 'arterias' | 'orgaos' | 'acidentes';
@@ -199,7 +199,7 @@ export function Acerte({ onExit }: { onExit: () => void }) {
         <div className="pbody">
           <div className="grid2">
             <div className="stat"><div className="n">{certos}<span className="muted" style={{ fontSize: 16 }}> / {n}</span></div><div className="l">acertos</div></div>
-            <div className="stat"><div className="n">{melhorSeq} <span style={{ fontSize: 18 }}>🔥</span></div><div className="l">maior sequência</div></div>
+            <div className="stat"><div className="n">{melhorSeq} <Chama /></div><div className="l">maior sequência</div></div>
           </div>
           <div className="tip">{novo ? <><b>Novo recorde!</b> {certos} acertos.{mimo}</> : <>Recorde nesta modalidade: <b>{rec}</b> acertos.</>}</div>
           {erradas.length > 0 && <div className="sec"><h3>Para revisar</h3><div className="tags">{[...new Map(erradas.map((a) => [a.nome, a])).values()].map((a) => <button key={a.nome} className="tag" onClick={() => abrirChave(a.key)}>{a.nome}</button>)}</div></div>}
@@ -216,7 +216,7 @@ export function Acerte({ onExit }: { onExit: () => void }) {
   return (
     <>
       <div className="phead"><button className="iconbtn" onClick={terminar} aria-label="Encerrar"><Icon n="fechar" /></button>
-        <div className="ttl"><div className="sub">{ritmo === 'relogio' ? <b style={{ color: tempo <= 10 ? 'var(--bad)' : 'var(--text)', fontSize: 16 }}>{tempo}s</b> : <>Pergunta {Math.min(n + (resp === null ? 1 : 0), 10)} de 10</>} · {certos} certa{certos === 1 ? '' : 's'}{seq >= 2 ? ` · ${seq} seguidas 🔥` : ''}</div>
+        <div className="ttl"><div className="sub">{ritmo === 'relogio' ? <b style={{ color: tempo <= 10 ? 'var(--bad)' : 'var(--text)', fontSize: 16 }}>{tempo}s</b> : <>Pergunta {Math.min(n + (resp === null ? 1 : 0), 10)} de 10</>} · {certos} certa{certos === 1 ? '' : 's'}{seq >= 2 ? ` · ${seq} seguidas${mimo ? ' 🔥' : ''}` : ''}</div>
           <div className="bar" style={{ marginTop: 8 }}><i style={{ width: ritmo === 'relogio' ? `${(tempo / 60) * 100}%` : `${(n / 10) * 100}%` }} /></div></div></div>
       <div className="pbody">
         {modo === 'tocar' ? (

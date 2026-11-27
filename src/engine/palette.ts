@@ -102,6 +102,13 @@ export function colorFor(mat: string, s: Struct): Color {
   return tmp.set('#cfcfcf').clone();
 }
 
+/** Cores de marca usadas dentro do 3D (seleção, raio-x, pinos). O padrão é o tema original. */
+export interface CoresTema { selecao: string; raioX: string; pino: string }
+export const CORES_TEMA: Record<'gabi' | 'atlas', CoresTema> = {
+  gabi: { selecao: '#ff6f9f', raioX: '#ff9cc0', pino: '#ff7aa8' },
+  atlas: { selecao: '#3fd6c0', raioX: '#8ff0e0', pino: '#5fe0cd' },
+};
+
 export const COLORS = {
   select: '#39c2f0',
   origin: '#f0434a',

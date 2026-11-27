@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { rt, useStore } from '../store';
-import { perfilAtual } from '../content/recados';
+import { perfilAtual, usePerfil } from '../content/recados';
 import { mapaInervacao } from '../lib/inervacao';
 import { Icon } from './icons';
 import { DEFAULT_LAYERS, LAYERS, type LayerId, type LayerState } from '../engine/palette';
@@ -21,8 +21,17 @@ export function LegendaInervacao() {
   );
 }
 
-/** Confete discreto para as conquistas. */
+/** Confete discreto para as conquistas. No tema neutro não há confete. */
 export function Confete() {
+  const { gabi } = usePerfil();
+  return gabi ? <ConfeteCanvas /> : null;
+}
+/** Marca de sequência: emoji no tema original, ícone desenhado no tema neutro. */
+export function Chama({ size = 18 }: { size?: number }) {
+  const { gabi } = usePerfil();
+  return gabi ? <span style={{ fontSize: size }}>🔥</span> : <span className="chama"><Icon n="fogo" size={size} /></span>;
+}
+function ConfeteCanvas() {
   const ref = useRef<HTMLCanvasElement>(null);
   useEffect(() => {
     const c = ref.current!; const ctx = c.getContext('2d')!;
@@ -68,12 +77,13 @@ export async function salvarImagem(titulo: string) {
   const c = document.createElement('canvas'); c.width = src.width; c.height = src.height;
   const g = c.getContext('2d')!;
   const grad = g.createRadialGradient(c.width / 2, c.height * 0.35, 0, c.width / 2, c.height * 0.35, Math.max(c.width, c.height) * 0.8);
-  grad.addColorStop(0, '#2b3147'); grad.addColorStop(0.6, '#171a26'); grad.addColorStop(1, '#0d0f16');
+  const fundo = perfil.gabi ? ['#2b3147', '#171a26', '#0d0f16'] : ['#343b3d', '#1c2122', '#101314'];
+  grad.addColorStop(0, fundo[0]); grad.addColorStop(0.6, fundo[1]); grad.addColorStop(1, fundo[2]);
   g.fillStyle = grad; g.fillRect(0, 0, c.width, c.height);
   g.drawImage(src, 0, 0);
   const k = c.width / 1200;
   g.font = `700 ${Math.round(26 * k)}px system-ui, sans-serif`; g.fillStyle = '#fff'; g.fillText(titulo, 28 * k, c.height - 52 * k);
-  g.font = `500 ${Math.round(16 * k)}px system-ui, sans-serif`; g.fillStyle = '#ff7aa8'; g.fillText(perfil.appNome, 28 * k, c.height - 26 * k);
+  g.font = `500 ${Math.round(16 * k)}px system-ui, sans-serif`; g.fillStyle = perfil.gabi ? '#ff7aa8' : '#a7b1ae'; g.fillText(perfil.appNome, 28 * k, c.height - 26 * k);
   const blob: Blob | null = await new Promise((r) => c.toBlob(r, 'image/png'));
   if (!blob) return;
   const file = new File([blob], `${perfil.arquivo}.png`, { type: 'image/png' });
@@ -132,4 +142,13 @@ export function BarraOcultar() {
       <button className="btn primary" onClick={() => useStore.setState({ modoOcultar: false })}>Concluir</button>
     </div>
   );
+}
+
+/** Gestos do modelo 3D, conforme o aparelho (toque ou mouse). Usado só no tema neutro. */
+export function Gestos() {
+  const mouse = typeof window !== 'undefined' && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const g: [string, string][] = mouse
+    ? [['Arrastar', 'gira o modelo'], ['Rolagem', 'aproxima e afasta'], ['Botão direito', 'move o modelo'], ['Clique', 'seleciona e abre a ficha'], ['Clique duplo', 'aproxima do ponto']]
+    : [['Um dedo', 'gira o modelo'], ['Dois dedos', 'aproximam (pinça) e movem'], ['Toque', 'seleciona e abre a ficha'], ['Toque duplo', 'aproxima do ponto']];
+  return <dl className="gestos">{g.map(([a, b]) => <div key={a}><dt>{a}</dt><dd>{b}</dd></div>)}</dl>;
 }
