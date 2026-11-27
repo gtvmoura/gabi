@@ -150,7 +150,7 @@
 :root[data-tema="atlas"] .seg button { min-width: 40px; height: 36px; padding: 0 10px; border-radius: var(--at-r-1); font-size: var(--at-t-2); font-weight: 500; color: var(--muted); position: relative; }
 :root[data-tema="atlas"] .seg button::after { content: ''; position: absolute; inset: -4px 0; }
 :root[data-tema="atlas"] .seg button.on { background: var(--at-surface-3); color: var(--text); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 0 0 1px var(--line); }
-:root[data-tema="atlas"] .seg.wide button { height: 40px; font-size: var(--at-t-3); }
+:root[data-tema="atlas"] .seg.wide button { height: 40px; min-width: 0; padding: 0 6px; font-size: 13.5px; white-space: nowrap; }
 :root[data-tema="atlas"] .views { gap: 6px; }
 :root[data-tema="atlas"] .views button { height: 44px; border-radius: 8px; background: var(--card); font-size: var(--at-t-2); font-weight: 500; }
 :root[data-tema="atlas"] .legenda { left: calc(var(--nav) + var(--safe-l) + 68px); right: calc(var(--panel-w) + 16px); bottom: calc(12px + var(--safe-b)); border-radius: var(--at-r-2); padding: 4px 6px 4px 12px; font-size: var(--at-t-2); scrollbar-width: none; }
@@ -221,6 +221,7 @@
 :root[data-tema="atlas"] .kv .v small { color: var(--muted); font-size: var(--at-t-2); margin-top: 2px; }
 :root[data-tema="atlas"] .oiia > .kv { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 12px; align-items: baseline; background: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; padding: 11px 0; }
 :root[data-tema="atlas"] .oiia > .kv .k { margin: 0; }
+:root[data-tema="atlas"] .oiia > .kv > :only-child { grid-column: 1 / -1; }
 :root[data-tema="atlas"] .oiia > .kv:not(.o):not(.i) .k::before { content: ''; flex: none; width: 8px; height: 8px; border-radius: 50%; background: transparent; }
 :root[data-tema="atlas"] .oiia > .kv.n .k::before { background: #f0c93c; }
 
@@ -317,6 +318,7 @@
 :root[data-tema="atlas"] .opt:disabled { cursor: default; }
 :root[data-tema="atlas"] .card3d { border-radius: var(--at-r-3); background: var(--at-surface-2); border: 1px solid var(--line); padding: 22px 20px; min-height: 200px; }
 :root[data-tema="atlas"] .card3d .front { font-family: var(--at-serif); font-size: 20px; font-weight: 500; line-height: 1.3; text-wrap: balance; }
+:root[data-tema="atlas"] .card3d .kv { background: none; border: 0; border-top: 1px solid var(--line); border-radius: 0; padding: 10px 0 2px; }
 :root[data-tema="atlas"] .grade { gap: 6px; }
 :root[data-tema="atlas"] .grade button { min-height: 54px; padding: 8px 0; border-radius: 8px; background: var(--card); border: 1px solid var(--line); font-weight: 600; font-size: 13.5px; }
 :root[data-tema="atlas"] .grade button small { font-weight: 400; color: var(--muted); font-size: var(--at-t-1); margin-top: 1px; }
@@ -331,7 +333,7 @@
 :root[data-tema="atlas"] .portao-trocar { min-height: 44px; margin-top: 16px; font-size: 13px; color: var(--muted); }
 
 /* ───────── 9. avisos, carregamento, diálogos */
-:root[data-tema="atlas"] .toast { padding: 10px 16px; border-radius: 8px; font-weight: 500; font-size: 13.5px; background: #e8eeec; color: #101314; border: 0; box-shadow: var(--at-sombra-2); max-width: min(92vw, 520px); }
+:root[data-tema="atlas"] .toast { padding: 10px 16px; border-radius: 8px; font-weight: 500; font-size: 13.5px; background: #e8eeec; color: #101314; border: 0; box-shadow: var(--at-sombra-2); width: max-content; max-width: min(92vw, 520px); text-align: center; }
 :root[data-tema="atlas"] .loading { top: calc(120px + var(--safe-t)); border-radius: 8px; font-size: var(--at-t-2); font-weight: 500; }
 :root[data-tema="atlas"] .loading .bar { height: 4px; }
 :root[data-tema="atlas"] .hint { border-radius: 8px; font-size: 13px; color: var(--text); padding: 10px 14px; }
@@ -341,6 +343,7 @@
 :root[data-tema="atlas"] .modal p { color: var(--at-texto-2); font-size: 15.5px; line-height: 1.58; margin-bottom: 10px; max-width: 60ch; }
 :root[data-tema="atlas"] .modal .gestos { margin: 20px 0 24px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 :root[data-tema="atlas"] .marco { position: absolute; z-index: 70; left: calc(var(--nav) + var(--safe-l) + 68px); bottom: calc(12px + var(--safe-b)); width: min(440px, calc(100vw - var(--nav) - var(--panel-w) - 96px)); display: flex; align-items: flex-start; gap: 8px; padding: 14px 8px 14px 16px; border-radius: var(--at-r-2); background: var(--at-surface-2); border: 1px solid var(--at-accent-line); box-shadow: var(--at-sombra-2); }
+:root[data-tema="atlas"] .app:has(.marco) .toast { bottom: calc(132px + var(--safe-b)); }
 :root[data-tema="atlas"] .marco-txt { flex: 1; min-width: 0; }
 :root[data-tema="atlas"] .marco-txt b { display: block; font-weight: 600; font-size: var(--at-t-4); line-height: 1.3; }
 :root[data-tema="atlas"] .marco-txt p { margin-top: 4px; font-size: 13.5px; line-height: 1.5; color: var(--at-texto-2); }
@@ -414,6 +417,7 @@
   :root[data-tema="atlas"] .pbody { padding: 16px 16px 40px; }
   :root[data-tema="atlas"] .peca-ativa { top: -16px; margin: -16px -16px 0; padding: 12px 16px; }
   :root[data-tema="atlas"] .marco { left: calc(10px + var(--safe-l)); right: calc(10px + var(--safe-r)); bottom: calc(72px + var(--safe-b)); width: auto; }
+  :root[data-tema="atlas"] .app:has(.marco) .toast { bottom: calc(210px + var(--safe-b)); }
   :root[data-tema="atlas"] .modal { padding: 24px 20px 20px; }
   :root[data-tema="atlas"] .modal h1 { font-size: 26px; }
   :root[data-tema="atlas"] .loading { top: calc(116px + var(--safe-t)); }

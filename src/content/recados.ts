@@ -111,5 +111,6 @@ export function aplicarPerfil(nome?: string | null): void {
   document.title = p.appNome;
   const meta = (name: string, v: string) => document.querySelector(`meta[name="${name}"]`)?.setAttribute('content', v);
   meta('apple-mobile-web-app-title', p.appNome);
+  meta('theme-color', p.gabi ? '#12141c' : '#101314');
   meta('description', p.gabi ? 'Atlas 3D de anatomia para Fisioterapia — feito para a Gabi.' : 'Atlas 3D de anatomia para Fisioterapia.');
 }
