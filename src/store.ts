@@ -161,11 +161,11 @@ export const useStore = create<State>()(
     }),
     {
       name: 'atlas-da-gabi',
-      version: 2,
-      // v1 não tinha nome: quem já tinha passado pelas boas-vindas é a própria Gabi, e para ela nada muda
+      version: 3,
+      // v3: todo mundo passa pelo portão de nome uma vez (o progresso fica); as boas-vindas voltam no perfil escolhido
       migrate: (old, v) => {
         const s = (old ?? {}) as { prog?: Partial<Progresso> };
-        if (v < 2 && s.prog?.bemVinda === true && !s.prog.nome) s.prog = { ...s.prog, nome: 'Gabi' };
+        if (v < 3 && s.prog) { const { nome: _n, ...resto } = s.prog; void _n; s.prog = { ...resto, bemVinda: false }; }
         return s as State;
       },
       partialize: (s) => ({ prog: s.prog, layers: s.layers, contorno: s.contorno }) as unknown as State,
