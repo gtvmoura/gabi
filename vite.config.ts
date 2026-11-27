@@ -27,7 +27,7 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png}', 'data/manifest.json'],
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2}', 'data/manifest.json'],
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
         runtimeCaching: [
           // modelos 3D e textos de apoio: ficam guardados depois do primeiro uso (funciona offline)

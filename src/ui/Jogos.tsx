@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { rt, useStore } from '../store';
+import { usePerfil } from '../content/recados';
 import { ART_NOME, MOV_NOME, musculos, resolver, structsDoMusculo, type Musculo } from '../content';
 import { CASOS } from '../content/casos';
 import { macroDe, MACRO } from '../lib/regioes';
@@ -8,6 +9,7 @@ import { Icon } from './icons';
 import { ChaveTags } from './Ficha';
 import { Confete } from './Extras';
 import { destacarChaves } from './Roteiros';
+import { useTroca } from './movimento';
 
 // ───────────────────────────── Quem sou eu?
 
@@ -31,6 +33,7 @@ function novaRodada(pool: Musculo[], usados: Set<string>): Rodada {
 }
 
 export function QuemSouEu({ onExit }: { onExit: () => void }) {
+  const perfil = usePerfil();
   const pool = useMemo(() => [...musculos.values()].filter((x) => x.origem && x.insercao && x.inervacao && (x.acoes?.length ?? 0) > 0 && x.palpacao && resolver(x.key, rt.m!).length), []);
   const TOTAL = 6;
   const [n, setN] = useState(0);
@@ -39,6 +42,7 @@ export function QuemSouEu({ onExit }: { onExit: () => void }) {
   const [vis, setVis] = useState(1);
   const [resp, setResp] = useState<string | null>(null);
   const [pontos, setPontos] = useState(0);
+  useTroca(n);
   const st = useStore.getState();
   useEffect(() => { useStore.setState({ sel: null, focus: null }); return () => { useStore.setState({ focus: null }); }; }, []);
   const vale = Math.max(1, r.pistas.length - vis + 1);
@@ -56,7 +60,7 @@ export function QuemSouEu({ onExit }: { onExit: () => void }) {
         {pontos >= max * 0.7 && <Confete />}
         <div className="phead"><div className="ttl"><h2>Quem sou eu?</h2><div className="sub">Fim de jogo</div></div></div>
         <div className="pbody">
-          <div className="stat center"><div className="n">{pontos} pontos</div><div className="l">{pontos >= max * 0.7 ? 'Detetive de músculos! 🕵️‍♀️💛' : pontos >= max * 0.4 ? 'Muito bom! Quanto menos pistas, mais pontos.' : 'Vale a revanche — você pega o jeito rápido.'}</div></div>
+          <div className="stat center"><div className="n">{pontos} pontos</div><div className="l">{pontos >= max * 0.7 ? perfil.gabi ? 'Detetive de músculos! 🕵️‍♀️💛' : 'Detetive de músculos!' : pontos >= max * 0.4 ? 'Muito bom! Quanto menos pistas, mais pontos.' : 'Vale a revanche — você pega o jeito rápido.'}</div></div>
           <button className="btn primary block" onClick={() => { usados.current.clear(); setN(0); setPontos(0); setVis(1); setResp(null); setR(novaRodada(pool, usados.current)); useStore.setState({ focus: null }); }}>Jogar de novo</button>
           <button className="btn block" onClick={onExit}>Voltar</button>
         </div>
@@ -81,6 +85,7 @@ export function QuemSouEu({ onExit }: { onExit: () => void }) {
 export function Casos({ onExit }: { onExit: () => void }) {
   const [id, setId] = useState<string | null>(null);
   const [resp, setResp] = useState<number | null>(null);
+  useTroca(id);
   const feitos = useStore((s) => s.prog.estudados);
   const st = useStore.getState();
   const c = CASOS.find((x) => x.id === id);

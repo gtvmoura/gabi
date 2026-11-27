@@ -39,7 +39,7 @@ export function Search() {
     abrirChave(h.key);
   };
 
-  const cor = (h: Hit) => (h.si !== undefined && rt.m ? LAYERS.find((l) => l.id === CAT_LAYER[rt.m!.structs[h.si!].c])?.cor : h.tipo === 'roteiro' ? '#ff7aa8' : h.tipo === 'teste' ? '#39c2f0' : '#b5473c') ?? '#888';
+  const cor = (h: Hit) => (h.si !== undefined && rt.m ? LAYERS.find((l) => l.id === CAT_LAYER[rt.m!.structs[h.si!].c])?.cor : h.tipo === 'roteiro' ? (document.documentElement.dataset.tema === 'atlas' ? '#4fd1bc' : '#ff7aa8') : h.tipo === 'teste' ? '#39c2f0' : '#b5473c') ?? '#888';
 
   return (
     <div className="searchbox">

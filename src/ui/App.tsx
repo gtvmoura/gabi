@@ -3,7 +3,7 @@ import { loadManifest } from '../data/manifest';
 import { Engine } from '../engine/Engine';
 import { rt, sequencia, useStore, type Tab } from '../store';
 import { syncEngine } from '../sync';
-import { BOAS_VINDAS, PERFIL, RECADOS } from '../content/recados';
+import { usePerfil } from '../content/recados';
 import { Icon } from './icons';
 import { Toolbar } from './Toolbar';
 import { Search } from './Search';
@@ -14,7 +14,9 @@ import { Movimentos } from './Movimentos';
 import { Clinica } from './Clinica';
 import { Treinar } from './Treinar';
 import { Progresso } from './Progresso';
-import { BarraOcultar, Confete, LegendaInervacao, VerRapido } from './Extras';
+import { Portao } from './Portao';
+import { useSaida } from './movimento';
+import { BarraOcultar, Confete, Gestos, LegendaInervacao, VerRapido } from './Extras';
 import { nomePt } from '../content';
 
 const TABS: { id: Tab; nome: string; ico: string }[] = [
@@ -49,11 +51,18 @@ export function App() {
   const toast = useStore((s) => s.toast);
   const recado = useStore((s) => s.recado);
   const bemVinda = useStore((s) => s.prog.bemVinda);
+  const semNome = useStore((s) => s.prog.nome === undefined);
+  const perfil = usePerfil();
   const focus = useStore((s) => s.focus);
   const fixo = useStore((s) => s.fixo);
   const quizPick = useStore((s) => s.quizPick);
   const sel = useStore((s) => s.sel);
   const portrait = usePortrait();
+  // tema atlas: avisos, diálogo e portão ficam montados durante a saída (classe .saindo); no tema original somem na hora
+  const aviso = useSaida(toast, 180, !perfil.gabi);
+  const marco = useSaida(recado, 200, !perfil.gabi);
+  const boas = useSaida(ready && !bemVinda && !semNome && !perfil.gabi, 200, !perfil.gabi);
+  const portao = useSaida(semNome, 360, !perfil.gabi);
 
   // inicialização do motor 3D
   useEffect(() => {
@@ -108,9 +117,24 @@ export function App() {
   useEffect(() => {
     const e = rt.engine; if (!e) return;
     const w = window.innerWidth, h = window.innerHeight;
-    if (portrait) e.setInsets({ left: 0, right: 0, top: 150, bottom: panelOpen ? h * 0.46 + 62 : 62 });
+    if (perfil.tema === 'atlas') {
+      // tema neutro: painel encostado na borda, faixa de camadas numa linha só, folha mais baixa no retrato
+      if (portrait) e.setInsets({ left: 0, right: 0, top: 116, bottom: panelOpen ? h * 0.42 + 62 : 62 });
+      else e.setInsets({ left: 76, right: panelOpen ? Math.min(420, w * 0.42) : 0, top: 112, bottom: 0 });
+    }
+    else if (portrait) e.setInsets({ left: 0, right: 0, top: 150, bottom: panelOpen ? h * 0.46 + 62 : 62 });
     else e.setInsets({ left: 76, right: panelOpen ? Math.min(420, w * 0.42) + 12 : 0, top: 112, bottom: 0 });
-  }, [panelOpen, portrait, ready]);
+  }, [panelOpen, portrait, ready, perfil.tema]);
+
+  // cores de marca dentro do 3D (seleção, pinos) acompanham o tema
+  useEffect(() => { rt.engine?.setTema(perfil.tema); }, [perfil.tema, ready]);
+
+  // enquanto o portão do nome está aberto, o app por trás não recebe foco nem toque
+  const raiz = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const els = [...(raiz.current?.children ?? [])].filter((x): x is HTMLElement => x instanceof HTMLElement && !x.classList.contains('portao'));
+    for (const x of els) x.inert = semNome;
+  });
 
   // progresso do primeiro carregamento
   const loadVals = Object.values(loading);
@@ -120,25 +144,25 @@ export function App() {
   // recados de marcos
   const prog = useStore((s) => s.prog);
   useEffect(() => {
-    if (!prog.bemVinda || recado) return;
+    if (!prog.bemVinda || !prog.nome || recado) return;
     const val = {
       estudados: Object.keys(prog.estudados).length, sequencia: sequencia(prog.dias),
       quizCertos: prog.quiz.reduce((a, q) => a + q.certos, 0), cartoes: Object.values(prog.srs).reduce((a, c) => a + c.reps + c.lapses, 0),
     };
-    const r = RECADOS.find((x) => !prog.marcos.includes(x.id) && val[x.quando.tipo] >= x.quando.n);
+    const r = perfil.recados.find((x) => !prog.marcos.includes(x.id) && val[x.quando.tipo] >= x.quando.n);
     if (r) { useStore.setState({ recado: { titulo: r.titulo, texto: r.texto } }); useStore.getState().patchProg((p) => ({ marcos: [...p.marcos, r.id] })); }
-  }, [prog, recado]);
+  }, [prog, recado, perfil]);
 
   useEffect(() => { if (!toast) return; const t = setTimeout(() => useStore.setState({ toast: null }), 2600); return () => clearTimeout(t); }, [toast]);
 
   const showFicha = tab === 'atlas' || (!!sel && !quizPick && tab !== 'treinar');
 
   return (
-    <div className="app">
+    <div className="app" ref={raiz}>
       <div className="stage" ref={host} />
 
       <nav className="nav">
-        <div className="brand">{PERFIL.nome.charAt(0)}</div>
+        <div className="brand">{perfil.gabi ? perfil.inicial : 'A'}</div>
         {TABS.map((t) => (
           <button key={t.id} className={'tab' + (tab === t.id ? ' on' : '')} onClick={() => { const st = useStore.getState(); if (st.tab === t.id) st.setPanel(!st.panelOpen); else { if (st.sel && t.id !== 'atlas') useStore.setState({ sel: null, pin: null, showIns: false, boneMap: false }); st.setTab(t.id); } }}>
             <Icon n={t.ico} size={22} />
@@ -178,40 +202,58 @@ export function App() {
       )}
       {ready && <LegendaInervacao />}
       {quizPick && <div className="hint glass">Toque na estrutura no modelo 3D</div>}
-      {toast && <div className="toast glass" key={toast.id}>{toast.msg}</div>}
+      {toast && perfil.gabi && <div className="toast glass" key={toast.id}>{toast.msg}</div>}
+      {aviso.item && !perfil.gabi && <div className={'toast glass' + (aviso.saindo ? ' saindo' : '')}>{aviso.item.msg}</div>}
 
       <div className={'splash' + (ready ? ' out' : '')}>
         <div className="box">
-          <div className="brand">{PERFIL.nome.charAt(0)}</div>
-          <h1>{PERFIL.appNome}</h1>
+          <div className="brand">{perfil.gabi ? perfil.inicial : 'A'}</div>
+          <h1>{perfil.appNome}</h1>
           <div className="muted">Preparando o atlas 3D…</div>
-          <div className="bar"><i style={{ width: `${Math.round(firstLoad * 100)}%` }} /></div>
+          <div className="bar"><i style={perfil.gabi ? { width: `${Math.round(firstLoad * 100)}%` } : { transform: `scaleX(${Math.min(1, Math.max(0, firstLoad)).toFixed(3)})` }} /></div>
         </div>
       </div>
 
-      {ready && !bemVinda && (
+      {boas.item && !perfil.gabi && (
+        <div className={'modal-bg' + (boas.saindo ? ' saindo' : '')}>
+          <div className="modal boas" role="dialog" aria-modal="true" aria-labelledby="boas-titulo">
+            <h1 id="boas-titulo">{perfil.boasVindas.titulo}</h1>
+            {perfil.boasVindas.texto.map((t, i) => <p key={i}>{t}</p>)}
+            <Gestos />
+            <button className="btn primary block" autoFocus onClick={() => useStore.getState().patchProg(() => ({ bemVinda: true }))}>Começar a explorar</button>
+          </div>
+        </div>
+      )}
+      {ready && !bemVinda && !semNome && perfil.gabi && (
         <div className="modal-bg">
           <div className="modal">
-            <h1>{BOAS_VINDAS.titulo}</h1>
-            {BOAS_VINDAS.texto.map((t, i) => <p key={i}>{t}</p>)}
-            <div className="sig">{PERFIL.assinatura}</div>
+            <h1>{perfil.boasVindas.titulo}</h1>
+            {perfil.boasVindas.texto.map((t, i) => <p key={i}>{t}</p>)}
+            {perfil.gabi && <div className="sig">{perfil.assinatura}</div>}
             <button className="btn primary block" onClick={() => useStore.getState().patchProg(() => ({ bemVinda: true }))}>Começar a explorar</button>
             <p className="small muted" style={{ marginTop: 14, marginBottom: 0 }}>Um dedo gira · dois dedos aproximam e movem · toque para selecionar · toque duplo para aproximar</p>
           </div>
         </div>
       )}
-      {recado && (
+      {marco.item && !perfil.gabi && (
+        <div className={'marco' + (marco.saindo ? ' saindo' : '')} role="status">
+          <div className="marco-txt"><b>{marco.item.titulo}</b><p>{marco.item.texto}</p></div>
+          <button className="iconbtn" aria-label="Fechar aviso" onClick={() => useStore.setState({ recado: null })}><Icon n="fechar" size={18} /></button>
+        </div>
+      )}
+      {recado && perfil.gabi && (
         <div className="modal-bg" onClick={() => useStore.setState({ recado: null })}>
           <Confete />
           <div className="modal">
-            <div style={{ fontSize: 44, marginBottom: 6 }}>💛</div>
+            {perfil.gabi && <div style={{ fontSize: 44, marginBottom: 6 }}>💛</div>}
             <h1>{recado.titulo}</h1>
             <p>{recado.texto}</p>
-            <div className="sig">{PERFIL.assinatura}</div>
+            {perfil.gabi && <div className="sig">{perfil.assinatura}</div>}
             <button className="btn primary block">Continuar</button>
           </div>
         </div>
       )}
+      {(semNome || portao.saindo) && <Portao carregado={firstLoad} pronto={ready} saindo={portao.saindo} />}
     </div>
   );
 }

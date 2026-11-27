@@ -2,10 +2,12 @@ import { useMemo, useRef, useState } from 'react';
 import { rt, sequencia, useStore, type Progresso as Prog } from '../store';
 import { musculos, nomePt, ossos, resolver, roteiros } from '../content';
 import { MACRO, macroDe } from '../lib/regioes';
-import { PERFIL } from '../content/recados';
+import { usePerfil } from '../content/recados';
 import { Icon } from './icons';
+import { Chama } from './Extras';
 import { Sec } from './Ficha';
 import { abrirChave } from './Search';
+import { useCrescer } from './movimento';
 
 const ARQUIVOS = ['skeleton', 'muscles', 'insertions', 'joints', 'nervous', 'vessels', 'viscera', 'lymph', 'regions'];
 
@@ -13,6 +15,7 @@ export function Progresso() {
   const m = rt.m!;
   const prog = useStore((s) => s.prog);
   const st = useStore.getState();
+  const perfil = usePerfil();
   const [off, setOff] = useState<string | null>(null);
   const file = useRef<HTMLInputElement>(null);
 
@@ -31,10 +34,10 @@ export function Progresso() {
 
   const exportar = () => {
     const blob = new Blob([JSON.stringify({ app: 'atlas-da-gabi', v: 1, prog }, null, 1)], { type: 'application/json' });
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `atlas-da-gabi-${new Date().toLocaleDateString('sv-SE')}.json`; a.click(); URL.revokeObjectURL(a.href);
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `${perfil.arquivo}-${new Date().toLocaleDateString('sv-SE')}.json`; a.click(); URL.revokeObjectURL(a.href);
   };
   const importar = async (f: File) => {
-    try { const j = JSON.parse(await f.text()); if (j.app !== 'atlas-da-gabi' || !j.prog) throw new Error(); useStore.setState({ prog: { ...prog, ...(j.prog as Prog) } }); st.say('Progresso restaurado ✓'); } catch { st.say('Arquivo inválido.'); }
+    try { const j = JSON.parse(await f.text()); if (j.app !== 'atlas-da-gabi' || !j.prog) throw new Error(); useStore.setState({ prog: { ...prog, ...(j.prog as Prog), nome: prog.nome } }); st.say('Progresso restaurado ✓'); } catch { st.say('Arquivo inválido.'); }
   };
   const baixarTudo = async () => {
     let n = 0;
@@ -43,19 +46,22 @@ export function Progresso() {
     setOff('Tudo salvo para uso offline ✓');
   };
 
+  const corpo = useRef<HTMLDivElement>(null);
+  useCrescer(corpo);
+
   return (
     <>
-      <div className="phead"><div className="ttl"><h2>Progresso da {PERFIL.nome}</h2><div className="sub">Um pouquinho por dia vai longe</div></div><button className="iconbtn" onClick={() => st.setPanel(false)} aria-label="Fechar"><Icon n="fechar" /></button></div>
-      <div className="pbody">
+      <div className="phead"><div className="ttl"><h2>{perfil.gabi ? `Progresso da ${perfil.nome}` : 'Seu progresso'}</h2><div className="sub">{perfil.gabi ? 'Um pouquinho por dia vai longe' : 'Estudo registrado neste aparelho'}</div></div><button className="iconbtn" onClick={() => st.setPanel(false)} aria-label="Fechar"><Icon n="fechar" /></button></div>
+      <div className="pbody" ref={corpo}>
         <div className="grid2">
-          <div className="stat"><div className="n">{seq} <span style={{ fontSize: 18 }}>🔥</span></div><div className="l">dia{seq === 1 ? '' : 's'} seguido{seq === 1 ? '' : 's'}</div></div>
+          <div className="stat"><div className="n">{seq} <Chama /></div><div className="l">dia{seq === 1 ? '' : 's'} seguido{seq === 1 ? '' : 's'}</div></div>
           <div className="stat"><div className="n">{totalEst}</div><div className="l">itens estudados</div></div>
           <div className="stat"><div className="n">{quizTot ? Math.round((quizOk / quizTot) * 100) + '%' : '—'}</div><div className="l">acertos no quiz ({quizOk}/{quizTot})</div></div>
           <div className="stat"><div className="n">{cartoes}</div><div className="l">flashcards em estudo</div></div>
         </div>
         <Sec t="Últimas 3 semanas">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: 6 }}>
-            {dias.map((d) => { const v = prog.dias[d.k] ?? 0; return <div key={d.k} style={{ aspectRatio: '1', borderRadius: 9, display: 'grid', placeItems: 'center', fontSize: 11, fontWeight: 700, color: v ? '#fff' : 'var(--dim)', background: v ? `rgba(255, 93, 143, ${Math.min(0.9, 0.3 + v * 0.04)})` : 'rgba(255,255,255,0.05)' }}>{d.d}</div>; })}
+            {dias.map((d) => { const v = prog.dias[d.k] ?? 0; if (!perfil.gabi) return <div key={d.k} className={'dia' + (v ? ' on' : '')} style={{ ['--v' as string]: Math.min(1, 0.25 + v * 0.05) }}>{d.d}</div>; return <div key={d.k} style={{ aspectRatio: '1', borderRadius: 9, display: 'grid', placeItems: 'center', fontSize: 11, fontWeight: 700, color: v ? '#fff' : 'var(--dim)', background: v ? `rgba(255, 93, 143, ${Math.min(0.9, 0.3 + v * 0.04)})` : 'rgba(255,255,255,0.05)' }}>{d.d}</div>; })}
           </div>
         </Sec>
         <Sec t="Por região (músculos e ossos)">
@@ -84,8 +90,10 @@ export function Progresso() {
         <Sec t="Sobre">
           <p className="small muted">Modelos 3D: Z-Anatomy (Gauthier Kervyn e colaboradores), derivado de BodyParts3D © The Database Center for Life Science — licença CC BY-SA 4.0 / CC BY-SA 2.1 JP. Textos de apoio em inglês: Wikipedia (CC BY-SA).</p>
           <p className="small muted" style={{ marginTop: 6 }}>O conteúdo em português é material de estudo e pode conter imprecisões: na dúvida, vale o livro-texto e o professor. Não substitui avaliação profissional.</p>
-          <p className="small" style={{ marginTop: 10, color: 'var(--accent)' }}>Feito com carinho para a {PERFIL.nome}. 💛</p>
+          {perfil.gabi && <p className="small" style={{ marginTop: 10, color: 'var(--accent)' }}>Feito com carinho para a {perfil.nome}. 💛</p>}
         </Sec>
+        {/* volta ao portão do nome sem mexer no progresso; as boas-vindas reaparecem com o nome novo */}
+        <button className="portao-trocar" onClick={() => st.patchProg(() => ({ nome: undefined, bemVinda: false }))}>Trocar nome</button>
       </div>
     </>
   );

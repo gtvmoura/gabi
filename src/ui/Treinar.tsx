@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { hoje, rt, useStore, type SrsCard } from '../store';
+import { usePerfil } from '../content/recados';
 import { Casos, QuemSouEu } from './Jogos';
 import { Acerte } from './Acerte';
 import { articulacoes, ligamentos, nervos } from '../content';
@@ -11,6 +12,7 @@ import { sample, shuffle } from '../lib/text';
 import { proximo, revisar, type Nota } from '../lib/srs';
 import { Icon } from './icons';
 import { abrirChave } from './Search';
+import { useTroca } from './movimento';
 
 type Modo = 'misto' | 'identificar' | 'localizar' | 'inervacao' | 'origem' | 'acao';
 const MODOS: { id: Modo; nome: string; desc: string }[] = [
@@ -87,6 +89,7 @@ function gerar(modo: Modo, reg: MacroRegiao | 'todas', n: number): Questao[] {
 
 function Quiz({ onExit, auto }: { onExit: () => void; auto?: number }) {
   const m = rt.m!;
+  const { mimo } = usePerfil();
   const [modo, setModo] = useState<Modo>('misto');
   const [reg, setReg] = useState<MacroRegiao | 'todas'>('todas');
   const [qs, setQs] = useState<Questao[] | null>(() => (auto ? gerar('misto', 'todas', auto * 2).filter((q) => q.tipo !== 'localizar').slice(0, auto) : null));
@@ -98,6 +101,7 @@ function Quiz({ onExit, auto }: { onExit: () => void; auto?: number }) {
   const q = qs && !fim ? qs[i] : null;
   const st = useStore.getState();
   const salvo = useRef(false);
+  useTroca(!qs ? 'config' : fim ? 'fim' : i);
 
   const limpar = () => { useStore.setState({ quizPick: null, sel: null, focus: null, pin: null }); };
   useEffect(() => () => limpar(), []);
@@ -154,7 +158,7 @@ function Quiz({ onExit, auto }: { onExit: () => void; auto?: number }) {
         {pct >= 90 && <Confete />}
         <div className="phead"><div className="ttl"><h2>{auto ? 'Desafio do dia' : 'Resultado'}</h2><div className="sub">{MODOS.find((x) => x.id === modo)?.nome}</div></div></div>
         <div className="pbody">
-          <div className="stat center"><div className="n">{certos} / {qs.length}</div><div className="l">{pct >= 90 ? 'Perfeito! Você arrasou. 💛' : pct >= 70 ? 'Muito bem! Está quase lá.' : pct >= 50 ? 'Bom começo — revise os erros abaixo.' : 'Faz parte. Revise com calma e tente de novo.'}</div><div className="bar" style={{ marginTop: 10 }}><i style={{ width: pct + '%' }} /></div></div>
+          <div className="stat center"><div className="n">{certos} / {qs.length}</div><div className="l">{pct >= 90 ? 'Perfeito! Você arrasou.' + mimo : pct >= 70 ? 'Muito bem! Está quase lá.' : pct >= 50 ? 'Bom começo — revise os erros abaixo.' : 'Faz parte. Revise com calma e tente de novo.'}</div><div className="bar" style={{ marginTop: 10 }}><i style={{ width: pct + '%' }} /></div></div>
           {erradas.length > 0 && <div className="sec"><h3>Para revisar</h3><div className="list">{erradas.map((e, k) => <button key={k} className="row" onClick={() => abrirChave(e.alvo)}><div className="main"><div className="t">{nomePt(e.alvo, m)}</div><div className="d clamp2">{e.prompt} {e.sub ?? ''}</div></div><Icon n="seta" size={16} /></button>)}</div></div>}
           {!auto && <button className="btn primary block" onClick={() => setQs(null)}>Nova rodada</button>}
           <button className="btn block" onClick={onExit}>Voltar</button>
@@ -209,6 +213,7 @@ function baralhos(): Baralho[] {
 
 function Flash({ onExit }: { onExit: () => void }) {
   const srs = useStore((s) => s.prog.srs);
+  const { mimo } = usePerfil();
   const st = useStore.getState();
   const bs = useMemo(() => baralhos().map((b) => ({ ...b, lista: b.cartoes() })), []);
   const [fila, setFila] = useState<Cartao[] | null>(null);
@@ -221,7 +226,7 @@ function Flash({ onExit }: { onExit: () => void }) {
     const devidos = lista.filter((c) => srs[c.id] && srs[c.id].due <= Date.now());
     const novos = sample(lista.filter((c) => !srs[c.id]), Math.max(0, 15 - Math.min(devidos.length, 10)));
     const f = [...shuffle(devidos).slice(0, 25), ...novos];
-    if (!f.length) { st.say('Tudo em dia neste baralho. Volte amanhã! 💛'); return; }
+    if (!f.length) { st.say('Tudo em dia neste baralho. Volte amanhã!' + mimo); return; }
     setFeitos(0); setVirado(false); setFila(f);
   };
   const dar = (n: Nota) => {
@@ -232,6 +237,8 @@ function Flash({ onExit }: { onExit: () => void }) {
     setFeitos((x) => x + 1); setVirado(false);
     setFila(n === 0 ? [...fila!.slice(1), c] : fila!.slice(1));
   };
+
+  useTroca(fila && fila.length ? `${fila[0].id}:${feitos}` : 'baralhos');
 
   if (fila && fila.length) {
     const c = fila[0];
@@ -258,7 +265,7 @@ function Flash({ onExit }: { onExit: () => void }) {
     <>
       <div className="phead"><button className="iconbtn" onClick={onExit} aria-label="Voltar"><Icon n="voltar" /></button><div className="ttl"><h2>Flashcards</h2><div className="sub">Repetição espaçada: o que você erra volta mais vezes</div></div></div>
       <div className="pbody">
-        {fila && fila.length === 0 && <div className="tip"><b>Sessão concluída!</b> {feitos} cartões revisados. 💛</div>}
+        {fila && fila.length === 0 && <div className="tip"><b>Sessão concluída!</b> {feitos} cartões revisados.{mimo}</div>}
         {tot.devidos > 0 && <button className="btn primary block" onClick={() => iniciar(todos.filter((c) => srs[c.id]))}>Revisar os {tot.devidos} cartões de hoje</button>}
         <div className="list">{bs.map((b) => { const c = conta(b.lista); return (
           <button key={b.id} className="row" onClick={() => iniciar(b.lista)}><div className="main"><div className="t">{b.nome}</div><div className="d">{b.lista.length} cartões · {c.devidos} para revisar · {c.novos} novos</div></div><Icon n="seta" size={16} /></button>

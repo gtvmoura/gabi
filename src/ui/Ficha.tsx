@@ -6,9 +6,10 @@ import { catNome } from '../lib/search';
 import { paragraphs } from '../lib/text';
 import { Icon } from './icons';
 import { abrirChave } from './Search';
-import { Ouvir } from './Extras';
-import { PERFIL } from '../content/recados';
+import { Gestos, Ouvir } from './Extras';
+import { usePerfil } from '../content/recados';
 import { hoje } from '../store';
+import { useTroca } from './movimento';
 
 let wikiCache: Promise<Record<string, string>> | null = null;
 const wiki = () => wikiCache ?? (wikiCache = fetch(`${import.meta.env.BASE_URL}data/wiki-en.json`).then((r) => r.json()).catch(() => ({})));
@@ -203,6 +204,9 @@ export function Ficha() {
   // marca como vista (conta para a sequência de estudo) depois de alguns segundos na ficha
   useEffect(() => { if (!s) return; const t = setTimeout(() => useStore.getState().atividade(1), 4000); return () => clearTimeout(t); }, [s]);
 
+  // tema atlas: outra estrutura = ficha de volta ao topo, com um fade curto (a mesma ficha em outro lado/ventre não conta)
+  useTroca(s ? (info?.tipo === 'musculo' ? info.d.key : s.k) : null);
+
   if (!sel || !s) return <Inicio />;
 
   const chaveProg = info?.tipo === 'musculo' ? info.d.key : s.k;
@@ -293,7 +297,61 @@ function doDia(): Musculo | null {
 }
 
 function Inicio() {
+  const { gabi } = usePerfil();
+  return gabi ? <InicioGabi /> : <InicioAtlas />;
+}
+
+/** Início no tema neutro: primeiro o que estudar hoje, depois os atalhos; as instruções de uso ficam recolhidas no fim. */
+function InicioAtlas() {
   const prog = useStore((s) => s.prog);
+  const st = useStore.getState();
+  const m = rt.m!;
+  const favs = prog.favoritos.filter((k) => resolver(k, m).length).slice(0, 12);
+  const md = doDia();
+  const feito = prog.desafio === hoje();
+  const pv = prog.prova;
+  const dias = pv && pv.data ? Math.round((new Date(pv.data + 'T00:00:00').getTime() - new Date(hoje() + 'T00:00:00').getTime()) / 86400000) : null;
+  const devidos = Object.values(prog.srs).filter((c) => c.due <= Date.now()).length;
+  const ATALHOS: [Parameters<typeof st.setTab>[0], string, string][] = [
+    ['explorar', 'Sistemas e regiões', 'Ombro, joelho, coluna, sistema nervoso…'],
+    ['roteiros', 'Roteiros de estudo', 'Manguito rotador, plexo braquial…'],
+    ['movimentos', 'Movimentos', 'Quem faz cada movimento, com animação'],
+    ['clinica', 'Clínica', 'Testes ortopédicos e fases da marcha'],
+  ];
+  return (
+    <>
+      <div className="phead"><div className="ttl"><h2>Atlas 3D</h2><div className="sub">Toque em qualquer estrutura do modelo para abrir a ficha</div></div><button className="iconbtn" onClick={() => st.setPanel(false)} aria-label="Fechar painel"><Icon n="fechar" /></button></div>
+      <div className="pbody inicio">
+        <Sec t="Para hoje">
+          <div className="list">
+            {pv && dias !== null && dias >= 0 && <div className="row prova"><div className="main"><div className="t">{dias === 0 ? 'A prova é hoje' : dias === 1 ? 'Falta 1 dia para a prova' : `Faltam ${dias} dias para a prova`}</div><div className="d">{pv.nome || 'Prova'} · {new Date(pv.data + 'T00:00:00').toLocaleDateString('pt-BR')}</div></div></div>}
+            {md && <button className="row" onClick={() => abrirChave(md.key)}><div className="main"><div className="t">{md.pt}</div><div className="d clamp2">Músculo do dia. {md.resumo}</div></div><span className="end"><Icon n="seta" size={16} /></span></button>}
+            <button className="row" onClick={() => { st.setTab('treinar'); setTimeout(() => window.dispatchEvent(new CustomEvent('desafio-do-dia')), 40); }}><div className="main"><div className="t">Desafio do dia</div><div className="d">{feito ? 'Concluído hoje. Dá para jogar de novo.' : '5 perguntas rápidas; mantém a sequência de dias.'}</div></div><span className={'end' + (feito ? ' feito' : '')}><Icon n={feito ? 'check' : 'seta'} size={16} /></span></button>
+            {devidos > 0 && <button className="row" onClick={() => st.setTab('treinar')}><div className="main"><div className="t">Flashcards para revisar</div><div className="d">{devidos} {devidos === 1 ? 'cartão vence' : 'cartões vencem'} hoje</div></div><span className="end"><Icon n="seta" size={16} /></span></button>}
+          </div>
+        </Sec>
+        {favs.length > 0 && <Sec t="Favoritos"><ChaveTags keys={favs} /></Sec>}
+        <Sec t="Estudar por">
+          <div className="list">
+            {ATALHOS.map(([id, t, d]) => <button key={id} className="row compact" onClick={() => st.setTab(id)}><Icon n={id} size={20} /><div className="main"><div className="t">{t}</div><div className="d">{d}</div></div><span className="end"><Icon n="seta" size={16} /></span></button>)}
+          </div>
+        </Sec>
+        <details className="ajuda">
+          <summary>Como usar o modelo</summary>
+          <Gestos />
+          <dl className="gestos">
+            <div><dt>Camadas</dt><dd>na faixa do topo e no botão à esquerda: ligue nervos, ligamentos, vasos, ou deixe os músculos translúcidos</dd></div>
+            <div><dt>Ocultar</dt><dd>esconde a estrutura selecionada para ver o que está por baixo, camada por camada</dd></div>
+          </dl>
+        </details>
+      </div>
+    </>
+  );
+}
+
+function InicioGabi() {
+  const prog = useStore((s) => s.prog);
+  const perfil = usePerfil();
   const st = useStore.getState();
   const m = rt.m!;
   const favs = prog.favoritos.filter((k) => resolver(k, m).length).slice(0, 12);
@@ -303,9 +361,9 @@ function Inicio() {
       <div className="pbody">
         {(() => { const md = doDia(); const feito = prog.desafio === hoje(); const pv = prog.prova; const dias = pv && pv.data ? Math.round((new Date(pv.data + 'T00:00:00').getTime() - new Date(hoje() + 'T00:00:00').getTime()) / 86400000) : null; return (
           <>
-            {pv && dias !== null && dias >= 0 && <div className="hero"><div className="k">Contagem para a prova</div><div className="t">{dias === 0 ? 'É hoje! Você consegue 💛' : dias === 1 ? 'Falta 1 dia' : `Faltam ${dias} dias`}</div><div className="d">{pv.nome || 'Prova'} · {new Date(pv.data + 'T00:00:00').toLocaleDateString('pt-BR')}</div></div>}
+            {pv && dias !== null && dias >= 0 && <div className="hero"><div className="k">Contagem para a prova</div><div className="t">{dias === 0 ? 'É hoje! Você consegue' + perfil.mimo : dias === 1 ? 'Falta 1 dia' : `Faltam ${dias} dias`}</div><div className="d">{pv.nome || 'Prova'} · {new Date(pv.data + 'T00:00:00').toLocaleDateString('pt-BR')}</div></div>}
             {md && <button className="hero" onClick={() => abrirChave(md.key)}><div className="k">Músculo do dia</div><div className="t">{md.pt}</div><div className="d clamp2">{md.resumo}</div></button>}
-            <button className="hero" onClick={() => { st.setTab('treinar'); setTimeout(() => window.dispatchEvent(new CustomEvent('desafio-do-dia')), 40); }}><div className="k">Desafio do dia</div><div className="t">{feito ? 'Feito hoje ✓' : `5 perguntas rápidas, ${PERFIL.nome}`}</div><div className="d">{feito ? 'Volte amanhã para um novo — ou jogue de novo agora.' : 'Leva dois minutos e mantém a sequência de dias.'}</div></button>
+            <button className="hero" onClick={() => { st.setTab('treinar'); setTimeout(() => window.dispatchEvent(new CustomEvent('desafio-do-dia')), 40); }}><div className="k">Desafio do dia</div><div className="t">{feito ? 'Feito hoje ✓' : `5 perguntas rápidas, ${perfil.nome}`}</div><div className="d">{feito ? 'Volte amanhã para um novo — ou jogue de novo agora.' : 'Leva dois minutos e mantém a sequência de dias.'}</div></button>
           </>
         ); })()}
         <Sec t="Comece por aqui">
