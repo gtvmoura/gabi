@@ -7,6 +7,7 @@ import { Icon } from './icons';
 import { Chama } from './Extras';
 import { Sec } from './Ficha';
 import { abrirChave } from './Search';
+import { useCrescer } from './movimento';
 
 const ARQUIVOS = ['skeleton', 'muscles', 'insertions', 'joints', 'nervous', 'vessels', 'viscera', 'lymph', 'regions'];
 
@@ -45,10 +46,13 @@ export function Progresso() {
     setOff('Tudo salvo para uso offline ✓');
   };
 
+  const corpo = useRef<HTMLDivElement>(null);
+  useCrescer(corpo);
+
   return (
     <>
       <div className="phead"><div className="ttl"><h2>{perfil.gabi ? `Progresso da ${perfil.nome}` : 'Seu progresso'}</h2><div className="sub">{perfil.gabi ? 'Um pouquinho por dia vai longe' : 'Estudo registrado neste aparelho'}</div></div><button className="iconbtn" onClick={() => st.setPanel(false)} aria-label="Fechar"><Icon n="fechar" /></button></div>
-      <div className="pbody">
+      <div className="pbody" ref={corpo}>
         <div className="grid2">
           <div className="stat"><div className="n">{seq} <Chama /></div><div className="l">dia{seq === 1 ? '' : 's'} seguido{seq === 1 ? '' : 's'}</div></div>
           <div className="stat"><div className="n">{totalEst}</div><div className="l">itens estudados</div></div>

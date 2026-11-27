@@ -15,6 +15,7 @@ import { Clinica } from './Clinica';
 import { Treinar } from './Treinar';
 import { Progresso } from './Progresso';
 import { Portao } from './Portao';
+import { useSaida } from './movimento';
 import { BarraOcultar, Confete, Gestos, LegendaInervacao, VerRapido } from './Extras';
 import { nomePt } from '../content';
 
@@ -57,6 +58,11 @@ export function App() {
   const quizPick = useStore((s) => s.quizPick);
   const sel = useStore((s) => s.sel);
   const portrait = usePortrait();
+  // tema atlas: avisos, diálogo e portão ficam montados durante a saída (classe .saindo); no tema original somem na hora
+  const aviso = useSaida(toast, 180, !perfil.gabi);
+  const marco = useSaida(recado, 200, !perfil.gabi);
+  const boas = useSaida(ready && !bemVinda && !semNome && !perfil.gabi, 200, !perfil.gabi);
+  const portao = useSaida(semNome, 360, !perfil.gabi);
 
   // inicialização do motor 3D
   useEffect(() => {
@@ -196,19 +202,20 @@ export function App() {
       )}
       {ready && <LegendaInervacao />}
       {quizPick && <div className="hint glass">Toque na estrutura no modelo 3D</div>}
-      {toast && <div className="toast glass" key={toast.id}>{toast.msg}</div>}
+      {toast && perfil.gabi && <div className="toast glass" key={toast.id}>{toast.msg}</div>}
+      {aviso.item && !perfil.gabi && <div className={'toast glass' + (aviso.saindo ? ' saindo' : '')}>{aviso.item.msg}</div>}
 
       <div className={'splash' + (ready ? ' out' : '')}>
         <div className="box">
           <div className="brand">{perfil.gabi ? perfil.inicial : 'A'}</div>
           <h1>{perfil.appNome}</h1>
           <div className="muted">Preparando o atlas 3D…</div>
-          <div className="bar"><i style={{ width: `${Math.round(firstLoad * 100)}%` }} /></div>
+          <div className="bar"><i style={perfil.gabi ? { width: `${Math.round(firstLoad * 100)}%` } : { transform: `scaleX(${Math.min(1, Math.max(0, firstLoad)).toFixed(3)})` }} /></div>
         </div>
       </div>
 
-      {ready && !bemVinda && !semNome && !perfil.gabi && (
-        <div className="modal-bg">
+      {boas.item && !perfil.gabi && (
+        <div className={'modal-bg' + (boas.saindo ? ' saindo' : '')}>
           <div className="modal boas" role="dialog" aria-modal="true" aria-labelledby="boas-titulo">
             <h1 id="boas-titulo">{perfil.boasVindas.titulo}</h1>
             {perfil.boasVindas.texto.map((t, i) => <p key={i}>{t}</p>)}
@@ -228,9 +235,9 @@ export function App() {
           </div>
         </div>
       )}
-      {recado && !perfil.gabi && (
-        <div className="marco" role="status">
-          <div className="marco-txt"><b>{recado.titulo}</b><p>{recado.texto}</p></div>
+      {marco.item && !perfil.gabi && (
+        <div className={'marco' + (marco.saindo ? ' saindo' : '')} role="status">
+          <div className="marco-txt"><b>{marco.item.titulo}</b><p>{marco.item.texto}</p></div>
           <button className="iconbtn" aria-label="Fechar aviso" onClick={() => useStore.setState({ recado: null })}><Icon n="fechar" size={18} /></button>
         </div>
       )}
@@ -246,7 +253,7 @@ export function App() {
           </div>
         </div>
       )}
-      {semNome && <Portao carregado={firstLoad} pronto={ready} />}
+      {(semNome || portao.saindo) && <Portao carregado={firstLoad} pronto={ready} saindo={portao.saindo} />}
     </div>
   );
 }

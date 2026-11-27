@@ -9,6 +9,7 @@ import { Icon } from './icons';
 import { ChaveTags } from './Ficha';
 import { Confete } from './Extras';
 import { destacarChaves } from './Roteiros';
+import { useTroca } from './movimento';
 
 // ───────────────────────────── Quem sou eu?
 
@@ -41,6 +42,7 @@ export function QuemSouEu({ onExit }: { onExit: () => void }) {
   const [vis, setVis] = useState(1);
   const [resp, setResp] = useState<string | null>(null);
   const [pontos, setPontos] = useState(0);
+  useTroca(n);
   const st = useStore.getState();
   useEffect(() => { useStore.setState({ sel: null, focus: null }); return () => { useStore.setState({ focus: null }); }; }, []);
   const vale = Math.max(1, r.pistas.length - vis + 1);
@@ -83,6 +85,7 @@ export function QuemSouEu({ onExit }: { onExit: () => void }) {
 export function Casos({ onExit }: { onExit: () => void }) {
   const [id, setId] = useState<string | null>(null);
   const [resp, setResp] = useState<number | null>(null);
+  useTroca(id);
   const feitos = useStore((s) => s.prog.estudados);
   const st = useStore.getState();
   const c = CASOS.find((x) => x.id === id);

@@ -9,6 +9,7 @@ import { abrirChave } from './Search';
 import { Gestos, Ouvir } from './Extras';
 import { usePerfil } from '../content/recados';
 import { hoje } from '../store';
+import { useTroca } from './movimento';
 
 let wikiCache: Promise<Record<string, string>> | null = null;
 const wiki = () => wikiCache ?? (wikiCache = fetch(`${import.meta.env.BASE_URL}data/wiki-en.json`).then((r) => r.json()).catch(() => ({})));
@@ -202,6 +203,9 @@ export function Ficha() {
 
   // marca como vista (conta para a sequência de estudo) depois de alguns segundos na ficha
   useEffect(() => { if (!s) return; const t = setTimeout(() => useStore.getState().atividade(1), 4000); return () => clearTimeout(t); }, [s]);
+
+  // tema atlas: outra estrutura = ficha de volta ao topo, com um fade curto (a mesma ficha em outro lado/ventre não conta)
+  useTroca(s ? (info?.tipo === 'musculo' ? info.d.key : s.k) : null);
 
   if (!sel || !s) return <Inicio />;
 

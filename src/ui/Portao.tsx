@@ -10,13 +10,13 @@ const ACERVO: [string, string][] = [
 ];
 
 /** Primeira abertura: pergunta o primeiro nome. Fica por cima de tudo enquanto o 3D carrega por trás. */
-export function Portao({ carregado = 0, pronto = false }: { carregado?: number; pronto?: boolean }) {
+export function Portao({ carregado = 0, pronto = false, saindo = false }: { carregado?: number; pronto?: boolean; saindo?: boolean }) {
   const [v, setV] = useState('');
   const nome = limparNome(v);
   const enviar = (e: FormEvent) => { e.preventDefault(); if (nome) useStore.getState().patchProg(() => ({ nome })); };
   const pct = Math.round(Math.min(1, Math.max(0, carregado)) * 100);
   return (
-    <div className="portao" role="dialog" aria-modal="true" aria-labelledby="portao-rotulo">
+    <div className={'portao' + (saindo ? ' saindo' : '')} role="dialog" aria-modal="true" aria-labelledby="portao-rotulo" inert={saindo}>
       <div className="portao-quadro">
         <div className="portao-marca"><span className="brand" aria-hidden="true">A</span><span>Atlas de Anatomia</span></div>
         <form className="portao-form" onSubmit={enviar}>
@@ -31,7 +31,7 @@ export function Portao({ carregado = 0, pronto = false }: { carregado?: number; 
           <dl>{ACERVO.map(([n, t]) => <div key={t}><dt>{n}</dt><dd>{t}</dd></div>)}</dl>
         </div>
         <div className="portao-estado" role="status">
-          <div className="bar" aria-hidden="true"><i style={{ width: `${pronto ? 100 : pct}%` }} /></div>
+          <div className="bar" aria-hidden="true"><i style={{ transform: `scaleX(${pronto ? 1 : pct / 100})` }} /></div>
           <span>{pronto ? 'Modelo 3D pronto' : `Preparando o modelo 3D… ${pct}%`}</span>
         </div>
       </div>

@@ -8,6 +8,7 @@ import type { LayerId, LayerState } from '../engine/palette';
 import { Icon } from './icons';
 import { Chama, Confete } from './Extras';
 import { abrirChave } from './Search';
+import { useTroca } from './movimento';
 
 type Cat = 'ossos' | 'musculos' | 'ligamentos' | 'nervos' | 'arterias' | 'orgaos' | 'acidentes';
 const CATS: { id: Cat; nome: string; desc: string; layer: LayerId; tocar: boolean }[] = [
@@ -79,6 +80,7 @@ export function Acerte({ onExit }: { onExit: () => void }) {
   const [melhorSeq, setMelhorSeq] = useState(0);
   const [tempo, setTempo] = useState(60);
   const [erradas, setErradas] = useState<Alvo[]>([]);
+  useTroca(fase === 'jogo' ? q : fase);
   const usados = useRef(new Set<string>());
   const lista = useRef<Alvo[]>([]);
   const camadas = useRef<Record<LayerId, LayerState> | null>(null);

@@ -12,6 +12,7 @@ import { sample, shuffle } from '../lib/text';
 import { proximo, revisar, type Nota } from '../lib/srs';
 import { Icon } from './icons';
 import { abrirChave } from './Search';
+import { useTroca } from './movimento';
 
 type Modo = 'misto' | 'identificar' | 'localizar' | 'inervacao' | 'origem' | 'acao';
 const MODOS: { id: Modo; nome: string; desc: string }[] = [
@@ -100,6 +101,7 @@ function Quiz({ onExit, auto }: { onExit: () => void; auto?: number }) {
   const q = qs && !fim ? qs[i] : null;
   const st = useStore.getState();
   const salvo = useRef(false);
+  useTroca(!qs ? 'config' : fim ? 'fim' : i);
 
   const limpar = () => { useStore.setState({ quizPick: null, sel: null, focus: null, pin: null }); };
   useEffect(() => () => limpar(), []);
@@ -235,6 +237,8 @@ function Flash({ onExit }: { onExit: () => void }) {
     setFeitos((x) => x + 1); setVirado(false);
     setFila(n === 0 ? [...fila!.slice(1), c] : fila!.slice(1));
   };
+
+  useTroca(fila && fila.length ? `${fila[0].id}:${feitos}` : 'baralhos');
 
   if (fila && fila.length) {
     const c = fila[0];

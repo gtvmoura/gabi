@@ -14,7 +14,7 @@
    1. Fontes            5. Painel e ficha        9. Avisos e diálogos
    2. Tokens            6. Componentes          10. Portão do nome
    3. Base              7. Treinar              11. Retrato / telas estreitas
-   4. Palco e moldura   8. Progresso
+   4. Palco e moldura   8. Progresso            12. Movimento
    ───────────────────────────────────────────────────────────────────────────── */
 
 /* ───────── 1. fontes (locais, via @fontsource: funcionam offline) */
@@ -47,10 +47,14 @@
   --at-accent-text: #a8ecdf;
   --at-sombra-1: 0 1px 2px rgba(0, 0, 0, 0.35), 0 8px 24px -10px rgba(0, 0, 0, 0.55);
   --at-sombra-2: 0 2px 4px rgba(0, 0, 0, 0.35), 0 24px 56px -16px rgba(0, 0, 0, 0.7);
-  /* movimento (para quem cuidar das animações) */
+  /* movimento (regras na seção 12). Durações por papel: cor e estado; popovers e barras; painel, folha e diálogos */
   --at-dur-1: 120ms; --at-dur-2: 200ms; --at-dur-3: 320ms;
-  --at-ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
-  --at-ease-in-out: cubic-bezier(0.6, 0, 0.3, 1);
+  --at-dur-toque: 160ms;   /* soltar um botão; o apertar é mais curto */
+  --at-dur-saida: 200ms;   /* saídas são sempre mais curtas que as entradas */
+  /* curvas fortes: as nativas do CSS são fracas demais. Nunca ease-in em interface */
+  --at-ease-out: cubic-bezier(0.23, 1, 0.32, 1);        /* tudo que entra ou sai */
+  --at-ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);    /* o que se move já estando na tela */
+  --at-ease-folha: cubic-bezier(0.32, 0.72, 0, 1);      /* painel e folha inferior (curva de gaveta do iOS) */
 
   /* os nomes que styles.css já usa, com os valores deste tema */
   --bg: var(--at-surface-0);
@@ -99,7 +103,7 @@
 /* navegação */
 :root[data-tema="atlas"] .nav { gap: 2px; padding-top: calc(12px + var(--safe-t)); background: var(--at-surface-1); border-right: 1px solid var(--line); }
 :root[data-tema="atlas"] .brand { width: 40px; height: 40px; border-radius: var(--at-r-2); margin-bottom: 12px; background: none; border: 1px solid var(--at-line-forte); box-shadow: none; font-family: var(--at-serif); font-weight: 500; font-size: 22px; letter-spacing: 0; color: var(--text); line-height: 1; }
-:root[data-tema="atlas"] .nav button.tab { width: 66px; min-height: 56px; padding: 8px 0 7px; border-radius: var(--at-r-2); gap: 4px; color: var(--dim); font-size: var(--at-t-1); font-weight: 500; letter-spacing: 0.005em; transition: background var(--at-dur-1), color var(--at-dur-1); }
+:root[data-tema="atlas"] .nav button.tab { width: 66px; min-height: 56px; padding: 8px 0 7px; border-radius: var(--at-r-2); gap: 4px; color: var(--dim); font-size: var(--at-t-1); font-weight: 500; letter-spacing: 0.005em; transition: none; }
 :root[data-tema="atlas"] .nav button.tab.on { color: var(--text); background: rgba(226, 238, 235, 0.08); }
 :root[data-tema="atlas"] .nav button.tab.on .ico { color: var(--accent); }
 
@@ -169,8 +173,8 @@
 :root[data-tema="atlas"] .pin-label.gonio { border-radius: var(--at-r-1); background: #ffe066; box-shadow: none; padding: 3px 8px; font-weight: 600; }
 
 /* ───────── 5. painel e ficha */
-:root[data-tema="atlas"] .panel { top: 0; right: 0; bottom: 0; width: calc(var(--panel-w) + var(--safe-r)); padding: var(--safe-t) var(--safe-r) 0 0; border-radius: 0; border: 0; border-left: 1px solid var(--line); background: var(--at-surface-1); box-shadow: none; transition: transform var(--at-dur-3) var(--at-ease-out); }
-:root[data-tema="atlas"] .panel.closed { transform: translateX(100%); visibility: hidden; transition: transform var(--at-dur-3) var(--at-ease-out), visibility 0s var(--at-dur-3); }
+:root[data-tema="atlas"] .panel { top: 0; right: 0; bottom: 0; width: calc(var(--panel-w) + var(--safe-r)); padding: var(--safe-t) var(--safe-r) 0 0; border-radius: 0; border: 0; border-left: 1px solid var(--line); background: var(--at-surface-1); box-shadow: none; transition: transform var(--at-dur-3) var(--at-ease-folha); }
+:root[data-tema="atlas"] .panel.closed { transform: translateX(100%); visibility: hidden; transition: transform 240ms var(--at-ease-folha), visibility 0s 240ms; }
 :root[data-tema="atlas"] .panel-toggle { width: 44px; height: 44px; border-radius: var(--at-r-2); }
 :root[data-tema="atlas"] .phead { padding: 18px 16px 14px 20px; gap: 8px; align-items: flex-start; border-bottom: 1px solid var(--line); }
 :root[data-tema="atlas"] .phead h2 { font-family: var(--at-serif); font-weight: 500; font-size: var(--at-t-6); line-height: 1.2; letter-spacing: -0.005em; text-wrap: balance; }
@@ -199,7 +203,7 @@
 
 /* ações da ficha: botões baixos e discretos, com área de toque de 44px */
 :root[data-tema="atlas"] .actions { gap: 8px 6px; }
-:root[data-tema="atlas"] .btn { height: 36px; padding: 0 12px; border-radius: 8px; background: var(--card); border: 1px solid var(--line); gap: 7px; font-weight: 500; font-size: 13.5px; position: relative; transition: background var(--at-dur-1), border-color var(--at-dur-1), color var(--at-dur-1); }
+:root[data-tema="atlas"] .btn { height: 36px; padding: 0 12px; border-radius: 8px; background: var(--card); border: 1px solid var(--line); gap: 7px; font-weight: 500; font-size: 13.5px; position: relative; }
 :root[data-tema="atlas"] .btn::after { content: ''; position: absolute; inset: -4px 0; }
 :root[data-tema="atlas"] .btn .ico { color: var(--muted); }
 :root[data-tema="atlas"] .btn.on { background: var(--accent-soft); border-color: var(--at-accent-line); color: var(--at-accent-text); }
@@ -337,7 +341,7 @@
 :root[data-tema="atlas"] .loading { top: calc(120px + var(--safe-t)); border-radius: 8px; font-size: var(--at-t-2); font-weight: 500; }
 :root[data-tema="atlas"] .loading .bar { height: 4px; }
 :root[data-tema="atlas"] .hint { border-radius: 8px; font-size: 13px; color: var(--text); padding: 10px 14px; }
-:root[data-tema="atlas"] .modal-bg { background: rgba(8, 10, 10, 0.72); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); padding: max(20px, var(--safe-t)) 20px max(20px, var(--safe-b)); }
+:root[data-tema="atlas"] .modal-bg { background: rgba(8, 10, 10, 0.8); -webkit-backdrop-filter: none; backdrop-filter: none; padding: max(20px, var(--safe-t)) 20px max(20px, var(--safe-b)); }
 :root[data-tema="atlas"] .modal { width: min(520px, 100%); border-radius: var(--at-r-3); padding: 32px 32px 28px; background: var(--at-surface-1); border: 1px solid var(--at-line-forte); box-shadow: var(--at-sombra-2); text-align: left; }
 :root[data-tema="atlas"] .modal h1 { font-family: var(--at-serif); font-weight: 500; font-size: var(--at-t-7); line-height: 1.15; letter-spacing: -0.01em; margin-bottom: 16px; }
 :root[data-tema="atlas"] .modal p { color: var(--at-texto-2); font-size: 15.5px; line-height: 1.58; margin-bottom: 10px; max-width: 60ch; }
@@ -365,7 +369,7 @@
 :root[data-tema="atlas"] .portao-campo { height: 52px; margin-top: 28px; border-radius: var(--at-r-2); border: 1px solid var(--at-line-forte); background: rgba(0, 0, 0, 0.28); padding: 0 16px; font-size: 17px; text-align: left; }
 :root[data-tema="atlas"] .portao-campo::placeholder { color: var(--dim); }
 :root[data-tema="atlas"] .portao-campo:focus-visible { border-color: var(--accent); outline: 2px solid rgba(79, 209, 188, 0.35); outline-offset: 0; }
-:root[data-tema="atlas"] .portao-botao { height: 52px; margin-top: 12px; border-radius: var(--at-r-2); background: var(--accent); color: var(--at-accent-ink); font-weight: 600; font-size: 16px; transition: background var(--at-dur-1), color var(--at-dur-1); }
+:root[data-tema="atlas"] .portao-botao { height: 52px; margin-top: 12px; border-radius: var(--at-r-2); background: var(--accent); color: var(--at-accent-ink); font-weight: 600; font-size: 16px; }
 :root[data-tema="atlas"] .portao-botao:disabled { opacity: 1; background: var(--at-surface-3); color: var(--dim); cursor: default; }
 :root[data-tema="atlas"] .portao-acervo { grid-area: acervo; padding-left: 40px; border-left: 1px solid var(--line); align-self: stretch; }
 :root[data-tema="atlas"] .portao-acervo p { font-size: var(--at-t-4); line-height: 1.5; color: var(--at-texto-2); max-width: 34ch; }
@@ -375,10 +379,9 @@
 :root[data-tema="atlas"] .portao-acervo dd { margin: 0; font-size: var(--at-t-3); color: var(--muted); }
 :root[data-tema="atlas"] .portao-estado { grid-area: estado; display: flex; align-items: center; gap: 12px; font-size: var(--at-t-2); color: var(--dim); }
 :root[data-tema="atlas"] .portao-estado .bar { width: 120px; height: 3px; flex: none; }
-:root[data-tema="atlas"] .portao-estado .bar > i { transition: width var(--at-dur-3) linear; }
 
-/* ───────── resposta ao ponteiro (mouse) */
-@media (hover: hover) {
+/* ───────── resposta ao ponteiro (mouse ou trackpad; o toque dispara hover falso) */
+@media (hover: hover) and (pointer: fine) {
   :root[data-tema="atlas"] .nav button.tab:hover { color: var(--text); }
   :root[data-tema="atlas"] .btn:hover, :root[data-tema="atlas"] .views button:hover, :root[data-tema="atlas"] button.tag:hover, :root[data-tema="atlas"] .tile:hover, :root[data-tema="atlas"] .opt:not(:disabled):hover, :root[data-tema="atlas"] .grade button:hover, :root[data-tema="atlas"] .legenda button:hover { background: var(--card-hi); }
   :root[data-tema="atlas"] .btn.on:hover { background: rgba(79, 209, 188, 0.2); }
@@ -431,4 +434,124 @@
   :root[data-tema="atlas"] .portao-acervo dl { display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; margin-top: 16px; }
   :root[data-tema="atlas"] .portao-acervo dl > div { grid-template-columns: minmax(0, 1fr); }
   :root[data-tema="atlas"] .portao-acervo dt { text-align: left; }
+}
+
+/* ───────── 12. movimento
+   Critério: quanto mais vezes por dia a pessoa vê, menos movimento.
+   · Trocar de aba, ligar camada, escolher lado, responder e avaliar cartão: estado na hora, sem transição.
+     O retorno é o toque (escala ao apertar) e a cor.
+   · Popovers, barras, avisos, painel e folha: entrada curta com ease-out; a saída é mais curta ou imediata.
+   · Portão, abertura, boas-vindas e marcos (raros): podem levar mais tempo.
+   Só transform e opacity (rodam no compositor e não disputam quadro com o canvas 3D); nada de blur animado.
+   As entradas são @keyframes sem fill "forwards": o estado final é sempre o estilo normal do elemento, então
+   nada fica preso invisível. Os @keyframes são globais por natureza (prefixo at-), como as @font-face; só as
+   regras deste tema os usam. Saídas (.saindo) e trocas de conteúdo dependem de src/ui/movimento.ts. */
+@keyframes at-fade { from { opacity: 0; } }
+@keyframes at-surgir { from { opacity: 0; transform: scale(0.97); } }
+@keyframes at-subir { from { opacity: 0; transform: translateY(var(--at-de, 8px)); } }
+@keyframes at-aviso { from { opacity: 0; transform: translate(-50%, 100%); } }
+@keyframes at-dialogo { from { opacity: 0; transform: translateY(8px) scale(0.97); } }
+@keyframes at-marca { from { opacity: 0; transform: scale(0.85); } }
+@keyframes at-negar { 30% { transform: translateX(-4px); } 65% { transform: translateX(3px); } }
+@keyframes at-crescer { from { transform: scaleX(0); } }
+
+/* toque: o controle cede ao apertar (rápido) e volta ao soltar (um pouco mais lento). Quanto maior o alvo, menor a escala */
+:root[data-tema="atlas"] .nav button.tab, :root[data-tema="atlas"] .tbtn, :root[data-tema="atlas"] .iconbtn, :root[data-tema="atlas"] .panel-toggle, :root[data-tema="atlas"] .chip,
+:root[data-tema="atlas"] .seg button, :root[data-tema="atlas"] .subtabs button, :root[data-tema="atlas"] button.tag, :root[data-tema="atlas"] .grade button, :root[data-tema="atlas"] .views button,
+:root[data-tema="atlas"] .legenda button, :root[data-tema="atlas"] .searchbox .field button, :root[data-tema="atlas"] .results button,
+:root[data-tema="atlas"] button.row, :root[data-tema="atlas"] .tile, :root[data-tema="atlas"] .opt { transition: transform var(--at-dur-toque) var(--at-ease-out); }
+:root[data-tema="atlas"] .btn { transition: transform var(--at-dur-toque) var(--at-ease-out), background-color var(--at-dur-1), border-color var(--at-dur-1), color var(--at-dur-1); }
+:root[data-tema="atlas"] .portao-botao { transition: transform var(--at-dur-toque) var(--at-ease-out), background-color var(--at-dur-1), color var(--at-dur-1); }
+:root[data-tema="atlas"] .nav button.tab:active, :root[data-tema="atlas"] .tbtn:active, :root[data-tema="atlas"] .iconbtn:active, :root[data-tema="atlas"] .panel-toggle:active, :root[data-tema="atlas"] .chip:active,
+:root[data-tema="atlas"] .seg button:active, :root[data-tema="atlas"] .subtabs button:active, :root[data-tema="atlas"] button.tag:active, :root[data-tema="atlas"] .grade button:active, :root[data-tema="atlas"] .views button:active,
+:root[data-tema="atlas"] .legenda button:active, :root[data-tema="atlas"] .searchbox .field button:active { transform: scale(0.96); transition-duration: 80ms; }
+:root[data-tema="atlas"] .btn:not(:disabled):active { transform: scale(0.97); transition-duration: 80ms; }
+:root[data-tema="atlas"] .btn.block:not(:disabled):active, :root[data-tema="atlas"] .portao-botao:not(:disabled):active { transform: scale(0.98); transition-duration: 80ms; }
+/* itens largos de lista ficam dentro de área que rola: a escala é mínima e espera 40 ms, para não tremer quando o toque vira rolagem */
+:root[data-tema="atlas"] button.row:active, :root[data-tema="atlas"] .tile:active, :root[data-tema="atlas"] .opt:not(:disabled):active, :root[data-tema="atlas"] .results button:active { transform: scale(0.985); transition-duration: 80ms; transition-delay: 40ms; }
+/* cor ao apertar para quem só tinha a cor do estado ligado (a faixa de camadas não escala: os botões formam uma barra contínua sobre o canvas) */
+:root[data-tema="atlas"] .nav button.tab:not(.on):active, :root[data-tema="atlas"] .subtabs button:not(.on):active, :root[data-tema="atlas"] .grade button:active, :root[data-tema="atlas"] .panel-toggle:active { background: var(--card-hi); }
+:root[data-tema="atlas"] .chip:active { background: var(--at-surface-3); }
+:root[data-tema="atlas"] .seg button:not(.on):active { color: var(--text); }
+:root[data-tema="atlas"] .faixa button:active::before { background: var(--card-hi); }
+:root[data-tema="atlas"] .portao-botao:not(:disabled):active { background: #3fbba7; }
+
+/* popovers das ferramentas: crescem a partir do botão que os abriu (o gatilho fica à esquerda, na coluna de ferramentas) */
+:root[data-tema="atlas"] .pop { animation: at-surgir var(--at-dur-2) var(--at-ease-out) backwards; transform-origin: left calc(100% - 308px); }
+:root[data-tema="atlas"] .tools:has(.grp:first-child .tbtn:nth-child(2).on) ~ .pop { transform-origin: left calc(100% - 264px); }
+/* segunda linha da faixa (combinações): desce de baixo do gatilho */
+:root[data-tema="atlas"] .rapido .faixa + .faixa { --at-de: -4px; animation: at-subir 160ms var(--at-ease-out) backwards; }
+/* barras e avisos que flutuam sobre o 3D */
+:root[data-tema="atlas"] .barra-ocultar { animation: at-subir var(--at-dur-2) var(--at-ease-out) backwards; }
+:root[data-tema="atlas"] .legenda, :root[data-tema="atlas"] .hint, :root[data-tema="atlas"] .panel-toggle { animation: at-fade 160ms var(--at-ease-out) backwards; }
+/* carregamento de camada: espera 180 ms antes de aparecer, para não piscar quando o arquivo já está em cache */
+:root[data-tema="atlas"] .loading { animation: at-fade var(--at-dur-2) var(--at-ease-out) 180ms backwards; }
+
+/* aviso (toast): entra pela borda de baixo e sai por ela. Mensagens seguidas trocam o texto no lugar, sem reentrar */
+:root[data-tema="atlas"] .toast { animation: at-aviso 260ms var(--at-ease-out) backwards; }
+:root[data-tema="atlas"] .toast.saindo { animation: none; opacity: 0; transform: translate(-50%, 60%); transition: opacity 180ms var(--at-ease-out), transform 180ms var(--at-ease-out); pointer-events: none; }
+/* marco de estudo: raro, pode levar um pouco mais */
+:root[data-tema="atlas"] .marco { --at-de: 16px; animation: at-subir 400ms var(--at-ease-out) backwards; }
+:root[data-tema="atlas"] .marco.saindo { animation: none; opacity: 0; transform: translateY(8px); transition: opacity var(--at-dur-saida) var(--at-ease-out), transform var(--at-dur-saida) var(--at-ease-out); pointer-events: none; }
+
+/* diálogo de boas-vindas: sem o salto do tema original; centro como origem (não tem gatilho). O fundo escurece sem blur:
+   desfocar a tela inteira sobre o canvas 3D a cada quadro do fade é o tipo de custo que derruba quadros no iPad */
+:root[data-tema="atlas"] .modal-bg { animation: at-fade 240ms var(--at-ease-out) backwards; }
+:root[data-tema="atlas"] .modal { animation: at-dialogo var(--at-dur-3) var(--at-ease-out) backwards; }
+:root[data-tema="atlas"] .modal-bg.saindo { animation: none; opacity: 0; transition: opacity var(--at-dur-saida) var(--at-ease-out); pointer-events: none; }
+:root[data-tema="atlas"] .modal-bg.saindo .modal { animation: none; transform: scale(0.98); transition: transform var(--at-dur-saida) var(--at-ease-out); }
+/* logo depois do portão: o fundo escurece junto com a saída do portão (o app não pisca claro no meio) e o diálogo
+   entra 100 ms depois, sobreposto à saída em vez de em fila */
+:root[data-tema="atlas"] .app:has(.portao.saindo) .modal { animation-delay: 100ms; }
+
+/* portão → app: o quadro sobe um pouco e some, revelando a abertura (ou o app já pronto) por baixo */
+:root[data-tema="atlas"] .portao.saindo { opacity: 0; pointer-events: none; transition: opacity 360ms var(--at-ease-out); }
+:root[data-tema="atlas"] .portao.saindo .portao-quadro { transform: translateY(-12px); transition: transform 360ms var(--at-ease-out); }
+/* abertura → pronto: a tela de carregamento se desfaz sobre o modelo e depois deixa de existir para o toque e a composição */
+:root[data-tema="atlas"] .splash { transition: opacity 400ms var(--at-ease-out), visibility 0s 400ms; }
+:root[data-tema="atlas"] .splash.out { visibility: hidden; }
+/* progresso do carregamento: escala em vez de largura, linear (é tempo passando), e segue liso com a thread ocupada lendo os modelos */
+:root[data-tema="atlas"] .bar > i { transform-origin: left center; }
+:root[data-tema="atlas"] .splash .bar > i, :root[data-tema="atlas"] .portao-estado .bar > i { transition: transform var(--at-dur-3) linear; }
+
+/* quiz: a cor do certo/errado é imediata; a marca entra junto e a alternativa errada dá um único aceno lateral */
+:root[data-tema="atlas"] .opt.right::after, :root[data-tema="atlas"] .opt.wrong::after { animation: at-marca 180ms var(--at-ease-out) backwards; }
+:root[data-tema="atlas"] .opt.wrong { animation: at-negar 260ms var(--at-ease-out); }
+/* a explicação e as pistas aparecem sem empurrar o olho: só opacidade (o botão "Próxima" já nasce clicável) */
+:root[data-tema="atlas"] .pbody > .q-prompt ~ .kv { animation: at-fade 180ms var(--at-ease-out) backwards; }
+:root[data-tema="atlas"] .clue { --at-de: 4px; animation: at-subir 180ms var(--at-ease-out) backwards; }
+/* flashcard: o verso sobe para o lugar dentro do cartão; as notas só aparecem */
+:root[data-tema="atlas"] .card3d > div:not([class]) { --at-de: 6px; animation: at-subir 220ms var(--at-ease-out) backwards; }
+:root[data-tema="atlas"] .grade { animation: at-fade 160ms var(--at-ease-out) backwards; }
+/* resultado de uma rodada: a barra cresce uma vez até a nota */
+:root[data-tema="atlas"] .stat .bar > i { animation: at-crescer 480ms var(--at-ease-out) 120ms backwards; }
+/* ajuda recolhida */
+:root[data-tema="atlas"] .ajuda summary::after { transition: transform 160ms var(--at-ease-out); }
+:root[data-tema="atlas"] .ajuda[open] > :not(summary) { animation: at-fade 180ms var(--at-ease-out) backwards; }
+
+@media (max-aspect-ratio: 1/1), (max-width: 760px) {
+  /* no retrato o popover abre ao lado das ferramentas, no topo */
+  :root[data-tema="atlas"] .pop { transform-origin: left 22px; }
+  :root[data-tema="atlas"] .tools:has(.grp:first-child .tbtn:nth-child(2).on) ~ .pop { transform-origin: left 66px; }
+}
+
+/* movimento reduzido: mais suave, não zero. Fica a opacidade e a cor (ajudam a entender o que mudou);
+   sai tudo que desloca, escala ou balança. O painel e a folha trocam o deslize por um fade curto */
+@media (prefers-reduced-motion: reduce) {
+  :root[data-tema="atlas"] .pop, :root[data-tema="atlas"] .rapido .faixa + .faixa, :root[data-tema="atlas"] .barra-ocultar, :root[data-tema="atlas"] .toast, :root[data-tema="atlas"] .marco,
+  :root[data-tema="atlas"] .modal, :root[data-tema="atlas"] .clue, :root[data-tema="atlas"] .card3d > div:not([class]),
+  :root[data-tema="atlas"] .opt.right::after, :root[data-tema="atlas"] .opt.wrong::after { animation-name: at-fade; animation-duration: 160ms; animation-delay: 0s; }
+  :root[data-tema="atlas"] .opt.wrong, :root[data-tema="atlas"] .stat .bar > i { animation: none; }
+  :root[data-tema="atlas"] .nav button.tab:active, :root[data-tema="atlas"] .tbtn:active, :root[data-tema="atlas"] .iconbtn:active, :root[data-tema="atlas"] .panel-toggle:active, :root[data-tema="atlas"] .chip:active,
+  :root[data-tema="atlas"] .seg button:active, :root[data-tema="atlas"] .subtabs button:active, :root[data-tema="atlas"] button.tag:active, :root[data-tema="atlas"] .grade button:active, :root[data-tema="atlas"] .views button:active,
+  :root[data-tema="atlas"] .legenda button:active, :root[data-tema="atlas"] .searchbox .field button:active, :root[data-tema="atlas"] .results button:active,
+  :root[data-tema="atlas"] .btn:not(:disabled):active, :root[data-tema="atlas"] .btn.block:not(:disabled):active, :root[data-tema="atlas"] .portao-botao:not(:disabled):active,
+  :root[data-tema="atlas"] button.row:active, :root[data-tema="atlas"] .tile:active, :root[data-tema="atlas"] .opt:not(:disabled):active { transform: none; }
+  :root[data-tema="atlas"] .toast.saindo { transform: translateX(-50%); }
+  :root[data-tema="atlas"] .marco.saindo, :root[data-tema="atlas"] .modal-bg.saindo .modal, :root[data-tema="atlas"] .portao.saindo .portao-quadro { transform: none; }
+  :root[data-tema="atlas"] .portao.saindo { transition-duration: 200ms; }
+  :root[data-tema="atlas"] .splash { transition: opacity 200ms linear, visibility 0s 200ms; }
+  :root[data-tema="atlas"] .panel { transition: opacity 160ms linear; }
+  :root[data-tema="atlas"] .panel.closed { transform: none; opacity: 0; transition: opacity 160ms linear, visibility 0s 160ms; }
+  :root[data-tema="atlas"] .ajuda summary::after { transition: none; }
 }
