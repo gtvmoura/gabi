@@ -3,7 +3,7 @@ import { loadManifest } from '../data/manifest';
 import { Engine } from '../engine/Engine';
 import { rt, sequencia, useStore, type Tab } from '../store';
 import { syncEngine } from '../sync';
-import { BOAS_VINDAS, PERFIL, RECADOS } from '../content/recados';
+import { usePerfil } from '../content/recados';
 import { Icon } from './icons';
 import { Toolbar } from './Toolbar';
 import { Search } from './Search';
@@ -14,6 +14,7 @@ import { Movimentos } from './Movimentos';
 import { Clinica } from './Clinica';
 import { Treinar } from './Treinar';
 import { Progresso } from './Progresso';
+import { Portao } from './Portao';
 import { BarraOcultar, Confete, LegendaInervacao, VerRapido } from './Extras';
 import { nomePt } from '../content';
 
@@ -49,6 +50,8 @@ export function App() {
   const toast = useStore((s) => s.toast);
   const recado = useStore((s) => s.recado);
   const bemVinda = useStore((s) => s.prog.bemVinda);
+  const semNome = useStore((s) => s.prog.nome === undefined);
+  const perfil = usePerfil();
   const focus = useStore((s) => s.focus);
   const fixo = useStore((s) => s.fixo);
   const quizPick = useStore((s) => s.quizPick);
@@ -120,14 +123,14 @@ export function App() {
   // recados de marcos
   const prog = useStore((s) => s.prog);
   useEffect(() => {
-    if (!prog.bemVinda || recado) return;
+    if (!prog.bemVinda || !prog.nome || recado) return;
     const val = {
       estudados: Object.keys(prog.estudados).length, sequencia: sequencia(prog.dias),
       quizCertos: prog.quiz.reduce((a, q) => a + q.certos, 0), cartoes: Object.values(prog.srs).reduce((a, c) => a + c.reps + c.lapses, 0),
     };
-    const r = RECADOS.find((x) => !prog.marcos.includes(x.id) && val[x.quando.tipo] >= x.quando.n);
+    const r = perfil.recados.find((x) => !prog.marcos.includes(x.id) && val[x.quando.tipo] >= x.quando.n);
     if (r) { useStore.setState({ recado: { titulo: r.titulo, texto: r.texto } }); useStore.getState().patchProg((p) => ({ marcos: [...p.marcos, r.id] })); }
-  }, [prog, recado]);
+  }, [prog, recado, perfil]);
 
   useEffect(() => { if (!toast) return; const t = setTimeout(() => useStore.setState({ toast: null }), 2600); return () => clearTimeout(t); }, [toast]);
 
@@ -138,7 +141,7 @@ export function App() {
       <div className="stage" ref={host} />
 
       <nav className="nav">
-        <div className="brand">{PERFIL.nome.charAt(0)}</div>
+        <div className="brand">{perfil.inicial}</div>
         {TABS.map((t) => (
           <button key={t.id} className={'tab' + (tab === t.id ? ' on' : '')} onClick={() => { const st = useStore.getState(); if (st.tab === t.id) st.setPanel(!st.panelOpen); else { if (st.sel && t.id !== 'atlas') useStore.setState({ sel: null, pin: null, showIns: false, boneMap: false }); st.setTab(t.id); } }}>
             <Icon n={t.ico} size={22} />
@@ -182,19 +185,19 @@ export function App() {
 
       <div className={'splash' + (ready ? ' out' : '')}>
         <div className="box">
-          <div className="brand">{PERFIL.nome.charAt(0)}</div>
-          <h1>{PERFIL.appNome}</h1>
+          <div className="brand">{perfil.inicial}</div>
+          <h1>{perfil.appNome}</h1>
           <div className="muted">Preparando o atlas 3D…</div>
           <div className="bar"><i style={{ width: `${Math.round(firstLoad * 100)}%` }} /></div>
         </div>
       </div>
 
-      {ready && !bemVinda && (
+      {ready && !bemVinda && !semNome && (
         <div className="modal-bg">
           <div className="modal">
-            <h1>{BOAS_VINDAS.titulo}</h1>
-            {BOAS_VINDAS.texto.map((t, i) => <p key={i}>{t}</p>)}
-            <div className="sig">{PERFIL.assinatura}</div>
+            <h1>{perfil.boasVindas.titulo}</h1>
+            {perfil.boasVindas.texto.map((t, i) => <p key={i}>{t}</p>)}
+            {perfil.gabi && <div className="sig">{perfil.assinatura}</div>}
             <button className="btn primary block" onClick={() => useStore.getState().patchProg(() => ({ bemVinda: true }))}>Começar a explorar</button>
             <p className="small muted" style={{ marginTop: 14, marginBottom: 0 }}>Um dedo gira · dois dedos aproximam e movem · toque para selecionar · toque duplo para aproximar</p>
           </div>
@@ -204,14 +207,15 @@ export function App() {
         <div className="modal-bg" onClick={() => useStore.setState({ recado: null })}>
           <Confete />
           <div className="modal">
-            <div style={{ fontSize: 44, marginBottom: 6 }}>💛</div>
+            {perfil.gabi && <div style={{ fontSize: 44, marginBottom: 6 }}>💛</div>}
             <h1>{recado.titulo}</h1>
             <p>{recado.texto}</p>
-            <div className="sig">{PERFIL.assinatura}</div>
+            {perfil.gabi && <div className="sig">{perfil.assinatura}</div>}
             <button className="btn primary block">Continuar</button>
           </div>
         </div>
       )}
+      {semNome && <Portao />}
     </div>
   );
 }

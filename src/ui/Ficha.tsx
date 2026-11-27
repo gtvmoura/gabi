@@ -7,7 +7,7 @@ import { paragraphs } from '../lib/text';
 import { Icon } from './icons';
 import { abrirChave } from './Search';
 import { Ouvir } from './Extras';
-import { PERFIL } from '../content/recados';
+import { usePerfil } from '../content/recados';
 import { hoje } from '../store';
 
 let wikiCache: Promise<Record<string, string>> | null = null;
@@ -294,6 +294,7 @@ function doDia(): Musculo | null {
 
 function Inicio() {
   const prog = useStore((s) => s.prog);
+  const perfil = usePerfil();
   const st = useStore.getState();
   const m = rt.m!;
   const favs = prog.favoritos.filter((k) => resolver(k, m).length).slice(0, 12);
@@ -303,9 +304,9 @@ function Inicio() {
       <div className="pbody">
         {(() => { const md = doDia(); const feito = prog.desafio === hoje(); const pv = prog.prova; const dias = pv && pv.data ? Math.round((new Date(pv.data + 'T00:00:00').getTime() - new Date(hoje() + 'T00:00:00').getTime()) / 86400000) : null; return (
           <>
-            {pv && dias !== null && dias >= 0 && <div className="hero"><div className="k">Contagem para a prova</div><div className="t">{dias === 0 ? 'É hoje! Você consegue 💛' : dias === 1 ? 'Falta 1 dia' : `Faltam ${dias} dias`}</div><div className="d">{pv.nome || 'Prova'} · {new Date(pv.data + 'T00:00:00').toLocaleDateString('pt-BR')}</div></div>}
+            {pv && dias !== null && dias >= 0 && <div className="hero"><div className="k">Contagem para a prova</div><div className="t">{dias === 0 ? 'É hoje! Você consegue' + perfil.mimo : dias === 1 ? 'Falta 1 dia' : `Faltam ${dias} dias`}</div><div className="d">{pv.nome || 'Prova'} · {new Date(pv.data + 'T00:00:00').toLocaleDateString('pt-BR')}</div></div>}
             {md && <button className="hero" onClick={() => abrirChave(md.key)}><div className="k">Músculo do dia</div><div className="t">{md.pt}</div><div className="d clamp2">{md.resumo}</div></button>}
-            <button className="hero" onClick={() => { st.setTab('treinar'); setTimeout(() => window.dispatchEvent(new CustomEvent('desafio-do-dia')), 40); }}><div className="k">Desafio do dia</div><div className="t">{feito ? 'Feito hoje ✓' : `5 perguntas rápidas, ${PERFIL.nome}`}</div><div className="d">{feito ? 'Volte amanhã para um novo — ou jogue de novo agora.' : 'Leva dois minutos e mantém a sequência de dias.'}</div></button>
+            <button className="hero" onClick={() => { st.setTab('treinar'); setTimeout(() => window.dispatchEvent(new CustomEvent('desafio-do-dia')), 40); }}><div className="k">Desafio do dia</div><div className="t">{feito ? 'Feito hoje ✓' : `5 perguntas rápidas, ${perfil.nome}`}</div><div className="d">{feito ? 'Volte amanhã para um novo — ou jogue de novo agora.' : 'Leva dois minutos e mantém a sequência de dias.'}</div></button>
           </>
         ); })()}
         <Sec t="Comece por aqui">

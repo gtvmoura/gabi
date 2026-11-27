@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { rt, useStore } from '../store';
+import { usePerfil } from '../content/recados';
 import { acidente, estruturas, infoDe, ligamentos, musculos, nervos, nomePt, ossos, resolver } from '../content';
 import { MACRO, macroDe, type MacroRegiao } from '../lib/regioes';
 import { sample, shuffle } from '../lib/text';
@@ -61,6 +62,7 @@ function montar(p: Alvo[], usados: Set<string>): Pergunta | null {
 
 export function Acerte({ onExit }: { onExit: () => void }) {
   const m = rt.m!;
+  const { mimo } = usePerfil();
   const st = useStore.getState();
   const recordesSalvos = useStore((s) => s.prog.recordes);
   const recordes: Record<string, number> = recordesSalvos ?? {};
@@ -199,7 +201,7 @@ export function Acerte({ onExit }: { onExit: () => void }) {
             <div className="stat"><div className="n">{certos}<span className="muted" style={{ fontSize: 16 }}> / {n}</span></div><div className="l">acertos</div></div>
             <div className="stat"><div className="n">{melhorSeq} <span style={{ fontSize: 18 }}>🔥</span></div><div className="l">maior sequência</div></div>
           </div>
-          <div className="tip">{novo ? <><b>Novo recorde!</b> {certos} acertos. 💛</> : <>Recorde nesta modalidade: <b>{rec}</b> acertos.</>}</div>
+          <div className="tip">{novo ? <><b>Novo recorde!</b> {certos} acertos.{mimo}</> : <>Recorde nesta modalidade: <b>{rec}</b> acertos.</>}</div>
           {erradas.length > 0 && <div className="sec"><h3>Para revisar</h3><div className="tags">{[...new Map(erradas.map((a) => [a.nome, a])).values()].map((a) => <button key={a.nome} className="tag" onClick={() => abrirChave(a.key)}>{a.nome}</button>)}</div></div>}
           <button className="btn primary block" onClick={comecar}>Jogar de novo</button>
           <button className="btn block" onClick={() => setFase('config')}>Trocar de categoria</button>

@@ -19,6 +19,7 @@ export interface Progresso {
   quiz: QuizResult[];
   srs: Record<string, SrsCard>;
   dias: Record<string, number>;
+  nome?: string;                          // primeiro nome de quem usa; indefinido = portão do nome aberto (ver perfil.ts)
   bemVinda: boolean;
   marcos: string[];
   erros: Record<string, number>;
@@ -160,7 +161,13 @@ export const useStore = create<State>()(
     }),
     {
       name: 'atlas-da-gabi',
-      version: 1,
+      version: 2,
+      // v1 não tinha nome: quem já tinha passado pelas boas-vindas é a própria Gabi, e para ela nada muda
+      migrate: (old, v) => {
+        const s = (old ?? {}) as { prog?: Partial<Progresso> };
+        if (v < 2 && s.prog?.bemVinda === true && !s.prog.nome) s.prog = { ...s.prog, nome: 'Gabi' };
+        return s as State;
+      },
       partialize: (s) => ({ prog: s.prog, layers: s.layers, contorno: s.contorno }) as unknown as State,
     },
   ),

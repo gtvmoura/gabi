@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { rt, useStore } from '../store';
+import { perfilAtual } from '../content/recados';
 import { mapaInervacao } from '../lib/inervacao';
 import { Icon } from './icons';
 import { DEFAULT_LAYERS, LAYERS, type LayerId, type LayerState } from '../engine/palette';
@@ -62,6 +63,7 @@ export function Ouvir({ texto }: { texto: string }) {
 /** Salva (ou compartilha) uma imagem da vista atual do 3D. */
 export async function salvarImagem(titulo: string) {
   const e = rt.engine; if (!e) return;
+  const perfil = perfilAtual(useStore.getState().prog.nome);
   const src = e.snapshot();
   const c = document.createElement('canvas'); c.width = src.width; c.height = src.height;
   const g = c.getContext('2d')!;
@@ -71,12 +73,12 @@ export async function salvarImagem(titulo: string) {
   g.drawImage(src, 0, 0);
   const k = c.width / 1200;
   g.font = `700 ${Math.round(26 * k)}px system-ui, sans-serif`; g.fillStyle = '#fff'; g.fillText(titulo, 28 * k, c.height - 52 * k);
-  g.font = `500 ${Math.round(16 * k)}px system-ui, sans-serif`; g.fillStyle = '#ff7aa8'; g.fillText('Atlas da Gabi', 28 * k, c.height - 26 * k);
+  g.font = `500 ${Math.round(16 * k)}px system-ui, sans-serif`; g.fillStyle = '#ff7aa8'; g.fillText(perfil.appNome, 28 * k, c.height - 26 * k);
   const blob: Blob | null = await new Promise((r) => c.toBlob(r, 'image/png'));
   if (!blob) return;
-  const file = new File([blob], 'atlas-da-gabi.png', { type: 'image/png' });
+  const file = new File([blob], `${perfil.arquivo}.png`, { type: 'image/png' });
   try { if (navigator.canShare?.({ files: [file] })) { await navigator.share({ files: [file], title: titulo }); return; } } catch (err) { if ((err as Error)?.name === 'AbortError') return; /* outra falha: cai no download */ }
-  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'atlas-da-gabi.png'; a.click(); URL.revokeObjectURL(a.href);
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `${perfil.arquivo}.png`; a.click(); URL.revokeObjectURL(a.href);
 }
 
 const RAPIDO: LayerId[] = ['ossos', 'musculos', 'ligamentos', 'nervos', 'arterias', 'veias', 'orgaos', 'snc'];

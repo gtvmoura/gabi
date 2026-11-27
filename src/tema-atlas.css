@@ -1,0 +1,11 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   Tema "atlas": o visual do perfil adaptado (<html data-tema="atlas">).
+
+   REGRA: tudo neste arquivo precisa estar sob :root[data-tema="atlas"], por exemplo
+
+     :root[data-tema="atlas"] { --accent: …; }
+     :root[data-tema="atlas"] .modal { … }
+
+   Nada aqui pode valer para o outro tema: o visual original mora em styles.css
+   e tem que continuar exatamente como está.
+   ───────────────────────────────────────────────────────────────────────────── */
